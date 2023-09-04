@@ -1,0 +1,6 @@
+license.md
+setup.py
+indomath.egg-info/PKG-INFO
+indomath.egg-info/SOURCES.txt
+indomath.egg-info/dependency_links.txt
+indomath.egg-info/top_level.txt

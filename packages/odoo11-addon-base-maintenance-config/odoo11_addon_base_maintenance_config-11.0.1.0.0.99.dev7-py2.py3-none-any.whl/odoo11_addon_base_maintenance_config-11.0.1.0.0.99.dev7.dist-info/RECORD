@@ -1,0 +1,17 @@
+odoo/addons/base_maintenance_config/README.rst,sha256=YUMoBhKmazl3zUQ4c3nth2m3N6Irs71ky5j8U3_vQX0,4922
+odoo/addons/base_maintenance_config/__init__.py,sha256=FNlMPDojEQpwvHZlf1L1FiQCxOYOu7R3lMKD6aozhvU,65
+odoo/addons/base_maintenance_config/__manifest__.py,sha256=IHagGxpIFmZdJj7E8NPpxQH5FQIc8SWH_NeWSR-KDRM,540
+odoo/addons/base_maintenance_config/i18n/base_maintenance_config.pot,sha256=1daBFdt8dNwkAJdKviXCcdl8bRDxcyTIsLvRKLqkSMo,926
+odoo/addons/base_maintenance_config/i18n/es.po,sha256=eR29Tfomoh1fMIYB4z98c6qaAWCdUvukk3JHCt50Jrg,1135
+odoo/addons/base_maintenance_config/i18n/it.po,sha256=6Pa3uUBxQxDAYxF_ssbtPoR18oNp232yPLQxMLgdCiM,1141
+odoo/addons/base_maintenance_config/readme/CONFIGURE.rst,sha256=M_S-woXCrYVJ7eDATQmPtzTI9TmSLZCE51nVKmijrtU,353
+odoo/addons/base_maintenance_config/readme/CONTRIBUTORS.rst,sha256=cCazLntIZWRwcEXl8znfWnzdKNRQSVfUHztsqvJTdBo,83
+odoo/addons/base_maintenance_config/readme/DESCRIPTION.rst,sha256=_sGsxVEoIg44gREaLUyq5JFS0CioRAMHIS8RxhBQYIg,1602
+odoo/addons/base_maintenance_config/readme/USAGE.rst,sha256=QjmAE1G023iLo0xRMonT8NwX_Hs6KImdROV2nLIZVGw,93
+odoo/addons/base_maintenance_config/static/description/icon.png,sha256=6xBPJauaFOF0KDHfHgQopSc28kKvxMaeoQFQWZtfZDo,9455
+odoo/addons/base_maintenance_config/static/description/index.html,sha256=SvtL1VMRS5JU0TIv3VLJBIcTpF3mDzFcKuBcW22nY7Y,18163
+odoo/addons/base_maintenance_config/views/res_config_settings.xml,sha256=rwzg9kisVunVKGqpViX6Wsj_ye2pcdngfWCs334fZac,1702
+odoo11_addon_base_maintenance_config-11.0.1.0.0.99.dev7.dist-info/METADATA,sha256=jn7y487sjizaRWsjMP3Bs6T59F572phjGntz4xf8kVg,5541
+odoo11_addon_base_maintenance_config-11.0.1.0.0.99.dev7.dist-info/WHEEL,sha256=iYlv5fX357PQyRT2o6tw1bN-YcKFFHKqB_LwHO5wP-g,110
+odoo11_addon_base_maintenance_config-11.0.1.0.0.99.dev7.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
+odoo11_addon_base_maintenance_config-11.0.1.0.0.99.dev7.dist-info/RECORD,,

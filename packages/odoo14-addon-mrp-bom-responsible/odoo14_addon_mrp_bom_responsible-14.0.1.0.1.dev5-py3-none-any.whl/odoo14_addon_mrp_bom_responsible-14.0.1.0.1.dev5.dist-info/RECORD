@@ -1,0 +1,17 @@
+odoo/addons/mrp_bom_responsible/README.rst,sha256=QvwLPYlDVQ168HvUh-qkxJ6mnAVx_VuBMl9KsannT9w,2881
+odoo/addons/mrp_bom_responsible/__init__.py,sha256=X9EJGOE2GtZbS0G82PtSXmWSZ_R8jEM0rlJTDliQjp4,21
+odoo/addons/mrp_bom_responsible/__manifest__.py,sha256=-VZsnAoAcCUidDcrwpl1OMr2qWyhRzDjakTWrJDeAJc,556
+odoo/addons/mrp_bom_responsible/i18n/it.po,sha256=we6CYS0TS3Bf_uDikGIG6drUEcmQgrnnuvTN_FA4q0U,1742
+odoo/addons/mrp_bom_responsible/i18n/mrp_bom_responsible.pot,sha256=uMdGKmMtS8BC3AOPZhlFu1dhtJR7cgSqaCrv-mMPPjQ,1501
+odoo/addons/mrp_bom_responsible/models/__init__.py,sha256=KS8nd8BPVkU0ELTOZ6ORDcEba3wI8C9lm9MZtBe_CVw,51
+odoo/addons/mrp_bom_responsible/models/mrp_bom.py,sha256=XDpW-RSGeYDT4ttwSo_52ZNb45AHPluHLSkBz7gqiIY,317
+odoo/addons/mrp_bom_responsible/models/mrp_production.py,sha256=rBxoXh7MIldhihFAcoacfdts3MapmUwLsyRB8_Z7Oc8,414
+odoo/addons/mrp_bom_responsible/readme/CONTRIBUTORS.rst,sha256=jTgEjyRZf3XxKQRqvaf2F_jvJLa5JxtyUKNKyMZ7VsI,47
+odoo/addons/mrp_bom_responsible/readme/DESCRIPTION.rst,sha256=1oD0p3EeZZeNpafdUuzQOAU9prY6SOjbejkNkVW-nTw,100
+odoo/addons/mrp_bom_responsible/static/description/icon.png,sha256=6xBPJauaFOF0KDHfHgQopSc28kKvxMaeoQFQWZtfZDo,9455
+odoo/addons/mrp_bom_responsible/static/description/index.html,sha256=SMI0MtxRPnCBqm0bSGSeZzNLYGwq7Bg5IPMpnuwCLkU,12150
+odoo/addons/mrp_bom_responsible/views/mrp_bom_views.xml,sha256=qmYRZudBW7G6-P7OGBDKak6WfZKYzgs_llxSEdsX2hY,449
+odoo14_addon_mrp_bom_responsible-14.0.1.0.1.dev5.dist-info/METADATA,sha256=W9wIz9ugxSVrGW4WaV4KU6Xf-OFQKjpQ0Sj5XHm21g4,3504
+odoo14_addon_mrp_bom_responsible-14.0.1.0.1.dev5.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+odoo14_addon_mrp_bom_responsible-14.0.1.0.1.dev5.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
+odoo14_addon_mrp_bom_responsible-14.0.1.0.1.dev5.dist-info/RECORD,,

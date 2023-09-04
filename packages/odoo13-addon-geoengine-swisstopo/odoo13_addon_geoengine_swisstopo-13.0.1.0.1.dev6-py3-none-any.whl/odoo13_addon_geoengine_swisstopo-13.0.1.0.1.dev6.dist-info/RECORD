@@ -1,0 +1,17 @@
+odoo/addons/geoengine_swisstopo/README.rst,sha256=eOYbNLpkdwbCTJGB2kyUnZUW9rtIq2LifYaAGmAhv84,2934
+odoo/addons/geoengine_swisstopo/__init__.py,sha256=15T9Gi7IyjbD8QdKRlHLHWPj_snkzrbj4fELOeXET0w,23
+odoo/addons/geoengine_swisstopo/__manifest__.py,sha256=zZC2cF9XRn5gHtX7rm6SDdw0SVXowGm9-ggGBuwhVmE,508
+odoo/addons/geoengine_swisstopo/geo_view/__init__.py,sha256=qszUzwPavuSALEUoQSSs8TdUrzwpQhpQikTNO0yd_aE,31
+odoo/addons/geoengine_swisstopo/geo_view/geo_raster_layer.py,sha256=pVAJ-CfObMTQrnUDXu4OlwPKMPAvppvbwtDej8bpIRA,377
+odoo/addons/geoengine_swisstopo/geo_view/geo_raster_layer_view.xml,sha256=EqE7CayIP18uk6BNn2XYJS39ueaYdN4mYFlARR7Lv0g,1358
+odoo/addons/geoengine_swisstopo/i18n/geoengine_swisstopo.pot,sha256=w0dC_8ZahPWkEzxzj4i2CZRBZN10D9xKBPhRgDvGokY,1843
+odoo/addons/geoengine_swisstopo/readme/DESCRIPTION.rst,sha256=O7LoBr64mT9tBMoUva-Xmn-SFsMKGYj8xpNtrLRAtyk,215
+odoo/addons/geoengine_swisstopo/static/description/icon.png,sha256=6xBPJauaFOF0KDHfHgQopSc28kKvxMaeoQFQWZtfZDo,9455
+odoo/addons/geoengine_swisstopo/static/description/index.html,sha256=VVcsXflt8vzR-1r8uOtCBXyLDqRdCuaYn1NKHoMN_MM,11936
+odoo/addons/geoengine_swisstopo/static/src/js/.eslintrc,sha256=ksgovOZgE5bHn3lrtgoNUf8r-8xkIdr7pT6dIhU-amg,72
+odoo/addons/geoengine_swisstopo/static/src/js/swisstopo_geoengine.js,sha256=WLRuZ9mdgVxq72JDhWh160J4YTh50J5hLOkyh4kanKA,2677
+odoo/addons/geoengine_swisstopo/views/geoengine_swisstopo_view.xml,sha256=q0LqVwlHIcZatJCo6oy1VL907CBFVIn5kiq2LNcAxlQ,365
+odoo13_addon_geoengine_swisstopo-13.0.1.0.1.dev6.dist-info/METADATA,sha256=-nDpglD_66Pb7wdGFkfAPtM5LL0IWFJE9dvhy6fFCYg,3523
+odoo13_addon_geoengine_swisstopo-13.0.1.0.1.dev6.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+odoo13_addon_geoengine_swisstopo-13.0.1.0.1.dev6.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
+odoo13_addon_geoengine_swisstopo-13.0.1.0.1.dev6.dist-info/RECORD,,

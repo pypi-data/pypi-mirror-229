@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+src/hexprint.egg-info/PKG-INFO
+src/hexprint.egg-info/SOURCES.txt
+src/hexprint.egg-info/dependency_links.txt
+src/hexprint.egg-info/top_level.txt

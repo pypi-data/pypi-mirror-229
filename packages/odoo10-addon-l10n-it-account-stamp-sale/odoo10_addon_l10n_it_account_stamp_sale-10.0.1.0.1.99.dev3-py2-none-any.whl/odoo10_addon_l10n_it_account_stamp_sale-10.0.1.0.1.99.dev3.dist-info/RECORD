@@ -1,0 +1,16 @@
+odoo10_addon_l10n_it_account_stamp_sale-10.0.1.0.1.99.dev3-py3.8-nspkg.pth,sha256=3hYKiD3YF7y9FeWjACJq1b9R_GVRzuQo9SAZlvZgumg,1672
+odoo/addons/l10n_it_account_stamp_sale/README.rst,sha256=_a1VtLgZN764-gz9bnhgO0cQAJl-IKhzCI7hp-iJVlw,3435
+odoo/addons/l10n_it_account_stamp_sale/__init__.py,sha256=X9EJGOE2GtZbS0G82PtSXmWSZ_R8jEM0rlJTDliQjp4,21
+odoo/addons/l10n_it_account_stamp_sale/__manifest__.py,sha256=8bip5arRUWysmgGSK-wzknUvzbqAupYbkzRa3KbPldE,698
+odoo/addons/l10n_it_account_stamp_sale/i18n/l10n_it_account_stamp_sale.pot,sha256=lW2pDxOhKVhI9oGhe_1PqYhngD2VTHFwToRyeNkV8Bk,511
+odoo/addons/l10n_it_account_stamp_sale/models/__init__.py,sha256=LsPoCIAYodIFzh85VEjY5GiuzDQDQpiF38txDw10qT0,25
+odoo/addons/l10n_it_account_stamp_sale/models/sale_order.py,sha256=loNOOwjFVeNkaIjM9DxjHa8HrXypGK0xC7GE829MnzM,635
+odoo/addons/l10n_it_account_stamp_sale/readme/CONTRIBUTORS.rst,sha256=gC8VVvaj0i1Pz7lx3m-PFRDv0Yk_VEWdtQE5NPAF49A,41
+odoo/addons/l10n_it_account_stamp_sale/readme/DESCRIPTION.rst,sha256=EJ13UXWwzUreQcLjjRQeDjvgLvGsOj4gf3ztNCeXPC8,318
+odoo/addons/l10n_it_account_stamp_sale/static/description/icon.png,sha256=6xBPJauaFOF0KDHfHgQopSc28kKvxMaeoQFQWZtfZDo,9455
+odoo/addons/l10n_it_account_stamp_sale/static/description/index.html,sha256=pEiDwCu5LpOqA_qPEZPSQhaN-g1FlXGGmN6aHN_Fmr8,12799
+odoo10_addon_l10n_it_account_stamp_sale-10.0.1.0.1.99.dev3.dist-info/METADATA,sha256=0A_aZ_YY_pgEW0HZaJnk0_9noIgODT4RHbmio7X1EBo,4103
+odoo10_addon_l10n_it_account_stamp_sale-10.0.1.0.1.99.dev3.dist-info/WHEEL,sha256=V8ZII4svaQ3Z4c8F-NPNcXUa6SMcA4YP_giBHkOIMc8,92
+odoo10_addon_l10n_it_account_stamp_sale-10.0.1.0.1.99.dev3.dist-info/namespace_packages.txt,sha256=igDP6S4ywc6jzcMqzrKZpRtAUXrS-iYaA_Hu1EtlI48,17
+odoo10_addon_l10n_it_account_stamp_sale-10.0.1.0.1.99.dev3.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
+odoo10_addon_l10n_it_account_stamp_sale-10.0.1.0.1.99.dev3.dist-info/RECORD,,

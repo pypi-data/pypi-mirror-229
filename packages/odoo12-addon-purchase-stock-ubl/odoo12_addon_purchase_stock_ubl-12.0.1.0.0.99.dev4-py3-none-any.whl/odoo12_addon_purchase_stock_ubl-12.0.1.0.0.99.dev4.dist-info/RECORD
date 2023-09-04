@@ -1,0 +1,16 @@
+odoo/addons/purchase_stock_ubl/README.rst,sha256=kfljbPASTpwaz1weVFHiSUolYQMHSnWh2t58xqFjB5s,2823
+odoo/addons/purchase_stock_ubl/__init__.py,sha256=eShEGRadAlxopoLqIQ4-N42FM7MWPSuBe0h_l1cXTPM,87
+odoo/addons/purchase_stock_ubl/__manifest__.py,sha256=bZbnNT4aU53SB7gKVNuM0oDMAkBla7tBseyWr36zoI8,622
+odoo/addons/purchase_stock_ubl/i18n/purchase_stock_ubl.pot,sha256=WzYcInRpptycLYe5YYEOx7pCuDxAtD3wf2Ecpi6WTW8,494
+odoo/addons/purchase_stock_ubl/models/__init__.py,sha256=31CLfpoqmSFSo4h5bvQukuWNjAHD9jg94JI9JYdAXkA,89
+odoo/addons/purchase_stock_ubl/models/purchase.py,sha256=qaR_67MbXIz-JrLPYyVL3EtYVNmf9pdlgWsUKUZkw9w,582
+odoo/addons/purchase_stock_ubl/readme/CONTRIBUTORS.rst,sha256=3_PzaX-8RmAdX7rrtLKT2GieNRaDzTSuGbKPGsCRXlk,89
+odoo/addons/purchase_stock_ubl/readme/DESCRIPTION.rst,sha256=3wJNl3BKBJN2-pqJEgIEdSH95Erb_jtAacsR7WNKikY,82
+odoo/addons/purchase_stock_ubl/static/description/icon.png,sha256=6xBPJauaFOF0KDHfHgQopSc28kKvxMaeoQFQWZtfZDo,9455
+odoo/addons/purchase_stock_ubl/static/description/index.html,sha256=emyPkHyoG9AKokui9CUc54Sh3Uhy0Oaq-_Ovcm4F8_4,12208
+odoo/addons/purchase_stock_ubl/tests/__init__.py,sha256=bq09p0JtgRzUjcWCUNf3GV_QolabRcG3xNe8HSeW9Ic,100
+odoo/addons/purchase_stock_ubl/tests/test_purchase_order.py,sha256=UQJt8-eu1Xw1lBClaQTS21KEN_-WwcRvX6I2TxIcbvg,810
+odoo12_addon_purchase_stock_ubl-12.0.1.0.0.99.dev4.dist-info/METADATA,sha256=WeAFodEGX94cGiYn8h77vOrxLW5OP2VqF0BjmXzpcL8,3447
+odoo12_addon_purchase_stock_ubl-12.0.1.0.0.99.dev4.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+odoo12_addon_purchase_stock_ubl-12.0.1.0.0.99.dev4.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
+odoo12_addon_purchase_stock_ubl-12.0.1.0.0.99.dev4.dist-info/RECORD,,

@@ -1,0 +1,16 @@
+odoo/addons/mrp_finished_backorder_product/README.rst,sha256=Djk78K6zIN-TfTOBAnNdIp-r3LC47NKAL207DuDdCmw,3017
+odoo/addons/mrp_finished_backorder_product/__init__.py,sha256=I-UsDedt5Yu5h6YsECfkEkBOa9D7HC0Fh_CU937Zu38,87
+odoo/addons/mrp_finished_backorder_product/__manifest__.py,sha256=hm_c6o9l_9IDJ1kHvR6FAPaS7ioyTHgakJdjnCznvzs,590
+odoo/addons/mrp_finished_backorder_product/i18n/it.po,sha256=e-po_5q61dNz_PZFj9VSUZrmiSEP1FDFhfY5sQjv_Qw,1152
+odoo/addons/mrp_finished_backorder_product/i18n/mrp_finished_backorder_product.pot,sha256=jYd8r7mP9zLs6mDffV8saeQnLC3mWNUNBw7CMl_mHvU,927
+odoo/addons/mrp_finished_backorder_product/models/__init__.py,sha256=x3tlhTv9-Rzu5y1vskig_5VkDyhZjR97oKymkTRoWrU,95
+odoo/addons/mrp_finished_backorder_product/models/mrp_production.py,sha256=2Z_ONbg4BpNvqKGznCZhA2c-z3w5eFYH6dO9CiOuWAk,932
+odoo/addons/mrp_finished_backorder_product/readme/CONTRIBUTORS.rst,sha256=UxCJ_b__XdOIvG7wFGyFnBskTunLXXzcNXdcr9e9PLU,86
+odoo/addons/mrp_finished_backorder_product/readme/DESCRIPTION.rst,sha256=w4go5GDkkyIXaBjkxu1TAyX2ljuxIEjlLCvM_-CdARI,125
+odoo/addons/mrp_finished_backorder_product/static/description/icon.png,sha256=6xBPJauaFOF0KDHfHgQopSc28kKvxMaeoQFQWZtfZDo,9455
+odoo/addons/mrp_finished_backorder_product/static/description/index.html,sha256=c01GcW8Ph74RQZ5PfaSYH9fh4nX3GHvoVe9Y9FFlTak,12384
+odoo/addons/mrp_finished_backorder_product/views/mrp_production_views.xml,sha256=iSO-KmSxl11vMWZN8lPra9ZqPC8lxCdgbHxsokKXdR8,1700
+odoo_addon_mrp_finished_backorder_product-15.0.1.0.0.6.dist-info/METADATA,sha256=njpCOkZ1StPascV24ZKT4Wsspv_O3fbcehdM9bTa78o,3656
+odoo_addon_mrp_finished_backorder_product-15.0.1.0.0.6.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+odoo_addon_mrp_finished_backorder_product-15.0.1.0.0.6.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
+odoo_addon_mrp_finished_backorder_product-15.0.1.0.0.6.dist-info/RECORD,,

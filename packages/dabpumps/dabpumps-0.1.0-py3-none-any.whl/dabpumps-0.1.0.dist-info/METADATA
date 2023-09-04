@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: dabpumps
+Version: 0.1.0
+Summary: Python library for the DAB Pumps DConnect service
+Project-URL: Documentation, https://github.com/benjaminmurray/dabpumps#readme
+Project-URL: Issues, https://github.com/benjaminmurray/dabpumps/issues
+Project-URL: Source, https://github.com/benjaminmurray/dabpumps
+Author-email: Ben Murray <ben@hypercow.org>
+License-Expression: MIT
+License-File: LICENSE.txt
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.11
+Requires-Dist: aiofiles
+Requires-Dist: aiohttp
+Requires-Dist: aioresponses
+Requires-Dist: aiounittest
+Description-Content-Type: text/markdown
+
+# dabpumps
+
+[![PyPI - Version](https://img.shields.io/pypi/v/dabpumps.svg)](https://pypi.org/project/dabpumps)
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/dabpumps.svg)](https://pypi.org/project/dabpumps)
+
+-----
+
+**Table of Contents**
+
+- [Installation](#installation)
+- [License](#license)
+
+## Installation
+
+```console
+pip install dabpumps
+```
+
+## License
+
+`dabpumps` is distributed under the terms of the [MIT](https://spdx.org/licenses/MIT.html) license.

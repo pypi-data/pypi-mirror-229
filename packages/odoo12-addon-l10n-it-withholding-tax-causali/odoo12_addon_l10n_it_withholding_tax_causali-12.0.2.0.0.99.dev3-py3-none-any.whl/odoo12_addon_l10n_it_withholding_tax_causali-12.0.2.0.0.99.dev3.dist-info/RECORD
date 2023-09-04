@@ -1,0 +1,15 @@
+odoo/addons/l10n_it_withholding_tax_causali/README.rst,sha256=Uf_XAkQVMhCN97Wa3QM3luiDc81eUMDTA4Z67c67yrw,2890
+odoo/addons/l10n_it_withholding_tax_causali/__init__.py,sha256=X9EJGOE2GtZbS0G82PtSXmWSZ_R8jEM0rlJTDliQjp4,21
+odoo/addons/l10n_it_withholding_tax_causali/__manifest__.py,sha256=gqOQsu17-jTrE9SJpN9epio_5DtYEom-fOLnHWgMbHA,713
+odoo/addons/l10n_it_withholding_tax_causali/i18n/it.po,sha256=sy7T9IWmFOZ1UEMLPFA3cQ_w3RwcKehdhlt_LKpbWLk,967
+odoo/addons/l10n_it_withholding_tax_causali/i18n/l10n_it_withholding_tax_causali.pot,sha256=pk5Me_3jLhWF1QDY27vSQQvpvDGqVDrqz1eKdWvRdPA,734
+odoo/addons/l10n_it_withholding_tax_causali/models/__init__.py,sha256=V1M1Xk_nL5yzhVdXxTZ1iNpdT3vn509gg0EDVky247I,30
+odoo/addons/l10n_it_withholding_tax_causali/models/withholding_tax.py,sha256=z-u0sbOk022I8gkYAIHUOCTHg11CIrrlj79_rX0U_iw,204
+odoo/addons/l10n_it_withholding_tax_causali/readme/DESCRIPTION.rst,sha256=EAOs_T0uiDA3QSuCGQoJkBndoVIi-1X5Cd1bLWcY5-Q,76
+odoo/addons/l10n_it_withholding_tax_causali/static/description/icon.png,sha256=6xBPJauaFOF0KDHfHgQopSc28kKvxMaeoQFQWZtfZDo,9455
+odoo/addons/l10n_it_withholding_tax_causali/static/description/index.html,sha256=6zV34wH1qI1i44rmPZvq_9qT7g7REPbTBsRSBbxTaOE,11860
+odoo/addons/l10n_it_withholding_tax_causali/views/withholding_tax.xml,sha256=JHPe5jkwWER7e0iA4QCNcfh2aS7Kebi89JQLFVgTlCc,538
+odoo12_addon_l10n_it_withholding_tax_causali-12.0.2.0.0.99.dev3.dist-info/METADATA,sha256=RJaniUGJxoKNa7QmxQWC0_MvEcRHHJbxcWEKwAVp6SI,3665
+odoo12_addon_l10n_it_withholding_tax_causali-12.0.2.0.0.99.dev3.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+odoo12_addon_l10n_it_withholding_tax_causali-12.0.2.0.0.99.dev3.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
+odoo12_addon_l10n_it_withholding_tax_causali-12.0.2.0.0.99.dev3.dist-info/RECORD,,

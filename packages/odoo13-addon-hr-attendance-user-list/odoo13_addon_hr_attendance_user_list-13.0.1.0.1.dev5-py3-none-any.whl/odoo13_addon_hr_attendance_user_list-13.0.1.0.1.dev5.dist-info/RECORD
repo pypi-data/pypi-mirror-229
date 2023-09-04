@@ -1,0 +1,16 @@
+odoo/addons/hr_attendance_user_list/README.rst,sha256=wsyQ9DToCb3JCQ8mXJA0e-Q-vIy4uw5T_b6A7UjU2JQ,3271
+odoo/addons/hr_attendance_user_list/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+odoo/addons/hr_attendance_user_list/__manifest__.py,sha256=k6DjJsGp2x5He3Tk3KLGWg0ofGJRpLJvEYeUIStX3pk,501
+odoo/addons/hr_attendance_user_list/i18n/es.po,sha256=Um2-GUQYv91BZBX0m8fB4CABQ6F4S70pkrG-21iudzY,1597
+odoo/addons/hr_attendance_user_list/i18n/hr_attendance_user_list.pot,sha256=EunIQNCf_5RNte06ftvP0Gqkh4ea4BBmrHyNTH7Y2VI,1380
+odoo/addons/hr_attendance_user_list/i18n/it.po,sha256=ox1B46MWDrhmDwF46FesPbfFj98nX4riUt5dza-XuUg,1605
+odoo/addons/hr_attendance_user_list/readme/CONTRIBUTORS.rst,sha256=zjA_sxmJeUiIGelPFENSJo2kqMVZTcCQh57XQg6U8Mo,88
+odoo/addons/hr_attendance_user_list/readme/DESCRIPTION.rst,sha256=cRJwJNmX0WYrdqZjsisSOtEKI5HiCopc0Z89cCS3OXI,62
+odoo/addons/hr_attendance_user_list/readme/USAGE.rst,sha256=lkjr7ESCnGtWl6r0rkiAa7-5Du-y1cEQMZbkKDQX3UA,79
+odoo/addons/hr_attendance_user_list/static/description/icon.png,sha256=6xBPJauaFOF0KDHfHgQopSc28kKvxMaeoQFQWZtfZDo,9455
+odoo/addons/hr_attendance_user_list/static/description/index.html,sha256=09OuDewQ14e8PZFq_wxNIVEkIoz4XQleXNqOo4rr6w0,12764
+odoo/addons/hr_attendance_user_list/views/hr_attendance_view.xml,sha256=yIqo7BmoAW-8jwsTN2IZWY6V94PJsIwXAIHe4-CRMmg,3154
+odoo13_addon_hr_attendance_user_list-13.0.1.0.1.dev5.dist-info/METADATA,sha256=21h9qZwCLJ_ePSo4jwXDCuRRf6MdAj0UsHkEx7FmLsk,3819
+odoo13_addon_hr_attendance_user_list-13.0.1.0.1.dev5.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+odoo13_addon_hr_attendance_user_list-13.0.1.0.1.dev5.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
+odoo13_addon_hr_attendance_user_list-13.0.1.0.1.dev5.dist-info/RECORD,,

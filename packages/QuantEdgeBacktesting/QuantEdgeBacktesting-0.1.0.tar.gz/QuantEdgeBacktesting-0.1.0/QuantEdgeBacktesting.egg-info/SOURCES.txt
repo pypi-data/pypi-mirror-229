@@ -1,0 +1,7 @@
+README.md
+setup.py
+QuantEdgeBacktesting.egg-info/PKG-INFO
+QuantEdgeBacktesting.egg-info/SOURCES.txt
+QuantEdgeBacktesting.egg-info/dependency_links.txt
+QuantEdgeBacktesting.egg-info/requires.txt
+QuantEdgeBacktesting.egg-info/top_level.txt

@@ -1,0 +1,16 @@
+odoo/addons/product_brand_purchase_report/README.rst,sha256=qa5wqu44rETOTw-W6dZ8igT8gu2dM8aQ5ZidUonWO38,2946
+odoo/addons/product_brand_purchase_report/__init__.py,sha256=vNQQFpxcSZjtiz5aCVyNQ3n894NIOOzMF6ZRRhlyqLw,22
+odoo/addons/product_brand_purchase_report/__manifest__.py,sha256=ErVul2-iGQCocofd4xkAsDluSmlKqd-PETBATODSh7E,502
+odoo/addons/product_brand_purchase_report/i18n/product_brand_purchase_report.pot,sha256=YpkMueJz0hMZm0kD1-AQtsN0NlGyz27eGZkRBwjg9l8,798
+odoo/addons/product_brand_purchase_report/readme/CONTRIBUTORS.rst,sha256=TrUyKCIBOewmYOZYeuSsVmri6SwLgSYo6i2bgc_DSYw,48
+odoo/addons/product_brand_purchase_report/readme/DESCRIPTION.rst,sha256=k9NHFrvB4NUKZMqpdntlrHdO9CQUklQWTISD1r4KslE,67
+odoo/addons/product_brand_purchase_report/readme/USAGE.rst,sha256=Hn5q0raxKewH-9Nwvq67-V-t1o32gajOfVN-NxRr804,75
+odoo/addons/product_brand_purchase_report/reports/__init__.py,sha256=IclvVIY5Zgi4OE_BiyVz9rRZzLDdlMIm80_TW9UfF28,30
+odoo/addons/product_brand_purchase_report/reports/purchase_report.py,sha256=PkVW0DpQ9x5EaqubC32RczZ0CPttkmO7dFjvYxye-wg,581
+odoo/addons/product_brand_purchase_report/reports/purchase_report_view.xml,sha256=aHguoRcRYshQtROwrT1M0D0bAsBdmFEJtBy0XEXtP7s,796
+odoo/addons/product_brand_purchase_report/static/description/icon.png,sha256=6xBPJauaFOF0KDHfHgQopSc28kKvxMaeoQFQWZtfZDo,9455
+odoo/addons/product_brand_purchase_report/static/description/index.html,sha256=R3_izsMZZNZYvNSGIiTSExi9AIokhrhJrEgbpzK4FB4,12444
+odoo13_addon_product_brand_purchase_report-13.0.1.0.1.dev3.dist-info/METADATA,sha256=b_McDwgaOmXUl9yq3m4U9sQjebISSd0V81FlolBXjAY,3579
+odoo13_addon_product_brand_purchase_report-13.0.1.0.1.dev3.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+odoo13_addon_product_brand_purchase_report-13.0.1.0.1.dev3.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
+odoo13_addon_product_brand_purchase_report-13.0.1.0.1.dev3.dist-info/RECORD,,

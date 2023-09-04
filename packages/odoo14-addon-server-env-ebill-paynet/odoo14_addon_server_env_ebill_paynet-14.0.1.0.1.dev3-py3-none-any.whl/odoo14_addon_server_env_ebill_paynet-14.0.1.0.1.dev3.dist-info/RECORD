@@ -1,0 +1,16 @@
+odoo/addons/server_env_ebill_paynet/README.rst,sha256=Ez_yhJK7h-XkINuoS8r1_RORjbJyykXeEIgQqI7MIi8,3811
+odoo/addons/server_env_ebill_paynet/__init__.py,sha256=X9EJGOE2GtZbS0G82PtSXmWSZ_R8jEM0rlJTDliQjp4,21
+odoo/addons/server_env_ebill_paynet/__manifest__.py,sha256=qupn9X23QF5IOZNomYiRo4LLuI2tiSCNkvjmKooJZt0,433
+odoo/addons/server_env_ebill_paynet/i18n/server_env_ebill_paynet.pot,sha256=WRgd52QVpxscU-TvrFqLPGLKQEI5oHJy0kY6o6IsLE0,1196
+odoo/addons/server_env_ebill_paynet/models/__init__.py,sha256=L_03xocpi_rtI1PH_f0I5M6dWF0qsE_t4j3ynJV_Cr4,29
+odoo/addons/server_env_ebill_paynet/models/paynet_service.py,sha256=2N9Icb8uqjYAVnc_ziJoOuHkPQ9DpTP1mZmZh_Nn6YM,408
+odoo/addons/server_env_ebill_paynet/readme/CONTRIBUTORS.rst,sha256=IXqQsNfFDpQPxzBJr4r8zRr5oUiFGFY1Xw26gy_lGLs,152
+odoo/addons/server_env_ebill_paynet/readme/CREDITS.rst,sha256=riXh5hAKuisdMFQzbOsS4HQF-zNdfLp9dSFHPxrHNY4,86
+odoo/addons/server_env_ebill_paynet/readme/DESCRIPTION.rst,sha256=eGakDkUyY6Tsi0nMUsi0yOzHIAORrB50BFglqsLONOo,486
+odoo/addons/server_env_ebill_paynet/readme/INSTALL.rst,sha256=sX6d5a3gF23GBgxZWzTkkNIIeOnaFG3F76y_41migT0,184
+odoo/addons/server_env_ebill_paynet/static/description/icon.png,sha256=6xBPJauaFOF0KDHfHgQopSc28kKvxMaeoQFQWZtfZDo,9455
+odoo/addons/server_env_ebill_paynet/static/description/index.html,sha256=VUstgyOMpQVgdQrVWECA4FjShMhsxBV78wBDOvu9SZQ,13803
+odoo14_addon_server_env_ebill_paynet-14.0.1.0.1.dev3.dist-info/METADATA,sha256=h4-T0X97uUKE6ah9mAX36dQehqByXJMQYyMLNjDZmX8,4462
+odoo14_addon_server_env_ebill_paynet-14.0.1.0.1.dev3.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+odoo14_addon_server_env_ebill_paynet-14.0.1.0.1.dev3.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
+odoo14_addon_server_env_ebill_paynet-14.0.1.0.1.dev3.dist-info/RECORD,,

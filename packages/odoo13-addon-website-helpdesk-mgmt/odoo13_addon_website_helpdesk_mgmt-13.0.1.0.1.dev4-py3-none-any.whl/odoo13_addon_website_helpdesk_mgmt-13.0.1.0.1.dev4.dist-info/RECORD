@@ -1,0 +1,14 @@
+odoo/addons/website_helpdesk_mgmt/README.rst,sha256=zIr3G_MkHfTJfv232aPi1_ohvRTCSYKtTdacAIoIz7I,3189
+odoo/addons/website_helpdesk_mgmt/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+odoo/addons/website_helpdesk_mgmt/__manifest__.py,sha256=zphmMcBIYgDRZelZ2PNGKtNIxRz8F6FpuwV6XF_EX0s,495
+odoo/addons/website_helpdesk_mgmt/data/ir_model_data.xml,sha256=taaxCi-fJC5J2kdqDUg06jp-3oVABc7_Cm7QrgA1fUg,935
+odoo/addons/website_helpdesk_mgmt/i18n/es.po,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+odoo/addons/website_helpdesk_mgmt/i18n/website_helpdesk_mgmt.pot,sha256=DSoZvi3Yi_MHcxFXi2AFQSEsCID4KGLbvwoBM_xL6ik,341
+odoo/addons/website_helpdesk_mgmt/readme/CONTRIBUTORS.rst,sha256=RV1niSVnS-6n89-SQuTVzN8wXdTzS8rs2k-f8UAFr6Q,86
+odoo/addons/website_helpdesk_mgmt/readme/DESCRIPTION.rst,sha256=VKi3AM5aFWwmGgCP6u0wGOJdUI6fg0wp4OaDFm6GDAA,140
+odoo/addons/website_helpdesk_mgmt/static/description/icon.png,sha256=6xBPJauaFOF0KDHfHgQopSc28kKvxMaeoQFQWZtfZDo,9455
+odoo/addons/website_helpdesk_mgmt/static/description/index.html,sha256=BaGBTVzZez68UX54RuZRxJPLEz4OOMFcWM4FS2iW-Cg,12466
+odoo13_addon_website_helpdesk_mgmt-13.0.1.0.1.dev4.dist-info/METADATA,sha256=UxeWrsoTg26IrEOwSKQ_U51QCsIbsEsh0vFdJIcH1sU,3770
+odoo13_addon_website_helpdesk_mgmt-13.0.1.0.1.dev4.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+odoo13_addon_website_helpdesk_mgmt-13.0.1.0.1.dev4.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
+odoo13_addon_website_helpdesk_mgmt-13.0.1.0.1.dev4.dist-info/RECORD,,

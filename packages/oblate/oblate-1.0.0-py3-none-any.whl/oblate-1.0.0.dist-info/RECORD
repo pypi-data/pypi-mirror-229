@@ -1,0 +1,12 @@
+oblate/__init__.py,sha256=PW0RyK71Dhe4dqPGjJpVMf24QcfnOG5AXF_B2Q47w2I,446
+oblate/configs.py,sha256=g3FWfR_w9cVG1N4Fj7jKLkumfNxJf8M8_nPUm3LWn4o,5563
+oblate/contexts.py,sha256=5nFNs_G_wMt-dvAbppdMt-DmwPhE1SgjK5jKlu6oFBI,6943
+oblate/exceptions.py,sha256=zm4KXMBGEb_4-cALRqj9x6R88sifcDagUF1GBTcDzZ0,7930
+oblate/schema.py,sha256=1lajYQGF35EPBoadGiNNkljF34cNR9SMvqP4FA0nrTo,16247
+oblate/utils.py,sha256=0HRUq_9sBBvmmPj8EYpTlDtPMWss2dKwAN8-IVSGWdo,2115
+oblate/validate.py,sha256=kheqxVGY9nV9n2PhVy4sFbD-_kU6VDAtjXExUYhvXZo,4600
+oblate-1.0.0.dist-info/LICENSE,sha256=mKXNxzGtJSFJR9bJO6qD0eHfjXAkzcYpaQDpGBfSnTQ,1089
+oblate-1.0.0.dist-info/METADATA,sha256=bL4tCm1mBxTjJod1qvjYyX8-IkXXxr-u4PxXkix6R9A,3307
+oblate-1.0.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+oblate-1.0.0.dist-info/top_level.txt,sha256=qaLuhl_5_njDgbVh2b6hw4kLVy3p1i2QRiAULmZYGzM,7
+oblate-1.0.0.dist-info/RECORD,,

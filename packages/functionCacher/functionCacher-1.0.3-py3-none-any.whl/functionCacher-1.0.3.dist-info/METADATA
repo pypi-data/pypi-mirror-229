@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: functionCacher
+Version: 1.0.3
+Summary: Cache function results to disk
+Home-page: https://gitlab.com/philipp.friese/function-cacher
+Author: Philipp Friese
+Author-email: philipp@friese.one
+Classifier: Programming Language :: Python :: 3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: autopep8
+Requires-Dist: pandas
+Requires-Dist: pyzstd
+Requires-Dist: numpy
+Requires-Dist: Deprecated
+

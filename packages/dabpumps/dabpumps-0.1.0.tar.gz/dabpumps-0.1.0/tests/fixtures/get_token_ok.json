@@ -1,0 +1,6 @@
+{
+  "res": "OK",
+  "access_token": "access-token",
+  "token_type": "Bearer",
+  "expires_in": 31536000
+}

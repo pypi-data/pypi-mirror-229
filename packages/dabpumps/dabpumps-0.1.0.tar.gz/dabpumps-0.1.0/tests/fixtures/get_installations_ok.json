@@ -1,0 +1,33 @@
+{
+  "res": "OK",
+  "rows": [
+    {
+      "installation_id": "installation-id",
+      "name": "installation-name",
+      "description": "installation-description",
+      "company": "DAB",
+      "pairts": "1970-01-01T00:00:00.000Z",
+      "metadata": {
+        "address": "installation-address",
+        "country": "Australia",
+        "maplocation": ""
+      },
+      "region": null,
+      "service_region": null,
+      "contract_recipients": null,
+      "contract_type": "d",
+      "contract_retention": "1",
+      "contract_due_time": "1",
+      "contract_dum_enabled": 8,
+      "contract_due_date": "2023-09-30T22:00:00.000Z",
+      "contract_dum_joined": 1,
+      "contract_message": null,
+      "scheduled": true,
+      "report_frequency": "monthly",
+      "simm": null,
+      "simm_due_date": "1970-01-01T00:00:00.000Z",
+      "notify_by_email": true,
+      "status": "OK"
+    }
+  ]
+}

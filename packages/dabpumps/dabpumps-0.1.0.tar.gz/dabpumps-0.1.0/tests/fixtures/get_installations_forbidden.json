@@ -1,0 +1,6 @@
+{
+  "res": "ERROR",
+  "code": "FORBIDDEN",
+  "msg": "Forbidden operation",
+  "where": "ROUTE RULE"
+}

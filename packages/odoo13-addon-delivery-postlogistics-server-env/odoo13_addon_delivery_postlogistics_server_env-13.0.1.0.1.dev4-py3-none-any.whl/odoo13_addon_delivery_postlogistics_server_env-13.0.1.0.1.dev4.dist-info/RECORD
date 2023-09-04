@@ -1,0 +1,14 @@
+odoo/addons/delivery_postlogistics_server_env/README.rst,sha256=sIzrePgRf8AAliJyCVPjnl5jlvDlZsw8PbbQoMyZdaw,3292
+odoo/addons/delivery_postlogistics_server_env/__init__.py,sha256=X9EJGOE2GtZbS0G82PtSXmWSZ_R8jEM0rlJTDliQjp4,21
+odoo/addons/delivery_postlogistics_server_env/__manifest__.py,sha256=EfIgwS38j63XYRLbEBy-_V4n21FetlWo2sNObYDhLfU,605
+odoo/addons/delivery_postlogistics_server_env/i18n/delivery_postlogistics_server_env.pot,sha256=1STiyKksWJU5D10yp51-n2A5JpZvOveCOnQQXd1nF-4,541
+odoo/addons/delivery_postlogistics_server_env/models/__init__.py,sha256=KUGrW-78qoxUKCKvYdl6CfDBiq6--k1lIXAULo_bItA,31
+odoo/addons/delivery_postlogistics_server_env/models/delivery_carrier.py,sha256=qCWkcNSU5jlYqkBn_b2gURJJnOxukCUz_BQbaWPSiMk,535
+odoo/addons/delivery_postlogistics_server_env/readme/CONTRIBUTORS.rst,sha256=uAPcwg62NVS4AhHWOH1ylKl_Fyk39Tz7bGv0X4PC5Xs,51
+odoo/addons/delivery_postlogistics_server_env/readme/DESCRIPTION.rst,sha256=HCnMj6f7AoZ5iFdcFsxNpKcxvUmMFUqqtSx8WxKcG-E,64
+odoo/addons/delivery_postlogistics_server_env/static/description/icon.png,sha256=6xBPJauaFOF0KDHfHgQopSc28kKvxMaeoQFQWZtfZDo,9455
+odoo/addons/delivery_postlogistics_server_env/static/description/index.html,sha256=y5UiIOXzwCAPwOBVwiD1jyHpTiQAHVmgDbXeQZkT000,12689
+odoo13_addon_delivery_postlogistics_server_env-13.0.1.0.1.dev4.dist-info/METADATA,sha256=1kxM-xD7f41pIzP4Gp22sU2rz7fyIdplndXpzf9nUM8,4024
+odoo13_addon_delivery_postlogistics_server_env-13.0.1.0.1.dev4.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+odoo13_addon_delivery_postlogistics_server_env-13.0.1.0.1.dev4.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
+odoo13_addon_delivery_postlogistics_server_env-13.0.1.0.1.dev4.dist-info/RECORD,,

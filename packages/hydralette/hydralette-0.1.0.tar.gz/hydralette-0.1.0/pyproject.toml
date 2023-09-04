@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "hydralette"
+version = "0.1.0"
+description = ""
+authors = ["ValeKnappich"]
+readme = "README.md"
+packages = [{include = "hydralette"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+[tool.poetry.group.dev.dependencies]
+pre-commit = "^3.3.3"
+debugpy = "^1.6.7.post1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+
+# pypi-AgEIcHlwaS5vcmcCJDdhY2MzMzc3LWYxNzctNDNlZC04ODY0LWZkOWIwYjM5YmFlYQACKlszLCIxNTFkNTg4Mi05NmVjLTQ3YTQtYWJhNi1iZGI2NTM0MDQyOTAiXQAABiBWQ5jei2jttyyzgPOdeez8sD0efFNGcOCwqTeLbePtZw

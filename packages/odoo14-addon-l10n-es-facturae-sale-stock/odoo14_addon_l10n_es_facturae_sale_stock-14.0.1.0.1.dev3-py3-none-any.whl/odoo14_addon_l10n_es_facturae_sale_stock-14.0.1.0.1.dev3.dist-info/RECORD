@@ -1,0 +1,16 @@
+odoo/addons/l10n_es_facturae_sale_stock/README.rst,sha256=7c4tk_V4ljcukAIHzUE_e7dteSw_kBcqsfv0dzH87Aw,3092
+odoo/addons/l10n_es_facturae_sale_stock/__init__.py,sha256=IBgwvNUGoCAcfsMI2COb9DgacxjuqrwrZfXMaO8weI8,91
+odoo/addons/l10n_es_facturae_sale_stock/__manifest__.py,sha256=A4B9lMP8Csq-AqrofqtU5xSSg8TfODdivp1y_kdZdTw,638
+odoo/addons/l10n_es_facturae_sale_stock/i18n/l10n_es_facturae_sale_stock.pot,sha256=FDT8B36avShoNtDwTVJ8NSkrKB2FYNeZw8_f_4S4_gQ,1045
+odoo/addons/l10n_es_facturae_sale_stock/models/__init__.py,sha256=D3By7ku-saP44yW5IDGnd559v5DTf6mlm9DA4HAb81s,102
+odoo/addons/l10n_es_facturae_sale_stock/models/account_move_line.py,sha256=kNPIf_7G9GcItSxhQh_7dC6fihuL0AvhNvnuIFXowTE,368
+odoo/addons/l10n_es_facturae_sale_stock/readme/CONTRIBUTORS.rst,sha256=USpBm1oSKFPDGXdrxtAOqI8OrZG_D3lcJI3zhjQdgdg,103
+odoo/addons/l10n_es_facturae_sale_stock/readme/DESCRIPTION.rst,sha256=9oPnlntduOyLVWLzG-9Jc0ec3fhAwspZRICIhPZNffQ,80
+odoo/addons/l10n_es_facturae_sale_stock/readme/INSTALL.rst,sha256=2draJkbrbwgaX5G6THgD0PoqEAL-w_bA1X9ViwcvRF0,102
+odoo/addons/l10n_es_facturae_sale_stock/static/description/icon.png,sha256=6xBPJauaFOF0KDHfHgQopSc28kKvxMaeoQFQWZtfZDo,9455
+odoo/addons/l10n_es_facturae_sale_stock/static/description/index.html,sha256=hWPoh4fDX0XER9nzPH7qBJqRLMtBzwDbhc8SmLIyl0Q,12685
+odoo/addons/l10n_es_facturae_sale_stock/views/report_facturae.xml,sha256=OWCxgIhWspvfzzkOwEwa1QzqFgZglFCxOuxUUqqILrc,1219
+odoo14_addon_l10n_es_facturae_sale_stock-14.0.1.0.1.dev3.dist-info/METADATA,sha256=BCBTejhTnSnQrjws12LMLCUPxqLCYieKVtceKQjQNk0,3759
+odoo14_addon_l10n_es_facturae_sale_stock-14.0.1.0.1.dev3.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+odoo14_addon_l10n_es_facturae_sale_stock-14.0.1.0.1.dev3.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
+odoo14_addon_l10n_es_facturae_sale_stock-14.0.1.0.1.dev3.dist-info/RECORD,,

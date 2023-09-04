@@ -1,0 +1,17 @@
+odoo/addons/mgmtsystem_partner/README.rst,sha256=xN0XahJe42HRz40V_XY7wYuaij5c3erKJilMbKEgUXA,3449
+odoo/addons/mgmtsystem_partner/__init__.py,sha256=yMMDALj2m-e0KwOvnZ5kAHJv0HYBNsQu_otxGjwEKjs,31
+odoo/addons/mgmtsystem_partner/__manifest__.py,sha256=BVn1SPOBWENVLDI7PksFY_zw6Z2VLCmufZ9HKa1BQPI,580
+odoo/addons/mgmtsystem_partner/i18n/it.po,sha256=hNLxGC_dEXCYtElWUZWz_S0Fy_Xi_rbatMfrw5QeWqs,648
+odoo/addons/mgmtsystem_partner/i18n/mgmtsystem_partner.pot,sha256=R0wYjz_Hp2wisHSkntBjI_bYdUEG2wlV7kPRWiibKcM,484
+odoo/addons/mgmtsystem_partner/models/__init__.py,sha256=NXwx7zzFkA0_qPTFcTNwBWvPUIO6Zz4h4WrrcDVnk3g,34
+odoo/addons/mgmtsystem_partner/models/mgmtsystem_partner.py,sha256=sJcIkRahYTyL7lXMo5mVGb6OxvBr-HSDl1beBuOC_Yw,538
+odoo/addons/mgmtsystem_partner/readme/CONTRIBUTORS.rst,sha256=kNUn8PSC_XC66Sb8_Erma5nThUu7w2RxNGDw6z0Q-d4,50
+odoo/addons/mgmtsystem_partner/readme/DESCRIPTION.rst,sha256=028Vo3GKmFVCiHcXtKr9PYmnlGffU5g8ljWvqBMFz8g,132
+odoo/addons/mgmtsystem_partner/readme/HISTORY.rst,sha256=fIAAcXKBaGqUjz_QWIxOmQcquzouPVlng9VoYkifcF8,77
+odoo/addons/mgmtsystem_partner/readme/USAGE.rst,sha256=4S3UOlFLmN5gdHeRxaLGHIZKX8dbZqCLN-bmF_XW-oU,279
+odoo/addons/mgmtsystem_partner/static/description/icon.png,sha256=vdz47SKnxNmzeEsid78LWoLvWjXLV-yjEmp_HOrufpo,11490
+odoo/addons/mgmtsystem_partner/static/description/index.html,sha256=XyFcaAhcRBVgp3QsPftloaPneNryT1_a5Ni5ydOBCpM,13396
+odoo11_addon_mgmtsystem_partner-11.0.1.0.0.99.dev5.dist-info/METADATA,sha256=2CE_N0B2bhgDsgrawIzc9PAjTM4VVSqTgjyB_7iKajE,4131
+odoo11_addon_mgmtsystem_partner-11.0.1.0.0.99.dev5.dist-info/WHEEL,sha256=iYlv5fX357PQyRT2o6tw1bN-YcKFFHKqB_LwHO5wP-g,110
+odoo11_addon_mgmtsystem_partner-11.0.1.0.0.99.dev5.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
+odoo11_addon_mgmtsystem_partner-11.0.1.0.0.99.dev5.dist-info/RECORD,,

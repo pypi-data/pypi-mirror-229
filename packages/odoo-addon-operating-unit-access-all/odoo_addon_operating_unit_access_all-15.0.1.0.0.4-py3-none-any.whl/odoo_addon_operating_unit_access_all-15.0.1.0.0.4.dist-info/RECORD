@@ -1,0 +1,14 @@
+odoo/addons/operating_unit_access_all/README.rst,sha256=07RBkKvrWtjKAoGT5EoYxmG8PIaQCB6UBPPfEIgFh8E,3425
+odoo/addons/operating_unit_access_all/__init__.py,sha256=IDAgTYGxyXVze4qvgVlencHk1h8lpHz9LRfCRzOSr3g,70
+odoo/addons/operating_unit_access_all/__manifest__.py,sha256=Wnx3osxiWiM9wbZYeVIeH6pn7uch3h2snKelP04EpEI,529
+odoo/addons/operating_unit_access_all/i18n/operating_unit_access_all.pot,sha256=TNWPBShwKSRrW1j0o1CRTGFoKDWE2kSJk6K4iJeaJy8,531
+odoo/addons/operating_unit_access_all/readme/CONFIGURE.rst,sha256=_Xs_DMFJ1oDRqtcexBI29Iyt1tbBoHTMp9oHwGOdSBM,167
+odoo/addons/operating_unit_access_all/readme/CONTRIBUTORS.rst,sha256=7oOAUdQMfMnMXBNeKh6_YN_mLuETKMOpqgsaai8SCBI,83
+odoo/addons/operating_unit_access_all/readme/DESCRIPTION.rst,sha256=I-dL_FYdEpXzu1oSOFv8CLy-Oh6T64Ax9-krBdVWlz8,117
+odoo/addons/operating_unit_access_all/security/operating_unit_security.xml,sha256=SBKb1Jki023In0in4v5JURa1ZYuO1KA5NYosCS-vKrQ,675
+odoo/addons/operating_unit_access_all/static/description/icon.png,sha256=6xBPJauaFOF0KDHfHgQopSc28kKvxMaeoQFQWZtfZDo,9455
+odoo/addons/operating_unit_access_all/static/description/index.html,sha256=ZzH44itj1vc8CaPk5ssojXvONjmXfqJZte--O1_8Z5s,13078
+odoo_addon_operating_unit_access_all-15.0.1.0.0.4.dist-info/METADATA,sha256=X8N8zJMPYbsTHrLux8PUKsD3Ghisvf5VXbjxY6fhLaQ,4031
+odoo_addon_operating_unit_access_all-15.0.1.0.0.4.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+odoo_addon_operating_unit_access_all-15.0.1.0.0.4.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
+odoo_addon_operating_unit_access_all-15.0.1.0.0.4.dist-info/RECORD,,

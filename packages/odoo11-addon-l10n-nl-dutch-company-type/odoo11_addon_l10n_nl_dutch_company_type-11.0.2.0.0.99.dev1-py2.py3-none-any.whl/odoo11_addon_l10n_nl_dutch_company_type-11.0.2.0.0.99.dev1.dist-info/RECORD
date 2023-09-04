@@ -1,0 +1,16 @@
+odoo/addons/l10n_nl_dutch_company_type/README.rst,sha256=44A8ZVoOaCJQdS_vudL3q0eHFI-fQ2xp1DXVLrimls4,3391
+odoo/addons/l10n_nl_dutch_company_type/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+odoo/addons/l10n_nl_dutch_company_type/__manifest__.py,sha256=9rl9Wrf4TuKGGhrk9qDMOKjK2cmYsCWTxP7F2voCC5o,586
+odoo/addons/l10n_nl_dutch_company_type/data/l10n_nl_dutch_company_type.xml,sha256=kFakGUqu2RomSySHdsXJXi0Rb7K7R6y1c316B4NKdhU,3558
+odoo/addons/l10n_nl_dutch_company_type/i18n/l10n_nl_dutch_company_type.pot,sha256=s1xYrcE2eyhtjP-6puzjXZ5EqAjABkob3tLrzEK1ZGU,4267
+odoo/addons/l10n_nl_dutch_company_type/i18n/nl.po,sha256=TViyEvZ4PK1mq6NrtZcRvKhnKaqAg9vfSH8b6cQVFes,4690
+odoo/addons/l10n_nl_dutch_company_type/readme/CONFIGURE.rst,sha256=gwgk-JZBgaMxWczqIxp0i8ffdILHrCmWTDc9IIqekOE,286
+odoo/addons/l10n_nl_dutch_company_type/readme/CONTRIBUTORS.rst,sha256=4RDlhWvDJ-pTouDGfsWiZ1VBVDSas98pMmtFwaMMZTE,29
+odoo/addons/l10n_nl_dutch_company_type/readme/DESCRIPTION.rst,sha256=07V4sF3dSOJdTeLfzp6b8RfUP_SvjD3HIXMiVWtMu1c,42
+odoo/addons/l10n_nl_dutch_company_type/readme/INSTALL.rst,sha256=EtbQVqMiKtX9rtADJ0aOgCMNtSKxuKHdIp9T6RaXa3E,82
+odoo/addons/l10n_nl_dutch_company_type/static/description/icon.png,sha256=FZqNznI5u5OHkickUc-_tj-WlxtPXm7f4qH0d_8-WgY,552
+odoo/addons/l10n_nl_dutch_company_type/static/description/index.html,sha256=w_SHcGZIcvg0NTSbLq_0KJdn8KIF3H343bolBfBXBV8,13158
+odoo11_addon_l10n_nl_dutch_company_type-11.0.2.0.0.99.dev1.dist-info/METADATA,sha256=REL22iyVnBZngmbeuV33sHzoec-UHJfHZvbMYb_p8KY,4046
+odoo11_addon_l10n_nl_dutch_company_type-11.0.2.0.0.99.dev1.dist-info/WHEEL,sha256=iYlv5fX357PQyRT2o6tw1bN-YcKFFHKqB_LwHO5wP-g,110
+odoo11_addon_l10n_nl_dutch_company_type-11.0.2.0.0.99.dev1.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
+odoo11_addon_l10n_nl_dutch_company_type-11.0.2.0.0.99.dev1.dist-info/RECORD,,

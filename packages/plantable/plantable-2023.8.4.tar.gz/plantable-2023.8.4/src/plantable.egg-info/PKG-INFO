@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: plantable
+Version: 2023.8.4
+Author: Woojin Cho
+Author-email: w.cho@cj.net
+License: MIT License
+Requires-Python: >=3.8

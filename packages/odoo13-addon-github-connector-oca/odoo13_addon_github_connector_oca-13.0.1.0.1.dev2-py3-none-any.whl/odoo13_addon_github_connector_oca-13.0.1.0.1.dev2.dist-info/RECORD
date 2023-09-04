@@ -1,0 +1,16 @@
+odoo/addons/github_connector_oca/README.rst,sha256=OZzRgi5b6Yq7KuT96DIdc-eYqf2G_BPj-Sj4RtTdJVc,3273
+odoo/addons/github_connector_oca/__init__.py,sha256=X9EJGOE2GtZbS0G82PtSXmWSZ_R8jEM0rlJTDliQjp4,21
+odoo/addons/github_connector_oca/__manifest__.py,sha256=3TQ8YBrDqywBLh9weSoMCSlXJQ-cfWw67wQNirD9VQs,563
+odoo/addons/github_connector_oca/i18n/github_connector_oca.pot,sha256=gQcfqu_jTVjbwYBBI6XsbCvlFwtMDJG_k4z97JtjMCw,1413
+odoo/addons/github_connector_oca/models/__init__.py,sha256=OLd92xzm4YjCgvPmG0Dw94MQ1WNpz-sWKULPjYNX3QI,34
+odoo/addons/github_connector_oca/models/odoo_module_version.py,sha256=zJMoNODXz8cB-cz-tailSuGBmTQP8a55nkkVGMvxYts,904
+odoo/addons/github_connector_oca/readme/CONTRIBUTORS.rst,sha256=ylPHkZBnENmkiRoGrA_i184pD87c0CRSwg8EgorxTY0,120
+odoo/addons/github_connector_oca/readme/DESCRIPTION.rst,sha256=23IgN3-4Sf3Bry8hybe2hIbBOZlei7jXDixFtJDEv1U,173
+odoo/addons/github_connector_oca/readme/USAGE.rst,sha256=3cohqSCM4gM4GLP8mjqgenDwSVRn5IKCzW2qlq-sU9w,140
+odoo/addons/github_connector_oca/static/description/icon.png,sha256=5BHA6zT0Nb32x2w583GSZMVMHvpV7wVlA_BNQ0UUYsw,70624
+odoo/addons/github_connector_oca/static/description/index.html,sha256=eX7K-s0ufmlIDYp4JYexMUCqgjvGzvr3JqXUVvZSWgA,12826
+odoo/addons/github_connector_oca/views/odoo_module_version.xml,sha256=sf9SqmuG_2G4Pb2iVewSm5ErZSoa_PfPyhqQlDmXino,693
+odoo13_addon_github_connector_oca-13.0.1.0.1.dev2.dist-info/METADATA,sha256=1N8kK8vB8zirzIf3GflDsdSQAjHL3eLBtX9SUi28otw,3895
+odoo13_addon_github_connector_oca-13.0.1.0.1.dev2.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+odoo13_addon_github_connector_oca-13.0.1.0.1.dev2.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
+odoo13_addon_github_connector_oca-13.0.1.0.1.dev2.dist-info/RECORD,,

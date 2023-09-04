@@ -1,0 +1,17 @@
+odoo/addons/edi_account_invoice_import/README.rst,sha256=EyHKMubN9ZxQ1k26F39jJ6-waxzj8vANcsH_nmmpZ5E,3672
+odoo/addons/edi_account_invoice_import/__init__.py,sha256=4hzzdr5iZgGdG1B-358VNgNjQRKLDc3R6FIeRKC8Bbw,25
+odoo/addons/edi_account_invoice_import/__manifest__.py,sha256=0xwp3qLxccIN7DhuHDS8wDPY2atF3zNDa9zSb3Dj7aM,653
+odoo/addons/edi_account_invoice_import/components/__init__.py,sha256=sc_wKYKt_8D9cmvfpJzjdZtCmwVbvp_Jd1TS6tODJcc,22
+odoo/addons/edi_account_invoice_import/components/process.py,sha256=tIaeG6oUHctJbQJVyhyYl8cn8pfHTwxr0sSSnFP6KLc,2592
+odoo/addons/edi_account_invoice_import/i18n/edi_account_invoice_import.pot,sha256=GxVWs2-BFelmbXJc2r-hub82NIudDt_Iwhho271ncOc,1416
+odoo/addons/edi_account_invoice_import/readme/CONTRIBUTORS.rst,sha256=Cbu_K7Qrt8rzIYgqHpSwJuxQPnqX4q22lJVGBwVTWao,38
+odoo/addons/edi_account_invoice_import/readme/DESCRIPTION.rst,sha256=1tW5sPp7vmfeOjb7AQSYDEvuX-jZaPk60YXOrUkR-gk,397
+odoo/addons/edi_account_invoice_import/static/description/icon.png,sha256=6xBPJauaFOF0KDHfHgQopSc28kKvxMaeoQFQWZtfZDo,9455
+odoo/addons/edi_account_invoice_import/static/description/index.html,sha256=_nxFP_brSt4MmX4nnLKmbqBhnpU0FbiNtXDrKTdVrTY,12730
+odoo/addons/edi_account_invoice_import/templates/exchange_chatter_msg.xml,sha256=i9Ho3ijt8o9Y-A75XIEvxVP-7F31mfmRvXycBEMY5H0,1450
+odoo/addons/edi_account_invoice_import/tests/__init__.py,sha256=N5lxesFq75BleSO8QbBfUOJKnYdw-7rIPpSa93imM-g,27
+odoo/addons/edi_account_invoice_import/tests/test_process.py,sha256=N_jdwIkkiR2qVj91t4WVzctJK0KDX3IXAsbJ18AQSIo,4493
+odoo14_addon_edi_account_invoice_import-14.0.1.1.1.dev3.dist-info/METADATA,sha256=jQVt7mQMX1lBGcdAD7D6cW-p8TC5qm7puCo35HVY7mg,4367
+odoo14_addon_edi_account_invoice_import-14.0.1.1.1.dev3.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+odoo14_addon_edi_account_invoice_import-14.0.1.1.1.dev3.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
+odoo14_addon_edi_account_invoice_import-14.0.1.1.1.dev3.dist-info/RECORD,,

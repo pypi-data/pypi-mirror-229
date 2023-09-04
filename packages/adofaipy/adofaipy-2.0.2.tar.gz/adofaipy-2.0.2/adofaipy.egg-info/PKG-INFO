@@ -1,0 +1,114 @@
+Metadata-Version: 2.1
+Name: adofaipy
+Version: 2.0.2
+Summary: A library that makes automating events in ADOFAI levels more convenient.
+Home-page: UNKNOWN
+Author: M1n3c4rt
+Author-email: vedicbits@gmail.com
+License: MIT
+Keywords: adofai
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+This is a library that makes automating events in ADOFAI levels more convenient.
+<br>List of Functions:<br>
+<hr>
+<code>getFileString(filename : str) -> str</code>
+<ul>
+    <li>Returns the ADOFAI file as a string. 
+    <li> <em> It is recommended to use <code>getFileDict()</code> instead.</em>
+</ul>
+<hr>
+<code>getFileDict(filename : str) -> dict</code>
+<ul>
+    <li>Returns the specified file in the form of nested dictionaries and lists.
+    <li>Refer to any <code>.adofai</code> file to see the structure of this dictionary.
+    <li>Use this for any function with <code>leveldict</code> as an argument.
+</ul>
+<hr>
+<code>addEvent(event : dict, leveldict : dict) -> dict</code>
+<ul>
+    <li>Adds the given <code>event</code> to <code>leveldict</code> and returns a copy of <code>leveldict</code>.
+    <li><em>Remember to reassign the output to the original dictionary!</em>
+    <li>Most fields can be omitted, in which case a default value is used.
+    <li>Note: Events are <b>always</b> in the form of dictionaries. Their structure and field names are the same as how they appear in <code>.adofai</code> files.
+</ul>
+<hr>
+<code>searchEvents(searchfor : dict, leveldict : dict) -> list[dict]</code>
+<ul>
+    <li> Returns a list of all events in <code>leveldict</code> that match all fields in <code>searchfor</code>.
+    <li> For example, <blockquote> <code>searchfor={"eventType": "moveDecorations", "tag": "sampleTag"}</code></blockquote> will return a list of all <code>moveDecoration</code> events with tag <code>sampleTag</code>.
+    <li> This function directly modifies <code>leveldict</code>.
+</ul>
+<hr>
+<code>removeEvents(searchfor : dict, leveldict : dict) -> list[dict]</code>
+<ul>
+    <li>Similar to <code>searchEvents</code>, but removes all matching events.
+    <li>This function returns a list of removed events.
+    <li>This function directly modifies <code>leveldict</code>.
+</ul>
+<hr>
+<code>replaceField(searchfor : dict, field : str, new, leveldict : dict) -> None</code>
+<ul>
+    <li>Searches for events in <code>leveldict</code> using <code>searchfor</code>, and replaces the value in <code>field</code> with <code>new</code>.
+    <li>For example, <blockquote><code>replaceField({"eventType": "Flash", "duration": 0.5}, "startColor", "800080", leveldict)</code></blockquote> finds all <code>Flash</code> events with duration <code>0.5</code> and changes their start color to <code>#800080</code>. 
+</ul>
+<hr>
+<code>writeToFile(leveldict : dict, filename : str) -> None</code>
+<ul>
+    <li>Writes the <code>leveldict</code> to the specified file.
+</ul>
+<hr><br><br><br><br>
+
+# Changelog
+
+## 2.0.2 (2023/09/03)
+------------------
+- Minor bugfix
+- Fixed markdown bug on README and CHANGELOG for real this time
+
+## 2.0.1 (2023/09/03)
+------------------
+- Minor bugfix
+- Fixed markdown bug on README and CHANGELOG (hopefully)
+
+## 2.0.0 (2023/09/03)
+------------------
+- Major update
+- Completely overhauled file reading to use dictionaries instead of strings
+- Added `getFileDict()`
+- Added 3 new utility functions: `searchEvents()`, `removeEvents()` and `replaceField()`
+- `getAngles()`, `setAngles()` and all event functions are now deprecated
+- Updated documentation
+- README and CHANGELOG now uses markdown
+
+## 0.1.1 (2023/07/17)
+------------------
+- Minor bugfixes
+- Fixed encoding incompatibility
+- Fixed output string for `moveDecorations()`
+
+## 0.1.0 (2023/06/15)
+------------------
+- Minor update
+- Added dynamic pivot offset, parallax offset, masking and blending fields to `addDecoration()` and `moveDecorations()`
+- Added angleOffset to `setSpeed()`
+
+## 0.0.3 (2023/06/14)
+------------------
+- Minor bugfix: fixed filename `__init__.py`
+
+## 0.0.2 (2023/06/13)
+------------------
+- Minor bugfix: `'re'` is no longer a dependency
+
+## 0.0.1 (2023/05/28)
+------------------
+- First Release
+

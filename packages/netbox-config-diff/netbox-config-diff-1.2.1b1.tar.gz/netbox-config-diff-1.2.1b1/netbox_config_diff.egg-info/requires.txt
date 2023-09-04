@@ -1,0 +1,12 @@
+netutils==1.5.0
+scrapli[asyncssh]==2023.01.30
+scrapli-community==2023.01.30
+
+[dev]
+black==23.7.0
+ruff==0.0.280
+
+[test]
+factory_boy==3.3.0
+pytest==7.4.0
+pytest-django==4.5.2

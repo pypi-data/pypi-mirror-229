@@ -1,0 +1,12 @@
+odoo/addons/account_move_search_line/README.rst,sha256=y7y4Z47i-f5uubMoXEjnaddeeNBwhH2GHR5lxdQsmnk,3065
+odoo/addons/account_move_search_line/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+odoo/addons/account_move_search_line/__manifest__.py,sha256=pSzf9Up7vW3WPEiCu0z0xR2JlbEXa3EfbqG8E-RpOyM,453
+odoo/addons/account_move_search_line/i18n/account_move_search_line.pot,sha256=S5v2iWKlttk5uA1_wMIj8CtaIlof4sjBF1u5kPV3IUs,527
+odoo/addons/account_move_search_line/readme/DESCRIPTION.rst,sha256=wb-qy5t-9-9yD6wyGBquMBKNED2VvnSDgblyqJe7vL4,261
+odoo/addons/account_move_search_line/static/description/icon.png,sha256=6xBPJauaFOF0KDHfHgQopSc28kKvxMaeoQFQWZtfZDo,9455
+odoo/addons/account_move_search_line/static/description/index.html,sha256=NFalDusGXIENvTXI0JskOvsGPMAOH3Xpj4eiGonKGq8,12041
+odoo/addons/account_move_search_line/views/account_move_views.xml,sha256=-6xLQPosK0cDmR9rMLk9KPeKR5l62NgUZwsTiTia5Tg,527
+odoo_addon_account_move_search_line-15.0.1.0.0.4.dist-info/METADATA,sha256=VbFrGA5s5VTGBoCP8sWkH6JT0Dhfw5gasuflIXQX4Tc,3621
+odoo_addon_account_move_search_line-15.0.1.0.0.4.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+odoo_addon_account_move_search_line-15.0.1.0.0.4.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
+odoo_addon_account_move_search_line-15.0.1.0.0.4.dist-info/RECORD,,

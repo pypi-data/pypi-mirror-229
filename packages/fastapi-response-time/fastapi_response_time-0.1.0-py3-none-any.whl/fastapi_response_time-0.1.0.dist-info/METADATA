@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: fastapi-response-time
+Version: 0.1.0
+Summary: A FastAPI middleware to add X-Response-Time headers.
+Home-page: https://github.com/RajNykDhulapkar/fastapi-response-time
+Author: Raj Naik Dhulapkar
+Author-email: youremail@example.com
+License: UNKNOWN
+Keywords: fastapi response time middleware
+Platform: UNKNOWN
+Requires-Dist: fastapi
+Requires-Dist: starlette
+
+UNKNOWN
+

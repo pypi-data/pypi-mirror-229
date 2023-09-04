@@ -1,0 +1,2 @@
+[console_scripts]
+spf = sempubflow.sempubflow_cmd:main

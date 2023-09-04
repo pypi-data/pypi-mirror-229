@@ -1,0 +1,17 @@
+odoo/addons/hr_leave_custom_hour_interval/README.rst,sha256=IANpJZnR3GbAK-oKtkwDSux0eDnDgPpNdvCbIZ-bznQ,3230
+odoo/addons/hr_leave_custom_hour_interval/__init__.py,sha256=X9EJGOE2GtZbS0G82PtSXmWSZ_R8jEM0rlJTDliQjp4,21
+odoo/addons/hr_leave_custom_hour_interval/__manifest__.py,sha256=3_T4jfDuiHAwPvu84E0KoUUOXCAOpCIs71iGvqsFbp8,465
+odoo/addons/hr_leave_custom_hour_interval/i18n/hr_leave_custom_hour_interval.pot,sha256=ln9ZSO1vp7wxxYIzxtkB5PvMVz37M0z97bCzRQCVpyI,1251
+odoo/addons/hr_leave_custom_hour_interval/i18n/it.po,sha256=ahaOsTXs8jmAhYEGFKeucnFPP77_JUpcw4D0mykLab0,1477
+odoo/addons/hr_leave_custom_hour_interval/models/__init__.py,sha256=Jnnh_FOcJdjkYlh0VGEwTEMvfXRPkll2fzHvD0q0VKc,23
+odoo/addons/hr_leave_custom_hour_interval/models/hr_leave.py,sha256=nB3QFxdVprNfxmbzF0pSw84jq-neksRlRs5lpkU45J4,966
+odoo/addons/hr_leave_custom_hour_interval/readme/CONTRIBUTORS.rst,sha256=cw8m38caxpT0kREerx8A2TK4qO3fkFoX-HkOn3woM2c,51
+odoo/addons/hr_leave_custom_hour_interval/readme/DESCRIPTION.rst,sha256=IX8ntYi10zYwfTz5dy3LS7VnJa53r_8I_yyd_l__54s,85
+odoo/addons/hr_leave_custom_hour_interval/readme/USAGE.rst,sha256=PvE6N-C6k8ASgaa9sQ0oNDfhHsXVn5fM2-9d3GW40jw,266
+odoo/addons/hr_leave_custom_hour_interval/static/description/icon.png,sha256=6xBPJauaFOF0KDHfHgQopSc28kKvxMaeoQFQWZtfZDo,9455
+odoo/addons/hr_leave_custom_hour_interval/static/description/index.html,sha256=xHOKf-3phDVkDvEe6Q0_vcWBauoHk2sJQ4vctmuMrwk,12751
+odoo/addons/hr_leave_custom_hour_interval/views/hr_leave.xml,sha256=sB9SER_QvFMEdWAZdui9Or-8W-AfcZmMHDkJRK94j1I,1784
+odoo_addon_hr_leave_custom_hour_interval-15.0.1.0.0.5.dist-info/METADATA,sha256=eCjsIxAn8zNubkZBUdIme88CM8ZpoCRcE98NLU80fww,3804
+odoo_addon_hr_leave_custom_hour_interval-15.0.1.0.0.5.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+odoo_addon_hr_leave_custom_hour_interval-15.0.1.0.0.5.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
+odoo_addon_hr_leave_custom_hour_interval-15.0.1.0.0.5.dist-info/RECORD,,

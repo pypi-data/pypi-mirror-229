@@ -1,0 +1,14 @@
+odoo/addons/edi_ubl_oca/README.rst,sha256=wVrfhhezsnBfO90D0jLqAsHRcKSvbsJyPcHmM3W78_Q,3190
+odoo/addons/edi_ubl_oca/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+odoo/addons/edi_ubl_oca/__manifest__.py,sha256=hyxjWgvjcaxLr-S352BjOJ4GmYn7qY8YTbihlpHpzYc,640
+odoo/addons/edi_ubl_oca/data/edi_backend_type.xml,sha256=Kw4syCPCR8NqN06Q_V6yHzl8MslFq1cTvHadB8SbcOg,211
+odoo/addons/edi_ubl_oca/demo/edi_backend_demo.xml,sha256=8RcQ-ctZB2zi73BWZGBP0_94S-Ex7sDu_FKBWKlC7jA,248
+odoo/addons/edi_ubl_oca/i18n/edi_ubl_oca.pot,sha256=AyzPzY6fvZoAIdVCppv0SiPLoR_D-HBQlYffHd1jWNE,341
+odoo/addons/edi_ubl_oca/readme/CONTRIBUTORS.rst,sha256=1ADhmOLCMAtDVg9t5Fstl0AwYHMzEiFSenM8tO5AtqY,43
+odoo/addons/edi_ubl_oca/readme/DESCRIPTION.rst,sha256=yccnZfhrGhP6N2xWODh8yh0jLkRxK4ZlaUrlTEQerCk,56
+odoo/addons/edi_ubl_oca/static/description/icon.png,sha256=6xBPJauaFOF0KDHfHgQopSc28kKvxMaeoQFQWZtfZDo,9455
+odoo/addons/edi_ubl_oca/static/description/index.html,sha256=fIvIrZts6AYvQkArbwAhljm9OQu5HR_pH7M3qqve9k4,12627
+odoo14_addon_edi_ubl_oca-14.0.1.0.1.dev4.dist-info/METADATA,sha256=kNsuNFh_nd9PeIGTcskEKLZp9n36dURr_C6krpGJkL0,3842
+odoo14_addon_edi_ubl_oca-14.0.1.0.1.dev4.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+odoo14_addon_edi_ubl_oca-14.0.1.0.1.dev4.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
+odoo14_addon_edi_ubl_oca-14.0.1.0.1.dev4.dist-info/RECORD,,

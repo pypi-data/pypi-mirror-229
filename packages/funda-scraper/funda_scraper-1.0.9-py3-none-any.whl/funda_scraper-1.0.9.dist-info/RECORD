@@ -1,0 +1,12 @@
+funda_scraper/VERSION,sha256=1vkXxITmpI_Pi5DvCc3gKGw9huXerUi0L68NrpT7LfU,5
+funda_scraper/__init__.py,sha256=W34J5NF2fBHuMl-zc_AgR1YrOwhpi2wqpxeRM72wgyw,83
+funda_scraper/preprocess.py,sha256=LaisSdANITt9oRZNa1dRloXFiqMz5XM43jrR2O9rj74,6801
+funda_scraper/scrape.py,sha256=V86T-bPvBbb_BE7W583-mPYzHORA34favPkZ656b-tk,12855
+funda_scraper/utils.py,sha256=EOu0NFonmMBH7nGg8c6pUblys1aqGYqa8WG2jiIrxnw,970
+funda_scraper/config/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+funda_scraper/config/config.yaml,sha256=UgNdm9PCMGl3BQ32wFS-clQQTrDM_bJ-KSmYPIR-adk,2170
+funda_scraper/config/core.py,sha256=AYBVsC3--EkUvApT3HEMRU5NdVyeAoG_6Rslpa9HDDg,363
+funda_scraper-1.0.9.dist-info/METADATA,sha256=T8pimHCS-lgEIgInSXWgbxLBUNvLFJFLoGNrocFXwlk,4495
+funda_scraper-1.0.9.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+funda_scraper-1.0.9.dist-info/top_level.txt,sha256=8QJ9wSTl1fEv72ElEjTdUUhImh5Ch98sG_YuQh9vqNM,14
+funda_scraper-1.0.9.dist-info/RECORD,,

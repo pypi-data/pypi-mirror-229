@@ -1,0 +1,17 @@
+odoo/addons/sale_timesheet_brand/README.rst,sha256=cggSNXdiiSob6Gwy2lgrXzt3B_Aug4BDtfy5cWpZszM,3039
+odoo/addons/sale_timesheet_brand/__init__.py,sha256=X9EJGOE2GtZbS0G82PtSXmWSZ_R8jEM0rlJTDliQjp4,21
+odoo/addons/sale_timesheet_brand/__manifest__.py,sha256=eXZ5DFss6PDVUHrnFSj-vb0auvimhA6C6Z9FlzbWhPU,477
+odoo/addons/sale_timesheet_brand/i18n/sale_timesheet_brand.pot,sha256=68wlBNel9NFyaijqxle8oh6Sq6fxP7daIkTYTqV-VtQ,501
+odoo/addons/sale_timesheet_brand/models/__init__.py,sha256=0XTNG-MzihYtVvjGhNDM789gpRyLtTlIZGa1FuLbzV8,30
+odoo/addons/sale_timesheet_brand/models/sale_order_line.py,sha256=UYCg4KoiPCUsf8BIDNyaD3ffytfIzge1tSmX5DYlxis,394
+odoo/addons/sale_timesheet_brand/readme/CONTRIBUTORS.rst,sha256=PxsBO4po8avul_NWB3vcpHUbe1mfidnJfwe3XLBug9Q,64
+odoo/addons/sale_timesheet_brand/readme/DESCRIPTION.rst,sha256=Ir-EgfBWov74H19-g5pGxMfI1eGHNuKbDXIScwX1oe0,115
+odoo/addons/sale_timesheet_brand/readme/USAGE.rst,sha256=LXiuosF4zKwNk6sVoTQrSVaAgn7yN72eSrW2tmBrZAQ,167
+odoo/addons/sale_timesheet_brand/static/description/icon.png,sha256=6xBPJauaFOF0KDHfHgQopSc28kKvxMaeoQFQWZtfZDo,9455
+odoo/addons/sale_timesheet_brand/static/description/index.html,sha256=0BgSJAus3xPqToQTNpABcLGNCbZBk0c8TtzH5UYKCv4,12543
+odoo/addons/sale_timesheet_brand/tests/__init__.py,sha256=OtihUj__xa3M39o3ydJkinlaAbBCeGYjNXKgOybjNfA,40
+odoo/addons/sale_timesheet_brand/tests/test_sale_timesheet_brand.py,sha256=vLnvilbNFBRflYXxsNP29haYff1W6oKQz7-mO0umNJY,1872
+odoo13_addon_sale_timesheet_brand-13.0.1.0.1.dev3.dist-info/METADATA,sha256=jIyR-nz12MDj5CypBV7Os3f5UPv0dv7KKXf5my0QQIA,3683
+odoo13_addon_sale_timesheet_brand-13.0.1.0.1.dev3.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+odoo13_addon_sale_timesheet_brand-13.0.1.0.1.dev3.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
+odoo13_addon_sale_timesheet_brand-13.0.1.0.1.dev3.dist-info/RECORD,,

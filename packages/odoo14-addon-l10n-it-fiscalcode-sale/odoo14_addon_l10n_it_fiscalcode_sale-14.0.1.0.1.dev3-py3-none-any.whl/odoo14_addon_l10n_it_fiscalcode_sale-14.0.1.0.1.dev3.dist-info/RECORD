@@ -1,0 +1,14 @@
+odoo/addons/l10n_it_fiscalcode_sale/README.rst,sha256=aMut8qiU29wT02oK1SkqiZmYak4miS4h3g5l5iFqxX4,3216
+odoo/addons/l10n_it_fiscalcode_sale/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+odoo/addons/l10n_it_fiscalcode_sale/__manifest__.py,sha256=FKNSxpSkMsxHnuoBgD1mDaiqEJJfHCbu_6Gw-PAYxcM,770
+odoo/addons/l10n_it_fiscalcode_sale/i18n/it.po,sha256=2yoQFgY_G_4yOGQRWX1ogtHHg1slG_TZqg7KU7Pckow,688
+odoo/addons/l10n_it_fiscalcode_sale/i18n/l10n_it_fiscalcode_sale.pot,sha256=WvdZXutPeBbgwfglos90pPW1sFH7e4lkyYs-vfq8sR0,553
+odoo/addons/l10n_it_fiscalcode_sale/readme/CONTRIBUTORS.rst,sha256=VI2fA-wcGWzMl61yNCtUlNMQTSDNNJZeD7RN1Zo_P0E,97
+odoo/addons/l10n_it_fiscalcode_sale/readme/DESCRIPTION.rst,sha256=Tf2ns6e5-Awjhtp0BSoVj8914weF5og532pN_O9te1E,100
+odoo/addons/l10n_it_fiscalcode_sale/static/description/icon.png,sha256=6xBPJauaFOF0KDHfHgQopSc28kKvxMaeoQFQWZtfZDo,9455
+odoo/addons/l10n_it_fiscalcode_sale/static/description/index.html,sha256=zeh6KWWyRTtafEX3fPIGca_VJYsMHvITR7Nx8dpqY_Y,12531
+odoo/addons/l10n_it_fiscalcode_sale/views/sale_order_report.xml,sha256=II4SfAcxFVc--OhTN39g1ZwAYsv7iAGGl9PIdSuenZ0,770
+odoo14_addon_l10n_it_fiscalcode_sale-14.0.1.0.1.dev3.dist-info/METADATA,sha256=TvEuW1SyJXsvdPYNKF9aJxmKj_-MYY85CBeRa2OiLs8,3935
+odoo14_addon_l10n_it_fiscalcode_sale-14.0.1.0.1.dev3.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+odoo14_addon_l10n_it_fiscalcode_sale-14.0.1.0.1.dev3.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
+odoo14_addon_l10n_it_fiscalcode_sale-14.0.1.0.1.dev3.dist-info/RECORD,,

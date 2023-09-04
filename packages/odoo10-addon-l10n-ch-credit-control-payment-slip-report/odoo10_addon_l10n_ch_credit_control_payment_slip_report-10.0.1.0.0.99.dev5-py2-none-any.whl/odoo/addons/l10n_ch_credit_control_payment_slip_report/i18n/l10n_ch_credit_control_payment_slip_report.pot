@@ -1,0 +1,71 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#	* l10n_ch_credit_control_payment_slip_report
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 10.0\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: l10n_ch_credit_control_payment_slip_report
+#: model:ir.actions.report.xml,name:l10n_ch_credit_control_payment_slip_report.credit_control_summary_with_slip
+msgid "Contol Communication with Payment Slip"
+msgstr ""
+
+#. module: l10n_ch_credit_control_payment_slip_report
+#: model:ir.actions.report.xml,name:l10n_ch_credit_control_payment_slip_report.slip_from_credit_control
+msgid "Contol Lines with Payment Slip"
+msgstr ""
+
+#. module: l10n_ch_credit_control_payment_slip_report
+#: model:ir.model.fields,field_description:l10n_ch_credit_control_payment_slip_report.field_report_slip_from_credit_control_display_name
+msgid "Display Name"
+msgstr ""
+
+#. module: l10n_ch_credit_control_payment_slip_report
+#: model:ir.model.fields,field_description:l10n_ch_credit_control_payment_slip_report.field_report_slip_from_credit_control_id
+msgid "ID"
+msgstr ""
+
+#. module: l10n_ch_credit_control_payment_slip_report
+#: model:ir.model.fields,field_description:l10n_ch_credit_control_payment_slip_report.field_report_slip_from_credit_control___last_update
+msgid "Last Modified on"
+msgstr ""
+
+#. module: l10n_ch_credit_control_payment_slip_report
+#: model:ir.model,name:l10n_ch_credit_control_payment_slip_report.model_credit_control_printer
+msgid "Mass printer"
+msgstr ""
+
+#. module: l10n_ch_credit_control_payment_slip_report
+#: code:addons/l10n_ch_credit_control_payment_slip_report/models/credit_control_printer.py:14
+#, python-format
+msgid "No credit control lines selected."
+msgstr ""
+
+#. module: l10n_ch_credit_control_payment_slip_report
+#: model:ir.model,name:l10n_ch_credit_control_payment_slip_report.model_report_slip_from_credit_control
+msgid "Payment Slip from Credit Control"
+msgstr ""
+
+#. module: l10n_ch_credit_control_payment_slip_report
+#: model:ir.ui.view,arch_db:l10n_ch_credit_control_payment_slip_report.credit_line_printer_form
+msgid "Print ISR (Will not mark lines)"
+msgstr ""
+
+#. module: l10n_ch_credit_control_payment_slip_report
+#: model:ir.model,name:l10n_ch_credit_control_payment_slip_report.model_report
+msgid "Report"
+msgstr ""
+
+#. module: l10n_ch_credit_control_payment_slip_report
+#: model:ir.model,name:l10n_ch_credit_control_payment_slip_report.model_l10n_ch_payment_slip
+msgid "l10n_ch.payment_slip"
+msgstr ""
+

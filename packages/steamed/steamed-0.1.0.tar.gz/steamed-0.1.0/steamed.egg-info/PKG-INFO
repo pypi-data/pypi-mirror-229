@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: steamed
+Version: 0.1.0
+Summary: A wrapper around Steam official and unofficial APIs
+Author: Emanuele Sarte
+License: MIT
+Keywords: steam
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# steamed
+A wrapper around Steam official and unofficial APIs

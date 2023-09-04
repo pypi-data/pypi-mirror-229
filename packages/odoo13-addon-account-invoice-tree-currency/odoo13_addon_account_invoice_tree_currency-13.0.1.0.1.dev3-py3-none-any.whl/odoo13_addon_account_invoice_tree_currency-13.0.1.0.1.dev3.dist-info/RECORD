@@ -1,0 +1,13 @@
+odoo/addons/account_invoice_tree_currency/README.rst,sha256=rMjKGBMIdYiD_YtsJ7hwKKjAYzWMdu8Bvxi22RM7Ubo,2984
+odoo/addons/account_invoice_tree_currency/__init__.py,sha256=xld2gKuUFtaJycjPTknhRpsMLwRifOH7wgtGC8znyD8,70
+odoo/addons/account_invoice_tree_currency/__manifest__.py,sha256=nZjpsWLu-mVKRuQbVc0YTx_0L1Jw1J9ii58vCnl9MGk,545
+odoo/addons/account_invoice_tree_currency/i18n/account_invoice_tree_currency.pot,sha256=oq048akvbrnf-qkALqzWsXk_se_6ejIK03cGCGIwbqI,1323
+odoo/addons/account_invoice_tree_currency/readme/CONTRIBUTORS.rst,sha256=vhn-R8TdLFpip2SUOug68d386yc7YuN35wVnhufn5Og,45
+odoo/addons/account_invoice_tree_currency/readme/DESCRIPTION.rst,sha256=4lmVzFeoqGr9wB_9QzielU71EmW2oamf50IATph7bMs,79
+odoo/addons/account_invoice_tree_currency/static/description/icon.png,sha256=6xBPJauaFOF0KDHfHgQopSc28kKvxMaeoQFQWZtfZDo,9455
+odoo/addons/account_invoice_tree_currency/static/description/index.html,sha256=Ur6tY303TVtP6YDim326rj2pniW_yGYhXkGiXI2oiWk,12256
+odoo/addons/account_invoice_tree_currency/views/account_move_view.xml,sha256=cM70_29ahSEqn-YS9bJypJvnnLCOYWzPphqEq_LdC9o,1790
+odoo13_addon_account_invoice_tree_currency-13.0.1.0.1.dev3.dist-info/METADATA,sha256=-G9Cbge-4OCzukEsdXOQq3WN0F6zR7RCDvym3iZ-pf8,3568
+odoo13_addon_account_invoice_tree_currency-13.0.1.0.1.dev3.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+odoo13_addon_account_invoice_tree_currency-13.0.1.0.1.dev3.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
+odoo13_addon_account_invoice_tree_currency-13.0.1.0.1.dev3.dist-info/RECORD,,

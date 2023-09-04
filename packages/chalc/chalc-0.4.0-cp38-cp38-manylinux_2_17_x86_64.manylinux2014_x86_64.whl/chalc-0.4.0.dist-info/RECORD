@@ -1,0 +1,11 @@
+chalc/chromatic.cpython-38-x86_64-linux-gnu.so,sha256=qAO_92obA_NGS0KVdILbPu5QsJ_wjgs_2br9PzoApew,1354120
+chalc/__init__.py,sha256=J98QoldDpzY9GjfPDUO7L5sf9p7y0gA_2dyii3dNLEg,246
+chalc/filtration.cpython-38-x86_64-linux-gnu.so,sha256=XMwnxZ436h7ZiPdXyID3BlsG3uVORV7UF9PG4hmvHUs,298984
+chalc/_version.cpython-38-x86_64-linux-gnu.so,sha256=_eMVIOXbdGKi-Gy8VdzPIWLp_OlGvFH-wnQryvIu0_8,175696
+chalc-0.4.0.dist-info/RECORD,,
+chalc-0.4.0.dist-info/WHEEL,sha256=CKI7hX_udpEyOOMQtVo4MuPvMy5fJbrBR3HJXFdbayw,142
+chalc-0.4.0.dist-info/METADATA,sha256=P_29I3aXJ4JyU_veGU2jv3jqN1Lobgf7f3t7WVRhJ58,42077
+chalc-0.4.0.dist-info/top_level.txt,sha256=tVtYforZ_xPmAlFijY1M_2Yt1FDjWKJ8jsVHiTW8r44,6
+chalc-0.4.0.dist-info/COPYING,sha256=ixuiBLtpoK3iv89l7ylKkg9rs2GzF9ukPH7ynZYzK5s,35148
+chalc-0.4.0.data/data/CMakeLists.txt,sha256=1yphETIF8z6EoTC6SN_bYWvbmDcesyaZc30yksJAMY0,3662
+chalc-0.4.0.data/data/vcpkg.json,sha256=MqQ2uVRNz6uIYBhtRqSm2VGzK9Xihe3hbamv9pyJn74,853

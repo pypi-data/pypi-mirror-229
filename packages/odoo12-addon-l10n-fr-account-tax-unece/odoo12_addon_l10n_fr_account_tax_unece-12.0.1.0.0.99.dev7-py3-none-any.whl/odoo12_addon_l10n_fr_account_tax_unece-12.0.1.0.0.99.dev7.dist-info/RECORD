@@ -1,0 +1,14 @@
+odoo/addons/l10n_fr_account_tax_unece/README.rst,sha256=LQRj9s_tmkaFdGPD85Es6p30q7W5l2gang_VyRrYRxw,2974
+odoo/addons/l10n_fr_account_tax_unece/__init__.py,sha256=ozdbJzcdOpvIhAiMRvlHCQq2Pr1JGm_zq911VXZbINM,45
+odoo/addons/l10n_fr_account_tax_unece/__manifest__.py,sha256=hzfljO1hmMq9FFGIzUNt4hFt93HtpqyDJNFsceFwgN8,697
+odoo/addons/l10n_fr_account_tax_unece/post_install.py,sha256=nQMSpVCC1WjmhrXnOy3Q22gxwkqXEvsbZHS2WiQM72w,2462
+odoo/addons/l10n_fr_account_tax_unece/data/account_tax_template.xml,sha256=5eQU3N-ms0oVY5fonPMG9ApSHJBVjBz0r7oTqdVTJFg,11980
+odoo/addons/l10n_fr_account_tax_unece/i18n/l10n_fr_account_tax_unece.pot,sha256=2T_62s-OoonWUW5mCPeLA8WOQV-FszQcdurSAtvuYmA,344
+odoo/addons/l10n_fr_account_tax_unece/readme/CONTRIBUTORS.rst,sha256=e8dOgio6UxRss1tsAaHVr97hi-hjTfI5ouj7XQ1JHGE,50
+odoo/addons/l10n_fr_account_tax_unece/readme/DESCRIPTION.rst,sha256=oquTo-KVrsnfkK58gbHYYqKcT3ndaPFTm9M0FtTrOhk,153
+odoo/addons/l10n_fr_account_tax_unece/static/description/icon.png,sha256=6xBPJauaFOF0KDHfHgQopSc28kKvxMaeoQFQWZtfZDo,9455
+odoo/addons/l10n_fr_account_tax_unece/static/description/index.html,sha256=eW91iezRQDTV516ZuMmifmzjCEw2rO1Go1Pe4vocO1Q,12276
+odoo12_addon_l10n_fr_account_tax_unece-12.0.1.0.0.99.dev7.dist-info/METADATA,sha256=sD0bqhibEoCU9dkujAm7iI1VRnRv08FE7nWjm5HAD5I,3589
+odoo12_addon_l10n_fr_account_tax_unece-12.0.1.0.0.99.dev7.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+odoo12_addon_l10n_fr_account_tax_unece-12.0.1.0.0.99.dev7.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
+odoo12_addon_l10n_fr_account_tax_unece-12.0.1.0.0.99.dev7.dist-info/RECORD,,

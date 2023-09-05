@@ -1,0 +1,14 @@
+odoo/addons/project_stage_mgmt/README.rst,sha256=umejCpjrm1e_wG04YJJJ_pGd3C1ADY6t537g9MMfKso,3113
+odoo/addons/project_stage_mgmt/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+odoo/addons/project_stage_mgmt/__manifest__.py,sha256=eyYWWgMkaJnXA0wqPLKPhSzYrgxrPX6jxDkCS55fF_E,589
+odoo/addons/project_stage_mgmt/i18n/it.po,sha256=RvapR0Eo2_aYpxy-nR7mXLoMS0QNFAml_qX6nm2oSXE,678
+odoo/addons/project_stage_mgmt/i18n/project_stage_mgmt.pot,sha256=60Mh3aOO_YFrpn9S8rmvyQoZhLexTxAC48kiwz0XnpU,515
+odoo/addons/project_stage_mgmt/readme/CONTRIBUTORS.rst,sha256=avv2rfNIdDcBLGzOWTMrFBlwJzmcgoC_WbVBx-vU6Ug,46
+odoo/addons/project_stage_mgmt/readme/DESCRIPTION.rst,sha256=EOwrp9Z3c8lKUFbBk4_7wdCrF2nmV1rA65znc5tH_90,97
+odoo/addons/project_stage_mgmt/static/description/icon.png,sha256=6xBPJauaFOF0KDHfHgQopSc28kKvxMaeoQFQWZtfZDo,9455
+odoo/addons/project_stage_mgmt/static/description/index.html,sha256=4J3cMGMTxqwoxnZvI3wPXM0HJPNdVNT-FHPXCy_BJ-o,12416
+odoo/addons/project_stage_mgmt/views/project.xml,sha256=zlbVmVSmUI6zd5-ss1KCs4_1p_zwUHTBmYf2-Uv4a3M,1809
+odoo14_addon_project_stage_mgmt-14.0.1.0.1.dev6.dist-info/METADATA,sha256=a3LlrW2hhz9gO8P8g_bXvlWugztwRtqnrM1_3APY64k,3731
+odoo14_addon_project_stage_mgmt-14.0.1.0.1.dev6.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+odoo14_addon_project_stage_mgmt-14.0.1.0.1.dev6.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
+odoo14_addon_project_stage_mgmt-14.0.1.0.1.dev6.dist-info/RECORD,,

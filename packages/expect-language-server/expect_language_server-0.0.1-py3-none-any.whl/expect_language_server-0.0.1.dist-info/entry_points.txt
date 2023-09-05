@@ -1,0 +1,2 @@
+[console_scripts]
+expect-language-server = expect_language_server.__main__:main

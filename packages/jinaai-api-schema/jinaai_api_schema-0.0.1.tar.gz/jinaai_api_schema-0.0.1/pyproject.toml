@@ -1,0 +1,15 @@
+[tool.black]
+line-length = 88
+skip-string-normalization = true
+
+[tool.isort]
+profile = 'black'
+skip_gitignore = true
+src_paths = ['api_schema', 'api_gateway']
+
+[tool.mypy]
+python_version = 3.8
+ignore_missing_imports = true
+
+[tool.pytest.ini_options]
+markers = ["gpu: marks tests requires gpu machine (deselect with '-m \"not gpu\"')"]

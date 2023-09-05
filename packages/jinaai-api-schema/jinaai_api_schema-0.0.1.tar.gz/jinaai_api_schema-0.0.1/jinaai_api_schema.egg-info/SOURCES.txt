@@ -1,0 +1,13 @@
+README.md
+pyproject.toml
+setup.py
+api_schema/__init__.py
+api_schema/base.py
+api_schema/embedding.py
+api_schema/generation.py
+jinaai_api_schema.egg-info/PKG-INFO
+jinaai_api_schema.egg-info/SOURCES.txt
+jinaai_api_schema.egg-info/dependency_links.txt
+jinaai_api_schema.egg-info/not-zip-safe
+jinaai_api_schema.egg-info/requires.txt
+jinaai_api_schema.egg-info/top_level.txt

@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: vecscan
+Version: 0.0.0
+Summary: vecscan: linear-scan based dense vector search engine
+Home-page: https://github.com/megagonlabs/vecscan
+Author: Megagon Labs, Tokyo.
+Author-email: vecscan@megagon.ai
+License: MIT
+Platform: UNKNOWN
+Requires-Python: >=3.8
+License-File: LICENSE
+
+UNKNOWN
+

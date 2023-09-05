@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+vecscan/__init__.py
+vecscan.egg-info/PKG-INFO
+vecscan.egg-info/SOURCES.txt
+vecscan.egg-info/dependency_links.txt
+vecscan.egg-info/requires.txt
+vecscan.egg-info/top_level.txt

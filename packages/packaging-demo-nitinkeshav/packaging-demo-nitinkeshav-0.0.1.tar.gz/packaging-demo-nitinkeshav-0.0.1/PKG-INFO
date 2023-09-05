@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: packaging-demo-nitinkeshav
+Version: 0.0.1
+Summary: My package demo code
+Author-email: Nitin <Nitin.keshav@ymail.com>
+License: MIT
+Keywords: one,two
+Classifier: Framework :: Django
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Provides-Extra: test
+Provides-Extra: release
+Provides-Extra: static-code-qa
+Provides-Extra: dev

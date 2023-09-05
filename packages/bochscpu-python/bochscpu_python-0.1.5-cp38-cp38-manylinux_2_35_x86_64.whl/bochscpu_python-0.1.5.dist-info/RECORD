@@ -1,0 +1,14 @@
+bochscpu/__init__.py,sha256=pBA19oy0mA9uvpNRRFjQ12TUYVICzSxsGBmqqj5t25M,171
+bochscpu/_bochscpu/__init__.pyi,sha256=K3rAwO6FhwMTEm_DWlCZJLgsK_dP6i2_ZCzyDiO9SaA,31869
+bochscpu/_bochscpu/cpu/__init__.pyi,sha256=mZ2sUF57dObNETzUtksoZYwILQlhgLC6bLR02EGmYkM,22203
+bochscpu/_bochscpu/memory/__init__.pyi,sha256=lGk53Dn86tzPUUqS4jyQr2yr0eTRmmw8ml_EEMMJW7Q,1892
+bochscpu/_bochscpu.cpython-38-x86_64-linux-gnu.so,sha256=Kw1CIsT3Se5eC-D1WeQuKf-luLccSWgrvuNvsBRezcc,6047456
+bochscpu/cpu/__init__.py,sha256=9Gqdr6DmN5QiaiDxdX54ps3McK-lNwzQ7UY5vs5VPuI,1588
+bochscpu/memory/__init__.py,sha256=DpyDDDNNmMNf92a5FZCNfwedQNt5I7QBe_FGKGESbwg,56
+bochscpu/utils/__init__.py,sha256=2sd-4-plnMCIfyFKL_Kt0-Jrd_e9eZ7hE41bWw2IWM8,2244
+bochscpu/utils/cpu.py,sha256=-7wLLktgi2QTFoE6g5I5lD0p6oNKZUGSmKarFT03cA0,8224
+bochscpu_python-0.1.5.dist-info/METADATA,sha256=WbroIuxeqKLUPFnXCzLINMkkkPM831a4RedvmjvsNlQ,4818
+bochscpu_python-0.1.5.dist-info/WHEEL,sha256=_pRHnG7RXHTfLWPkhpjxPMUWdw5mmujHl722lNXGpsw,115
+bochscpu_python-0.1.5.dist-info/entry_points.txt,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bochscpu_python-0.1.5.dist-info/licenses/LICENSE,sha256=nHU18V9xlouRjSG7cizPZgdn9V4VNi5QayvF5lqvbSA,1068
+bochscpu_python-0.1.5.dist-info/RECORD,,

@@ -1,0 +1,14 @@
+jetdnn/__init__.py,sha256=dsUunEEcqDdETfJ9iWANe_DxkRLoVpmUs8YvdlXYWuw,69
+jetdnn/interpret.py,sha256=rbikQLAGUKT2Ppe0iLqaWL0JxLoMmj1Q3kO-uLiAsrY,1331
+jetdnn/predict.py,sha256=-YmUoHhSz_9OtHq8eI_oPexFkkrW_uNGJX3aytneOOM,8166
+jetdnn/visualise.py,sha256=hdjRv4m5aHRcYbLXvQZ7cW7vStEINMXe95CBozq6bz4,3367
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_data_manip.py,sha256=3r2WA1YxRUOCV-51sgJfDcEJKAc6uzVkW5qY89lGXf4,967
+tests/test_interpret.py,sha256=IJyjkoMNPAz7LUt412uKCadarwKoIOxWOe2IRNKQv7I,376
+tests/test_predict.py,sha256=u3-Gbqqbu8I-wvSNDJJnTCNHvrmAZH5IfdI6MyE99Ec,1860
+tests/test_visualise.py,sha256=OwuoDu3ilryhnyPBpgI6PXFP63dmYKDxg5OwftO0DH8,1007
+JETDNN-1.2.0.dist-info/LICENSE,sha256=maNyT_IHs5QTIZQ6776CiBuP9Qsw4Ao3cH8_4v201Ao,1084
+JETDNN-1.2.0.dist-info/METADATA,sha256=eEonBovYyt-sOJRGM4er8jHajF_UnhG8xiOtl9oRYhA,394
+JETDNN-1.2.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+JETDNN-1.2.0.dist-info/top_level.txt,sha256=jWhrSe8XcKLK-i21NdgGKgx_HbEB1yDglZuP04xbmoQ,13
+JETDNN-1.2.0.dist-info/RECORD,,

@@ -1,0 +1,8 @@
+llm_falcon_model/__init__.py,sha256=fpAxUJ0WQ2EH_6fRtC14_GG308iZ7zOMp4EuPxOimpc,115
+llm_falcon_model/config_7b.json,sha256=dRph_dmsLKgLtwjDBS5HrZj8zw2-EwbnNoHIwC9gp7I,989
+llm_falcon_model/configuration_RW.py,sha256=5ebH13bV47PnK6_TyYki5dLV5AJfZlZSKJqiLtoMwzE,1040
+llm_falcon_model/modelling_RW.py,sha256=bmfyQSEKrfXyIp-F4mabwl7hByV3mCcbeMYFt0vqdes,10631
+llm_falcon_model-0.2.0.dist-info/METADATA,sha256=sqy-81_OUeyIIB6X7m5N0nWZHppOePcUT3SR653LsKk,994
+llm_falcon_model-0.2.0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+llm_falcon_model-0.2.0.dist-info/top_level.txt,sha256=zB_Bk3KhC3ZslR103xeCAsS-xt-4EoRdKZyNkaPhHGM,17
+llm_falcon_model-0.2.0.dist-info/RECORD,,

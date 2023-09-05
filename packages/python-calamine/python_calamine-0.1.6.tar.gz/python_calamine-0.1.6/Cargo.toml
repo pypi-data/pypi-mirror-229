@@ -1,0 +1,23 @@
+[package]
+name = "python-calamine"
+version = "0.1.6"
+authors = ["Dmitriy <dimastbk@proton.me>"]
+description = "Python binding for Rust's library for reading excel and odf file - calamine"
+edition = "2021"
+homepage = "https://github.com/dimastbk/python-calamine"
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/dimastbk/python-calamine"
+
+[lib]
+name = "python_calamine"
+crate-type = ["cdylib"]
+
+[dependencies]
+calamine = {git = "https://github.com/tafia/calamine.git", rev = "c860397432e39cf6566bba3e148ece3632ba88d7", features = ["dates"]}
+pyo3 = {version = "0.19.2", features = ["extension-module", "chrono"]}
+chrono = {version = "0.4.28", features = ["serde"]}
+pyo3-file = "0.7.0"
+
+[build-dependencies]
+pyo3-build-config = "0.19.2"

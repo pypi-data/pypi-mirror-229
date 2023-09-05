@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: streamlit-ripples
+Version: 0.0.1
+Summary: Streamlit component that allows you to do X
+Home-page: 
+Author: John Smith
+Author-email: john@example.com
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Provides-Extra: devel
+License-File: LICENSE
+
+# streamlit-ripples

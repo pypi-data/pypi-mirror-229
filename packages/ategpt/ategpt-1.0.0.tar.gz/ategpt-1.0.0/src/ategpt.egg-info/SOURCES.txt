@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+requirements.txt
+src/ategpt/__init__.py
+src/ategpt/ategpt.py
+src/ategpt.egg-info/PKG-INFO
+src/ategpt.egg-info/SOURCES.txt
+src/ategpt.egg-info/dependency_links.txt
+src/ategpt.egg-info/requires.txt
+src/ategpt.egg-info/top_level.txt

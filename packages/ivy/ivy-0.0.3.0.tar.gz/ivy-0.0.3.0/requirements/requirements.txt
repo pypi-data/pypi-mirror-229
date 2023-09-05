@@ -1,0 +1,12 @@
+numpy # unpinned we test with latest version now
+einops
+psutil
+termcolor
+colorama
+packaging
+nvidia-ml-py # mod_name=pynvml
+diskcache
+google-auth # mod_name=google.auth
+requests
+pyvis
+dill

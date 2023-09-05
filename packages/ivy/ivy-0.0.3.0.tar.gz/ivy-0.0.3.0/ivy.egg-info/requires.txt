@@ -1,0 +1,12 @@
+numpy
+einops
+psutil
+termcolor
+colorama
+packaging
+nvidia-ml-py
+diskcache
+google-auth
+requests
+pyvis
+dill

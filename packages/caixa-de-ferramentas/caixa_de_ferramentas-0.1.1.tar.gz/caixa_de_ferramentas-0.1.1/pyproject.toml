@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "caixa-de-ferramentas"
+version = "0.1.1"
+description = ""
+authors = ["Marco Menezes <marcoaurelioreislima@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.6"
+redis = "^5.0.0"
+kafka-python = "^2.0.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

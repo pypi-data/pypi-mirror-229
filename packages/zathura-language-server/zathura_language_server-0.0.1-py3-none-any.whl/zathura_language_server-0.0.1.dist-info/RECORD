@@ -1,0 +1,17 @@
+zathura_language_server/__init__.py,sha256=rMKx7H96TzrjRu1d4Zqki-uDwnunDNcbT3KXPH5PcWU,403
+zathura_language_server/__main__.py,sha256=9CE2AcptWceo5Kko9nF7QMNe1ToMrHWyUr1zB9sFvsA,1137
+zathura_language_server/_metainfo.py,sha256=3VZpn2f_PQe5rpSgc-a7mG7LlRiXmK8KmRurBTSoB3E,606
+zathura_language_server/_version.py,sha256=0E2q3bbXSYHV7qQaXVj0To-J2XdlP2Roo0TsM8oQtR4,160
+zathura_language_server/api.py,sha256=R6K9LQ9955M2PkDFGJECzEGbXyH9boohM0tV9sE2dOM,2354
+zathura_language_server/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+zathura_language_server/server.py,sha256=AYt__nxZL3__RyjXw4j5QHCp7iJKHmC9JzhuMXQ0cd4,5550
+zathura_language_server/assets/json/zathura.json,sha256=bJeAXhsnkIWPVE94XAdPZULpFRdD6QYAc2TLrOcXz-o,23495
+zathura_language_server-0.0.1.data/data/share/bash-completion/completions/zathura-language-server,sha256=vCa4vskfS76pK9tX38xcLLz0dI3Pmaip3XmbI4xrBRg,4064
+zathura_language_server-0.0.1.data/data/share/man/man1/zathura-language-server.1,sha256=Z7xGfPfy_TFk7Q5y_OzyqbB3cfV4za3bE31b7yvZHe8,442
+zathura_language_server-0.0.1.data/data/share/zsh/site-functions/_zathura-language-server,sha256=3ThyDKnFgVySS7EPEWvMz5sXajwEunP8siJA97jgX_c,1240
+zathura_language_server-0.0.1.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+zathura_language_server-0.0.1.dist-info/METADATA,sha256=uLo3nTcEfh2uxXZie-YfI26bbILI6zl2SfFwks5lXwY,7661
+zathura_language_server-0.0.1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+zathura_language_server-0.0.1.dist-info/entry_points.txt,sha256=TcX5IMNshF9d_SlSh84k-tiSO8SBtbO_u8UScN7kxDI,82
+zathura_language_server-0.0.1.dist-info/top_level.txt,sha256=Peoi78gcMm_RI-hDg4ZYCB2yujSToBQV9LlJ8tl5Uyo,24
+zathura_language_server-0.0.1.dist-info/RECORD,,

@@ -1,0 +1,9 @@
+README.md
+cobra.py
+setup.py
+cobra_meta.egg-info/PKG-INFO
+cobra_meta.egg-info/SOURCES.txt
+cobra_meta.egg-info/dependency_links.txt
+cobra_meta.egg-info/entry_points.txt
+cobra_meta.egg-info/requires.txt
+cobra_meta.egg-info/top_level.txt

@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: xalgorithm
+Version: 0.0.1
+Summary: My Data Structures and Algorithms Implemented in Python
+Home-page: https://github.com/keon/algorithms
+Author: Xiang Liu
+Author-email: dennisl@udel.edu
+License: MIT
+Platform: Linux
+Description-Content-Type: text/markdown
+
+My Implementation of Data Structure and Algorithms in Python
+============================================================
+
+
+## List of Implementations

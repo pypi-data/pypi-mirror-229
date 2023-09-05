@@ -1,0 +1,10 @@
+MANIFEST.in
+README.md
+setup.py
+xalgorithm/__init__.py
+xalgorithm/fact.py
+xalgorithm.egg-info/PKG-INFO
+xalgorithm.egg-info/SOURCES.txt
+xalgorithm.egg-info/dependency_links.txt
+xalgorithm.egg-info/not-zip-safe
+xalgorithm.egg-info/top_level.txt

@@ -1,0 +1,8 @@
+{
+  "urls": [
+    ["micropython_mc3479/mc3479.py", "github:jposada202020/MicroPython_MC3479/micropython_mc3479/mc3479.py"],
+    ["micropython_mc3479/i2c_helpers.py", "github:jposada202020/MicroPython_MC3479/micropython_mc3479/i2c_helpers.py"],
+    ["micropython_mc3479/__init__.py", "github:jposada202020/MicroPython_MC3479/micropython_mc3479/__init__.py"]
+  ],
+  "version": "1"
+}

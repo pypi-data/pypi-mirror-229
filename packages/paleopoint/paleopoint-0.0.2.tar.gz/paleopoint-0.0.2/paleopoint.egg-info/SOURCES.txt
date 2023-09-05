@@ -1,0 +1,5 @@
+setup.py
+paleopoint.egg-info/PKG-INFO
+paleopoint.egg-info/SOURCES.txt
+paleopoint.egg-info/dependency_links.txt
+paleopoint.egg-info/top_level.txt

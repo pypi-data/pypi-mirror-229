@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools >= 61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "McCalc"
+version = "0.0.9"
+authors = [
+    {name="Maciel Alves Alves", email="maciel70455@gmail.com"},
+]
+description = "Uma calculadora que funciona no modo com interface e sem interface."
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/macielalves/McCalc"
+"BugTracker" = "https://github.com/macielalves/McCalc/issues"

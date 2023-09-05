@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+src/McCalc/__init__.py
+src/McCalc.egg-info/PKG-INFO
+src/McCalc.egg-info/SOURCES.txt
+src/McCalc.egg-info/dependency_links.txt
+src/McCalc.egg-info/top_level.txt
+src/McCalc/calc_tela/calc_tela.py
+src/McCalc/term_calc/term_calc.py
+tests/teste.py

@@ -1,0 +1,6 @@
+README.md
+setup.py
+WebQuick.egg-info/PKG-INFO
+WebQuick.egg-info/SOURCES.txt
+WebQuick.egg-info/dependency_links.txt
+WebQuick.egg-info/top_level.txt

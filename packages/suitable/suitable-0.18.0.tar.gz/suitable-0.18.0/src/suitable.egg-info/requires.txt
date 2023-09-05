@@ -1,0 +1,16 @@
+ansible>=2.8.0.0
+ansible-core<2.14
+
+[dev]
+bandit[toml]
+flake8
+flake8-bugbear
+pre-commit
+tox
+
+[tests]
+mitogen>=0.2.8
+paramiko
+port-for
+pytest
+pytest-codecov[git]

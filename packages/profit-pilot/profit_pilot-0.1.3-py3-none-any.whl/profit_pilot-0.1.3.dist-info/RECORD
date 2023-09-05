@@ -1,0 +1,11 @@
+profit/__init__.py,sha256=x3LdgJ4ndeq24fDf860aj5mUgbD4xJGftnXuVMMXSmg,68
+profit/agent.py,sha256=12uAOK49kjIHDw4P08cTejAe0nbJ0zAUjHauhcWYiBY,3070
+profit/clarifi.py,sha256=DvTKt_lOKTAGd8PQJ2fa-co39o3mYVC9JMM-nc6lxzQ,1090
+profit/clarifi_agent.py,sha256=T38YDnkEudlV9_60BZHCbT7iZPFbImDploxuMIB2zfs,2733
+profit/llama.py,sha256=yQx4ygTpwI9vnp-ijZVW2MD6qA44ZVSLvJhr6JAotV4,2648
+profit/main.py,sha256=XVsWv6NfV-RyyYO7i_UbCMNPPqgIWJ3L7QjcGnc0YYU,5283
+profit/tools.py,sha256=neaDsoCfI_FggiIxB9ASjZAf8YPnPD4H7Rc8q6K6sSY,6812
+profit_pilot-0.1.3.dist-info/LICENSE,sha256=GuQZ4iPZUwh44duTbVr7ZzYp_SaJDLR9MvzU7YqlZXM,555
+profit_pilot-0.1.3.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+profit_pilot-0.1.3.dist-info/METADATA,sha256=aE6CHZQ095xi5BQ3u19k5qYNGnkHLapC-23bVXcbIq4,5708
+profit_pilot-0.1.3.dist-info/RECORD,,

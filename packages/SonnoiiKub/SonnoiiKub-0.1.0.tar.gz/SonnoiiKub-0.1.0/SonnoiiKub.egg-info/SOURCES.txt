@@ -1,0 +1,15 @@
+CHANGELOG.md
+LICENCE.txt
+MANIFEST.in
+README.md
+setup.py
+test.py
+SonnoiiKub/EDA.py
+SonnoiiKub/__init__.py
+SonnoiiKub/calculator.py
+SonnoiiKub.egg-info/PKG-INFO
+SonnoiiKub.egg-info/SOURCES.txt
+SonnoiiKub.egg-info/dependency_links.txt
+SonnoiiKub.egg-info/not-zip-safe
+SonnoiiKub.egg-info/requires.txt
+SonnoiiKub.egg-info/top_level.txt

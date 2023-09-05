@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: SonnoiiKub
+Version: 0.1.0
+Summary: ฟังก์ชันของ Son Thichakon
+Home-page: 
+Author: Thichakon
+Author-email: thichakon26@gmail.com
+License: MIT
+Keywords: SThichakon
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: Operating System :: Microsoft :: Windows :: Windows 11
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+License-File: LICENCE.txt
+
+
+ฟังก์ชันของ Thichakon <br>
+เพื่อทดสอบการใช้งาน upload library
+
+Change Log
+==========
+
+0.1.0 (01/09/2023) <br>
+------------------- 
+- First Release

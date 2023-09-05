@@ -1,0 +1,13 @@
+odoo/addons/hr_expense_remove_mobile_link/README.rst,sha256=1h3ci7RoGzXuZeLLOLZYO3lITUMEDk_XmsaH3XIvW5o,3064
+odoo/addons/hr_expense_remove_mobile_link/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+odoo/addons/hr_expense_remove_mobile_link/__manifest__.py,sha256=tlmtwh1xBVmBCyd1PABNxpIDvd8A-K7pvEzv4r9o_y8,462
+odoo/addons/hr_expense_remove_mobile_link/i18n/hr_expense_remove_mobile_link.pot,sha256=leB6MlaWiU1sPOdcOTxNVY5KVORnHv0MfD14HgQJIIs,341
+odoo/addons/hr_expense_remove_mobile_link/readme/CONTRIBUTORS.rst,sha256=zGE3ylUm1Eoff35lDKSR7qjid1fKlfttgA-mH9pF5k4,146
+odoo/addons/hr_expense_remove_mobile_link/readme/DESCRIPTION.rst,sha256=uGpnyh8_89D0N6ZhAyhbguBGLD913MJIEvFIGVzq7j8,110
+odoo/addons/hr_expense_remove_mobile_link/static/description/icon.png,sha256=6xBPJauaFOF0KDHfHgQopSc28kKvxMaeoQFQWZtfZDo,9455
+odoo/addons/hr_expense_remove_mobile_link/static/description/index.html,sha256=xVre2z9dB0l2ovopm-vymghJkREhq3IShV5djSo7Zj8,12517
+odoo/addons/hr_expense_remove_mobile_link/views/hr_expense.xml,sha256=lMlwFNyvj175bSPr4dS2XFeV-k_DfALgBd2k8PLDeQY,415
+odoo_addon_hr_expense_remove_mobile_link-16.0.1.0.0.3.dist-info/METADATA,sha256=PeQV2Xe8RaBgwGpxsU442bTtS_6Is7hFkaiIXRoXOWY,3639
+odoo_addon_hr_expense_remove_mobile_link-16.0.1.0.0.3.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+odoo_addon_hr_expense_remove_mobile_link-16.0.1.0.0.3.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
+odoo_addon_hr_expense_remove_mobile_link-16.0.1.0.0.3.dist-info/RECORD,,

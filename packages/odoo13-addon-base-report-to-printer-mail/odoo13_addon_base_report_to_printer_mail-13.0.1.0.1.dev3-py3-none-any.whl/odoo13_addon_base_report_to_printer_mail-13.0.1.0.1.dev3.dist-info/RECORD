@@ -1,0 +1,16 @@
+odoo/addons/base_report_to_printer_mail/README.rst,sha256=YalD8rpUC_69IcoW_DV9orKRaVbbiwtzI8J6OmKXuJA,3023
+odoo/addons/base_report_to_printer_mail/__init__.py,sha256=X9EJGOE2GtZbS0G82PtSXmWSZ_R8jEM0rlJTDliQjp4,21
+odoo/addons/base_report_to_printer_mail/__manifest__.py,sha256=MvVawg7pqUcK3oXLKeioOqzUf260lG0FejOS5Lh1Eqo,452
+odoo/addons/base_report_to_printer_mail/i18n/base_report_to_printer_mail.pot,sha256=-aP6ei4cdJGb7fcSSel4Pv8RqduYUu--MJ67RAC-fYQ,519
+odoo/addons/base_report_to_printer_mail/models/__init__.py,sha256=x9vkJvm0f_Y1M70bXmTVtGldFtY7Ihlt3xVJAaQuz00,28
+odoo/addons/base_report_to_printer_mail/models/mail_template.py,sha256=fjJVHSjH0nMFlr3aN2BKfGY3YbWPsSVys8T7IpXK7nk,291
+odoo/addons/base_report_to_printer_mail/readme/CONTRIBUTORS.rst,sha256=ya3pgXjz4Z4VlGAgLkN0H5kKNFMw0uaz1tnZLhFVUI0,31
+odoo/addons/base_report_to_printer_mail/readme/DESCRIPTION.rst,sha256=qpoV7uAWPkAjyc5KKyUrgQtnKARDy9II8aQoazh5XYU,123
+odoo/addons/base_report_to_printer_mail/static/description/icon.png,sha256=6xBPJauaFOF0KDHfHgQopSc28kKvxMaeoQFQWZtfZDo,9455
+odoo/addons/base_report_to_printer_mail/static/description/index.html,sha256=3QGG1yDCzz_gO4dyuUhMbm4jOvpTcfwl_s7RL8pYtQM,12285
+odoo/addons/base_report_to_printer_mail/tests/__init__.py,sha256=XkD-w-lhClKHD9Fi9iAmwPmO3njioyf7X19AmNa4Qbk,94
+odoo/addons/base_report_to_printer_mail/tests/test_mail.py,sha256=EXD3LV6825iVuuyiO04kVwZkb6gKBbFcXqylC83QL3M,3267
+odoo13_addon_base_report_to_printer_mail-13.0.1.0.1.dev3.dist-info/METADATA,sha256=KQ4hKDl22A8K8oM1rlBP9R54QiVJ1zE-2ErumtH_XKc,3642
+odoo13_addon_base_report_to_printer_mail-13.0.1.0.1.dev3.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+odoo13_addon_base_report_to_printer_mail-13.0.1.0.1.dev3.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
+odoo13_addon_base_report_to_printer_mail-13.0.1.0.1.dev3.dist-info/RECORD,,

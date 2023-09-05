@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- JS libraries -->
+    <script src="https://cdn.rawgit.com/Microsoft/PowerBI-JavaScript/master/dist/powerbi.min.js"
+        type="text/javascript"></script>
+
+    <!-- variables created by Python script -->
+    <script type="text/javascript" src="token.json"></script>
+    <script type="text/javascript" src="parameters.json"></script>
+
+    <script>
+
+        var PBIEtoken = accessToken.PBIToken;
+        var embedUrl = reportParameters.reportUrl;
+        // console.log(PBIEtoken);
+
+        var pageName = (reportParameters.pageName == undefined ? null : reportParameters.pageName);
+        var reportId = (reportParameters.reportId == undefined ? null : reportParameters.reportId);
+        console.log(pageName, reportId);
+
+        var slicersList = [];
+        for (slicerParameters of reportParameters.slicers) {
+
+            var table = slicerParameters.table;
+            var column = slicerParameters.column;
+            var slicer = {
+                selector: {
+                    $schema: "http://powerbi.com/product/schema#slicerTargetSelector",
+                    target: { table: table, column: column }
+                },
+                state: {
+                    filters: [
+                        {
+                            $schema: "http://powerbi.com/product/schema#basic",
+                            target: { table: table, column: column },
+                            operator: "In",
+                            values: slicerParameters.values,
+                        }
+                    ]
+                }
+            }
+
+            slicersList.push(slicer);
+        };
+
+        console.log(slicersList);
+
+        var report;
+        var startTime;
+        var endTime;
+        var duration;
+
+        function EmbedReport() {
+
+            // Tips: Get models objects and enum
+            // var models = window['powerbi-client'].models;    
+
+            var config = {
+                type: 'report',
+                tokenType: 0, // models.TokenType.Aad
+                accessToken: PBIEtoken,
+                embedUrl: embedUrl,
+                id: reportId,
+                // filters: filterValue.filters,
+                slicers: slicersList,
+                pageName: pageName,
+                // bookmark: { name: bookmarkValue },
+                settings: {
+                    filterPaneEnabled: false,
+                    navContentPaneEnabled: true,
+                    layoutType: 0  // models.LayoutType[layoutType]
+                }
+
+            };
+
+            console.log(config);
+
+            report = powerbi.embed(embedDiv, config);
+
+            report.on("loaded", function () {
+                startTime = new Date();
+                console.log("PowerBI starts loading...");
+            });
+
+            report.on("error", function (event) {
+                console.log(event.detail);
+                report.off("error");
+            });
+
+            report.on("rendered", function () {
+                endTime = new Date();
+                console.log("PowerBI rendered!");
+                duration = endTime - startTime; // elapsed time in milliseconds
+                duration = duration / 1000; // time in seconds
+                console.log("Duration: " + duration);
+            });
+
+        }
+    </script>
+
+</head>
+
+<body>
+
+    <div id="LoadReportCounter">0</div>
+    <!-- <hr style="width:99%;" /> -->
+    <div id="embedDiv" style="height: 80vh"></div>
+
+</body>
+
+<script>
+    if (report == undefined) EmbedReport();
+</script>
+
+</html>

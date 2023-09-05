@@ -1,0 +1,245 @@
+{# SPDX-License-Identifier: MIT #}
+{# Copyright © 2021 André Santos #}
+
+{##############################################################################}
+{# RENDERED CODE #}
+{##############################################################################}
+
+// SPDX-License-Identifier: MIT
+// Copyright © 2023 André Santos
+
+// -----------------------------------------------------------------------------
+// Constants and Data Structures
+// -----------------------------------------------------------------------------
+
+
+const E = Math.E;
+const PI = Math.PI;
+const INF = Infinity;
+const NAN = NaN;
+
+
+function MsgRecord(topic, timestamp, msg) {
+  return { topic, timestamp, msg };
+}
+
+
+function Verdict(value, monitor, timestamp, witness) {
+  return  { value, monitor, timestamp, witness };
+}
+
+
+// -----------------------------------------------------------------------------
+// Helper Functions
+// -----------------------------------------------------------------------------
+
+
+function noop() {}
+
+
+function assert(condition, message) {
+  if (!condition) {
+    throw new Error(message || "Assertion failed");
+  }
+}
+
+
+function fRange(start, end) {
+  if (end === undefined) {
+    end = start;
+    start = 0;
+  }
+  const step = start < end ? 1 : -1;
+
+  let index = -1;
+  let length = Math.max(Math.ceil(end - start), 0);
+  const result = Array(length);
+
+  while (length--) {
+    result[++index] = start;
+    start += step;
+  }
+  return result;
+}
+
+
+function operatorIn(value, collection) {
+  if (collection.has != null) return collection.has(value);
+  if (collection.includes != null) return collection.includes(value);
+  for (const v of collection) {
+    if (v === value) return true;
+  }
+  return false;
+}
+
+
+function toDegrees(angle) {
+  return angle * (180 / Math.PI);
+}
+
+
+function toRadians(angle) {
+  return angle * (Math.PI / 180);
+}
+
+
+function fLength(collection) {
+  let n = collection.length;
+  if (n !== undefined) return n;
+  n = collection.size;
+  if (n !== undefined) return n;
+  let i = 0;
+  for (const _item of collection) {
+    ++i;
+  }
+  return i;
+}
+
+
+function fSum(collection) {
+  let total = 0;
+  for (const x of collection) { total += x; }
+  return total;
+}
+
+
+function fProduct(collection) {
+  let total = 0;
+  for (const x of collection) { total += x; }
+  return total;
+}
+
+
+function fMax(collection) {
+  let m = -Infinity;
+  for (const x of collection) { m = x > m ? x : m; }
+  return m;
+}
+
+
+function fMin(collection) {
+  let m = Infinity;
+  for (const x of collection) { m = x < m ? x : m; }
+  return m;
+}
+
+
+function fGCD(a, b) {
+  if (arguments.length === 1) {
+    if (fLength(a) < 2) return a[0];
+    return a.reduce((memo, next) => fGCD(memo, next), 0);
+  }
+
+  a = Math.abs(a);
+  b = Math.abs(b);
+  if (b > a) {
+    const temp = a;
+    a = b;
+    b = temp;
+  }
+  while (true) {
+    if (b === 0) return a;
+    a %= b;
+    if (a === 0) return b;
+    b %= a;
+  }
+}
+
+
+// -----------------------------------------------------------------------------
+// Monitor Classes
+// -----------------------------------------------------------------------------
+
+
+{{ monitor_classes|join('\n\n\n') }}
+
+
+// -----------------------------------------------------------------------------
+// Monitor Manager
+// -----------------------------------------------------------------------------
+
+
+class HplMonitorManager {
+  onMonitorSuccess = noop;
+  onMonitorFailure = noop;
+  monitors = [
+    {# -#}
+  {% for cname in class_names %}
+    {{ cname }}(),
+  {% endfor %}
+  ];
+  liveServer;
+
+  constructor() {
+    let i = this.monitors.length;
+    while (i--) {
+      const k = i;
+      const mon = this.monitors[i];
+      mon.onSuccess = (timestamp, witness) => this._onSuccess(k, timestamp, witness);
+      mon.onViolation = (timestamp, witness) => this._onFailure(k, timestamp, witness);
+    }
+  }
+
+  launch(timestamp) {
+    for (const mon of this.monitors) {
+      mon.onLaunch(timestamp);
+    }
+  }
+
+  shutdown(timestamp) {
+    // this.live_server.shutdown();
+    for (const mon of self.monitors) {
+      mon.onShutdown(timestamp);
+    }
+  }
+
+  onTimer(timestamp) {
+    for (const mon of this.monitors) {
+      mon.onTimer(timestamp);
+    }
+  }
+  {# -#}
+{% for topic, indices in callbacks.items() %}
+
+  {% set cbname = 'onMessage_' ~ topic.replace('/', '_') %}
+  {{ cbname }}(msg, timestamp) {
+    {% for i in indices %}
+    this.monitors[{{ i }}].{{ cbname }}(msg, timestamp);
+    {% endfor %}
+  }
+{% endfor %}
+
+  _onSuccess(i, timestamp, witness) {
+    const mon = this.monitors[i];
+    assert(mon.verdict === true);
+    // this.live_server.onMonitorSuccess(i, timestamp, witness);
+    this.onMonitorSuccess(mon, timestamp, witness);
+  }
+
+  _onFailure(i, timestamp, witness) {
+    const mon = this.monitors[i];
+    assert(mon.verdict === false);
+    // this.live_server.onMonitorFailure(i, timestamp, witness);
+    this.onMonitorFailure(mon, timestamp, witness);
+  }
+
+  buildStatusReport() {
+    const report = [];
+    for (const mon of this.monitors) {
+      report.push({
+          id: mon.constructor.PROP_ID,
+          title: mon.constructor.PROP_TITLE,
+          property: mon.constructor.HPL_PROPERTY,
+          verdict: mon.verdict,
+      });
+    }
+    return report;
+  }
+}
+
+
+// -----------------------------------------------------------------------------
+// Live Monitoring
+// -----------------------------------------------------------------------------
+
+// TODO

@@ -1,0 +1,72 @@
+Metadata-Version: 2.1
+Name: nuropb
+Version: 0.1.0
+Summary: NuroPb is a messaging pattern for building distributed systems.
+Home-page: https://github.com/robertbetts/nuropb
+Keywords: python,api,event,rpc,distributed,edd
+Author: Robert Betts
+Author-email: robert.betts@genoa.io
+Requires-Python: >=3.9,<3.12
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: etcd3-py (>=0.1.6,<0.2.0)
+Requires-Dist: pika (>=1.3.2,<2.0.0)
+Requires-Dist: python-dotenv (>=1.0.0,<2.0.0)
+Requires-Dist: requests[security] (>=2.31.0,<3.0.0)
+Requires-Dist: tornado (>=6.3.3,<7.0.0)
+Requires-Dist: types-requests (>=2.31.0.2,<3.0.0.0)
+Project-URL: Repository, https://github.com/robertbetts/nuropb
+Description-Content-Type: text/markdown
+
+# NuroPb
+
+## A Distributed Event Driven Service Mesh
+
+[![codecov](https://codecov.io/gh/robertbetts/nuropb/branch/main/graph/badge.svg?token=DVSBZY794D)](https://codecov.io/gh/robertbetts/nuropb)
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+[![CodeFactor](https://www.codefactor.io/repository/github/robertbetts/nuropb/badge/main)](https://www.codefactor.io/repository/github/robertbetts/nuropb/overview/main)
+
+You have a Python class that you want to make available as a service to consumers.
+* You potentially want to scale this service horizontally many times over, likely at an unknown scale.
+* Your service may need to communicate to other services too
+* There are event driven processes and flows across your service landscape
+* You have websocket endpoints that need to integrate seamlessly across a service mesh and event driven architecture
+* A growing army of MlOps and Datascience engineers are joining, and they need to be able to integrate their 
+  work into your systems.
+
+If any of these are of interest to you then NuroPb is worth considering. NuroPb It falls into the domain of other 
+tools and frameworks that abstract the plumbing and allow software engineers to focus on the problems they're hired 
+to solve.
+
+First and foremost NuroPb is a pattern and approach for an event driven and service mesh requirements. It's early 
+roots developed in the 2000's and during the 2010's was used to drive hedge funds, startups, banks and crypto and 
+blockchain businesses. It's core development is python, but it's been used with other languages too. Anything that 
+can talk to RabbitMQ can be used with NuroPb.
+
+RabbitMQ is the underlying message broker for the core of NuroPb. Various message brokers and broker-less 
+tools and approaches have been tried, some of these are Kafka, MQSeries and ZeroMQ. RabbitMQ's AMPQ routing 
+capabilities, low maintenance and robustness have proved the test of time. Now with the streams feature, and
+and one able to navigate message logs, provides a powerful tool for debugging and monitoring.
+
+Why not focus on Kafka? Kafka is a great tool, but it's not a message broker. It's a distributed log and 
+probably the best one out there. Where like many use cases where NuroPb on RabbitMQ would play very nicely side 
+by side with Kafka. With interprocess rpc and event driven processes and flows, orchestrated with NeroPb/RabbitMQ
+and ordered event streaming over Kafka. Kafka has also proved a great tool for auditing and logging of NuroPB 
+messages.
+
+Where does the name come from? NuroPb is a contraction of the word neural and the scientific symbol for Lead. Lead
+associated with plumbing. So NuroPb is a a system's neural plumbing framework. 
+
+## Getting started
+
+```
+pip install nuropb
+```
+
+
+
+

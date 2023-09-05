@@ -1,0 +1,60 @@
+## 0.4.3+
+Another attempt at fixing missing line lists...
+
+## 0.4.2
+Fixed H2 partition function bug added missing line lists. 
+
+## 0.4.0
+* Major optimisation of how the spectra is calculated, removed multiple for loops, which should speed things up significantly. h3ppy now calculates the intensities for all the lines in the line list, rather than just a subset.
+* Updated the H2 partition function (Q) fit, valid between 250 and 2000 K
+* Included the H2 total emission as just the sum of the individual line intensities
+
+## 0.3.2
+* Fixed problems with the H2 line list data
+* Now shortcuts are introduced for setting variables: 
+  - temperature: T
+  - density: N
+  - wavelength: wave, w
+
+## 0.3.1
+* Fixed H2 dQdT bug
+* Optimised intensity calculation (calculate_line_intensities)
+* np.float removed as it is deprecated, changed to float()
+* h3p.guess_density made more robust() - hopefully!
+
+## 0.3.0
+
+* Added experimental support for modelling H2 emission lines
+
+## 0.2.9
+
+* Fixed T < 100 K error reporting in fit()
+* Increased the default number of default iterations in fit() - was seeing it leaving the function too early. 
+
+## 0.2.8
+
+* Fixed keyword argument bug. Changed '-' to '_' to make valid keywords (thanks to Emma for finding this bug!)
+* Added add_noise() - untested as of yet
+
+## 0.2.7
+
+* Fixed an exponent error in the temperature derivative of the H3+ partition function, dQdT
+* Removed negative line width sanity check - failed when fitting polynomial expressions of the sigma
+* Now sorting the get_results() and print_vars() output
+* Added get_rest_wavelength() which returns the offset wavelength scale at H3+ rest wavelengths 
+
+## 0.2.6
+
+* Fixed major fitting but, mainly seen at low spectral resolutions when line-blending is strong
+* Introduced a verbose keyword in fit(), which helps debug things
+* print_vars() lists the current set of variables the model works with
+* Fixed error in the implementation of linear/quadratic offsets
+
+## 0.2.5
+
+* Introduced guess_density() and guess_offset() to aid the fitting process
+* xlabel() and ylabel() provides the matplotlib formatted x and y label for wavelength and intensity respectively
+
+## 0.2.2
+
+Initial release 

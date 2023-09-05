@@ -1,0 +1,17 @@
+sruthi<3,>=2.0.0
+termcolor
+appdirs
+SPARQLWrapper
+cmd2
+pyyaml
+rdflib<8,>=7.0.0
+Pygments
+
+[:platform_system == "Windows"]
+pyreadline3
+colorama
+
+[dev]
+pytest
+sphinx
+ruff

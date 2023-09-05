@@ -1,0 +1,5 @@
+{
+  "packageManager": "python",
+  "packageName": "abirami_hide_code",
+  "uninstallInstructions": "Use your Python package manager (pip, conda, etc.) to uninstall the package abirami_hide_code"
+}

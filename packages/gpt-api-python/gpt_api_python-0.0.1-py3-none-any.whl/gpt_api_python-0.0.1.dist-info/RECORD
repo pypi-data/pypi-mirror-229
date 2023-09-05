@@ -1,0 +1,9 @@
+gpt_api/__init__.py,sha256=qLNhjze38J6cW6-GhwFqcUp5ID9O4BEI-gQb21AW_84,1222
+gpt_api/__main__.py,sha256=57kbOKVcSd0iHCnB_KncKKGQ_9fZYv-CwrvwUbhqww4,36
+gpt_api/cli.py,sha256=g9yPyjUQeuVV9fTrJuXfcKsJoKMNZbXEnfynuAeCUcM,788
+gpt_api_python-0.0.1.dist-info/LICENSE,sha256=yQ3WJzIkXuebvAtX0oD4mzBeie33MHfyOC5HKK5zLEM,1344
+gpt_api_python-0.0.1.dist-info/METADATA,sha256=g6iH5_6pDwqttJVyJBU-F9bfQcb-S9zCxOIU7925ZWs,2086
+gpt_api_python-0.0.1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+gpt_api_python-0.0.1.dist-info/entry_points.txt,sha256=vRqpHeQay5R3hbEW0SUtHhT16ZHcjdnmaNvX7VG39co,50
+gpt_api_python-0.0.1.dist-info/top_level.txt,sha256=6t1D5_2oUd4A7PSB7IfxKcdLJsVBDNyw_uDkvziLlf8,8
+gpt_api_python-0.0.1.dist-info/RECORD,,

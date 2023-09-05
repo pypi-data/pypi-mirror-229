@@ -1,0 +1,7 @@
+cryptography
+emonic-admin
+itsdangerous
+jinja2
+qrcode
+uuid
+werkzeug

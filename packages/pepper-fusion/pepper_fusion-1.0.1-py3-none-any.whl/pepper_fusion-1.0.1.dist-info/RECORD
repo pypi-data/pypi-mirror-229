@@ -1,0 +1,13 @@
+pepper-fusion-api/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pepper-fusion-data-compare/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pepper-fusion-data-compare/pepper_fusion_filecompare.py,sha256=-T7p-5iTO824jRw7NMB5w037pdnnS_fU0JYarJfT9wk,8995
+pepper-fusion-ml-ds/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pepper-fusion-ml-ds/convert-to-safetensors.py,sha256=Bcl4zYXv4eZ0Mow4wJla0DAfQfc64IL_6d_cyKUaMRw,1725
+pepper-fusion-ml-ds/download-model.py,sha256=jca_42E9sk6_E5AoWlSfkjBXrmEDpQ4Ond7CAIuw-z8,12297
+pepper-fusion-ml-ds/server.py,sha256=xkmABWOeFR9u9gIDaJlXHgwADtAqCQCDBpuYYLQcWR0,8968
+pepper-fusion-predictive/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pepper_fusion-1.0.1.dist-info/LICENSE,sha256=5ZhWVe3h7Mf-3TjvQXH3Gug9d7c9xa9zPBdzCcVpw7A,1093
+pepper_fusion-1.0.1.dist-info/METADATA,sha256=1faVtlsB85OF-3YsaMYuewkKblXqOVrH73j3NFeciJI,2176
+pepper_fusion-1.0.1.dist-info/WHEEL,sha256=5sUXSg9e4bi7lTLOHcm6QEYwO5TIF1TNbTSVFVjcJcc,92
+pepper_fusion-1.0.1.dist-info/top_level.txt,sha256=RhDds5gMhhBXlpmy2MRCiFLJ88mmMnmZQ5CWd9yaT3g,90
+pepper_fusion-1.0.1.dist-info/RECORD,,

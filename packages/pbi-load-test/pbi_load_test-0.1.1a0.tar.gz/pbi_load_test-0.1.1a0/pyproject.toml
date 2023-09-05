@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "pbi-load-test"
+version = "0.1.1a0"
+description = "Python package and CLI application to measure Power BI reports loading capacity, using different filters and parameters."
+authors = ["Léo Grosjean <leo.bigjin@gmail.com>"]
+readme = "README.md"
+packages = [{ include = "pbi_load_test", from = "src" }]
+
+[tool.poetry.scripts]
+pbi-load-test = "pbi_load_test.cli:cli"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+click = "^8.1.7"
+pyyaml = "^6.0.1"
+requests = "^2.31.0"
+azure-identity = "^1.14.0"
+selenium = "^4.12.0"
+
+[tool.poetry.group.dev]
+optional = true
+
+[tool.poetry.group.dev.dependencies]
+black = "^23.7.0"
+ruff = "^0.0.287"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

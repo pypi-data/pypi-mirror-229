@@ -1,0 +1,3 @@
+[console_scripts]
+diffbro=py_diffbro.main:main
+

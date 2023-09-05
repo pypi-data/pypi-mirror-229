@@ -1,0 +1,2 @@
+[console_scripts]
+pykatsuyou = pykatsuyou.cli:main

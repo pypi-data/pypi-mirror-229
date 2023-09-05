@@ -1,0 +1,16 @@
+odoo/addons/purchase_origin_link_sale/README.rst,sha256=FwoLkUecyZ51HnUS6lWi8lkUOSlbwiSEN0s_YEmI5Ik,3391
+odoo/addons/purchase_origin_link_sale/__init__.py,sha256=X9EJGOE2GtZbS0G82PtSXmWSZ_R8jEM0rlJTDliQjp4,21
+odoo/addons/purchase_origin_link_sale/__manifest__.py,sha256=H2l3k53xuP8G1FuFxhT9WzrCb_L9u667BDXOc2dHjns,625
+odoo/addons/purchase_origin_link_sale/i18n/purchase_origin_link_sale.pot,sha256=Hb2Y4SX-BLbo38MpjU2JnmOyHXe-eSlcDGWV8i2XX_4,513
+odoo/addons/purchase_origin_link_sale/models/__init__.py,sha256=DDoSUzUJ2zVg4zxbV9M1eu7c-JSqe9PXFE46JT-2s0I,23
+odoo/addons/purchase_origin_link_sale/models/purchase.py,sha256=NBJ-iQh49Cu6EZfyKOxvbNuqFF8zBeFYLRX4NyCn6AU,887
+odoo/addons/purchase_origin_link_sale/readme/CONTRIBUTORS.rst,sha256=Ai1u5d0-Y_3UrxxLoPvIq-1ouucrQt4S-gen5Grk_JM,120
+odoo/addons/purchase_origin_link_sale/readme/DESCRIPTION.rst,sha256=1ZqL3vOmVSGOXimnS03jgqUCn1eTwL_EwsOXJ3JR0DI,146
+odoo/addons/purchase_origin_link_sale/static/description/icon.png,sha256=6xBPJauaFOF0KDHfHgQopSc28kKvxMaeoQFQWZtfZDo,9455
+odoo/addons/purchase_origin_link_sale/static/description/index.html,sha256=111tt_qHCm9DP-VVc5gLybF9Kb1yHmi_AAIQ9p6m_DU,12788
+odoo/addons/purchase_origin_link_sale/tests/__init__.py,sha256=DiXQa2EIOre6pUH5fvssc1BvXHPmI69OAwAqFcYMECY,45
+odoo/addons/purchase_origin_link_sale/tests/test_purchase_origin_link_sale.py,sha256=XBRR6y1C8MKszOhLmM2mmAaSPD-LdRp-i_nt47aV_CI,1615
+odoo13_addon_purchase_origin_link_sale-13.0.1.0.2.dev1.dist-info/METADATA,sha256=NTscl8X6CNkgVrqdsVzKF2jvHM2r5_O1pMwV5VT53Z0,4045
+odoo13_addon_purchase_origin_link_sale-13.0.1.0.2.dev1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+odoo13_addon_purchase_origin_link_sale-13.0.1.0.2.dev1.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
+odoo13_addon_purchase_origin_link_sale-13.0.1.0.2.dev1.dist-info/RECORD,,

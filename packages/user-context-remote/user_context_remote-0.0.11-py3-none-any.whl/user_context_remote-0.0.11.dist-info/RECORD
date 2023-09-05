@@ -1,0 +1,7 @@
+user_context/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+user_context/src/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+user_context/src/user_context.py,sha256=5XD8T_1JCNcZ0vRDlVhXmF4AJqo4GlotOt7K7UV-JVQ,7506
+user_context_remote-0.0.11.dist-info/METADATA,sha256=qxVGlCqNNdaB-LOQm--3H-Nz3Q7eBHu_ficmw-9lXeY,485
+user_context_remote-0.0.11.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+user_context_remote-0.0.11.dist-info/top_level.txt,sha256=tNZN5OE0iZGbuLYLxXB0Z3CTExULakZHbGiMghUBLek,13
+user_context_remote-0.0.11.dist-info/RECORD,,

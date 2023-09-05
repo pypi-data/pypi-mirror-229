@@ -1,0 +1,5 @@
+setup.py
+laboral_kutxa.egg-info/PKG-INFO
+laboral_kutxa.egg-info/SOURCES.txt
+laboral_kutxa.egg-info/dependency_links.txt
+laboral_kutxa.egg-info/top_level.txt

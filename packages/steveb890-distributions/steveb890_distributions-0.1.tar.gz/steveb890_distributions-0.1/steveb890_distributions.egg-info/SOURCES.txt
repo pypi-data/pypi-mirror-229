@@ -1,0 +1,11 @@
+setup.cfg
+setup.py
+distributions/Binomialdistribution.py
+distributions/Gaussiandistribution.py
+distributions/Generaldistribution.py
+distributions/__init__.py
+steveb890_distributions.egg-info/PKG-INFO
+steveb890_distributions.egg-info/SOURCES.txt
+steveb890_distributions.egg-info/dependency_links.txt
+steveb890_distributions.egg-info/not-zip-safe
+steveb890_distributions.egg-info/top_level.txt

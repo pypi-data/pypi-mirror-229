@@ -1,0 +1,12 @@
+README.txt
+setup.py
+chartoscope/__init__.py
+chartoscope/currency.py
+chartoscope/currency_pair.py
+chartoscope/global_constants.py
+chartoscope/tickfile.py
+chartoscope.egg-info/PKG-INFO
+chartoscope.egg-info/SOURCES.txt
+chartoscope.egg-info/dependency_links.txt
+chartoscope.egg-info/top_level.txt
+chartoscope/lib/libchartoscope.so

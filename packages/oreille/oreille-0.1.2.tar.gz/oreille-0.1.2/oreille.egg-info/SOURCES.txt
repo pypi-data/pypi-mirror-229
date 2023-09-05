@@ -1,0 +1,13 @@
+AUTHORS.rst
+LICENSE
+README.rst
+setup.cfg
+setup.py
+oreille.egg-info/PKG-INFO
+oreille.egg-info/SOURCES.txt
+oreille.egg-info/dependency_links.txt
+oreille.egg-info/not-zip-safe
+oreille.egg-info/requires.txt
+oreille.egg-info/top_level.txt
+tests/test_ecoute.py
+tests/test_export.py

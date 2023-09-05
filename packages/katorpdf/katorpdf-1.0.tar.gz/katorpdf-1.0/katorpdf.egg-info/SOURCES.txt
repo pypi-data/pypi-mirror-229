@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+katorpdf/__init__.py
+katorpdf/pdf2image.py
+katorpdf/pdf2text.py
+katorpdf.egg-info/PKG-INFO
+katorpdf.egg-info/SOURCES.txt
+katorpdf.egg-info/dependency_links.txt
+katorpdf.egg-info/top_level.txt

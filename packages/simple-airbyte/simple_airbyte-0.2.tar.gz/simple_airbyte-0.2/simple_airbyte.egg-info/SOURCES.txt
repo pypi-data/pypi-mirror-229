@@ -1,0 +1,15 @@
+.gitignore
+LICENSE
+README.md
+logo.png
+setup.py
+simple_airbyte/__init__.py
+simple_airbyte/airbyte_utils.py
+simple_airbyte/connections.py
+simple_airbyte/destinations.py
+simple_airbyte/sources.py
+simple_airbyte.egg-info/PKG-INFO
+simple_airbyte.egg-info/SOURCES.txt
+simple_airbyte.egg-info/dependency_links.txt
+simple_airbyte.egg-info/requires.txt
+simple_airbyte.egg-info/top_level.txt

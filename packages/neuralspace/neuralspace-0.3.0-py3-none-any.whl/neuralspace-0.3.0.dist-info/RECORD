@@ -1,0 +1,10 @@
+neuralspace/__init__.py,sha256=gTW7dj9RIivTXDrbvhFonkGWDnzCOQrCt2SuHlcr43I,148
+neuralspace/constants.py,sha256=XolFt-x_vz2TSLROk1XZDjqsg9iW1dkKf_4hNWB85F0,940
+neuralspace/env.py,sha256=80IfdIIrbvcfNMLy97Sw6eutzxBE4fCu8cdiyJNuUgE,223
+neuralspace/utils.py,sha256=HiHOEJlYHip9PckyU9CWK-WnsZwOgSqgygsP8TEumO4,1994
+neuralspace/version.py,sha256=EqIccytbgmIh3EOfv7QIiksdjJSlB-o2LbyXxRtoMGs,18
+neuralspace/voice_ai.py,sha256=TPkZMVA2qeiVHgtCv0uQ3XLgvNf7fK07xeuoyHmhJsA,7653
+neuralspace-0.3.0.dist-info/METADATA,sha256=UNHeQeR9zETmVhfm7CHaMTQARngQKDgvwF6uKsIt5K4,4436
+neuralspace-0.3.0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+neuralspace-0.3.0.dist-info/top_level.txt,sha256=Kzy-zosaxSctnjFfEYCjzIoEpwR-v8S3NGIF_xfZn38,12
+neuralspace-0.3.0.dist-info/RECORD,,

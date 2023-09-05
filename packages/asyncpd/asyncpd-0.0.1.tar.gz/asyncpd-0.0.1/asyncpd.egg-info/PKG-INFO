@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: asyncpd
+Version: 0.0.1
+Summary: Asyncio compatible API client for PagerDuty.
+Author-email: Bradley Bonitatibus <bradleybonitatibus@gmail.com>
+License: Apache-2.0
+Project-URL: Documentation, https://github.com/bradleybonitatibus/asyncpd
+Project-URL: Homepage, https://github.com/bradleybonitatibus/asyncpd
+Project-URL: Repository, https://github.com/bradleybonitatibus/asyncpd
+Classifier: Development Status :: 1 - Planning
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Software Development :: Libraries
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# asyncpd
+Asyncio compatible PagerDuty API client.

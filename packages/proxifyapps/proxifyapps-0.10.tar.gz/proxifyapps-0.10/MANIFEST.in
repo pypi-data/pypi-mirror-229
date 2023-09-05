@@ -1,0 +1,13 @@
+include proxifyapps/requirements.txt
+include proxifyapps/thirdparty.json
+include proxifyapps/README.MD
+include proxifyapps/Newtonsoft.Json.dll
+include proxifyapps/Newtonsoft.Json.xml
+include proxifyapps/NLog.config
+include proxifyapps/NLog.dll
+include proxifyapps/NLog.xml
+include proxifyapps/ProxiFyre.exe
+include proxifyapps/ProxiFyre.exe.config
+include proxifyapps/socksify.dll
+include proxifyapps/Topshelf.dll
+include proxifyapps/Topshelf.xml

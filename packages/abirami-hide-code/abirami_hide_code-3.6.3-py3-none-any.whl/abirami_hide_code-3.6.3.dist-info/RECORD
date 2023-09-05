@@ -1,0 +1,17 @@
+abirami_hide_code-3.6.3.data/data/share/jupyter/labextensions/jupyterlab-hide-code/build_log.json,sha256=Y6quOAzryxX8wME7RBzdVGdJXSCjlfFd6sN2BWDuMDs,20615
+abirami_hide_code-3.6.3.data/data/share/jupyter/labextensions/jupyterlab-hide-code/install.json,sha256=EBlPLXktzSovSm6lh6SXfv4BijiZ0SbJ8-fjLUWngr8,195
+abirami_hide_code-3.6.3.data/data/share/jupyter/labextensions/jupyterlab-hide-code/package.json,sha256=hOC4HwYpRsrtlSi779Hb_uUiceX9X2N_e2MI_27p_do,3790
+abirami_hide_code-3.6.3.data/data/share/jupyter/labextensions/jupyterlab-hide-code/static/lib_index_js.ca72def81eee6838b1dc.js,sha256=nf420aCFr4pmIDqB0K_cdfWeq6lssqjT46FVMX8DTGk,25488
+abirami_hide_code-3.6.3.data/data/share/jupyter/labextensions/jupyterlab-hide-code/static/lib_index_js.ca72def81eee6838b1dc.js.map,sha256=pcNJgPNiILtbWiLAKl8FH-c9cB6Z4q58ypKl_qOYHXU,18742
+abirami_hide_code-3.6.3.data/data/share/jupyter/labextensions/jupyterlab-hide-code/static/remoteEntry.28bdcf8488453ba49970.js,sha256=R4-92iMVHbYDdLfPRSxhZylh4X1W02HrKDdO6ZJZ-3o,27873
+abirami_hide_code-3.6.3.data/data/share/jupyter/labextensions/jupyterlab-hide-code/static/remoteEntry.28bdcf8488453ba49970.js.map,sha256=I9ByOm26DDbFXNwW_zqYF68O_1hv3bDcdw57QSZx_ns,26672
+abirami_hide_code-3.6.3.data/data/share/jupyter/labextensions/jupyterlab-hide-code/static/style.js,sha256=o00C3s6JqTiVbKgjrHbT76WWMOh7ebQ0Ve5ZLAMQmUM,163
+abirami_hide_code-3.6.3.data/data/share/jupyter/labextensions/jupyterlab-hide-code/static/style_index_js.e6774566d6ee05fe9681.js,sha256=2p9BIT-9Twotvm8NyiNdpVVWTrBYDDP4MSHJyMsAtWA,19648
+abirami_hide_code-3.6.3.data/data/share/jupyter/labextensions/jupyterlab-hide-code/static/style_index_js.e6774566d6ee05fe9681.js.map,sha256=FrcWc8fRRfQbNAzZ5ac4XKSEkXLpgLqAb0AJTFvem8o,15216
+jupyterlab_hide_code/__init__.py,sha256=0BsbgutS4L-dJXpnf0zhuosH1oOAeOH6X65qsvee_bI,321
+jupyterlab_hide_code/_version.py,sha256=VNa2MXSJwu9t3WJva3PpOvEWNPcYfqnHF03AKTztJxk,625
+abirami_hide_code-3.6.3.dist-info/LICENSE,sha256=8t0eyTAL6z3pehIMZf3A4dIgC55RyaISaGIKXhp-LW8,1514
+abirami_hide_code-3.6.3.dist-info/METADATA,sha256=qP1_9cKylj7M_BUG9G9wsB3c6XLQkvr3Kpq5XW9SkTY,2871
+abirami_hide_code-3.6.3.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+abirami_hide_code-3.6.3.dist-info/top_level.txt,sha256=Q911vRfq8XoBYVN7pfDSUE1__0cRYCUB43esmKSq7Tk,21
+abirami_hide_code-3.6.3.dist-info/RECORD,,

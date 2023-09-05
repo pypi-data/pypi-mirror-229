@@ -1,0 +1,8 @@
+circles_number_generator/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+circles_number_generator/src/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+circles_number_generator/src/constants.py,sha256=qGx1qLDxjsu7moO9uwLwbCFMX3bKqAziAt9pxOFj0Es,714
+circles_number_generator/src/number_generator.py,sha256=9SaQkJB16igL29n463mCCNUa2hSfPE2hgc85id-Bw8I,1645
+database_infrastructure_local-0.0.15.dist-info/METADATA,sha256=yvISJk_GFAqTzhv1dOYqHtG6afKKgr0VgBDTS4favQs,497
+database_infrastructure_local-0.0.15.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+database_infrastructure_local-0.0.15.dist-info/top_level.txt,sha256=d9PvohgR4iMxlwNL1s976ldDybhi9aibWPlZJADvOZs,25
+database_infrastructure_local-0.0.15.dist-info/RECORD,,

@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: aio-client
+Version: 1.8.3
+Author: BARS Group
+Author-email: education_dev@bars-open.ru
+Keywords: django СМЭВ3
+Requires-Dist: six
+Requires-Dist: requests (<2.26,>=2.4.2)
+Requires-Dist: pyyaml
+Requires-Dist: raven
+Requires-Dist: yadic (<1,>=0.1.12.6)
+Requires-Dist: m3-builder (<2,>=1.2)
+

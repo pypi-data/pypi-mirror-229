@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: sqlite_fsm_storage
+Version: 2.0.3
+Summary: SQLiteStorage is a very good FSM Storage for Telegram bots.
+Author: EgorBlaze
+Author-email: blazeegor@gmail.com
+License: Apache License, Version 2.0, see LICENSE file
+Description-Content-Type: text/markdown
+
+"""
+SQLiteStorage is a modern FSM Storage for Telegram Bots on Python. It is surprisingly easy to connect and use.
+
+**Install**
+
+.. code-block:: console
+
+
+  $ pip install sqlite-fsm-storage
+
+**Example of use in a telegram bot on aiogram:**
+
+.. code-block:: python
+
+
+  from aiogram import Bot, Dispatcher
+  from sqlite_fsm_storage import SQLiteStorage
+  import asyncio
+
+  async def main():
+      bot = Bot(token='YOUR_BOT_TOKEN', parse_mode='HTML')
+      storage = SQLiteStorage()
+      await storage.start()
+      dp = Dispatcher(storage=storage)
+      await bot.delete_webhook(drop_pending_updates=True)
+      try:
+          await dp.start_polling(bot, allowed_updates=['message', 'callback_query'])
+      except CancelledError:
+          pass
+      finally:
+          await bot.session.close()
+          await storage.close()
+  if __name__ == '__main__':
+      asyncio.run(main())
+
+**Developer - Blaze Egor**
+"""

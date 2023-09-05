@@ -1,0 +1,8 @@
+pyroaring.cpython-38-aarch64-linux-gnu.so,sha256=wR6BJq8cTWf1UZUV880MsE2TIAbmjIWJJvS4B4gEIdw,4930129
+pyroaring.libs/libgcc_s-4e37474d.so.1,sha256=Slji658OikHg8crvAv4qrQOmCj7zqL5w890rL-a5jBM,134393
+pyroaring.libs/libstdc++-fd9f4683.so.6.0.28,sha256=ABZJqq2QQ-As0idNvT9YzXNRmTj9R-S0pG8KMb0Odtk,2599041
+pyroaring-0.4.3.dist-info/LICENSE,sha256=t7FgeWsSu0ES2f8GkHE6m-gVBBMm2ruT-zasUVJjDq0,1080
+pyroaring-0.4.3.dist-info/RECORD,,
+pyroaring-0.4.3.dist-info/top_level.txt,sha256=SuxUJyNQofvyCjAIZszf3NSsQuFvm2uU-V80ItWxg9I,10
+pyroaring-0.4.3.dist-info/METADATA,sha256=q1UetjCXxSmGBx9WVwoJhlKdP8C9ZJm_IZ0gjujv3NQ,10666
+pyroaring-0.4.3.dist-info/WHEEL,sha256=KMZnh-4T2pdvnh_Ufd4j6z8gm0U8z1V3NQx4HNpgZ1U,112

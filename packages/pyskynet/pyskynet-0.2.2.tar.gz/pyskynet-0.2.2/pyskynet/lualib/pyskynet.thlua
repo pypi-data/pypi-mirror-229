@@ -1,0 +1,63 @@
+
+local skynet = require("skynet")
+local foreign = require("pyskynet.foreign")
+local pyskynet_modify = require("pyskynet.modify")
+
+local pyskynet = {}
+pyskynet.foreign = foreign
+pyskynet.skynet = skynet
+
+pyskynet.start = skynet.start
+
+------------------
+-- service api ---
+------------------
+
+pyskynet.self = skynet.self
+
+function pyskynet.getenv(k:String):Ret(Any)
+	const data = pyskynet_modify.getlenv(k)
+	return (foreign.remoteunpack(data, #data))
+end
+
+function pyskynet.setenv(k:String, v:Truth)
+	local msg_ptr, msg_size = foreign.remotepack(v)
+	pyskynet_modify.setlenv(k, msg_ptr, msg_size)
+	skynet.trash(msg_ptr, msg_size)
+end
+
+function pyskynet.envs()
+	const re:Dict(String, Any) = {}
+	local function nextenv(_:Nil, k)
+		return pyskynet_modify.nextenv(k)
+	end
+	for key in nextenv, nil, nil do
+		re[key] = pyskynet.getenv(key)
+	end
+	return re
+end
+
+function pyskynet.newservice(name:String, ...:String)
+	for i=1, select("#", ...) do
+		local arg = select(i, ...)
+		assert(type(arg)=="string", "newservice's arg must be string")
+	end
+	return skynet.newservice(name, ...)
+end
+
+function pyskynet.uniqueservice(name:String, ...:String)
+	for i=1, select("#", ...) do
+		local arg = select(i, ...)
+		assert(type(arg)=="string", "uniqueservice's arg must be string")
+	end
+	return skynet.uniqueservice(name, ...)
+end
+
+function pyskynet.scriptservice(script:String, ...)
+	const nDebugInfo = debug.getinfo(2)
+	const nSourceName = nDebugInfo.source ..":".. nDebugInfo.currentline
+	const nScriptIndex = pyskynet_modify.refscript(script)
+	return pyskynet.newservice("script_service", nSourceName, tostring(nScriptIndex), ...)
+end
+
+return pyskynet

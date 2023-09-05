@@ -1,0 +1,19 @@
+
+const modify = {}
+
+function.pass modify.getlenv(vKey:String):Ret(String)
+end
+
+function.pass modify.setlenv(vKey:OrNil(String), vValue:Union(LightUserdata, String), vSize:OrNil(Integer))
+end
+
+function.pass modify.nextenv(vKey:OrNil(String)):Ret(OrNil(String))
+end
+
+function.pass modify.getscript(vScriptId:Integer):Ret(OrNil(String))
+end
+
+function.pass modify.refscript(vScript:String):Ret(Integer)
+end
+
+return modify

@@ -1,0 +1,2 @@
+[console_scripts]
+pyskynet = pyskynet.boot:main

@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "yamlgenerator-hook-search"
+version = "0.2.0"
+description = ""
+authors = ["kaixinol <keiplyer@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "yamlgenerator_hook_search"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+gameyamlspiderandgenerator = "1.6.16"
+epicstore-api = "^0.1.6"
+
+[tool.poetry.group.dev.dependencies]
+epicstore-api = "^0.1.6"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

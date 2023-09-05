@@ -1,0 +1,11 @@
+odoo/addons/purchase_report_date_format/README.rst,sha256=1hdkiOvX1lwTNNfuX7VKALszqPQtGpPdXOQke9fC--s,3136
+odoo/addons/purchase_report_date_format/__manifest__.py,sha256=patCHahd8AZ8TI1N0_UYkHkkdVL66gXhBC20fc5-qS4,532
+odoo/addons/purchase_report_date_format/readme/DESCRIPTION.rst,sha256=sjr8rTATsY-AtHCbkIZLyouwyn15CiwsN0WEAtPQs3k,301
+odoo/addons/purchase_report_date_format/reports/purchase_order_templates.xml,sha256=DpPLIwnPj7lncGIJU-OuwzhonVZQ3T4UqfgbC1E38gA,698
+odoo/addons/purchase_report_date_format/reports/purchase_quotation_templates.xml,sha256=A-4e7gvI_DorxqAREty44-Za1SCfgEvnjtfun7aGy6U,386
+odoo/addons/purchase_report_date_format/static/description/icon.png,sha256=6xBPJauaFOF0KDHfHgQopSc28kKvxMaeoQFQWZtfZDo,9455
+odoo/addons/purchase_report_date_format/static/description/index.html,sha256=9LXfJOa_w36n7CRTiasS1vu4R3yXLdn5o3HA52n7dGM,12194
+odoo_addon_purchase_report_date_format-16.0.1.0.0.3.dist-info/METADATA,sha256=_Bi8C7li1U3rPvn0xRxwW-M0FRAcDcq7V4FldcTnfAY,3700
+odoo_addon_purchase_report_date_format-16.0.1.0.0.3.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+odoo_addon_purchase_report_date_format-16.0.1.0.0.3.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
+odoo_addon_purchase_report_date_format-16.0.1.0.0.3.dist-info/RECORD,,

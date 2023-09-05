@@ -1,0 +1,9 @@
+mangorest/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mangorest/dirlist.py,sha256=Gwr2AgvYLtAz9Wdg2YjOldZbevYydebX8JhB9w2J6QI,1310
+mangorest/mango.py,sha256=SzzOdvvwf2xzcR8aCIUYGMVjLTyZ333tgJABNpsJpSE,14676
+mangorest/version.txt,sha256=eckiJnDensBfPK_bOxzXNE0pjCLz0lFdVeF3VJ0eOV8,27
+mangorest-0.12500000000000003.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+mangorest-0.12500000000000003.dist-info/METADATA,sha256=J_4NApuqJ5JuC4N8c32H_ZnEpwz8bPkeIeJ7Kn9sS5o,821
+mangorest-0.12500000000000003.dist-info/WHEEL,sha256=bb2Ot9scclHKMOLDEHY6B2sicWOgugjFKaJsT7vwMQo,110
+mangorest-0.12500000000000003.dist-info/top_level.txt,sha256=pX5EPtvaKG-LcoVmmHhQ_H7-0VfBOZV3kwnsBjmX-eo,10
+mangorest-0.12500000000000003.dist-info/RECORD,,

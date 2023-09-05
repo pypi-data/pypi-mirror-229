@@ -1,0 +1,17 @@
+odoo/addons/passport_expiration/README.rst,sha256=dd_lNfQtEqxGtid5YMp0HMUc3CN5TxvXcbW-DxTgJOs,3020
+odoo/addons/passport_expiration/__init__.py,sha256=X9EJGOE2GtZbS0G82PtSXmWSZ_R8jEM0rlJTDliQjp4,21
+odoo/addons/passport_expiration/__manifest__.py,sha256=q3ZvEzX36pZXJrV7ffiIPEJKZ6oI3q3FnVNpdgpIOjI,509
+odoo/addons/passport_expiration/i18n/fr.po,sha256=qvKy97yn02rv3gpz-JpWZXbuXnsXHU8_hHOllghHtpM,1494
+odoo/addons/passport_expiration/i18n/passport_expiration.pot,sha256=lmkag4ktaD6r3eHyjltvUTjSpdCIhe0aMaUhOV0pGEg,1295
+odoo/addons/passport_expiration/models/__init__.py,sha256=jHW8C586cI2zUY2sLb2tWwWPrPa1sab86nVOYoAn7Xk,17
+odoo/addons/passport_expiration/models/hr.py,sha256=LDCtD8JvBVgWj2lwg-NCzaMD3DIo7aFtADgLcz_64gc,349
+odoo/addons/passport_expiration/readme/CONTRIBUTORS.rst,sha256=2d480jDrOIiB8UhiKnh53sLQ-djFtk3eZ6yxe-D7BVc,34
+odoo/addons/passport_expiration/readme/DESCRIPTION.rst,sha256=OsnvCj3jqnHDstP5B2yBpNDvo0C50szQvXARNYg-QNE,82
+odoo/addons/passport_expiration/readme/USAGE.rst,sha256=DWUhbfMsF1lDF7Pwdd420uV-ixfkYdZw3L-VN4boNzs,111
+odoo/addons/passport_expiration/static/description/icon.png,sha256=6xBPJauaFOF0KDHfHgQopSc28kKvxMaeoQFQWZtfZDo,9455
+odoo/addons/passport_expiration/static/description/index.html,sha256=EUOkK_UOhzu9h81p_scudmuQ7gN51vI_4dVy8gMavqk,12413
+odoo/addons/passport_expiration/views/hr_view.xml,sha256=aDC6owVUj1HVPXGgnfGUrFPuYJf7lItx8oyMfg6l2M4,432
+odoo14_addon_passport_expiration-14.0.0.1.1.dev4.dist-info/METADATA,sha256=gSZNTZgdMbyYK_gL1U_xYLwoQmuJ0ia2JenIizBhNyY,3588
+odoo14_addon_passport_expiration-14.0.0.1.1.dev4.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+odoo14_addon_passport_expiration-14.0.0.1.1.dev4.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
+odoo14_addon_passport_expiration-14.0.0.1.1.dev4.dist-info/RECORD,,

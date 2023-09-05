@@ -1,0 +1,9 @@
+platformdirs
+pygls
+
+[cache]
+markdown-it-py
+pypandoc
+
+[dev]
+pytest-cov

@@ -1,0 +1,14 @@
+odoo/addons/server_env_printing_server/README.rst,sha256=DqM_F0ZYoDCFVfe9SHKLOCailK3kAXjn5F3rg8aelMI,3042
+odoo/addons/server_env_printing_server/__init__.py,sha256=X9EJGOE2GtZbS0G82PtSXmWSZ_R8jEM0rlJTDliQjp4,21
+odoo/addons/server_env_printing_server/__manifest__.py,sha256=tVkSTI-a-Jb7QqDkOUUvk83jAQQWNXUoCEMkLgpjt38,532
+odoo/addons/server_env_printing_server/i18n/server_env_printing_server.pot,sha256=LOu1Ry7JV7iIG6Z35GVk_IhCudS5Ig14dfl_OMH9LC0,520
+odoo/addons/server_env_printing_server/models/__init__.py,sha256=Jxf5xAkImVOiT3_9AHpiTdSSMWLl2juAp7QDFcu78Og,30
+odoo/addons/server_env_printing_server/models/printing_server.py,sha256=AXyaQA8SpI9pSIkH325zUyrcz0XtmA6929_yVvbq_oA,490
+odoo/addons/server_env_printing_server/readme/CONTRIBUTORS.rst,sha256=G1beyIYc6CLkys2_8ZSSfJQUgYLQUTpNsbf0wzNkuuI,49
+odoo/addons/server_env_printing_server/readme/DESCRIPTION.rst,sha256=jjx02qGOfhmgiD_PIF4QR_Vfmv0j2TOFAjhjiOi__IU,116
+odoo/addons/server_env_printing_server/static/description/icon.png,sha256=6xBPJauaFOF0KDHfHgQopSc28kKvxMaeoQFQWZtfZDo,9455
+odoo/addons/server_env_printing_server/static/description/index.html,sha256=VN0N2SpnlJQ93dVR7MASvJaqkFlUaAfTEa6b72jO7bY,12325
+odoo12_addon_server_env_printing_server-12.0.1.0.0.99.dev4.dist-info/METADATA,sha256=jCFwtsWYJgHqyO8aGccWcQcyVqpe2YOcqECOHMccTnY,3714
+odoo12_addon_server_env_printing_server-12.0.1.0.0.99.dev4.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+odoo12_addon_server_env_printing_server-12.0.1.0.0.99.dev4.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
+odoo12_addon_server_env_printing_server-12.0.1.0.0.99.dev4.dist-info/RECORD,,

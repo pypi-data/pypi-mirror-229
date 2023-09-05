@@ -1,0 +1,9 @@
+setup.py
+school_log.egg-info/PKG-INFO
+school_log.egg-info/SOURCES.txt
+school_log.egg-info/dependency_links.txt
+school_log.egg-info/entry_points.txt
+school_log.egg-info/requires.txt
+school_log.egg-info/top_level.txt
+slog/__init__.py
+slog/slog.py

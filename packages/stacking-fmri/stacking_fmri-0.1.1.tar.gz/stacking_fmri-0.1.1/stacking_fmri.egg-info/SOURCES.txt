@@ -1,0 +1,12 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+stacking_fmri/__init__.py
+stacking_fmri/ridge_tools.py
+stacking_fmri/stacking.py
+stacking_fmri.egg-info/PKG-INFO
+stacking_fmri.egg-info/SOURCES.txt
+stacking_fmri.egg-info/dependency_links.txt
+stacking_fmri.egg-info/requires.txt
+stacking_fmri.egg-info/top_level.txt

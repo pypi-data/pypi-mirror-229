@@ -1,0 +1,53 @@
+Metadata-Version: 2.1
+Name: rasp-modules
+Version: 1.0.2
+Summary: It contains modules for raspberry PI.
+Home-page: https://github.com/4yub1k/rasp-modules
+Author: Salah Ud Din (@4yub1k)
+Author-email: salahuddin@protonmail.com
+License: LICENSE
+Project-URL: Documentation, https://rasp-modules.readthedocs.io/en/latest/
+Project-URL: Source, https://github.com/4yub1k/rasp-modules
+Keywords: rasberry,rasberrypi,rasberry pi
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# rasp-modules
+Modules for Raspberry PI LCD, MCP3008.
+
+This package will provide you with basic modules for communications between LCD, MCP3008 with raspberry PI. I will add new modules soon!.
+
+## Installtaion:
+```
+pip install rasp-modules
+```
+
+## Usage:
+ import the LCD for Display and import MCP3008 for analogue communication.
+
+#### LCD
+  ```python
+   from display.lcd import LCD
+  
+   lcd = LCD(5, 6, 12, 13, 16, 19)
+   or
+   lcd = LCD(rs=5, en=6, d4=12, d5=13, d6=16, d7=19)
+
+   lcd.cursor_start(0, 0)
+   lcd.print_line(f"testing")  # "Message string
+  ```
+
+#### MCP3008
+  ```python
+   from analogue.mcp3008 import MCP3008
+  
+   adc_mcp3008 = MCP3008(max_speed_hz=1_000_000)
+  
+   lcd.cursor_start(0, 0)
+   lcd.print_line(adc_mcp3008)  # "Message string
+  ```

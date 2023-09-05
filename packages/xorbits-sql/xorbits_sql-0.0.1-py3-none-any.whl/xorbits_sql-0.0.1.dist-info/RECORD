@@ -1,0 +1,12 @@
+xorbits_sql/__init__.py,sha256=hAlKSrAD0R_44UtdIOigLm3vUJpvzIQouGn0PG4MPuM,681
+xorbits_sql/_version.py,sha256=oauTlmvWw_06e6jiSCwPSGzmZTMt7eApQgCHlHPde_A,24610
+xorbits_sql/conftest.py,sha256=_ejIg4kaaMSEccFwCQ96wfUGYc9ADv_nyZ6MRcQPCnQ,692
+xorbits_sql/core.py,sha256=iyzha0BkISeabXrb32k_U7CIxp7wIUIvjDYbxlg3N3M,3433
+xorbits_sql/errors.py,sha256=5WmUQHEjCGTZy_kkkERLHCQTkcLyFxmzNsYiUUeHV9g,726
+xorbits_sql/executor.py,sha256=5awkagU0zLk60VUNAi6chU77lylJWuigZzXKHSODwjQ,14169
+xorbits_sql/table.py,sha256=lxDyTNlibwSOgMitHu-FJHkRWEjNSdbHxflOtCT_i0s,3094
+xorbits_sql-0.0.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+xorbits_sql-0.0.1.dist-info/METADATA,sha256=aK_dU0r8WN12c7qh-ZMa0oCjxbWHNu8HSIks4TRgtGQ,4122
+xorbits_sql-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+xorbits_sql-0.0.1.dist-info/top_level.txt,sha256=WtJbBVm4eBA8UuePmJ-_tpeqK8HiHcPQx8b8ZybQDhM,12
+xorbits_sql-0.0.1.dist-info/RECORD,,

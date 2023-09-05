@@ -1,0 +1,16 @@
+odoo/addons/sales_team_security_crm/README.rst,sha256=IdcZl_86AFkIbG_8m6FRQh3Ag0Qt637iPVN9Ou64fY4,3350
+odoo/addons/sales_team_security_crm/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+odoo/addons/sales_team_security_crm/__manifest__.py,sha256=nK9S5K_-EyBb4zo-INYfAeuEvIM-kM3SsRuyIAaCs4c,649
+odoo/addons/sales_team_security_crm/i18n/sales_team_security_crm.pot,sha256=AyzPzY6fvZoAIdVCppv0SiPLoR_D-HBQlYffHd1jWNE,341
+odoo/addons/sales_team_security_crm/migrations/14.0.2.0.0/pre-migration.py,sha256=FaANxKlkrIWn6iuCDKWUarV49TovCLEcLUO0_szD9f0,898
+odoo/addons/sales_team_security_crm/readme/CONTRIBUTORS.rst,sha256=OtHCf27hr_BXSN8LwWV4l0Z6TUD6zxSnYh5H_6NBak0,179
+odoo/addons/sales_team_security_crm/readme/DESCRIPTION.rst,sha256=t2z9j_kMtttotnPEPmJLCveQ0hs0s7Ko0EpIH7vpmBU,49
+odoo/addons/sales_team_security_crm/security/security.xml,sha256=jcpyLidEWmi8Ysd4JUWAEtOba2Ac_ztvXjS6Nm2lPfE,1653
+odoo/addons/sales_team_security_crm/static/description/icon.png,sha256=6xBPJauaFOF0KDHfHgQopSc28kKvxMaeoQFQWZtfZDo,9455
+odoo/addons/sales_team_security_crm/static/description/index.html,sha256=D5wDritnqYUTv4kFYgeKscZiiHr36LGlZ6TNqwSz4Eg,12772
+odoo/addons/sales_team_security_crm/tests/__init__.py,sha256=bY4KVMYyavY_NYXlIc6Uabkj2XHwof-YAlE_ff4u6AI,108
+odoo/addons/sales_team_security_crm/tests/test_sales_team_security_crm.py,sha256=-kqdVnAqadTanzS4fvyOVQPknXCCN8ISd9WXWOQ7VTc,650
+odoo14_addon_sales_team_security_crm-14.0.3.0.1.dev3.dist-info/METADATA,sha256=R9LgrTXK5BJoWocTNTDMlcG7spG9W1EHY3U07AKdquk,4036
+odoo14_addon_sales_team_security_crm-14.0.3.0.1.dev3.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+odoo14_addon_sales_team_security_crm-14.0.3.0.1.dev3.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
+odoo14_addon_sales_team_security_crm-14.0.3.0.1.dev3.dist-info/RECORD,,

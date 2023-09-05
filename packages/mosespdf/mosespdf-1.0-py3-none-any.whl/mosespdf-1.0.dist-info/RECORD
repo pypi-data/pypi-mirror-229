@@ -1,0 +1,8 @@
+mosespdf/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mosespdf/pdf2image.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mosespdf/pdf2text.py,sha256=5--64-OYoPnJr369BowREbCyMU2VZrAXDrr2AB1VAx4,39
+mosespdf-1.0.dist-info/LICENSE,sha256=ctLwkzT4uH3e2UqDO6faBeUoDnegN8ojslH5bq5M9xk,35562
+mosespdf-1.0.dist-info/METADATA,sha256=Rnrj1Z3e3xu27HSB2iTUE8R-tPiSGLrhM9hNOhDCsPg,115
+mosespdf-1.0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+mosespdf-1.0.dist-info/top_level.txt,sha256=_nKUYS6ojuQ31fqRBdn2-slWxDOxP_kk26Msu2-W9t8,9
+mosespdf-1.0.dist-info/RECORD,,

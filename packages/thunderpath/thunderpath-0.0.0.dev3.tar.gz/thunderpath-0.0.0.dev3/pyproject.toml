@@ -1,0 +1,155 @@
+[tool.black]
+target-version = ["py37"]
+line-length = 120
+skip-string-normalization = true
+
+[tool.ruff]
+target-version = "py37"
+line-length = 120
+select = [
+  "A",
+  # "ARG",
+  # "B",
+  "C",
+  "DTZ",
+  # "E",
+  "EM",
+  # "F",
+  # "FBT",
+  "I",
+  "ICN",
+  "ISC",
+  # "N",
+  "PLC",
+  "PLE",
+  "PLR",
+  "PLW",
+  "Q",
+  "RUF",
+  # "S",
+  # "T",
+  "TID",
+  "UP",
+  "W",
+  "YTT",
+]
+ignore = [
+  # Allow non-abstract empty methods in abstract base classes
+  "B027",
+  # Allow boolean positional values in function calls, like `dict.get(... True)`
+  "FBT003",
+  # Ignore checks for possible passwords
+  "S105", "S106", "S107",
+  # Ignore complexity
+  "C901", "PLR0911", "PLR0912", "PLR0913", "PLR0915",
+]
+unfixable = [
+  # Don't touch unused imports
+  "F401",
+]
+
+[tool.ruff.isort]
+known-first-party = ["thunderpath"]
+
+[tool.ruff.flake8-tidy-imports]
+ban-relative-imports = "all"
+
+[tool.ruff.per-file-ignores]
+# Tests can use magic values, assertions, and relative imports
+"tests/**/*" = ["PLR2004", "S101", "TID252"]
+
+[tool.pytest.ini_options]
+addopts = "--cov=src/thunderpath/ --cov-report=term-missing"
+asyncio_mode = "strict"
+
+[tool.coverage.run]
+source_pkgs = ["thunderpath", "tests"]
+branch = true
+parallel = true
+omit = [
+  "src/thunderpath/__about__.py",
+  "src/thunderpath/__main__.py",
+  "tests/conftest.py",
+]
+
+[tool.coverage.paths]
+thunderpath = ["src/thunderpath", "*/thunderpath/src/thunderpath"]
+tests = ["tests", "*/thunderpath/tests"]
+
+[tool.coverage.report]
+exclude_lines = [
+  "no cov",
+  "if __name__ == .__main__.:",
+  "if TYPE_CHECKING:",
+]
+
+
+[tool.hatch]
+
+[tool.hatch.build.targets.wheel]
+packages = ['src/thunderpath']
+
+[tool.hatch.metadata]
+allow-direct-references = true
+
+[tool.hatch.version]
+path = "src/thunderpath/__about__.py"
+
+[tool.hatch.envs.default]
+python = "3.10"
+dependencies = [
+    "black[jupyter]",
+    "mypy",
+    "ruff",
+    "pytest",
+    "pytest-cov",
+    "xdoctest",
+    "mkdocs-material",
+    "mkdocstrings[python]",
+    "pytest-asyncio",
+]
+
+[tool.hatch.envs.default.scripts]
+test = "pytest -rA"
+test-cov-xml = "pytest -rA --cov-report=xml"
+lint = [
+  "black .",
+  "ruff --fix .",
+  "mypy src/thunderpath/",
+]
+lint-check = [
+  "black --check .",
+  "ruff .",
+  "mypy src/thunderpath/",
+]
+docs-serve = "mkdocs serve"
+docs-build = "mkdocs build"
+
+[build-system]
+requires = ["hatchling", "hatch-regex-commit"]
+build-backend = "hatchling.build"
+
+[project]
+name = "thunderpath"
+authors = [
+  { name = "thunderpath", email = "cameron.ray.smith@gmail.com" }
+]
+description = "Probabilistic modeling framework to define, experiment with, and critique models in service of iterating through Box's loop."
+readme = "README.md"
+dynamic = ["version"]
+classifiers = [
+    "Programming Language :: Python :: 3 :: Only",
+]
+requires-python = ">=3.10"
+dependencies = [
+  "click",
+]
+
+[project.scripts]
+thunderpath = "thunderpath.cli:main"
+
+
+[project.urls]
+Documentation = "https://cameronraysmith.github.io/thunderpath/"
+Issues = "https://github.com/cameronraysmith/thunderpath/issues"
+Source = "https://github.com/cameronraysmith/thunderpath"

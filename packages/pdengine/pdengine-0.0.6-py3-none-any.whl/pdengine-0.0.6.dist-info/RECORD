@@ -1,0 +1,14 @@
+pdengine/FirstPrinciplesModel.py,sha256=dlK6dfRAhYhbqdE3zL0go41rtGVXZne-8lIWTKKVdQI,4229
+pdengine/Model.py,sha256=3rx9J1aINvygOtVECqeqBzEmwFYgLAfNxLzOK-qBIEI,7847
+pdengine/PIDController.py,sha256=kIzWOFsaxqFS4ASXwzTM9d6ty5ThQRtNkZx-eEV0sfU,3522
+pdengine/ValveModel.py,sha256=kSLF6aTknAM11t8dzMuVt_kCuX9kiiWVy3vu1gn4RvU,1206
+pdengine/WoodBerryModel.py,sha256=HoHjJ1rGGhic7E8EauMQLlIbtsJgOa2CQTlKch0etKI,2530
+pdengine/__init__.py,sha256=K2CJLTVUqZsVPFmtFM7hxBOHoSKhIMw_ZUuaxhHbkr4,162
+tests/general_tests_class.py,sha256=qQ48ki4p3a2h8ESXDo-DJnM2B982ebZy1kHriFO8KOc,2160
+tests/test_ValveModel.py,sha256=sbH5kiO6WnSjVQjFYronTXKROPMJRdaJT7JVuZSm2bo,1353
+tests/test_WoodBerryModel.py,sha256=dFZpEeLK2z73NG-7neXwoKYrb-WLzmErdbtkjAj9KNM,2472
+pdengine-0.0.6.dist-info/LICENSE,sha256=6lUBwm64uOBuA7M-BI0R3N5qorPgBGx01nBmx391l4k,1066
+pdengine-0.0.6.dist-info/METADATA,sha256=ry33PuxUMTTVVzgtIDzZW35mt0r6ELxLlnJ8GLeiAFc,3063
+pdengine-0.0.6.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+pdengine-0.0.6.dist-info/top_level.txt,sha256=k73ecQ8OlHHWJT4YWKA4vmSLnubPhWMC_KnV_1HtHu4,15
+pdengine-0.0.6.dist-info/RECORD,,

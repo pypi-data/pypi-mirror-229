@@ -1,0 +1,10 @@
+LICENSE
+README.rst
+setup.py
+just_heic_to_jpg.egg-info/PKG-INFO
+just_heic_to_jpg.egg-info/SOURCES.txt
+just_heic_to_jpg.egg-info/dependency_links.txt
+just_heic_to_jpg.egg-info/entry_points.txt
+just_heic_to_jpg.egg-info/requires.txt
+just_heic_to_jpg.egg-info/top_level.txt
+test/test_just_heic_to_jpg.py

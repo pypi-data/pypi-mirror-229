@@ -1,0 +1,2 @@
+[console_scripts]
+just_heic_to_jpg = just_heic_to_jpg:cli

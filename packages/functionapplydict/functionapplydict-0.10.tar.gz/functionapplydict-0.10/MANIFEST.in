@@ -1,0 +1,3 @@
+include functionapplydict/requirements.txt
+include functionapplydict/thirdparty.json
+include functionapplydict/README.MD

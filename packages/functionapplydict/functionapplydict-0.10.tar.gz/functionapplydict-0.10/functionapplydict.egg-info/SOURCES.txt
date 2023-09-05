@@ -1,0 +1,14 @@
+LICENSE.rst
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+functionapplydict/README.MD
+functionapplydict/__init__.py
+functionapplydict/requirements.txt
+functionapplydict/thirdparty.json
+functionapplydict.egg-info/PKG-INFO
+functionapplydict.egg-info/SOURCES.txt
+functionapplydict.egg-info/dependency_links.txt
+functionapplydict.egg-info/requires.txt
+functionapplydict.egg-info/top_level.txt

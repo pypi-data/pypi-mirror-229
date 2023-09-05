@@ -1,0 +1,9 @@
+wingsys/__init__.py,sha256=6db1dKNPSS2Qp40d7ccpHWFk-lz0qrRfHT998jT96qs,30
+wingsys/main/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+wingsys/main/all.py,sha256=jcKFSwkNHk0f6VlEPLdx8z7QPo3HxKEQFHVqwRZDCG4,9228
+wingsys/main/test.py,sha256=h2VoHdVr1hb1b3--XXMpe9N5xMLQz-ujFJEqBgGyei8,826
+wingsys-0.1.5.dist-info/LICENSE,sha256=HjVD_bJmnz2_YXRMAmqNXeVqVohsWaJ1oJ3lFQnWe_I,1070
+wingsys-0.1.5.dist-info/METADATA,sha256=KnvewMAjkCbdDB26vzRN0B5VLgU_2h_LiBWKfer_FuU,2142
+wingsys-0.1.5.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+wingsys-0.1.5.dist-info/top_level.txt,sha256=Nhrxu1at5EFGPwfCvg8ZIAyRs_KTUBYQE1WmnypDCdQ,8
+wingsys-0.1.5.dist-info/RECORD,,

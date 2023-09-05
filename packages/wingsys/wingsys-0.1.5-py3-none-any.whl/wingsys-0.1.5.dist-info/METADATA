@@ -1,0 +1,67 @@
+Metadata-Version: 2.1
+Name: wingsys
+Version: 0.1.5
+Home-page: https://www.github.com/mgismissing/gs
+Author: magnesium
+Author-email: hackergreg2000@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: colorama
+Requires-Dist: keyboard
+
+# wingsys (Windows Game System)
+Create console games on windows
+> [!IMPORTANT]  
+> This version of gsys (Game System) is meant for windows users only.  
+> [[See the list of versions](#other-versions)]
+
+## Issues
+You can report issues in [the gsys GitHub repository](https://www.github.com/mgismissing/gs/issues).
+
+## Installation
+```
+pip install wingsys
+```
+
+## Contents
+### 1. `Screen`
+```python
+(function) def __init__(
+    self,
+    forecolor: str = "WHITE",
+    backcolor: str = "BLACK",
+    width: int = 32,
+    height: int = 16,
+    border: list = ["-", "|", "#", "#", "#", "#"],
+    stdchar: str = " "
+    )
+```
+`forecolor: str = "WHITE"` defines the color of text that will be displayed on the screen.  
+`backcolor: str = "BLACK"` defines the background color of the screen.  
+`width: int = 32` defines the width (in characters) of the screen.  
+`height: int = 16` defines the height (in characters) of the screen.  
+`border: list = ["-", "|", "#", "#", "#", "#"]` defines the border of the screen. [see [Custom Borders](#custom-borders)]  
+`stdchar: str = " "` defines the character that the screen will be filled with.
+
+*\*Work In Progress, the documentation will be complete with version 0.2\**
+
+## Custom Borders
+The [`Screen`](#1-screen) Borders can be customized. The border follows this scheme to be drawn around the screen:  
+`["1", "2", "3", "4", "5", "6"]`  
+Will become  
+```
+3111111114
+2########2
+2########2
+2########2
+2########2
+5111111116
+```
+("`#`" is the screen).
+
+## Other Versions
+- [x] [Windows Game System (wingsys)](https://www.pypi.org/project/wingsys/)  
+- [ ] Linux Game System (lingsys) *Work In Progress*  

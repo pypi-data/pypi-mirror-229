@@ -1,0 +1,9 @@
+django_audimatic/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_audimatic/admin.py,sha256=k6p1hYwSKpquEI6XB7GGR1GKPujAv3dxyResJU-aRng,1110
+django_audimatic/apps.py,sha256=x3d6dqYEG8u0EU0Vlsj-TlPM0xB7gCidF9f1t8Nna_E,2525
+django_audimatic/models.py,sha256=JBNZNCm1bTdaKsZnzEraOeszk_QmF0glAm-B_nkApYY,4245
+django_audimatic/views.py,sha256=u0FhL7RT5byf5IlcnZEMrcH2TOnQkdfRQU2SjtA26m0,66
+django_audimatic-0.2.0.dist-info/METADATA,sha256=g_qhIDN-SVGBZBYTYmLRkXF-BuUvFTBx-4o-k9jAP30,4242
+django_audimatic-0.2.0.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+django_audimatic-0.2.0.dist-info/licenses/LICENSE,sha256=GXnUyxJsDuSmPeBd4-CarcKH-cSGI12YzSUrNDcv3fU,1064
+django_audimatic-0.2.0.dist-info/RECORD,,

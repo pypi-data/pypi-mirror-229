@@ -1,0 +1,9 @@
+README.md
+setup.cfg
+setup.py
+src/tlsutils.egg-info/PKG-INFO
+src/tlsutils.egg-info/SOURCES.txt
+src/tlsutils.egg-info/dependency_links.txt
+src/tlsutils.egg-info/entry_points.txt
+src/tlsutils.egg-info/requires.txt
+src/tlsutils.egg-info/top_level.txt

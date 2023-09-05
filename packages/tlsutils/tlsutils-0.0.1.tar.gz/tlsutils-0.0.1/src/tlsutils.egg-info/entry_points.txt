@@ -1,0 +1,3 @@
+[console_scripts]
+tlsinfo = tlsutils.cli:tlsinfo
+

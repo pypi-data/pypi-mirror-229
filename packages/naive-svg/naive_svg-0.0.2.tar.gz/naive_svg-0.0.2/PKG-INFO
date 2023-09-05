@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: naive_svg
+Version: 0.0.2
+Summary: naive svg writer
+Home-page: https://pybind11-naive-svg.readthedocs.io
+Author: tzx
+Author-email: dvorak4tzx@gmail.com
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Provides-Extra: test
+License-File: LICENSE
+
+# naive-svg
+
+Upgrated version of [svg.hpp](https://github.com/cubao/naive-svg/blob/master/svg.hpp).
+
+Online document: **[readthedocs](http://pybind11-naive-svg.readthedocs.io/)**
+
+<!--intro-start-->
+
+## Usage
+
+Install:
+
+```bash
+python3 -m pip install naive-svg # install from pypi
+```

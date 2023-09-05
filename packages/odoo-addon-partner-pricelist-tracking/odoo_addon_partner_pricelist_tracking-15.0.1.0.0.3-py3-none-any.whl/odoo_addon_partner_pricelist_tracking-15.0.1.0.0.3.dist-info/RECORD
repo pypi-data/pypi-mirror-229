@@ -1,0 +1,16 @@
+odoo/addons/partner_pricelist_tracking/README.rst,sha256=_9mWsrIBLzqxhYpZ-22cvkM9q3e2H6Y43K73sggmbk0,3815
+odoo/addons/partner_pricelist_tracking/__init__.py,sha256=X9EJGOE2GtZbS0G82PtSXmWSZ_R8jEM0rlJTDliQjp4,21
+odoo/addons/partner_pricelist_tracking/__manifest__.py,sha256=Sc3UAgta6kdDrH443k3AgxkF7cwyKamAHX6metiNySI,441
+odoo/addons/partner_pricelist_tracking/i18n/partner_pricelist_tracking.pot,sha256=yT4Bs7OHxrWlqHXD0AoqaFmISzVxTWh5w74Zu7CTHYc,1160
+odoo/addons/partner_pricelist_tracking/models/__init__.py,sha256=g-Dp2ZwN6oB4CqdQfgRInNSzdMWAVQg1vjWL7S-ZODM,26
+odoo/addons/partner_pricelist_tracking/models/res_partner.py,sha256=-bupURC4Hxa_7qXqvWy1nPSSyMDPRzUMYtWrSDrEC1E,790
+odoo/addons/partner_pricelist_tracking/readme/CONFIGURE.rst,sha256=o_u5xAl9n532859FzHyhk6CAkXCzKNs5QCTkYNGuIU8,95
+odoo/addons/partner_pricelist_tracking/readme/CONTRIBUTORS.rst,sha256=VfT5HFD2PZojs9GeU3Hn1MbO78OvrBsNc8PrI_aoJxY,83
+odoo/addons/partner_pricelist_tracking/readme/DESCRIPTION.rst,sha256=8p2ylFD3Za-haqkNy7NFsihDknph2dxGJLnkXtWSP2U,478
+odoo/addons/partner_pricelist_tracking/readme/ROADMAP.rst,sha256=zkVHwuqM5X122x0bh10FYE57EsEOrFHuFBB17cH3yGw,247
+odoo/addons/partner_pricelist_tracking/static/description/icon.png,sha256=6xBPJauaFOF0KDHfHgQopSc28kKvxMaeoQFQWZtfZDo,9455
+odoo/addons/partner_pricelist_tracking/static/description/index.html,sha256=PnJ4657Zm4zBoQQW3yfMPgFfDsKIX025ViYTLcX-Kr4,13473
+odoo_addon_partner_pricelist_tracking-15.0.1.0.0.3.dist-info/METADATA,sha256=oV7sZeMP4Qm2iu3ZRYAB-iJAIl-7vtt3fmAGj9w_RfU,4371
+odoo_addon_partner_pricelist_tracking-15.0.1.0.0.3.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+odoo_addon_partner_pricelist_tracking-15.0.1.0.0.3.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
+odoo_addon_partner_pricelist_tracking-15.0.1.0.0.3.dist-info/RECORD,,

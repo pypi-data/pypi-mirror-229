@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: melhorenvio
+Version: 0.1.0
+Summary: SDK para a API do melhorenvio
+License: Beerware
+Author: Plinio Mikael
+Author-email: pliniomikael@gmail.com
+Requires-Python: >=3.11,<4.0
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: Other/Proprietary License
+Classifier: Natural Language :: Portuguese (Brazilian)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: httpx (>=0.24.1,<0.25.0)
+Requires-Dist: python-dotenv (>=1.0.0,<2.0.0)
+Project-URL: Bug Tracker, https://github.com/pliniomikael/melhorenvio-sdk/issues
+Project-URL: Código, https://github.com/pliniomikael/melhorenvio-sdk
+Project-URL: Documentação, https://melhorenvio-sdk.readthedocs.io/pt_BR/latest/
+Description-Content-Type: text/markdown
+
+
+Melhor Envio SDK Python
+
+
+[] - create doc
+[] - improve readme
+[] - publish
+[] - create tests
+

@@ -1,0 +1,8 @@
+README.md
+jitbf.py
+setup.py
+jitbf.egg-info/PKG-INFO
+jitbf.egg-info/SOURCES.txt
+jitbf.egg-info/dependency_links.txt
+jitbf.egg-info/entry_points.txt
+jitbf.egg-info/top_level.txt

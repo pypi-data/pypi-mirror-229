@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "domplus"
+version = "1.0.2"
+description = "domplus is a python package with common functions for commercial applications."
+authors = ["Eduardo Basílio <eduardoafonsobasilio@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+keywords = ["validation", "cpf", "cnpj", "creditcard", "uhn-algorithm"]
+
+[tool.setuptools]
+packages = ["domplus"]
+package-dir = {"" = "domplus"}
+
+[project.urls]
+repository = "https://github.com/edubasilio/domplus"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+[tool.poetry.group.test.dependencies]
+pytest = "^7.4.0"
+
+[tool.poetry.group.dev.dependencies]
+bpython = "^0.24"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

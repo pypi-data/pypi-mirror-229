@@ -1,0 +1,8 @@
+django-object-actions
+google-analytics-data
+google-auth
+jsonpickle
+python-gflags
+pytz
+requests-oauthlib
+urllib3

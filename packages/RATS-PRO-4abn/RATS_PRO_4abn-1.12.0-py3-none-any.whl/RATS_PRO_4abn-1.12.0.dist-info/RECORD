@@ -1,0 +1,13 @@
+src/__init__.py,sha256=TNXPNLNtE4E7L1zFaU2wejRU501adcfZLvQHPQtalo4,31
+src/main.py,sha256=-h-xLSKlVfOBzJ7zahgFrxSygWYEcaka585VcjWxrTA,5181
+src/static/style.css,sha256=miLsuLyjrUfReNpN3KPCQLGGg7ZlMrZQ6X5K9d2A5Mw,2985
+src/static/web-background.png,sha256=9-CIMt3DyA7lRuOpfR8Dm4JIbjgioNjhI-SrZ2AndpU,153517
+src/templates/client_data.html,sha256=tRYxCvfCKVMAPgfzNO0UBcIPyJ7OvKdAcAHTl5Ku70U,517
+src/templates/index.html,sha256=nPLcvZaBhSHmVZbWwXqiaXd41RKGyP4YselR3Mribpo,1887
+src/templates/select_countries.html,sha256=c5E7ki0tOAWLaTluYaRdzzbt7990h9sXwUT63GzEi0E,225
+tests/__init__.py,sha256=GodMojC_IFeDwjYZShXr7doeJuBFXd817p5c_pz3GmM,91
+tests/test_main.py,sha256=TepXj0WyUfyi6DbVd88IYdVKwsCv9zTZUyE4PUdIg-c,3847
+RATS_PRO_4abn-1.12.0.dist-info/METADATA,sha256=Lnw75gQL-jc-em-8_BBV8wSVu1Hd13PiyRTmiHDAjHA,287
+RATS_PRO_4abn-1.12.0.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+RATS_PRO_4abn-1.12.0.dist-info/top_level.txt,sha256=KW3xgkz9NLMTcmmzgKvW8RFpCFkRIQ085qzq2diFf68,10
+RATS_PRO_4abn-1.12.0.dist-info/RECORD,,

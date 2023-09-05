@@ -1,0 +1,2 @@
+[console_scripts]
+blogvi = blog_vi._cli:_cli

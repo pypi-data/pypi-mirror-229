@@ -1,0 +1,17 @@
+odoo/addons/auth_api_key_environment/README.rst,sha256=TzRU9cnloHb7mPty88hlJg5uKbShqPC9qKzFAGwB7F8,3743
+odoo/addons/auth_api_key_environment/__init__.py,sha256=X9EJGOE2GtZbS0G82PtSXmWSZ_R8jEM0rlJTDliQjp4,21
+odoo/addons/auth_api_key_environment/__manifest__.py,sha256=FkSVszpUgPLO9zKa51SuoV1Lp9let2dGiJoJu8kEQDE,541
+odoo/addons/auth_api_key_environment/i18n/auth_api_key_environment.pot,sha256=ey3Lm2yxlHCKMXQ7uCb8eiCkwNVzOnw-FvcH_2bsENk,503
+odoo/addons/auth_api_key_environment/models/__init__.py,sha256=d9efRt5U1JZCsA1tL6lsuaIbQaB8_W08cycEXxa6ilY,27
+odoo/addons/auth_api_key_environment/models/auth_api_key.py,sha256=SjnhIIg4BZ-0iGpG7P4BFuXeAKepoxRSmr4Rt_Xt9mE,921
+odoo/addons/auth_api_key_environment/readme/CONFIGURE.rst,sha256=sxVm0LEFiyh2xnVLu3F0D8uMoljmsZ4vqiHxCmvD1OU,545
+odoo/addons/auth_api_key_environment/readme/CONTRIBUTORS.rst,sha256=15q9TO7hrqDOHIzsDLfxAWFvpXn4U6JRfWJ_1aPEZtI,230
+odoo/addons/auth_api_key_environment/readme/DESCRIPTION.rst,sha256=ghXF4GbAKlhv4INBDCQnqFYL7Bxy4pK_k9J3pXwCbaU,149
+odoo/addons/auth_api_key_environment/static/description/icon.png,sha256=6xBPJauaFOF0KDHfHgQopSc28kKvxMaeoQFQWZtfZDo,9455
+odoo/addons/auth_api_key_environment/static/description/index.html,sha256=RSiY-iBWD6GWlhSMlZdAvZ4eFSwrgIP6gn1P2aXroPs,13742
+odoo/addons/auth_api_key_environment/tests/__init__.py,sha256=Yku70m9I5u2E9If91xUXb-EaxTAf8ggtmh6Vtu0oq2w,32
+odoo/addons/auth_api_key_environment/tests/test_auth_api_key.py,sha256=NFKFtI2qlRARZPDNd6WR-n4Pi7wRdRTRQfmOTu3t8Ik,1240
+odoo12_addon_auth_api_key_environment-12.0.2.0.0.99.dev1.dist-info/METADATA,sha256=SUNOja4SKLty2X1YZdBQAN6a1XS0mtEm6ZZBkJUYsBs,4447
+odoo12_addon_auth_api_key_environment-12.0.2.0.0.99.dev1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+odoo12_addon_auth_api_key_environment-12.0.2.0.0.99.dev1.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
+odoo12_addon_auth_api_key_environment-12.0.2.0.0.99.dev1.dist-info/RECORD,,

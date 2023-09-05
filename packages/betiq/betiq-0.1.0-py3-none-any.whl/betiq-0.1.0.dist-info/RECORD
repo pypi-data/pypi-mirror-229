@@ -1,0 +1,10 @@
+betiq/__init__.py,sha256=EHs4xRvaMC31uGRzlhV2QgqP-FXqcGVyO3fA7ia8JAI,288
+betiq/caller.py,sha256=24cEBGXR10NggNs_dCBQA-lhscc6UxPK9jAW15PhvrI,2028
+betiq/event_odds.py,sha256=pXmduAw9hO6oKGlX3ePAK5NRMuaSgZjZ6U3k7RtTWy8,2080
+betiq/historical_odds.py,sha256=xXveisIPrlIB28-zuTr5DID17yz83X-F-1jBuhB_LAc,2079
+betiq/odds.py,sha256=kzsSApodea3P0ai751bIMRCgjfINRek89Hnm6_7xcRA,1883
+betiq/scores.py,sha256=xnVeDuCU3vGrn2dsgja3r0WiF7o0vyfeXh-cVILLleQ,1224
+betiq/sports.py,sha256=2rQsuPJ4Ji-iRSvCUBozegeSMRzBcN1PawPCDuhpV5w,575
+betiq-0.1.0.dist-info/METADATA,sha256=wDskbGQxfwIQSQZsQfzjUpoTP-deO9gQ3T_jY73Agv0,587
+betiq-0.1.0.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+betiq-0.1.0.dist-info/RECORD,,

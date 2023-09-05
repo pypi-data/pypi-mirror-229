@@ -1,0 +1,13 @@
+aiohttp
+defusedxml
+dulwich>=0.21.6
+icalendar>=5.0.4
+jinja2
+multidict
+vobject
+
+[prometheus]
+aiohttp_openmetrics
+
+[systemd]
+systemd_python

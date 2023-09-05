@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: dict-wash
+Version: 0.69.1
+Summary: wash your dicts
+Project-URL: Source Code, https://github.com/Hacksore/wash
+
+takes in a dict and returns a clean dict

@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: sim_sensors
+Version: 0.3
+Summary: A collection of classes that simulate IoT sensors
+Home-page: https://www.path-variable.com
+Author: Ivan Šarić / Path Variable
+Author-email: ivan@path-variable.com
+License: MIT
+Keywords: simulated,sensors,iot
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+License-File: LICENSE.txt
+
+### sim_sensors
+
+This is an educational python package that holds classes intended to simulate sensors. The sensors are those you would find in a typical IoT lab or home project.
+The objects created can be placed in seperate threads and spun up to spit out values. You can use the created values to demonstrate data visualisation and analysis skills. Or store them in a database and practice sql operations.
+Please check the code for additional comments that describe how the various components work.

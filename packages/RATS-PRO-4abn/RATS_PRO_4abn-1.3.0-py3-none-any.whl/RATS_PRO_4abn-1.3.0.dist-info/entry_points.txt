@@ -1,0 +1,2 @@
+[console_scripts]
+rats-pro-4abn = src.main

@@ -1,0 +1,16 @@
+ocrpackage/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ocrpackage/antispoofing_model.h5,sha256=n8wugHT6SLtWkvjmcXTwnmEHR0hClLcfV8f43YvLL9w,10444552
+ocrpackage/antispoofing_model.json,sha256=_wz2cuER6u38VJuLBe0EjAxizN-WGbR7hBqNEalhSA8,81587
+ocrpackage/f_liveness_detection.py,sha256=1fDhGBGcqgNueA8MQriFaZjWokSzE30QtOeDb46U5Hk,1326
+ocrpackage/f_orientation_detection.py,sha256=tFQWbH8yS912NdigU0hMmbScJt7wCsCGgC_1SA3g_oI,2571
+ocrpackage/f_utils.py,sha256=wAnf5l91mzZ1eFt_kXs_BlbbMyluJ_7gyrCWA1H5G0U,598
+ocrpackage/haarcascade_frontalface_default.xml,sha256=D31FJ4ROtRTUpJSOgi2pD7sWo0oLu7xq3GSYdHpar7A,930127
+ocrpackage/liveness.py,sha256=YMb8zTgtgaWZLocK-rsxs706RKLxOrLzIMw99JW9c1Y,2765
+ocrpackage/ocr.py,sha256=IsVOu1ilGos6UglSzpUYIpIJEE6lz4mwnRfRGRwE0w4,25543
+ocrpackage/haarcascades/haarcascade_frontalface_alt.xml,sha256=YoHfE0Wcwhj_BH0Csq44WbEv8UqT_-iVL3sz-te5aXs,676709
+ocrpackage/haarcascades/haarcascade_profileface.xml,sha256=s5pKO-RVOdsUan_B0-dhopLBluuIQhGF5qYVswVeYS0,828514
+ocrpackage-0.0.29.dist-info/LICENSE,sha256=JTmNGOPPvG2XBgkW2R2xwzJeR_OEjaFKeePN1jGYVt8,1068
+ocrpackage-0.0.29.dist-info/METADATA,sha256=xoYa0HG5SRl8JUO4rCkpv4hO7CPEeb6LOIfPXTKYc64,4226
+ocrpackage-0.0.29.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+ocrpackage-0.0.29.dist-info/top_level.txt,sha256=8rMCuKmm_JVvWf9QN2cw5j7q-qomu7us3rw8kYqCpLU,11
+ocrpackage-0.0.29.dist-info/RECORD,,

@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+tabelog-std/__init__.py
+tabelog_std.egg-info/PKG-INFO
+tabelog_std.egg-info/SOURCES.txt
+tabelog_std.egg-info/dependency_links.txt
+tabelog_std.egg-info/top_level.txt

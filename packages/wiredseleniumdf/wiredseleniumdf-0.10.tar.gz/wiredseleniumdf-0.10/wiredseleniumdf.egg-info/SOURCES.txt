@@ -1,0 +1,14 @@
+LICENSE.rst
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+wiredseleniumdf/README.MD
+wiredseleniumdf/__init__.py
+wiredseleniumdf/requirements.txt
+wiredseleniumdf/thirdparty.json
+wiredseleniumdf.egg-info/PKG-INFO
+wiredseleniumdf.egg-info/SOURCES.txt
+wiredseleniumdf.egg-info/dependency_links.txt
+wiredseleniumdf.egg-info/requires.txt
+wiredseleniumdf.egg-info/top_level.txt

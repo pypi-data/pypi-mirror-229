@@ -1,0 +1,3 @@
+include wiredseleniumdf/requirements.txt
+include wiredseleniumdf/thirdparty.json
+include wiredseleniumdf/README.MD

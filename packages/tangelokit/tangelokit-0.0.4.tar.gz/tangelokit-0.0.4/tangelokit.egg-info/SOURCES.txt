@@ -1,0 +1,17 @@
+README.md
+README.rst
+setup.py
+tangelokit/__init__.py
+tangelokit/generate_data_structure.py
+tangelokit.egg-info/PKG-INFO
+tangelokit.egg-info/SOURCES.txt
+tangelokit.egg-info/dependency_links.txt
+tangelokit.egg-info/requires.txt
+tangelokit.egg-info/top_level.txt
+tangelokit/common/__init__.py
+tangelokit/common/enums.py
+tangelokit/validator/__init__.py
+tangelokit/validator/schema_validation.py
+tangelokit/validator/schemas.py
+test/__init__.py
+test/test_generate_data_structure.py

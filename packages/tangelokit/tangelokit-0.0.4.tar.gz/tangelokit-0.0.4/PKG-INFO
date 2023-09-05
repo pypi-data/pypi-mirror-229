@@ -1,0 +1,180 @@
+Metadata-Version: 2.1
+Name: tangelokit
+Version: 0.0.4
+Summary: Library created to generate structured data from tangelo
+Home-page: UNKNOWN
+Author: Arnold Blandon
+Author-email: arnold.blandon1@gmail.com
+License: UNKNOWN
+Keywords: python,tangelo,kit,data
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/x-rst
+
+Package Documentation
+=====================
+
+This package allows you to generate structured data using the
+``GenerateDataStructure`` class.
+
+Usage
+-----
+
+Import the ``GenerateDataStructure`` class from the package:
+
+.. code:: python
+
+    from tangelokit import GenerateDataStructure
+
+    You can create an instance of GenerateDataStructure and pass in the necessary data as follows:
+
+    result = GenerateDataStructure(
+        credit_line={
+                "uid": "1",
+                "created_at": "2023-08-30",
+                "balance": 23,
+                "todayToPay": {
+                    "value": 497819.23,
+                    "total": 582662.65,
+                    "date": "2023-08-30",
+                    "last_quota": 448773.98
+                }
+            },
+        credit_request={
+                "code": "22",
+                "approve_amount": 2
+            },
+        contact={
+                "cc": "22"
+            },
+        disbursements=[
+                {
+                    "uid": "23232",
+                    "uuid": "32323432",
+                    "start_date": "2020-02-02",
+                    "created_at": "2020-01-02",
+                    "principal": 23232,
+                    "days_late": 222,
+                    "status": "disbursed",
+                    "quotas": [],
+                    "resumen": {
+                        "last_quota": 2323,
+                        "total": 784,
+                        "value": 4565
+                    }
+                },
+                {
+                    "uid": "23232",
+                    "uuid": "32323432",
+                    "start_date": "2020-02-02",
+                    "created_at": "2020-01-02",
+                    "principal": 23232,
+                    "days_late": 222,
+                    "status": "disbursed",
+                    "quotas": [],
+                    "resumen": {
+                        "last_quota": 2323,
+                        "total": 784,
+                        "value": 4565
+                    }
+                }
+            ],
+        product={
+                "uuid": "22",
+                "period":  {
+                    "type": "month",
+                    "holidays": "holidays"
+                }
+            }
+    )
+
+    Example Response
+    Here's an example response structure that you can expect from using GenerateDataStructure:
+    {
+        "total": 1568,
+        "value": 9130,
+        "moratorium_amount": 4646,
+        "quotas_in_arrears": 0,
+        "days_late": 222,
+        "product_uuid": "22",
+        "product_name": "",
+        "disbursements": [
+            {
+                "uid": "23232",
+                "uuid": "32323432",
+                "start_date": "2020-02-02",
+                "created_at": "2020-01-02",
+                "principal": 23232,
+                "days_late": 222,
+                "status": "",
+                "quotas": [],
+                "resumen": {
+                    "last_quota": 2323,
+                    "total": 784,
+                    "value": 4565
+                },
+                "quotas_in_arrears": 0,
+                "expiration_date": "N/A",
+                "payment_date": "2023-08-30",
+                "moratorium_amount": 2323,
+                "periods": {
+                    "periodicity": "month"
+                },
+                "todayToPay": {
+                    "value": 497819.23,
+                    "total": 582662.65,
+                    "date": "2023-08-30",
+                    "last_quota": 448773.98
+                }
+            },
+            {
+                "uid": "23232",
+                "uuid": "32323432",
+                "start_date": "2020-02-02",
+                "created_at": "2020-01-02",
+                "principal": 23232,
+                "days_late": 222,
+                "status": "",
+                "quotas": [],
+                "resumen": {
+                    "last_quota": 2323,
+                    "total": 784,
+                    "value": 4565
+                },
+                "quotas_in_arrears": 0,
+                "expiration_date": "N/A",
+                "payment_date": "2023-08-30",
+                "moratorium_amount": 2323,
+                "periods": {
+                    "periodicity": "month"
+                },
+                "todayToPay": {
+                    "value": 497819.23,
+                    "total": 582662.65,
+                    "date": "2023-08-30",
+                    "last_quota": 448773.98
+                }
+            }
+        ],
+        "periods": {
+            "periodicity": "month"
+        },
+        "payment_date": "2023-08-30",
+        "created_at": "2023-08-30",
+        "amount_disbursed": 23,
+        "total_disbursement": 46464.0,
+        "credit_request": {
+            "code": "22",
+            "approve_amount": 2,
+            "contact": {
+                "cc": "22"
+            }
+        }
+    }
+
+

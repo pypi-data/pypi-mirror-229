@@ -1,0 +1,16 @@
+odoo/addons/web_widget_open_tab/README.rst,sha256=tZ3DKoQ0zHcEAqLOFmKWQuHzGN_83qFfDciNuF61ocM,3104
+odoo/addons/web_widget_open_tab/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+odoo/addons/web_widget_open_tab/__manifest__.py,sha256=8bCstqe2UAPLnXoXkx3V_H2PGiVbtYrY-Ow_7UdfCyQ,495
+odoo/addons/web_widget_open_tab/demo/res_users_view.xml,sha256=syCjMZO8QWnJhfv2VvDonNIKjwuhbC279iEGPkkCtWk,410
+odoo/addons/web_widget_open_tab/i18n/web_widget_open_tab.pot,sha256=007XRaX-yWb8sO2zwW-45XMp-9V6_PuC2nt8epMQ_NU,697
+odoo/addons/web_widget_open_tab/readme/CONTRIBUTORS.rst,sha256=okC5oUytz6l8wtkSnOgx_v81TJU3bDNcExRpiEuD0dM,41
+odoo/addons/web_widget_open_tab/readme/DESCRIPTION.rst,sha256=Wk40mRrcVyw9cyCbP5Q-OklopiITyYP8in1RjRE-ky8,92
+odoo/addons/web_widget_open_tab/readme/USAGE.rst,sha256=eutPLn5LAARQkKJNJxH8FsUv1lmGUCuOHoa4QF-3ne8,297
+odoo/addons/web_widget_open_tab/static/description/icon.png,sha256=6xBPJauaFOF0KDHfHgQopSc28kKvxMaeoQFQWZtfZDo,9455
+odoo/addons/web_widget_open_tab/static/description/index.html,sha256=7eRSH5OvmoT5swNzTo9Wql68ZfFBhow9xvcZqy9iiJo,12588
+odoo/addons/web_widget_open_tab/static/src/js/widget.js,sha256=F6GonOAgH9BhhM4CThcciuo6wYSs0JokUPyx9enOTsQ,2860
+odoo/addons/web_widget_open_tab/templates/assets.xml,sha256=hjDj2oFfPigbCw0uUVQBP3mtGbKi1hQdgAEfUtKP_qM,319
+odoo11_addon_web_widget_open_tab-11.0.1.0.0.99.dev6.dist-info/METADATA,sha256=UBwIgQvMNYg6W5c383Wpwx3TMNSxV7DJZCXvjfyWvsw,3722
+odoo11_addon_web_widget_open_tab-11.0.1.0.0.99.dev6.dist-info/WHEEL,sha256=iYlv5fX357PQyRT2o6tw1bN-YcKFFHKqB_LwHO5wP-g,110
+odoo11_addon_web_widget_open_tab-11.0.1.0.0.99.dev6.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
+odoo11_addon_web_widget_open_tab-11.0.1.0.0.99.dev6.dist-info/RECORD,,

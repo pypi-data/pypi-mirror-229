@@ -1,0 +1,6 @@
+setup.py
+imaginarium.egg-info/PKG-INFO
+imaginarium.egg-info/SOURCES.txt
+imaginarium.egg-info/dependency_links.txt
+imaginarium.egg-info/requires.txt
+imaginarium.egg-info/top_level.txt

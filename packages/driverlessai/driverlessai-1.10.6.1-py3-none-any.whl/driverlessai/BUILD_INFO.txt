@@ -1,0 +1,8 @@
+git_commit="0302a6cd2862de4681184119e3e771b955915ced"
+git_commit_timestamp=""
+git_describe="0302a6c"
+build_os="Linux 347c5d22cf6c 5.15.0-53-generic #59-Ubuntu SMP Mon Oct 17 18:53:30 UTC 2022 x86_64 GNU/Linux"
+build_machine="347c5d22cf6c"
+build_date="Mon Sep  4 17:41:23 UTC 2023"
+build_user="jenkins"
+version="1.10.6.1"

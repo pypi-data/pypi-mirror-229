@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: symplectic_basis
+Version: 0.0.2
+Summary: A symplectic basis for triangulated 3-manifolds
+Author-email: Josh Childs <joshua.childs01@outlook.com>
+License: GPLv3+
+Keywords: 3-manifolds,SnapPy,Hyperbolic Geometry
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# symplectic-basis
+A Symplectic Basis for Triangulated 3-Manifolds

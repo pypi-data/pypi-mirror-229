@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: MetDL
+Version: 2.2.0
+Summary: Extended Metorological Data library to read KMA data for AI study 2022
+Home-page: https://github.com/ait-nims/MetDL
+Author: Lee Heewoong
+Author-email: lhw@satreci.com
+License: MIT
+Requires-Python: >=3
+License-File: LICENSE
+Requires-Dist: certifi (>=2021.5.30)
+Requires-Dist: cftime (>=1.5.0)
+Requires-Dist: netCDF4 (>=1.5.4)
+Requires-Dist: numpy (>=1.9.0)
+Requires-Dist: scipy (>=1.5.2)
+Requires-Dist: Pillow (>=8.3.1)
+Requires-Dist: PyYAML (==5.4.1)
+Requires-Dist: torch (>=1.7.1)
+Requires-Dist: torchvision (>=0.8.2)
+Requires-Dist: typing-extensions
+Requires-Dist: h5df (>=0.1.5)
+Requires-Dist: h5py (>=2.10.0)
+Requires-Dist: pandas (>=1.3.1)
+Requires-Dist: openpyxl (>=3.0.9)
+

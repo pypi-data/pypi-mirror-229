@@ -1,0 +1,17 @@
+odoo/addons/product_sale_manufactured_for/README.rst,sha256=z4RNpsTUI1DbJAjTxXhxLPZ4c-dbEWSTVKjtmSOASz8,3287
+odoo/addons/product_sale_manufactured_for/__init__.py,sha256=yxIEJkjiuMBGusIHv7Sr6N9ImL1AuhcjaYlCQYqChzA,121
+odoo/addons/product_sale_manufactured_for/__manifest__.py,sha256=IECmbuSkJxqi4jv3DASRWidqGWgv7qyfxtn7VR5pccI,698
+odoo/addons/product_sale_manufactured_for/i18n/product_sale_manufactured_for.pot,sha256=8hZ_cgCUMD6UtCDulMJgV9DQ1s5oMzQmK1WetzOM56U,1482
+odoo/addons/product_sale_manufactured_for/models/__init__.py,sha256=NqevKb3RIfmWIUnPhSct_exJMLkOXVFl9y74E3AjVYM,131
+odoo/addons/product_sale_manufactured_for/models/product_template.py,sha256=WCKk3fMbRfBd2ksxtdwY6EP86PALN-b-MXRyfNtH0nI,538
+odoo/addons/product_sale_manufactured_for/readme/CONTRIBUTORS.rst,sha256=5j6ancmDgQ-RAvmMqh0c5o9uRFifa95skV4xGd1z8zA,101
+odoo/addons/product_sale_manufactured_for/readme/CREDITS.rst,sha256=BmL8-QKPa6k4wGHp0FvAtzJeWwjb6frjhWWPiFcE2bY,71
+odoo/addons/product_sale_manufactured_for/readme/DESCRIPTION.rst,sha256=nOUYABvEV_JdiJITS2_eC2qgds-ILlen3-7wYiUpVqs,212
+odoo/addons/product_sale_manufactured_for/static/description/icon.png,sha256=6xBPJauaFOF0KDHfHgQopSc28kKvxMaeoQFQWZtfZDo,9455
+odoo/addons/product_sale_manufactured_for/static/description/index.html,sha256=ZBiv7y8CE8fFPaDWnIj-7GaKmdvSeuD9rvzL0H5nSiA,12857
+odoo/addons/product_sale_manufactured_for/views/product_template.xml,sha256=Z8IMPl9i765qYl4IlV6j0t1QDRNK7VgZ0QNF5gR2Slw,807
+odoo/addons/product_sale_manufactured_for/views/sale_order.xml,sha256=HFzP1IGd-j-LT07sg88RlZa-z7txL8Y763lH2-JqYi8,1904
+odoo14_addon_product_sale_manufactured_for-14.0.1.0.1.dev4.dist-info/METADATA,sha256=moi4Z2duXU4VjAB6_j9hkNip02s0fE7TSQv41Nyk80I,3958
+odoo14_addon_product_sale_manufactured_for-14.0.1.0.1.dev4.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+odoo14_addon_product_sale_manufactured_for-14.0.1.0.1.dev4.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
+odoo14_addon_product_sale_manufactured_for-14.0.1.0.1.dev4.dist-info/RECORD,,

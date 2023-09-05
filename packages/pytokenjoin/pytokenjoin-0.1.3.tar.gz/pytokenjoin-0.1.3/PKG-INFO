@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: pytokenjoin
+Version: 0.1.3
+Summary: pyTokenJoin is a library containing efficient algorithms that solve the set similarity join problem with maximum weighted bipartite matching.
+Home-page: https://github.com/alexZeakis/pyTokenJoin
+Author: Alexandros Zeakis
+Author-email: azeakis@athenarc.gr
+License-File: LICENSE.md

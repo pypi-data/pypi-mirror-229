@@ -1,0 +1,14 @@
+odoo/addons/uom_extra_data/README.rst,sha256=ixF68aztgnEIcEvElry4Ztp2SDGs-ZzI5k0vkkWJTto,3002
+odoo/addons/uom_extra_data/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+odoo/addons/uom_extra_data/__manifest__.py,sha256=qpiDOcbnOHFmpiSizJTjMx8cFyQHKpOjJLNhvXUsEmc,498
+odoo/addons/uom_extra_data/data/uom.xml,sha256=iuf0KvEMJLZXnwhn6QjqU-UytfVYvTyBrTZ-rG3g6lg,1287
+odoo/addons/uom_extra_data/i18n/uom_extra_data.pot,sha256=hIBlGvK6KzvnIng7EZHiNQpX9SLJg1s4J3lASKm9AeE,796
+odoo/addons/uom_extra_data/readme/CONTRIBUTORS.rst,sha256=BeFBQLRg0nF1JYeaNmQkAGLBk_7UK1wBXkd_99rOqGg,111
+odoo/addons/uom_extra_data/readme/DESCRIPTION.rst,sha256=yX-Z3ODYLoYxzHFG9QKXG8y2zbzLNBbR2GvM3JjB9Bg,57
+odoo/addons/uom_extra_data/readme/ROADMAP.rst,sha256=NI7lLq88RF6TvmusqkwtNLKI-Mypu1y0YWseMfcwWvo,22
+odoo/addons/uom_extra_data/static/description/icon.png,sha256=6xBPJauaFOF0KDHfHgQopSc28kKvxMaeoQFQWZtfZDo,9455
+odoo/addons/uom_extra_data/static/description/index.html,sha256=gmbuVlTursPYNAL170rmMIPUzbzQBdD32GqagdaDCeY,12699
+odoo14_addon_uom_extra_data-14.0.1.0.2.dev1.dist-info/METADATA,sha256=-gf5tCU5Q9RhbKu0xb4Kutu2ZNs0nPuX0mZBj4XMH7I,3562
+odoo14_addon_uom_extra_data-14.0.1.0.2.dev1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+odoo14_addon_uom_extra_data-14.0.1.0.2.dev1.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
+odoo14_addon_uom_extra_data-14.0.1.0.2.dev1.dist-info/RECORD,,

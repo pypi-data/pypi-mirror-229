@@ -1,0 +1,9 @@
+README.md
+setup.py
+detection_package.egg-info/PKG-INFO
+detection_package.egg-info/SOURCES.txt
+detection_package.egg-info/dependency_links.txt
+detection_package.egg-info/requires.txt
+detection_package.egg-info/top_level.txt
+yolodetection/__init__.py
+yolodetection/detector.py

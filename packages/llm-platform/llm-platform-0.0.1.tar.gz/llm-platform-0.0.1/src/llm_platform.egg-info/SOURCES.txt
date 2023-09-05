@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+src/llm_platform.egg-info/PKG-INFO
+src/llm_platform.egg-info/SOURCES.txt
+src/llm_platform.egg-info/dependency_links.txt
+src/llm_platform.egg-info/entry_points.txt
+src/llm_platform.egg-info/not-zip-safe
+src/llm_platform.egg-info/top_level.txt

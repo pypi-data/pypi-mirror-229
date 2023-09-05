@@ -1,0 +1,22 @@
+[project]
+name = "ssbkonf"
+version = "0.0.7"
+authors = [
+  { name="Daniel P. Lupp", email="dlu@ssb.com" },
+]
+description = "A package for disclosure control in Python, wrapping methods coded in R"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/statisticsnorway/ssbkonf"
+"Bug Tracker" = "https://github.com/statisticsnorway/ssbkonf/issues"
+[build-system]
+requires = ["hatchling", "rpy2", "pandas"]
+build-backend = "hatchling.build"
+

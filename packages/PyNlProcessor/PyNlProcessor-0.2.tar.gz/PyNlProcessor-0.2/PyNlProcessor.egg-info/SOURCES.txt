@@ -1,0 +1,8 @@
+setup.py
+PyNlProcessor.egg-info/PKG-INFO
+PyNlProcessor.egg-info/SOURCES.txt
+PyNlProcessor.egg-info/dependency_links.txt
+PyNlProcessor.egg-info/requires.txt
+PyNlProcessor.egg-info/top_level.txt
+PyNlpProcessor/PyNlpProcessor.py
+PyNlpProcessor/__init__.py

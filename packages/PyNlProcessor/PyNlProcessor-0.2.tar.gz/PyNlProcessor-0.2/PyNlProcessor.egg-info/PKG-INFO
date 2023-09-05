@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: PyNlProcessor
+Version: 0.2
+Summary: Natural Language processing package
+Author: Pranav Adibatla
+Author-email: <adpranav05@gmail.com>
+Keywords: python,Natural Language Processing,vectorization,Machine Learnig
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows

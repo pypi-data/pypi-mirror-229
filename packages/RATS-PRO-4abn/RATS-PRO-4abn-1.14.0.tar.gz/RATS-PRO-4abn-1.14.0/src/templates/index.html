@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Client Data Collation</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div align="center" class="text-container">
+        <h1>Welcome to the Client Data Collation App!</h1>
+        <p>This app for RATS PRO serves collated client data for marketing purposes.</p>
+    </div>
+    <div align="center" class="form-container">
+        <h1>Input Dataset Paths</h1>
+        <br><br>
+        <form action="/load-datasets" method="GET">
+            <label for="csv_path1">Client Information CSV Path:</label>
+            <input type="text" name="csv_path1" id="csv_path1" style="width: 600px;"><br><br>
+            <label for="csv_path2">Client Financial Details CSV Path:</label>
+            <input type="text" name="csv_path2" id="csv_path2" style="width: 600px;"><br><br>
+            <button class="button-29" type="submit">Load Datasets</button>
+        </form>
+    </div>
+    <div style="margin-top: 10  px;"></div>
+    <div class="form-container" align="center">
+        <h1>Select Countries</h1>
+        <form id="select-countries-form" action="/process-selected-countries" method="POST">
+            <label><input type="checkbox" name="country" value="United Kingdom"> United Kingdom</label><br>
+            <label><input type="checkbox" name="country" value="Netherlands"> Netherlands</label><br>
+            <label><input type="checkbox" name="country" value="United States"> Germany</label><br>
+            <label><input type="checkbox" name="country" value="France"> France</label><br>
+            <button class="button-29" type="submit">Submit</button>
+        </form>
+    </div>
+    <br>
+    <div align ="center" class="button-container">
+        <a class="button-21" href="/view-client-data">View Collated Data</a>
+    </div>
+</body>
+</html>

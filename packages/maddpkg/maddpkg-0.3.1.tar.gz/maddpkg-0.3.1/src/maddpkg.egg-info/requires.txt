@@ -1,0 +1,6 @@
+scikit-learn
+pandas
+numpy
+
+[dev]
+twine>=4.0.2

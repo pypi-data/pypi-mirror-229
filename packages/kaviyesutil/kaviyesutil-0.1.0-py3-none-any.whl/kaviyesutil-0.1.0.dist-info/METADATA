@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: kaviyesutil
+Version: 0.1.0
+Summary: A set of functions that's often used with Kaviyes related projects.
+Home-page: https://github.com/Kaviyes/kaviyesutil
+Author: Kaviyes (Karl Vince Reyes)
+Author-email: kaviyeslabs@proton.me
+License: MIT
+Keywords: utility
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: MacOS :: MacOS X
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENCE
+
+# Description
+
+### About the module
+The purpose of this module is to boost Kaviyes related projects productivity with pre-defined functions
+
+
+

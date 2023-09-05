@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: chess-analytica
+Version: 1.1.2a0
+Summary: Making chess analytics easy.
+Home-page: https://github.com/AronFrish/Chess-Analytica
+Author: Aron Frishberg
+Author-email: frishberg@uchicago.edu
+License: MIT
+Project-URL: Documentation, https://chess-analytica.readthedocs.io
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Games/Entertainment :: Board Games
+Classifier: Topic :: Games/Entertainment :: Turn Based Strategy
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+testing pypi
+

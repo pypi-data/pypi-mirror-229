@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+muprocdurham/__init__.py
+muprocdurham/myclass.py
+muprocdurham.egg-info/PKG-INFO
+muprocdurham.egg-info/SOURCES.txt
+muprocdurham.egg-info/dependency_links.txt
+muprocdurham.egg-info/top_level.txt

@@ -1,0 +1,3 @@
+[console_scripts]
+pbi-load-test=pbi_load_test.cli:cli
+

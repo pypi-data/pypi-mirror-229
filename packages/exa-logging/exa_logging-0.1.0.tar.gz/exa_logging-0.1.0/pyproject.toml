@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "exa-logging"
+version = "0.1.0"
+description = ""
+authors = ["Christopher Frige <christopher.frige@exa.com.br>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.7.3"
+json-log-formatter = "^0.5.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

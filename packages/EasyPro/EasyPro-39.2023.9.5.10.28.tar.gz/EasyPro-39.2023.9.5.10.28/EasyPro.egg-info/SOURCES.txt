@@ -1,0 +1,5 @@
+setup.py
+EasyPro.egg-info/PKG-INFO
+EasyPro.egg-info/SOURCES.txt
+EasyPro.egg-info/dependency_links.txt
+EasyPro.egg-info/top_level.txt

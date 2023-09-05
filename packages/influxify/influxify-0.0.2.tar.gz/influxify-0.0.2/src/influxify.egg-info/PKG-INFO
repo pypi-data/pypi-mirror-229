@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: influxify
+Version: 0.0.2
+Summary: A package that can be used to convert csv file to influxdb line protocol format.
+Home-page: https://github.com/saniauzma/Influxify
+Author-email: uzmasaajid@gmail.com
+Project-URL: repository, https://github.com/saniauzma/Influxify
+Project-URL: Bug Tracker, https://github.com/saniauzma/Influxify/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+License-File: LICENSE
+
+# `influxify`
+
+The `influxify` is a python package that can be used to convert any csv data to influxdb line protocol.
+
+## Install & Usage
+
+You can install `influxify` as follows:
+
+```
+pip install -i https://test.pypi.org/simple/ influxify
+```
+
+Try to have fun with `influxify`

@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/influxify/__init__.py
+src/influxify/main.py
+src/influxify.egg-info/PKG-INFO
+src/influxify.egg-info/SOURCES.txt
+src/influxify.egg-info/dependency_links.txt
+src/influxify.egg-info/top_level.txt
+tests/test_csv_to_lineprotocol.py

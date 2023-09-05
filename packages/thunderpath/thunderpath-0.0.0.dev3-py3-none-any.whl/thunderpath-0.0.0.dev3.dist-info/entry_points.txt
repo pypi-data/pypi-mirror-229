@@ -1,0 +1,2 @@
+[console_scripts]
+thunderpath = thunderpath.cli:main

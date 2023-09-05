@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: spectrogrammer
+Version: 1.0.0
+Summary: a spectrogram generator and plotter for wav files
+Home-page: https://github.com/Navodplayer1/spectrogrammer
+Author: Navod Peiris
+Author-email: navodpeiris1234@gmail.com
+License: MIT
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: tensorflow
+Requires-Dist: numpy
+Requires-Dist: matplotlib
+Requires-Dist: soundfile
+
+# Spectrogrammer 
+
+spectrogrammer is a library that provide ease to developers to extract spectrograms from their wav files.
+
+example:
+
+```
+from spectrogrammer import get_spectrogram, plot_spectrogram
+import numpy as np
+import matplotlib.pyplot as plt
+
+spectrogram = get_spectrogram("audio.wav")
+
+plot_spectrogram(spectrogram)
+
+```

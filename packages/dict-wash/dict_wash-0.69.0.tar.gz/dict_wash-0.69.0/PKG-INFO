@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: dict_wash
+Version: 0.69.0
+Summary: wash your dicts
+
+takes in a dict and returns a clean dict

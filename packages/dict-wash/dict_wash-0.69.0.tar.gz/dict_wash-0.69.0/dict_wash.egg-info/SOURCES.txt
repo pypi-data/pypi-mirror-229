@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+setup.py
+dict_wash.egg-info/PKG-INFO
+dict_wash.egg-info/SOURCES.txt
+dict_wash.egg-info/dependency_links.txt
+dict_wash.egg-info/top_level.txt
+wash/__init__.py
+wash/utils.py

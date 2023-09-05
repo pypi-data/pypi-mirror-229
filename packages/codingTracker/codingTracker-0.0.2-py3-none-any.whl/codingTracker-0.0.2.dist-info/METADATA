@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: codingTracker
+Version: 0.0.2
+Summary: This app track how many hours you spend coding in a language.
+Home-page: https://github.com/eguefif/codingTracker
+Author: Emmanuel Guefif
+Author-email: eguefif@fastmail.com
+License: MIT License
+Keywords: tracking,coding,languages,hour,hours
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Description-Content-Type: text/markdown
+

@@ -1,0 +1,2 @@
+[console_scripts]
+rungpt = run_gpt.cli.application:main

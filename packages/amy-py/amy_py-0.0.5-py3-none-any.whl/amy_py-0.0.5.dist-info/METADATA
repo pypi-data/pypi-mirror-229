@@ -1,0 +1,64 @@
+Metadata-Version: 2.1
+Name: amy-py
+Version: 0.0.5
+Summary: Transform Python development with this innovative package, introducing a unique syntax extension that empowers developers to write code more expressively and efficiently. Explore a new level of flexibility and productivity in your projects with this custom Python language enhancements.
+Author: Emir Husain
+Author-email: emirhusain.eh@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# amy_py - Custom Python Syntax Extension
+
+amy_py is a powerful Python package that introduces a unique and expressive custom syntax extension for Python developers. With amy_py, you can leverage an innovative set of keywords and constructs that enhance your coding experience and productivity.
+
+## Features
+
+- **Custom Syntax**: amy_py extends Python's capabilities with custom keywords like `VAR`, `IF`, and more, allowing you to write code in a more intuitive and concise manner.
+
+- **Improved Readability**: Our custom syntax enhances code readability, making it easier to understand and maintain complex logic.
+
+- **Boosted Productivity**: amy_py streamlines common programming tasks, reducing boilerplate code and saving you time.
+
+- **Seamless Integration**: You can seamlessly integrate amy_py into your existing Python projects without disrupting your workflow.
+
+## Installation
+
+To get started with amy_py, simply install it using `pip`:
+
+```bash
+pip install amy_py
+Usage
+amy_py is straightforward to use. Import the package and begin writing code with the custom syntax:
+
+python
+Copy code
+import amy_py
+
+# Use custom syntax
+amy_py.VAR('a', 42)
+amy_py.IF(a == 42, "Hello, amy_py!")
+
+# Your code continues here
+Documentation
+For detailed information on how to use amy_py and a complete list of available keywords and features, please refer to our official documentation.
+
+Examples
+Explore practical examples and use cases in the examples directory of this repository.
+
+Support
+If you encounter any issues or have questions, feel free to reach out to us on our GitHub Issues page.
+
+Contributing
+We welcome contributions! If you'd like to enhance amy_py or report issues, please check our Contributing Guidelines.
+
+License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+Acknowledgments
+We would like to thank the Python community for its continuous support and inspiration.
+
+Enjoy coding with amy_py and unlock a new world of possibilities in Python development!

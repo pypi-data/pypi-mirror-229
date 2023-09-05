@@ -1,0 +1,2 @@
+[console_scripts]
+repcalchn = repcalchn.command_line:main

@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: saranphat
+Version: 0.0.2
+Summary: Show Saranphat Roungkitrakran profile
+Home-page: https://github.com/SaranphatRoungkitrakran/saranphat
+Download-URL: https://github.com/SaranphatRoungkitrakran/saranphat/archive/0.0.1.zip
+Author: Saranphat Roungkitrakran
+Author-email: Gungungungundam@hotmail.com
+License: MIT
+Keywords: SARANPHAT,ROUNGKITRAKRAN,THAILAND,JAPANESE,PROFILE
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+License-File: LICENSE.txt
+
+please read in: https://github.com/SaranphatRoungkitrakran/saranphat

@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: buble
+Version: 6.0
+Summary: Buble library PyPi
+Home-page: https://github.com/ForestBu/Buble
+Author: ForestBu
+Author-email: tvc55.admn@gmail.com
+Keywords: buble if else elif elseif perimeter square area while for python file os system pause time timer login password register log reg
+Classifier: Programming Language :: Python :: 3.11
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Buble
+  
+##url https://github.com/ForestBu/Buble

@@ -1,0 +1,15 @@
+odoo/addons/mail_environment_google_gmail/README.rst,sha256=lZOu0fpCZHVkBvDxec8ceoJRhWiFMfBsIiUCBnqd0R8,4421
+odoo/addons/mail_environment_google_gmail/__init__.py,sha256=X9EJGOE2GtZbS0G82PtSXmWSZ_R8jEM0rlJTDliQjp4,21
+odoo/addons/mail_environment_google_gmail/__manifest__.py,sha256=F7EJaEDJFk_UcYf7H5Fj6MYhDaTjGBJuZTZrZlS-smI,703
+odoo/addons/mail_environment_google_gmail/i18n/mail_environment_google_gmail.pot,sha256=ynPPJw_CEHWVGcZSxydqg0WKWIHlFK69dTrbn2GoUrs,522
+odoo/addons/mail_environment_google_gmail/models/__init__.py,sha256=CUJkClw5__3iJ4uH2JoVpgZfBsvqPN-tmmz64oH60ZA,29
+odoo/addons/mail_environment_google_gmail/models/ir_mail_server.py,sha256=e057h2SS90cOqrDG3m379L8eDIXgOlM5IjbyCORPWVY,622
+odoo/addons/mail_environment_google_gmail/readme/CONFIGURE.rst,sha256=o9eQPNFtBGNL4qaKO59r07-niF9cc1znD64Q9GZEGW0,1071
+odoo/addons/mail_environment_google_gmail/readme/CONTRIBUTORS.rst,sha256=ofTo2NuOLlxqrp7sHGzFCW41UdXqDl8xR0HGBfatNvo,102
+odoo/addons/mail_environment_google_gmail/readme/DESCRIPTION.rst,sha256=FfBc_0se3PRlnynpfYW2F1S40JeuPq-We1cktNZ3QAw,72
+odoo/addons/mail_environment_google_gmail/static/description/icon.png,sha256=6xBPJauaFOF0KDHfHgQopSc28kKvxMaeoQFQWZtfZDo,9455
+odoo/addons/mail_environment_google_gmail/static/description/index.html,sha256=Qx86v7ALwTshYgpUYvWSfWEBzAO8F1xlu_uhxs5jNFs,14178
+odoo_addon_mail_environment_google_gmail-15.0.1.0.0.4.dist-info/METADATA,sha256=cVQVV2VPSTGdE5fF0tF5BMRxy-1jMZiGCZ9DvqWsZqM,5151
+odoo_addon_mail_environment_google_gmail-15.0.1.0.0.4.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+odoo_addon_mail_environment_google_gmail-15.0.1.0.0.4.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
+odoo_addon_mail_environment_google_gmail-15.0.1.0.0.4.dist-info/RECORD,,

@@ -1,0 +1,10 @@
+packaging_demo_nitinkeshav/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+packaging_demo_nitinkeshav/my_file_constant.py,sha256=ME7Q04WvHi6SUoYy-ba70b-UL0kY5kJWAX1XjFlDMmM,13
+packaging_demo_nitinkeshav/my_file_import.py,sha256=ZNIqLILl1a8g6NRrDksrv8AEJ4HyRXp8WlAo1J-nWB8,54
+packaging_demo_nitinkeshav/states_info.py,sha256=-rq1qRUjGb9Hz5B0HimU1Uc1FLrSucqvbHU4D1iY0BM,677
+packaging_demo_nitinkeshav/my_folder/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+packaging_demo_nitinkeshav/my_folder/my_another_file.py,sha256=SkYPIpjdt-IguerQawPxhKfNbENgT14-vn5WNpnQyIc,81
+packaging_demo_nitinkeshav-0.0.1.dist-info/METADATA,sha256=niS7XAqe5_i-h36oOd6GygrerKctZdDnB6Ye0n4ZV3E,806
+packaging_demo_nitinkeshav-0.0.1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+packaging_demo_nitinkeshav-0.0.1.dist-info/top_level.txt,sha256=ilLSshUuWIg7LahK0jvpWb1y4SODX22QabRmrWf_PL8,27
+packaging_demo_nitinkeshav-0.0.1.dist-info/RECORD,,

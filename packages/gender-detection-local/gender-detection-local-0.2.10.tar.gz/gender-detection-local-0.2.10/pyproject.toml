@@ -1,0 +1,12 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.poetry]
+name = "gender_detection_local_python_package"
+version = "0.2.10"
+description = "Gender Detection Local Python Package"
+readme = "README.md"
+authors = [
+    "Circlez.ai <info@circlez.ai>",
+]

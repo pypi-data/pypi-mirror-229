@@ -1,0 +1,15 @@
+sklearn01/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sklearn01/ann.py,sha256=GnNALXGYfSeE-K0r5cc_EYaA4IMdgUCPe3_Whm4CQs4,1692
+sklearn01/bayesiandiabetes.py,sha256=BbCF3xl4LjgPZJl-7mhwK4XBB91wrlGnt56WnISHTts,2861
+sklearn01/candidate.py,sha256=nV82pMI3_OL4NOEITxcCw9PeyISe1ONLN6CMoSeiKh8,2252
+sklearn01/en_kmean_iris.py,sha256=tBjtIsScvvWM6FIWQsEb_Zp41bGLpIoVefVBH_9rPvM,1226
+sklearn01/id3.py,sha256=Un-0s2_atiUtGSHNISg8vJQJYvvVwgynTNVxHjW6mkM,1400
+sklearn01/knn_iris.py,sha256=z8YIoGkZWK2vgMiAV-so8gdcHJTzDBkA30PlMBYntAw,1683
+sklearn01/main.py,sha256=V0ho1QvveGsYia_xa22zfvexKZ97Nt_4voIJiM8QKnM,135
+sklearn01/pgm1lr.py,sha256=_vBMzrD4IV7i_GxD8cBGSpDzpIBw1JiENWclnt8fdWI,1505
+sklearn01/weather.py,sha256=w4L1c9yluyWjyq2enmpMdbr095oCTBSre6aJsg4oiH8,1054
+sklearn01-7.dist-info/LICENSE,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sklearn01-7.dist-info/METADATA,sha256=K2GPXRHANBEGq1NA8lwZ2Q5AURjhz3Ogg943wm91Uc4,481
+sklearn01-7.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+sklearn01-7.dist-info/top_level.txt,sha256=v21HIHUKJc3YrTLL1CCYyw_kTI5V1agGjPolAe0KgR8,10
+sklearn01-7.dist-info/RECORD,,

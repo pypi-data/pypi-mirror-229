@@ -1,0 +1,3 @@
+[console_scripts]
+dns-poison-check=dns_poison_checker.__main__:cli
+

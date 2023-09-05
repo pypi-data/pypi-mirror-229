@@ -1,0 +1,8 @@
+dns_poison_checker/__init__.py,sha256=9NU0btMDrJ7O4gcIrNuwkhsDEte65NBIkbAcgn6lnvw,90
+dns_poison_checker/__main__.py,sha256=XOTCqJwN3eCMGk80lldKV5OcYo3wyk_knXIyXt1-y1w,1783
+dns_poison_checker/poison_hosts,sha256=RRvCoF8nq5F5TL2_XVRNWhAKVMpNvST7RjFkTIJpkak,1101
+dns_poison_checker-0.1.0.dist-info/LICENSE,sha256=JnTKr3SJTwFywG5IKnaHeSPVzofpdnLK6JVY7xYh9xc,1091
+dns_poison_checker-0.1.0.dist-info/METADATA,sha256=_YwOAu23sjeaLkxi2Hg17eRc1S0fCU2JvwxKRpA6v9A,1685
+dns_poison_checker-0.1.0.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+dns_poison_checker-0.1.0.dist-info/entry_points.txt,sha256=MECMuw5alNoVWkox0ZKmfVTMB0XZRzGs3Az7_Y3RH7Y,68
+dns_poison_checker-0.1.0.dist-info/RECORD,,

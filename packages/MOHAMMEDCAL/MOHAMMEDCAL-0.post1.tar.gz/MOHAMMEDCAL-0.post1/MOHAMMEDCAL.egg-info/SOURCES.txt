@@ -1,0 +1,7 @@
+LICENCE.txt
+setup.py
+MOHAMMEDCAL.egg-info/PKG-INFO
+MOHAMMEDCAL.egg-info/SOURCES.txt
+MOHAMMEDCAL.egg-info/dependency_links.txt
+MOHAMMEDCAL.egg-info/top_level.txt
+code/__init__.py

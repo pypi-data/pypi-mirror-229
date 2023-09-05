@@ -1,0 +1,16 @@
+odoo/addons/mail_partner_opt_out/README.rst,sha256=gSgSfFf2DFL5wgRUiqab7daoKbtplV-VO1h9fMsW_F8,3301
+odoo/addons/mail_partner_opt_out/__init__.py,sha256=X9EJGOE2GtZbS0G82PtSXmWSZ_R8jEM0rlJTDliQjp4,21
+odoo/addons/mail_partner_opt_out/__manifest__.py,sha256=vBabXS85GSWhagUwFGLMLMy8San0Gq7Xd-JsYRgCioY,533
+odoo/addons/mail_partner_opt_out/i18n/mail_partner_opt_out.pot,sha256=lqa7k023QngijpL-JKaG45eX71ehUye48or1bV_qSqg,1285
+odoo/addons/mail_partner_opt_out/models/__init__.py,sha256=g-Dp2ZwN6oB4CqdQfgRInNSzdMWAVQg1vjWL7S-ZODM,26
+odoo/addons/mail_partner_opt_out/models/res_partner.py,sha256=44vgw6lMHYDIE-Jy0jEZ5foqeyFd1q21eQ89GK_D-O8,1814
+odoo/addons/mail_partner_opt_out/readme/CONTRIBUTORS.rst,sha256=cog8l6fzS54Gfy1r-oZjNUUn8qvhCGC7sN5lFnZzFVw,104
+odoo/addons/mail_partner_opt_out/readme/DESCRIPTION.rst,sha256=AwK6kMwBM4DD_EGFGK00i6wc4nWbD2BL49KuJ-Zczac,167
+odoo/addons/mail_partner_opt_out/readme/USAGE.rst,sha256=RHLjZMLIKyBWnldl08ulSt5u-FGQ8NCgCrji2pi5bjA,330
+odoo/addons/mail_partner_opt_out/static/description/icon.png,sha256=6xBPJauaFOF0KDHfHgQopSc28kKvxMaeoQFQWZtfZDo,9455
+odoo/addons/mail_partner_opt_out/static/description/index.html,sha256=o2OIvTwYQoaaNu-EgemPafyo9CaQwnp-OrygLXQ3b_k,12901
+odoo/addons/mail_partner_opt_out/views/res_partner_views.xml,sha256=m4g_Q6RqEnPrBgX40suYQ4vaDKDviHiFOKUHAcpeoeE,423
+odoo13_addon_mail_partner_opt_out-13.0.1.0.1.dev4.dist-info/METADATA,sha256=7VUodxOz7CTbdLOHUY3gcbxHEwsWHV_Y3ISpYPb0kO4,3915
+odoo13_addon_mail_partner_opt_out-13.0.1.0.1.dev4.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+odoo13_addon_mail_partner_opt_out-13.0.1.0.1.dev4.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
+odoo13_addon_mail_partner_opt_out-13.0.1.0.1.dev4.dist-info/RECORD,,

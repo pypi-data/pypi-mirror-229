@@ -1,0 +1,2 @@
+[console_scripts]
+AEI = AAEI.AAEI:main

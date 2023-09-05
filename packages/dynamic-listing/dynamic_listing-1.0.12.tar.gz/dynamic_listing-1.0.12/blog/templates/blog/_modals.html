@@ -1,0 +1,24 @@
+<div class="modal fade" tabindex="-1" id="bulk-delete">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3 class="modal-title">Delete All</h3>
+
+        <div class="btn btn-icon btn-sm btn-active-light-primary ms-2" data-bs-dismiss="modal" aria-label="Close">
+          <i class="ki-duotone ki-cross fs-1"><span class="path1"></span><span class="path2"></span></i>
+        </div>
+      </div>
+      <form action="{% url "blog:blog-bulk-delete" %}" id="delete-form" method="POST">
+        {% csrf_token %}
+        <div class="modal-body">
+          <p>Are you sure you want to delete these items</p>
+        </div>
+
+        <div class="modal-footer">
+          <button type="button" class="btn btn-light" data-bs-dismiss="modal">Close</button>
+          <button type="submit" class="btn btn-danger">Delete</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>

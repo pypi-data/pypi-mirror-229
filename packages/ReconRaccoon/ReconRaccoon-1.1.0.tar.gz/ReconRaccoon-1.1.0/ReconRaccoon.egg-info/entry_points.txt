@@ -1,0 +1,2 @@
+[console_scripts]
+reconraccoon = ReconRaccoon.reconraccoon:main

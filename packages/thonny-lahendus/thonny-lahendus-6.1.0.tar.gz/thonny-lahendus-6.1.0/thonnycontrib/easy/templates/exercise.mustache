@@ -1,0 +1,47 @@
+<h1>{{effective_title}}</h1>
+
+{{{text_html}}}
+
+<a href="https://{{{provider_url}}}/courses/{{course_id}}/exercises/{{exercise_id}}/summary">Vaata ülesannet
+    Lahenduses</a>
+<br/>
+<br/>
+<hr>
+
+{{#solution}}
+    <h2>Viimane esitus</h2>
+    <br/>
+    <pre><code>{{solution}}</code></pre>
+{{/solution}}
+
+{{#is_open}}
+    <h2>Esitamine</h2>
+    <form action="/student/courses/{{course_id}}/exercises/{{exercise_id}}/submissions">
+        <input type="hidden" name="{{EDITOR_CONTENT_NAME}}"/>
+        <input type="submit" value="Esita aktiivse redaktori sisu"/>
+    </form>
+{{/is_open}}
+
+{{#not_open}}
+    <h2>Esitamine</h2>
+    <div>See ülesanne on suletud ja ei luba enam uusi esitusi</div>
+{{/not_open}}
+
+{{#points}}
+    <h2>Punktid</h2>
+    <div>{{points}}/100 {{feedback_type}}</div>
+    <br/>
+{{/points}}
+
+{{#latest_feedback_teacher}}
+    <h2>Õpetaja kommentaar</h2>
+    <div>{{latest_feedback_teacher}}</div>
+    <br/>
+{{/latest_feedback_teacher}}
+
+
+{{#feedback_auto}}
+    <h2>Automaatsed testid</h2>
+    <pre><code>{{feedback_auto}}</code></pre>
+    <br/>
+{{/feedback_auto}}

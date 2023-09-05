@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: aioshenanigans
+Version: 0.0.4
+Summary: A small helper package for common patterns in asyncio
+Home-page: https://github.com/moznuy/aioshenanigans
+Author: Serhii Charykov
+Author-email: serhii.charykov@gmail.com
+Project-URL: Bug Tracker, https://github.com/moznuy/aioshenanigans/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+

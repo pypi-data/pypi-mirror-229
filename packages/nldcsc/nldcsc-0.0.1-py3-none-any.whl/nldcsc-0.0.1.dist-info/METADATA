@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: nldcsc
+Version: 0.0.1
+Summary: Package with general devops code
+Home-page: https://github.com/NLDCSC/nldcsc
+Author: NLDCSC
+Author-email: NLDCSC@invalid.com
+License: GNU General Public License v3.0
+Project-URL: Code, https://github.com/NLDCSC/nldcsc
+Platform: any
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+License-File: LICENSE
+Requires-Dist: python-dotenv (~=1.0.0)
+Provides-Extra: all
+Requires-Dist: ansicolors (==1.1.8) ; extra == 'all'
+Requires-Dist: gunicorn (~=21.2.0) ; extra == 'all'
+Requires-Dist: pygelf (~=0.4.2) ; extra == 'all'
+Requires-Dist: setuptools (~=65.5.1) ; extra == 'all'
+Provides-Extra: loggers
+Requires-Dist: ansicolors (==1.1.8) ; extra == 'loggers'
+Requires-Dist: gunicorn (~=21.2.0) ; extra == 'loggers'
+Requires-Dist: pygelf (~=0.4.2) ; extra == 'loggers'
+Requires-Dist: setuptools (~=65.5.1) ; extra == 'loggers'
+
+# nldcsc
+NLDCSC package
+
+

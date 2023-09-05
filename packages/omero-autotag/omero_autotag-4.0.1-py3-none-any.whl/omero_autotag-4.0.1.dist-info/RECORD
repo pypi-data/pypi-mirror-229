@@ -1,0 +1,13 @@
+omero_autotag/__init__.py,sha256=H-3D4OvKuufomuZhr-5vHg3XIaYyHv4ReKpIcquUmZI,59
+omero_autotag/apps.py,sha256=8P0eMzLbvJb-7-F8FIHUQsgrofctdIFDfEgF4cUZyEw,173
+omero_autotag/urls.py,sha256=ChSme_Fj-7_r1fxSwmAQW6Io7BnCpuYNcq9nZ9R_tw4,504
+omero_autotag/utils.py,sha256=yYpvVl2oQCOsQaLgADjtyxAglK_swPHVnHGpzFIpmz0,6561
+omero_autotag/views.py,sha256=ZxqJJv7-gSzrEKY_TNd-3-FvKtZj92X9LVusJ34QgSk,5564
+omero_autotag/static/omero_autotag/js/bundle.js,sha256=zVGtbzrX8FltAxVbgFWRMCev5MgnylAVxB8u50qX21g,1981763
+omero_autotag/static/omero_autotag/js/bundle.min.js,sha256=BWypnG9OUfQv7cBa55X5iJyN_0fIZoUMzIHMKJAnyxY,627458
+omero_autotag/templates/omero_autotag/auto_tag_init.js.html,sha256=gcFvIFFVdEcQmba4SWpEqE-nwRK6GgTN6C9Kra6WUGM,2445
+omero_autotag-4.0.1.dist-info/LICENSE.txt,sha256=dql8h4yceoMhuzlcK0TT_i-NgTFNIZsgE47Q4t3dUYI,34520
+omero_autotag-4.0.1.dist-info/METADATA,sha256=wpVflC1ntB-lyU5Kqw944iVLVsxCOk_AhAoSPO74VII,6161
+omero_autotag-4.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+omero_autotag-4.0.1.dist-info/top_level.txt,sha256=XG5rt0_c7I9Q5Z-S0Sp3DX2JoyGOl2eq5bFuoOQE-KY,14
+omero_autotag-4.0.1.dist-info/RECORD,,

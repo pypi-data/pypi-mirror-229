@@ -1,0 +1,13 @@
+MANIFEST.in
+README.md
+pyproject.toml
+src/llm_falcon_model/__init__.py
+src/llm_falcon_model/config_7b.json
+src/llm_falcon_model/configuration_RW.py
+src/llm_falcon_model/modelling_RW.py
+src/llm_falcon_model.egg-info/PKG-INFO
+src/llm_falcon_model.egg-info/SOURCES.txt
+src/llm_falcon_model.egg-info/dependency_links.txt
+src/llm_falcon_model.egg-info/requires.txt
+src/llm_falcon_model.egg-info/top_level.txt
+tests/test_base.py

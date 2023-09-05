@@ -1,0 +1,10 @@
+setup.py
+cleaninputdata/__init__.py
+cleaninputdata/clean.py
+custompacks.egg-info/PKG-INFO
+custompacks.egg-info/SOURCES.txt
+custompacks.egg-info/dependency_links.txt
+custompacks.egg-info/top_level.txt
+parseinputdata/__init__.py
+parseinputdata/exceldata.py
+parseinputdata/txtdata.py

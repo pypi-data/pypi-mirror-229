@@ -1,0 +1,7 @@
+caixa_de_ferramentas/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+caixa_de_ferramentas/azure_blob_api.py,sha256=ftds-i-Ef5HzkQfctnRFRYr-mPPFwLL8EOWjQ9_535E,2581
+caixa_de_ferramentas/redis_client_api.py,sha256=blag86jpsG0GzT_VVKQHDET80G3_OprRgq3qvrDH3H8,815
+caixa_de_ferramentas/testing_package.py,sha256=p-KkzoT1p34y_ykLfAE_NWD9VGIdtMUSxuYSJ2DtsHU,205
+caixa_de_ferramentas-0.1.1.dist-info/METADATA,sha256=hpAAlHGW1KB9-6zJ1U2TZNWYLKbmAkAUCI7fJ1VdDws,644
+caixa_de_ferramentas-0.1.1.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+caixa_de_ferramentas-0.1.1.dist-info/RECORD,,

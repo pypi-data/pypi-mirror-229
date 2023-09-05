@@ -1,0 +1,16 @@
+LICENSE.md
+README.md
+setup.py
+firestarter/__init__.py
+firestarter/__main__.py
+firestarter.egg-info/PKG-INFO
+firestarter.egg-info/SOURCES.txt
+firestarter.egg-info/dependency_links.txt
+firestarter.egg-info/entry_points.txt
+firestarter.egg-info/requires.txt
+firestarter.egg-info/top_level.txt
+firestarter/_core/__init__.py
+firestarter/_core/_entry_points.py
+firestarter/_core/_files.py
+firestarter/_core/_labels.py
+firestarter/_core/_projects.py

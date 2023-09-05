@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/gitruck/flet_search_bar/__init__.py
+src/gitruck/flet_search_bar/search_bar.py
+src/gitruck/flet_search_bar/search_bar_style.py
+src/gitruck_flet_search_bar.egg-info/PKG-INFO
+src/gitruck_flet_search_bar.egg-info/SOURCES.txt
+src/gitruck_flet_search_bar.egg-info/dependency_links.txt
+src/gitruck_flet_search_bar.egg-info/requires.txt
+src/gitruck_flet_search_bar.egg-info/top_level.txt
+tests/test_search_bar.py

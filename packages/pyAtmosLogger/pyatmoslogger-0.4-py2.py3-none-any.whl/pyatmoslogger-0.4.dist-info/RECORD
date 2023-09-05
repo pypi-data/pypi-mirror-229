@@ -1,0 +1,14 @@
+pyAtmosLogger/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyAtmosLogger/instruments/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyAtmosLogger/instruments/bronkhorst_mfc_default.py,sha256=avAdUk4fR32gVF1Nzr7sPA8r2qWe7Z6wPYrhjfOosZ8,4225
+pyAtmosLogger/instruments/ott_parsivel2_actris.py,sha256=k4GjG3sXeoWLmhKYHBvPdi4YWD9aR7zRc-c6zmru1f8,20353
+pyAtmosLogger/instruments/pyAtmosLogger_dummy_1.py,sha256=MHgNmMX4pP9Tv9tukk06SNeR3G25ZsCDnH_0tkAYepg,2939
+pyAtmosLogger/instruments/tsi_ops3330_default.py,sha256=TYJP_M6BPI8xzlxj_IP97QFRo5ORYmQ3Hw1QA029EkY,11147
+pyAtmosLogger/pyAtmosLogger.py,sha256=owa7QL-E3AioXa7tYVH7bNluilqomWocXYh_hi2RXaI,1254
+pyAtmosLogger/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyAtmosLogger/utils/utils.py,sha256=VblmRu5hz6ClcE_sDX9bUikvFXD5zFOo-5uWBnx_2_E,2481
+pyatmoslogger-0.4.dist-info/LICENSE.txt,sha256=2ndCb9X7lhv65Q5-jhsD2GFOV8tcCt5oJ337Jqryta0,1060
+pyatmoslogger-0.4.dist-info/METADATA,sha256=BJTHP9KzpbMnxfxXjamcNchFIshUQBHwIMKaaCfL8Qs,2182
+pyatmoslogger-0.4.dist-info/WHEEL,sha256=RsNcXn1ku1cI7LVkdbiD4HxFH-ZNt6-iSezWxkqUYi4,92
+pyatmoslogger-0.4.dist-info/entry_points.txt,sha256=YS_ru9sMPDJG7aNIPmkTs6-GZkdvDmDz5e261PQvu7E,75
+pyatmoslogger-0.4.dist-info/RECORD,,

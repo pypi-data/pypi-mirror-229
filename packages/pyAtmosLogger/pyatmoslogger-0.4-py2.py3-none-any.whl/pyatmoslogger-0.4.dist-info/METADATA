@@ -1,0 +1,49 @@
+Metadata-Version: 2.1
+Name: pyAtmosLogger
+Version: 0.4
+Summary: Python Data Logger for Atmospheric Application
+Home-page: https://github.com/marcusgmueller/pyAtmosLogger
+License: MIT
+Author: Marcus G. Müller
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: argparse
+Requires-Dist: minimalmodbus
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: pause
+Requires-Dist: pySerial
+Requires-Dist: pytz
+Requires-Dist: pyyaml
+Requires-Dist: scipy
+Requires-Dist: tzlocal
+Requires-Dist: xarray
+Project-URL: Documentation, https://pyatmoslogger.readthedocs.io/en/latest/index.html
+Project-URL: Repository, https://github.com/marcusgmueller/pyAtmosLogger
+Description-Content-Type: text/markdown
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Documentation Status](https://readthedocs.org/projects/pyatmoslogger/badge/?version=latest)](https://pyatmoslogger.readthedocs.io/en/latest/?badge=latest)
+[![DOI](https://zenodo.org/badge/633838435.svg)](https://zenodo.org/badge/latestdoi/633838435)
+
+<img src="https://raw.githubusercontent.com/marcusgmueller/pyAtmosLogger/master/docs/_static/images/pyAtmosLogger.png" width="200" style="margin: 20px 10px"/>
+
+> **Warning**
+> This software is still in development.
+
+Python data logger for Atmospheric Application. This software allows data logging for multiple types of atmospherical instruments with a simple python-based syntax. Data can be automaticly converted to NetCDF-fileformat.
+
+# Documentation
+
+The official documentation is available [here](https://pyatmoslogger.readthedocs.io/en/latest/index.html).
+

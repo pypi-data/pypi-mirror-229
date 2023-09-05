@@ -1,0 +1,43 @@
+[MASTER]
+init-hook="from pylint.config import find_pylintrc;import os, sys; sys.path.append(os.path.dirname(find_pylintrc()))"
+[BASIC]
+method-rgx=[a-z_][a-z0-9_]{2,50}$
+
+[MESSAGES CONTROL]
+# Used when an except catches Exception instances.
+disable=
+  W0703, # broad-exception-caught
+  R0912, # Too many branches
+  C0111, # Missing docstring
+  R0801 # Similar lines in 2 files
+
+[REPORTS]
+
+# Tells wether to display a full report or only the messages
+reports=no
+
+[FORMAT]
+max-module-lines=2000
+good-names=fd
+
+[DESIGN]
+# Maximum number of locals for function / method body
+max-locals=20
+
+# Maximum number of return / yield for function / method body
+max-returns=20
+
+# Maximum number of statements in function / method body
+max-statements=100
+
+# Maximum number of arguments for function / method
+max-args=10
+
+# Minimum number of public methods for a class (see R0903).
+min-public-methods=0
+
+# Maximum number of public methods for a class (see R0904).
+max-public-methods=600
+
+# Maximum number of attributes for a class (see R0902).
+max-attributes=20

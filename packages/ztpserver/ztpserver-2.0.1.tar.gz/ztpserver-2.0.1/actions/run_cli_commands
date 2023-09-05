@@ -1,0 +1,123 @@
+#!/usr/bin/env python
+#
+# Copyright (c) 2015, Arista Networks, Inc.
+# All rights reserved.
+#
+# Redistribution and use in source and binary forms, with or without
+# modification, are permitted provided that the following conditions are
+# met:
+#  - Redistributions of source code must retain the above copyright notice,
+# this list of conditions and the following disclaimer.
+#  - Redistributions in binary form must reproduce the above copyright
+# notice, this list of conditions and the following disclaimer in the
+# documentation and/or other materials provided with the distribution.
+#  - Neither the name of Arista Networks nor the names of its
+# contributors may be used to endorse or promote products derived from
+# this software without specific prior written permission.
+#
+# THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+# "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+# LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+# A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL ARISTA NETWORKS
+# BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR
+# CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF
+# SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR
+# BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY,
+# WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE
+# OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN
+# IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+# pylint: disable=C0209
+
+import io
+import os
+
+from six import raise_from, PY2, text_type, PY3, binary_type
+
+TEMP_CONFIG = "/tmp/tmp-run-commands"
+
+
+# pylint: disable=C0103,C0123,R1705
+# ensure_str backport from six 1.6 as older EOS packs six 1.11
+def ensure_str(s, encoding='utf-8', errors='strict'):
+    """Coerce *s* to `str`.
+
+    For Python 2:
+      - `unicode` -> encoded to `str`
+      - `str` -> `str`
+
+    For Python 3:
+      - `str` -> `str`
+      - `bytes` -> decoded to `str`
+    """
+    # Optimization: Fast return for the common case.
+    if type(s) is str:
+        return s
+    if PY2 and isinstance(s, text_type):
+        return s.encode(encoding, errors)
+    elif PY3 and isinstance(s, binary_type):
+        return s.decode(encoding, errors)
+    elif not isinstance(s, (text_type, binary_type)):
+        raise TypeError("not expecting type '%s'" % type(s))
+    return s
+
+# pylint: enable=C0103,C0123,R1705
+
+def main(attributes):
+    """Runs a set of EOS commands, starting from enable mode.
+
+    This action is dual-supervisor compatible.
+
+    Attributes:
+        url: path to source command list/template
+        variables (optional):
+             list of value substitutions (for a template)
+
+    Special_attributes:
+        NODE: API object - see documentation for details
+
+    Example:
+        ::
+
+          -
+            action: run_cli_commands
+            attributes:
+              url: files/templates/ma1.template
+              variables:
+                ipaddress: allocate('mgmt_subnet')
+            name: 'configure ma1'
+    """
+
+    node = attributes.get("NODE")
+    url = attributes.get("url")
+
+    if not url:
+        raise RuntimeError("Missing attribute('url')")
+
+    try:
+        node.retrieve_url(url, TEMP_CONFIG)
+    except Exception as exc:
+        raise_from(RuntimeError("Unable to retrieve config from URL"), exc)
+
+    with io.open(TEMP_CONFIG, encoding="utf8") as fd:
+        contents = fd.read()
+
+    variables = attributes.get("variables")
+    if not variables:
+        variables = {}
+
+    if not isinstance(variables, dict):
+        node.log_msg("Variables: {}".format(variables))
+        raise RuntimeError("Unable to perform variable substitution - invalid variables")
+
+    contents = ensure_str(node.substitute(contents, variables))
+    commands = [x for x in contents.split("\n") if x]
+
+    try:
+        node.api_enable_cmds(commands, text_format=True)
+    except Exception as exc:
+        raise_from(RuntimeError("Running CLI commands {} failed: {}".format(commands, exc)), exc)
+
+    # Only remove this in case everything else succeeded
+    # for debugging purposes
+    os.remove(TEMP_CONFIG)

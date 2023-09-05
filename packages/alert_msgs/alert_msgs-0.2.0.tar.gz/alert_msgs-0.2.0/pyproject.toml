@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "alert_msgs"
+version = "0.2.0"
+description = "Easily construct and send formatted emails and Slack alerts."
+authors = ["Dan Kelleher <kelleherjdan@gmail.com>"]
+include = ["alert_msgs/styles/*"]
+
+
+[tool.poetry.dependencies]
+python = "^3.8.1"
+premailer = "^3.10.0"
+dominate = "^2.6.0"
+requests = "^2.28.1"
+ezloggers = "^1.1.0"
+pydantic = "^2.3.0"
+pydantic-settings = "^2.0.3"
+slack-bolt = "^1.18.0"
+
+
+[tool.poetry.dev-dependencies]
+pytest = "^7.1.2"
+black = "^21.12b0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+text_alert = 'alert_msgs.alerts:text_alert_cmd'

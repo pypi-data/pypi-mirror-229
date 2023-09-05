@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: pypgtable
+Version: 0.0.1.dev12
+Summary: A quick & easy way to manage postgresql tables.
+Author: Shaped Sundew
+Project-URL: Homepage, https://github.com/Shapedsundew9/pypgtable
+Project-URL: Bug Tracker, https://github.com/Shapedsundew9/pypgtable/issues
+Classifier: Programming Language :: Python :: 3.11
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 2 - Pre-Alpha
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# pypgtable
+
+A simple interface to Posgres database tables. 
+
+[![Python package](https://github.com/Shapedsundew9/pypgtable/actions/workflows/python-package.yml/badge.svg?branch=main)](https://github.com/Shapedsundew9/pypgtable/actions/workflows/python-package.yml)
+[![codecov](https://codecov.io/gh/Shapedsundew9/pypgtable/branch/main/graph/badge.svg?token=Z9C9Z9B3T1)](https://codecov.io/gh/Shapedsundew9/pypgtable)
+
+## Sunburst Code Coverage Chart
+
+ The inner-most circle is the entire project, moving away from the center are folders then, finally, a single file. The size and color of each slice is representing the number of statements and the coverage, respectively.
+ ![Sunburst](https://codecov.io/gh/Shapedsundew9/pypgtable/branch/main/graphs/sunburst.svg)
+
+## Usage Examples
+
+TBD
+
+For more details see [design documentation](docs/pypgtable.md)

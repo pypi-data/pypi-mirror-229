@@ -1,0 +1,14 @@
+agemo
+dask
+demes
+docopt
+matplotlib
+msprime
+nlopt
+numcodecs
+numpy
+pandas
+scikit-allel
+tabulate
+tqdm
+zarr

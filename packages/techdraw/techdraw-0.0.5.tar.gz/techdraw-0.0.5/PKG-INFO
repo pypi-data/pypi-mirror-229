@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: techdraw
+Version: 0.0.5
+Summary: A Python library for programmatically generating technical drawings.
+Project-URL: Homepage, https://github.com/andreas-lehn/techdraw
+Project-URL: Bug Tracker, https://github.com/andreas-lehn/techdraw/issues
+Author-email: Andreas Lehn <andreas.lehn@icloud.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Requires-Dist: numpy
+Description-Content-Type: text/markdown
+
+# techdraw
+A Python library for programmatically generating technical drawings.

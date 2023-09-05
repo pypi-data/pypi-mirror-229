@@ -1,0 +1,7 @@
+pyaml
+
+[dev]
+check-manifest
+
+[test]
+coverage

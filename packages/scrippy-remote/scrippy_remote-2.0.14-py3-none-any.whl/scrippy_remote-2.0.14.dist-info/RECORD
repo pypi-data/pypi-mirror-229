@@ -1,0 +1,11 @@
+scrippy_remote/__init__.py,sha256=adZv2jVDZBbHQ_Hwh8KXGcYwQYSdNE6a8Yt8bJothIM,161
+scrippy_remote/remote/__init__.py,sha256=ktD-bUehCiTCruZ8nvg_j-dot3yLtiqsf6Er0tM_Izg,517
+scrippy_remote/remote/cifs.py,sha256=hNZ4j-30N4y2lnbbQqWF0GaGSBdFYv3WMwBi0KT3Am4,3606
+scrippy_remote/remote/ftp.py,sha256=1daGBLh2wAt2CXjUD74IzFvT05AD40jl02mEKVYh9BU,7804
+scrippy_remote/remote/scrippy_ftp.py,sha256=I44R6XwG11Doge0Za5EagAu9KgwKCW63cym6LsEQoLo,18454
+scrippy_remote/remote/ssh.py,sha256=eX1ND7IMbTNzfUKbQzGabmRwyB4ZvQMoEhvpinCQoQE,19450
+scrippy_remote-2.0.14.dist-info/LICENSE,sha256=YoZ6HrhPUKE2Cw714ST1-k2uomnzFPET8wcsEO80lcQ,1179
+scrippy_remote-2.0.14.dist-info/METADATA,sha256=JdnUfXIOPaXnbAQsjn7ljaLA2ub3LVRhPnY4PkI5NIE,9655
+scrippy_remote-2.0.14.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+scrippy_remote-2.0.14.dist-info/top_level.txt,sha256=qNoyir9ilewM-Flre8_s8zWcXB7YUb4j7NNwC2e8MGA,15
+scrippy_remote-2.0.14.dist-info/RECORD,,

@@ -1,0 +1,3 @@
+[console_scripts]
+next-py=src.center:handle_cli
+

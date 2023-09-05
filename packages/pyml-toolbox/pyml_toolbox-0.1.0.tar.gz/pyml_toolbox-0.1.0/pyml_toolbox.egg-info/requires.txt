@@ -1,0 +1,6 @@
+pandas
+pyarrow
+sqlalchemy
+snowflake-connector-python
+snowflake-sqlalchemy
+joblib

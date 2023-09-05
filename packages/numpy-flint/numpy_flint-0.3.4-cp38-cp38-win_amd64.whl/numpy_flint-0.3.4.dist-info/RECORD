@@ -1,0 +1,11 @@
+flint/__init__.py,sha256=M5PGePmWv3cEBa644UQQl55DfXjbC-FULN24mH6K1wU,1026
+flint/flint.h,sha256=finlpHUEvnnPE-kx8jTwmp45XxiMzLgF9q8Qy8PCVN4,30276
+flint/numpy_flint.c,sha256=sHNo1_yvpJO1XU5kY04KgN07sHDAnaZ3HgoRoac81GA,63496
+flint/numpy_flint.cp38-win_amd64.pyd,sha256=9vuxT0Pz-IhsAV3khFKU_QNkIitU6Zv5U9YJcY0rWJY,79360
+flint/numpy_flint.h,sha256=mm6HTmOKBEWkimcDTlBW4hY1nl0B-qOGQEf8RfMWQ2g,3645
+numpy_flint-0.3.4.dist-info/METADATA,sha256=1QnciGs3CFedICLfu37BNFFuTU_iz0BbKeFZimyktio,2854
+numpy_flint-0.3.4.dist-info/WHEEL,sha256=KplWMgwSZbeAOumvxNxIrVbNPnn_LVzfBH7l38jDCVM,100
+numpy_flint-0.3.4.dist-info/copying.lesser.md,sha256=H8UL-0NTSbmJgbjDf9U52_1Euhf4v3Awwefz03hoImE,7799
+numpy_flint-0.3.4.dist-info/copying.md,sha256=EH-Fmd7W6AJflRi9ucTJQ5LCLfNyB_iHMU1XPQ_fBIQ,35591
+numpy_flint-0.3.4.dist-info/top_level.txt,sha256=ERZPv0lz7-9_ArySDCJP7328QDmmfLPFA-v6AvY0EWo,6
+numpy_flint-0.3.4.dist-info/RECORD,,

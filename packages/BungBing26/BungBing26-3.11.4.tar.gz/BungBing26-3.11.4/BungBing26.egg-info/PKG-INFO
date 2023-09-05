@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: BungBing26
+Version: 3.11.4
+Summary: Function By BungBing
+Author: Siriwat Wachirasamphan
+Author-email: siriwat_wachira26@gmail.com
+License: MIT
+Keywords: BungBing26
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 11
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+License-File: LICENCE.txt

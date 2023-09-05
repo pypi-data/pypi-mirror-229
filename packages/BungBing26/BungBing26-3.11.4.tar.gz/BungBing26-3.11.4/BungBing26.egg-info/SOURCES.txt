@@ -1,0 +1,14 @@
+CHANGELOG.md
+LICENCE.txt
+MANIFEST.in
+README.md
+setup.py
+test.py
+BungBing26/__init__.py
+BungBing26/calculator.py
+BungBing26/eda.py
+BungBing26.egg-info/PKG-INFO
+BungBing26.egg-info/SOURCES.txt
+BungBing26.egg-info/dependency_links.txt
+BungBing26.egg-info/requires.txt
+BungBing26.egg-info/top_level.txt

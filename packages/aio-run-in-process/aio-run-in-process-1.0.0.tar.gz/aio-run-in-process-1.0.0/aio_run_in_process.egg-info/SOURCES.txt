@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+aio_run_in_process.egg-info/PKG-INFO
+aio_run_in_process.egg-info/SOURCES.txt
+aio_run_in_process.egg-info/dependency_links.txt
+aio_run_in_process.egg-info/not-zip-safe
+aio_run_in_process.egg-info/top_level.txt

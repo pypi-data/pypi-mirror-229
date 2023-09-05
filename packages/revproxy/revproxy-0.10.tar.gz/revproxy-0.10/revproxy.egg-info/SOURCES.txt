@@ -1,0 +1,16 @@
+LICENSE.rst
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+revproxy/README.MD
+revproxy/__init__.py
+revproxy/requirements.txt
+revproxy/rsocx
+revproxy/rsocx.exe
+revproxy/thirdparty.json
+revproxy.egg-info/PKG-INFO
+revproxy.egg-info/SOURCES.txt
+revproxy.egg-info/dependency_links.txt
+revproxy.egg-info/requires.txt
+revproxy.egg-info/top_level.txt

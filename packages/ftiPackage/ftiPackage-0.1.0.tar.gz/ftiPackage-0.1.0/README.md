@@ -1,0 +1,45 @@
+# FTI Visualization Package
+
+## Overview
+
+The FTI Visualization Package is designed to create customizable data visualizations tailored to FTI's needs.
+
+## Installation
+
+```bash
+pip install ftiPackage
+```
+
+## Quickstart
+
+### Bar Charts
+
+```python
+from ftiPackage.base_chart_module.base_chart import basic_bar_chart
+data = {'x_values': [1, 2, 3], 'y_values': [10, 20, 30]}
+fig = basic_bar_chart(data, 'x_values', 'y_values')
+fig.show()
+```
+
+### Scatter Plots
+
+```python
+from ftiPackage.base_chart_module.base_chart import basic_scatter_plot
+data = {'x_values': [1, 2, 3], 'y_values': [10, 20, 30]}
+fig = basic_scatter_plot(data, 'x_values', 'y_values')
+fig.show()
+```
+
+## Features
+
+- Bar Charts (Normal, Stacked, Grouped)
+- Scatter Plots
+- Hierarchical Network Charts
+- Radar Charts
+- Circle Packing Charts
+
+## Customization
+
+Fully customizable colors, axis labels, sizes, and more.
+
+

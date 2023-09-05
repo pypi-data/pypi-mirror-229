@@ -1,0 +1,85 @@
+[tool.black]
+target-version = ["py310"]
+
+[tool.pylint.MASTER]
+py-version = "3.10"
+
+[tool.pylint.BASIC]
+class-const-naming-style = "any"
+
+[tool.pylint."MESSAGES CONTROL"]
+extension-pkg-whitelist="pydantic"
+
+[tool.pylint.REPORTS]
+score = false
+
+[tool.pylint.FORMAT]
+expected-line-ending-format = "LF"
+
+[tool.pylint.EXCEPTIONS]
+overgeneral-exceptions = [
+    "builtins.BaseException",
+    "builtins.Exception",
+]
+
+[tool.pylint.TYPING]
+disable = [
+    "too-few-public-methods"
+]
+
+[tool.pytest.ini_options]
+testpaths = [
+    "tests",
+]
+norecursedirs = [
+    ".git",
+    "testing_config",
+]
+
+
+[tool.ruff]
+exclude = [
+    "tests",
+]
+
+target-version = "py311"
+
+select = [
+    "C",  # complexity
+    "D",  # docstrings
+    "E",  # pycodestyle
+    "F",  # pyflakes/autoflake
+    "I",  # isort
+    "T20", # flake8-print
+    "UP",  # pyupgrade
+    "W",  # pycodestyle
+]
+
+# Same as Black.
+line-length = 88
+
+ignore = [# One of these is to be disabled..
+          "D213", # See https://github.com/charliermarsh/ruff/issues/2281
+          #"D212", # See https://github.com/charliermarsh/ruff/issues/2281
+
+          "D203", # See https://github.com/charliermarsh/ruff/issues/2281
+          #"D211", # See https://github.com/charliermarsh/ruff/issues/2281
+]
+
+[tool.ruff.flake8-pytest-style]
+fixture-parentheses = false
+
+[tool.ruff.pydocstyle]
+convention = 'pep257'
+
+[tool.ruff.isort]
+# will group `import x` and `from x import` of the same module.
+combine-as-imports = true
+force-sort-within-sections = true
+forced-separate = [
+  "tests",
+]
+known-first-party = [
+  "pygleif",
+  "tests",
+]

@@ -1,0 +1,13 @@
+LICENSE,sha256=EklTpaB7nWLTJgx3ACc4VNbOklK2kMt7lzAgij3sJn4,1076
+simpleselenium/__init__.py,sha256=1GrqjT6qp-NZDb3DwbX1H9GnNyERzP6nTLYx7F2C1G8,56
+simpleselenium/browser.py,sha256=xCULcKx-ObZrZPfQ5LTqKHz0osEGyY2NNyLGtJSpCng,5808
+simpleselenium/element_selectors.py,sha256=VGldQlvBtxcnuiAdcb085bRn2kFvoKeP--n5vEac8j0,993
+simpleselenium/exceptions.py,sha256=DN6hdATutsJ8Rn55zCLRAMt_k2fnektvf6neB16BbdY,52
+simpleselenium/scripts.py,sha256=NrjPQAMAs9dnR7i16ZsL4cxpNCwtiQWve9GuEHAPzYU,673
+simpleselenium/session.py,sha256=ak8zcbSSjb18477Ggux2Fhgzq3OTKLas3nUCbYzVNCE,3555
+simpleselenium/tabs.py,sha256=qMkB4QCodOoGySxeuzLzBoKyZgo2IObBPC64xm1fxlE,12512
+simpleselenium/test_basic_function.py,sha256=_T6Uoi6StgfIoMaBanoO0KKTISZiT_Uqkn7QBRq_pV8,2000
+simpleselenium-0.4.0.dist-info/LICENSE,sha256=EklTpaB7nWLTJgx3ACc4VNbOklK2kMt7lzAgij3sJn4,1076
+simpleselenium-0.4.0.dist-info/WHEEL,sha256=DRf8A_Psd1SF2kVqTQOOFU1Xzl3-A2qljAxBMTOusUs,83
+simpleselenium-0.4.0.dist-info/METADATA,sha256=18sP-IeXDxfgu1chX3uPBw359_DZKAbowxQvJog8CDU,4283
+simpleselenium-0.4.0.dist-info/RECORD,,

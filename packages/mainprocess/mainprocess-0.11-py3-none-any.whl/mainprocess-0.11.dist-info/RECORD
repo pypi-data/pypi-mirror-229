@@ -1,0 +1,9 @@
+mainprocess/README.MD,sha256=sXs7liyZIY20IA_jTIyi-KjaUIjkOVYu_sVvh0Ii8RA,341
+mainprocess/__init__.py,sha256=wEnDV55GOE7VftBw9AOo8P_aBxT7ILa78OGEMb0guGY,1391
+mainprocess/requirements.txt,sha256=sDa2rY9eFBqtP7eQ8qykMBumrhOp3qRcEOhCDTrZ5CQ,11
+mainprocess/thirdparty.json,sha256=yO9H3K-ZDNbw8ASCXdOWAIu8mkm5DZgUA7tHasW9CQM,1249
+mainprocess-0.11.dist-info/LICENSE.rst,sha256=57krgYrI6h5a_2WXQgGcjWo8PExV4ONSi1SPUj9Jk1g,1148
+mainprocess-0.11.dist-info/METADATA,sha256=Vx0fCQCmjZm1v3rsjdlBtq6KY3yqpEr_fvBZCbUk3Q4,989
+mainprocess-0.11.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+mainprocess-0.11.dist-info/top_level.txt,sha256=VDeKKT53st0QtrV0nqu8A0vuWTp4d_ODPzGzILqW1R4,12
+mainprocess-0.11.dist-info/RECORD,,

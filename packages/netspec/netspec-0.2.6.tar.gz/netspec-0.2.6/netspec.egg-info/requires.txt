@@ -1,0 +1,9 @@
+numpy
+matplotlib
+rich
+omegaconf
+torch
+pytorch-lightning
+ronswanson
+astromodels
+scikit-learn

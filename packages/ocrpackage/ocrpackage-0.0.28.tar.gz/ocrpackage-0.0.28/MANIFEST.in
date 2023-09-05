@@ -1,0 +1,7 @@
+include ocrpackage/*.jpg
+include ocrpackage/*.jpeg
+include ocrpackage/*.png
+include ocrpackage/*.xml
+include ocrpackage/*.h5
+include ocrpackage/*.json
+include ocrpackage/haarcascades/*.xml

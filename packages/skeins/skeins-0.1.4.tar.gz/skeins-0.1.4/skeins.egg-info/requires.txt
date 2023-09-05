@@ -1,0 +1,5 @@
+numpy
+scipy
+scikit-learn
+scanpy>=1.7
+requests

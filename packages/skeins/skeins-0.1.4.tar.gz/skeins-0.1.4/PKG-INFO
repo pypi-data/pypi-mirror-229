@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: skeins
+Version: 0.1.4
+Summary: Python code for efficient algorithmic primitives.
+Home-page: https://github.com/b-akshay/skeins
+Author: Akshay Balsubramani
+Author-email: akshay@akshay.bio
+License: LICENSE.txt
+Platform: Linux
+Platform: Mac OS-X
+Platform: Unix
+Platform: Windows
+Requires-Python: >=3.8
+License-File: LICENSE

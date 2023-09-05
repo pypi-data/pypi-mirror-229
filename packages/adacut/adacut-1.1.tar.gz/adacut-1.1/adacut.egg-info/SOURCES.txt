@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+setup.cfg
+adacut/__init__.py
+adacut/adacut.py
+adacut.egg-info/PKG-INFO
+adacut.egg-info/SOURCES.txt
+adacut.egg-info/dependency_links.txt
+adacut.egg-info/entry_points.txt
+adacut.egg-info/top_level.txt

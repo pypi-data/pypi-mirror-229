@@ -1,0 +1,17 @@
+odoo/addons/stock_picking_completion_info/README.rst,sha256=CaB4107r5n6TpMYUl2FehWCHyGJqfEGQlzTCxsK-TPs,3759
+odoo/addons/stock_picking_completion_info/__init__.py,sha256=X9EJGOE2GtZbS0G82PtSXmWSZ_R8jEM0rlJTDliQjp4,21
+odoo/addons/stock_picking_completion_info/__manifest__.py,sha256=RHdF4YRYZVFRcrvIjQ7FpCsMRSMyNbDy-r2-kJEQHsk,642
+odoo/addons/stock_picking_completion_info/i18n/stock_picking_completion_info.pot,sha256=ByD5VIef8nHfGkRIvrF9GSsDeHUGz1i8DOslYyPVYzU,2443
+odoo/addons/stock_picking_completion_info/models/__init__.py,sha256=4KFk_msDhkBW-mEo4xByYxOerTYuVKjeaNN8_WcH6y8,28
+odoo/addons/stock_picking_completion_info/models/stock_picking.py,sha256=-JB0pFqQib-RTbDMj7tH-loxD6mtWB44_PaYZfhRKP4,3124
+odoo/addons/stock_picking_completion_info/readme/CONTRIBUTORS.rst,sha256=iXQ__uyKS8cl9pwtvMxtAhu2HMbvg68-9itXDkY-rII,49
+odoo/addons/stock_picking_completion_info/readme/DESCRIPTION.rst,sha256=dyv-VueG0gGhSjh6TqkXYo0QPDPXnz8gY-ZijvCqeNU,494
+odoo/addons/stock_picking_completion_info/static/description/icon.png,sha256=6xBPJauaFOF0KDHfHgQopSc28kKvxMaeoQFQWZtfZDo,9455
+odoo/addons/stock_picking_completion_info/static/description/index.html,sha256=SlMHZbzfNas6ZJAdjtjmeojdH3nBFGkPwq853oEztII,13167
+odoo/addons/stock_picking_completion_info/tests/__init__.py,sha256=PKzTttb42A3LMq4_dvkhuO-7BB5LZHEw-rUnFHBMc90,49
+odoo/addons/stock_picking_completion_info/tests/test_stock_picking_completion_info.py,sha256=eqqJH9M2V5n4uHt_hlsTs-CWZCzVdP_Vx8DYfaNuJmQ,12006
+odoo/addons/stock_picking_completion_info/views/stock_picking.xml,sha256=tWO0JLGYyW1atZca5NcmpAda4sczwUrkGkHpYGNVTgA,1854
+odoo13_addon_stock_picking_completion_info-13.0.1.1.1.dev1.dist-info/METADATA,sha256=P0ir9f0YgMZLZJ_pApW3Cs3GhXz2qw_8ir4XDvTPRxw,4477
+odoo13_addon_stock_picking_completion_info-13.0.1.1.1.dev1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+odoo13_addon_stock_picking_completion_info-13.0.1.1.1.dev1.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
+odoo13_addon_stock_picking_completion_info-13.0.1.1.1.dev1.dist-info/RECORD,,

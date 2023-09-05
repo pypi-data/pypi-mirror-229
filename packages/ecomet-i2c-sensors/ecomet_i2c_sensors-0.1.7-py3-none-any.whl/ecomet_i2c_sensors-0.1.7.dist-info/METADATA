@@ -1,0 +1,107 @@
+Metadata-Version: 2.1
+Name: ecomet-i2c-sensors
+Version: 0.1.7
+Summary: Library focused to I2C communication IOT with RPI & AllWinner Chips.
+Home-page: https://github.com/mamin27/ecomet_i2c_raspberry_tools
+Author: Marian Minar
+Author-email: mminar7@gmail.com
+License: GPLv3
+Keywords: raspberry,allwinner,I2C,ecomet
+Platform: armv7l
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3
+Requires-Dist: Adafruit-PureIO (>=1.1.8)
+Requires-Dist: RPI.GPIO (>=0.7.1)
+Requires-Dist: crc (>=4.1.0)
+Requires-Dist: pillow (>=10.0.0)
+Requires-Dist: pypng (>=0.20220715.0)
+Requires-Dist: pyyaml (>=6.0)
+Requires-Dist: qrcode (>=7.4.2)
+Requires-Dist: smbus2 (>=0.4.2)
+Requires-Dist: typing-extensions (>=4.7.1)
+
+Project description
+======================
+Library focused to I2C communication with IOT sensors.
+
+Platforms:
+-----------
+* Raspberry PI 
+  * RPI 3
+  * RPI 4
+  * CM4
+* AllWinner
+  * Chip H616
+
+Supported Vendors: 
+-------------------
+* ASM-OSRAM
+  * TSL25911
+* EEPROM
+  * 24c01,24c02,24c04,24c08,24c16,24c32,24c64,24c128,24c256,24c512,24c1024 
+* NXP Semiconductor
+  * PCA9632 (could be modified for PCA9624,PCA9635PW,PCA9685,PCA9955B,PCA9956B) PCA9557
+* Texas Instruments
+  * HDC1080,PCA9557,INA226,INA260
+* TE Connectivity
+  * MS5637,HTU21D
+* Microchip
+  * EMC2301
+* Panasonic
+  * SN-GCJA5
+* Renesas
+  * ISL28022 (In progress)
+* Solomon Systech
+  * SSD1309
+
+Change Log
+==========
+
+0.1.7 (03/09/2023)
+-------------------
+- Add Allwiner CPU H616 driver, mangopi mq-pro, orangepi zero 2
+- SN-GCJA5 driver added (Panasonic)
+- TSL25911 driver added (Osram-AMS) 
+
+0.1.6 (03/03/2023)
+-------------------
+- EEPROM added writeNBytes & readNBytes sub
+- add Raspberry PI ZERO W 2 in PI version
+
+0.1.5 (18/10/2022)
+-------------------
+- Fixed issue with units for current [‘mA’, ‘A’] and voltage [‘mV’,’V’]
+
+0.1.4 (11/10/2022)
+-------------------
+-Added calibration offsets for measure_i, measure_u, measure_ui for INA260 for calibration of measured values
+
+0.1.3 (08/06/2022)
+-------------------
+- Added new def measure_i, measure_u, parent_i, parent_u in ina260ui.py for individual measure U or I
+- Added accuracy of measurement at INA260 using attributes mode, avgc, ishc, vbusct
+- More test scripts for INA260
+
+0.1.2 (17/05/2022)
+-------------------
+- Change terminology in REGISTER NAMEs
+- Fixed unis in def measure_current
+- Add new device_id allowed 0x226
+- Add ISL2802x Reneses devices lib (in progress)
+
+0.1.1 (02/03/2022)
+-------------------
+- Fix pypi issue in setup.py file
+
+0.1.0 (27/01/2022)
+-------------------
+- First Release import lib fixed
+- Chip supported: 24cXXX,PCA9557,PCA9632,HDC1080,HTU21D,MS5637,EMC2301,SSD1306
+- New chip added: INA260,INA226
+- INA260 - bulk measure fuction: measure_voltage, measure_current
+
+

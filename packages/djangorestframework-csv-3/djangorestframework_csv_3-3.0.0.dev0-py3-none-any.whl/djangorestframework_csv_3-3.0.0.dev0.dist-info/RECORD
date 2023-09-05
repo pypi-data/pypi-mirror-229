@@ -1,0 +1,14 @@
+rest_framework_csv/__init__.py,sha256=CjG7Jxg4iMy0R9sQfhHv7Zr2p5BuMmT-BQ3AIM1nJYk,63
+rest_framework_csv/misc.py,sha256=agfvd9uNfgnyYYiqilpqfBio0QGw1jRG4fIpGhdwr_k,383
+rest_framework_csv/models.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+rest_framework_csv/orderedrows.py,sha256=OGk8pPJy8n2PW97zWDCGECXO_3w_J8dwrMfk9Jq1lGs,264
+rest_framework_csv/parsers.py,sha256=nD5eynDkxcRgpWARzDb93fUcR70vfTnj2FROCw0HJ0w,2098
+rest_framework_csv/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+rest_framework_csv/renderers.py,sha256=m4MeTzlfjzmp8fu7Inx7M-Q9iPXRrPxoHMJoO3kz8NY,9194
+rest_framework_csv/tests.py,sha256=6OYgRVRIMK6gyXp_YIpfVAg3e0BaFtMuhi4hraEBUhE,8829
+rest_framework_csv/testfixtures/nonewlines.csv,sha256=uTLrnDsvoVsCnHWgzcbgxy2g0taVdbB6oCGQy1FzZoA,66
+djangorestframework_csv_3-3.0.0.dev0.dist-info/LICENSE,sha256=wM66LWD6lJOEY8CuLTt2BDjOpHSljJyOQ08g2MgxA2g,1282
+djangorestframework_csv_3-3.0.0.dev0.dist-info/METADATA,sha256=4BzHUMKNBCYcLQiZfDdqSm0PX5SnIt3fQus4BEzjhUY,8483
+djangorestframework_csv_3-3.0.0.dev0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+djangorestframework_csv_3-3.0.0.dev0.dist-info/top_level.txt,sha256=dUgvQL4vYez10DcuxdAus6s_J9f0Y4oJj5e4xX3Clio,19
+djangorestframework_csv_3-3.0.0.dev0.dist-info/RECORD,,

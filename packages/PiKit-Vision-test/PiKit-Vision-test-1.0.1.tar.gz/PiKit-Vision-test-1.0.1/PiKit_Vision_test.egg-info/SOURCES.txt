@@ -1,0 +1,9 @@
+setup.py
+PiKit-Vision-test/__init__.py
+PiKit-Vision-test/add_num.py
+PiKit-Vision-test/face_detetion.py
+PiKit_Vision_test.egg-info/PKG-INFO
+PiKit_Vision_test.egg-info/SOURCES.txt
+PiKit_Vision_test.egg-info/dependency_links.txt
+PiKit_Vision_test.egg-info/requires.txt
+PiKit_Vision_test.egg-info/top_level.txt

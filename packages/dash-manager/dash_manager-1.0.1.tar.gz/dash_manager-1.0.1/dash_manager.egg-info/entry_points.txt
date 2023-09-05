@@ -1,0 +1,2 @@
+[console_scripts]
+dash-manager = dash_manager:__main__.cli

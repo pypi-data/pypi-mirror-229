@@ -1,0 +1,4 @@
+graft src
+prune src/.idea
+include requirements/base.txt
+exclude src/.coverage

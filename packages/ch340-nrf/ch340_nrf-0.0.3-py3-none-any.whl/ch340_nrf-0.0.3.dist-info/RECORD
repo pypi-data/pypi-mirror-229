@@ -1,0 +1,8 @@
+ch340_nrf/__init__.py,sha256=8TFhUrPDYBf2w-BDOBNDDfPvvErkyEG9BzrHsO5_hjc,141
+ch340_nrf/nrf.py,sha256=jDfP1QgpZC_VpY1nLUBnn65Hz1udF61jVizjnm3oFyg,6306
+ch340_nrf/requirements.txt,sha256=m3wPwuJ5Dzt2tKhrrYarNwb6gNlphW2X4ZeOQ_h3pMc,9
+ch340_nrf/translator.py,sha256=qdkkJAdATXTwusvQ1cI8lip8vf_l7FUifkx8InbT5f0,1030
+ch340_nrf-0.0.3.dist-info/METADATA,sha256=sAC5UGY8zsbg7hG7UPdRs04XM0JcQqvpO01sH6qUa7E,2029
+ch340_nrf-0.0.3.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+ch340_nrf-0.0.3.dist-info/licenses/LICENSE,sha256=zhP5CSB3BhAtEyLgBKfNYfFjYATT3QzJhoK1QAifw_w,1065
+ch340_nrf-0.0.3.dist-info/RECORD,,

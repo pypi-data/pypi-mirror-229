@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: alert_msgs
+Version: 0.2.0
+Summary: Easily construct and send formatted emails and Slack alerts.
+Author: Dan Kelleher
+Author-email: kelleherjdan@gmail.com
+Requires-Python: >=3.8.1,<4.0.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: dominate (>=2.6.0,<3.0.0)
+Requires-Dist: ezloggers (>=1.1.0,<2.0.0)
+Requires-Dist: premailer (>=3.10.0,<4.0.0)
+Requires-Dist: pydantic (>=2.3.0,<3.0.0)
+Requires-Dist: pydantic-settings (>=2.0.3,<3.0.0)
+Requires-Dist: requests (>=2.28.1,<3.0.0)
+Requires-Dist: slack-bolt (>=1.18.0,<2.0.0)

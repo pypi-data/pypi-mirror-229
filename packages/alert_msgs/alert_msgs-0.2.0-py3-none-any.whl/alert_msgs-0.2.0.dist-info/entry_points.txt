@@ -1,0 +1,3 @@
+[console_scripts]
+text_alert=alert_msgs.alerts:text_alert_cmd
+

@@ -1,0 +1,55 @@
+Metadata-Version: 2.1
+Name: McCalc
+Version: 0.0.9
+Summary: Uma calculadora que funciona no modo com interface e sem interface.
+Author-email: Maciel Alves Alves <maciel70455@gmail.com>
+Project-URL: Homepage, https://github.com/macielalves/McCalc
+Project-URL: BugTracker, https://github.com/macielalves/McCalc/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+<div align="center"><img src="https://raw.githubusercontent.com/macielalves/McCalc/main/img/icon.png" /></div>
+
+---
+# McCalc
+Uma simples calculadora feita em python
+
+* #### Como instalar?
+Se seu sistema operacional é debian/ubuntu, use o seguinte comando:
+
+```shell
+python3 -m pip install McCalc
+```
+
+Para instalar no windows:
+```bash
+py.exe -m pip install McCalc
+```
+
+Após instalar, é preciso criar um arquivo e passar as intruções de uso.
+
+Para usar via terminal:
+
+```py
+from McCalc import McCalc
+
+calc1 = McCalc()
+calc1.run()
+```
+
+Para usar no modo GUI, use o seguinte exemplo:
+```py
+# O modo interface usa bibliotecas tkinter
+from McCalc import CalcGUI
+
+test = CalcGUI()
+test.execute()
+```
+
+
+
+⚠ Pode haver bugs, relate em [issues](https://github.com/macielalves/McCalc/issues/new/choose)

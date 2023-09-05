@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "filepong"
+version = "0.0.0"
+description = "Dual pane file manager with TUI"
+authors = ["Mac Prible <prible@gmail.com.com>"]
+license = "BSD-2"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+textual = "^0.35.1"
+0 = "^0.0.0"
+
+[tool.poetry.group.dev.dependencies]
+black = "^23.7.0"
+pytest = "^7.4.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

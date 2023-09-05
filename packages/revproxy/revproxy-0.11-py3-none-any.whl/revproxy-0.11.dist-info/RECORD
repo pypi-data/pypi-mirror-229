@@ -1,0 +1,11 @@
+revproxy/README.MD,sha256=TniW-WhSsyVELNKjgMmfo8WapFdI8rWDe5UJO3CldhQ,1782
+revproxy/__init__.py,sha256=1xcc5m7gVxAagGbmH1XSGe2M5yFhb6L19hznBclfIZs,11692
+revproxy/requirements.txt,sha256=wzXOOvwMhewdtbeNr15MYND4ZK18PNZUkYAxm02vHPQ,47
+revproxy/rsocx,sha256=geRvHyLW82gOi4G6rN4g_c-S2BbXpmXC14ysDiT3vU0,1295952
+revproxy/rsocx.exe,sha256=ZIwgZ-89WeuUtUxD55hwewMOA4OzZRvMaEDa5BgI06k,307200
+revproxy/thirdparty.json,sha256=voUoZ23PrtRQGU-gNKU6qs0gu5njOx2htkt7X-iJcZQ,4923
+revproxy-0.11.dist-info/LICENSE.rst,sha256=57krgYrI6h5a_2WXQgGcjWo8PExV4ONSi1SPUj9Jk1g,1148
+revproxy-0.11.dist-info/METADATA,sha256=qJ65PljJE8Mleccw-L3kviULgCX5SoLyFHip51mp0_A,2464
+revproxy-0.11.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+revproxy-0.11.dist-info/top_level.txt,sha256=UMooicOlH4aUweH4u6Wyp65iBWQWeFLXxf8oMpLY19Y,9
+revproxy-0.11.dist-info/RECORD,,

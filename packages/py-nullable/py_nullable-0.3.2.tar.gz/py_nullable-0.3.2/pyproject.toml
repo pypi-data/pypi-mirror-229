@@ -1,0 +1,39 @@
+[build-system]
+requires = ["setuptools", "wheel", "build"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "py_nullable"
+description = "Python's None Wrapper, inspired by java.util.Optional"
+authors = [{name = "miyamo2theppl"}]
+readme = "README.md"
+license = {file = "LICENSE"}
+urls = {repository = "https://github.com/miyamo2theppl/py_nullable.git"}
+classifiers = [
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11"
+]
+requires-python = ">=3.7,<3.12"
+dependencies = [
+    "typing-extensions"
+]
+keywords = ["None", "null", "nullable", "Java", "Null Safety"]
+dynamic = ["version"]
+
+
+[tool.setuptools.package-data]
+"py_nullable" = ["py.typed"]
+
+[tool.setuptools.packages.find]
+exclude = ["build", "tests"]
+namespaces = false
+
+[tool.setuptools.dynamic]
+version = {attr = "py_nullable.__version__.__version__"}
+
+[tool.flake8]
+max-line-length = 80
+

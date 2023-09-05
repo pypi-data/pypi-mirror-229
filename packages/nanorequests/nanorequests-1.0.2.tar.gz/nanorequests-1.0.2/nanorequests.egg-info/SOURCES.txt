@@ -1,0 +1,13 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+nanorequests/__init__.py
+nanorequests/nanoexceptions.py
+nanorequests.egg-info/PKG-INFO
+nanorequests.egg-info/SOURCES.txt
+nanorequests.egg-info/dependency_links.txt
+nanorequests.egg-info/requires.txt
+nanorequests.egg-info/top_level.txt
+tests/__init__.py
+tests/main.py

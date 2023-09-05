@@ -1,0 +1,12 @@
+Metadata-Version: 1.1
+Name: spartaORM
+Version: 0.1.0
+Summary: Simple ORM for Sparta
+Home-page: https://gitlab.com/arun-ak/sparta-database-orm
+Author: Arun Kumar
+Author-email: arun.kumar@swimming.org.au
+License: MIT
+Download-URL: https://gitlab.com/arun-ak/sparta-database-orm/-/archive/0.1.0/sparta-database-orm-0.1.0.tar.gz
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Topic :: Software Development :: Build Tools

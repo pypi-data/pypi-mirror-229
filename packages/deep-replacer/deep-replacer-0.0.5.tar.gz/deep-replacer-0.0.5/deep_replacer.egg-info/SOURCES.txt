@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+deep_replacer/__init__.py
+deep_replacer/deep_replacer.py
+deep_replacer/exceptions.py
+deep_replacer/helpers.py
+deep_replacer/key_depth_rules.py
+deep_replacer.egg-info/PKG-INFO
+deep_replacer.egg-info/SOURCES.txt
+deep_replacer.egg-info/dependency_links.txt
+deep_replacer.egg-info/requires.txt
+deep_replacer.egg-info/top_level.txt

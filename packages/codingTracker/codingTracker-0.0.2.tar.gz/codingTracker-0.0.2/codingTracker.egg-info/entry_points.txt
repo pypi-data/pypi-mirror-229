@@ -1,0 +1,4 @@
+[console_scripts]
+codingTracker = codingTracker.client:main
+codingTrackerServer = codingTracker.server:main
+codingTrackerSetup = codingTracker.setup.py:main

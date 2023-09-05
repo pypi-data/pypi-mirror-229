@@ -1,0 +1,8 @@
+setup.py
+client/__init__.py
+client/main.py
+fdr_dev2.egg-info/PKG-INFO
+fdr_dev2.egg-info/SOURCES.txt
+fdr_dev2.egg-info/dependency_links.txt
+fdr_dev2.egg-info/entry_points.txt
+fdr_dev2.egg-info/top_level.txt

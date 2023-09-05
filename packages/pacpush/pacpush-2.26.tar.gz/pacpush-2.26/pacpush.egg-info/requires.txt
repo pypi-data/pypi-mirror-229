@@ -1,0 +1,6 @@
+requests
+ruamel.yaml
+pyalpm
+
+[:python_version < "3.10"]
+importlib-resources

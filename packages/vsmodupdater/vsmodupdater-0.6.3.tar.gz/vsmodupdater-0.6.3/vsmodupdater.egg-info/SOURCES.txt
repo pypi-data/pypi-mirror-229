@@ -1,0 +1,16 @@
+LICENSE
+README.md
+pyproject.toml
+vsmodupdater/__init__.py
+vsmodupdater/api.py
+vsmodupdater/cli.py
+vsmodupdater/fs.py
+vsmodupdater/py.typed
+vsmodupdater/util.py
+vsmodupdater/version.py
+vsmodupdater.egg-info/PKG-INFO
+vsmodupdater.egg-info/SOURCES.txt
+vsmodupdater.egg-info/dependency_links.txt
+vsmodupdater.egg-info/entry_points.txt
+vsmodupdater.egg-info/requires.txt
+vsmodupdater.egg-info/top_level.txt

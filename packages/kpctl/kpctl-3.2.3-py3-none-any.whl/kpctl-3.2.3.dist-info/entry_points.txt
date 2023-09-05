@@ -1,0 +1,3 @@
+[console_scripts]
+kpctl=kpctl.__main__:main
+

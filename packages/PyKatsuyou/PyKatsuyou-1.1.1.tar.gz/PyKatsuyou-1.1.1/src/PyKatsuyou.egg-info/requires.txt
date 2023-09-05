@@ -1,0 +1,4 @@
+pandas
+igo-python
+jaconv
+tabulate

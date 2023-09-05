@@ -1,0 +1,14 @@
+odoo/addons/web_send_message_popup/README.rst,sha256=GerBG1uF6xgxcEOLfFFOTTy5Y4H-RYGbbWVSmZcj6Ko,3331
+odoo/addons/web_send_message_popup/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+odoo/addons/web_send_message_popup/__manifest__.py,sha256=CGDD2s3fhvhWS_jmLD8QiNAv0WzaWUh8qTrsnPHpz6U,430
+odoo/addons/web_send_message_popup/i18n/web_send_message_popup.pot,sha256=DSoZvi3Yi_MHcxFXi2AFQSEsCID4KGLbvwoBM_xL6ik,341
+odoo/addons/web_send_message_popup/readme/CONTRIBUTORS.rst,sha256=KV1qSU_mj9s4mTjI308plucKpeIs-qH1q7smW1nis0A,243
+odoo/addons/web_send_message_popup/readme/DESCRIPTION.rst,sha256=yvY3ZlUW9BiGfc1vWcOmhZBfApNhCCEiGMBR1sT_HLI,408
+odoo/addons/web_send_message_popup/static/description/icon.png,sha256=6xBPJauaFOF0KDHfHgQopSc28kKvxMaeoQFQWZtfZDo,9455
+odoo/addons/web_send_message_popup/static/description/index.html,sha256=YFyS1vbEOwa5Tdu-bMo3K1DNWP60CaZOLsCzdRklK3M,12996
+odoo/addons/web_send_message_popup/static/src/js/chatter.js,sha256=DBnuZoNzygrDr2U79iq6fw3d-cmCKfbeUfGrDxRiJeI,529
+odoo/addons/web_send_message_popup/templates/assets.xml,sha256=wmThd5qdsd0uLChykurLepgGDBxEc1kwFgWrcr5jfdM,409
+odoo13_addon_web_send_message_popup-13.0.1.0.1.dev3.dist-info/METADATA,sha256=JrQUmcQNcgwiPkbNAglsfaCCbBPXhno_Y5tyTPB5UbI,3871
+odoo13_addon_web_send_message_popup-13.0.1.0.1.dev3.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+odoo13_addon_web_send_message_popup-13.0.1.0.1.dev3.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
+odoo13_addon_web_send_message_popup-13.0.1.0.1.dev3.dist-info/RECORD,,

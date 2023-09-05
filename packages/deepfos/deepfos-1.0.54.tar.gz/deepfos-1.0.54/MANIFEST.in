@@ -1,0 +1,4 @@
+include versioneer.py
+include deepfos/_version.py
+include *.pyi
+recursive-include deepfos/boost *.pyx

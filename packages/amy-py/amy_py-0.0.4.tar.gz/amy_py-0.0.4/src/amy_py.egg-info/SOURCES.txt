@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/amy/__init__.py
+src/amy/console.py
+src/amy/main.py
+src/amy/strings_with_arrows.py
+src/amy_py.egg-info/PKG-INFO
+src/amy_py.egg-info/SOURCES.txt
+src/amy_py.egg-info/dependency_links.txt
+src/amy_py.egg-info/top_level.txt

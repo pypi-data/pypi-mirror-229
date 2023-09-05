@@ -1,0 +1,12 @@
+flopper/__init__.py,sha256=kbFNKv7Mq--UYxbl_V3rT3XkEvN323cmZv0Cf9y78dI,33
+flopper/flopper.py,sha256=ZAuOAzYW6x6nW3Scs4-vC1xJcDlYwn4hWDzJh_8fV6g,1912
+flopper/operations/__init__.py,sha256=FjNscCdO2ldjC51zy26ffKeEIJVixX8IYLly-neg2WI,215
+flopper/operations/common.py,sha256=i60aGuuht4wX7tk1VmbOatLGtcMEUy6girnrUuvStAg,363
+flopper/operations/elem_wise.py,sha256=pxXDoC4awoggCL2n8XOiOYEFKAudmBtaAtCFL7bQKPo,735
+flopper/operations/linalg.py,sha256=oMflt2-E_7MLhD2K4KBxgrjBPl99zVDJnl_cbQbLxLY,595
+flopper/operations/zero_flops.py,sha256=H4ZDp5z2ZSmVm2xwayv14j77YlsEJcKjWtGRpOsrNoI,470
+flopper-0.2.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+flopper-0.2.1.dist-info/METADATA,sha256=31TQdDw--axADm95XozwvvOSApitUuRa7Vt6sPSwVaw,2394
+flopper-0.2.1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+flopper-0.2.1.dist-info/top_level.txt,sha256=hmsEINu2nUICtFTr497amqHueeVxC0HRdGQSdXJ1aK8,8
+flopper-0.2.1.dist-info/RECORD,,

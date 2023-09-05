@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "cim-11-CERTIC"
+version = "0.1.7"
+description = "Classification Internationale des Maladies Onzième Révision en français. Données OMS. Codes limité aux pathologies (exclusion des codes d'extension et de la section supplémentaire pour l'évaluation du fonctionnement)"
+authors = ["Mickaël Desfrênes <mickael.desfrenes@unicaen.fr>"]
+readme = "README.md"
+packages = [{include = "cim_11"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+
+[tool.poetry.group.dev.dependencies]
+black = "^23.7.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

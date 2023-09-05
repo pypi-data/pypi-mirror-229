@@ -1,0 +1,12 @@
+rmnest/__init__.py,sha256=VhWcThMzcw2Uc-wx2szJ9nEhqLaa9MRbv6VBdXeJ0Nk,244
+rmnest/app.py,sha256=yvOFiRER9d-UjegrhFn56D8P1VTkgaRfJdKmB8CCFgM,2171
+rmnest/fit_RM.py,sha256=i9vBMFR5imkYssdXogSrhbNWRNtHjbmTUtzIW3bxwFY,6082
+rmnest/likelihood.py,sha256=Np0tLbz8Gbg9UUNOGdKFDIVq8KhG_qa_04MVvCzmheY,5767
+rmnest/model.py,sha256=J_R9GMQnBe6ytrFMSm8-7lmLJdYLqN1g8SiYXIKyT8Y,4326
+rmnest/utils.py,sha256=v7RNWel80XztzkiRiRey7RaAKer4R_n-X_59t5dB_qs,2160
+rmnest-0.3.0.dist-info/LICENSE,sha256=1auJ5baS0b76sZk903U1gXUkK2QF-rFNuxhB7PdloVc,1069
+rmnest-0.3.0.dist-info/METADATA,sha256=2awgwVt2vocgidsY5AGiHwzfZ31QONaZrBOlzjDAHIM,7178
+rmnest-0.3.0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+rmnest-0.3.0.dist-info/entry_points.txt,sha256=ANmFLpu5EXb-pUOIHqX6ZDmvq4Pv_M4dEaRKH9h809c,43
+rmnest-0.3.0.dist-info/top_level.txt,sha256=Ugr_aGXwmM0mvmiX_1PGLtwQmqOsdqO_wUYVJkskGTw,7
+rmnest-0.3.0.dist-info/RECORD,,

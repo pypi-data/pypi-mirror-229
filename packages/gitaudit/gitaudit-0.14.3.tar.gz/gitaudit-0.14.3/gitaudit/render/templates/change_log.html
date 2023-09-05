@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Change Log</title>
+    <style>{% include "adapted.min.css" %}</style>
+    <style>{% include "styles.css" %}</style>
+</head>
+<body>
+    <header>
+        <div class="header_flex">
+          <div>
+            <h1 class="header_title">Change Log</h1>
+          </div>
+          <div class="header_search_div">
+            <input class="" type="text" id="search-input" placeholder="search..." />
+            <button class="header_search_clear_button" id="search-button">
+            <svg width="16" height="16" viewBox="0 0 16 16">
+              <line x1="4" y1="4" x2="12" y2="12" stroke="white" />
+              <line x1="12" y1="4" x2="4" y2="12" stroke="white" />
+            </svg>
+            </button>
+          </div>
+        </div>
+    </header>
+    {% if root_repo_name %}<p class="repo-root-name"><code>{{root_repo_name}}</code></p>{% endif %}
+    {% with entries = change_log_entries %}
+    {% include "change_log_entries.html" %}
+    {% endwith %}
+
+    <script>
+        const searchInput = document.getElementById("search-input");
+        const searchButton = document.getElementById("search-button");
+        const commitInfos = document.querySelectorAll(".commit-info");
+        const highLightable = document.querySelectorAll(".high-lightable")
+      
+        function highlightText(text, search) {
+          const escapedSearch = search.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'); // $& means the whole matched string
+          const regex = new RegExp(escapedSearch, "gi");
+          return text.replace(regex, (match) => {
+            return `<span class="search-highlight">${match}</span>`;
+        });
+        }
+
+        function removeSearchHighlights() {
+          // Find all spans with the class 'search-highlight'
+          const highlightedSpans = document.querySelectorAll('span.search-highlight');
+          console.log(highlightedSpans.length)
+
+          // Iterate through the list of spans
+          highlightedSpans.forEach(span => {
+            // Create a document fragment to hold the span's content
+            const contentFragment = document.createDocumentFragment();
+
+            // Move the child nodes of the span to the document fragment
+            while (span.firstChild) {
+              contentFragment.appendChild(span.firstChild);
+            }
+
+            // Replace the span with its content
+            span.parentNode.replaceChild(contentFragment, span);
+          });
+        }
+
+      
+        function searchContent() {
+          const searchText = searchInput.value.trim();
+
+          if (searchText) {
+            searchButton.style.display = 'block';
+          } else {
+            searchButton.style.display = 'none';
+          }
+          removeSearchHighlights();
+      
+          if (searchText.length < 1) {
+            commitInfos.forEach((commitInfo) => {
+              commitInfo.classList.remove("dimmed");
+            });
+            return;
+          }
+      
+          commitInfos.forEach((commitInfo) => {
+            const escapedSearch = searchText.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'); // $& means the whole matched string
+            const regex = new RegExp(escapedSearch, "gi");
+      
+            if (!commitInfo.textContent.match(regex)) {
+              commitInfo.classList.add("dimmed");
+            } else {
+              commitInfo.classList.remove("dimmed");
+            }
+          });
+
+          highLightable.forEach((element) => {
+            element.innerHTML = highlightText(element.innerHTML, searchText);
+          });
+        }
+      
+        searchInput.addEventListener("input", searchContent);
+        searchButton.addEventListener("click", () => {
+          removeSearchHighlights();
+          commitInfos.forEach((commitInfo) => {
+            commitInfo.classList.remove("dimmed");
+          });
+          searchInput.value = '';
+          searchButton.style.display = 'none';
+        });
+      </script>
+      
+    
+</body>
+</html>

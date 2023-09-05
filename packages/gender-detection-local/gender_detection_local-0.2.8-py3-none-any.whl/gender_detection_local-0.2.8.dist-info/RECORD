@@ -1,0 +1,11 @@
+CirclesGenderDetectionPython/UpdateModel.py,sha256=DPISdnTqLI4Y-f5z_7zOEWIBdzwqFTB1vmTJsh-NL7s,94
+CirclesGenderDetectionPython/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+CirclesGenderDetectionPython/extract_data.py,sha256=8NFvBUGUOgdk5SzXoQ5pzlt7II1_vfPR4M0Mdro_zwA,3954
+CirclesGenderDetectionPython/gender_detection,sha256=iHzHK3pKfpKHbFyfu2U72mj0xw0eKWpPIxQ_kmP1s0s,18887080
+CirclesGenderDetectionPython/gender_detection.py,sha256=m0V6BHB1ngyzYKDMzfxcbCI7ut_pMAllPH9PDBzIuyU,10883
+CirclesGenderDetectionPython/image_manipulation.py,sha256=B4VYMindbwlnOVN0cgZKOGHYVpEizGgSnErvEMCq1Mg,1456
+CirclesGenderDetectionPython/main.py,sha256=OmfOO5i4mbEF3EVxAQPUiJXOPwhttC9BFUpa07QFb90,218
+gender_detection_local-0.2.8.dist-info/METADATA,sha256=GP4yJrgQLxi0kIeByDxQQ3pOqzNSSDVlsnniO_PViLc,492
+gender_detection_local-0.2.8.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+gender_detection_local-0.2.8.dist-info/top_level.txt,sha256=QmdT2d_FDDohvkinrROnAitWkqYenKUOPAFjq-Dm2Z0,29
+gender_detection_local-0.2.8.dist-info/RECORD,,

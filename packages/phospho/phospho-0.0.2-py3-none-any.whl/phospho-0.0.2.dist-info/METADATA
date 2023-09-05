@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: phospho
+Version: 0.0.2
+Summary: Deploy, Test, Scale LLM agents in one click
+Author: Pierre-Louis Biojout
+Author-email: dev@phospho.app
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Description-Content-Type: text/markdown
+
+# phospho Python Library
+
+The phospho package enables developper to easily wrap their code, so it can be deployed to phospho. Please note the project is still under development.
+
+## Requirements
+
+- Python 3.8 or higher
+
+## Installation
+Run the command below to install the package:
+
+```bash
+pip install --upgrade phospho
+```
+
+## Usage
+
+See the [documentation](https://docs.phospho.app/) for more information.

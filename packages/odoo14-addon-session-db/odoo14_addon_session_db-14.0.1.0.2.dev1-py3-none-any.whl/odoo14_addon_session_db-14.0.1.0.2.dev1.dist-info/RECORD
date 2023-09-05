@@ -1,0 +1,14 @@
+odoo/addons/session_db/README.rst,sha256=ATb3ZU6J32j_oFDG6IeKgsSi3L4jQBOzuz3SEcE7alQ,3585
+odoo/addons/session_db/__init__.py,sha256=PVM3bucL2EzItoVUqRcC9hplW7KuhmOTCjv6leqVXWQ,31
+odoo/addons/session_db/__manifest__.py,sha256=3Iep8mideOJl-RE5nWIuMwio_VfLj2mSni55IeKhpWc,251
+odoo/addons/session_db/pg_session_store.py,sha256=d6b5qxDJm2MSrbNfQ_GZ5aAidYzVXqvtE33-cIQLxeA,4775
+odoo/addons/session_db/i18n/session_db.pot,sha256=AyzPzY6fvZoAIdVCppv0SiPLoR_D-HBQlYffHd1jWNE,341
+odoo/addons/session_db/readme/DESCRIPTION.rst,sha256=d84Ye-2qA3Vb3-CKkhLDgPrwDzLYcGSHpwsKDqmwDdA,206
+odoo/addons/session_db/readme/ROADMAP.rst,sha256=tjuz6o7GPU_OvBRxMrjauZZ_o_4nBoNy9ZcmEuS-agk,83
+odoo/addons/session_db/readme/USAGE.rst,sha256=3mtjrhdBiktzD_z1Elmw1NAIv5zzjCiXScf7nFPTeO8,312
+odoo/addons/session_db/static/description/icon.png,sha256=6xBPJauaFOF0KDHfHgQopSc28kKvxMaeoQFQWZtfZDo,9455
+odoo/addons/session_db/static/description/index.html,sha256=tWbRXsogXPgtjfh9dt1we3kPr5SlooRgSFnir3M3GE4,13120
+odoo14_addon_session_db-14.0.1.0.2.dev1.dist-info/METADATA,sha256=R6eaaZ0sseaWb6_6aZdEwEL89MW6oFwf9B0m2C9zbaw,4135
+odoo14_addon_session_db-14.0.1.0.2.dev1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+odoo14_addon_session_db-14.0.1.0.2.dev1.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
+odoo14_addon_session_db-14.0.1.0.2.dev1.dist-info/RECORD,,

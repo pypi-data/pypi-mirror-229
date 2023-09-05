@@ -1,0 +1,10 @@
+mecab_text_cleaner/__init__.py,sha256=2hT_rdb_gfAf8Z96gWVMNKrQYtrwq4Pcrxwd8ZAw3ok,112
+mecab_text_cleaner/__main__.py,sha256=MSmt_5Xg84uHqzTN38JwgseJK8rsJn_11A8WD99VtEo,61
+mecab_text_cleaner/_main.py,sha256=MOWeMdWv53tG0xmYvR66kfDJBZEkfA9fhVX1cmrPdR8,10427
+mecab_text_cleaner/cli.py,sha256=_OkjmU5QjRrIN7Zq6W8AP3xGKcKH2pz0ajgmzHUnd24,1709
+mecab_text_cleaner/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mecab_text_cleaner-0.1.0.dist-info/LICENSE,sha256=m29QcWlWxyRg3K0d5IYXR0DjEY-G5xMljZvO5Mewth8,1078
+mecab_text_cleaner-0.1.0.dist-info/METADATA,sha256=xUPkKq-4mmxNe9mRqBGY1QEC8Kc0GBFtOsf0JOgN0Gs,5769
+mecab_text_cleaner-0.1.0.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+mecab_text_cleaner-0.1.0.dist-info/entry_points.txt,sha256=APR6HfEyxutOZ3SBWerZunVbjXYDmIBlyILlFC0CMD8,98
+mecab_text_cleaner-0.1.0.dist-info/RECORD,,

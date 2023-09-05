@@ -1,0 +1,4 @@
+[console_scripts]
+mecab-text-cleaner=mecab_text_cleaner.cli:main
+mtc=mecab_text_cleaner.cli:main
+

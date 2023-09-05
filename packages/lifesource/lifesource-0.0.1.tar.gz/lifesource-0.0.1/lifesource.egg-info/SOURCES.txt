@@ -1,0 +1,7 @@
+README
+setup.cfg
+setup.py
+lifesource.egg-info/PKG-INFO
+lifesource.egg-info/SOURCES.txt
+lifesource.egg-info/dependency_links.txt
+lifesource.egg-info/top_level.txt

@@ -1,0 +1,15 @@
+odoo/addons/mail_preview_audio/README.rst,sha256=Q3S5T1wYk7duVuFYzEqgWpCkx4-F-C89K46r-2nHMCA,2761
+odoo/addons/mail_preview_audio/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+odoo/addons/mail_preview_audio/__manifest__.py,sha256=tOBzkCgeBSeBcIIVExo-XV7f0HKFyZ0R52s6oGOuxVM,476
+odoo/addons/mail_preview_audio/i18n/mail_preview_audio.pot,sha256=-bCJHdAP4iD4PASflg1a3ZgdVcRHhwAx77pV8NiJ2bg,578
+odoo/addons/mail_preview_audio/readme/CONTRIBUTORS.rst,sha256=okC5oUytz6l8wtkSnOgx_v81TJU3bDNcExRpiEuD0dM,41
+odoo/addons/mail_preview_audio/readme/DESCRIPTION.rst,sha256=LBKyHw-qJpfya_79Ukr8sagMEA3B7AdI5omQ_AAEFA0,43
+odoo/addons/mail_preview_audio/static/description/icon.png,sha256=6xBPJauaFOF0KDHfHgQopSc28kKvxMaeoQFQWZtfZDo,9455
+odoo/addons/mail_preview_audio/static/description/index.html,sha256=rHQ-8Q-oc9zuchMk4Mgg41JCvdi6BMZ4duiRYP7lE8o,12029
+odoo/addons/mail_preview_audio/static/src/js/preview.js,sha256=M4ovHYb-G7DC127kBszr-g44NphQidGTN2ykQEDvWkE,1003
+odoo/addons/mail_preview_audio/static/src/xml/preview.xml,sha256=YxKXfExy2DXSw81lImhDI8R8m6tapCTgExMZ4B2uaHI,888
+odoo/addons/mail_preview_audio/template/assets.xml,sha256=ZQ8HjqJ7FmTWqYcicZotLLFWny7aHTQdbo4Lj75enzA,482
+odoo14_addon_mail_preview_audio-14.0.1.0.1.dev3.dist-info/METADATA,sha256=HqtnErMp_ddiyw-wcjhO0zV3L77aD0C1OCfRO5N928Y,3349
+odoo14_addon_mail_preview_audio-14.0.1.0.1.dev3.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+odoo14_addon_mail_preview_audio-14.0.1.0.1.dev3.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
+odoo14_addon_mail_preview_audio-14.0.1.0.1.dev3.dist-info/RECORD,,

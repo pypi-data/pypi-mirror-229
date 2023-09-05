@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: robi
+Version: 0.0.2
+Summary: ROBI: Robust and Optimized Biomarker Identifier
+Author-email: Louis Rebaud <louis.rebaud@gmail.com>
+License: Apache License 2.0
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: Science/Research
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: Apache Software License
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Provides-Extra: test-core
+Provides-Extra: test
+License-File: LICENSE
+
+# ROBI

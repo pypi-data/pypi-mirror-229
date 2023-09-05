@@ -1,0 +1,72 @@
+Metadata-Version: 2.1
+Name: cykooz.buildout.fixnamespace
+Version: 2.0.4
+Summary: A zc.buildout extension changes value of NAMESPACE_PACKAGE_INIT constant from setuptools
+Home-page: https://github.com/Cykooz/cykooz.buildout.fixnamespace
+Author: Kirill Kuzminykh
+Author-email: cykooz@gmail.com
+License: MIT
+Keywords: development build
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Zope Public License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Framework :: Buildout
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Description-Content-Type: text/x-rst
+Provides-Extra: test
+
+****************************
+cykooz.buildout.fixnamespace
+****************************
+
+This buildout extension monkey-patch function
+``zc.buildout.easy_install.make_egg_after_pip_install``
+and ``zc.buildout.easy_install.Installer._get_dist``
+to create file ``namespace_packages.txt`` for some packages with
+native namespaces (`PEP-420 <https://peps.python.org/pep-0420/>`_)
+which doesn't have it.
+
+Minimal usage example::
+
+    [buildout]
+    extensions = cykooz.buildout.fix_namespace
+
+
+
+..  Changelog format guide.
+    - Before make new release of core egg you MUST add here a header for new version with name "Next release".
+    - After all headers and paragraphs you MUST add only ONE empty line.
+    - At the end of sentence which describes some changes SHOULD be identifier of task from our task manager.
+      This identifier MUST be placed in brackets. If a hot fix has not the task identifier then you
+      can use the word "HOTFIX" instead of it.
+    - At the end of sentence MUST stand a point.
+
+CHANGELOG
+*********
+
+2.0.4 (2023-09-05)
+==================
+
+- Added support of packages without ``top_level.txt`` file.
+
+2.0.2 (2023-09-03)
+==================
+
+- Fixed error.
+
+2.0.0 (2023-09-03)
+==================
+
+- Added fix that creates ``namespace_packages.txt`` for some packages with
+  native namespaces which doesn't have it.
+- Removed fix of content of namespace ``__init__.py`` file.
+
+1.0 (2020-04-14)
+================
+
+- Initial release.

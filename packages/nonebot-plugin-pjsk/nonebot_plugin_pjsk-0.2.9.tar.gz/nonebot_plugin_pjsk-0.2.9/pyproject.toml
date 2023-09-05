@@ -1,0 +1,109 @@
+[project]
+name = "nonebot-plugin-pjsk"
+version = "0.2.9"
+description = "Project Sekai Sticker Creator for NoneBot2."
+authors = [
+    { name = "Agnes_Digital", email = "Z735803792@163.com" },
+    { name = "student_2333", email = "lgc2333@126.com" },
+]
+dependencies = [
+    "nonebot2>=2.0.0",
+    "nonebot-plugin-send-anything-anywhere>=0.2.7",
+    "pillow>=9,<10",
+    "imagetext-py>=2.1.3",
+    "aiohttp>=3.8.5",
+    "numpy>=1.25.1",
+    "anyio>=3.7.1",
+]
+requires-python = ">=3.9,<4.0"
+keywords = [
+    "pjsk",
+    "nonebot2",
+    "plugin",
+]
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Operating System :: OS Independent",
+]
+readme = "README.md"
+
+[project.license]
+text = "MIT"
+
+[project.urls]
+homepage = "https://github.com/Agnes4m/nonebot_plugin_pjsk"
+
+[tool.pdm.build]
+includes = []
+
+[tool.pyright]
+pythonVersion = "3.8"
+
+[tool.black]
+line-length = 89
+target-version = [
+    "py39",
+    "py310",
+    "py311",
+]
+include = "\\.pyi?$"
+
+[tool.ruff]
+ignore = [
+    "B008",
+    "B905",
+    "E501",
+    "FBT002",
+    "PGH003",
+    "RUF001",
+    "RUF002",
+    "RUF003",
+    "RUF006",
+    "RUF100",
+    "SIM117",
+    "TRY002",
+    "TRY003",
+]
+select = [
+    "A",
+    "ARG",
+    "ASYNC",
+    "B",
+    "C4",
+    "COM",
+    "E",
+    "F",
+    "FBT",
+    "FLY",
+    "I",
+    "ISC",
+    "N",
+    "PIE",
+    "PGH",
+    "PTH",
+    "PYI",
+    "Q",
+    "RET",
+    "RSE",
+    "RUF",
+    "SIM",
+    "SLF",
+    "SLOT",
+    "TRY",
+]
+
+[tool.ruff.isort]
+extra-standard-library = [
+    "typing_extensions",
+]
+
+[build-system]
+requires = [
+    "pdm-backend",
+]
+build-backend = "pdm.backend"

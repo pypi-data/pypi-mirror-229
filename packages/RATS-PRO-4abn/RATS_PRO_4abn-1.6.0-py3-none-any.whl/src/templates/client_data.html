@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Client Data Collation</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div align="center">
+        <table>
+            <h1>
+                {% for table in tables%}
+                <h2>{{titles[loop.index]}}</h2>
+                {{table|safe}} {% endfor %}
+            </h1>
+        </table>
+        <a href="javascript:history.back()" class="goback-button">Go Back</a>
+    </div>
+</body>
+</html>

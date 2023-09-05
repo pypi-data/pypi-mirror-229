@@ -1,0 +1,16 @@
+odoo/addons/base_rest_auth_api_key/README.rst,sha256=N_CV4iHQoyLx9LCtsdVl6otP3aviYDMSwih54dMIAvg,3202
+odoo/addons/base_rest_auth_api_key/__init__.py,sha256=4hzzdr5iZgGdG1B-358VNgNjQRKLDc3R6FIeRKC8Bbw,25
+odoo/addons/base_rest_auth_api_key/__manifest__.py,sha256=hb6WR1DKMHA7QFyEXP_JfB-xoXkZ44KSN2rnYm3S22I,667
+odoo/addons/base_rest_auth_api_key/apispec/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+odoo/addons/base_rest_auth_api_key/apispec/rest_method_security_plugin.py,sha256=JhncfihOSOeGTqx0mURVOBxNnU-FNLFDUyRtIY9RHv8,1340
+odoo/addons/base_rest_auth_api_key/components/__init__.py,sha256=uiRlnmaOQXtmAGGQJyKvowbVbDMMr0Fw-iA-uDkDjvg,22
+odoo/addons/base_rest_auth_api_key/components/service.py,sha256=K6lVm54eCwpxgorQQQFv6Bf7VUxGW-BhdoNHUfLo4G8,550
+odoo/addons/base_rest_auth_api_key/i18n/base_rest_auth_api_key.pot,sha256=BIyTShSvBhiJMqh2td4QGlxB8SDDzDZd0Pqu6WZgBR8,341
+odoo/addons/base_rest_auth_api_key/readme/CONTRIBUTORS.rst,sha256=RqZZFJ_WyebKrBztRG56MCIHBnSryLzhaxlXepsfhVg,44
+odoo/addons/base_rest_auth_api_key/readme/DESCRIPTION.rst,sha256=-CsXWw_NPoWcg7jvKH0YulPuW9eWpyWH_AbgQaF9BBk,144
+odoo/addons/base_rest_auth_api_key/static/description/icon.png,sha256=6xBPJauaFOF0KDHfHgQopSc28kKvxMaeoQFQWZtfZDo,9455
+odoo/addons/base_rest_auth_api_key/static/description/index.html,sha256=2Gsig3uIvLBXamfNsHxSNRBBY0wCWvuhrJAbyQ3AcBA,12528
+odoo_addon_base_rest_auth_api_key-15.0.1.0.0.1.dist-info/METADATA,sha256=kNGPoH1pje3KBz06cdUM3SMXRvdwaKBrSKz3qhxPAg0,3967
+odoo_addon_base_rest_auth_api_key-15.0.1.0.0.1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+odoo_addon_base_rest_auth_api_key-15.0.1.0.0.1.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
+odoo_addon_base_rest_auth_api_key-15.0.1.0.0.1.dist-info/RECORD,,

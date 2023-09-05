@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: sax
+Version: 0.10.1
+Summary: Autograd and XLA for S-parameters
+Author-email: Floris Laporte <floris.laporte@rockleyphotonics.com>
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Physics
+Requires-Python: >=3.9.0
+Provides-Extra: dev
+License-File: LICENSE

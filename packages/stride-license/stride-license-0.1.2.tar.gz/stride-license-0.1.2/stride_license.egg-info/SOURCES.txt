@@ -1,0 +1,9 @@
+README.md
+setup.py
+stride-license/__init__.py
+stride-license/stride-license.py
+stride_license.egg-info/PKG-INFO
+stride_license.egg-info/SOURCES.txt
+stride_license.egg-info/dependency_links.txt
+stride_license.egg-info/requires.txt
+stride_license.egg-info/top_level.txt

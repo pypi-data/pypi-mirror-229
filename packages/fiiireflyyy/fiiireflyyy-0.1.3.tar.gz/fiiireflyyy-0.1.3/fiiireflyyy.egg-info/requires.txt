@@ -1,0 +1,9 @@
+scikit-learn
+opencv-python
+matplotlib
+tensorflow==2.8.3
+pandas
+numpy
+imaris-ims-file-reader
+zarr
+seaborn

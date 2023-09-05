@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: llm-platform
+Version: 0.0.1
+Summary: LLM serving platform
+Home-page: https://github.com/jverre/llm-platform
+Author: Jacques Verré
+Author-email: jverre@gmail.com
+License: Apache 2.0 License
+Keywords: LLM serving logging api gateway
+Requires-Python: >=3.8.0
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# llm-platform
+Open Source LLM Platform

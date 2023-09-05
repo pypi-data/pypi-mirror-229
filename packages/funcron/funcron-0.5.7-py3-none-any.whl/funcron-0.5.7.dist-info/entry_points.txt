@@ -1,0 +1,2 @@
+[console_scripts]
+funcron = funcron.server.script:funcron

@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: funcron
+Version: 0.5.7
+Summary: funcron
+Home-page: https://github.com/farfarfun/funcron
+Author: bingtao
+Author-email: 1007530194@qq.com
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: supervisor
+Requires-Dist: apscheduler
+Requires-Dist: gunicorn
+Requires-Dist: records
+Requires-Dist: gevent
+Requires-Dist: redi
+Requires-Dist: apache-airflow
+Requires-Dist: apache-airflow-providers-celery
+
+# notejob
+
+#### 介绍
+
+[funbuild](http://127.0.0.1:8441/?message=Process%20funcron_server%20restarted)
+[funcron](http://127.0.0.1:8445/)
+[funcoin](http://127.0.0.1:8451/redoc)

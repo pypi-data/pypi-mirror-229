@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: spacetraders_sdk
+Version: 2.3.1.4
+Summary: A python sdk for the SpaceTradersAPI game
+License: MIT
+Author: Felix Baumkötter
+Author-email: stsdk@feba66.de
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Project-URL: Bug Tracker, https://github.com/feba66/spacetraders-sdk-v3/issues
+Project-URL: Homepage, https://github.com/feba66/spacetraders-sdk-v3
+Description-Content-Type: text/markdown
+
+### New rewrite/repaste
+
+Work in progress...

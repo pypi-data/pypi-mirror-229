@@ -1,0 +1,14 @@
+README.md
+pyproject.toml
+setup.py
+gender_detection_local/__init__.py
+gender_detection_local.egg-info/PKG-INFO
+gender_detection_local.egg-info/SOURCES.txt
+gender_detection_local.egg-info/dependency_links.txt
+gender_detection_local.egg-info/top_level.txt
+gender_detection_local/src/UpdateModel.py
+gender_detection_local/src/__init__.py
+gender_detection_local/src/extract_data.py
+gender_detection_local/src/gender_detection.py
+gender_detection_local/src/image_manipulation.py
+gender_detection_local/src/main.py

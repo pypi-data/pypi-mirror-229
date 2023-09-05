@@ -1,0 +1,18 @@
+[project]
+name = "categorical-gpt"
+version = "0.1.1"
+authors = [
+  { name="Karim Huesmann", email="karimhuesmann@me.com" },
+]
+description = "Transformation of categorical data to numerical feature vectors with Large Language Models"
+readme = "README.md"
+requires-python = ">=3.6"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/khuesmann/categorical-gpt"
+"Bug Tracker" = "https://github.com/khuesmann/categorical-gpt/issues"

@@ -1,0 +1,9 @@
+dwave-knapsack-solver/setup.py,sha256=yD7JNlyCwDdcjblEwIgxsJ6IvkdLAnEFKZlM5mlLgow,579
+dwave_knapsack_solver/__init__.py,sha256=f1vBKtOh1HDQYbC8JBKSobCJXLf7eeGIubVC9lRhsnw,31
+dwave_knapsack_solver/knapsack_genetic.py,sha256=aIW1_sxbAXfl9KpPJ5w6Qca3hfuLLNDNsK5PJj9eetg,2716
+dwave_knapsack_solver-1.1.5.dist-info/LICENSE,sha256=3OxpMLZbMOWD-_CJ3v_2f3ho5Z9ugQRpw2WWhq45m54,1084
+dwave_knapsack_solver-1.1.5.dist-info/LICENSE.TXT,sha256=3V0JwnYehBGZ8CIBbd7BNhhVUiCtySZz9pTwm3e8zW4,1074
+dwave_knapsack_solver-1.1.5.dist-info/METADATA,sha256=n6DN3XZJxLmLlv6B8G2R417uKiFOSotNwqB04swcivg,837
+dwave_knapsack_solver-1.1.5.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+dwave_knapsack_solver-1.1.5.dist-info/top_level.txt,sha256=LASBHmc5TtfN0GbRcxGpQmSxbd5CID1SwINCqJ6o-MY,22
+dwave_knapsack_solver-1.1.5.dist-info/RECORD,,

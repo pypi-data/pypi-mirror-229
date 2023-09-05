@@ -1,0 +1,11 @@
+gpxpy
+
+[dev]
+black
+flake8
+pep8-naming
+mypy
+Faker
+
+[dev:python_version < "3.10"]
+importlib_resources

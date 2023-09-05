@@ -1,0 +1,15 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.py
+split_gpx/__init__.py
+split_gpx/__main__.py
+split_gpx/py.typed
+split_gpx/split_gpx.py
+split_gpx.egg-info/PKG-INFO
+split_gpx.egg-info/SOURCES.txt
+split_gpx.egg-info/dependency_links.txt
+split_gpx.egg-info/entry_points.txt
+split_gpx.egg-info/requires.txt
+split_gpx.egg-info/top_level.txt
+tests/test_split_gpx.py

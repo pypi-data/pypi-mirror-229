@@ -1,0 +1,3 @@
+[console_scripts]
+Swagger2Tests = Swagger2Tests.run:main
+

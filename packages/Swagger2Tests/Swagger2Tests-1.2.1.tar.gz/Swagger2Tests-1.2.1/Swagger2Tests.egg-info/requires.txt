@@ -1,0 +1,7 @@
+argparse
+jinja2
+pytest
+requests
+coloredlogs
+Faker
+Werkzeug

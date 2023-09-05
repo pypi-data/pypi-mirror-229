@@ -1,0 +1,15 @@
+refineryframe/__init__.py,sha256=mmZF0l3HBW1hBk3FeFsSzoLRZKmMApHDcfXZ8cI3ZTA,1221
+refineryframe/demo.py,sha256=2hQJKkOzBS8gnVByk0wtlho3bU7dLrRH6TbCbl8w3LI,1208
+refineryframe/detect_unexpected.py,sha256=NgwQ_PFou2XsI6p4v4j6Dy7ZAFCH0Hg1ejOAtQNAeWc,72941
+refineryframe/other.py,sha256=7SRiw0Q11luRwBhDmMoct2UU28a3r5oiBQmv70yfeYA,14560
+refineryframe/refiner.py,sha256=ELxaAHA1TxIj_GeKVkOvVmg_t3Fu4UmZ7gSsPZ2dVq0,29246
+refineryframe/replace_unexpected.py,sha256=GzmM162hWL0s5w4-44xRtCGuy3EhFQCAolyie5fnKkM,14854
+tests/__init__.py,sha256=D5hPRecAxNYgKxV32TSJ01JABPbryhrNMEtk9h-4mBc,163
+tests/conftest.py,sha256=u6DvUWgAC_IIOLXLP8r2IK8x9GvKUNK0SAqkPtxqOgM,13325
+tests/test_detect_unexpected.py,sha256=c8w43ZMQzPfJZOt49bfPnBIAnAkJCbu79YVSVNNIhy0,10253
+tests/test_refiner.py,sha256=_348DJEbry-b5dnV3tiB5nmihhLkpwN4-esDTaGmsVA,10247
+refineryframe-0.2.2.dist-info/LICENSE,sha256=CR3a08oRzeZhDg6STizoY6aTgK0lwxZ4RN0Pu0KdUPA,1061
+refineryframe-0.2.2.dist-info/METADATA,sha256=WFaBuDkLD1pELPk1PmhBcZXc3HDzwPNQu4vDDWlMRzc,30481
+refineryframe-0.2.2.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+refineryframe-0.2.2.dist-info/top_level.txt,sha256=S6IOImEmD8D6uW8gahXcvf5tDlFL9FAmUR4sPlfXN5Q,20
+refineryframe-0.2.2.dist-info/RECORD,,

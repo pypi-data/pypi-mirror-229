@@ -1,0 +1,15 @@
+odoo/addons/mail_environment_office365/README.rst,sha256=4QSHLZCAtsvfVyMbemlAZthlNukybIsVcjkhz9jNLls,3601
+odoo/addons/mail_environment_office365/__init__.py,sha256=X9EJGOE2GtZbS0G82PtSXmWSZ_R8jEM0rlJTDliQjp4,21
+odoo/addons/mail_environment_office365/__manifest__.py,sha256=fpRE3eBmcsQVCU-JXRHkG0AQ-RuEsdfnaFk83sMjHA0,688
+odoo/addons/mail_environment_office365/i18n/mail_environment_office365.pot,sha256=vsiVwWqha9SDG1e6TRe4MkrY4SDUDCKwOUgrI6GVzw8,513
+odoo/addons/mail_environment_office365/models/__init__.py,sha256=CUJkClw5__3iJ4uH2JoVpgZfBsvqPN-tmmz64oH60ZA,29
+odoo/addons/mail_environment_office365/models/ir_mail_server.py,sha256=IQ9Kh5dCQRkUrvFxBw2QsUGcrLi8v8zP8fJf-0bKE5k,543
+odoo/addons/mail_environment_office365/readme/CONFIGURE.rst,sha256=EnWv1h8fjV3n4_0dvfrpOo8ZBOrzv0hVHWtSDGqb_4k,562
+odoo/addons/mail_environment_office365/readme/CONTRIBUTORS.rst,sha256=AlyZ0fgnk82V1zEK4yGETj8RR8ozhoxbHQzus8bKMtg,103
+odoo/addons/mail_environment_office365/readme/DESCRIPTION.rst,sha256=-9sqrOJjfgGIB1gAMOW7Kz3nDaC-5qW_6PTIngtH_lk,76
+odoo/addons/mail_environment_office365/static/description/icon.png,sha256=6xBPJauaFOF0KDHfHgQopSc28kKvxMaeoQFQWZtfZDo,9455
+odoo/addons/mail_environment_office365/static/description/index.html,sha256=UGrL0k5V00TmpsdBanciT2eI1BncS-A6KuTlwArHULk,13256
+odoo_addon_mail_environment_office365-15.0.1.0.0.4.dist-info/METADATA,sha256=qdyhSn526UzbMjmmbX0LQ2Qo8RbzC5Ex6wxTmdyslPk,4350
+odoo_addon_mail_environment_office365-15.0.1.0.0.4.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+odoo_addon_mail_environment_office365-15.0.1.0.0.4.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
+odoo_addon_mail_environment_office365-15.0.1.0.0.4.dist-info/RECORD,,

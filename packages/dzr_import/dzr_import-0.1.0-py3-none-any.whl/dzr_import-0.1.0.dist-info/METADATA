@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: dzr_import
+Version: 0.1.0
+Summary: 
+Author: speedypleath
+Author-email: gheorgheandrei13@gmail.com
+Requires-Python: >=3.11,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: eyed3 (>=0.9.7,<0.10.0)
+Requires-Dist: pycryptodome (>=3.18.0,<4.0.0)
+Requires-Dist: pyexiftool (>=0.5.5,<0.6.0)
+Requires-Dist: requests (>=2.31.0,<3.0.0)
+Description-Content-Type: text/markdown
+
+

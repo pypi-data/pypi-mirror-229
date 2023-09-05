@@ -1,0 +1,17 @@
+odoo/addons/mobile_app_abstract/README.rst,sha256=Dq8cuGHiVkcx0Cyb5J_in1QhiM-4imJwHawfMSYBpLw,3358
+odoo/addons/mobile_app_abstract/__init__.py,sha256=X9EJGOE2GtZbS0G82PtSXmWSZ_R8jEM0rlJTDliQjp4,21
+odoo/addons/mobile_app_abstract/__manifest__.py,sha256=FdjhBWPKH5XgAAUkIdMvn4c2WVZ8IPRjEKVw19aq-ZE,676
+odoo/addons/mobile_app_abstract/demo/product_product.xml,sha256=HGUiVhmqQ86bskohiv_Tfe3HAYbTOnNuIP5qoXjLQbU,552
+odoo/addons/mobile_app_abstract/demo/res_groups.xml,sha256=SjNQF_coC4GzOnjllrtdABqhG-PmBSmZuyo2DOJJLMY,1919
+odoo/addons/mobile_app_abstract/i18n/fr.po,sha256=aBkZSlvB9mPxp3KdYe0bn8-71UZ25O7R8PZX0vV2KPA,1129
+odoo/addons/mobile_app_abstract/i18n/mobile_app_abstract.pot,sha256=unUufR6OOUDRRzJLlUMp6fbGP_iV1sRBqcpsqsoip6U,967
+odoo/addons/mobile_app_abstract/models/__init__.py,sha256=mu10iFQbvxF8i_6VO5vJNiql2vVaWmFB0mdEM7c4GSQ,34
+odoo/addons/mobile_app_abstract/models/mobile_app_abstract.py,sha256=Ttbw73pT7biynFOpVq3Z2LGGBZXSSTNcxUj-bdd4nyw,3833
+odoo/addons/mobile_app_abstract/readme/CONTRIBUTORS.rst,sha256=lOu65FBimdkBCJRQ-0POIP_rRFwZ_plzxBFFLHkxhrQ,56
+odoo/addons/mobile_app_abstract/readme/DESCRIPTION.rst,sha256=hEdgFhnx70yfW1iketYQLStJHYVkR-nVDTTLXasLwVk,459
+odoo/addons/mobile_app_abstract/static/description/icon.png,sha256=6xBPJauaFOF0KDHfHgQopSc28kKvxMaeoQFQWZtfZDo,9455
+odoo/addons/mobile_app_abstract/static/description/index.html,sha256=elOgBRX6YiiRpt0mcf4zm1BtmdzuLVXo-EGL5a_bbc8,12785
+odoo11_addon_mobile_app_abstract-11.0.2.0.0.99.dev8.dist-info/METADATA,sha256=z0aOHilnHaJpODewGzTHlw0Au0aX4qMXY1Yf4xlZxR0,4019
+odoo11_addon_mobile_app_abstract-11.0.2.0.0.99.dev8.dist-info/WHEEL,sha256=iYlv5fX357PQyRT2o6tw1bN-YcKFFHKqB_LwHO5wP-g,110
+odoo11_addon_mobile_app_abstract-11.0.2.0.0.99.dev8.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
+odoo11_addon_mobile_app_abstract-11.0.2.0.0.99.dev8.dist-info/RECORD,,

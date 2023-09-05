@@ -1,0 +1,55 @@
+Metadata-Version: 2.1
+Name: face_tagger
+Version: 0.0.3
+Summary: A library for face recognition in multiple images and classification of photos containing each individual.
+Project-URL: Homepage, https://github.com/Face-Tagger
+Project-URL: Bug Tracker, https://github.com/Face-Tagger/facetagger-lib/issues
+Author-email: Bae SungJoon <clcc001@naver.com>, Yoon JongBeom <home99032@naver.com>, Sohn YoungJin <sonkim1001@naver.com>, Choi JunHwan <csd100j@gmail.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# Face Tagger
+
+Face Tagger is a Python library designed to classify photos containing specific individuals from a collection of images.
+
+<br>
+
+## Features
+
+- **Face Recognition**: Identify and differentiate faces in multiple images.
+- **Photo Classification**: Group photos based on the identified individual.
+
+<br>
+
+## Installation
+
+To install Face Tagger, you can use pip:
+
+```bash
+pip install face-tagger
+```
+
+<br>
+
+## Usage
+```python
+
+```
+
+(Note: The above code is just a fictional example and may not represent the actual usage of the Face Tagger library.)
+
+<br>
+
+## Contributing
+
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+<br>
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)

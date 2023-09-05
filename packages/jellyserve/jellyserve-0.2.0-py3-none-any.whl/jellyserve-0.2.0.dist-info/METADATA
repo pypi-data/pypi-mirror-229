@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: jellyserve
+Version: 0.2.0
+Summary: simple python web framework with support for .svelte files
+Author-email: Adam Zaoral <the.chosen.zendro@gmail.com>
+Project-URL: Homepage, https://github.com/thechosenzendro/jellyserve
+Project-URL: Bug Tracker, https://github.com/thechosenzendro/jellyserve/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: GNU General Public License (GPL)
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# JellyServe
+
+JellyServe is a simple and flexible web framework written in Python with native support for .svelte files.
+
+What works?
+* Routing (dynamic routes, matchers, etc.)
+* Svelte file compilation and population
+* Simple database integration (alpha)
+* Messages (simpler websockets)
+
+What does not work/is planned?
+* Testing utility
+* Wiki through GitHub Wikis
+
+The code is spaghetti. But it works. Maybe i will rewrite it in the future.

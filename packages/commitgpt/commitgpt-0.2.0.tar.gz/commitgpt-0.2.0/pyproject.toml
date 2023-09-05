@@ -1,0 +1,30 @@
+[tool.poetry]
+name = "commitgpt"
+version = "0.2.0"
+description = "commitgpt assists developers in generating high-quality commit messages for their version control systems, such as git."
+authors = ["Rodney Osodo <socials@rodneyosodo.com>"]
+license = "LICENSE"
+readme = "README.md"
+
+[tool.poetry.scripts]
+commitgpt = "commitgpt.main:app"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+typer = {extras = ["all"], version = "^0.9.0"}
+gitpython = "^3.1.32"
+openai = "^0.27.10"
+pre-commit = "^3.4.0"
+pytest = "^7.4.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.ruff]
+line-length = 79
+src = ["commitgpt"]
+
+[tool.ruff.pydocstyle]
+convention = "google"

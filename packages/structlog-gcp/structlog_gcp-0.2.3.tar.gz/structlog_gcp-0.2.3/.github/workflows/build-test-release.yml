@@ -1,0 +1,81 @@
+name: Build & test
+
+on:
+  push:
+    branches:
+      - main
+
+  pull_request:
+    branches:
+      - main
+
+  release:
+    types:
+      - published
+
+  workflow_dispatch:
+
+jobs:
+  build:
+    name: Build & verify package
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.11"
+
+      - name: Setup Hatch
+        run: pipx install hatch
+
+      - name: Configure version
+        if: github.event.action == 'published'
+        run: ./.github/set-version
+
+      - name: Test
+        run: hatch run pytest --color=yes
+
+      - name: mypy
+        run: hatch run mypy structlog_gcp
+
+      - name: ruff
+        run: hatch run ruff check structlog_gcp
+
+      - name: black
+        run: hatch run black --check --diff structlog_gcp
+
+      - name: isort
+        run: hatch run isort --check --diff structlog_gcp
+
+      - name: Build
+        run: hatch build --clean
+
+      - name: Upload package
+        uses: actions/upload-artifact@v3
+        with:
+          name: Packages
+          path: dist/*
+
+  release:
+    name: Publish
+    runs-on: ubuntu-latest
+    if: github.event.action == 'published'
+    needs: build
+    environment: pypi-release
+
+    permissions:
+      id-token: write
+
+    steps:
+      - name: Download package
+        uses: actions/download-artifact@v3
+        with:
+          name: Packages
+          path: dist
+
+      - name: Publish package distributions to PyPI
+        uses: pypa/gh-action-pypi-publish@release/v1

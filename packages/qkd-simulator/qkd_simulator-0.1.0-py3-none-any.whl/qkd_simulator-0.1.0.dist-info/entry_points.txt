@@ -1,0 +1,3 @@
+[console_scripts]
+qkd_simulator=qkd_simulator.main:cli
+

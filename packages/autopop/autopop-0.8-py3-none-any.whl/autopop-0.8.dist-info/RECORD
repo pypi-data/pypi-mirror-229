@@ -1,0 +1,10 @@
+autopop/__init__.py,sha256=djG5kjAf__HgxeZLRzj-0lWjHljF6FoGYMwwFf4AJfs,519
+autopop/aspect_factory.py,sha256=GUCV3DYJ_Jgz3nxSb37VzqWcMr-JA6is7UsCFAs-eCo,3315
+autopop/aws_util.py,sha256=Sq25qgcO84Y_NcmxTtp6Y3UNP0YzvjMK9Q2QnVVJbPM,631
+autopop/ddb_util_wrapper.py,sha256=g8MLxG3xU74kLbJVEKjRddyu7nolFMJ5HU9r77OoCRk,1508
+autopop/google_util_wrapper.py,sha256=Zb8uY-5QjOs6yUfpD2ASpZmEp5agxweDD-1AXayMh3Q,3152
+autopop/llm_util.py,sha256=fJBKQPk2jrDCxSRaULiJ2Ab7suMDsry2qmLGmlVS028,1828
+autopop-0.8.dist-info/METADATA,sha256=CaqlAMJT_cLo8COVdzgBUaGYRTg8BitB3Tuy2y9LL0I,1615
+autopop-0.8.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+autopop-0.8.dist-info/top_level.txt,sha256=L1TnXqrIEBRicpMkAfxnd2b9fitTU_L3P3p0Nl63ZMs,8
+autopop-0.8.dist-info/RECORD,,

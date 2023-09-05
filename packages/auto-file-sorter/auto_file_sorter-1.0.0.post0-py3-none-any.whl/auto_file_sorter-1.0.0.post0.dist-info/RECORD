@@ -1,0 +1,14 @@
+auto_file_sorter/__init__.py,sha256=BnKTcbM2ry3ypJGNpgdn3bh1pKKudOcyE1UWObgAEf8,319
+auto_file_sorter/__main__.py,sha256=1epCFYXD8tCBQIyV_N5xIk38meF1GhvdVzSnHqNoyzo,181
+auto_file_sorter/args_handling.py,sha256=G0v-RyScW1prMwvcCk1oSL92uNTvZX9Ik2XwhJCdgCQ,14726
+auto_file_sorter/configs_handling.py,sha256=yzZkF13LwPaUGP9R6B23Om_jOBMcgaHLPLacXYeWQtY,3665
+auto_file_sorter/constants.py,sha256=NPjE3X0dpOukA5d3oo8-Mh1RCTBxlbxdamYxM_S6n2U,1372
+auto_file_sorter/event_handling.py,sha256=X6PBse1k2WztsRtP1-Av3bEbH0ESAX7KSINOjBDeQn8,5586
+auto_file_sorter/main.py,sha256=Rblad8MjMCwiseNdEdy_Rp-r32S1LGSegRWBbBcznAo,8194
+auto_file_sorter/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+auto_file_sorter-1.0.0.post0.dist-info/LICENSE,sha256=ES5vzIi6Ah3W_GwrKmEWmQvgkEgE-PKDD5BDCvZvFa4,1108
+auto_file_sorter-1.0.0.post0.dist-info/METADATA,sha256=IXD4pOVstBy9dcFvVb8DS9uJmOzEYC41XK04QXDDc7I,9546
+auto_file_sorter-1.0.0.post0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+auto_file_sorter-1.0.0.post0.dist-info/entry_points.txt,sha256=8WLF1falq3WwFc33TNlKeyiD8D1seiuyyOQANP4oNTU,64
+auto_file_sorter-1.0.0.post0.dist-info/top_level.txt,sha256=qdOZCvlaGbolOrYVPI_Z3wRiPCI9hBF8jlBXYpT-sMk,17
+auto_file_sorter-1.0.0.post0.dist-info/RECORD,,

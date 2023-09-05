@@ -1,0 +1,13 @@
+README.md
+setup.py
+autopop/__init__.py
+autopop/aspect_factory.py
+autopop/aws_util.py
+autopop/ddb_util_wrapper.py
+autopop/google_util_wrapper.py
+autopop/llm_util.py
+autopop.egg-info/PKG-INFO
+autopop.egg-info/SOURCES.txt
+autopop.egg-info/dependency_links.txt
+autopop.egg-info/requires.txt
+autopop.egg-info/top_level.txt

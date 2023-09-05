@@ -1,0 +1,16 @@
+odoo/addons/stock_move_assign_picking_hook/README.rst,sha256=xd8Ec0VgQGvSTo6HdMmNlNgoxZS_HK6qHXp7rpFAPv8,3518
+odoo/addons/stock_move_assign_picking_hook/__init__.py,sha256=X9EJGOE2GtZbS0G82PtSXmWSZ_R8jEM0rlJTDliQjp4,21
+odoo/addons/stock_move_assign_picking_hook/__manifest__.py,sha256=9wvWVlJWgydR9zRJNdOjP-mYZvb1er5wDJU5142ARsg,567
+odoo/addons/stock_move_assign_picking_hook/i18n/stock_move_assign_picking_hook.pot,sha256=ZTX3hkip_H7QyaA8lphdDquRUd1NePkfCDfGzY2Wko4,1042
+odoo/addons/stock_move_assign_picking_hook/models/__init__.py,sha256=JKM5aPOIm-dfz_sqkWHanPuPoSBKjGtEp6aHsgkacuQ,25
+odoo/addons/stock_move_assign_picking_hook/models/stock_move.py,sha256=7D4wIOdEdeTunaHm0UdVibHCKbVJq9-iHgXe0WD41uQ,1516
+odoo/addons/stock_move_assign_picking_hook/readme/CONTRIBUTORS.rst,sha256=sLdiJv9DOXX20np0A_ZGZEmsKrn9Lim7eywTDvgKU-E,191
+odoo/addons/stock_move_assign_picking_hook/readme/CREDITS.rst,sha256=qJic0c2qWDTloupuq6j69JdIEo70Xpy6-b4MZho00Og,80
+odoo/addons/stock_move_assign_picking_hook/readme/DESCRIPTION.rst,sha256=iVplCbjX2D5ou57e0pPGIPku3b25H3gOLYsJvnJHy6k,78
+odoo/addons/stock_move_assign_picking_hook/readme/USAGE.rst,sha256=UNRW9Ut-_KhG3hpXsCzCKOGfDSc16wxISQQyW3H-__8,140
+odoo/addons/stock_move_assign_picking_hook/static/description/icon.png,sha256=6xBPJauaFOF0KDHfHgQopSc28kKvxMaeoQFQWZtfZDo,9455
+odoo/addons/stock_move_assign_picking_hook/static/description/index.html,sha256=EwvfCQGd9sFWDJKtDqkdJwKPRcTi1BC8JRAI0Z-r-Ks,13459
+odoo14_addon_stock_move_assign_picking_hook-14.0.1.1.3.dev1.dist-info/METADATA,sha256=9FNyvPpov-aUN5JcUK4sfbmHfos-jAiV1yiDhjfCj70,4158
+odoo14_addon_stock_move_assign_picking_hook-14.0.1.1.3.dev1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+odoo14_addon_stock_move_assign_picking_hook-14.0.1.1.3.dev1.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
+odoo14_addon_stock_move_assign_picking_hook-14.0.1.1.3.dev1.dist-info/RECORD,,

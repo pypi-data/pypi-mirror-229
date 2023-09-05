@@ -1,0 +1,10 @@
+LICENSE
+pyproject.toml
+setup.cfg
+src/aioshenanigans/__init__.py
+src/aioshenanigans/main.py
+src/aioshenanigans/py.typed
+src/aioshenanigans.egg-info/PKG-INFO
+src/aioshenanigans.egg-info/SOURCES.txt
+src/aioshenanigans.egg-info/dependency_links.txt
+src/aioshenanigans.egg-info/top_level.txt

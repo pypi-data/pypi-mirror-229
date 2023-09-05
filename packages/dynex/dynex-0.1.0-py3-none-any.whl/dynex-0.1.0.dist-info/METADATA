@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: dynex
+Version: 0.1.0
+Summary: Dynex SDK Neuromorphic Computing
+Home-page: https://github.com/dynexcoin/DynexSDK
+Author: Dynex Developers
+Author-email: office@dynexcoin.org
+License: GPLv3
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: MacOS
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Natural Language :: English
+Classifier: Topic :: System :: Distributed Computing
+Requires-Dist: pycryptodome (>=3.18.0)
+Requires-Dist: dimod (>=0.12.10)
+Requires-Dist: tabulate (>=0.9.0)
+Requires-Dist: tqdm (>=4.65.0)
+Requires-Dist: ipywidgets (>=8.0.7)
+Requires-Dist: numpy
+
+UNKNOWN
+
+

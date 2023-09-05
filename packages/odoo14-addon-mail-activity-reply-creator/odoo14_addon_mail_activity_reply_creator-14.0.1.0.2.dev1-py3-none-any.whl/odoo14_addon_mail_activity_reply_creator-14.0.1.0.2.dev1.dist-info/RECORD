@@ -1,0 +1,17 @@
+odoo/addons/mail_activity_reply_creator/README.rst,sha256=CGl4hxrzzjGG9s3f6Y33z9Q4HGddFW3Iz918vfvz9TQ,3760
+odoo/addons/mail_activity_reply_creator/__init__.py,sha256=X9EJGOE2GtZbS0G82PtSXmWSZ_R8jEM0rlJTDliQjp4,21
+odoo/addons/mail_activity_reply_creator/__manifest__.py,sha256=ybkvn3iohVS27OAN6biz_GVcMoqPBHOTR-oCFmhichQ,428
+odoo/addons/mail_activity_reply_creator/i18n/it.po,sha256=qVy8elnLrMvahbqNdWZ1daRDL3s5-xXBut-9V1qHd8Q,1244
+odoo/addons/mail_activity_reply_creator/i18n/mail_activity_reply_creator.pot,sha256=MjPxQ2NxXf-lSzLaz3qxDWqhnfToK0fr1ZHk9PAxg3w,1025
+odoo/addons/mail_activity_reply_creator/models/__init__.py,sha256=ToAlhRVphnCN5MowkGt_RP39KeZxkrILVYJi-5HMMoM,28
+odoo/addons/mail_activity_reply_creator/models/mail_activity.py,sha256=JycKcViEe0bQP14wTnkZq9NHpZsfglANTDC1Zs6aj3U,1491
+odoo/addons/mail_activity_reply_creator/readme/CONTRIBUTORS.rst,sha256=XdRDPnVCqs5W8Xq2HeMSI2upDcxi97pMsCMcBEmsWt0,67
+odoo/addons/mail_activity_reply_creator/readme/DESCRIPTION.rst,sha256=BLulTg2GKP2yBzmM86_upIlJ5IVCcUKvdPk2nai3_qs,954
+odoo/addons/mail_activity_reply_creator/static/description/icon.png,sha256=6xBPJauaFOF0KDHfHgQopSc28kKvxMaeoQFQWZtfZDo,9455
+odoo/addons/mail_activity_reply_creator/static/description/index.html,sha256=xfok2bcUMZMsm-FBf9KgnwazmKLVYEHUYfRAlEBuio4,13181
+odoo/addons/mail_activity_reply_creator/tests/__init__.py,sha256=E53BccPHoigKmQ-Vjrc45DAIyqGTV6is9BuMjPOk1fQ,117
+odoo/addons/mail_activity_reply_creator/tests/test_mail_activity_reply_creator.py,sha256=PYkvWWbKInvEBYt0pVB-1RKfNuxCdXKhrWpfACdH1bM,2961
+odoo14_addon_mail_activity_reply_creator-14.0.1.0.2.dev1.dist-info/METADATA,sha256=ulLP2v7r05_XrBeuxSKQhbJLAIX1Ykw7SOa5l9seAdo,4310
+odoo14_addon_mail_activity_reply_creator-14.0.1.0.2.dev1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+odoo14_addon_mail_activity_reply_creator-14.0.1.0.2.dev1.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
+odoo14_addon_mail_activity_reply_creator-14.0.1.0.2.dev1.dist-info/RECORD,,

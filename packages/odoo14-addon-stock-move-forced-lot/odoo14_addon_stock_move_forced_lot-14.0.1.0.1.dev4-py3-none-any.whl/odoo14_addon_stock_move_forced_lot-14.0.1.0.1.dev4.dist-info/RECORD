@@ -1,0 +1,17 @@
+odoo/addons/stock_move_forced_lot/README.rst,sha256=i-Kp6ZT4Bnp7TiLRCv1JQZU-QIol987zbVC59igrOeg,3046
+odoo/addons/stock_move_forced_lot/__init__.py,sha256=X9EJGOE2GtZbS0G82PtSXmWSZ_R8jEM0rlJTDliQjp4,21
+odoo/addons/stock_move_forced_lot/__manifest__.py,sha256=f2w8U5vdoNY5jftLyx8ibP68kOM3rPYpzhcqygZRqJA,514
+odoo/addons/stock_move_forced_lot/i18n/stock_move_forced_lot.pot,sha256=h-o7TbZsU3bLPONBcXUZTu-lJMpALbszr5dqRxtIcQ0,1525
+odoo/addons/stock_move_forced_lot/models/__init__.py,sha256=iXFj1YVkxnmLFiysvQOzfRdMbTyK5UxIIy-AsH70iWw,50
+odoo/addons/stock_move_forced_lot/models/stock_move.py,sha256=x6S3DtXPuSflyDaaEMw6tCiTdpZmsFlKwUvZtCQ5ueE,1586
+odoo/addons/stock_move_forced_lot/models/stock_rule.py,sha256=_PS2bF5msGtvZBt3hKGHzxLCD1wnx9PfTxag_unUJ00,724
+odoo/addons/stock_move_forced_lot/readme/CONTRIBUTORS.rst,sha256=TX_1-SZnI60M1ANIEOCF2stGD5df1NWGc33p0wc5jno,47
+odoo/addons/stock_move_forced_lot/readme/DESCRIPTION.rst,sha256=NlIc8G-w7a3njWH-OH7Tkzia6H8xjxHclLMclQ7QDlI,124
+odoo/addons/stock_move_forced_lot/static/description/icon.png,sha256=6xBPJauaFOF0KDHfHgQopSc28kKvxMaeoQFQWZtfZDo,9455
+odoo/addons/stock_move_forced_lot/static/description/index.html,sha256=HYlnpDMDsnPJIu2C5hr4pBl1h8mZnrY6NYF8xo6PNtE,12319
+odoo/addons/stock_move_forced_lot/tests/__init__.py,sha256=yYMI5eytW59pRFJBid50zz-TeVExGid4J3QlwKF_2II,41
+odoo/addons/stock_move_forced_lot/tests/test_stock_move_forced_lot.py,sha256=HPgutE6awgaiTownh3_Bk5LrRFZJBCnOxWKWEsXs6Lo,3053
+odoo14_addon_stock_move_forced_lot-14.0.1.0.1.dev4.dist-info/METADATA,sha256=-Paq61MueH2vFU46swuOhVAjZZe3akFWL_uD_YkeiTw,3712
+odoo14_addon_stock_move_forced_lot-14.0.1.0.1.dev4.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+odoo14_addon_stock_move_forced_lot-14.0.1.0.1.dev4.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
+odoo14_addon_stock_move_forced_lot-14.0.1.0.1.dev4.dist-info/RECORD,,

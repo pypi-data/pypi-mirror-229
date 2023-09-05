@@ -1,0 +1,3 @@
+[console_scripts]
+vntfsclone = partclone.main:vntfsclone
+vpartclone = partclone.main:vpartclone

@@ -1,0 +1,6 @@
+httpx==0.24.1
+ballyregan
+websocket-client
+requests_toolbelt
+keyboard
+tls_client

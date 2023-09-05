@@ -1,0 +1,5 @@
+requests
+importlib-metadata
+
+[geo]
+geoip2

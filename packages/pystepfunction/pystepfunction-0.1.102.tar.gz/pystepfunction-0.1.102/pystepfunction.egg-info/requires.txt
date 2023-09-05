@@ -1,0 +1,7 @@
+glom
+pyvis
+jsonpath-ng
+
+[dev]
+black
+pytest

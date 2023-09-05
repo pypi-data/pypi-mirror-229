@@ -1,0 +1,223 @@
+
+# Phone Call With GPT
+
+PhoneGPT is a Python package that integrates OpenAI's GPT model with Twilio for phone call interactions. With PhoneGPT, you can easily create interactive phone call and text message applications using the power of GPT-3 and Twilio.
+
+
+
+## Installation
+
+Install PhoneGPT using pip, it will also install Twilio, OpenAI, and Vosk libraries.
+
+```bash
+  pip install phonegpt
+```
+
+Note: you must download the VOSK model(Speech-To-Text) you want to use from the following link:
+
+https://alphacephei.com/vosk/models
+
+
+For accuracy, use one of the following base on your need:
+
+vosk-model-en-us-0.22
+
+vosk-model-en-us-0.42-gigaspeech
+
+For testing purposes, you can use smaller models, but don't expect high accuracy.
+
+## Basic Usage:
+
+```python
+from phonegpt import PhoneGPT
+
+
+# You can get your Twilio account sid and auth token from https://www.twilio.com/console
+# You can get your OpenAI API key from https://beta.openai.com/account/api-keys
+# You can download Vosk model from https://alphacephei.com/vosk/models
+
+TWILIO_ACCOUNT_SID='your twilio account sid'
+TWILIO_AUTH_TOKEN='your twilio auth token'
+OPENAI_API_KEY='your openai key'
+VOSK_MODEL_PATH='vosk-model-en-us-0.22'
+
+phone_gpt = PhoneGPT(
+    TWILIO_ACCOUNT_SID,
+    TWILIO_AUTH_TOKEN,
+    OPENAI_API_KEY,
+    VOSK_MODEL_PATH,
+    ON_NEW_MSG_FUNC=your_customized_phone_app_func
+    )
+```
+
+Note: The ON_NEW_MSG_FUNC argument is optional for testing but essential for creating functional phone applications.
+
+It is a callback to handle new user messages during phone calls, providing access to the user message and PhoneGPT core functions and parameters.
+
+Note: The default behavior is a voice chat system with default parameters, including OpenAI's max_token and temperature settings, and Twilio voices.
+
+
+Last step is to call 2 fundamental functions, in proper routes:
+
+```python
+
+# Inside your Phone call route, you must call:
+config = phone_gpt.answer_call(
+    call_sid='Get the call_sid from the incoming Twilio request',
+    stream_url='your define stream url'
+    )
+
+# Inside your Stream route, you must call:
+while True:
+        phone_gpt.transcribe_audio_stream(
+            ws_data_chunk='a chunk of data recieved by ws'
+            )
+
+
+```
+
+
+## Advance Usage:
+
+Here are some parameters you may need to use:
+
+```python
+phone_gpt.openai.max_tokens = 90
+phone_gpt.openai.temperature = 0.2
+phone_gpt.openai.model = "gpt-3.5-turbo"
+
+twilio_client = phone_gpt.twilio.client
+phone_gpt.twilio.new_command_timeout = 600 # in sec
+
+```
+
+Here are functions for defining your phone app workflow, typically used within your custom ON_NEW_MSG_FUNC. 
+```python
+phone_gpt.get_gpt_response("prompt")
+phone_gpt.send_text_message(from_number='optional from number', to='+1Target phone number', message='some message')
+phone_gpt.say_and_wait("Sure! I will send you a text message in a moment!", voice='Google.en-US-Standard-J')
+
+```
+#### Note:
+You can find full list of availble voices and languages here:
+
+https://www.twilio.com/docs/voice/twiml/say/text-speech#available-voices-and-languages
+
+#### ON_NEW_MSG_FUNC example:
+The following custom function outlines a new workflow for your phone app:
+
+During the call, it operates as an interactive chat, but if the user says "text me the summary," it will send a text message summarizing the phone call to the target number.
+
+```python
+def your_customized_on_new_user_input_function(new_user_msg):
+    if new_user_msg.lower().replace('!', '').replace('.', '').find("text me the summary") != -1:
+        reponse = phone_gpt.get_gpt_response("summarize our chat in 200chars maximum")
+        phone_gpt.send_text_message(to='+1Target phone number', message=reponse)
+        phone_gpt.say_and_wait("Sure! I will send you a text message in a moment!", voice='Google.en-US-Standard-J')
+
+    else:
+        gpt_role = "If you receive an incomplete or unclear grammatical command from me, please make a guess about my intention/command/question and provide assistance accordingly without asking for clarification."
+        reponse = phone_gpt.get_gpt_response(new_user_msg, gpt_role=gpt_role)
+        phone_gpt.say_and_wait(reponse, voice='Google.en-US-Standard-J')
+
+```
+
+## Flask Usage Example:
+
+#### 1- Install required libraries
+
+
+```bash
+pip install phonegpt
+pip install flask flask-sock simple-websocket pyngrok
+```
+
+flask-sock: a WebSocket extension for Flask
+
+simple-websocket: a WebSocket server used by Flask-Sock
+
+pyngrok: a Python wrapper for ngrok, a utility to temporarily make a server running on your computer publicly available.
+
+#### 2- copy and save the code into app.py
+
+```python
+
+from flask import Flask, request
+from flask_sock import Sock
+from phonegpt import PhoneGPT
+
+
+app = Flask(__name__)
+sock = Sock(app)
+
+TWILIO_ACCOUNT_SID='your twilio account sid'
+TWILIO_AUTH_TOKEN='your twilio auth token'
+OPENAI_API_KEY='your openai key'
+VOSK_MODEL_PATH='vosk-model-en-us-0.22'
+
+
+
+def your_customized_phone_app_func(new_user_msg):
+    if new_user_msg.lower().replace('!', '').replace('.', '').find("text me the summary") != -1:
+        reponse = phone_gpt.get_gpt_response("summarize our chat in 200chars maximum")
+        phone_gpt.send_text_message(to='+1Target phone number', message=reponse)
+        phone_gpt.say_and_wait("Sure! I will send you a text message in a moment!", voice='Google.en-US-Standard-J')
+
+    else:
+        gpt_role = "If you receive an incomplete or unclear grammatical command from me, please make a guess about my intention/command/question and provide assistance accordingly without asking for clarification."
+        reponse = phone_gpt.get_gpt_response(new_user_msg, gpt_role=gpt_role)
+        phone_gpt.say_and_wait(reponse, voice='Google.en-US-Standard-J')
+
+
+
+phone_gpt = PhoneGPT(
+    TWILIO_ACCOUNT_SID,
+    TWILIO_AUTH_TOKEN,
+    OPENAI_API_KEY,
+    VOSK_MODEL_PATH,
+    ON_NEW_MSG_FUNC=your_customized_phone_app_func
+    )
+
+
+@app.route('/answer_call', methods=['POST'])
+def answer_call():
+
+    config = phone_gpt.answer_call(
+                                call_sid= request.form['CallSid'],
+                                stream_url=f'wss://{request.host}/stream'
+                            )
+    
+    return config, 200, {'Content-Type': 'text/xml'}
+
+
+@sock.route('/stream')
+def stream(ws):
+    while True:
+        phone_gpt.transcribe_audio_stream(ws_data_chunk=ws.receive())
+
+    
+if __name__ == '__main__':
+    from pyngrok import ngrok
+    port = 5000
+    public_url = ngrok.connect(port, bind_tls=True).public_url
+    number = phone_gpt.twilio.client.incoming_phone_numbers.list()[0]
+    number.update(voice_url=public_url + '/answer_call')
+    print(f'Waiting for calls on {number.phone_number}')
+
+    app.run(port=port)
+```
+
+#### 3- Download Vosk Model
+Download the Vosk model and place it in the same folder as app.py.
+
+Note: Big models require up to 16Gb in memory since they apply advanced AI algorithms. Ideally you run them on some high-end servers like i7 or latest AMD Ryzen. On AWS you can take a look on c5a machines and similar machines in other clouds.
+
+#### 4- Run the flask app:
+```bash
+python app.py
+```
+
+#### 5- Call your Twilio phone number
+Note: If you don't have a Twilio phone number, you can create one using the free credits available in your trial Twilio account.
+
+#### 6- Start Chating with phoneGPT!

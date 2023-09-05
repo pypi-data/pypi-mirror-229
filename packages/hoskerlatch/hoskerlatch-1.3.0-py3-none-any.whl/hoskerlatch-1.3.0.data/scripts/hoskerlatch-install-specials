@@ -1,0 +1,10 @@
+#!/bin/sh
+
+### This script installs any required software which cannot be installed
+### conveniently via SetUpTools.
+
+# Constants.
+APT_PACKAGES="secure-delete"
+
+# Let's get cracking...
+sudo apt install $APT_PACKAGES

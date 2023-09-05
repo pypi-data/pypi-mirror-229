@@ -1,0 +1,50 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dpypeline"
+description = "Program for creating data pipelines triggered by file creation events."
+requires-python = ">=3.9"
+keywords = ["data", "pipeline", "data-pypeline", "dpypeline", "pypeline", "noc"]
+authors = [{email = "joao.morado@noc.ac.uk"},{name = "Joao Morado"}]
+maintainers = [{name = "Joao Morado", email = "joao.morado@noc.ac.uk"}]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "Intended Audience :: Science/Research"
+]
+dependencies = [
+  "dask>=2023.3.0",
+  "dask-jobqueue>=0.8.1",
+  "s3fs>=2023.3.0",
+  "celery==5.2.7",
+  "fsspec>=2023.3.0",
+  "watchdog==2.3.1",]
+
+dynamic = ["version"]
+
+[project.readme]
+file = "README.md"
+content-type = "text/markdown"
+
+[project.license]
+file = "LICENSE.md"
+content-type = "text/markdown"
+
+[tool.setuptools.dynamic]
+version = {attr = "dpypeline.__init__.__version__"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["*"]
+exclude = ["*__pycache__*"]
+namespaces = true
+
+[project.optional-dependencies]
+test = ["pytest >= 7.2.0"]
+
+[project.urls]
+repository = "https://github.com/NOC-OI/data-pypeline"
+
+[project.scripts]
+dpypeline = "dpypeline.cli.main_cli:dpypeline"

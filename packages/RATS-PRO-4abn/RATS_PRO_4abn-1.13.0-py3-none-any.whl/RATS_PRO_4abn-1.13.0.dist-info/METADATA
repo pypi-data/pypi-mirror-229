@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: RATS-PRO-4abn
+Version: 1.13.0
+Summary: Data collation Flask app for RATS PRO
+Author: Christoforos Lapathiotis
+Author-email: clapathiotis@gmail.com
+Requires-Dist: Flask
+Requires-Dist: pandas
+Requires-Dist: requests
+Requires-Dist: requests-oauthlib
+

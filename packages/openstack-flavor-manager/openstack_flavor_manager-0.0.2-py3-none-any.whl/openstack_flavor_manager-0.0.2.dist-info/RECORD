@@ -1,0 +1,11 @@
+openstack_flavor_manager/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+openstack_flavor_manager/cloud.py,sha256=l71X94BFRyIuQeQ3WKwdg4A-7Whgk70eYQQzXfoPVy8,2602
+openstack_flavor_manager/ensure.py,sha256=0pchjSoN3XwdEnOWiug6dRAZB6V8jqT0OxW6DzSynT8,1018
+openstack_flavor_manager/main.py,sha256=QG2k9SITRMEWzy2JAO7b_O_yD6Zn9wOrk1UvJVFJiUE,1100
+openstack_flavor_manager/reference.py,sha256=dDDTYesRBGVexrAM3l_m4H2VEwYBlWmakKxctonYAf0,534
+openstack_flavor_manager-0.0.2.dist-info/LICENSE,sha256=tAkwu8-AdEyGxGoSvJ2gVmQdcicWw3j1ZZueVV74M-E,11357
+openstack_flavor_manager-0.0.2.dist-info/METADATA,sha256=FhH4G6uRZ6jzB5F16R03gTXb7jZxnq3S-ap0dwIjLVg,14796
+openstack_flavor_manager-0.0.2.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+openstack_flavor_manager-0.0.2.dist-info/entry_points.txt,sha256=VlmbFJ8YfzRgx7pUPBqPXmXlTOpcKVSPoLkxgY3UJhE,80
+openstack_flavor_manager-0.0.2.dist-info/top_level.txt,sha256=M6NjujoaVUaRfTo4J47Kp41hTdC1xNoUdkA5AB2NRIc,25
+openstack_flavor_manager-0.0.2.dist-info/RECORD,,

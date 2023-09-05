@@ -1,0 +1,15 @@
+odoo10_addon_slow_statement_logger-10.0.1.0.1.99.dev3-py3.8-nspkg.pth,sha256=3hYKiD3YF7y9FeWjACJq1b9R_GVRzuQo9SAZlvZgumg,1672
+odoo/addons/slow_statement_logger/README.rst,sha256=z-z25ys70Oa7Kdejgb6m5NO_ajzt36dGE41892magCY,3875
+odoo/addons/slow_statement_logger/__init__.py,sha256=pKLsLxCStSsN7JO92TImBw8qVkmxl2RIlVMVocKtLrk,1340
+odoo/addons/slow_statement_logger/__manifest__.py,sha256=Y5d5amf9KvbvD2LpN5-V8WMDv-6tG-m-yJcCUpBWH50,309
+odoo/addons/slow_statement_logger/i18n/slow_statement_logger.pot,sha256=tYuE3-MLMMQJE5mpVzIg_IKWcTGkn4R0qtWo-2n_0q0,344
+odoo/addons/slow_statement_logger/readme/CONTRIBUTORS.rst,sha256=QAef0rkNuAopwsMfNBfafWbvqh7MKz3lh0z44N9XTj0,28
+odoo/addons/slow_statement_logger/readme/DESCRIPTION.rst,sha256=CbpIKHenzPrzVraoXlV0GdKliMvs-wlPiIub9oLwxlE,333
+odoo/addons/slow_statement_logger/readme/USAGE.rst,sha256=9nwd1gyamsXNrZw4WzrJ7jolGCJQ5ELOFoBroV4M5YI,731
+odoo/addons/slow_statement_logger/static/description/icon.png,sha256=6xBPJauaFOF0KDHfHgQopSc28kKvxMaeoQFQWZtfZDo,9455
+odoo/addons/slow_statement_logger/static/description/index.html,sha256=X3SOyJJEBuWJHuzJ_1ojYU5BDAsVsz4ZJuB1Ku1IhPs,13913
+odoo10_addon_slow_statement_logger-10.0.1.0.1.99.dev3.dist-info/METADATA,sha256=i0DzYXsFWeCbADoaaW0mCFgAK5DcL5mvHChmSiOHMVM,4426
+odoo10_addon_slow_statement_logger-10.0.1.0.1.99.dev3.dist-info/WHEEL,sha256=V8ZII4svaQ3Z4c8F-NPNcXUa6SMcA4YP_giBHkOIMc8,92
+odoo10_addon_slow_statement_logger-10.0.1.0.1.99.dev3.dist-info/namespace_packages.txt,sha256=igDP6S4ywc6jzcMqzrKZpRtAUXrS-iYaA_Hu1EtlI48,17
+odoo10_addon_slow_statement_logger-10.0.1.0.1.99.dev3.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
+odoo10_addon_slow_statement_logger-10.0.1.0.1.99.dev3.dist-info/RECORD,,

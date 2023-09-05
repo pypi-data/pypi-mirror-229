@@ -1,0 +1,11 @@
+caixa_de_ferramentas/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+caixa_de_ferramentas/azure_blob_api.py,sha256=ftds-i-Ef5HzkQfctnRFRYr-mPPFwLL8EOWjQ9_535E,2581
+caixa_de_ferramentas/azure_key_vault_api.py,sha256=gYfShfwPF-99cnS9AYGW96YSmoItILJ0RJ0qVoQTsfo,439
+caixa_de_ferramentas/azure_tables_api.py,sha256=0jSubCQyv1zFt9DkibgSmWVGnyApR4EVWzPLPdi9E6Y,1727
+caixa_de_ferramentas/etherscan_api.py,sha256=Us2nkJqcn9Pvfo3nl1en9h1oi6-7WNCxzJzq25F8Q4E,2156
+caixa_de_ferramentas/kafka_client_api.py,sha256=zRnuaaB5vdt71MWXtrGp7Wh1qqsWdxvJfSiZVKMvIAc,3063
+caixa_de_ferramentas/redis_client_api.py,sha256=blag86jpsG0GzT_VVKQHDET80G3_OprRgq3qvrDH3H8,815
+caixa_de_ferramentas/testing_package.py,sha256=p-KkzoT1p34y_ykLfAE_NWD9VGIdtMUSxuYSJ2DtsHU,205
+caixa_de_ferramentas-0.1.3.dist-info/METADATA,sha256=LeqsHpI0KzziTJ7RGFaFXn05BdbuPSwAMCuGYpNtvqM,755
+caixa_de_ferramentas-0.1.3.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+caixa_de_ferramentas-0.1.3.dist-info/RECORD,,

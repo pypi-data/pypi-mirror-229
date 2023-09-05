@@ -1,0 +1,6 @@
+transformers
+torch
+fastapi
+fastsession
+tokflow
+loadtime>=1.0.6

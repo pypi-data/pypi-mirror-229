@@ -1,0 +1,29 @@
+# Root directory
+## Include
+include README.md
+include CHANGELOG.md
+include requirements.txt
+include *.yaml *.yml
+include .coveragerc
+include .flake8
+include google-service-account-key-SAMPLE.json
+include *.py
+recursive-include src *.md *.py
+recursive-include docs *.md
+recursive-include mapping_information *.json *.md *.py
+recursive-include mapping_information *.md
+recursive-include mapping_information *.py
+recursive-include raw_block_data *.json
+
+## Exclude
+exclude requirements-ci-no-deps.txt
+exclude requirements-ci.txt
+exclude *.properties
+exclude constraints*
+exclude CONTRIBUTING.md
+exclude pylintrc
+exclude pytest.ini
+exclude pylint-report.txt
+exclude conftest.py
+exclude tox.ini
+recursive-exclude tests *.py

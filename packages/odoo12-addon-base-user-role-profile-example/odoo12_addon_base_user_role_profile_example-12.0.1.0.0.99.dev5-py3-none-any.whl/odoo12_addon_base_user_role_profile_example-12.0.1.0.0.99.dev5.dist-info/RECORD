@@ -1,0 +1,15 @@
+odoo/addons/base_user_role_profile_example/README.rst,sha256=oUqA3bwZ0zOWddm2gDubjc_naxzP-Mfv2QxRiOMoePM,4278
+odoo/addons/base_user_role_profile_example/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+odoo/addons/base_user_role_profile_example/__manifest__.py,sha256=winp534rfl_rXYZH-z68nGaNsbOQWR1VTXjHyPaPBmk,546
+odoo/addons/base_user_role_profile_example/demo/demo.xml,sha256=6ndiIgbN2Z48NyRp6gV9vm1_SsKWc3wa52NnO8YWU7g,5012
+odoo/addons/base_user_role_profile_example/i18n/base_user_role_profile_example.pot,sha256=diu7_Brs0R49JtHBobNCJABPjYjwNacspfMpLgOSvj8,1894
+odoo/addons/base_user_role_profile_example/readme/CONFIGURE.rst,sha256=S2WIaPVfbChUAHAan_8KFTj5zMVlWXxhuR1TEwOjXPI,48
+odoo/addons/base_user_role_profile_example/readme/CONTRIBUTORS.rst,sha256=yCsXwesshCXHQQbDAXXpR6tMdxEM8hAEGVkQp_Q12bY,87
+odoo/addons/base_user_role_profile_example/readme/DESCRIPTION.rst,sha256=GNeLYNYBFUSh7KilkfD7WtUKSK9Yb6-eaZ02bXvefm4,57
+odoo/addons/base_user_role_profile_example/readme/USAGE.rst,sha256=6juvjBR33k2nSjcXI9d6XRHX9O4E8wdy9q766lMW1uc,1233
+odoo/addons/base_user_role_profile_example/static/description/icon.png,sha256=6xBPJauaFOF0KDHfHgQopSc28kKvxMaeoQFQWZtfZDo,9455
+odoo/addons/base_user_role_profile_example/static/description/index.html,sha256=JTQxtbE0bBIDWgbtpHZDBaj01DFQ28-QWmi0XqxdD0Q,14101
+odoo12_addon_base_user_role_profile_example-12.0.1.0.0.99.dev5.dist-info/METADATA,sha256=Bd1IVaZyAgGwdrAQ41HHwKaEZt74oHabyHm68LFLrNo,4885
+odoo12_addon_base_user_role_profile_example-12.0.1.0.0.99.dev5.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+odoo12_addon_base_user_role_profile_example-12.0.1.0.0.99.dev5.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
+odoo12_addon_base_user_role_profile_example-12.0.1.0.0.99.dev5.dist-info/RECORD,,

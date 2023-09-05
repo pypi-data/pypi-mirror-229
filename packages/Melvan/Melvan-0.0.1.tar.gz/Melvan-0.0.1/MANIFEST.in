@@ -1,0 +1,11 @@
+## Include
+include README.md COPYING COPYING.lesser NOTICE requirements.txt
+recursive-include compiler *.py *.tl *.tsv *.txt
+recursive-include tests *.py
+
+## Exclude
+prune melvan/errors/exceptions
+prune melvan/raw/functions
+prune melvan/raw/types
+prune melvan/raw/base
+exclude melvan/raw/all.py

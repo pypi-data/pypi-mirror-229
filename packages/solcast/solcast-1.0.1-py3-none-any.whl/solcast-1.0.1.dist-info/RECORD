@@ -1,0 +1,12 @@
+solcast/__init__.py,sha256=WSGG3lzONkLq-uwZGXgoahzNLffwKXYPHkbWnTSjjcA,178
+solcast/api.py,sha256=jACsSIQ1NgBxEf58Fj65rYeWE8P1et_C88mXOnuaYQ8,4950
+solcast/forecast.py,sha256=epJBARPcp5VL4iPXqhSwcJEmQWioMjmGUdcu1o5_B9I,2380
+solcast/historic.py,sha256=ncti6T7jIODJFNcRg46WhKOBb-AHEiawgQgUzCKpqww,1649
+solcast/live.py,sha256=fY4iDVlYrK-4-B-CyofZzNP1PMnd9JwHimRhlnShwY0,2233
+solcast/tmy.py,sha256=vEc65Cqj51_idEGj94_T9rvCxlOcDm2rIpR-30nYmSE,1432
+solcast/unmetered_locations.py,sha256=GIJpokQMiT-P6CT7ba_7LzF3ORP4VQr0IJrN25HXumc,1390
+solcast/urls.py,sha256=-CpwsIuyWUHxMOYSguDoomubV4XifyZBQDnKnRkf71Y,616
+solcast-1.0.1.dist-info/METADATA,sha256=HLVrjqJhYl7FT4ZY9SMeEaiQFXT1JeEl9WnBPH_lxmY,3718
+solcast-1.0.1.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+solcast-1.0.1.dist-info/licenses/LICENSE,sha256=HOVcajFymlCFvzClhJHptoL1e7E2W5ibiFug0uaEtyo,563
+solcast-1.0.1.dist-info/RECORD,,

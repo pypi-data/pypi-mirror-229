@@ -1,0 +1,7 @@
+README.md
+setup.py
+winbindiff.py
+winbindiff.egg-info/PKG-INFO
+winbindiff.egg-info/SOURCES.txt
+winbindiff.egg-info/dependency_links.txt
+winbindiff.egg-info/top_level.txt

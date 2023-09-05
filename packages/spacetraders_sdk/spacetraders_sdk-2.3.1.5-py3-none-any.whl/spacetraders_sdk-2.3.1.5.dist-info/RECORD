@@ -1,0 +1,11 @@
+spacetraders_sdk/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+spacetraders_sdk/ratelimit.py,sha256=a9DPp96FWW9nwEGTcZNOkxhbTQFbSVfUgdXdXE2P8Uk,2607
+spacetraders_sdk/spacetraders_api.py,sha256=r1IvrR8gvs3LtDi56ZwCYM46SBK0yeu3O62RrXfef6o,9650
+spacetraders_sdk/spacetraders_constants.py,sha256=aFrSsf7PL8JV-WF6aVLEE3sVjSvE5yaLKxmeEoPtXlU,121
+spacetraders_sdk/spacetraders_enums.py,sha256=vmgHIV1RIkJ0s-FWSbaNXiN3KKEpUryFpaMhjJhjknY,17733
+spacetraders_sdk/spacetraders_helper.py,sha256=pP7xcOs_pEUVdgZyz8_iOqkSkvt7uSVrELRuygXuOqY,115
+spacetraders_sdk/spacetraders_logger.py,sha256=XvBVgg-spOPRx1thhl2KAd4_nn9yakYDPHBnesRaVcs,1429
+spacetraders_sdk-2.3.1.5.dist-info/LICENSE,sha256=PvwrNia5hBsSAxG4dB_Cxfheg_nubaok44_JLvjCu7o,1073
+spacetraders_sdk-2.3.1.5.dist-info/METADATA,sha256=sjt-k0A93udw8HPHzAynh5T1NSnJ-qgKikuQS5PK4q8,5043
+spacetraders_sdk-2.3.1.5.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+spacetraders_sdk-2.3.1.5.dist-info/RECORD,,

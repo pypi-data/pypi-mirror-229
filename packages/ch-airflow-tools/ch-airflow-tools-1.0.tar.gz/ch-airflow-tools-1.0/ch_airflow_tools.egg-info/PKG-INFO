@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: ch-airflow-tools
+Version: 1.0
+Summary: Apache Airflow tools
+Author: Alex Yung
+License-File: LICENSE.txt

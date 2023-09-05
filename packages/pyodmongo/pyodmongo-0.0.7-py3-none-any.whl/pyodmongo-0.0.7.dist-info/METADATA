@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: pyodmongo
+Version: 0.0.7
+Summary: A syncrounous and asyncrounous Python ODM for MongoDB based on Pydantic
+Project-URL: Homepage, https://github.com/mauro-andre/pyodmongo
+Author-email: Mauro André <eng.mauroandre@gmail.com>
+License-Expression: MIT
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Database
+Classifier: Topic :: Database :: Database Engines/Servers
+Requires-Python: >=3.11
+Requires-Dist: motor<4.0.0,>=3.2.0
+Requires-Dist: pydantic==2.3.0
+Description-Content-Type: text/markdown
+
+# PyODMongo
+A syncrounous and asyncrounous Python ODM for MongoDB based on Pydantic

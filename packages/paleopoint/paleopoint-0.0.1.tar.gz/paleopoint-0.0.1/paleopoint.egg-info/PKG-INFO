@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: paleopoint
+Version: 0.0.1
+Summary: A package calculates location to paleopoint
+Author: Bailong Zhao
+Author-email: bailongzhao@163.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown

@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+pyweb_progressbar/__init__.py
+pyweb_progressbar.egg-info/PKG-INFO
+pyweb_progressbar.egg-info/SOURCES.txt
+pyweb_progressbar.egg-info/dependency_links.txt
+pyweb_progressbar.egg-info/top_level.txt

@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: pyweb_progressbar
+Version: 1.0.0
+Summary: This is a simple progressbar library
+Author: PyWebSol
+Author-email: pywebsol@gmail.com
+Keywords: progressbar python pywebsol
+Classifier: Programming Language :: Python :: 3.10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+It is a simple progressbar library.
+
+Example: https://github.com/PyWebSol/pyweb-progressbar-example/blob/main/README.md

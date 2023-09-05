@@ -1,0 +1,2 @@
+[console_scripts]
+mib-gen = mib_generator.main.cli:cli_run

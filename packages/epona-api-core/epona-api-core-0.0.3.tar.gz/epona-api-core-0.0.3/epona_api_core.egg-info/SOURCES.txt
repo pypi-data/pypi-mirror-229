@@ -1,0 +1,8 @@
+README.md
+setup.cfg
+setup.py
+epona_api_core.egg-info/PKG-INFO
+epona_api_core.egg-info/SOURCES.txt
+epona_api_core.egg-info/dependency_links.txt
+epona_api_core.egg-info/requires.txt
+epona_api_core.egg-info/top_level.txt

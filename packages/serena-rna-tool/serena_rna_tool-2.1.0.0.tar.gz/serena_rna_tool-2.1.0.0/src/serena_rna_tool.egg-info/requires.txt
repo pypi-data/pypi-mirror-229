@@ -1,0 +1,8 @@
+pandas
+openpyxl
+matplotlib
+pytest
+pylint
+numpy
+attrs
+pdoc

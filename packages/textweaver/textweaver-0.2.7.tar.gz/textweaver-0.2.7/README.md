@@ -1,0 +1,57 @@
+# TextWeaver
+
+TextWeaver is a FastAPI-based web server designed for working with Large Language Models (LLMs), particularly Embeddings models. It simplifies the process of handling complex natural language processing tasks and offers a robust and scalable solution for both developers and researchers to store and query against embeddings in Pinecone.
+
+## Features
+
+- **FastAPI Integration**: Leverage the power of FastAPI for creating modern and efficient web APIs.
+- **LLM and Embedding Support**: Easily work with LLMs and various embedding models for rich textual analysis.
+- **Scalable Architecture**: Designed to grow with your needs, TextWeaver can be deployed across various environments.
+- **User-Friendly Configuration**: Get started quickly with intuitive configuration options.
+
+## Installation
+
+To install TextWeaver, you need to have a .env file in the root directory of your project. This file should contain the following variables:
+```bash
+HOST_IP=""
+PORT=""
+AWS_ACCESS_KEY_ID=""
+AWS_SECRET_ACCESS_KEY=""
+AWS_DEFAULT_REGION=""
+AWS_COGNITO_REGION=""
+AWS_USER_POOL_ID=""
+AWS_USER_POOL_CLIENT_ID=""
+SNS_TOPIC_NAME=""
+PINECONE_API_KEY=""
+PINECONE_ENVIRONMENT=""
+PINECONE_INDEX_NAME=""
+MODEL_PATH="" # Where the model path is the appropriate path for the sentence_transformer model hosted on HuggingFace
+```
+Please note that TextWeaver requires the use of Amazon Cognito for authentication. You can find more information on how to set up Cognito [here](https://docs.aws.amazon.com/cognito/latest/developerguide/). Once you have Cognito set up, you can pass the required id tokens to the server using the `Authorization` header.
+
+Install TextWeaver directly from PyPI using the following command:
+```bash
+pip install textweaver
+```
+
+## Usage
+
+Once installed, you can start the TextWeaver server using the following command:
+
+```bash
+textweaver
+```
+
+For further customization and detailed documentation, please refer to the project's repository.
+
+## Contribution
+
+We welcome contributions from the community! Please check the contributing guidelines in the repository for more information on how you can get involved.
+
+## License
+
+TextWeaver is released under the MIT License. See the LICENSE file in the repository for more details.
+
+## Contact
+
+For any inquiries, support, or collaboration, please contact the author at wesladd@traingrc.com or open an issue on the project's GitHub page.

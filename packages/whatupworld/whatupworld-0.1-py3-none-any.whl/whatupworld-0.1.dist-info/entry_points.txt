@@ -1,0 +1,3 @@
+[console_scripts]
+whatupworld = whatupworld:say_what_up
+

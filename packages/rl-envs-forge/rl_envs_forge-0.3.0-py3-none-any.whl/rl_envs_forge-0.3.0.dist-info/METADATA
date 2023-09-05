@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: rl-envs-forge
+Version: 0.3.0
+Summary: Environments for reinforcement learning
+License: MIT
+Author: mariusdgm
+Author-email: marius.dragomir.dgr@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: gymnasium (>=0.29.1,<0.30.0)
+Requires-Dist: numpy (>=1.24.1,<2.0.0)
+Requires-Dist: pygame (>=2.5.1,<3.0.0)
+Requires-Dist: setuptools (>=68.0.0,<69.0.0)
+Description-Content-Type: text/markdown
+
+# rl-envs-forge
+Simplistic environments for reinforcement learning applications
+
+# Environments
+## Labyrinth
+Random maze generator with corridors and various room shapes.
+

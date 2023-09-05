@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pyoverlay"
+version = "1.0.4"
+authors = [
+  { name="majvax", email="majvax.contact@gmail.com" },
+]
+description = "Easily create overlay on top of any game/application"
+readme = "README.md"
+requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: Microsoft :: Windows"
+]
+dependencies = [
+  "pywin32",
+  "PyOpenGL==3.1.6",
+  "PyOpenGL-accelerate==3.1.6",
+  "glfw"
+]
+[project.urls]
+"Homepage" = "https://github.com/majvax/pyoverlay"
+"Bug Tracker" = "https://github.com/majvax/pyoverlay/issues"

@@ -1,0 +1,7 @@
+README.md
+setup.py
+autopop.egg-info/PKG-INFO
+autopop.egg-info/SOURCES.txt
+autopop.egg-info/dependency_links.txt
+autopop.egg-info/requires.txt
+autopop.egg-info/top_level.txt

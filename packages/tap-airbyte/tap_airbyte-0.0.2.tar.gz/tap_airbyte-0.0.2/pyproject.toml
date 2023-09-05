@@ -1,0 +1,47 @@
+[tool.poetry]
+name = "tap-airbyte"
+version = "0.0.2"
+description = "`tap-airbyte` is a Singer tap for Airbyte, built with the Meltano Singer SDK."
+authors = ["Daniel Purtov"]
+keywords = ["ELT", "Airbyte"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "<3.11,>=3.10.0"
+singer-sdk = { version = "^0.31.1" }
+orjson = "^3.8.3"
+
+[tool.poetry.dev-dependencies]
+pytest = "^7.4.0"
+tox = "^4.11.1"
+flake8 = "^6.1.0"
+black = ">=21"
+pydocstyle = "^6.1.1"
+mypy = "^0.910"
+types-requests = "^2.26.1"
+isort = "^5.12.0"
+
+[tool.poetry.extras]
+s3 = ["fs-s3fs"]
+
+[tool.poetry.group.dev.dependencies]
+deptry = "^0.12.0"
+
+[tool.black] # https://black.readthedocs.io/en/stable/usage_and_configuration/the_basics.html#configuration-via-a-file
+line-length = 100
+target-version = ["py39"]
+preview = true
+
+[tool.isort] # https://pycqa.github.io/isort/docs/configuration/options.html
+color_output = true
+line_length = 100
+profile = "black"
+src_paths = "tap_airbyte"
+
+[build-system]
+requires = ["poetry-core>=1.0.8"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+# CLI declaration
+tap-airbyte = 'tap_airbyte.tap:TapAirbyte.cli'

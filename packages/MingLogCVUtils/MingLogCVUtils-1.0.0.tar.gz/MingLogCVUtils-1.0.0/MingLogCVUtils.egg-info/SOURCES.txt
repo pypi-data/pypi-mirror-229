@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+MingLogCVUtils.egg-info/PKG-INFO
+MingLogCVUtils.egg-info/SOURCES.txt
+MingLogCVUtils.egg-info/dependency_links.txt
+MingLogCVUtils.egg-info/requires.txt
+MingLogCVUtils.egg-info/top_level.txt

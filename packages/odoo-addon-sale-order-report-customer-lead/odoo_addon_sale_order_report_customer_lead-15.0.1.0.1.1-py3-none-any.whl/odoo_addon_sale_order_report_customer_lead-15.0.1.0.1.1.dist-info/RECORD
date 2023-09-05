@@ -1,0 +1,13 @@
+odoo/addons/sale_order_report_customer_lead/README.rst,sha256=cACvGHei9as1rFuO6p-XUZIFwfAyPf_YJftBbaKKCAk,3282
+odoo/addons/sale_order_report_customer_lead/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+odoo/addons/sale_order_report_customer_lead/__manifest__.py,sha256=yIR08yCMOZfvLW4RF-veMhm-hcnNhTVuiBdRogC6MSg,595
+odoo/addons/sale_order_report_customer_lead/i18n/sale_order_report_customer_lead.pot,sha256=-lVati5YPwvbv06mRvL8ZcSbnCBgM3xoefzqmSLYqNo,714
+odoo/addons/sale_order_report_customer_lead/readme/CONTRIBUTORS.rst,sha256=kSaaFquJfNit8dF9s7z64N5MOzldBkvaQYcgUHUKcbk,100
+odoo/addons/sale_order_report_customer_lead/readme/DESCRIPTION.rst,sha256=sna06G80fQlfL1FcM2BcMHpJ5e4a0xcGTehe1K_Vboc,69
+odoo/addons/sale_order_report_customer_lead/reports/templates.xml,sha256=maeSj7QHdkuEPsCBr_DkNI56L7ivWa2lFlPjtluRfEQ,855
+odoo/addons/sale_order_report_customer_lead/static/description/icon.png,sha256=6xBPJauaFOF0KDHfHgQopSc28kKvxMaeoQFQWZtfZDo,9455
+odoo/addons/sale_order_report_customer_lead/static/description/index.html,sha256=cCtbu4tq7md6QLMuNhU-EePrZ4haDvsOGhZDESaaz1A,12643
+odoo_addon_sale_order_report_customer_lead-15.0.1.0.1.1.dist-info/METADATA,sha256=EStRHwRCPSheaGQpOViIsNpaLidg3O7ECotJ3RKAHrA,3851
+odoo_addon_sale_order_report_customer_lead-15.0.1.0.1.1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+odoo_addon_sale_order_report_customer_lead-15.0.1.0.1.1.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
+odoo_addon_sale_order_report_customer_lead-15.0.1.0.1.1.dist-info/RECORD,,

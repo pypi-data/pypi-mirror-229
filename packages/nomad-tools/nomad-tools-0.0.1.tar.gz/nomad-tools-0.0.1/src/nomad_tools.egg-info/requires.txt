@@ -1,0 +1,6 @@
+click
+requests
+tomli
+
+[test]
+pytest

@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: nomad-tools
+Version: 0.0.1
+Author: Kamil Cukrowski
+License: MIT+Beerware
+Project-URL: homepage, https://gitlab.com/Kamcuk/nomad-tools
+Project-URL: repository, https://gitlab.com/Kamcuk/nomad-tools
+Project-URL: documentation, https://gitlab.com/Kamcuk/nomad-tools
+Description-Content-Type: text/markdown
+Provides-Extra: test
+License-File: LICENSE
+
+# nomad-tools
+Set of tools and utilities to ease interacting with Hashicorp Nomad scheduling solution.

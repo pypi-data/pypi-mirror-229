@@ -1,0 +1,13 @@
+earthengine-api
+numpy
+pandas
+isoweek
+matplotlib
+Cython
+cartopy
+scipy
+statsmodels
+wheel
+
+[:python_version < "3.11"]
+tomli

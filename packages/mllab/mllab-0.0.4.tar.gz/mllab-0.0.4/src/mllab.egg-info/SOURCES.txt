@@ -1,0 +1,17 @@
+LICENSE
+pyproject.toml
+setup.cfg
+src/mllab/__init__.py
+src/mllab/ann.py
+src/mllab/bayesiandiabetes.py
+src/mllab/candidate.py
+src/mllab/en-kmean-iris.py
+src/mllab/id3.py
+src/mllab/knn-iris.py
+src/mllab/main.py
+src/mllab/pgm1lr.py
+src/mllab/weather.py
+src/mllab.egg-info/PKG-INFO
+src/mllab.egg-info/SOURCES.txt
+src/mllab.egg-info/dependency_links.txt
+src/mllab.egg-info/top_level.txt

@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+src/crctools/__init__.py
+src/crctools/__main__.py
+src/crctools/py.typed
+src/crctools/utils.py
+src/crctools_DavidRodriguezSoaresCUI.egg-info/PKG-INFO
+src/crctools_DavidRodriguezSoaresCUI.egg-info/SOURCES.txt
+src/crctools_DavidRodriguezSoaresCUI.egg-info/dependency_links.txt
+src/crctools_DavidRodriguezSoaresCUI.egg-info/top_level.txt

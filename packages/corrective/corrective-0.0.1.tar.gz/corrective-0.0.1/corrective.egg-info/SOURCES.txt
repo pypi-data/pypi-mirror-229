@@ -1,0 +1,7 @@
+README
+setup.cfg
+setup.py
+corrective.egg-info/PKG-INFO
+corrective.egg-info/SOURCES.txt
+corrective.egg-info/dependency_links.txt
+corrective.egg-info/top_level.txt

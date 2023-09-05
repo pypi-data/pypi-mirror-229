@@ -1,0 +1,11 @@
+README.md
+setup.py
+pdf_table2json/__init__.py
+pdf_table2json/local.py
+pdf_table2json/util_utf.py
+pdf_table2json.egg-info/PKG-INFO
+pdf_table2json.egg-info/SOURCES.txt
+pdf_table2json.egg-info/dependency_links.txt
+pdf_table2json.egg-info/not-zip-safe
+pdf_table2json.egg-info/requires.txt
+pdf_table2json.egg-info/top_level.txt

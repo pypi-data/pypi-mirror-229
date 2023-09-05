@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: test_fate_utils
+Version: 0.1.0
+Classifier: Programming Language :: Rust
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown; charset=UTF-8; variant=GFM
+
+## rust_paillier
+
+paillier tensor implemented using rust.
+

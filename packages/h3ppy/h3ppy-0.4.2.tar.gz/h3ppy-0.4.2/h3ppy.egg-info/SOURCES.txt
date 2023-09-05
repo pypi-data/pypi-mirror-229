@@ -1,0 +1,11 @@
+CHANGELOG.txt
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+./h3ppy/__init__.py
+h3ppy.egg-info/PKG-INFO
+h3ppy.egg-info/SOURCES.txt
+h3ppy.egg-info/dependency_links.txt
+h3ppy.egg-info/requires.txt
+h3ppy.egg-info/top_level.txt

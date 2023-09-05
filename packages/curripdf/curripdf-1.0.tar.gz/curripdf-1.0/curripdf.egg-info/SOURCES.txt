@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+curripdf/__init__.py
+curripdf/pdf2image.py
+curripdf/pdf2text.py
+curripdf.egg-info/PKG-INFO
+curripdf.egg-info/SOURCES.txt
+curripdf.egg-info/dependency_links.txt
+curripdf.egg-info/top_level.txt

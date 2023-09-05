@@ -1,0 +1,46 @@
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+name = "profit-pilot"
+version = "0.2.1"
+description = "ProfitPilot - AI Agents"
+license = "MIT"
+authors = ["Kye Gomez <kye@apac.ai>"]
+homepage = "https://github.com/kyegomez/ProfitPilot"
+documentation = ""  # Add this if you have documentation.
+readme = "README.md"  # Assuming you have a README.md
+repository = "https://github.com/kyegomez/ProfitPilot"
+keywords = ["artificial intelligence", "deep learning", "optimizers", "Prompt Engineering"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3.6"
+]
+packages = [
+    { include = "profit" },
+    { include = "profit/**/*.py" },
+]
+
+
+[tool.poetry.dependencies]
+python = "^3.6"
+langchain-experimental = "*"
+langchain = "*"
+transformers = "*"
+pydantic = "*"
+openai = "*"
+faiss-gpu = "1.7.2"
+torch = "*"
+pandas = "*"
+clarifai = "*"
+google-api-python-client = "*"
+google-auth-oauthlib = "*"
+google-auth-httplib2 = "*"
+beautifulsoup4 = "*"
+
+[tool.poetry.dev-dependencies]
+# Add development dependencies here

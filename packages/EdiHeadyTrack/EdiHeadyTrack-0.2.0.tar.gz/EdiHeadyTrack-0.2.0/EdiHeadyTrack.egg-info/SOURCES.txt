@@ -1,0 +1,115 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+EdiHeadyTrack/__init__.py
+EdiHeadyTrack/camera.py
+EdiHeadyTrack/filter.py
+EdiHeadyTrack/imu.py
+EdiHeadyTrack/plot.py
+EdiHeadyTrack/posedetector.py
+EdiHeadyTrack/sensordata.py
+EdiHeadyTrack/video.py
+EdiHeadyTrack.egg-info/PKG-INFO
+EdiHeadyTrack.egg-info/SOURCES.txt
+EdiHeadyTrack.egg-info/dependency_links.txt
+EdiHeadyTrack.egg-info/requires.txt
+EdiHeadyTrack.egg-info/top_level.txt
+EdiHeadyTrack/TDDFA_v2/TDDFA copy.py
+EdiHeadyTrack/TDDFA_v2/TDDFA.py
+EdiHeadyTrack/TDDFA_v2/TDDFA_ONNX.py
+EdiHeadyTrack/TDDFA_v2/__init__.py
+EdiHeadyTrack/TDDFA_v2/demo.py
+EdiHeadyTrack/TDDFA_v2/demo_video.py
+EdiHeadyTrack/TDDFA_v2/demo_video_smooth.py
+EdiHeadyTrack/TDDFA_v2/demo_webcam_smooth.py
+EdiHeadyTrack/TDDFA_v2/gradiodemo.py
+EdiHeadyTrack/TDDFA_v2/latency.py
+EdiHeadyTrack/TDDFA_v2/speed_cpu.py
+EdiHeadyTrack/TDDFA_v2/FaceBoxes/FaceBoxes.py
+EdiHeadyTrack/TDDFA_v2/FaceBoxes/FaceBoxes_ONNX.py
+EdiHeadyTrack/TDDFA_v2/FaceBoxes/__init__.py
+EdiHeadyTrack/TDDFA_v2/FaceBoxes/onnx.py
+EdiHeadyTrack/TDDFA_v2/FaceBoxes/models/__init__.py
+EdiHeadyTrack/TDDFA_v2/FaceBoxes/models/faceboxes.py
+EdiHeadyTrack/TDDFA_v2/FaceBoxes/utils/__init__.py
+EdiHeadyTrack/TDDFA_v2/FaceBoxes/utils/box_utils.py
+EdiHeadyTrack/TDDFA_v2/FaceBoxes/utils/build.py
+EdiHeadyTrack/TDDFA_v2/FaceBoxes/utils/config.py
+EdiHeadyTrack/TDDFA_v2/FaceBoxes/utils/functions.py
+EdiHeadyTrack/TDDFA_v2/FaceBoxes/utils/nms_wrapper.py
+EdiHeadyTrack/TDDFA_v2/FaceBoxes/utils/prior_box.py
+EdiHeadyTrack/TDDFA_v2/FaceBoxes/utils/timer.py
+EdiHeadyTrack/TDDFA_v2/FaceBoxes/utils/nms/__init__.py
+EdiHeadyTrack/TDDFA_v2/FaceBoxes/utils/nms/py_cpu_nms.py
+EdiHeadyTrack/TDDFA_v2/FaceBoxes/weights/FaceBoxesProd.pth
+EdiHeadyTrack/TDDFA_v2/Sim3DR/Sim3DR.py
+EdiHeadyTrack/TDDFA_v2/Sim3DR/__init__.py
+EdiHeadyTrack/TDDFA_v2/Sim3DR/_init_paths.py
+EdiHeadyTrack/TDDFA_v2/Sim3DR/lighting.py
+EdiHeadyTrack/TDDFA_v2/Sim3DR/setup.py
+EdiHeadyTrack/TDDFA_v2/bfm/__init__.py
+EdiHeadyTrack/TDDFA_v2/bfm/bfm.py
+EdiHeadyTrack/TDDFA_v2/bfm/bfm_onnx.py
+EdiHeadyTrack/TDDFA_v2/bfm copy/__init__.py
+EdiHeadyTrack/TDDFA_v2/bfm copy/bfm.py
+EdiHeadyTrack/TDDFA_v2/bfm copy/bfm_onnx.py
+EdiHeadyTrack/TDDFA_v2/configs/.gitignore
+EdiHeadyTrack/TDDFA_v2/configs/BFM_UV.mat
+EdiHeadyTrack/TDDFA_v2/configs/bfm_noneck_v3.onnx
+EdiHeadyTrack/TDDFA_v2/configs/bfm_noneck_v3.pkl
+EdiHeadyTrack/TDDFA_v2/configs/indices.npy
+EdiHeadyTrack/TDDFA_v2/configs/mb05_120x120.yml
+EdiHeadyTrack/TDDFA_v2/configs/mb1_120x120.yml
+EdiHeadyTrack/TDDFA_v2/configs/ncc_code.npy
+EdiHeadyTrack/TDDFA_v2/configs/param_mean_std_62d_120x120.pkl
+EdiHeadyTrack/TDDFA_v2/configs/readme.md
+EdiHeadyTrack/TDDFA_v2/configs/resnet_120x120.yml
+EdiHeadyTrack/TDDFA_v2/configs/tri.pkl
+EdiHeadyTrack/TDDFA_v2/models/__init__.py
+EdiHeadyTrack/TDDFA_v2/models/mobilenet_v1.py
+EdiHeadyTrack/TDDFA_v2/models/mobilenet_v3.py
+EdiHeadyTrack/TDDFA_v2/models/resnet.py
+EdiHeadyTrack/TDDFA_v2/models copy/__init__.py
+EdiHeadyTrack/TDDFA_v2/models copy/mobilenet_v1.py
+EdiHeadyTrack/TDDFA_v2/models copy/mobilenet_v3.py
+EdiHeadyTrack/TDDFA_v2/models copy/resnet.py
+EdiHeadyTrack/TDDFA_v2/utils/__init__.py
+EdiHeadyTrack/TDDFA_v2/utils/depth.py
+EdiHeadyTrack/TDDFA_v2/utils/functions.py
+EdiHeadyTrack/TDDFA_v2/utils/io.py
+EdiHeadyTrack/TDDFA_v2/utils/onnx.py
+EdiHeadyTrack/TDDFA_v2/utils/pncc.py
+EdiHeadyTrack/TDDFA_v2/utils/pose.py
+EdiHeadyTrack/TDDFA_v2/utils/render.py
+EdiHeadyTrack/TDDFA_v2/utils/render_ctypes.py
+EdiHeadyTrack/TDDFA_v2/utils/serialization.py
+EdiHeadyTrack/TDDFA_v2/utils/tddfa_util.py
+EdiHeadyTrack/TDDFA_v2/utils/uv.py
+EdiHeadyTrack/TDDFA_v2/utils copy/__init__.py
+EdiHeadyTrack/TDDFA_v2/utils copy/depth.py
+EdiHeadyTrack/TDDFA_v2/utils copy/functions.py
+EdiHeadyTrack/TDDFA_v2/utils copy/io.py
+EdiHeadyTrack/TDDFA_v2/utils copy/onnx.py
+EdiHeadyTrack/TDDFA_v2/utils copy/pncc.py
+EdiHeadyTrack/TDDFA_v2/utils copy/pose.py
+EdiHeadyTrack/TDDFA_v2/utils copy/render.py
+EdiHeadyTrack/TDDFA_v2/utils copy/render_ctypes.py
+EdiHeadyTrack/TDDFA_v2/utils copy/serialization.py
+EdiHeadyTrack/TDDFA_v2/utils copy/tddfa_util.py
+EdiHeadyTrack/TDDFA_v2/utils copy/uv.py
+EdiHeadyTrack/TDDFA_v2/weights/.gitignore
+EdiHeadyTrack/TDDFA_v2/weights/mb05_120x120.pth
+EdiHeadyTrack/TDDFA_v2/weights/mb1_120x120.onnx
+EdiHeadyTrack/TDDFA_v2/weights/mb1_120x120.pth
+EdiHeadyTrack/TDDFA_v2/weights/readme.md
+test/__init__.py
+test/test_camera.py
+test/test_filter.py
+test/test_imu.py
+test/test_plot.py
+test/test_posedetector.py
+test/test_sensordata.py
+test/test_video.py

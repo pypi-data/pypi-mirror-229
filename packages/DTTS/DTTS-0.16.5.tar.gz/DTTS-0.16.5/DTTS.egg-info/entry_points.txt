@@ -1,0 +1,3 @@
+[console_scripts]
+dtts = TTS.bin.synthesize:main
+dtts-server = TTS.server.server:main

@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: accelphys
+Version: 0.1.0
+Summary: Accelerator Physics
+Home-page: https://github.com/jako4295/accelphys
+Author: Jakob Olsen
+Author-email: jakob.olsen@cern.ch
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: ~=3.11.0
+Description-Content-Type: text/markdown
+Provides-Extra: core
+Provides-Extra: test
+Provides-Extra: dev
+Provides-Extra: doc
+Provides-Extra: all
+License-File: LICENSE
+
+# accelphys
+A package for basic accelerator physics. May also be useful in other areas of study but accelerator physics is the main focus area.
+
+# Installation
+The package can be installed in editable mode by running the following command in the terminal:
+
+```bash
+git clone https://github.com/jako4295/accelphys.git
+pip install -e .
+```

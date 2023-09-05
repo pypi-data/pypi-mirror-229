@@ -1,0 +1,11 @@
+README.md
+setup.py
+scripts/__init__.py
+scripts/cli.py
+shell2/__init__.py
+shell2/client.py
+shell2.egg-info/PKG-INFO
+shell2.egg-info/SOURCES.txt
+shell2.egg-info/dependency_links.txt
+shell2.egg-info/requires.txt
+shell2.egg-info/top_level.txt

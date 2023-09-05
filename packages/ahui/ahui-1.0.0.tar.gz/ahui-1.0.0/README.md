@@ -1,0 +1,51 @@
+# 企业微信群机器人-推送多种消息类型的应用
+
+> **企业微信群机器人key：**
+>
+> 可以通过函数 wechat\_key() 定义默认的群机器人key
+
+> **1.1.企业微信群机器人-推送消息类型-markdown：**
+>
+> `wechat_markdown(top='', title='', content='', user='', links={}, df_links={}, show_cols=False, key=None)`
+>
+> 参数：\[content]支持传入字符串(str)/列表(list)/数据框(DataFrame)；\[df\_links]支持多个链接字段，默认参数空；
+>
+> 说明：只支持@1个人/不支持@all；@对象为企业微信英文名，英文名不区分大小写；若@对象无此人仍正常推送消息内容；
+>
+> 系统：适用于 Windows、Linux 系统环境下的Python3版本。
+
+> **1.2.企业微信群机器人-推送消息类型-markdown：**
+>
+> `wechat_markdowns(top='', title='', content='', user='', links={}, df_links={}, show_cols=False, key=None)`
+>
+> 简介：基于 wechat\_markdown() 函数的二次封装开发；功能上支持@多人、支持推送多个群；
+>
+> 参数：\[user]支持传入数据类型str/list； \[key]支持数据类型str/list，当传入多个元素则用列表形式。
+
+> **2.企业微信群机器人-推送消息类型-text：**
+>
+> `wechat_text(top='', title='', content='', users_name=[], users_phone=[], key=None)`
+>
+> 功能：@对象支持使用企业微信英文名或手机号、支持 '@all' 或 @多个人；
+>
+> 参数：\[content]支持数据类型str/list，列表中的每个元素文本代表一行。
+
+> **3.企业微信群机器人-推送消息类型-@群成员：**
+>
+> `wechat_at(users_name=[], users_phone=[], key=None, content='👆')`
+>
+> 功能：@对象支持使用企业微信英文名或手机号，英文名不区分大小写；支持 '@all' 或 @多个人，若无此人则不@且不影响执行推送。
+
+> **4.企业微信群机器人-推送消息类型-图像：**
+>
+> `wechat_image(image, key=None, users=[], content='👆')`
+>
+> 参数：\[image]支持传入的数据类型-本地图片路径/变量Image/变量bytes；
+>
+> 说明：图片最大不能超过2M，支持JPG、PNG格式。
+
+> **5.企业微信群机器人-推送消息类型-本地文件：**
+>
+> `wechat_file(pathfile, key=None, users=[], content='👆')`
+>
+> 参数：\[pathfile]传参要求，图片:最大10MB 支持JPG、PNG格式；语音:最大2MB 播放长度不超过60s 支持AMR格式；视频:最大10MB 支持MP4格式；普通文件:最大20MB

@@ -1,0 +1,12 @@
+pygismeteo/__init__.py,sha256=3smOQ4jodhCe5f2TwC0S1AWb1MZMlLjsvtXXlUqpbSY,209
+pygismeteo/_current.py,sha256=h1t7pt_ZbOmUbBO6LImwv2VY2dp_--kk7joOnDsmtVE,1385
+pygismeteo/_gismeteo.py,sha256=rHw1vaGBCWcK6IeHOA8iqS0C1l71suBc7NDzOXSoeng,2834
+pygismeteo/_http.py,sha256=xRVnq1DHLVYhG2Z6LPRSCfhy3EQRUlWFIp4Ze6bAzMY,1364
+pygismeteo/_search.py,sha256=0RTrYtogNE_ovdDG9frtfin3O3Fy9LLuOm2AzFceqY0,3996
+pygismeteo/_step_n.py,sha256=ubv_prkvl3WIBi6ZIP1QfJteFzCHSVLdKl2AQFs4pQg,4803
+pygismeteo/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pygismeteo/types.py,sha256=VILNuGg39CCeBmM7ZjjFcrBUTRAx1UpqdyyY_s3ni0A,540
+pygismeteo-5.2.1.dist-info/LICENSE,sha256=1x8a8JvB6Tm-oi0Knf_OySff8jjCZa2Uhw591k6oUDg,1065
+pygismeteo-5.2.1.dist-info/METADATA,sha256=tLIlgG825e1ktRDPPqcEEBOOugYZpUkKyF_mhzr6BGM,2170
+pygismeteo-5.2.1.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+pygismeteo-5.2.1.dist-info/RECORD,,

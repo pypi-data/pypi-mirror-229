@@ -1,0 +1,10 @@
+ocx_generator/__init__.py,sha256=IbyLGmRGxwidykLnXPNT_Rq0jpAzmNBSCy-h6MTZhGw,183
+ocx_generator/__main__.py,sha256=aQ_4ntour32Jc-2qtEHoChEUrnkiDe69VgQ6tQMoQtw,408
+ocx_generator/cli.py,sha256=HkR680ZIoT9Zxuzg1dwLtcJcExrzuh91QwCkjl7LguY,2067
+ocx_generator/generator.py,sha256=zrFDkNvF48jUfNycIpsAv_ZW4WwloWZKhtLEl8J7BBU,3977
+ocx_generator/utils/__init__.py,sha256=peKaFWY9vf6lk_IDpEEjjJTe0s-YfDa5__7H23BXKPs,125
+ocx_generator/utils/logging.py,sha256=B2OzN_eDdn1jWuMXtn60jXrjAgRFpDqKrRiFCvR_RDo,777
+ocx_generator-2.1.0.dist-info/LICENSE,sha256=Er-j9veeAyGArIs2PYWvijQ1zmELNTLGPMFcFBxrkL0,1087
+ocx_generator-2.1.0.dist-info/METADATA,sha256=CDWqbSJnc81sEySCmI74hWcYPVQghgNvdwZTzHk4nL4,2794
+ocx_generator-2.1.0.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+ocx_generator-2.1.0.dist-info/RECORD,,

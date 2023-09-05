@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+playai.egg-info/PKG-INFO
+playai.egg-info/SOURCES.txt
+playai.egg-info/dependency_links.txt
+playai.egg-info/top_level.txt

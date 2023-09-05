@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: types-konnect.curl
+Version: 0.1.2
+Summary: static type stubs for konnect.curl
+License: MPL-2.0
+Author: Dom Sekotill
+Author-email: dom.sekotill@kodo.org.uk
+Requires-Python: >=3.11,<4.0
+Classifier: License :: OSI Approved
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11

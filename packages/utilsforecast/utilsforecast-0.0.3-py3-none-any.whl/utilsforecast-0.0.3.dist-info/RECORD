@@ -1,0 +1,17 @@
+utilsforecast/__init__.py,sha256=4GZKi13lDTD25YBkGakhZyEQZWTER_OWQMNPoH_UM2c,22
+utilsforecast/_modidx.py,sha256=9fUL5cS3eQDbS-zCkEoM6SQHn5IxAgK-pz5ah1pcDD8,9230
+utilsforecast/compat.py,sha256=BJzKzFPkMyUWiOHh54ynzLHXkRmD12vTC1RhQBR5yqM,1062
+utilsforecast/data.py,sha256=hxriQmdUyHt6SDmS2fFfICWWn7WIkpktYsruABCu9Fg,4569
+utilsforecast/evaluation.py,sha256=COKGj3mi8lismfk_8U5u10zknoRcQVYLonn4F5UuFUo,3963
+utilsforecast/grouped_array.py,sha256=KrnFFqnSNUM3SzxnQAUEQ9LcPqaYCbtXOR16PUrtic0,4080
+utilsforecast/losses.py,sha256=mahMtbQA83h701jg2t7T1j1VJPyH_m1aVfUQazlYtWo,21566
+utilsforecast/plotting.py,sha256=IkdMdhfXFvGPun_wOvdYGK_wGDFOFq-YBcVPS0rsOKQ,13022
+utilsforecast/preprocessing.py,sha256=9QPJV5FFdvPAV29mU2ZRpOHB-UvEKsYA5vKxBp7tJ7M,2917
+utilsforecast/processing.py,sha256=Qb2pSNid4r0eIcnudwB3QItC_PMpA4U-afbOwzAt-6E,3454
+utilsforecast/validation.py,sha256=q4NoA2IxVSszCg0wKoGIjaCpbt9EFx3DCmJuLUJZIYw,1610
+utilsforecast-0.0.3.dist-info/LICENSE,sha256=xV8xoN4VOL0uw9X8RSs2IMuD_Ss_a9yAbtGNeBWZwnw,11337
+utilsforecast-0.0.3.dist-info/METADATA,sha256=cxInt4H5AeYK4-sUiSLQmpxmiolbTjSwOsQgTeYO9yw,6939
+utilsforecast-0.0.3.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+utilsforecast-0.0.3.dist-info/entry_points.txt,sha256=kTjxwBVGsnM-TvnA0AhPlBdQP3YYuktwyhHVfVnX9Qc,48
+utilsforecast-0.0.3.dist-info/top_level.txt,sha256=zd9RNfciE17qM1JrxwcNXBgwP44WnOlhFx5cwepTD84,14
+utilsforecast-0.0.3.dist-info/RECORD,,

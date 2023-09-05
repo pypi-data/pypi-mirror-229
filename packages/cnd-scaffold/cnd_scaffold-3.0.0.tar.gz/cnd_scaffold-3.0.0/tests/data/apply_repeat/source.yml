@@ -1,0 +1,11 @@
+model_files:
+- file_name: "file_init{{ name }}"
+  file_content: "FC{{ name }}{{ other_field }}"
+  step: ['init']
+  repeat: app
+data: 
+  name: 123
+  other_field: 456
+  app:
+  - name: 'A'
+  - name: 'B'

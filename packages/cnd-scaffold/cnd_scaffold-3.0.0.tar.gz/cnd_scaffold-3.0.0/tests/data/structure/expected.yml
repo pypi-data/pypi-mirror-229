@@ -1,0 +1,13 @@
+- file_name: 'gitlab.yml'
+  file_content: 'A'
+  step:
+  - init
+- file_name: 'textfile.md'
+  file_content: 'B'
+  step:
+  - init
+- file_name: 'config-%app%.yml'
+  file_content: 'C'
+  step:
+  - init
+  repeat: app

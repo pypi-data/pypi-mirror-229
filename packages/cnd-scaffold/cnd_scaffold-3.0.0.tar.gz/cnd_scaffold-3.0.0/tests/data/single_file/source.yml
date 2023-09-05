@@ -1,0 +1,4 @@
+file_name: 'Test{{ name}}'
+file_content: "Abc {{ name}}"
+data:
+  name: 123

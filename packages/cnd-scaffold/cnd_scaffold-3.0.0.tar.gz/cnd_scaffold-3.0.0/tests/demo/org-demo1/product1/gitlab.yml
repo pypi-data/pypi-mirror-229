@@ -1,0 +1,4 @@
+gitlab: file
+source: ici-%app%
+name: '%app%'
+env: %env%

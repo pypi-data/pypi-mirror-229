@@ -1,0 +1,7 @@
+[report]
+show_missing = True
+omit =
+    */opt/*
+    tests/*
+    /opt/homebrew/lib/python3.9/*
+    lib/*

@@ -1,0 +1,8 @@
+source_folder: org1-product1
+files:
+- name: file-init.yml
+  step: ['init']
+- name: file-build.yml
+  step: ['build']
+- name: file-runtime.yml
+  step: ['runtime']    

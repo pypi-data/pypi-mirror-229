@@ -1,0 +1,8 @@
+source_folder: abc
+files:
+- name: init.yml
+  step: ['init']
+- name: build.yml
+  step: ['build']
+- name: runtime.yml
+  step: ['runtime']    

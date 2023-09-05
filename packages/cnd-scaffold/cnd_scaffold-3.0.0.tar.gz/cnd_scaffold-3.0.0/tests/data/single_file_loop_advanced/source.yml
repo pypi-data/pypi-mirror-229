@@ -1,0 +1,18 @@
+file_name: 'Test{{ name}}'
+file_content: "Abc{{ name }}
+{%- for item in items %}
+  {{ item.name -}}
+  {{ item.id -}}
+{% endfor %}"
+data:
+  name: 123
+  items: [
+    {
+      name: 'A',
+      id: 1
+    },
+    {
+      name: 'B',
+      id: 2
+    }
+  ]

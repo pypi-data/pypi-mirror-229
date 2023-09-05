@@ -1,0 +1,5 @@
+file_name: 'Test{{ name}}'
+file_content: "Abc{%- for item in items %}{{ item -}}{% endfor %}"
+data:
+  name: 123
+  items: ['A', 'B']

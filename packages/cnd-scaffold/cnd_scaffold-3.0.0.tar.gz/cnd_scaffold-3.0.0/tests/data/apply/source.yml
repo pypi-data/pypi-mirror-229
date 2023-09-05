@@ -1,0 +1,9 @@
+model_files:
+- file_name: "file_init{{ name }}"
+  file_content: "FC{{ name }}"
+  step: ['init']
+- file_name: "file_build{{ name }}"
+  file_content: "FC{{ name }}"
+  step: ['build']
+data: 
+  name: 123

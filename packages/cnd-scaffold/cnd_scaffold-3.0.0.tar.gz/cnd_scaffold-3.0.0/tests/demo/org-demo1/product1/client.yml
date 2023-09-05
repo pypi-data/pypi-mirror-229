@@ -1,0 +1,2 @@
+client_name: '%client.name%'
+client_token: '%client.token%'

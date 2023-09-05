@@ -1,0 +1,8 @@
+cndprint
+pyyaml
+requests
+cndIo
+yamale
+twine
+Jinja2
+hatch-requirements-txt

@@ -1,0 +1,10 @@
+source_folder: demo
+files:
+- name: gitlab.yml
+  step: ['init']
+- name: textfile.md
+  step: ['init']
+- name: config.yml
+  target: config-%app%.yml
+  step: ['init']
+  repeat: app

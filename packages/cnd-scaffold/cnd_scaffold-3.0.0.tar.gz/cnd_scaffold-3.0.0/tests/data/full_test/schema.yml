@@ -1,0 +1,10 @@
+source_folder: str()
+files: list(include('file_item'))
+---
+file_item:
+  name: str()
+  target: str(required=False)
+  repeat: str(required=False)
+  step: list(str(), min=1)
+  sort: bool(required=False)
+  

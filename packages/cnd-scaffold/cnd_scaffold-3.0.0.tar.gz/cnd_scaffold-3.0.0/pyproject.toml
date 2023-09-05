@@ -1,0 +1,25 @@
+[project]
+name = "cnd_scaffold"
+authors = [
+  { name="Denis Fabien <denis@changendevops.com>" },
+]
+description = "Tools initiate a new project in git lab, based on a existing definition"
+readme = "README.md"
+requires-python = ">=3.7"
+
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dynamic = ["version", "dependencies"]
+
+[tool.hatch.metadata.hooks.requirements_txt]
+files = ["requirements.txt"]
+
+[tool.hatch.version]
+path = "src/cnd_scaffold/__version__.py"
+
+[build-system]
+requires = ["hatchling", "hatch-requirements-txt"]
+build-backend = "hatchling.build"

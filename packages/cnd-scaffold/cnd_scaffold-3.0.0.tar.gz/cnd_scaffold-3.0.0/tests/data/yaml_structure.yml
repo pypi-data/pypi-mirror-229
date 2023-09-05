@@ -1,0 +1,19 @@
+source_folder: demo
+init:
+- name: gitlab.yml
+- name: textfile.md
+- name: config.yml
+  target: config-%app%.yml
+- name: env/variable.yml
+  target: '%env%/variable.yml'
+  repeat: env
+- name: client.yml
+  target: '%client.name%.yml'
+  repeat: client
+- name: loop/loop.yml
+  target: 'ad-%client.name%/%client.token%.yml'
+  repeat: client
+- name: loop-jinja/loop.yml
+  target: 'ad-{{ client.name }}/{{ client.token }}.yml'
+  repeat: client
+  sort: false

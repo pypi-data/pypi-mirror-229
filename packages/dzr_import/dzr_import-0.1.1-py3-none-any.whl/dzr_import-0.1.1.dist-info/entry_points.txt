@@ -1,0 +1,3 @@
+[console_scripts]
+dzr_import=dzr_import:run
+

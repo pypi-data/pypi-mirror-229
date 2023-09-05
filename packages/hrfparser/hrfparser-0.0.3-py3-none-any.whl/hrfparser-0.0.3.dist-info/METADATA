@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: hrfparser
+Version: 0.0.3
+Summary: A convenience pipeline for working with Human-Readable Formats ( HRFs ) such as YAML and JSON.
+Project-URL: GitHub, https://github.com/SeanYeatts/hrfparser.git
+Author: Sean Yeatts
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/x-rst
+
+HRFParser
+=========
+
+Copyright (c) 2023 Sean Yeatts. All rights reserved.
+
+A convenience pipeline for working with Human-Readable Formats ( HRFs ) such
+as YAML and JSON. It's designed to easily read / write data between HRFs and
+Python dictionaries, both in raw and flattened ( single key-value pairs )
+formats.
+
+Features:
+    - Auto-conversion between different HRF formats based on file extensions.
+    - 'Unpacking' of nested data to flattened, single key-value pairs.
+
+Current supported HRFs:
+    - YAML
+    - JSON

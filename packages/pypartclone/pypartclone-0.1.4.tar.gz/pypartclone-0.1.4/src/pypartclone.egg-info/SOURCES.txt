@@ -1,0 +1,16 @@
+LICENSE
+README.md
+pyproject.toml
+src/partclone/__init__.py
+src/partclone/__main__.py
+src/partclone/blockio.py
+src/partclone/fuse.py
+src/partclone/imagebackup.py
+src/partclone/ntfsclone.py
+src/partclone/partclone.py
+src/pypartclone.egg-info/PKG-INFO
+src/pypartclone.egg-info/SOURCES.txt
+src/pypartclone.egg-info/dependency_links.txt
+src/pypartclone.egg-info/entry_points.txt
+src/pypartclone.egg-info/requires.txt
+src/pypartclone.egg-info/top_level.txt

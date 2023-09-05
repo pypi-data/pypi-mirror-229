@@ -1,0 +1,3 @@
+tqdm
+pyfuse3
+pyzstd

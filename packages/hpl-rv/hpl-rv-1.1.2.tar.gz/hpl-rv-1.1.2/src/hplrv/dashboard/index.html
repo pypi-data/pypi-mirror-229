@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>Dashboard</title>
+</head>
+<body>
+  <div id="app"></div>
+
+  <template id="vue-dashboard">
+    <main ref="root" :class="{blurred: isModalOpen}">
+      <h1>HPL RV Dashboard</h1>
+      <div class="card-container">
+        <live-server-list
+          :servers="servers"
+          :selection="selectedServer"
+          @show-dialog="showConnectionDialog"
+          @select-server="onServerSelected"
+          @close-server="onServerClosed">
+        </live-server-list>
+        <runtime-monitor-list
+          :monitors="displayedMonitors"
+          @show-witness="showWitnessDialog">
+        </runtime-monitor-list>
+      </div>
+      <connection-dialog
+        ref="connectionDialog"
+        @modal-opened="onModalOpened"
+        @modal-closed="onModalClosed"
+        @connect-to-server="connectToLiveMonitor">
+      </connection-dialog>
+      <witness-dialog
+        ref="witnessDialog"
+        @modal-opened="onModalOpened"
+        @modal-closed="onModalClosed">
+      </witness-dialog>
+    </main>
+  </template>
+
+  <template id="vue-live-server-list">
+    <div class="card server-list">
+      <h2>Monitoring Servers</h2>
+      <div class="card-body">
+        <ul v-if="servers.length > 0">
+          <live-server v-for="(server, i) in servers"
+            :key="`${server.host}:${server.port}`"
+            :host="server.host"
+            :port="server.port"
+            :monitors="server.monitors"
+            :is-selected="selection === i"
+            :is-online="true"
+            @user-select="onUserSelect"
+            @close="onCloseConnection">
+          </live-server>
+        </ul>
+        <p v-else>
+          There are no connected servers.
+        </p>
+        <button @click="showConnectionDialog">Connect</button>
+      </div>
+    </div>
+  </template>
+
+  <template id="vue-live-server">
+    <li class="live-server" :class="{selected: isSelected}" @click.prevent.stop="onSelect">
+      <div class="status-icon" :class="statusClass">{{ statusIcon }}</div>
+      <div class="description">
+        <code class="address">{{ host }}:{{ port }}</code>
+        <small>{{ numMonitors }}</small>
+      </div>
+      <div class="toolbar">
+        <button class="text-button" @click.prevent.stop="onCloseConnection">close</button>
+      </div>
+    </li>
+  </template>
+
+  <template id="vue-runtime-monitor-list">
+    <div class="card monitor-list">
+      <h2>Runtime Monitors</h2>
+      <div class="card-body">
+        <ul v-if="monitors.length > 0">
+          <runtime-monitor
+            v-for="monitor in monitors"
+            v-bind="monitor"
+            @show-witness="showWitness">
+          </runtime-monitor>
+        </ul>
+        <p v-else>
+          There are no runtime monitors.
+        </p>
+      </div>
+    </div>
+  </template>
+
+  <template id="vue-runtime-monitor">
+    <li class="tracked-monitor">
+      <div class="status-icon" :class="statusClass">{{ statusIcon }}</div>
+      <div class="description">
+        <p class="name">{{ title }}</p>
+        <code v-html="propertyHTML"></code>
+      </div>
+      <div class="toolbar">
+        <button class="text-button" @click="showWitness" :disabled="witness == null">
+          witness
+        </button>
+      </div>
+    </li>
+  </template>
+
+  <template id="vue-connection-dialog">
+    <dialog ref="dialog">
+      <div class="form-grid">
+        <label for="input-host">Host:</label>
+        <div>
+          <input id="input-host" type="text" :value="host" :placeholder="host" />
+        </div>
+        <label for="input-port">Port:</label>
+        <input id="input-port" type="number" min="1025" max="49150" :value="port" :placeholder="port" />
+      </div>
+      <div class="button-bar">
+        <button @click="cancelDialog">Cancel</button>
+        <button @click="connectToLiveMonitor">Connect</button>
+      </div>
+    </dialog>
+  </template>
+
+  <template id="vue-witness-dialog">
+    <dialog ref="dialog">
+      <div class="witness-dialog">
+        <ul class="witness" v-if="witness.length > 0">
+          <li v-for="record in witness">
+            <p>
+              <b>@ {{ record.timestamp }} s</b> on <code>{{ record.topic }}:</code>
+            </p>
+            <p>
+              <small><code>{{ record.message }}</code></small>
+            </p>
+          </li>
+        </ul>
+        <p v-else><i>Empty message trace.</i></p>
+        <div class="button-bar">
+          <button @click="cancelDialog">Close</button>
+        </div>
+      </div>
+    </dialog>
+  </template>
+
+  <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+  <script src="dashboard.js"></script>
+</body>
+</html>

@@ -1,0 +1,254 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: .75rem;
+  height: 100vh;
+  max-height: 100vh;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+}
+
+#app {
+  padding: 1.5em;
+  height: 100%;
+  overflow: hidden;
+}
+
+#app main {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.card-container {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 1em;
+  overflow: hidden;
+}
+
+.card {
+  flex: 1 1 auto;
+  border-radius: 8px;
+  background-color: #fff;
+  /* box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); */
+  border: 1px solid whitesmoke;
+  padding: 2em;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.card:hover {
+  /* outline: 1px solid lightgray; */
+  border: 1px solid lightgray;
+}
+
+.card.server-list {
+  flex: 0 1 auto;
+  min-width: 25vw;
+}
+
+.card > h2 {
+  font-size: 1.25em;
+  color: lightgray;
+  margin: 0 0 1em 0;
+}
+
+.card-body {
+  flex: 1;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  overflow: auto;
+}
+
+.card-body ul {
+  flex: 1 0 auto;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.live-server,
+.tracked-monitor {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 1em;
+  align-items: center;
+  padding: 1em;
+}
+
+.live-server.selected {
+  background-color: aliceblue;
+}
+
+.live-server:hover,
+.tracked-monitor:hover {
+  background-color: whitesmoke;
+}
+
+.live-server:not(:first-child),
+.tracked-monitor:not(:first-child),
+.witness > li:not(:first-child) {
+  border-top: 1px solid lightgray;
+}
+
+.live-server > .description,
+.tracked-monitor > .description {
+  flex: 1 1 auto;
+}
+
+.live-server > .description > .address {
+  display: block;
+  font-size: 1.25em;
+  font-weight: bold;
+  margin: 0 0 .5em 0;
+}
+
+.tracked-monitor > .description > .name {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin: 0 0 .5em 0;
+}
+
+.live-server > .description > small,
+.tracked-monitor > .description > code {
+  color: darkgray;
+}
+
+.live-server:hover > .description > small,
+.tracked-monitor:hover > .description > code {
+  color: gray;
+}
+
+code > .special {
+  color: magenta;
+}
+
+code > .number {
+  color: orange;
+}
+
+code > .string {
+  color: forestgreen;
+}
+
+code > .bool {
+  color: cornflowerblue;
+}
+
+.live-server > .status-icon,
+.tracked-monitor > .status-icon {
+  flex: 0 0 auto;
+  width: 2em;
+  height: 2em;
+  line-height: 2em;
+  border-radius: 50%;
+  display: inline-block;
+  text-align: center;
+  font-weight: bold;
+  user-select: none;
+  background-color: white;
+  outline: 1px solid gray;
+}
+
+.live-server > .status-icon.online,
+.status-icon.success {
+  outline: 2px solid forestgreen;
+  color: forestgreen;
+}
+
+.live-server > .status-icon.offline,
+.status-icon.failure {
+  outline: 2px solid firebrick;
+  color: firebrick;
+}
+
+.live-server > .toolbar,
+.tracked-monitor > .toolbar {
+  flex: 0 0 auto;
+  opacity: 0;
+  display: flex;
+  flex-direction: row;
+}
+
+.live-server:hover > .toolbar,
+.tracked-monitor:hover > .toolbar {
+  opacity: 1;
+}
+
+.text-button {
+  flex: 0 0 auto;
+  margin: 0;
+  padding: .25em;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: lightgray;
+}
+
+.text-button:hover:not(:disabled),
+.text-button:active:not(:disabled) {
+  color: gray;
+}
+
+dialog {
+  border-radius: 8px;
+  padding: 2em;
+  border: 2px solid black;
+}
+
+dialog::backdrop {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.form-grid {
+  display: grid;
+  row-gap: 1em;
+  column-gap: .5em;
+  grid-template-columns: max-content auto;
+  align-items: center;
+  margin-bottom: 1em;
+}
+
+.button-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.button-bar button {
+  cursor: pointer;
+}
+
+.blurred {
+  filter: blur(4px);
+}
+
+.witness-dialog {
+  max-height: 80vh;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.witness {
+  flex: 1;
+  overflow: auto;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}

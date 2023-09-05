@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "bayex"
+version = "0.1.1"
+description = "Bayesian Optimization in JAX"
+authors = [
+    {name = "Albert Alonso", email = "alonfnt@pm.me" },
+]
+readme = "README.md"
+license = {file = "LICENSE"}
+keywords = ["automatic-differentiation", "bayesian-optimization", "jax", "gaussian-process"]
+classifiers = [
+	"Intended Audience :: Science/Research",
+	"Topic :: Scientific/Engineering"
+	]
+dependencies = [
+    "jax",
+    "jaxlib",
+    "scipy",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/alonfnt/bayex"
+"Documentation" = "https://github.com/alonfnt/bayex"
+"Source" = "https://github.com/alonfnt/bayex"
+"Bug Tracker" = "https://github.com/alonfnt/bayex/issues"

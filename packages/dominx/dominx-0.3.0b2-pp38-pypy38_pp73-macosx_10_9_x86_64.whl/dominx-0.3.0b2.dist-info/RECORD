@@ -1,0 +1,13 @@
+dominx/display.c,sha256=CcmnNbExOiBhkh0sdGKJAq3X7lJfGH8zsd36gn8eHNI,141
+dominx/flow.pypy38-pp73-darwin.so,sha256=ULZcrpEObGwxbae6eNMkwMmUkLt-TzaiYKECfE95j3Y,34280
+dominx/flow.c,sha256=JNOy8PSUaitO4faLO47HZV_mQxipwhYKRWgLUr0-hug,2423
+dominx/__init__.py,sha256=JtvhUcefd94S9lgw_WTP0KhlBHjz_Hji_SJIKJKnPDo,439
+dominx/_internal.c,sha256=8nBuvj1elSDlFK5TcsRlNOrCQ7Kf3J9mr6aO_NmWxCw,813
+dominx/display.pypy38-pp73-darwin.so,sha256=oUDWk-dIlE0P8PPIlPmcpQ9jTdt-kY1Y9jN9wYjaVIs,33344
+dominx/stream.pypy38-pp73-darwin.so,sha256=Zl40uftqwd5hHiphOiks6fHW5tqH90YylWwfzxgB17w,33768
+dominx/stream.c,sha256=J9fI4-7GIjjI9Zb84r9IUFIAFqVFdCY-kN6qX_Akcsg,806
+dominx-0.3.0b2.dist-info/RECORD,,
+dominx-0.3.0b2.dist-info/WHEEL,sha256=ibpuXsV-axunL8b2sngpgJRqeQ8Bnju1KEXkaJUfvZU,116
+dominx-0.3.0b2.dist-info/top_level.txt,sha256=W2JgAtrUh4RL0CaPWlInd_dApzzYjssQBObWKR0y0OM,7
+dominx-0.3.0b2.dist-info/LICENSE.txt,sha256=4puGhr9_nOcu5iGjkGJVkP3LWC2tslqWdrO8Hcm06OU,1063
+dominx-0.3.0b2.dist-info/METADATA,sha256=RHyx7pzVumPRX_MrWyabsu5JSjIPtnvWNOnaouQc7Ck,5918

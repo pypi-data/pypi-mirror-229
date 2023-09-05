@@ -1,0 +1,16 @@
+odoo/addons/stock_move_line_serial_unique/README.rst,sha256=QNDghkmA93eyaarfEILCeAhX-XwUcyFmOciviqxSHrA,3442
+odoo/addons/stock_move_line_serial_unique/__init__.py,sha256=X9EJGOE2GtZbS0G82PtSXmWSZ_R8jEM0rlJTDliQjp4,21
+odoo/addons/stock_move_line_serial_unique/__manifest__.py,sha256=W98E68dI2_8W9OnwW8Loyhm-HouhdLIvEj0ObxcoUd8,362
+odoo/addons/stock_move_line_serial_unique/i18n/stock_move_line_serial_unique.pot,sha256=I7-blS7xKxrMkY4spLFbBlzcB7dgKCeMi2yYWRx83N4,543
+odoo/addons/stock_move_line_serial_unique/models/__init__.py,sha256=ZhsoA6A7uVoqynag6Qy-sJdksSAIxcagPqjLzTe9NdA,30
+odoo/addons/stock_move_line_serial_unique/models/stock_move_line.py,sha256=cKLgGq8jFNtt0voXCWGA1eCUy3IERgRvIkxJxhT_1-s,1666
+odoo/addons/stock_move_line_serial_unique/readme/CONTRIBUTORS.rst,sha256=uTDLq6EbcoJvi_RrEOWHKkzQOApOIgxEl1M_luvOUEc,36
+odoo/addons/stock_move_line_serial_unique/readme/DESCRIPTION.rst,sha256=_KTTHSgPf6j81mTU--eaZ3ZI6ImLB5YRa1zhzdfpw0M,468
+odoo/addons/stock_move_line_serial_unique/static/description/icon.png,sha256=6xBPJauaFOF0KDHfHgQopSc28kKvxMaeoQFQWZtfZDo,9455
+odoo/addons/stock_move_line_serial_unique/static/description/index.html,sha256=8KxaYCl12Mr1s4wL5JXW_VC55sGvYMv195pI_VUPtOY,12711
+odoo/addons/stock_move_line_serial_unique/tests/__init__.py,sha256=n-vkhe_x9dH1UFG6XxSETjJS9KCssX_8-XehH1czjug,49
+odoo/addons/stock_move_line_serial_unique/tests/test_stock_move_line_serial_unique.py,sha256=QjfHz04GiCGTEkpTzaR2k1jbWvtkrE5CYfPB0l6W6yE,4121
+odoo_addon_stock_move_line_serial_unique-16.0.1.0.0.3.dist-info/METADATA,sha256=iuvLmSi_qxSb6qUIUUcBNaQ4-jsAuNqz69XvfyipfOw,4016
+odoo_addon_stock_move_line_serial_unique-16.0.1.0.0.3.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+odoo_addon_stock_move_line_serial_unique-16.0.1.0.0.3.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
+odoo_addon_stock_move_line_serial_unique-16.0.1.0.0.3.dist-info/RECORD,,

@@ -1,0 +1,9 @@
+ucolor/__init__.py,sha256=Oog4K8B1DqcAwpz7Br3VOjIQ2LhmQ0Z3zyGm5JFtFY4,971
+ucolor/color_hsla.py,sha256=2kM6V45mvU2KV71JbH_g7tyjoJexWPulCdfyJJiouv4,5016
+ucolor/color_hsva.py,sha256=aBiNKcBEKsVUU9g4lAriwPZfrJLgrYzQ3HgmT65JOI8,5007
+ucolor/color_rgba.py,sha256=SMOmkvRqtQ4yAf2z7c62TY88b28QaR_RuM56IjRIKuQ,4918
+ucolor/convert.py,sha256=X6tE01_6ecHXhSlnKpthYrwOnkHH6Gbu4ECPMhx2XGk,5846
+ucolor/utils.py,sha256=rBTQRmSBvt_Qi1mQT5yHkxs_A_3wU6zYVTi02uP_waA,633
+ucolor-0.2.0.dist-info/METADATA,sha256=2e81FCg84rU1LKOM3AluszbnNIKIHI1ZitnVlHGfT5M,3372
+ucolor-0.2.0.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+ucolor-0.2.0.dist-info/RECORD,,

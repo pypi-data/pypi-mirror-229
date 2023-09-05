@@ -1,0 +1,13 @@
+dominx/stream.cpython-310-darwin.so,sha256=m46H3fOXG7u_DkA7HQj1G42Cn72Msozq2MnV-TMmJDE,34872
+dominx/display.c,sha256=CcmnNbExOiBhkh0sdGKJAq3X7lJfGH8zsd36gn8eHNI,141
+dominx/flow.c,sha256=JNOy8PSUaitO4faLO47HZV_mQxipwhYKRWgLUr0-hug,2423
+dominx/display.cpython-310-darwin.so,sha256=JztN1bON-5MgjIuxJXbliMW3Jd2xtOFPJGGiLEeTJbo,34016
+dominx/__init__.py,sha256=JtvhUcefd94S9lgw_WTP0KhlBHjz_Hji_SJIKJKnPDo,439
+dominx/_internal.c,sha256=8nBuvj1elSDlFK5TcsRlNOrCQ7Kf3J9mr6aO_NmWxCw,813
+dominx/flow.cpython-310-darwin.so,sha256=ba2rv0wstVLD507yOr9U6kCnzdKow3J4KFqq12wc6C8,35752
+dominx/stream.c,sha256=J9fI4-7GIjjI9Zb84r9IUFIAFqVFdCY-kN6qX_Akcsg,806
+dominx-0.3.0b2.dist-info/RECORD,,
+dominx-0.3.0b2.dist-info/WHEEL,sha256=3ggQLyEtwymd0rFFn7Y7bZeC-TPY--XSbFQw5jO7PyA,111
+dominx-0.3.0b2.dist-info/top_level.txt,sha256=W2JgAtrUh4RL0CaPWlInd_dApzzYjssQBObWKR0y0OM,7
+dominx-0.3.0b2.dist-info/LICENSE.txt,sha256=4puGhr9_nOcu5iGjkGJVkP3LWC2tslqWdrO8Hcm06OU,1063
+dominx-0.3.0b2.dist-info/METADATA,sha256=RHyx7pzVumPRX_MrWyabsu5JSjIPtnvWNOnaouQc7Ck,5918

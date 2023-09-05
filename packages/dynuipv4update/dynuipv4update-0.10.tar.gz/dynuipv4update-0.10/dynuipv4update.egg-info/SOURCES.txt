@@ -1,0 +1,14 @@
+LICENSE.rst
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+dynuipv4update/README.MD
+dynuipv4update/__init__.py
+dynuipv4update/requirements.txt
+dynuipv4update/thirdparty.json
+dynuipv4update.egg-info/PKG-INFO
+dynuipv4update.egg-info/SOURCES.txt
+dynuipv4update.egg-info/dependency_links.txt
+dynuipv4update.egg-info/requires.txt
+dynuipv4update.egg-info/top_level.txt

@@ -1,0 +1,13 @@
+muffin_admin/__init__.py,sha256=1g4HiDZpt0BTwioias0s_UfMTTl7Z015eM3jkBkztYw,412
+muffin_admin/admin.html,sha256=DGvQ_cWc4oc_YpFKs8vWZIcWb3BeH-_sQ0u9PZqCFHE,1007
+muffin_admin/handler.py,sha256=IekjSTc_EN3HACL7t9MhCNY_lA3CYAy8Y2w37G9ysgc,8987
+muffin_admin/main.js,sha256=6Qt64fz3zQA7d1KX_w09EicluEEDDBii9JK41d4FSoY,5242506
+muffin_admin/main.js.LICENSE.txt,sha256=iKA0mqQJ4umPqpBU_Srd100YQV4b_LZDBqPsnUNYL4s,2945
+muffin_admin/peewee/__init__.py,sha256=AfQMt53g_sgSiKodiaxq49XtvXgHqxowrHZ9B-cPwxw,3373
+muffin_admin/plugin.py,sha256=y18pd5eGLsG77XuIxiCaTEyoz-NZ9rR26u5TJZNLDdE,6186
+muffin_admin/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+muffin_admin/sqlalchemy/__init__.py,sha256=Z-q_Z1uT85RSGlkCQNnUCDyFPfvzHiQmopO4TFfvoCU,3297
+muffin_admin/types.py,sha256=GxLAL7HDHfuU1TpQKh2djU4jyPFnso3jYuWBcTK51EA,763
+muffin_admin-2.3.7.dist-info/METADATA,sha256=fb0cUozIU_WBVWyi24KOC3CBmkmVq3G0PwzaKmLxNaQ,7914
+muffin_admin-2.3.7.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+muffin_admin-2.3.7.dist-info/RECORD,,

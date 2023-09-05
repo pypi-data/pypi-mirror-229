@@ -1,0 +1,16 @@
+odoo/addons/purchase_analytic_global/README.rst,sha256=RgGBI4FxWMXxO5w8X5Yc1q9J-CWQyGOv3RRk3e38LfI,3097
+odoo/addons/purchase_analytic_global/__init__.py,sha256=X9EJGOE2GtZbS0G82PtSXmWSZ_R8jEM0rlJTDliQjp4,21
+odoo/addons/purchase_analytic_global/__manifest__.py,sha256=6LWcA2TTjo-3z8C8rs9BlHmMmVmV_L6OR1wbMSgsteM,543
+odoo/addons/purchase_analytic_global/i18n/fr.po,sha256=G5mIa1G_leiFkd-eOO1Wi_sxMIx7gxE4eOiwqeJ682Q,1319
+odoo/addons/purchase_analytic_global/i18n/purchase_analytic_global.pot,sha256=iwfTiX7EA62j8ERg40M5Otsy-jeQXqBqj4c4yp6nFzQ,965
+odoo/addons/purchase_analytic_global/models/__init__.py,sha256=DDoSUzUJ2zVg4zxbV9M1eu7c-JSqe9PXFE46JT-2s0I,23
+odoo/addons/purchase_analytic_global/models/purchase.py,sha256=BSLYb7gFOhEAqc7O9imLS6dA9_fx7q5flVSOjOgV3ZE,1120
+odoo/addons/purchase_analytic_global/readme/CONTRIBUTORS.rst,sha256=7Em9-cnLBfgLCL_qimqapvNvtvdK3FtuFB8CFVcf3Fo,153
+odoo/addons/purchase_analytic_global/readme/DESCRIPTION.rst,sha256=QkoAfX_tss91RnOkSBGykTdaLzQPxaQSCi8Q4PM2lZM,88
+odoo/addons/purchase_analytic_global/static/description/icon.png,sha256=6xBPJauaFOF0KDHfHgQopSc28kKvxMaeoQFQWZtfZDo,9455
+odoo/addons/purchase_analytic_global/static/description/index.html,sha256=Z6X0pVp2Vwmzuc3OgIfavCDxyby_JfYQ8gY3deOrFrc,12569
+odoo/addons/purchase_analytic_global/views/purchase.xml,sha256=MRg1XqydkB1a6PbqELz6QEGgkv0PMMxYArxtFTvOqV8,693
+odoo12_addon_purchase_analytic_global-12.0.1.0.0.99.dev3.dist-info/METADATA,sha256=cR6SvqXAQfJT7UVm-Z0AbBS7nJUy6fcgWz139b-FLww,3665
+odoo12_addon_purchase_analytic_global-12.0.1.0.0.99.dev3.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+odoo12_addon_purchase_analytic_global-12.0.1.0.0.99.dev3.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
+odoo12_addon_purchase_analytic_global-12.0.1.0.0.99.dev3.dist-info/RECORD,,

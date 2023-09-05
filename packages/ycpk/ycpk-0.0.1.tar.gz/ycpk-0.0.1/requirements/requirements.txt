@@ -1,0 +1,11 @@
+# data slice
+numpy
+pyyaml
+rospkg
+wind-pypcd
+opencv-python
+
+# gif_generator
+imageio==2.21.1
+rich
+

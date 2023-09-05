@@ -1,0 +1,3 @@
+[console_scripts]
+ycpk = ycpk.main:main
+

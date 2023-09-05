@@ -1,0 +1,7 @@
+README.md
+setup.py
+whatupworld.egg-info/PKG-INFO
+whatupworld.egg-info/SOURCES.txt
+whatupworld.egg-info/dependency_links.txt
+whatupworld.egg-info/entry_points.txt
+whatupworld.egg-info/top_level.txt

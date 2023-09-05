@@ -1,0 +1,1 @@
+from spartaORM.hello import hello

@@ -1,0 +1,16 @@
+typing-extensions>=4.7.1
+watchdog>=3.0.0
+
+[dev]
+bandit
+black
+covdefaults
+coverage
+isort
+mypy
+pre-commit
+pylint
+pylint-pytest
+pytest
+ruff
+tox

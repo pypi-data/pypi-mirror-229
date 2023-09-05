@@ -1,0 +1,15 @@
+typing-extensions==4.6.0
+cmake>=3.27.2
+Cython==0.29.24
+httpx==0.23.0
+numpy==1.25.2
+dlib
+setuptools
+retina-face
+opencv-python
+tensorflow
+easyocr
+Pillow
+scikit-image
+scipy
+pandas

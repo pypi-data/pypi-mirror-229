@@ -1,0 +1,15 @@
+odoo/addons/stock_picking_cancel_confirm/README.rst,sha256=CDw4Vh-y_1Cj-fTGNOmm7F3bdQuRTsQdUNplp0hfCC8,3294
+odoo/addons/stock_picking_cancel_confirm/__init__.py,sha256=DAc9L3XMDOkFF-DqZnXMcuY8f5Ifs0KZ5VLYMDn9fgU,149
+odoo/addons/stock_picking_cancel_confirm/__manifest__.py,sha256=n0hkdiT4wpMS1sIMmuyRV48DiekYwHFiOcb4odngjMw,516
+odoo/addons/stock_picking_cancel_confirm/i18n/it.po,sha256=8lBlwKKusj7Ot1ykPBcP6XIUjXn7ZOZoQwZURzI38GM,2160
+odoo/addons/stock_picking_cancel_confirm/i18n/stock_picking_cancel_confirm.pot,sha256=YaiOhxp15LKy8igumj_3bO_v6a4pfvDz_JLZHvNlWjY,1795
+odoo/addons/stock_picking_cancel_confirm/models/__init__.py,sha256=yMkV9nRUbIbQul3fFYP57Q6Aqd__ZYh5D9T6Vvk5zsQ,156
+odoo/addons/stock_picking_cancel_confirm/models/stock_picking.py,sha256=-DhMHKSlqBY4og2i7_EUqn8Zy21jSmDd_w4ETZhMmwE,512
+odoo/addons/stock_picking_cancel_confirm/readme/CONTRIBUTORS.rst,sha256=ND9iER31OXNdbuc-A70OPWMYdemEOX8huHq33wDq8qI,34
+odoo/addons/stock_picking_cancel_confirm/readme/DESCRIPTION.rst,sha256=I6LxiOglwBRdTmrykLBBDLEIRRSv3yDbUFNezrOLtj8,103
+odoo/addons/stock_picking_cancel_confirm/static/description/icon.png,sha256=6xBPJauaFOF0KDHfHgQopSc28kKvxMaeoQFQWZtfZDo,9455
+odoo/addons/stock_picking_cancel_confirm/static/description/index.html,sha256=wHOkMp20ZVht6Gm8wM_jFshrHQ2pfMDc7yWpDC3fYhM,12608
+odoo14_addon_stock_picking_cancel_confirm-14.0.1.0.2.dev3.dist-info/METADATA,sha256=t3qcuNhmDEWeI72mjonWWYz3dKo0AJOHW1b6GSobLr4,3909
+odoo14_addon_stock_picking_cancel_confirm-14.0.1.0.2.dev3.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+odoo14_addon_stock_picking_cancel_confirm-14.0.1.0.2.dev3.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
+odoo14_addon_stock_picking_cancel_confirm-14.0.1.0.2.dev3.dist-info/RECORD,,

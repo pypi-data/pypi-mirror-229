@@ -1,0 +1,16 @@
+odoo/addons/web_confirm_duplicate/README.rst,sha256=WTWFhFBTIiQTesbqXU4YmKyQ6Baooko5BDy5dgNFHxQ,3131
+odoo/addons/web_confirm_duplicate/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+odoo/addons/web_confirm_duplicate/__manifest__.py,sha256=wrJZJTX38hnEBZJfeF0c_L5NR2xtKAkxfUirHUKkzB4,529
+odoo/addons/web_confirm_duplicate/i18n/web_confirm_duplicate.pot,sha256=7SS2LGW1WdehYq6AZvID7YlTDERvsPG_oGoS7DOD-yI,573
+odoo/addons/web_confirm_duplicate/readme/CONTRIBUTORS.rst,sha256=Cbu_K7Qrt8rzIYgqHpSwJuxQPnqX4q22lJVGBwVTWao,38
+odoo/addons/web_confirm_duplicate/readme/DESCRIPTION.rst,sha256=KqMUtXd3mF2CByFeN9Vcs4DLLMnwTEmoU3ZslY4PS4Q,66
+odoo/addons/web_confirm_duplicate/readme/USAGE.rst,sha256=KgUpb-LdtreMfFJjBVw0VV9SgHBr8XRmibdICQfKrpg,85
+odoo/addons/web_confirm_duplicate/static/description/icon.png,sha256=6xBPJauaFOF0KDHfHgQopSc28kKvxMaeoQFQWZtfZDo,9455
+odoo/addons/web_confirm_duplicate/static/description/index.html,sha256=eK6IMChgFfB1gdTCG2DLtSIifc9ot6MAWvayViMuuRI,12607
+odoo/addons/web_confirm_duplicate/static/src/js/basic_view.js,sha256=Ik-KT35r7PFTQ2KAxf4mXJyheAw4KlhbIvvu8dCzX0I,418
+odoo/addons/web_confirm_duplicate/static/src/js/form_controller.js,sha256=6nN_M_XPDyXD53eYzi6QsDlIYLDiiYu4V1-geBgvJcU,1266
+odoo/addons/web_confirm_duplicate/templates/assets.xml,sha256=0pg8goDO6zzhCr0bIokO-hpEg60tJLZgoYhUKRF_rWg,561
+odoo13_addon_web_confirm_duplicate-13.0.1.0.2.dev1.dist-info/METADATA,sha256=haWrh4adrleE4tfj0Vs8z4t-FnDgnhGZjmwl9AlzElo,3740
+odoo13_addon_web_confirm_duplicate-13.0.1.0.2.dev1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+odoo13_addon_web_confirm_duplicate-13.0.1.0.2.dev1.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
+odoo13_addon_web_confirm_duplicate-13.0.1.0.2.dev1.dist-info/RECORD,,

@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: pubmedExtractor
+Version: 0.1
+Summary: Extract full text from PubMed Central
+Requires-Dist: requests
+Requires-Dist: beautifulsoup4
+Requires-Dist: tqdm
+

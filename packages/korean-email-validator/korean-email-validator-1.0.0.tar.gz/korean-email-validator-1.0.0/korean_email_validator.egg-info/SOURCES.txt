@@ -1,0 +1,7 @@
+setup.py
+korean_email_validator.egg-info/PKG-INFO
+korean_email_validator.egg-info/SOURCES.txt
+korean_email_validator.egg-info/dependency_links.txt
+korean_email_validator.egg-info/not-zip-safe
+korean_email_validator.egg-info/requires.txt
+korean_email_validator.egg-info/top_level.txt

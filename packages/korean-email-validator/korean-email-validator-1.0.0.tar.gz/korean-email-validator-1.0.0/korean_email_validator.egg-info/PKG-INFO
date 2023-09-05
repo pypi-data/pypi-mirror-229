@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: korean-email-validator
+Version: 1.0.0
+Summary: 이메일 유효성 검증 패키지로, 한국어로 이메일 유효성 검증 결과를 반환합니다.
+Home-page: https://github.com/kimain050401/korean-email-validator
+Author: Kim Ain
+Author-email: kimain0401@kakao.com
+Keywords: kimain,corondev,email,email validator,email verify,email check,email checker
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.6

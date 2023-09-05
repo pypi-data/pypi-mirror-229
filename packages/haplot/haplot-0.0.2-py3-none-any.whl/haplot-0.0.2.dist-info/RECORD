@@ -1,0 +1,10 @@
+haplot/__init__.py,sha256=7Xpxp6duTGNn0KSE_z-t5D8yrLeYnZxSouthwLLA6BE,131
+haplot/chart.py,sha256=koG7Qdl7VwXaNiXTZQY1ST3Zp7C6nd15NvrHnXmDnFo,35440
+haplot/data.py,sha256=g40LLOGgPYRAALtrYnmP3_JbtnQB_wcjL5G7mtk35E4,3537
+haplot/theme.py,sha256=yaL-D2bJ5hui1E09HCcrl5AcYavFDDrhM8wYcOS1h2Y,4595
+haplot/utils.py,sha256=Y1pKDwx4smHtVMSBzrMgkHLzUwBmEINCP7VE3kVXAJA,2744
+haplot-0.0.2.dist-info/LICENSE,sha256=mzwAfV2atW-YXAVV9q9C5T8guB8xv3cUxhxyQbSnkgg,1526
+haplot-0.0.2.dist-info/METADATA,sha256=YoE1jt0DdV51IbAXQIlt1CFMW0kJttq7dmsUscLCSMw,495
+haplot-0.0.2.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+haplot-0.0.2.dist-info/top_level.txt,sha256=Kcu8Sh0m_273SXiug-nBfZhsYza1Zes2k6-gBOQJDs4,7
+haplot-0.0.2.dist-info/RECORD,,

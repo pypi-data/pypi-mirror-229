@@ -1,0 +1,8 @@
+katorpdf/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+katorpdf/pdf2image.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+katorpdf/pdf2text.py,sha256=-5aEJWGjRorNejq61pdJQffUsTUN8rCs42j6nMHIhqA,38
+katorpdf-1.0.dist-info/LICENSE,sha256=ctLwkzT4uH3e2UqDO6faBeUoDnegN8ojslH5bq5M9xk,35562
+katorpdf-1.0.dist-info/METADATA,sha256=owzOg52kYQq3lCJ72t9xblYETtnLdJR-aukmwi38cTk,116
+katorpdf-1.0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+katorpdf-1.0.dist-info/top_level.txt,sha256=ENaymcHW6c8cG4JdTfzcO4MFiZUlZBdd-VCQhKO_D0U,9
+katorpdf-1.0.dist-info/RECORD,,

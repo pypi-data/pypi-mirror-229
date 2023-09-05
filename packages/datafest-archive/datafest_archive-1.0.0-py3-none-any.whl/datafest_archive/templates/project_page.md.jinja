@@ -1,0 +1,47 @@
+## Description
+
+{{ project.project_overview }}
+
+{% if project.awards %}
+
+## Awards
+
+{%- for award in project.awards %}
+* {{ award.name }}
+{% endfor %}
+{% endif %}
+
+
+{% if project.students %}
+## Students
+{% for student in project.students %}
+* [{{ student.name }}](../../../author/{{ student.url_name }})
+{% endfor %}
+{% endif %}
+
+{%- if project.advisors -%}
+## Advisors
+{% for advisor in project.advisors %}
+* [{{ advisor.name }}](../../../author/{{ advisor.url_name }})
+{% endfor %}
+{%- endif -%}
+
+{% if project.skill_required %}
+## Skills Required by the team
+
+{% for skill in project.skill_required %}
+* {{ skill.name }}
+{%- endfor -%}
+{%- endif -%}
+
+{% if project.student_learning %}
+## What students will learn
+
+{{ project.student_learning }}
+{%- endif -%}
+
+{% if project.final_presentation %}
+## Final presentation resources
+
+* [Final presentation]({{ project.final_presentation }})
+{%- endif -%}

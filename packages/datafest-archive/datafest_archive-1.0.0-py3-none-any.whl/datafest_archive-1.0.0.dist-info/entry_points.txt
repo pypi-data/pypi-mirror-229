@@ -1,0 +1,3 @@
+[console_scripts]
+datafest-archive=datafest_archive.__main__:app
+

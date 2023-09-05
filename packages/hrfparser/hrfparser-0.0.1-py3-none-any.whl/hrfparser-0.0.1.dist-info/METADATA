@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: hrfparser
+Version: 0.0.1
+Summary: A convenience pipeline for working with Human-Readable Formats ( HRFs ) such as YAML and JSON.
+Project-URL: GitHub, https://github.com/SeanYeatts/hrfparser.git
+Author: Sean Yeatts
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7

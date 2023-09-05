@@ -1,0 +1,13 @@
+{
+    ".env": "",
+    "src": {},
+    "tests": {},
+    "requirements": {
+        "base.txt": "",
+        "dev.txt": "",
+        "prod.txt": ""
+    },
+    "templates": {
+        "index.html": ""
+    }
+}

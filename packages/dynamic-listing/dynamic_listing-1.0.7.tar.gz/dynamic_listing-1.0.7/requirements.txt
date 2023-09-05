@@ -1,0 +1,6 @@
+django-filter==22.1
+django-base-template
+Django==4.2
+factory-boy==3.2.1
+Sphinx==7.2.5
+sphinx_rtd_theme

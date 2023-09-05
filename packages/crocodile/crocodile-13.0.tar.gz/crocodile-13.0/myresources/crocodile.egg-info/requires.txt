@@ -1,0 +1,13 @@
+numpy
+pandas
+matplotlib
+psutil
+psutil
+joblib
+ipython
+fire
+tqdm
+dill
+cryptography
+paramiko
+requests

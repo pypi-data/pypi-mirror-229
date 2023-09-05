@@ -1,0 +1,13 @@
+RStockvn/__init__.py,sha256=dsm6L_f2LijDcw4O4vnh_h0U-AdbI7DVwB61LGxdZyU,736
+RStockvn/cafef_test.py,sha256=VINRYHykfOu_q-HUd5fIemzm2njo0cYvZMnhhl6o6_k,4381
+RStockvn/data_cafef.py,sha256=nrsRexauZcx4kcMZL27q57Eo8YJdQfBvZdtgM1JuZzk,6344
+RStockvn/ds_company.py,sha256=bvFnd_dT9WfJ41tHGD4_bAnL4SKxbFJTxN-yi2O3wyk,4503
+RStockvn/report_vnd.py,sha256=9r_9zcDDFodo_ikQ0lqlG8jRjPGozqu7BRUzyPB_fLY,2906
+RStockvn/stockvn.py,sha256=A9ubde1ZMTBhx7LpUCp0ZwkbW1jhmPldyfdBk7XwTGA,13999
+RStockvn/user_agent.py,sha256=JqaJXdVybsmRM1ry1jC2F_MULqQSlpMt3Wt3waTl7A4,139694
+RStockvn/data/dsnganh.xlsx,sha256=iSlJd28hzIa21X5bU3Ofhd6neV5AqDMimsHpfOWNik4,11740
+RStockvn-2.1.10.1.dist-info/LICENSE,sha256=JCqCoa4UiX0iKaqXRShKwd6GPsOeC98wrwQy-uFHppo,1090
+RStockvn-2.1.10.1.dist-info/METADATA,sha256=vaFrShCS8RWRAJcUXvfmmBB-BnrKt0rgXBkhBtBUjiA,9906
+RStockvn-2.1.10.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+RStockvn-2.1.10.1.dist-info/top_level.txt,sha256=TRLl-sz_RCnwlF9LHYuPi3vjl7FKLf7eSkW1vkn6TP8,9
+RStockvn-2.1.10.1.dist-info/RECORD,,

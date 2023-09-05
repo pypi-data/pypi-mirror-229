@@ -1,0 +1,38 @@
+AioSQLiteStorage is a modern async FSM Storage for Telegram Bots on Python. It is surprisingly easy to connect and use.
+
+**Install**
+
+.. code-block:: console
+
+
+  $ pip install sqlite-fsm-storage
+
+
+**Example of use in a telegram bot on aiogram:**
+
+.. code-block:: python
+
+
+  from aiogram import Bot, Dispatcher
+  from aiogram.dispatcher.dispatcher import CancelledError
+  from sqlite_fsm_storage import AioSQLiteStorage
+  import asyncio
+
+  async def main():
+      bot = Bot(token='YOUR_BOT_TOKEN', parse_mode='HTML')
+      storage = AioSQLiteStorage()
+      await storage.start()
+      dp = Dispatcher(storage=storage)
+      await bot.delete_webhook(drop_pending_updates=True)
+      try:
+          await dp.start_polling(bot, allowed_updates=['message', 'callback_query'])
+      except CancelledError:
+          pass
+      finally:
+          await bot.session.close()
+          await storage.close()
+
+  if __name__ == '__main__':
+      asyncio.run(main())
+
+**Developer - Blaze Egor**

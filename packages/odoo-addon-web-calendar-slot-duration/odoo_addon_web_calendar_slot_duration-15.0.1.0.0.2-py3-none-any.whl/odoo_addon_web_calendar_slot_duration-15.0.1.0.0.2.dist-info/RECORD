@@ -1,0 +1,17 @@
+odoo/addons/web_calendar_slot_duration/README.rst,sha256=tIBwoBU7Y058999rWmIxu6ASyAvQK27U7DtLeamhPeY,3687
+odoo/addons/web_calendar_slot_duration/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+odoo/addons/web_calendar_slot_duration/__manifest__.py,sha256=_fnzK-rWRjtPkHHV1TAJjEc4d45x5kqDpPbtKLkqE4Y,688
+odoo/addons/web_calendar_slot_duration/i18n/de.po,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+odoo/addons/web_calendar_slot_duration/i18n/pt_BR.po,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+odoo/addons/web_calendar_slot_duration/i18n/web_calendar_slot_duration.pot,sha256=BIyTShSvBhiJMqh2td4QGlxB8SDDzDZd0Pqu6WZgBR8,341
+odoo/addons/web_calendar_slot_duration/readme/CONFIGURE.rst,sha256=iN0hkWVBNd8fZVHT66POAl_NP_g64c-LTw7JpbUVxHw,325
+odoo/addons/web_calendar_slot_duration/readme/DESCRIPTION.rst,sha256=7LLr2OdEM1HplY6kdvALazmPSQhp28zGlv-Ng6uJRcM,176
+odoo/addons/web_calendar_slot_duration/readme/ROADMAP.rst,sha256=E-rbdZedEcY2j7A8ipP2YX704DXbyCugvdOSm85VSQ4,73
+odoo/addons/web_calendar_slot_duration/readme/USAGE.rst,sha256=7zlPhPu2WHTdM-ldCuhLMq3Zc8FQLz2B0aofH3aaiMY,121
+odoo/addons/web_calendar_slot_duration/static/description/icon.png,sha256=6xBPJauaFOF0KDHfHgQopSc28kKvxMaeoQFQWZtfZDo,9455
+odoo/addons/web_calendar_slot_duration/static/description/index.html,sha256=tqoYbYqrERPWr9IX2uuJV_Tangtck2n_y2RxAq1b_4Q,13480
+odoo/addons/web_calendar_slot_duration/static/src/js/calendar_model.esm.js,sha256=X-dU9990nPaaJ12vtCIJwDGdK4ba-ckYozJ8VCDtomg,636
+odoo_addon_web_calendar_slot_duration-15.0.1.0.0.2.dist-info/METADATA,sha256=DtD-hKzlW6NgqIb8dw9Uihw7fjeAwRqWwSgjkyP-vg4,4301
+odoo_addon_web_calendar_slot_duration-15.0.1.0.0.2.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+odoo_addon_web_calendar_slot_duration-15.0.1.0.0.2.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
+odoo_addon_web_calendar_slot_duration-15.0.1.0.0.2.dist-info/RECORD,,

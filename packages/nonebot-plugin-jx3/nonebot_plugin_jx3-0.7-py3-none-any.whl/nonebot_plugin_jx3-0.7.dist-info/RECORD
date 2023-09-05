@@ -1,0 +1,11 @@
+nonebot_plugin_jx3/__init__.py,sha256=7JclJA25GLSfCSgVUlCIfWtuA8QSRvLQH1NjlOa1g8I,13763
+nonebot_plugin_jx3/bind.py,sha256=2Ka79VR3fawOw7MDsEhXlpJFU7oRig1mVolUiOAhzp0,1845
+nonebot_plugin_jx3/config.py,sha256=uN2Sf6v7FEwTOCk2NtyySTz6_Dkt_iNI-xWj_rN-VNU,208
+nonebot_plugin_jx3/help.png,sha256=-l9C2ypEzyqcxjNdddVvzjWsNiESlFvUxgwoDUqGqlk,174441
+nonebot_plugin_jx3/subscribe.py,sha256=Vy4QIS1zR1qbyG0d6WmXdo_8ME8ti3jbjtr5P9M7PMA,3696
+nonebot_plugin_jx3/userdefine.py,sha256=ldJrQ7X8nHMA3SH1QqSsZKPHXEdlWmEw0undAerbcRw,2835
+nonebot_plugin_jx3/websocket_handler.py,sha256=RXu6_DLWHL8zkgeQ8RffyoUnj5ulB4Vzu2Fk_3pmQfY,11112
+nonebot_plugin_jx3-0.7.dist-info/LICENSE,sha256=AslHr7N3acbKYZNu6zTgzkAalR2E5mE8Kxa6L-X9Kk0,1084
+nonebot_plugin_jx3-0.7.dist-info/METADATA,sha256=rfqitxMzRHlHLpTjvSnH7hToyLUscMhUJ1Wdul8tpZU,6786
+nonebot_plugin_jx3-0.7.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+nonebot_plugin_jx3-0.7.dist-info/RECORD,,

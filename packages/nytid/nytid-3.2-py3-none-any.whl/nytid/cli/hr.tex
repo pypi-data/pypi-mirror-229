@@ -1,0 +1,272 @@
+\chapter{The {\Tt{}cli.hr\nwendquote} module and the {\Tt{}hr\nwendquote} subcommands}%% ===> this file was generated automatically by noweave --- better not edit it
+\label{cli.signupsheets}
+
+In this chapter we introduce the subommands found under {\Tt{}nytid\ signupsheets\nwendquote},
+it's the {\Tt{}cli.signupsheets\nwendquote} module.
+\nwfilename{hr.nw}\nwbegincode{1}\sublabel{NW4Wn4uX-3C6uNN-1}\nwmargintag{{\nwtagstyle{}\subpageref{NW4Wn4uX-3C6uNN-1}}}\moddef{hr.py~{\nwtagstyle{}\subpageref{NW4Wn4uX-3C6uNN-1}}}\endmoddef\nwstartdeflinemarkup\nwenddeflinemarkup
+import arrow
+import csv
+import datetime
+from enum import Enum
+import ics.icalendar
+import logging
+import pathlib
+import sys
+import typer
+from typing_extensions import Annotated
+
+from nytid.signup import hr
+from nytid.signup import sheets
+import operator
+
+from nytid.cli import courses as coursescli
+from nytid.cli.signupsheets import SIGNUPSHEET_URL_PATH
+from nytid import courses as courseutils
+from nytid import schedules as schedutils
+from nytid.signup import hr
+from nytid.signup import sheets
+
+\LA{}imports~{\nwtagstyle{}\subpageref{NW4Wn4uX-1n4S18-1}}\RA{}
+
+cli = typer.Typer(name="hr",
+                  help="Manage sign-up sheets for teaching")
+
+\LA{}helper functions~{\nwtagstyle{}\subpageref{NW4Wn4uX-47YflN-1}}\RA{}
+\LA{}argument and option definitions~{\nwtagstyle{}\subpageref{NW4Wn4uX-2Ns6UP-1}}\RA{}
+\LA{}subcommands~{\nwtagstyle{}\subpageref{NW4Wn4uX-CyCSh-1}}\RA{}
+\nwnotused{hr.py}\nwendcode{}\nwbegindocs{2}\nwdocspar
+
+
+\section{Default arguments for matching courses and users}
+
+The first argument we need is to identify a set of courses.
+For this we might also have to identify a set of registers.
+We'll use the argument and option defined in the {\Tt{}cli.courses\nwendquote} module.
+We'll default to all courses ({\Tt{}.*\nwendquote}) in the register of the {\Tt{}mine\nwendquote} command.
+\nwenddocs{}\nwbegincode{3}\sublabel{NW4Wn4uX-2Zb0Rn-1}\nwmargintag{{\nwtagstyle{}\subpageref{NW4Wn4uX-2Zb0Rn-1}}}\moddef{argument for matching courses~{\nwtagstyle{}\subpageref{NW4Wn4uX-2Zb0Rn-1}}}\endmoddef\nwstartdeflinemarkup\nwusesondefline{\\{NW4Wn4uX-CyCSh-1}\\{NW4Wn4uX-CyCSh-2}\\{NW4Wn4uX-FgX7F-1}}\nwenddeflinemarkup
+course: Annotated[str, coursescli.course_arg_regex]
+\nwused{\\{NW4Wn4uX-CyCSh-1}\\{NW4Wn4uX-CyCSh-2}\\{NW4Wn4uX-FgX7F-1}}\nwendcode{}\nwbegincode{4}\sublabel{NW4Wn4uX-4b5wkB-1}\nwmargintag{{\nwtagstyle{}\subpageref{NW4Wn4uX-4b5wkB-1}}}\moddef{option for matching registers, default to mine~{\nwtagstyle{}\subpageref{NW4Wn4uX-4b5wkB-1}}}\endmoddef\nwstartdeflinemarkup\nwusesondefline{\\{NW4Wn4uX-CyCSh-1}\\{NW4Wn4uX-CyCSh-2}\\{NW4Wn4uX-FgX7F-1}}\nwenddeflinemarkup
+register: Annotated[str, coursescli.register_opt_regex] = coursescli.MINE
+\nwused{\\{NW4Wn4uX-CyCSh-1}\\{NW4Wn4uX-CyCSh-2}\\{NW4Wn4uX-FgX7F-1}}\nwendcode{}\nwbegindocs{5}\nwdocspar
+
+Then we can create a list of course--configuration pairs like this.
+\nwenddocs{}\nwbegincode{6}\sublabel{NW4Wn4uX-30HUkq-1}\nwmargintag{{\nwtagstyle{}\subpageref{NW4Wn4uX-30HUkq-1}}}\moddef{set list \code{}courses\edoc{} to ((course, register), config)-pairs~{\nwtagstyle{}\subpageref{NW4Wn4uX-30HUkq-1}}}\endmoddef\nwstartdeflinemarkup\nwusesondefline{\\{NW4Wn4uX-CyCSh-1}\\{NW4Wn4uX-CyCSh-2}}\nwprevnextdefs{\relax}{NW4Wn4uX-30HUkq-2}\nwenddeflinemarkup
+registers = coursescli.registers_regex(register)
+courses = \{course_reg: courseutils.get_course_config(*course_reg)
+           for course_reg in coursescli.courses_regex(course, registers)\}
+\nwalsodefined{\\{NW4Wn4uX-30HUkq-2}}\nwused{\\{NW4Wn4uX-CyCSh-1}\\{NW4Wn4uX-CyCSh-2}}\nwendcode{}\nwbegindocs{7}\nwdocspar
+
+Now, if that list is empty, we have no courses, then we exit with a non-zero 
+return code.
+\nwenddocs{}\nwbegincode{8}\sublabel{NW4Wn4uX-30HUkq-2}\nwmargintag{{\nwtagstyle{}\subpageref{NW4Wn4uX-30HUkq-2}}}\moddef{set list \code{}courses\edoc{} to ((course, register), config)-pairs~{\nwtagstyle{}\subpageref{NW4Wn4uX-30HUkq-1}}}\plusendmoddef\nwstartdeflinemarkup\nwusesondefline{\\{NW4Wn4uX-CyCSh-1}\\{NW4Wn4uX-CyCSh-2}}\nwprevnextdefs{NW4Wn4uX-30HUkq-1}{\relax}\nwenddeflinemarkup
+if not courses:
+  sys.exit(1)
+\nwused{\\{NW4Wn4uX-CyCSh-1}\\{NW4Wn4uX-CyCSh-2}}\nwendcode{}\nwbegindocs{9}\nwdocspar
+
+We also need a username.
+We will default to the username of the logged in user.
+\nwenddocs{}\nwbegincode{10}\sublabel{NW4Wn4uX-2RixzZ-1}\nwmargintag{{\nwtagstyle{}\subpageref{NW4Wn4uX-2RixzZ-1}}}\moddef{option for username to filter for~{\nwtagstyle{}\subpageref{NW4Wn4uX-2RixzZ-1}}}\endmoddef\nwstartdeflinemarkup\nwusesondefline{\\{NW4Wn4uX-FgX7F-1}}\nwenddeflinemarkup
+user: Annotated[str, username_opt] = default_username
+\nwused{\\{NW4Wn4uX-FgX7F-1}}\nwendcode{}\nwbegincode{11}\sublabel{NW4Wn4uX-2Ns6UP-1}\nwmargintag{{\nwtagstyle{}\subpageref{NW4Wn4uX-2Ns6UP-1}}}\moddef{argument and option definitions~{\nwtagstyle{}\subpageref{NW4Wn4uX-2Ns6UP-1}}}\endmoddef\nwstartdeflinemarkup\nwusesondefline{\\{NW4Wn4uX-3C6uNN-1}}\nwprevnextdefs{\relax}{NW4Wn4uX-2Ns6UP-2}\nwenddeflinemarkup
+try:
+  default_username = os.environ["USER"]
+except KeyError:
+  default_username = None
+
+username_opt = typer.Option(help="Username to filter sign-up sheet for, "
+                                 "defaults to logged in user's username.")
+\nwalsodefined{\\{NW4Wn4uX-2Ns6UP-2}}\nwused{\\{NW4Wn4uX-3C6uNN-1}}\nwendcode{}\nwbegincode{12}\sublabel{NW4Wn4uX-1n4S18-1}\nwmargintag{{\nwtagstyle{}\subpageref{NW4Wn4uX-1n4S18-1}}}\moddef{imports~{\nwtagstyle{}\subpageref{NW4Wn4uX-1n4S18-1}}}\endmoddef\nwstartdeflinemarkup\nwusesondefline{\\{NW4Wn4uX-3C6uNN-1}}\nwprevnextdefs{\relax}{NW4Wn4uX-1n4S18-2}\nwenddeflinemarkup
+import os
+\nwalsodefined{\\{NW4Wn4uX-1n4S18-2}\\{NW4Wn4uX-1n4S18-3}}\nwused{\\{NW4Wn4uX-3C6uNN-1}}\nwendcode{}\nwbegindocs{13}\nwdocspar
+
+
+
+\section{Teaching time totals for a course}
+
+We provide a command {\Tt{}time\nwendquote} that summarizes the time spent on the course.
+\nwenddocs{}\nwbegincode{14}\sublabel{NW4Wn4uX-CyCSh-1}\nwmargintag{{\nwtagstyle{}\subpageref{NW4Wn4uX-CyCSh-1}}}\moddef{subcommands~{\nwtagstyle{}\subpageref{NW4Wn4uX-CyCSh-1}}}\endmoddef\nwstartdeflinemarkup\nwusesondefline{\\{NW4Wn4uX-3C6uNN-1}}\nwprevnextdefs{\relax}{NW4Wn4uX-CyCSh-2}\nwenddeflinemarkup
+@cli.command()
+def time(\LA{}argument for matching courses~{\nwtagstyle{}\subpageref{NW4Wn4uX-2Zb0Rn-1}}\RA{},
+         \LA{}option for matching registers, default to mine~{\nwtagstyle{}\subpageref{NW4Wn4uX-4b5wkB-1}}\RA{}):
+  """
+  Summarizes the time spent on teaching the course(s).
+  """
+  \LA{}set list \code{}courses\edoc{} to ((course, register), config)-pairs~{\nwtagstyle{}\subpageref{NW4Wn4uX-30HUkq-1}}\RA{}
+
+  booked = []
+  for (course, register), config in courses.items():
+    \LA{}add to \code{}booked\edoc{} from \code{}course\edoc{} in \code{}register\edoc{} using \code{}config\edoc{}~{\nwtagstyle{}\subpageref{NW4Wn4uX-25sTg1-1}}\RA{}
+
+  \LA{}print summary of \code{}booked\edoc{}~{\nwtagstyle{}\subpageref{NW4Wn4uX-2Jo3mB-1}}\RA{}
+\nwalsodefined{\\{NW4Wn4uX-CyCSh-2}}\nwused{\\{NW4Wn4uX-3C6uNN-1}}\nwendcode{}\nwbegindocs{15}\nwdocspar
+
+To add the bookings of a course to {\Tt{}booked\nwendquote}, we simply get the URL of the 
+sign-up sheet and read the bookings.
+\nwenddocs{}\nwbegincode{16}\sublabel{NW4Wn4uX-25sTg1-1}\nwmargintag{{\nwtagstyle{}\subpageref{NW4Wn4uX-25sTg1-1}}}\moddef{add to \code{}booked\edoc{} from \code{}course\edoc{} in \code{}register\edoc{} using \code{}config\edoc{}~{\nwtagstyle{}\subpageref{NW4Wn4uX-25sTg1-1}}}\endmoddef\nwstartdeflinemarkup\nwusesondefline{\\{NW4Wn4uX-CyCSh-1}\\{NW4Wn4uX-CyCSh-2}}\nwenddeflinemarkup
+url = config.get(SIGNUPSHEET_URL_PATH)
+\LA{}convert \code{}url\edoc{} to Google Sheet CSV-export URL if necessary~{\nwtagstyle{}\subpageref{NW4Wn4uX-1WcITC-1}}\RA{}
+booked += sheets.read_signup_sheet_from_url(url)
+\nwused{\\{NW4Wn4uX-CyCSh-1}\\{NW4Wn4uX-CyCSh-2}}\nwendcode{}\nwbegincode{17}\sublabel{NW4Wn4uX-1n4S18-2}\nwmargintag{{\nwtagstyle{}\subpageref{NW4Wn4uX-1n4S18-2}}}\moddef{imports~{\nwtagstyle{}\subpageref{NW4Wn4uX-1n4S18-1}}}\plusendmoddef\nwstartdeflinemarkup\nwusesondefline{\\{NW4Wn4uX-3C6uNN-1}}\nwprevnextdefs{NW4Wn4uX-1n4S18-1}{NW4Wn4uX-1n4S18-3}\nwenddeflinemarkup
+from nytid.signup import sheets
+\nwused{\\{NW4Wn4uX-3C6uNN-1}}\nwendcode{}\nwbegindocs{18}\nwdocspar
+
+If it's a Google Sheets sharing URL, we want to convert it to the export-CSV 
+URL.
+\nwenddocs{}\nwbegincode{19}\sublabel{NW4Wn4uX-1WcITC-1}\nwmargintag{{\nwtagstyle{}\subpageref{NW4Wn4uX-1WcITC-1}}}\moddef{convert \code{}url\edoc{} to Google Sheet CSV-export URL if necessary~{\nwtagstyle{}\subpageref{NW4Wn4uX-1WcITC-1}}}\endmoddef\nwstartdeflinemarkup\nwusesondefline{\\{NW4Wn4uX-25sTg1-1}}\nwenddeflinemarkup
+if "docs.google.com" in url:
+  url = sheets.google_sheet_to_csv_url(url)
+\nwused{\\{NW4Wn4uX-25sTg1-1}}\nwendcode{}\nwbegindocs{20}\nwdocspar
+
+Once we have {\Tt{}booked\nwendquote} we can start to compute summaries.
+\nwenddocs{}\nwbegincode{21}\sublabel{NW4Wn4uX-2Jo3mB-1}\nwmargintag{{\nwtagstyle{}\subpageref{NW4Wn4uX-2Jo3mB-1}}}\moddef{print summary of \code{}booked\edoc{}~{\nwtagstyle{}\subpageref{NW4Wn4uX-2Jo3mB-1}}}\endmoddef\nwstartdeflinemarkup\nwusesondefline{\\{NW4Wn4uX-CyCSh-1}}\nwenddeflinemarkup
+h_per_student = hr.hours_per_student(booked)
+
+for event, hours in h_per_student.items():
+    print(f"\{event\}: \{to_hours(hours):.2f\} h/student")
+
+print(f"Booked: \{to_hours(hr.total_hours(booked)):.2f\} h "
+        f"(\{to_hours(hr.max_hours(booked)):.2f\} h)\\n")
+
+print("# Amanuenser")
+
+amanuensis = hr.compute_amanuensis_data(booked)
+
+for user, data in amanuensis.items():
+    if not user:
+        continue
+    print(f"\{user\}: \{data[2]:.2f\} h, "
+          f"\{100*hr.compute_percentage(*data):.1f\}%: "
+          f"\{data[0].format('YYYY-MM-DD')\}--\{data[1].format('YYYY-MM-DD')\}")
+
+print()
+print("# Hourly")
+
+for user, hours in hr.hours_per_TA(booked).items():
+  if not user or user in amanuensis:
+      continue
+  print(f"\{user\}: \{to_hours(hours):.2f\} h")
+\nwused{\\{NW4Wn4uX-CyCSh-1}}\nwendcode{}\nwbegincode{22}\sublabel{NW4Wn4uX-1n4S18-3}\nwmargintag{{\nwtagstyle{}\subpageref{NW4Wn4uX-1n4S18-3}}}\moddef{imports~{\nwtagstyle{}\subpageref{NW4Wn4uX-1n4S18-1}}}\plusendmoddef\nwstartdeflinemarkup\nwusesondefline{\\{NW4Wn4uX-3C6uNN-1}}\nwprevnextdefs{NW4Wn4uX-1n4S18-2}{\relax}\nwenddeflinemarkup
+from nytid.signup import utils
+from nytid.signup import hr
+\nwused{\\{NW4Wn4uX-3C6uNN-1}}\nwendcode{}\nwbegincode{23}\sublabel{NW4Wn4uX-47YflN-1}\nwmargintag{{\nwtagstyle{}\subpageref{NW4Wn4uX-47YflN-1}}}\moddef{helper functions~{\nwtagstyle{}\subpageref{NW4Wn4uX-47YflN-1}}}\endmoddef\nwstartdeflinemarkup\nwusesondefline{\\{NW4Wn4uX-3C6uNN-1}}\nwprevnextdefs{\relax}{NW4Wn4uX-47YflN-2}\nwenddeflinemarkup
+def to_hours(td):
+    return td.total_seconds()/60/60
+\nwalsodefined{\\{NW4Wn4uX-47YflN-2}}\nwused{\\{NW4Wn4uX-3C6uNN-1}}\nwendcode{}\nwbegindocs{24}\nwdocspar
+
+
+\section{Staff booked on course}
+
+We want a list of the usernames of who is booked on the course.
+We'll simply read the sign-up sheet and extract all usernames.
+\nwenddocs{}\nwbegincode{25}\sublabel{NW4Wn4uX-CyCSh-2}\nwmargintag{{\nwtagstyle{}\subpageref{NW4Wn4uX-CyCSh-2}}}\moddef{subcommands~{\nwtagstyle{}\subpageref{NW4Wn4uX-CyCSh-1}}}\plusendmoddef\nwstartdeflinemarkup\nwusesondefline{\\{NW4Wn4uX-3C6uNN-1}}\nwprevnextdefs{NW4Wn4uX-CyCSh-1}{\relax}\nwenddeflinemarkup
+@cli.command()
+def users(\LA{}argument for matching courses~{\nwtagstyle{}\subpageref{NW4Wn4uX-2Zb0Rn-1}}\RA{},
+          \LA{}option for matching registers, default to mine~{\nwtagstyle{}\subpageref{NW4Wn4uX-4b5wkB-1}}\RA{}):
+  """
+  Prints the list of all usernames booked on the course.
+  """
+  \LA{}set list \code{}courses\edoc{} to ((course, register), config)-pairs~{\nwtagstyle{}\subpageref{NW4Wn4uX-30HUkq-1}}\RA{}
+
+  booked = []
+  for (course, register), config in courses.items():
+    \LA{}add to \code{}booked\edoc{} from \code{}course\edoc{} in \code{}register\edoc{} using \code{}config\edoc{}~{\nwtagstyle{}\subpageref{NW4Wn4uX-25sTg1-1}}\RA{}
+
+  for user in hr.hours_per_TA(booked):
+    print(user)
+\nwused{\\{NW4Wn4uX-3C6uNN-1}}\nwendcode{}\nwbegindocs{26}\nwdocspar
+
+
+\section{Amanuensis}
+
+We want the have an amanuensis command that can generate employment info for an 
+amanuensis.
+We also want to automatically store the sessions that are included in that 
+employment.
+This way we can easily calculate what has changed later to track 
+\enquote{\foreignlanguage{swedish}{mertid}}.
+\nwenddocs{}\nwbegincode{27}\sublabel{NW4Wn4uX-2Ns6UP-2}\nwmargintag{{\nwtagstyle{}\subpageref{NW4Wn4uX-2Ns6UP-2}}}\moddef{argument and option definitions~{\nwtagstyle{}\subpageref{NW4Wn4uX-2Ns6UP-1}}}\plusendmoddef\nwstartdeflinemarkup\nwusesondefline{\\{NW4Wn4uX-3C6uNN-1}}\nwprevnextdefs{NW4Wn4uX-2Ns6UP-1}{\relax}\nwenddeflinemarkup
+\nwused{\\{NW4Wn4uX-3C6uNN-1}}\nwendcode{}\nwbegincode{28}\sublabel{NW4Wn4uX-FgX7F-1}\nwmargintag{{\nwtagstyle{}\subpageref{NW4Wn4uX-FgX7F-1}}}\moddef{amanuens.py~{\nwtagstyle{}\subpageref{NW4Wn4uX-FgX7F-1}}}\endmoddef\nwstartdeflinemarkup\nwenddeflinemarkup
+@cli.comand(name="amanuens")
+def amanuens_cmd(\LA{}option for username to filter for~{\nwtagstyle{}\subpageref{NW4Wn4uX-2RixzZ-1}}\RA{},
+                 \LA{}argument for matching courses~{\nwtagstyle{}\subpageref{NW4Wn4uX-2Zb0Rn-1}}\RA{} = ".*",
+                 \LA{}option for matching registers, default to mine~{\nwtagstyle{}\subpageref{NW4Wn4uX-4b5wkB-1}}\RA{}):
+  """
+  Computes amanuensis data for a TA.
+  """
+
+if len(sys.argv) < 2:
+    print(f"\{sys.argv[0]\}: requires argument 'username'",
+          file=sys.stderr)
+    print(f"\{sys.argv[0]\} <username> [<start date>]")
+    sys.exit(1)
+else:
+    user = sys.argv[1]
+
+if len(sys.argv) > 2:
+    date = arrow.get(sys.argv[2])
+else:
+    date = None
+
+booked = []
+
+for course, url in SIGNUP.items():
+    booked += sheets.read_signup_sheet_from_url(url)
+
+amanuensis = hr.compute_amanuensis_data(booked,
+                                        begin_date=date)
+data = amanuensis[user]
+
+#start, end = shift_dates_forward(data[0], data[1])
+start = data[0]
+end = data[1]
+
+print(f"\{user\}: \{data[2]:.2f\} h, "
+      f"\{round(100*hr.compute_percentage(*data))\}%: "
+      f"\{start.format('YYYY-MM-DD')\}--\{end.format('YYYY-MM-DD')\}")
+
+events = sheets.filter_events_by_TA(user, booked)
+events = filter(lambda x: user in sheets.get_booked_TAs_from_csv(x)[0], booked)
+events = list(map(lambda x: x[0:len(sheets.SIGNUP_SHEET_HEADER)] + [user], 
+                  events))
+
+for event, hours in hr.hours_per_event(events).items():
+    print(f"\{event\}: \{to_hours(hours)\}")
+
+print()
+
+csvout = csv.writer(sys.stdout)
+
+for event in events:
+    csvout.writerow(event)
+\nwnotused{amanuens.py}\nwendcode{}\nwbegincode{29}\sublabel{NW4Wn4uX-47YflN-2}\nwmargintag{{\nwtagstyle{}\subpageref{NW4Wn4uX-47YflN-2}}}\moddef{helper functions~{\nwtagstyle{}\subpageref{NW4Wn4uX-47YflN-1}}}\plusendmoddef\nwstartdeflinemarkup\nwusesondefline{\\{NW4Wn4uX-3C6uNN-1}}\nwprevnextdefs{NW4Wn4uX-47YflN-1}{\relax}\nwenddeflinemarkup
+def shift_dates_forward(start_date, end_date):
+  """Takes dates and shifts them so that start_date is tomorrow."""
+  now = arrow.now()
+  today = arrow.Arrow(now.year, now.month, now.day,
+                      hour=start_date.hour, minute=start_date.minute,
+                      second=start_date.second)
+
+  if start_date > today:
+      return start_date, end_date
+
+  diff = (today-start_date).days
+  return start_date.shift(days=diff+1), end_date.shift(days=diff+1)
+\nwused{\\{NW4Wn4uX-3C6uNN-1}}\nwendcode{}
+
+\nwixlogsorted{c}{{add to \code{}booked\edoc{} from \code{}course\edoc{} in \code{}register\edoc{} using \code{}config\edoc{}}{NW4Wn4uX-25sTg1-1}{\nwixu{NW4Wn4uX-CyCSh-1}\nwixd{NW4Wn4uX-25sTg1-1}\nwixu{NW4Wn4uX-CyCSh-2}}}%
+\nwixlogsorted{c}{{amanuens.py}{NW4Wn4uX-FgX7F-1}{\nwixd{NW4Wn4uX-FgX7F-1}}}%
+\nwixlogsorted{c}{{argument and option definitions}{NW4Wn4uX-2Ns6UP-1}{\nwixu{NW4Wn4uX-3C6uNN-1}\nwixd{NW4Wn4uX-2Ns6UP-1}\nwixd{NW4Wn4uX-2Ns6UP-2}}}%
+\nwixlogsorted{c}{{argument for matching courses}{NW4Wn4uX-2Zb0Rn-1}{\nwixd{NW4Wn4uX-2Zb0Rn-1}\nwixu{NW4Wn4uX-CyCSh-1}\nwixu{NW4Wn4uX-CyCSh-2}\nwixu{NW4Wn4uX-FgX7F-1}}}%
+\nwixlogsorted{c}{{convert \code{}url\edoc{} to Google Sheet CSV-export URL if necessary}{NW4Wn4uX-1WcITC-1}{\nwixu{NW4Wn4uX-25sTg1-1}\nwixd{NW4Wn4uX-1WcITC-1}}}%
+\nwixlogsorted{c}{{helper functions}{NW4Wn4uX-47YflN-1}{\nwixu{NW4Wn4uX-3C6uNN-1}\nwixd{NW4Wn4uX-47YflN-1}\nwixd{NW4Wn4uX-47YflN-2}}}%
+\nwixlogsorted{c}{{hr.py}{NW4Wn4uX-3C6uNN-1}{\nwixd{NW4Wn4uX-3C6uNN-1}}}%
+\nwixlogsorted{c}{{imports}{NW4Wn4uX-1n4S18-1}{\nwixu{NW4Wn4uX-3C6uNN-1}\nwixd{NW4Wn4uX-1n4S18-1}\nwixd{NW4Wn4uX-1n4S18-2}\nwixd{NW4Wn4uX-1n4S18-3}}}%
+\nwixlogsorted{c}{{option for matching registers, default to mine}{NW4Wn4uX-4b5wkB-1}{\nwixd{NW4Wn4uX-4b5wkB-1}\nwixu{NW4Wn4uX-CyCSh-1}\nwixu{NW4Wn4uX-CyCSh-2}\nwixu{NW4Wn4uX-FgX7F-1}}}%
+\nwixlogsorted{c}{{option for username to filter for}{NW4Wn4uX-2RixzZ-1}{\nwixd{NW4Wn4uX-2RixzZ-1}\nwixu{NW4Wn4uX-FgX7F-1}}}%
+\nwixlogsorted{c}{{print summary of \code{}booked\edoc{}}{NW4Wn4uX-2Jo3mB-1}{\nwixu{NW4Wn4uX-CyCSh-1}\nwixd{NW4Wn4uX-2Jo3mB-1}}}%
+\nwixlogsorted{c}{{set list \code{}courses\edoc{} to ((course, register), config)-pairs}{NW4Wn4uX-30HUkq-1}{\nwixd{NW4Wn4uX-30HUkq-1}\nwixd{NW4Wn4uX-30HUkq-2}\nwixu{NW4Wn4uX-CyCSh-1}\nwixu{NW4Wn4uX-CyCSh-2}}}%
+\nwixlogsorted{c}{{subcommands}{NW4Wn4uX-CyCSh-1}{\nwixu{NW4Wn4uX-3C6uNN-1}\nwixd{NW4Wn4uX-CyCSh-1}\nwixd{NW4Wn4uX-CyCSh-2}}}%
+\nwbegindocs{30}\nwdocspar
+
+
+\nwenddocs{}

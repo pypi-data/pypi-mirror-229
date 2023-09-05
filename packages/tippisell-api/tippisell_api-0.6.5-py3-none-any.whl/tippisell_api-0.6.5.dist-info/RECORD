@@ -1,0 +1,10 @@
+tippisell_api/__init__.py,sha256=Yog81i0IMtV-MUjNe2eivJCb5BFpER3MRTanJ8sty74,65
+tippisell_api/client.py,sha256=6iEifxtAPTzWQAAwsdrllOJlw3uzPQ7OZyQSJwDhgdc,5193
+tippisell_api/exceptions.py,sha256=RiXp50bzdZp7xZLBRKkSM3zBBQddDpC-zP4aMvvfTwk,106
+tippisell_api/methods.py,sha256=VAQmTs5sJYafLozE8jfv95rxzbY1GwcPaqTtJYXvTQ8,2493
+tippisell_api/models.py,sha256=qGM5zE9WzD9umFIE6HDMwmT2KY9EzWLyZf00_KLefZ4,741
+tippisell_api/webhook.py,sha256=6vvGGoy4O31oxr_ipe6z883n1UiI6AxpDWaTJi_IcYY,1013
+tippisell_api-0.6.5.dist-info/METADATA,sha256=osxqc49ORYaCdo-rfybIflfvR0T3yASFoAEadmgpm3k,825
+tippisell_api-0.6.5.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+tippisell_api-0.6.5.dist-info/top_level.txt,sha256=HpVFmfMndi0SKp-x4N3hQQcR1BnuwhBkhMR8LMXQyV4,14
+tippisell_api-0.6.5.dist-info/RECORD,,

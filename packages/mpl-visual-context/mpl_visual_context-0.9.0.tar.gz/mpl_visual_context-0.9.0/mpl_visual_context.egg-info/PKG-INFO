@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: mpl-visual-context
+Version: 0.9.0
+Home-page: https://github.com//mpl-visual-context
+Author: Jae-Joon Lee
+Author-email: lee.j.joon@gmail.com
+License: BSD 3-Clause
+Description-Content-Type: text/markdown
+Provides-Extra: test
+Provides-Extra: doc
+Provides-Extra: dev
+License-File: LICENSE
+
+# mpl-visual-context
+
+A collection of tools that provide more visual context to your Matplotlib plots.
+
+<img align="right" width="300px" src="https://mpl-visual-context.readthedocs.io/en/latest/_images/mpl-visual-context-demo.png">
+
+
+## Installation
+
+For now, you can clone the repo and install. Or, using `pip`:
+
+
+```console
+pip install git+https://github.com/leejjoon/mpl_visual_context
+```
+

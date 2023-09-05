@@ -1,0 +1,16 @@
+odoo/addons/auth_api_key_server_env/README.rst,sha256=60grsO5r4FJ_ALgzMjwU77jP11l-Hi2j_uinQc-uY9M,3424
+odoo/addons/auth_api_key_server_env/__init__.py,sha256=X9EJGOE2GtZbS0G82PtSXmWSZ_R8jEM0rlJTDliQjp4,21
+odoo/addons/auth_api_key_server_env/__manifest__.py,sha256=2HxvZVJV2pdLUJdShmOmq7Xhd-lTezKvVqxf_AA920E,756
+odoo/addons/auth_api_key_server_env/i18n/auth_api_key_server_env.pot,sha256=1QWO4B_zKWV4Nbri8BEdFWK9Zx8O39-ktHOUErNeq60,679
+odoo/addons/auth_api_key_server_env/models/__init__.py,sha256=d9efRt5U1JZCsA1tL6lsuaIbQaB8_W08cycEXxa6ilY,27
+odoo/addons/auth_api_key_server_env/models/auth_api_key.py,sha256=NGF_wmAB6JRM3WEi2dOw6htKUChLqwj4_1IQscbXDnE,945
+odoo/addons/auth_api_key_server_env/readme/CONTRIBUTORS.rst,sha256=1ADhmOLCMAtDVg9t5Fstl0AwYHMzEiFSenM8tO5AtqY,43
+odoo/addons/auth_api_key_server_env/readme/DESCRIPTION.rst,sha256=dodQdc_CCcoPV-jtBEJT2n8M8BFN9pHlFZgKIpVYZb8,324
+odoo/addons/auth_api_key_server_env/static/description/icon.png,sha256=6xBPJauaFOF0KDHfHgQopSc28kKvxMaeoQFQWZtfZDo,9455
+odoo/addons/auth_api_key_server_env/static/description/index.html,sha256=HYbWtvZ3ctz5RQ_w-JX-iPKFrU8Ns3jmpUXwJ2N61Pg,12959
+odoo/addons/auth_api_key_server_env/tests/__init__.py,sha256=Yku70m9I5u2E9If91xUXb-EaxTAf8ggtmh6Vtu0oq2w,32
+odoo/addons/auth_api_key_server_env/tests/test_auth_api_key.py,sha256=zU7kzZ1v6yjniRsTH_3v3eI3rFovkpL75kIX8-S2tiM,1298
+odoo_addon_auth_api_key_server_env-15.0.1.0.0.2.dist-info/METADATA,sha256=uX4HSpe8SY6Al4zuyWGa_6DUv9_QP5bWzOyHngXKVpo,4370
+odoo_addon_auth_api_key_server_env-15.0.1.0.0.2.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+odoo_addon_auth_api_key_server_env-15.0.1.0.0.2.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
+odoo_addon_auth_api_key_server_env-15.0.1.0.0.2.dist-info/RECORD,,

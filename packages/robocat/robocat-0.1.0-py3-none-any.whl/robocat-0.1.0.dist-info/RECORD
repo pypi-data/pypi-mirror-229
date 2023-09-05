@@ -1,0 +1,12 @@
+robocat/.DS_Store,sha256=1lFlJ5EFymdzGAUAaI30vcaaLHt3F1LwpG7xILf9jsM,6148
+robocat/README.md,sha256=ndxKW-dsQV_x2kgMOPXM1PNCh8Xp9cjgzfBgpcCz28k,19201
+robocat/__init__.py,sha256=Wq6gpHZkm8kqnWICT8BdgSjROiq6cxu0T8yDvQCaVuA,73
+robocat/model.py,sha256=myqrZEbN8wyNSbKd6LWBt8lnLA9YrFfs4nB-t9bVrZ8,22006
+robocat/train.py,sha256=lkp4VNY0ExTAycJnvxhja1iCY6xF2Eihjtl8KxewyL8,24054
+robocat/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+robocat/utils/stabe_adam.py,sha256=HH9N-bYeYa1klAyCeJs2xlXoXzIGTPm1_kWwErbBWvM,3306
+robocat/utils/training.py,sha256=c9VAhV4MP6azB7cRiDb0F8FrENa1C1sWr4Z4Hg27tm0,1205
+robocat-0.1.0.dist-info/LICENSE,sha256=GHYD0Vn7cqu6O1FibXB1ix_cx8js09uZI1rKjCjW5sY,1074
+robocat-0.1.0.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+robocat-0.1.0.dist-info/METADATA,sha256=_fV9Eb5izuUzWwo4nhIcg54ut0yE8OFRkACYQhwopF4,7230
+robocat-0.1.0.dist-info/RECORD,,

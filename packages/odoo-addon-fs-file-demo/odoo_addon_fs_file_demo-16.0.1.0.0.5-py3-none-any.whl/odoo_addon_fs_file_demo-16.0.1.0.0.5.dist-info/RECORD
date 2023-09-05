@@ -1,0 +1,17 @@
+odoo/addons/fs_file_demo/README.rst,sha256=9eyq0FxcqhijftfHGm19R4nBWQnBSHRkzH398wSZnCY,3173
+odoo/addons/fs_file_demo/__init__.py,sha256=X9EJGOE2GtZbS0G82PtSXmWSZ_R8jEM0rlJTDliQjp4,21
+odoo/addons/fs_file_demo/__manifest__.py,sha256=n7SWuOsDLzYqD7fsSD_cOZWdYizoo9reuHZVMO6Wxuo,515
+odoo/addons/fs_file_demo/i18n/fs_file_demo.pot,sha256=qLQDeuNQyRrI_UKAO8e6191Gn-5zOAaN1LG6tZpanyk,1786
+odoo/addons/fs_file_demo/models/__init__.py,sha256=YkqFriFVpXZy9P6XyIKsfdrWCUMEYR342z6y0WvJi8Q,22
+odoo/addons/fs_file_demo/models/fs_file.py,sha256=tN5OLWmXuTjCwnIJcZli72NHhakeQietgKNgA349-VE,332
+odoo/addons/fs_file_demo/readme/CONTRIBUTORS.rst,sha256=FvrzTH9rh5ccEAqUubpZoxY4i4IUMjoQhfVCYSfx8Es,82
+odoo/addons/fs_file_demo/readme/DESCRIPTION.rst,sha256=CRPP33SCrr2pSW5EVgmabAUTxvNB8-0IbwG3rTU-Uco,44
+odoo/addons/fs_file_demo/readme/USAGE.rst,sha256=A3O4P3BwUd9wqrxdznaiqfeGLoUy-0Q5dtwk-eAWOyw,116
+odoo/addons/fs_file_demo/security/fs_file.xml,sha256=DJ9bP_7zUUZeeIFyY0HfDACZOqzdIsongDnTvu6IL7U,590
+odoo/addons/fs_file_demo/static/description/icon.png,sha256=6xBPJauaFOF0KDHfHgQopSc28kKvxMaeoQFQWZtfZDo,9455
+odoo/addons/fs_file_demo/static/description/index.html,sha256=Pqckc8QfIi2CY4GaJb5HIgPuZyMizSBeosaAuHfCVPs,12865
+odoo/addons/fs_file_demo/views/fs_file.xml,sha256=Wjpl9pvLByRyu6nuZxukJsW1aF8sx5VgQPaLZY5Fo14,1589
+odoo_addon_fs_file_demo-16.0.1.0.0.5.dist-info/METADATA,sha256=gGrrjQczNqiGGbaJ07YWBexdNwgPlztsfUF8vtNS10c,3798
+odoo_addon_fs_file_demo-16.0.1.0.0.5.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+odoo_addon_fs_file_demo-16.0.1.0.0.5.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
+odoo_addon_fs_file_demo-16.0.1.0.0.5.dist-info/RECORD,,

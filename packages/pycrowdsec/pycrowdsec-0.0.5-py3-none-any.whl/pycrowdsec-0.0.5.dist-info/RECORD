@@ -1,0 +1,11 @@
+pycrowdsec/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pycrowdsec/cache.py,sha256=79UMrjTvGd7fcB-vetz_9je4N-P1NgW9_a7yNNsB8a0,3872
+pycrowdsec/client.py,sha256=6bh_hJDRTc42CPo5YLaSXIUGRGjepalfxnNGb--ftZw,7871
+pycrowdsec/utils.py,sha256=U_7ZKcaBQbfu3Vv6E_lJVjhP4tV5EiolLMGMFjqJWQU,497
+pycrowdsec/django/__init__.py,sha256=rRlzqxHBBA8itG3ixot6omrhaAQ1h4PI_8bFOPzvrTY,2303
+pycrowdsec/flask/__init__.py,sha256=IZxSgk2jaawsvy484qClkhjD_ETC8VR_ErVVnearMWY,1796
+pycrowdsec-0.0.5.dist-info/LICENSE,sha256=oJLjNWgD_2g-fnXclnQOWy22CxdRPNelkAP6GW_Hc24,1069
+pycrowdsec-0.0.5.dist-info/METADATA,sha256=AcBiCEYV5W8w953InM4tjGANoleHLASpF8R-U-SZMVQ,5719
+pycrowdsec-0.0.5.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+pycrowdsec-0.0.5.dist-info/top_level.txt,sha256=-5snYvkXk1RLEq4ChOst8am0hvS6JXWLaiMPM5Z18lM,11
+pycrowdsec-0.0.5.dist-info/RECORD,,

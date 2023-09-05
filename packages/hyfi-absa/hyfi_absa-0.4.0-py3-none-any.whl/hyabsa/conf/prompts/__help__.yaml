@@ -1,0 +1,18 @@
+default:
+  - __init__
+_config_name_: __help__
+
+tasks:
+  task1: description of task1
+  task2: description of task2
+prompts:
+  task1:
+    prompt1: |
+      Put your text here. Multi-line prompts are supported.
+    prompt2: |
+      Put your text here. Multi-line prompts are supported.
+  task2:
+    prompt1: |
+      Put your text here. Multi-line prompts are supported.
+    prompt2: |
+      Put your text here. Multi-line prompts are supported.

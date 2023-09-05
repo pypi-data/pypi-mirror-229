@@ -1,0 +1,25 @@
+defaults:
+- /path@path: __batch__
+- /batch@batch: __init__
+- /agent@agent: absa
+- /run@data_load: load_dataset
+- /run@data_save: save_dataset_to_disk
+_target_: hyabsa.runners.absa.AbsaRunner
+_config_name_: absa
+_config_group_: /runner
+verbose: false
+task_name: absa
+task_root: workspace
+version: 0.0.0
+module: null
+pipelines: []
+batch_name: demo
+calls: []
+tasks: []
+id_col: id
+text_col: text
+batch_size: 1000
+num_workers: 1
+remove_columns: null
+load_from_cache_file: true
+top_n: null

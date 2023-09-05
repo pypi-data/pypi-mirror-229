@@ -1,0 +1,586 @@
+{
+    "legend": {
+        "0": "void",
+        "1": "block",
+        "2": "up slab",
+        "3": "low slab",
+        "note": "for the 4 stairs below, they are represented by where their empty quarter of block is",
+        "4": "upper left stair",
+        "5": "upper right stair",
+        "6": "bottom left stair",
+        "7": "bottom right stair",
+        "note2": "each letter is represented by a string of 15 digits",
+        "note3": "separated by a dash for each new column",
+        "note4": "representing a letter in a 3*5 block format",
+        "source": "https://cdn.discordapp.com/attachments/414084871120617472/840083817913385000/ccfe08c.png"
+    },
+    "letters": {
+        "a": {
+            "smallcaps": "000-425-131-101-000",
+            "uppercase": "425-101-121-101-000",
+            "lowercase": "000-425-321-636-000"
+        },
+        "b": {
+            "smallcaps": "000-125-125-137-000",
+            "uppercase": "125-135-101-137-000",
+            "lowercase": "100-125-101-737-000"
+        },
+        "c": {
+            "smallcaps": "000-425-100-637-000",
+            "uppercase": "425-100-100-637-000",
+            "lowercase": "000-425-100-637-000"
+        },
+        "d": {
+            "smallcaps": "000-125-101-137-000",
+            "uppercase": "125-101-101-137-000",
+            "lowercase": "001-421-101-636-000"
+        },
+        "e": {
+            "smallcaps": "000-122-120-133-000",
+            "uppercase": "122-130-100-133-000",
+            "lowercase": "000-425-122-637-000"
+        },
+        "f": {
+            "smallcaps": "000-122-120-100-000",
+            "uppercase": "122-130-100-100-000",
+            "lowercase": "425-130-100-100-000"
+        },
+        "g": {
+            "smallcaps": "000-425-103-634-000",
+            "uppercase": "425-100-106-637-000",
+            "lowercase": "000-424-101-021-637"
+        },
+        "h": {
+            "smallcaps": "000-101-121-101-000",
+            "uppercase": "101-131-101-101-000",
+            "lowercase": "100-125-101-101-000"
+        },
+        "i": {
+            "smallcaps": "000-212-010-313-000",
+            "uppercase": "212-010-010-313-000",
+            "lowercase": "020-210-010-313-000"
+        },
+        "j": {
+            "smallcaps": "000-001-001-637-000",
+            "uppercase": "001-001-001-637-000",
+            "lowercase": "002-021-001-001-637"
+        },
+        "k": {
+            "smallcaps": "000-107-163-101-000",
+            "uppercase": "107-140-105-101-000",
+            "lowercase": "100-103-160-105-000"
+        },
+        "l": {
+            "smallcaps": "000-100-100-133-000",
+            "uppercase": "100-100-100-133-000",
+            "lowercase": "100-100-100-637-000"
+        },
+        "m": {
+            "smallcaps": "000-504-111-101-000",
+            "uppercase": "504-111-101-101-000",
+            "lowercase": "000-555-111-101-000"
+        },
+        "n": {
+            "smallcaps": "000-501-161-106-000",
+            "uppercase": "501-151-161-106-000",
+            "lowercase": "000-525-101-101-000"
+        },
+        "o": {
+            "smallcaps": "000-425-101-637-000",
+            "uppercase": "425-101-101-637-000",
+            "lowercase": "000-425-101-637-000"
+        },
+        "p": {
+            "smallcaps": "000-126-137-100-000",
+            "uppercase": "125-101-120-100-000",
+            "lowercase": "000-525-101-137-100"
+        },
+        "q": {
+            "smallcaps": "000-425-101-645-000",
+            "uppercase": "425-101-101-645-000",
+            "lowercase": "000-424-101-631-001"
+        },
+        "r": {
+            "smallcaps": "000-125-137-101-000",
+            "uppercase": "125-107-121-101-000",
+            "lowercase": "000-575-100-100-000"
+        },
+        "s": {
+            "smallcaps": "000-425-263-637-000",
+            "uppercase": "425-630-001-637-000",
+            "lowercase": "000-425-263-637-000"
+        },
+        "t": {
+            "smallcaps": "000-212-010-010-000",
+            "uppercase": "212-010-010-010-000",
+            "lowercase": "040-212-010-063-000"
+        },
+        "u": {
+            "smallcaps": "000-101-101-637-000",
+            "uppercase": "101-101-101-637-000",
+            "lowercase": "000-101-101-636-000"
+        },
+        "v": {
+            "smallcaps": "000-101-607-010-000",
+            "uppercase": "101-101-607-010-000",
+            "lowercase": "000-101-607-010-000"
+        },
+        "w": {
+            "smallcaps": "000-101-131-706-000",
+            "uppercase": "101-101-131-706-000",
+            "lowercase": "000-101-131-627-000"
+        },
+        "x": {
+            "smallcaps": "000-637-010-425-000",
+            "uppercase": "607-010-010-405-000",
+            "lowercase": "000-637-010-425-000"
+        },
+        "y": {
+            "smallcaps": "000-637-010-010-000",
+            "uppercase": "101-637-010-010-000",
+            "lowercase": "000-101-101-021-637"
+        },
+        "z": {
+            "smallcaps": "000-267-010-453-000",
+            "uppercase": "221-047-470-133-000",
+            "lowercase": "000-267-010-453-000"
+        },
+        "*": {
+            "smallcaps": "313-425-000-000-000",
+            "uppercase": "313-425-000-000-000",
+            "lowercase": "313-425-000-000-000"
+        },
+        "|": {
+            "smallcaps": "1-1-1-1-1",
+            "uppercase": "1-1-1-1-1",
+            "lowercase": "1-1-1-1-1"
+        },
+        "!": {
+            "smallcaps": "010-010-010-030-000",
+            "uppercase": "010-010-010-030-000",
+            "lowercase": "010-010-010-030-000"
+        },
+        "?": {
+            "smallcaps": "425-007-040-030-000",
+            "uppercase": "425-007-040-030-000",
+            "lowercase": "425-007-040-030-000"
+        },
+        "@": {
+            "smallcaps": "000-425-554-630-000",
+            "uppercase": "000-425-554-630-000",
+            "lowercase": "000-425-554-630-000"
+        },
+        "#": {
+            "smallcaps": "000-355-407-662-000",
+            "uppercase": "000-355-407-662-000",
+            "lowercase": "000-355-407-662-000"
+        },
+        "&": {
+            "smallcaps": "450-670-767-675-000",
+            "uppercase": "450-670-767-675-000",
+            "lowercase": "450-670-767-675-000"
+        },
+        "$": {
+            "smallcaps": "010-462-615-357-010",
+            "uppercase": "010-462-615-357-010",
+            "lowercase": "010-462-615-357-010"
+        },
+        "€": {
+            "smallcaps": "033-453-453-650-022",
+            "uppercase": "033-453-453-650-022",
+            "lowercase": "033-453-453-650-022"
+        },
+        "£": {
+            "smallcaps": "030-425-430-400-763",
+            "uppercase": "030-425-430-400-763",
+            "lowercase": "030-425-430-400-763"
+        },
+        "¥": {
+            "smallcaps": "607-313-313-010-010",
+            "uppercase": "607-313-313-010-010",
+            "lowercase": "607-313-313-010-010"
+        },
+        "~": {
+            "smallcaps": "000-000-464-000-000",
+            "uppercase": "000-000-464-000-000",
+            "lowercase": "000-000-464-000-000"
+        },
+        "^": {
+            "smallcaps": "030-425-000-000-000",
+            "uppercase": "030-425-000-000-000",
+            "lowercase": "030-425-000-000-000"
+        },
+        "_": {
+            "smallcaps": "000-000-000-333-000",
+            "uppercase": "000-000-000-333-000",
+            "lowercase": "000-000-000-333-000"
+        },
+        "+": {
+            "smallcaps": "000-010-212-020-000",
+            "uppercase": "000-010-212-020-000",
+            "lowercase": "000-010-212-020-000"
+        },
+        "-": {
+            "smallcaps": "000-000-222-000-000",
+            "uppercase": "000-000-222-000-000",
+            "lowercase": "000-000-222-000-000"
+        },
+        "=": {
+            "smallcaps": "000-333-333-000-000",
+            "uppercase": "000-333-333-000-000",
+            "lowercase": "000-333-333-000-000"
+        },
+        "/": {
+            "smallcaps": "007-040-070-400-000",
+            "uppercase": "007-040-070-400-000",
+            "lowercase": "007-040-070-400-000"
+        },
+        "\\": {
+            "smallcaps": "600-050-060-005-000",
+            "uppercase": "600-050-060-005-000",
+            "lowercase": "600-050-060-005-000"
+        },
+        "%": {
+            "smallcaps": "207-040-070-403-000",
+            "uppercase": "207-040-070-403-000",
+            "lowercase": "207-040-070-403-000"
+        },
+        "<": {
+            "smallcaps": "000-040-400-060-000",
+            "uppercase": "000-040-400-060-000",
+            "lowercase": "000-040-400-060-000"
+        },
+        ">": {
+            "smallcaps": "000-050-005-070-000",
+            "uppercase": "000-050-005-070-000",
+            "lowercase": "000-050-005-070-000"
+        },
+        "(": {
+            "smallcaps": "42-10-10-63-00",
+            "uppercase": "42-10-10-63-00",
+            "lowercase": "42-10-10-63-00"
+        },
+        ")": {
+            "smallcaps": "25-01-01-37-00",
+            "uppercase": "25-01-01-37-00",
+            "lowercase": "25-01-01-37-00"
+        },
+        "[": {
+            "smallcaps": "12-10-10-13-00",
+            "uppercase": "12-10-10-13-00",
+            "lowercase": "12-10-10-13-00"
+        },
+        "]": {
+            "smallcaps": "21-01-01-31-00",
+            "uppercase": "21-01-01-31-00",
+            "lowercase": "21-01-01-31-00"
+        },
+        "{": {
+            "smallcaps": "07-40-60-05-00",
+            "uppercase": "07-40-60-05-00",
+            "lowercase": "07-40-60-05-00"
+        },
+        "}": {
+            "smallcaps": "60-05-07-40-00",
+            "uppercase": "60-05-07-40-00",
+            "lowercase": "60-05-07-40-00"
+        },
+        "`": {
+            "smallcaps": "30-25-00-00-00",
+            "uppercase": "30-25-00-00-00",
+            "lowercase": "30-25-00-00-00"
+        },
+        ".": {
+            "smallcaps": "0-0-0-3-0",
+            "uppercase": "0-0-0-3-0",
+            "lowercase": "0-0-0-3-0"
+        },
+        ",": {
+            "smallcaps": "0-0-0-3-4",
+            "uppercase": "0-0-0-3-4",
+            "lowercase": "0-0-0-3-4"
+        },
+        ":": {
+            "smallcaps": "0-3-0-3-0",
+            "uppercase": "0-3-0-3-0",
+            "lowercase": "0-3-0-3-0"
+        },
+        ";": {
+            "smallcaps": "0-3-0-3-4",
+            "uppercase": "0-3-0-3-4",
+            "lowercase": "0-3-0-3-4"
+        },
+        "'": {
+            "smallcaps": "5-0-0-0-0",
+            "uppercase": "5-0-0-0-0",
+            "lowercase": "5-0-0-0-0"
+        },
+        "\"": {
+            "smallcaps": "55-00-00-00-00",
+            "uppercase": "55-00-00-00-00",
+            "lowercase": "55-00-00-00-00"
+        },
+        "1": {
+            "smallcaps": "000-310-010-313-000",
+            "uppercase": "310-010-010-313-000",
+            "lowercase": "310-010-010-313-000"
+        },
+        "2": {
+            "smallcaps": "000-425-047-413-000",
+            "uppercase": "425-007-040-453-000",
+            "lowercase": "425-007-040-453-000"
+        },
+        "3": {
+            "smallcaps": "000-425-025-637-000",
+            "uppercase": "425-037-001-637-000",
+            "lowercase": "425-037-001-637-000"
+        },
+        "4": {
+            "smallcaps": "000-401-131-001-000",
+            "uppercase": "401-101-221-001-000",
+            "lowercase": "401-101-221-001-000"
+        },
+        "5": {
+            "smallcaps": "000-122-225-637-000",
+            "uppercase": "122-130-001-637-000",
+            "lowercase": "122-130-001-637-000"
+        },
+        "6": {
+            "smallcaps": "000-425-123-637-000",
+            "uppercase": "425-130-101-637-000",
+            "lowercase": "425-130-101-637-000"
+        },
+        "7": {
+            "smallcaps": "000-221-047-010-000",
+            "uppercase": "221-007-040-010-000",
+            "lowercase": "221-007-040-010-000"
+        },
+        "8": {
+            "smallcaps": "000-425-425-637-000",
+            "uppercase": "425-637-101-637-000",
+            "lowercase": "425-637-101-637-000"
+        },
+        "9": {
+            "smallcaps": "000-425-231-637-000",
+            "uppercase": "425-101-021-637-000",
+            "lowercase": "425-101-021-637-000"
+        },
+        "0": {
+            "smallcaps": "000-425-141-637-000",
+            "uppercase": "425-141-171-637-000",
+            "lowercase": "425-141-171-637-000"
+        },
+        "ç": {
+            "smallcaps": "000-425-100-637-040",
+            "uppercase": "000-425-100-637-040",
+            "lowercase": "000-425-100-637-040"
+        },
+        "é": {
+            "smallcaps": "003-042-000-425-122-637-000",
+            "uppercase": "003-042-000-425-122-637-000",
+            "lowercase": "003-042-000-425-122-637-000"
+        },
+        "è": {
+            "smallcaps": "300-250-000-425-122-637-000",
+            "uppercase": "300-250-000-425-122-637-000",
+            "lowercase": "300-250-000-425-122-637-000"
+        },
+        "î": {
+            "smallcaps": "030-425-000-210-010-313-000",
+            "uppercase": "030-425-000-210-010-313-000",
+            "lowercase": "030-425-000-210-010-313-000"
+        },
+        "•": {
+            "smallcaps": "000-010-000-000-000",
+            "uppercase": "000-010-000-000-000",
+            "lowercase": "000-010-000-000-000"
+        },
+        "—": {
+            "smallcaps": "000-000-222-000-000",
+            "uppercase": "000-000-222-000-000",
+            "lowercase": "000-000-222-000-000"
+        }
+    },
+    "block_palette": {
+        "oak": {
+            "block": "oak_planks",
+            "slab": "oak_slab",
+            "stairs": "oak_stairs"
+        },
+        "spruce": {
+            "block": "spruce_planks",
+            "slab": "spruce_slab",
+            "stairs": "spruce_stairs"
+        },
+        "birch": {
+            "block": "birch_planks",
+            "slab": "birch_slab",
+            "stairs": "birch_stairs"
+        },
+        "jungle": {
+            "block": "jungle_planks",
+            "slab": "jungle_slab",
+            "stairs": "jungle_stairs"
+        },
+        "acacia": {
+            "block": "acacia_planks",
+            "slab": "acacia_slab",
+            "stairs": "acacia_stairs"
+        },
+        "dark_oak": {
+            "block": "dark_oak_planks",
+            "slab": "dark_oak_slab",
+            "stairs": "dark_oak_stairs"
+        },
+        "crimson": {
+            "block": "crimson_planks",
+            "slab": "crimson_slab",
+            "stairs": "crimson_stairs"
+        },
+        "warped": {
+            "block": "warped_planks",
+            "slab": "warped_slab",
+            "stairs": "warped_stairs"
+        },
+        "stone": {
+            "block": "stone",
+            "slab": "stone_slab",
+            "stairs": "stone_stairs"
+        },
+        "granite": {
+            "block": "granite",
+            "slab": "granite_slab",
+            "stairs": "granite_stairs"
+        },
+        "polished_granite": {
+            "block": "polished_granite",
+            "slab": "polished_granite_slab",
+            "stairs": "polished_granite_stairs"
+        },
+        "diorite": {
+            "block": "diorite",
+            "slab": "diorite_slab",
+            "stairs": "diorite_stairs"
+        },
+        "polished_diorite": {
+            "block": "polished_diorite",
+            "slab": "polished_diorite_slab",
+            "stairs": "polished_diorite_stairs"
+        },
+        "andesite": {
+            "block": "andesite",
+            "slab": "andesite_slab",
+            "stairs": "andesite_stairs"
+        },
+        "polished_andesite": {
+            "block": "polished_andesite",
+            "slab": "polished_andesite_slab",
+            "stairs": "polished_andesite_stairs"
+        },
+        "cobblestone": {
+            "block": "cobblestone",
+            "slab": "cobblestone_slab",
+            "stairs": "cobblestone_stairs"
+        },
+        "mossy_cobblestone": {
+            "block": "mossy_cobblestone",
+            "slab": "mossy_cobblestone_slab",
+            "stairs": "mossy_cobblestone_stairs"
+        },
+        "stone_brick": {
+            "block": "stone_bricks",
+            "slab": "stone_brick_slab",
+            "stairs": "stone_brick_stairs"
+        },
+        "mossy_stone_brick": {
+            "block": "mossy_stone_bricks",
+            "slab": "mossy_stone_brick_slab",
+            "stairs": "mossy_stone_brick_stairs"
+        },
+        "brick": {
+            "block": "bricks",
+            "slab": "brick_slab",
+            "stairs": "brick_stairs"
+        },
+        "end_stone_brick": {
+            "block": "end_stone_bricks",
+            "slab": "end_stone_brick_slab",
+            "stairs": "end_stone_brick_stairs"
+        },
+        "nether_brick": {
+            "block": "nether_bricks",
+            "slab": "nether_brick_slab",
+            "stairs": "nether_brick_stairs"
+        },
+        "red_nether_brick": {
+            "block": "red_nether_bricks",
+            "slab": "red_nether_brick_slab",
+            "stairs": "red_nether_brick_stairs"
+        },
+        "sandstone": {
+            "block": "sandstone",
+            "slab": "sandstone_slab",
+            "stairs": "sandstone_stairs"
+        },
+        "smooth_sandstone": {
+            "block": "smooth_sandstone",
+            "slab": "smooth_sandstone_slab",
+            "stairs": "smooth_sandstone_stairs"
+        },
+        "red_sandstone": {
+            "block": "red_sandstone",
+            "slab": "red_sandstone_slab",
+            "stairs": "red_sandstone_stairs"
+        },
+        "smooth_red_sandstone": {
+            "block": "smooth_red_sandstone",
+            "slab": "smooth_red_sandstone_slab",
+            "stairs": "smooth_red_sandstone_stairs"
+        },
+        "quartz": {
+            "block": "quartz_block",
+            "slab": "quartz_slab",
+            "stairs": "quartz_stairs"
+        },
+        "smooth_quartz": {
+            "block": "smooth_quartz",
+            "slab": "smooth_quartz_slab",
+            "stairs": "smooth_quartz_stairs"
+        },
+        "purpur": {
+            "block": "purpur_block",
+            "slab": "purpur_slab",
+            "stairs": "purpur_stairs"
+        },
+        "prismarine": {
+            "block": "prismarine",
+            "slab": "prismarine_slab",
+            "stairs": "prismarine_stairs"
+        },
+        "prismarine_brick": {
+            "block": "prismarine_brick",
+            "slab": "prismarine_brick_slab",
+            "stairs": "prismarine_brick_stairs"
+        },
+        "dark_prismarine": {
+            "block": "dark_prismarine",
+            "slab": "dark_prismarine_slab",
+            "stairs": "dark_prismarine_stairs"
+        },
+        "blackstone": {
+            "block": "blackstone",
+            "slab": "blackstone_slab",
+            "stairs": "blackstone_stairs"
+        },
+        "polished_blackstone": {
+            "block": "polished_blackstone",
+            "slab": "polished_blackstone_slab",
+            "stairs": "polished_blackstone_stairs"
+        },
+        "polished_blackstone_brick": {
+            "block": "polished_blackstone_bricks",
+            "slab": "polished_blackstone_brick_slab",
+            "stairs": "polished_blackstone_brick_stairs"
+        }
+    }
+}

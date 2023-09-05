@@ -1,0 +1,4 @@
+nltk
+pydantic
+faker
+pandas

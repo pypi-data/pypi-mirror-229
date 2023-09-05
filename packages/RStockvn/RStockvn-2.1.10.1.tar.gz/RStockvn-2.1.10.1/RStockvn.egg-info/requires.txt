@@ -1,0 +1,12 @@
+pandas
+requests
+jsonschema
+bs4
+selenium
+undetected_chromedriver
+webdriver_manager
+html5lib
+lxml
+jsons
+unidecode
+urllib3

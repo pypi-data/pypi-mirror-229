@@ -1,0 +1,11 @@
+LICENSE.txt
+README.md
+setup.py
+./src/imaza/imaza.cpp
+src/MAZAlib.egg-info/PKG-INFO
+src/MAZAlib.egg-info/SOURCES.txt
+src/MAZAlib.egg-info/dependency_links.txt
+src/MAZAlib.egg-info/top_level.txt
+src/mydist/__init__.py
+src/mydist/libmydist.a
+src/mydist/mydist.h

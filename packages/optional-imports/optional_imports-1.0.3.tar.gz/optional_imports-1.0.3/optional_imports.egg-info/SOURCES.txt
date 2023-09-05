@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+optional_imports/__init__.py
+optional_imports/_version.py
+optional_imports/opt_imports.py
+optional_imports.egg-info/PKG-INFO
+optional_imports.egg-info/SOURCES.txt
+optional_imports.egg-info/dependency_links.txt
+optional_imports.egg-info/top_level.txt
+tests/test_opt_import.py

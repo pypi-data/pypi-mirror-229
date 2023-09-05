@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: optional_imports
+Version: 1.0.3
+Summary: Example Python Library with optional packages, that inform the user about missing dependencies.
+Home-page: https://github.com/kevinsawade/optional_imports
+Author: Kevin Sawade
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+License-File: LICENSE

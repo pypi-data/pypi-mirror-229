@@ -1,0 +1,8 @@
+python-gdcm
+boto3
+numpy
+cloudpickle
+pydicom
+Pillow
+lithops
+scipy

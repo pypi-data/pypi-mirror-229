@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: KuroCloudDicom
+Version: 0.0.2
+Summary: A new library for compute volume using lithops and a new kind of Dicom Files stored in cloud
+Home-page: https://github.com/AaronSoria/KuroCloudDicom
+Author: Luis Aaron Maximiliano
+Author-email: soria_aaron@outlook.com
+License: MIT
+Description-Content-Type: text/markdown
+
+A new library for compute volume using lithops and a new kind of Dicom Files stored in cloud

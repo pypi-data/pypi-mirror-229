@@ -1,0 +1,6 @@
+README.md
+setup.py
+zypylibs.egg-info/PKG-INFO
+zypylibs.egg-info/SOURCES.txt
+zypylibs.egg-info/dependency_links.txt
+zypylibs.egg-info/top_level.txt

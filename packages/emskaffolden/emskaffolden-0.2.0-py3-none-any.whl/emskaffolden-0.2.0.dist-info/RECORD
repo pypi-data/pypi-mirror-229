@@ -1,0 +1,11 @@
+emskaffolden/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+emskaffolden/__main__.py,sha256=VM4Rb7pZ7N51J1cl8zFXmnTt_jzi_AXtOAry_71ezbk,4185
+emskaffolden/cli.py,sha256=cSm1kxarDZORo8URy40xa62X3J_HbTENiBxC13MonGc,1062
+emskaffolden/files.py,sha256=mPpRtu_BYEmsKVY6LOCbA4tNNbi1jnTaResKEDcjpcY,1270
+emskaffolden/skaffold.py,sha256=F5Q_Iczw9Gl1ZTpzHIwfJqDjdGl64ApZD29rHueAAdE,1357
+emskaffolden-0.2.0.dist-info/LICENSE,sha256=eCaltyMmbYvwaD0dxCME6U2DseHAh7iJJ732oRUpM8Q,1082
+emskaffolden-0.2.0.dist-info/METADATA,sha256=mSCUKg_bc4FCycQWSIoZ5zcFqGeLyviTQ6RpT09U6HA,6297
+emskaffolden-0.2.0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+emskaffolden-0.2.0.dist-info/entry_points.txt,sha256=VP5fTtuxbngv1yOXq0W6Jmsumfk6Ik90ujlNAOYFfXQ,94
+emskaffolden-0.2.0.dist-info/top_level.txt,sha256=0v2UgyBrNDUNfoxLVGvCuhpVOA4flYiLZg5QnnhIiS8,13
+emskaffolden-0.2.0.dist-info/RECORD,,

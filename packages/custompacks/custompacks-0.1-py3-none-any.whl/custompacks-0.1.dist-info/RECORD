@@ -1,0 +1,9 @@
+cleaninputdata/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cleaninputdata/clean.py,sha256=NMGXLiU087neqc8VSbKu0dJQgzaq4VxYN5nhMlHt9nQ,1047
+parseinputdata/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+parseinputdata/exceldata.py,sha256=DoONpUm20y9U8XycMvVMXekzGhylT6KZVoRRDZ0yV8g,1146
+parseinputdata/txtdata.py,sha256=E5WEAsGAgJuKU7_A_0rmIr0-h71cNxd6fV2QA6us-wg,28
+custompacks-0.1.dist-info/METADATA,sha256=LN1ytz3GNwH6zblVsMPzWyBrlvmIha97NDoNFFEoqN8,58
+custompacks-0.1.dist-info/WHEEL,sha256=5sUXSg9e4bi7lTLOHcm6QEYwO5TIF1TNbTSVFVjcJcc,92
+custompacks-0.1.dist-info/top_level.txt,sha256=czaA3FReSrR6XK4WeAQ0XoAkrfEH--aRO9nppT94T_k,30
+custompacks-0.1.dist-info/RECORD,,

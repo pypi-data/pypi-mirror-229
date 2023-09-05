@@ -1,0 +1,11 @@
+backup_github/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+backup_github/backup.py,sha256=5TtxSYDiwlzN4YEq59nDde8KZA-NLx1ZBmry8-XE8Ic,8414
+backup_github/github.py,sha256=6wikjGAVmxbbVvz9P49at2rY8ytHKRcdQTo0XplWELA,6054
+backup_github/main.py,sha256=QD6PotIJIne4nYgya2vnbFFuUstiWf8jdOjfrndN4i8,1925
+backup_github/metrics.py,sha256=zIYYEsuQjlFM95MxcnTQlqSPklBZYkqSxoKR5I5F99o,502
+backup_github/parse_args.py,sha256=DEYJpM73ALI0uRq6UCvBjt2KdoRsk0yont-hVZSuluI,1788
+backup_github/utils.py,sha256=ebJJ_NLWci4A5pTY-29JYNLSuwbtGwbSaVSo80fpaGQ,910
+backup_github_org-1.0.0.dist-info/entry_points.txt,sha256=-3x3kBFj-01rI9Js8MjaoZqoQwkZtbbDe4aUwYkFqrQ,57
+backup_github_org-1.0.0.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+backup_github_org-1.0.0.dist-info/METADATA,sha256=5ZZLWblkli2V6da2l5TbP3zfHUJnijEbsqW9D9roawQ,3857
+backup_github_org-1.0.0.dist-info/RECORD,,

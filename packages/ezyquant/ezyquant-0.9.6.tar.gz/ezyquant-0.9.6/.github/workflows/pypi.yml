@@ -1,0 +1,26 @@
+name: Publish PYPI
+
+on:
+  push:
+    tags:
+      - "v*.*.*"
+jobs:
+  build-n-publish:
+    name: Build and publish
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@master
+
+      - name: Install dependencies
+        run: |
+          pip install --upgrade pip
+          pip install -U -e .[dev]
+
+      - name: Build binary
+        run: |
+          hatch build
+
+      - name: Publish distribution
+        uses: pypa/gh-action-pypi-publish@master
+        with:
+          password: ${{ secrets.PYPI_API_TOKEN }}

@@ -1,0 +1,3 @@
+[console_scripts]
+typecheck=polarstypes.run_mypy:run_mypy
+

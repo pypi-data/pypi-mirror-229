@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: getpublicipv4
+Version: 0.10
+Summary: script to get the public IP (v4) of a PC
+Home-page: https://github.com/hansalemaos/getpublicipv4
+Author: Johannes Fischer
+Author-email: aulasparticularesdealemaosp@gmail.com
+License: MIT
+Keywords: requests,ip,v4
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Utilities
+Description-Content-Type: text/markdown
+License-File: LICENSE.rst
+
+
+# script to get the public IP (v4) of a PC 
+
+## Tested against Windows 10 / Python 3.10 / Anaconda - should work on MacOS / Linux
+
+## pip install getpublicipv4
+
+
+```python
+from getpublicipv4 import get_ip_of_this_pc
+print(get_ip_of_this_pc())
+
+```

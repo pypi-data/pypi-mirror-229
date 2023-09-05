@@ -1,0 +1,13 @@
+jdataclass/__init__.py,sha256=MUUfUYsmurIqS33TIeheMTnlodXXA0XZpM4bMVHnfN8,374
+jdataclass/constants.py,sha256=6k4b9GzwlEXfwudA5-wNnbWkingjt_H3Qfb6iCrOtl8,172
+jdataclass/dataclass_utils.py,sha256=tBrTZupvsUPPd09xT9dOwX-8ky6Np2OXABigkzpaQbE,12539
+jdataclass/defaultdict.py,sha256=NG1h-T-I3WT0kmJgCoEhCEPY98szTCi0bHVpJWXN5sI,422
+jdataclass/defaultlist.py,sha256=rEUB4Zn73nEN7axEigutjJ1xn1c4E0Ah8RBYeBifAOY,1622
+jdataclass/dict_utils.py,sha256=5bmRph2C4kTEhFWje26-a5cha7n1ZYDz4ojZpC5zE14,3582
+jdataclass/jfield.py,sha256=GTCXMuZh0g_nRMpb52shvp5FOnmC3uUh_k33SIP4zAA,8716
+jdataclass/jproperty.py,sha256=uNXvRNEm8U_XZXzUDA2a7Iu0M4Q1RBnVMUUMqKz4F9U,2424
+jdataclass/types.py,sha256=OZz6hKX-wXjaFoUy1fwAfJJMlceQaTk8VYBa3SvGsOM,201
+jdataclass-0.1.0.dist-info/LICENSE,sha256=hs0Yv77w6kA8jIf5nODEyBc509KNZbHHtUWc4SXXSWI,1072
+jdataclass-0.1.0.dist-info/METADATA,sha256=f1Nv9gix7usMoW9n092yjeKcmPO6ORvBEK-QTjcNR4s,10681
+jdataclass-0.1.0.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+jdataclass-0.1.0.dist-info/RECORD,,

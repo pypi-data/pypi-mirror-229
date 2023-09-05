@@ -1,0 +1,58 @@
+Metadata-Version: 2.1
+Name: sax
+Version: 0.10.1
+Summary: Autograd and XLA for S-parameters
+Author-email: Floris Laporte <floris.laporte@rockleyphotonics.com>
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Physics
+Requires-Python: >=3.9.0
+License-File: LICENSE
+Requires-Dist: black
+Requires-Dist: fastcore
+Requires-Dist: flax
+Requires-Dist: jax
+Requires-Dist: jaxlib
+Requires-Dist: jaxtyping
+Requires-Dist: klujax
+Requires-Dist: matplotlib
+Requires-Dist: natsort
+Requires-Dist: networkx
+Requires-Dist: numpy
+Requires-Dist: orjson
+Requires-Dist: pydantic
+Requires-Dist: pyyaml
+Requires-Dist: tqdm
+Provides-Extra: dev
+Requires-Dist: autodoc-pydantic ; extra == 'dev'
+Requires-Dist: autograd ; extra == 'dev'
+Requires-Dist: autoimport ; extra == 'dev'
+Requires-Dist: black[jupyter] ; extra == 'dev'
+Requires-Dist: bump2version ; extra == 'dev'
+Requires-Dist: flake8 ; extra == 'dev'
+Requires-Dist: gdsfactory >=0.7.4 ; extra == 'dev'
+Requires-Dist: gplugins ; extra == 'dev'
+Requires-Dist: ipyevents ; extra == 'dev'
+Requires-Dist: ipykernel ; extra == 'dev'
+Requires-Dist: ipympl ; extra == 'dev'
+Requires-Dist: ipywidgets ; extra == 'dev'
+Requires-Dist: isort ; extra == 'dev'
+Requires-Dist: jedi ; extra == 'dev'
+Requires-Dist: myst-nb ; extra == 'dev'
+Requires-Dist: nbstripout ; extra == 'dev'
+Requires-Dist: nlopt ; extra == 'dev'
+Requires-Dist: papermill ; extra == 'dev'
+Requires-Dist: pre-commit ; extra == 'dev'
+Requires-Dist: pytest ; extra == 'dev'
+Requires-Dist: sphinx-book-theme ==1.0.1 ; extra == 'dev'
+Requires-Dist: sphinx-copybutton ==0.5.2 ; extra == 'dev'
+Requires-Dist: sphinx ==5.3.0 ; extra == 'dev'
+Requires-Dist: tmm ; extra == 'dev'
+

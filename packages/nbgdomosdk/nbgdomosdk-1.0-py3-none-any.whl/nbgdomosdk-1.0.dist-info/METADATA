@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: nbgdomosdk
+Version: 1.0
+Summary: The nbg demo SDK for Python
+Home-page: https://github.com/newbeegpt/nbg-demo-python-sdk
+Author: newbeegpt
+License: Apache Software License
+Keywords: pip,nbgdomosdk,nbg-demo-python-sdk
+Platform: any
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Software Development
+License-File: LICENSE
+Requires-Dist: requests (>=2.25.1)
+
+UNKNOWN
+

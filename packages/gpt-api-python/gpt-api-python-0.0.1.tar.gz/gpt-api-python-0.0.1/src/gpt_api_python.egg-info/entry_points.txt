@@ -1,0 +1,2 @@
+[console_scripts]
+gpt_api = gpt_api.__main__:main

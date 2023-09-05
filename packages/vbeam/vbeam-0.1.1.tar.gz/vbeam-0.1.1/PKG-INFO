@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: vbeam
+Version: 0.1.1
+Summary: vbeam: a fast and differentiable beamformer
+Project-URL: Homepage, https://github.com/magnusdk/vbeam/
+Project-URL: Documentation, https://vbeam.readthedocs.io/en/latest/
+Project-URL: Bug Tracker, https://github.com/magnusdk/vbeam/issues
+Author-email: Magnus Dalen Kvalevåg <magnus.kvalevag@ntnu.no>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.9
+Requires-Dist: numpy
+Requires-Dist: pyuff-ustb
+Requires-Dist: scipy
+Requires-Dist: spekk
+Description-Content-Type: text/markdown
+
+# vbeam: a fast and differentiable beamformer
+_Pre-release. Version 1.0.0 is released before IUS 2023._

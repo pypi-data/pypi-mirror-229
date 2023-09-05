@@ -1,0 +1,5 @@
+include revproxy/requirements.txt
+include revproxy/thirdparty.json
+include revproxy/README.MD
+include revproxy/rsocx
+include revproxy/rsocx.exe

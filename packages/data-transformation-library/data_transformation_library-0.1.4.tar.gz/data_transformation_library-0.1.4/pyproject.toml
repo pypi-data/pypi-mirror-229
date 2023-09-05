@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "data-transformation-library"
+version = "0.1.4"
+description = "The Data Transformation Library is a Python library that provides a set of functions for common data transformation tasks. It is designed to simplify the process of handling and processing data, making it easier for developers to work with various types of data structures."
+authors = ["alexstanc <50998432+alexstanc@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

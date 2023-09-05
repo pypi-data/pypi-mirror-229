@@ -1,0 +1,27 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "encipherpy"
+version = "2.2.0"
+authors = [
+{name = "lightman210567", email = "81330314+lightman210567@users.noreply.github.com"}]
+description = "A package containing the implementation of multiple ciphers."
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers = [
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3.10",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/lightman210567/Encipher-python"
+"Bug tracker" = "https://github.com/lightman210567/Encipher-python/issues"
+
+[tool]
+
+[tool.hatch.build.targets]
+packages = ["src/encipher_lightman210567"]

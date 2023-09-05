@@ -1,0 +1,22 @@
+metrics:
+  entropy:
+    alpha: 1
+  entropy_percentage:
+    alpha: 1
+  gini:
+  hhi:
+  nakamoto_coefficient:
+
+max_timeframe:
+  start_year: 2010
+  end_year: 2023
+
+default_ledgers:
+  - bitcoin
+  - bitcoin_cash
+  - cardano
+  - dogecoin
+  - ethereum
+  - litecoin
+  - tezos
+  - zcash

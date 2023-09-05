@@ -1,0 +1,10 @@
+site_name: Consensus Blockchain Decentralization - Docs
+nav:
+        - Home: index.md
+        - How to use: setup.md
+        - Data Collection: data.md
+        - Parsers: parsers.md
+        - Mappings: mappings.md
+        - Metrics: metrics.md
+        - How to contribute: contribute.md
+theme: readthedocs

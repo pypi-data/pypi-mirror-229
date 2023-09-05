@@ -1,0 +1,13 @@
+firestarter/__init__.py,sha256=T7nAXd4gkziEm035ijlU4gQZEZpbGe__-I2pMW-3AnI,2562
+firestarter/__main__.py,sha256=0pNmOyXp2wb4vKkMgm0JQfSOGsSJGWnNnFnOSd67Vks,1408
+firestarter/_core/__init__.py,sha256=m0F5Ug7gWpjqINX47nfFz3mcDbEXzB913gq9MjvitYA,1278
+firestarter/_core/_entry_points.py,sha256=0WtRVMNCB4cWWMNiuyD58pjj6WW6Bfp7yHzV4h-t4W8,5943
+firestarter/_core/_files.py,sha256=tveYIP1rSVoOiXpxCyIyWAOBi8AVbtJZ_p3pchj-H6M,6133
+firestarter/_core/_labels.py,sha256=xb_KDHPTC0HEX7CwBmaDn5FlDO4XXKxxSYx5Wb5V2mg,1690
+firestarter/_core/_projects.py,sha256=2RbHggKJMLbYUhiRTQZP9BxzYHumvKQ4n-E4FeM8GUY,3106
+firestarter-0.0.2.dist-info/LICENSE.md,sha256=isK8pz6Rrm58er2z0o7Zkg1uO4xgtSXRf_8A8GltVIw,1099
+firestarter-0.0.2.dist-info/METADATA,sha256=vYOaSRH75fUnlzHkOAwC1HEk8U9nNTTMDqsTlLmDIis,5177
+firestarter-0.0.2.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+firestarter-0.0.2.dist-info/entry_points.txt,sha256=cJqMjVykCFk8COtkFTUJVQGfvo6ELhBM4EzLYgvM5ss,73
+firestarter-0.0.2.dist-info/top_level.txt,sha256=qHuqDWyW4kVcqbYZpvbwLwJ_Q3Nezm_3mwM6E2wJPRg,12
+firestarter-0.0.2.dist-info/RECORD,,

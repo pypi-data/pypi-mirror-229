@@ -1,0 +1,2 @@
+[console_scripts]
+firestarter = firestarter._core._entry_points:_console

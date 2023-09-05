@@ -1,0 +1,3 @@
+[console_scripts]
+echo_subreddit=fediverser.cli:subreddit_to_lemmy
+

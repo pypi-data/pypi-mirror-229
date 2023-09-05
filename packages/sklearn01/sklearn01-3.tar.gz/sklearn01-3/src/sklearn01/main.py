@@ -1,0 +1,9 @@
+print("""ann 
+      bayesiandiabetes
+      candidate
+      en-kmean-iris
+      id3
+      knn-iris
+      pgm1lr
+      weather
+      """)

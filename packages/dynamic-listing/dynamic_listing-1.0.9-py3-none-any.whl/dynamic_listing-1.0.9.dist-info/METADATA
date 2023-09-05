@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: dynamic-listing
+Version: 1.0.9
+Summary: Django package provides easy way to create listing and its filters.
+Author: Sohype Khaled
+Author-email: sohype.mop@gmail.com
+License: MIT
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Framework :: Django :: 3.2
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: django-filter >=22.1
+Requires-Dist: django-base-template >=0.0.4
+
+# Dynamic Listing
+[![PyPI Version](https://img.shields.io/pypi/v/dynamic-listing)](https://pypi.org/project/dynamic-listing/)
+[![Documentation](https://img.shields.io/badge/documentation-ReadTheDocs-blue.svg)](https://your-package-docs-link-here.com)
+[![License](https://img.shields.io/badge/license-MIT-green.svg)](https://opensource.org/licenses/MIT)
+
+
+## Description
+
+The Django Dynamic List Package provides a robust way to create and manage listing views in Django applications, utilizing filters, bulk actions, and dynamic table, dynamic list, and dynamic grid components. It seamlessly integrates with [django-filter](https://django-filter.readthedocs.io/) to enhance your app's list views.
+
+## Installation
+
+You can install this package via pip:
+
+```bash
+pip install dynamic-listing
+```
+
+## Documentation
+
+For detailed documentation and usage instructions, please visit our [ReadTheDocs page](https://dynamic-listing.readthedocs.io).

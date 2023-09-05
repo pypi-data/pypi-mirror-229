@@ -1,0 +1,188 @@
+#Masks
+PLC_BIT_LOCAL_OUT_MASK = 0xF
+PLC_BIT_LOCAL_IN_MASK = 0xF00
+PLC_BIT_MQTT_IN_MASK = 0xF000
+PLC_BIT_MQTT_OUT_MASK = 0x00F0
+PLC_BIT_LOOPS_MASK = 0xFFFF
+PLC_BIT_RADIO_OUT_MASK = 0xFFFF
+PLC_BIT_PIEZO_MASK = 0xFFFF
+#Error Codes 
+PLC_FILE_OK = 0 
+PLC_FILE_NOT_FOUND = 1
+PLC_FILE_ERROR = 2
+PLC_UNKNOWN_INSTRUCTION = 3
+PLC_PROGRAM_OVERRUN = 4
+PLC_PROGRAM_END = 5
+
+#File format constants 
+ICS_MAX_PROGRAM_SIZE = 1024
+FILE_HEADER_LENGTH = 4
+FILE_FILE_NAME_LENGTH = 20
+VERSION_COMMENT_LENGTH = 20
+TOTAL_INTEGERS_ISA1 = 64
+TOTAL_INTEGERS = 64		# Ready for Increased number of integers for 1 < ISA 
+# We can only increase the number of integers if we modify the instruction set to allocate more bits to the integer addressing
+TOTAL_BITS = 256
+BIT_VAR_SIZE = 16
+IO_USAGE_BITMAP_SIZE = 80		# + Piezo channels See "LAST_FREE_BIT" in 760685
+IO_USAGE_BITMAP_SIZE_1 = 64		# Original io_usage_bitmap size	
+
+IO_USAGE_VAR_BITS = 16
+ICS_MAX_NAMES_SIZE = 255		# buffer is allocated with extra trailing character for null termination		
+PLC_NAMES_DELIMITER = ','		# Comma separated	
+
+# Predefined bits
+# Word # 0
+IO_BIT_DETECTION  = 0   # INPUT There are vehicle details from the Q in the relevant integers
+IO_BIT_BUTTON = 1		# INPUT The button has been pressed
+IO_BIT_ENERGY_SAVING = 2		# INPUT ENergy Saving Mode in operation
+IO_BIT_TIMEOUT = 3		# INPUT - Remote Input has timed-out
+IO_BIT_FAULT = 4		# OUTPUT Fault Status
+IO_BIT_SEND	= 5		# OUTPUT Trigger to SEND MQTT status message
+IO_BIT_SPARE1 = 6
+IO_BIT_SPARE2 = 7	 
+#
+IO_BIT_IN0 = 8
+IO_BIT_IN1 = 9
+IO_BIT_IN2 = 10
+IO_BIT_IN3 = 11
+IO_BIT_MQTT_IN0 = 12
+IO_BIT_MQTT_IN1 = 13
+IO_BIT_MQTT_IN2 = 14
+IO_BIT_MQTT_IN3 = 15
+#
+# Word  # 1
+IO_BIT_LOOP1 = 16
+IO_BIT_LOOP2 = 17
+IO_BIT_LOOP3 = 18
+IO_BIT_LOOP4 = 19
+IO_BIT_LOOP5 = 20
+IO_BIT_LOOP6 = 21
+IO_BIT_LOOP7 = 22
+IO_BIT_LOOP8 = 23
+IO_BIT_LOOP9 = 24
+IO_BIT_LOOP10 = 25
+IO_BIT_LOOP11 = 26
+IO_BIT_LOOP12 = 27
+IO_BIT_LOOP13 = 28
+IO_BIT_LOOP14 = 29
+IO_BIT_LOOP15 = 30
+IO_BIT_LOOP16 = 31
+#
+# Word # 2
+IO_BIT_OUT0 = 32
+IO_BIT_OUT1 = 33
+IO_BIT_OUT2 = 34
+IO_BIT_OUT3 = 35
+IO_BIT_MQTT_OUT0 = 36
+IO_BIT_MQTT_OUT1 = 37
+IO_BIT_MQTT_OUT2 = 38
+IO_BIT_MQTT_OUT3 = 39
+#
+IO_BIT_STATUS1 = 40			# Keep in sync with NUM_PLC_STATUS_BITS
+IO_BIT_STATUS2 = 41
+IO_BIT_STATUS3 = 42
+IO_BIT_STATUS4 = 43
+IO_BIT_STATUS5 = 44
+IO_BIT_STATUS6 = 45
+IO_BIT_STATUS7 = 46
+IO_BIT_STATUS8 = 47
+#
+# Word # 3
+IO_BIT_RADIO1_OUT0 = 48
+IO_BIT_RADIO2_OUT0 = 56
+#
+# Word # 4
+IO_BIT_PIEZO = 64
+
+# IO BIT constants
+PLC_BIT_LOCAL_OUT = 2		# word address
+PLC_BIT_LOCAL_IN = 0		# word address
+PLC_BIT_LOCAL_IN_SHIFT = 8
+NUM_GPO_BITS = 4
+NUM_GPI_BITS = 4
+PLC_BIT_MQTT_IN = 0		# word address
+PLC_BIT_MQTT_IN_SHIFT = 12
+PLC_BIT_MQTT_OUT = 2		# word address
+PLC_BIT_MQTT_OUT_SHIFT = 4
+PLC_BIT_LOOPS = 1		# word address
+PLC_BIT_RADIO_OUT = 3	# word address
+PLC_BIT_PIEZO = 4
+	
+#Predefined integers
+IO_INT_LANE = 0
+IO_INT_DIRECTION = 1
+IO_INT_SPEED = 2
+IO_INT_LENGTH = 3
+IO_INT_CLASS = 4
+IO_INT_GAP = 5
+IO_INT_GPM_PRM1 = 6
+IO_INT_GPM_PRM2 = 7
+IO_INT_GPM_PRM3 = 8
+IO_INT_GPM_PRM4 = 9
+IO_INT_GPM_PRM5 = 10
+IO_INT_GPM_PRM6 = 11
+IO_INT_GPM_PRM7= 12
+IO_INT_GPM_PRM8 = 13,
+IO_INT_TEMP_CC = 14,			
+IO_INT_BATT_MV = 15,			
+IO_INT_EXT_MV = 16,			
+IO_INT_MINUTE = 17,			
+IO_INT_STATUS1 = 18,			
+IO_INT_STATUS2 = 19,
+IO_INT_STATUS3 = 20,
+IO_INT_STATUS4 = 21,
+IO_INT_STATUS5 = 22,
+IO_INT_STATUS6 = 23,
+IO_INT_STATUS7 = 24,
+IO_INT_STATUS8 = 25
+
+#PLC class
+class plc_t:
+    header = []
+    filename = []
+    version = []
+    isa = 0
+    cycle_time = 0
+    program_length = 0
+    program = []
+    integers = []
+    bits = [False for i in range(256)]
+
+PC_MASK  = 0x3FF
+
+#ICS Instructions 
+class ICS:
+	NOP = 0x00
+	JUMP = 0x01
+	JUMP_EQ = 0x02
+	JUMP_NEQ = 0x03
+	JUMP_GT = 0x04
+	JUMP_LEQ = 0x05
+	JUMP_LT = 0x06
+	JUMP_GEQ = 0x07
+	ADD = 0x08
+	SUB = 0x09
+	MUL = 0x0A
+	DIV = 0x0B
+	MOD  = 0x0C
+	ADD_1  = 0x0D
+	SUB_1 = 0x0E
+	NEG = 0x0F
+	SHL = 0x10
+	ROL = 0x11
+	SHR = 0x12
+	ROR = 0x13
+	SR0 = 0x14
+	AND = 0x18
+	OR = 0x19
+	XOR = 0x1A
+	NOT = 0x1B
+	LOAD_LITERAL = 0x1C
+	COPY_VARIABLE = 0x1D
+	COPY_BIT = 0x1E
+	JUMP_IF_BIT_CLEAR = 0x20
+	JUMP_IF_BIT_SET = 0x21
+	CLEAR_BIT = 0x22
+	SET_BIT = 0x23
+	END_OF_PROGRAM = 0xFF

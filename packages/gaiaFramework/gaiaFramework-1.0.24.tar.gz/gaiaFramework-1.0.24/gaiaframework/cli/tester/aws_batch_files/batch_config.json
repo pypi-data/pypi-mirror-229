@@ -1,0 +1,84 @@
+{
+    "environment": "gaia-airflow-test",
+    "log_level": "warning",
+    "bucket_name": "gaia-aws-airflow-try",
+    "project_id": "google-project-id",
+    "region": "us-east1",
+    "template_id": "{name-your-service}-template",
+    "project_name": "{name-your-service}",
+    "target": "wf_dev",
+    "unique_iteration_id": "",
+    "unique_template_id": "",
+    "specific_jobs_to_run": [],
+    "force_remove_all_prerequisites": false,
+    "use_cluster_bootstrap": false,
+    "cluster_duration_sec": 3600,
+    "cluster_conf": {
+        "Name": "{name-your-service}-cluster",
+        "ReleaseLabel": "emr-6.12.0",
+        "Applications": [{"Name": "Spark"}],
+        "Configurations": [
+            {
+                "Classification": "spark-env",
+                "Configurations": [
+                    {
+                        "Classification": "export",
+                        "Properties": {"PYSPARK_PYTHON": "/usr/bin/python3.9"}
+                    }
+                ]
+            },
+            {
+                "Classification": "yarn-env",
+                "Properties": {},
+                "Configurations": [
+                    {
+                        "Classification": "export",
+                        "Properties": {
+                            "PYSPARK_PYTHON": "/usr/bin/python3"
+                        }
+                    }
+                ]
+            }
+        ],
+        "Instances": {
+            "InstanceGroups": [
+                {
+                    "Name": "Primary node",
+                    "Market": "SPOT",
+                    "InstanceRole": "MASTER",
+                    "InstanceType": "m5.xlarge",
+                    "InstanceCount": 1
+                },
+                {
+                    "Name": "Worker nodes",
+                    "Market": "SPOT",
+                    "InstanceRole": "CORE",
+                    "InstanceType": "m5.xlarge",
+                    "InstanceCount": 1
+                }
+            ],
+            "KeepJobFlowAliveWhenNoSteps": true,
+            "TerminationProtected": false
+        },
+        "JobFlowRole": "EMR_EC2_DefaultRole",
+        "ServiceRole": "EMR_DefaultRole",
+        "LogUri": "s3://gaia-aws-airflow-try/logs/emr/",
+        "BootstrapActions": [
+            {
+                "Name": "init_actions",
+                "ScriptBootstrapAction": {
+                    "Args": [],
+                    "Path": ""
+                }
+            }
+        ]
+    },
+    "spark_properties": [
+        ["--driver-memory", "2G"],
+        ["--executor-memory", "2G"],
+        ["--num-executors", "1"]
+    ],
+    "extra_job_params": {
+        "MODE": "MANUAL"
+    }
+}

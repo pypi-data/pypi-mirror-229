@@ -1,0 +1,16 @@
+odoo/addons/stock_picking_batch_back2draft/README.rst,sha256=Ca4MBbGa4EHjLD4-3KI01DtJ1B8k8r41mHI8V6kypSI,3157
+odoo/addons/stock_picking_batch_back2draft/__init__.py,sha256=X9EJGOE2GtZbS0G82PtSXmWSZ_R8jEM0rlJTDliQjp4,21
+odoo/addons/stock_picking_batch_back2draft/__manifest__.py,sha256=nJo5yhKsJAafjkMC4vQx1-YhBTe-JksPhmylJCYJmCc,628
+odoo/addons/stock_picking_batch_back2draft/i18n/stock_picking_batch_back2draft.pot,sha256=MZuprFUjrh4S7Sv_DktsAkvrv-k-omBsYFKJ5orNBgs,920
+odoo/addons/stock_picking_batch_back2draft/models/__init__.py,sha256=7v7WkGq9BbvwVHsAV0aTfBPGizCwGgfI7ZoqAhtlItA,34
+odoo/addons/stock_picking_batch_back2draft/models/stock_picking_batch.py,sha256=1A-2u-XYcrIQkJ17dTtgVHTq8b7q9ElQqODU4HQTWU4,452
+odoo/addons/stock_picking_batch_back2draft/readme/CONTRIBUTORS.rst,sha256=gzBzVBgmPG36rm831zxxPcbwE7eEJu6T1P3KD1X2gCE,45
+odoo/addons/stock_picking_batch_back2draft/readme/DESCRIPTION.rst,sha256=oLWbUXimIqqp020HUFUHmQQ2N9lBQfW6aWDtwRyrpN0,62
+odoo/addons/stock_picking_batch_back2draft/readme/USAGE.rst,sha256=xeklIZJ6_a3ECl2YvTiRPHJtXyaszkhX9Le91q3Ci9s,99
+odoo/addons/stock_picking_batch_back2draft/static/description/icon.png,sha256=6xBPJauaFOF0KDHfHgQopSc28kKvxMaeoQFQWZtfZDo,9455
+odoo/addons/stock_picking_batch_back2draft/static/description/index.html,sha256=KXsaljzQPODmmef7X2Y4L40AIyrImVCvjOCI9fwgqlg,12599
+odoo/addons/stock_picking_batch_back2draft/views/stock_picking_batch_view.xml,sha256=OlkGuXlvD32-VLKGIu_C7FDkSHTE7CcatS59O1f90FU,719
+odoo12_addon_stock_picking_batch_back2draft-12.0.1.0.0.99.dev3.dist-info/METADATA,sha256=O5cKfp4vXY5G-fvHsub_zV9xwEHoWEk2Fj1CIUsfV7U,3787
+odoo12_addon_stock_picking_batch_back2draft-12.0.1.0.0.99.dev3.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+odoo12_addon_stock_picking_batch_back2draft-12.0.1.0.0.99.dev3.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
+odoo12_addon_stock_picking_batch_back2draft-12.0.1.0.0.99.dev3.dist-info/RECORD,,

@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: autograder-py
+Version: 0.1.0
+Summary: The Python interface for the autograding server.
+Home-page: https://github.com/eriq-augustine/autograder-py
+Maintainer: Eriq Augustine
+Maintainer-email: eaugusti@ucsc.edu
+Keywords: grading
+Classifier: Intended Audience :: Education
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# Python Interface for Autograder
+
+The Python interface for the autograding server.

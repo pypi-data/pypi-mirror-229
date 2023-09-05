@@ -1,0 +1,8 @@
+README.md
+setup.py
+qwq_package/mymodule.py
+qwq_package.egg-info/PKG-INFO
+qwq_package.egg-info/SOURCES.txt
+qwq_package.egg-info/dependency_links.txt
+qwq_package.egg-info/requires.txt
+qwq_package.egg-info/top_level.txt

@@ -1,0 +1,9 @@
+pacpush/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pacpush/__main__.py,sha256=AGaRlh97zN1X_S2IP9LLUUaqEOCJOzEQfeqXUVpDZ8I,95
+pacpush/pacpush.conf,sha256=gDblLxMCpACBYNAqu7az0o4J_ZWZUboqPSDRfccLK9Q,1917
+pacpush/pacpush.py,sha256=iwg7qPu84wAAlPdjmG06EinGtqnQ3CAVVm4xsUUhBKo,13053
+pacpush-2.26.dist-info/METADATA,sha256=0pqF8khrwI6bw3jE3rbfi0oPfbPW2hqROM9E_KCMYiY,9552
+pacpush-2.26.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+pacpush-2.26.dist-info/entry_points.txt,sha256=da-VkyFD38EHMktad5cQT6CYp_w5tz-flwkMhY4GjLw,49
+pacpush-2.26.dist-info/top_level.txt,sha256=vIxJQ6pzJqB3eD-zvO8oAAQVJ5TUxvIfqcKNo8XdhOk,8
+pacpush-2.26.dist-info/RECORD,,

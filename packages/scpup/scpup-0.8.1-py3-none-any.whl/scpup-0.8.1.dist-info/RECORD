@@ -1,0 +1,15 @@
+scpup/__init__.py,sha256=5XJhtgIdPRhdgdHdKjfeBq7QozNkri0h6DY4dpOpxmI,105
+scpup/services.py,sha256=AE70JeMUsHhqnrBpoI79r1bHCuKpGEcdI7Edoeu8urg,1068
+scpup/abc/__init__.py,sha256=Mnt9AfXk9Rnbu8ZpdR5bPwBWHfjD4RRn12tJTwxeu6c,62
+scpup/abc/group.py,sha256=idx3_w0-G8T7FdZo3lqgKQnrQN1uOCkqZQPKA1PE18I,4586
+scpup/abc/sprite.py,sha256=nrXGcArTMclYehbk-3DQcYVoF2slz6UUypjDbwpZXXk,1970
+scpup/abc/view.py,sha256=sJ2h4vXa4tSWCpjToZXMgL7dDKE3GMx-WZY531ormsQ,543
+scpup/utils/__init__.py,sha256=bDGGafLsFSsQwFEcofWYDvqoH9vk-JWqBgivh7oJnDU,63
+scpup/utils/ctrl.py,sha256=JwuNPNm0Gbw-UF55dNpp4a4_publzpU3lFcgDhY3MN4,5042
+scpup/utils/loader.py,sha256=vtkGmEbXIgBIndEJNrSPT5VXjeBAY6MqpQsRVD-F8aA,862
+scpup/utils/player.py,sha256=3xmZSPogNtU4xSbpCWBX0sMDLp1vSYlHTrKFikR66KE,1948
+scpup/utils/time.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+scpup-0.8.1.dist-info/METADATA,sha256=KN1NdFdIMPGR2-P8dNW92ftHz1diipUFQ12ooMI0Des,1147
+scpup-0.8.1.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+scpup-0.8.1.dist-info/licenses/LICENSE,sha256=CZ4Rt3X0gX_7rBAOIrRF8SHSgi3nBvH_r7rKd4_JzaM,1077
+scpup-0.8.1.dist-info/RECORD,,

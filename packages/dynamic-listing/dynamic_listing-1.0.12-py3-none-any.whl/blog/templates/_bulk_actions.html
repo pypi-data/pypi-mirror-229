@@ -1,0 +1,16 @@
+<a href="{% url "blog:blog-bulk-delete" %}"
+         data-request-method="POST"
+   data-toggle="bulk-action"
+   data-confirm-message="Are you sure you want to delete the selected articles?"
+   data-input-type="selected"
+        class="btn btn-primary me-3">
+  Delete Selected with Sweetalret2
+</a>
+<button type="button"
+        class="btn btn-danger"
+        data-bs-toggle="modal"
+        data-bs-target="#bulk-delete"
+        data-input-type="selected"
+        id="delete-modal-bulk-action-toggle">
+  Delete Selected as Form
+</button>

@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/turn_ephemeral_credentials/__init__.py
+src/turn_ephemeral_credentials.egg-info/PKG-INFO
+src/turn_ephemeral_credentials.egg-info/SOURCES.txt
+src/turn_ephemeral_credentials.egg-info/dependency_links.txt
+src/turn_ephemeral_credentials.egg-info/requires.txt
+src/turn_ephemeral_credentials.egg-info/top_level.txt

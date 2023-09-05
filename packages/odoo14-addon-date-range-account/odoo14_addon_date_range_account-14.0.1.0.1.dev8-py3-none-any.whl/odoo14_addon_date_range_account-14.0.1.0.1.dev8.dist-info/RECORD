@@ -1,0 +1,16 @@
+odoo/addons/date_range_account/README.rst,sha256=YgRDtlmEtKIJrNoBKC42j4dCuAiEhpenW_xVln0nmws,3186
+odoo/addons/date_range_account/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+odoo/addons/date_range_account/__manifest__.py,sha256=RpE90Q0MLEqDKfjR6b-p1wR5BbNFCaKmi2TtAKPBaMU,698
+odoo/addons/date_range_account/i18n/date_range_account.pot,sha256=gb7cJr2_-OSvOtavkVocqGF8GyPWsZwNRSyupJOeoYQ,883
+odoo/addons/date_range_account/i18n/es.po,sha256=7-M3zkUMOUxzCaM5LjVIDhKjC4YE_1cKqczOlrfSfOA,1118
+odoo/addons/date_range_account/i18n/fr.po,sha256=IvXmn4Pm0pFdTtYA6ex7JXEP96CwGGTmY9dghEk6nsw,1095
+odoo/addons/date_range_account/readme/CONTRIBUTORS.rst,sha256=e8dOgio6UxRss1tsAaHVr97hi-hjTfI5ouj7XQ1JHGE,50
+odoo/addons/date_range_account/readme/DESCRIPTION.rst,sha256=sUolzSuXUU24BXzX9BzUpMaqFd4gc9Zv-_e4jD_OM7I,189
+odoo/addons/date_range_account/security/ir.model.access.csv,sha256=4HUtWFk3PV9FTqmFBkNu3jAzvq_c_-fYX2OsfHqIO2g,564
+odoo/addons/date_range_account/static/description/icon.png,sha256=6xBPJauaFOF0KDHfHgQopSc28kKvxMaeoQFQWZtfZDo,9455
+odoo/addons/date_range_account/static/description/index.html,sha256=-cVbaHjFNrFSbhMFrVoXtja8ENzJxGOLvHcW5EF2Qy4,12553
+odoo/addons/date_range_account/views/date_range.xml,sha256=TBgJn0QgnKOumgyvNODcBRUSiBCzP-Jyu4HTFj9kw2Q,730
+odoo14_addon_date_range_account-14.0.1.0.1.dev8.dist-info/METADATA,sha256=qVcgN_nXo5xnbNAIcdy7e-AnzvnhItyftUK-AwZ3o7c,3781
+odoo14_addon_date_range_account-14.0.1.0.1.dev8.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+odoo14_addon_date_range_account-14.0.1.0.1.dev8.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
+odoo14_addon_date_range_account-14.0.1.0.1.dev8.dist-info/RECORD,,

@@ -1,0 +1,6 @@
+{% if advisor.semesters_participated  %}
+## Previous involvement
+{% for semester in advisor.semesters_participated|sort %}
+* {{ semester }}
+{%- endfor -%}
+{% endif %}

@@ -1,0 +1,11 @@
+rich
+typer
+python-dotenv
+pymongo
+pymilvus
+numpy
+
+[test]
+pytest
+pytest-cov
+redb-odm

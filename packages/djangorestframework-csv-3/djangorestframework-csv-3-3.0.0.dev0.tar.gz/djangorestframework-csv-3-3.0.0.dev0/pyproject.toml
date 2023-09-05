@@ -1,0 +1,123 @@
+[project]
+name = "djangorestframework-csv-3"
+authors = [{ name = "Mjumbe Wawatu Ukweli", email = "mjumbewu@gmail.com" }]
+maintainers = [{ name = "Gabriel Dugny", email = "git@dugny.me" }]
+description = "CSV Tools for Django REST Framework"
+readme = "README.md"
+requires-python = ">=3.8"
+license = { text = "BSD" }
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Environment :: Web Environment",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: BSD License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Framework :: Django",
+    "Framework :: Django :: 3.2",
+    "Framework :: Django :: 4.1",
+    "Framework :: Django :: 4.2",
+]
+dependencies = [
+    "djangorestframework>=3.0.0",
+    "typing_extensions",
+    "Django!=4.0.*,>=3.2",
+    "typing-extensions",
+]
+dynamic = ["version"]
+
+
+[project.urls]
+"Homepage" = "https://github.com/GabDug/django-rest-framework-csv"
+"Bug Tracker" = "https://github.com/GabDug/django-rest-framework-csv/issues"
+
+
+[tool.setuptools]
+packages = ["rest_framework_csv"]
+[tool.setuptools.dynamic]
+version = { attr = "rest_framework_csv.__version__" }
+
+
+[tool.pdm.dev-dependencies]
+dev = [
+    "ruff>=0.0.287",
+    "black>=23.7.0",
+    "mypy>=1.5.1",
+    "django-stubs>=4.2.3",
+    "djangorestframework-stubs>=3.14.2",
+]
+
+[tool.pdm.scripts]
+fmt = { cmd = "black .", help = "Run black formatter" }
+lint-mypy = { cmd = "mypy", help = "Run mypy type checker" }
+lint-ruff = { cmd = "ruff .", help = "Run ruff linter" }
+test = { cmd = "python manage.py test", help = "Run tests" }
+test-tox = { cmd = "tox", help = "Run tox tests" }
+
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+
+[tool.black]
+line-length = 120
+target-version = ["py38"]
+
+[tool.ruff]
+line-length = 140
+respect-gitignore = true
+extend-select = [
+    "Q000",
+    "TCH",
+    "I001",
+    "S",
+    "T",
+    "PTH",
+    "PYI",
+    "RET",
+    "D209",
+    "D202",
+    "EM101",
+    "UP",
+    "PERF",
+    "I",
+    "RUF",
+    "FURB",
+]
+extend-ignore = ["S101"]
+target-version = "py38"
+
+[tool.ruff.isort]
+required-imports = ["from __future__ import annotations"]
+
+[tool.ruff.per-file-ignores]
+"example/*" = ["E501", "F401", "S105", "RUF", "PERF"]
+
+[tool.mypy]
+files = ["rest_framework_csv"]
+python_version = "3.8"
+check_untyped_defs = true
+
+[tool.tox]
+legacy_tox_ini = """
+    [tox]
+    envlist =  py38-django{32,41,42}-drf3
+        py39-django{32,41,42}-drf3
+        py310-django{32,41,42}-drf3
+        py311-django{41,42}-drf3
+
+    [testenv]
+    commands = python manage.py test
+    deps =
+        django32: Django>=3.2,<4
+        django41: Django>=4.1,<4.2
+        django42: Django>=4.2,<5
+        drf3: djangorestframework>=3,<4
+"""

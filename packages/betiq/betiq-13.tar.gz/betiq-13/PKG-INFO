@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: betiq
+Version: 13
+Summary: An unofficial SDK for The Odds API.
+Author: Ian Draves
+Author-email: iantdraves@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: furo (>=2023.8.19,<2024.0.0)
+Requires-Dist: requests (>=2.31.0,<3.0.0)
+Requires-Dist: sphinx (>=7.2.5,<8.0.0)
+Description-Content-Type: text/markdown
+
+# betiq
+
+[![CI](https://github.com/iandraves/betiq/actions/workflows/python-publish.yml/badge.svg)](https://github.com/iandraves/betiq/actions/workflows/python-publish.yml)
+
+[![CI](https://github.com/iandraves/betiq/actions/workflows/static.yml/badge.svg)](https://github.com/iandraves/betiq/actions/workflows/static.yml)
+
+An unofficial SDK for [The Odds API v4](https://the-odds-api.com/).
+
+<img src="./docs/_static/logo.png" alt="The Odds API logo" width="200"/>
+
+## Install it from PyPI
+
+```bash
+pip install betiq
+```
+
+## Usage
+
+```py
+import betiq
+
+odds = betiq.get_odds(api_key={THE_ODDS_API_API_KEY})
+
+print(odds) # Dictionary with latest odds data
+```
+
+## Documentation
+
+[Read the docs](https://iandraves.github.io/betiq).

@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+better_configuration.egg-info/PKG-INFO
+better_configuration.egg-info/SOURCES.txt
+better_configuration.egg-info/dependency_links.txt
+better_configuration.egg-info/top_level.txt

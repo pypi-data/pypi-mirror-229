@@ -1,0 +1,52 @@
+Metadata-Version: 2.1
+Name: better-configuration
+Version: 0.1.0
+Summary: A configuration system
+Home-page: https://github.com/CheatBetter/BetterConfig
+Author: CheatBetter
+Author-email: vitalggistrashlool@gmail.com
+License: GPLv3+
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Programming Language :: Python :: 3.6
+Description-Content-Type: markdown
+License-File: LICENSE
+
+# BetterConfig
+
+BetterConfig is config library used to create  config structures for projects
+
+## Installation
+
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install betterconfig.
+
+```bash
+pip install better-configuration
+```
+
+## Usage
+
+```python
+
+from betterconfiguration import config
+
+test_config = config.BaseConfig("test", "this is a test value")
+
+print(test_config.test)
+```
+### Result
+![](images/result.png)
+
+
+
+## Contributing
+
+Pull requests are welcome. For major changes, please open an issue first
+to discuss what you would like to change.
+
+Please make sure to update tests as appropriate.
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)

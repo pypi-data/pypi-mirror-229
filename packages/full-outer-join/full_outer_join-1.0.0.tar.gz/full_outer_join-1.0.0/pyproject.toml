@@ -1,0 +1,37 @@
+[build-system]
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "full_outer_join"
+authors = [{name = "David Gilman", email = "davidgilman1@gmail.com"}]
+readme = "README.md"
+requires-python = ">=3.8"
+license = {file = "LICENSE"}
+keywords = [
+    "itertools",
+    "iterator",
+    "iteration",
+    "join",
+]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Developers",
+    "Natural Language :: English",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "Topic :: Software Development :: Libraries",
+]
+dynamic = ["version", "description"]
+
+[project.urls]
+Homepage = "https://github.com/dgilman/full_outer_join"
+
+[tool.flit.module]
+name = "full_outer_join"
+
+[tool.black]
+line-length = 79
+target-version = ['py38']
+skip-string-normalization = true

@@ -1,0 +1,3 @@
+[console_scripts]
+spike2py_preprocess = spike2py_preprocess.__main__:app
+

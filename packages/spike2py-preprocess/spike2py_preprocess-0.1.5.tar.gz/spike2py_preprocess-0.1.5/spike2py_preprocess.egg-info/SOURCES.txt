@@ -1,0 +1,16 @@
+LICENSE
+README.md
+setup.py
+spike2py_preprocess/__init__.py
+spike2py_preprocess/__main__.py
+spike2py_preprocess/study.py
+spike2py_preprocess/subject.py
+spike2py_preprocess/trial.py
+spike2py_preprocess/trial_sections.py
+spike2py_preprocess/utils.py
+spike2py_preprocess.egg-info/PKG-INFO
+spike2py_preprocess.egg-info/SOURCES.txt
+spike2py_preprocess.egg-info/dependency_links.txt
+spike2py_preprocess.egg-info/entry_points.txt
+spike2py_preprocess.egg-info/requires.txt
+spike2py_preprocess.egg-info/top_level.txt

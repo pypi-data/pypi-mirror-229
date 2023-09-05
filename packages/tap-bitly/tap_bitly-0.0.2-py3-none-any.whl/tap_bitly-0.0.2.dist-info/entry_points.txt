@@ -1,0 +1,3 @@
+[console_scripts]
+tap-bitly=tap_bitly.tap:TapBitly.cli
+

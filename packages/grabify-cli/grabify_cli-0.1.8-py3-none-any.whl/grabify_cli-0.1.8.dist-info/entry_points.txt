@@ -1,0 +1,2 @@
+[console_scripts]
+grabify = src.grabify_cli.__main__:main

@@ -1,0 +1,8 @@
+README.md
+setup.py
+pywrapgeneid/__init__.py
+pywrapgeneid/geneid.py
+pywrapgeneid.egg-info/PKG-INFO
+pywrapgeneid.egg-info/SOURCES.txt
+pywrapgeneid.egg-info/dependency_links.txt
+pywrapgeneid.egg-info/top_level.txt

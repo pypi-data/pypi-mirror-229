@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: taicalculator
+Version: 0.0.1
+Summary: First Python Library
+Home-page: 
+Author: Tai Do
+Author-email: ductai.do@digipen.edu
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: MacOS
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.11
+
+This is a basic calculator
+
+Change Log
+==========
+
+0.0.1 (Sep 4, 2023)
+-------------------
+
+- First release

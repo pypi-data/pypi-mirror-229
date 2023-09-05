@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+pyepwmorph/__init__.py
+pyepwmorph.egg-info/PKG-INFO
+pyepwmorph.egg-info/SOURCES.txt
+pyepwmorph.egg-info/dependency_links.txt
+pyepwmorph.egg-info/requires.txt
+pyepwmorph.egg-info/top_level.txt

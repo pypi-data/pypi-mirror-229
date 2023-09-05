@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+flask_favicon/__init__.py
+flask_favicon/flask_extension.py
+flask_favicon/flask_favicon_asset.py
+flask_favicon/flask_integration.py
+flask_favicon.egg-info/PKG-INFO
+flask_favicon.egg-info/SOURCES.txt
+flask_favicon.egg-info/dependency_links.txt
+flask_favicon.egg-info/requires.txt
+flask_favicon.egg-info/top_level.txt

@@ -1,0 +1,3 @@
+feiticeiro_tec
+feiticeiro_tec/config
+feiticeiro_tec/config/__pycache__

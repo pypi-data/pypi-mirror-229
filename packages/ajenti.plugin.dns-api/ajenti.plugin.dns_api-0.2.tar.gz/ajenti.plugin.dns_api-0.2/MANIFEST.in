@@ -1,0 +1,7 @@
+
+recursive-include ajenti_plugin_dns_api * *.*
+recursive-exclude ajenti_plugin_dns_api *.pyc
+include ajenti_plugin_dns_api/plugin.yml
+include MANIFEST.in
+include requirements.txt
+    

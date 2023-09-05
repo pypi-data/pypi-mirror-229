@@ -1,0 +1,1 @@
+{"": "", "<i class=\\\"fas fa-plus-circle\\\"></i>\\n": "", "Add": "", "Cancel": "", "Name": "", "New DNS entry": "", "No domain found with this apikey.": "", "Select domain:": "", "Selected domain: {{domains.active}}": "", "TTL": "", "Type": "", "Update": "", "Value": "", "Values": "", "DNS API": "", "Delete": ""}

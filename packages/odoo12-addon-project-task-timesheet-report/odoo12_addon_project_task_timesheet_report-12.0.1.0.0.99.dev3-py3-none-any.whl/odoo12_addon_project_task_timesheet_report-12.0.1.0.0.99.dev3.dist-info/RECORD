@@ -1,0 +1,15 @@
+odoo/addons/project_task_timesheet_report/README.rst,sha256=PcTMabbWgKOOtASXYZiKarSo2cUD6vGPK6Qht0aF59U,3175
+odoo/addons/project_task_timesheet_report/__init__.py,sha256=WH41yoiBGYm_kA1KwWejNIhz-ERNcnYeRacpjQR8kMs,119
+odoo/addons/project_task_timesheet_report/__manifest__.py,sha256=Rni0jFT__uvVFSYMNr485Bru56c7-5HSQYlfan2bYAA,681
+odoo/addons/project_task_timesheet_report/i18n/project_task_timesheet_report.pot,sha256=xG8UsH9aB5K11a7uTW2ps8IqzHlXxglbPOrg_O_AuiM,2230
+odoo/addons/project_task_timesheet_report/readme/CONTRIBUTORS.rst,sha256=P_-TdS6_JdkfqQ8q4dh8L2NKZhnZj-P2dydYes8YFtw,38
+odoo/addons/project_task_timesheet_report/readme/DESCRIPTION.rst,sha256=DLW_x-0cUc9YVAJBvsMlUKzE9Q5-PV4tFXgtGCo-VUk,107
+odoo/addons/project_task_timesheet_report/readme/USAGE.rst,sha256=PBdowEZsCShxEz6s2N1R3_zB6MtRJJIAP0CTFL-FWCQ,145
+odoo/addons/project_task_timesheet_report/static/description/icon.png,sha256=6xBPJauaFOF0KDHfHgQopSc28kKvxMaeoQFQWZtfZDo,9455
+odoo/addons/project_task_timesheet_report/static/description/index.html,sha256=wPDzd4o502EaOtyEMWYp5IQrSnvb3aosCLByJvzr7vE,12680
+odoo/addons/project_task_timesheet_report/views/project_task_chatter_report.xml,sha256=s7QWEvpd99WZSPHthTNX130kHYxr6-mIJuMLHh3OXiQ,1898
+odoo/addons/project_task_timesheet_report/views/project_task_report.xml,sha256=4LVg2Tx4qocEEWTQxBlpJ3czN3TbkUseHyYke-g-fKY,1797
+odoo12_addon_project_task_timesheet_report-12.0.1.0.0.99.dev3.dist-info/METADATA,sha256=ino5dSFmUYwANVzfKsAVwLQIjMEYo_AxzmZRcSSWfRg,3813
+odoo12_addon_project_task_timesheet_report-12.0.1.0.0.99.dev3.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+odoo12_addon_project_task_timesheet_report-12.0.1.0.0.99.dev3.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
+odoo12_addon_project_task_timesheet_report-12.0.1.0.0.99.dev3.dist-info/RECORD,,

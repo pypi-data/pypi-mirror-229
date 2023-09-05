@@ -1,0 +1,17 @@
+pandas
+stardist
+scipy
+tifffile
+matplotlib
+napari
+cellpose
+torch
+test_tube
+lightning
+pynvml
+poetry
+
+[testing]
+tox
+pytest
+pytest-cov

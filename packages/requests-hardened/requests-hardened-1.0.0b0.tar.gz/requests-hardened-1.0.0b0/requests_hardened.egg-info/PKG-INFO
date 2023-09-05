@@ -1,0 +1,94 @@
+Metadata-Version: 2.1
+Name: requests-hardened
+Version: 1.0.0b0
+Summary: A library that overrides the default behaviors of the ``requests`` library, and adds new security features.
+Author-email: Saleor Commerce <hello@saleor.io>
+License: BSD-3-Clause
+Project-URL: homepage, https://github.com/NyanKiyoshi/requests-hardened/
+Project-URL: source, https://github.com/NyanKiyoshi/requests-hardened/
+Project-URL: issues, https://github.com/NyanKiyoshi/requests-hardened/issues
+Project-URL: changelog, https://github.com/NyanKiyoshi/requests-hardened/releases/
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Natural Language :: English
+Classifier: Topic :: Security
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: POSIX :: BSD
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.8
+Description-Content-Type: text/x-rst
+Provides-Extra: dev
+License-File: LICENSE
+
+=================
+requests-hardened
+=================
+
+``requests-hardened`` is a library that overrides the default behaviors of the ``requests``
+library, and adds new security features.
+
+
+Features
+========
+
+Overrides of Defaults
+---------------------
+
+This library allows to override some default values from the ``requests`` library
+that can have a security impact:
+
+- ``Config.never_allow_redirects = False`` always reject HTTP redirects
+- ``Config.default_timeout = (2, 10)`` sets the default timeout value when no value or ``None`` is passed
+
+
+SSRF Filters
+------------
+
+A SSRF IP filter can be used to reject HTTP(S) requests targeting private and loopback
+IP addresses.
+
+Settings:
+
+- ``Config.ip_filter_enable`` whether or not to filter the IP addresses
+- ``ip_filter_allow_localhost`` whether or not to allow loopback IP addresses
+
+
+Example Usage
+=============
+
+.. code-block:: python
+
+  from requests_hardened import Config, Manager
+
+  # Creates a global "manager" that can be used to create ``requests.Session``
+  # objects with hardening in place.
+  DefaultManager = Manager(
+      Config(
+          default_timeout=(2, 10),
+          never_allow_redirects=False,
+          ip_filter_enable=True,
+          ip_filter_allow_localhost=False,
+      )
+  )
+
+  # Sends an HTTP request without re-using ``requests.Session``:
+  resp = DefaultManager.send_request("GET", "https://example.com")
+  print(resp)
+
+  # Sends HTTP requests with reusable ``requests.Session``:
+  with DefaultManager.get_session() as sess:
+      sess.request("GET", "https://example.com")
+      sess.request("POST", "https://example.com", json={"foo": "bar"})

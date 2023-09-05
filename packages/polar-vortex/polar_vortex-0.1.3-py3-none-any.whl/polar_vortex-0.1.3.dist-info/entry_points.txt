@@ -1,0 +1,3 @@
+[console_scripts]
+polar-vortex=polar_vortex.polar-vortex:main
+

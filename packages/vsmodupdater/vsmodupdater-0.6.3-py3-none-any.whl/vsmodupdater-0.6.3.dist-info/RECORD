@@ -1,0 +1,13 @@
+vsmodupdater/__init__.py,sha256=8Ru1INRYj7C2AnDEJM7FfwMXW1VaLENQMuJnQ1LDM6o,94
+vsmodupdater/api.py,sha256=TQpyYhAayjMdxGzeQlMqRg5HOOWik5Wn1XaFsXTA5Kg,299
+vsmodupdater/cli.py,sha256=L_gOenGKHMpPEr60gdj9ljV4x1UFsZ80K7QeHQ1R3d4,7137
+vsmodupdater/fs.py,sha256=CRAYtO6pEUpW63fsOyoJEfQxzF6RCTk2WIc-vvUkTYI,1701
+vsmodupdater/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+vsmodupdater/util.py,sha256=zffX04heWeJSfC-hfgVpHbMejw1abHfh14x5zgx2OSk,663
+vsmodupdater/version.py,sha256=H0HiLQHLs0jVsb3twy-ZLHy2UIroK0svpJO1EZOJuQM,468
+vsmodupdater-0.6.3.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+vsmodupdater-0.6.3.dist-info/METADATA,sha256=vSv7TD_1CexeTKgTUKtSGyxOFyEjmepbbsNvNIB_ezQ,1010
+vsmodupdater-0.6.3.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+vsmodupdater-0.6.3.dist-info/entry_points.txt,sha256=mW90SBe-fEk2Y4Db17jiDs5OESYe4My4HTXdp0evDk4,55
+vsmodupdater-0.6.3.dist-info/top_level.txt,sha256=uHFAs8qJjKb6lkD3mXpWMQX2KLFFlXkrj37xNly-naY,13
+vsmodupdater-0.6.3.dist-info/RECORD,,

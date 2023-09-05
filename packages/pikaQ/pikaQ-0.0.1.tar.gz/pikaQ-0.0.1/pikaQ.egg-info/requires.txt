@@ -1,0 +1,9 @@
+fastcore>=1.5.28
+
+[dev]
+nbdev
+jupyter
+ipykernel>=6.16.2
+nbdev>=2.3.12
+notebook>=6.5.2
+fastapi>=0.95.1

@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: nldcsc
+Version: 0.0.1
+Summary: Package with general devops code
+Home-page: https://github.com/NLDCSC/nldcsc
+Author: NLDCSC
+Author-email: NLDCSC@invalid.com
+License: GNU General Public License v3.0
+Project-URL: Code, https://github.com/NLDCSC/nldcsc
+Platform: any
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Provides-Extra: all
+Provides-Extra: loggers
+License-File: LICENSE
+
+# nldcsc
+NLDCSC package
+
+

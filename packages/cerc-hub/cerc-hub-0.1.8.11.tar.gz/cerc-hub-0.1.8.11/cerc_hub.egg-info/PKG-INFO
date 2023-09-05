@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: cerc-hub
+Version: 0.1.8.11
+Summary: CERC Hub consist of a set of classes (Central data model), importers and exporters to help researchers to create better and more sustainable cities
+Classifier: License :: OSI Approved :: GNU Library or Lesser General Public License (LGPL)
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+
+CERC Hub consist of a set of classes (Central data model), importers and exporters to help researchers to create better and more sustainable cities.
+
+Developed at Concordia university in Canada as part of the research group from the Next Generation Cities Institute, our aim among others is to provide a comprehensive set of tools to help researchers and urban developers to make decisions to improve the livability and efficiency of our cities

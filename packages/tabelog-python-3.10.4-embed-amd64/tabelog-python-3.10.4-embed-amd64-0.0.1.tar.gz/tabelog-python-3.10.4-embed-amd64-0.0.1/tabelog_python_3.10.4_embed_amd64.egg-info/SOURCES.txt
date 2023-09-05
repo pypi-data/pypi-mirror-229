@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+tabelog_python_3.10.4_embed_amd64.egg-info/PKG-INFO
+tabelog_python_3.10.4_embed_amd64.egg-info/SOURCES.txt
+tabelog_python_3.10.4_embed_amd64.egg-info/dependency_links.txt
+tabelog_python_3.10.4_embed_amd64.egg-info/top_level.txt

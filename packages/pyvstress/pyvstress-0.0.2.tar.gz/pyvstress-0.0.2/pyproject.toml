@@ -1,0 +1,46 @@
+[tool.poetry]
+name="pyvstress"
+version="0.0.2"
+description="A minimal code to compute vertical stresses in horizontal soil profile."
+authors = ["Aashish Sharma <confusionaananda@gmail.com>"]
+license = " GPL-3.0-or-later"
+readme = "README.md"
+keywords = ["Soil Mechanics", "Geotechnical Engineering", "Vertical Stresses", "Soil Profile"]
+homepage = "https://gitlab.com/geosharma/pvstress"
+documentation = "https://pyvstress.readthedocs.io/index.html"
+repository = "https://gitlab.com/geosharma/pvstress"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Development Status :: 1 - Planning",
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+    "Operating System :: OS Independent",
+]
+
+[tool.poetry.dependencies]
+python = "^3.11.5"
+numpy = "^1.25.2"
+
+
+[tool.poetry.group.test.dependencies]
+pytest = "^7.4.1"
+numpy = "^1.25.2"
+
+
+[tool.poetry.group.doc.dependencies]
+sphinx = "^7.2.5"
+sphinx-rtd-theme = "^1.3.0"
+
+
+[tool.poetry.group.examples.dependencies]
+matplotlib = "^3.7.2"
+pathlib = "^1.0.1"
+shapely = "^2.0.1"
+handcalcs = "^1.6.5"
+jupyterlab = "^4.0.5"
+pandas = "^2.1.0"
+altair = "^5.1.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

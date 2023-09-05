@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+scientisttseries.egg-info/PKG-INFO
+scientisttseries.egg-info/SOURCES.txt
+scientisttseries.egg-info/dependency_links.txt
+scientisttseries.egg-info/requires.txt
+scientisttseries.egg-info/top_level.txt

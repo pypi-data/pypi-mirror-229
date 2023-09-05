@@ -1,0 +1,17 @@
+odoo/addons/sale_invoice_no_mail/README.rst,sha256=kgpHLrOmWkLHCsSSBEZfaOa4go1gA0Pvzw6Y5Ru2JG8,2997
+odoo/addons/sale_invoice_no_mail/__init__.py,sha256=jI5PZDKS0aV-yXubn1o0DHe5ldzQZrLmZYbgF0Q7DWg,21
+odoo/addons/sale_invoice_no_mail/__manifest__.py,sha256=1Wb-qtziS8IWTCMFqNHqFZeUMPplNyMVbsBuceomoCs,399
+odoo/addons/sale_invoice_no_mail/i18n/sale_invoice_no_mail.pot,sha256=xInfogLDIDoauo9HYn3TAl0UlB7fLQ0sTGCS8CAXRAs,1027
+odoo/addons/sale_invoice_no_mail/readme/CONTRIBUTORS.rst,sha256=JgkmEHo7gdILQ6ip5qLdDZMoWbKNT4YNVITSlEGkQz0,104
+odoo/addons/sale_invoice_no_mail/readme/DESCRIPTION.rst,sha256=aMOIXSDixXa-JdxDQbTXmBlUtq3KigCNNCXBg65qdxI,69
+odoo/addons/sale_invoice_no_mail/readme/USAGE.rst,sha256=VRh94ZVMhuyJDHBIfsMJVDODhgMsK64AeLDrf1RqHR0,49
+odoo/addons/sale_invoice_no_mail/static/description/icon.png,sha256=6xBPJauaFOF0KDHfHgQopSc28kKvxMaeoQFQWZtfZDo,9455
+odoo/addons/sale_invoice_no_mail/static/description/index.html,sha256=JRjUymlva1V_IyoNppenL_1cmLr9mX4EN9S8xdH93mM,12500
+odoo/addons/sale_invoice_no_mail/tests/__init__.py,sha256=EnTOHDxQiPlvZ22HmNgCk9LtYCCHsJb0CddelEfyr7s,40
+odoo/addons/sale_invoice_no_mail/tests/test_sale_invoice_no_mail.py,sha256=C3-KHw1JTE7IzxzT2JshIhRvn7hYbJpaj--18PDWea8,1313
+odoo/addons/sale_invoice_no_mail/wizard/__init__.py,sha256=zp5e0ETNTnXc7vOa1h9RhRqAgZQPUP8z0vtj4_spZpI,40
+odoo/addons/sale_invoice_no_mail/wizard/sale_make_invoice_advance.py,sha256=PqauVLik1vfZr6Si8VdN4LuGbRe1bW9lebSc6HfvBEA,550
+odoo14_addon_sale_invoice_no_mail-14.0.1.0.2.dev1.dist-info/METADATA,sha256=mf0s0aJdVWW9bmMUm4ncFDMyr732h3-11UeGPh1gkQk,3542
+odoo14_addon_sale_invoice_no_mail-14.0.1.0.2.dev1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+odoo14_addon_sale_invoice_no_mail-14.0.1.0.2.dev1.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
+odoo14_addon_sale_invoice_no_mail-14.0.1.0.2.dev1.dist-info/RECORD,,

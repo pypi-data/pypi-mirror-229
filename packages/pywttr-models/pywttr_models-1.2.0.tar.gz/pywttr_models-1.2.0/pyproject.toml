@@ -1,0 +1,143 @@
+[tool.poetry]
+name = "pywttr-models"
+version = "1.2.0"
+description = "Pydantic models and other stuff for pywttr and aiopywttr"
+license = "MIT"
+authors = ["monosans <hsyqixco@protonmail.com>"]
+readme = "README.md"
+repository = "https://github.com/monosans/pywttr-models"
+keywords = ["forecast", "weather"]
+classifiers = [
+  "Environment :: Web Environment",
+  "Framework :: Pydantic :: 1",
+  "Framework :: Pydantic",
+  "Intended Audience :: Developers",
+  "Intended Audience :: Information Technology",
+  "Natural Language :: English",
+  "Operating System :: OS Independent",
+  "Programming Language :: Python :: 3 :: Only",
+  "Programming Language :: Python",
+  "Topic :: Internet :: WWW/HTTP",
+  "Topic :: Internet",
+  "Topic :: Software Development :: Libraries :: Python Modules",
+  "Topic :: Software Development :: Libraries",
+  "Topic :: Software Development",
+  "Typing :: Typed",
+]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+pydantic = ">=1.9,<3"
+typing-extensions = "^4.0"
+
+[tool.poetry.group.dev.dependencies]
+black = "23.7.0"
+mypy = "1.5.1"
+pre-commit = "3.4.0"
+ruff = "0.0.287"
+
+[tool.black]
+line-length = 80
+target-version = ["py38"]
+skip-magic-trailing-comma = true
+preview = true
+
+[tool.mypy]
+python_version = "3.8"
+disallow_subclassing_any = false
+disallow_untyped_calls = false
+disallow_untyped_decorators = false
+warn_unreachable = true
+local_partial_types = true
+enable_error_code = [
+  "redundant-self",
+  "redundant-expr",
+  "possibly-undefined",
+  "truthy-bool",
+  "truthy-iterable",
+  "ignore-without-code",
+  "unused-awaitable",
+]
+strict = true
+plugins = ["pydantic.mypy"]
+
+[tool.pydantic-mypy]
+init_forbid_extra = true
+init_typed = true
+warn_required_dynamic_aliases = true
+warn_untyped_fields = true
+
+[tool.ruff]
+ignore = [
+  "A003",
+  "ANN",
+  "BLE001",
+  "C901",
+  "COM",
+  "D100",
+  "D101",
+  "D102",
+  "D103",
+  "D104",
+  "D105",
+  "D106",
+  "D107",
+  "D203",
+  "D205",
+  "D212",
+  "D213",
+  "D400",
+  "D401",
+  "D407",
+  "D415",
+  "D417",
+  "DJ008",
+  "ERA001",
+  "FBT002",
+  "PD901",
+  "PERF203",
+  "PLR0911",
+  "PLR0912",
+  "PLR0913",
+  "PLR0915",
+  "PT012",
+  "RUF001",
+  "RUF002",
+  "RUF003",
+  "RUF012",
+  "RUF013",
+  "S110",
+  "S112",
+  "S308",
+  "S311",
+  "SIM105",
+  "TCH001",
+  "TCH002",
+  "TCH003",
+  "TID252",
+  "TRY400",
+]
+ignore-init-module-imports = true
+line-length = 80
+select = ["ALL"]
+target-version = "py38"
+
+[tool.ruff.flake8-self]
+ignore-names = ["_model_", "_value_"]
+
+[tool.ruff.flake8-unused-arguments]
+ignore-variadic-names = true
+
+[tool.ruff.isort]
+combine-as-imports = true
+required-imports = ["from __future__ import annotations"]
+
+[tool.ruff.pydocstyle]
+convention = "google"
+
+[tool.ruff.pyupgrade]
+keep-runtime-typing = true
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

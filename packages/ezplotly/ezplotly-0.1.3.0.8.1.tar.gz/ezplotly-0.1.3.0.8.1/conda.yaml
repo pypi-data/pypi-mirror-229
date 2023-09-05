@@ -1,0 +1,14 @@
+name: ezplotly_env
+channels:
+  - defaults
+dependencies:
+  - pip:
+    - plotly
+    - numpy
+    - scipy
+    - pandas
+    - scikit-learn
+    - kaleido
+    - jupyter
+    - hatch
+    - 'black[jupyter]'

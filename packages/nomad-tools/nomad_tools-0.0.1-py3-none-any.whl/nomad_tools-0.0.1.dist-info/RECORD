@@ -1,0 +1,11 @@
+nomad_tools/nomad_cp.py,sha256=cudILpp_Wi-kS192Q133mg8L_9OhB2HOPUnMrhYy00g,10858
+nomad_tools/nomad_gitlab_runner.py,sha256=6Dyxo674Mo7fjLiURQltgchxqe217ykFISHAmRJ-iQM,8245
+nomad_tools/nomad_vardir.py,sha256=L11D2zgoBmGxuKkhLKokWkPzV1x7GqoIh3s_2r7vpUw,8260
+nomad_tools/nomad_watch.py,sha256=DRRAbqWPcjl22J71X8-B3TsEW4t7w7VnKilnWjTUODc,29674
+nomad_tools/nomad_watch2.py,sha256=SQWnIKyPRsInHt7vtbkwDPlDFnSbQrsHQkseh98eV-8,24881
+nomad_tools-0.0.1.dist-info/LICENSE,sha256=PLXMgtSsv45S_c3-7laPrphA4Aqb93Qw3wTFSH8dVyc,1072
+nomad_tools-0.0.1.dist-info/METADATA,sha256=E6qR19CT12UtKOU9Du1EcgpuEtVQarDIq_25SDLZPzc,584
+nomad_tools-0.0.1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+nomad_tools-0.0.1.dist-info/entry_points.txt,sha256=vmx3Z0qNlLVVo2XiIE2D77SYFItDz8iHlCD3NerGKws,198
+nomad_tools-0.0.1.dist-info/top_level.txt,sha256=-IcO6O8Uz4aQ9mScKBzJZ3NnwrYzbq0TTEQ0pXkCXSU,12
+nomad_tools-0.0.1.dist-info/RECORD,,

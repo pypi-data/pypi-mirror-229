@@ -1,0 +1,3 @@
+[console_scripts]
+openai-billing=openai_billing.__main__:app
+

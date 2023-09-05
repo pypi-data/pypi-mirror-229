@@ -1,0 +1,9 @@
+openai_billing/__init__.py,sha256=7Bzdj_by3iqCweW7ZzD1709qMElgb7JdBSQ5f5zx71U,115
+openai_billing/__main__.py,sha256=lhpbuYIO9-21UlutBjIPe96a3BGV8K3vb3XDhRKGmLQ,5870
+openai_billing/get_browser.py,sha256=Jy7bX9XMutHGTD8RAPJJvwsTLhob1KmsLYqrQUrU1MM,3398
+openai_billing/openai_billing.py,sha256=EP4sFRM2geZgJtYzEi767_Z7UiuwXHOjx-7BR03P4Iw,5395
+openai_billing-0.1.0a1.dist-info/entry_points.txt,sha256=-Flncgi-qFwTO06hJg-oXmX2KYtMG6BjfhkOjyX0WsE,62
+openai_billing-0.1.0a1.dist-info/LICENSE,sha256=2Z4g7Eq1bQRfTQoryBnNsyhlWBpAGylKyp1KFJMlTWU,1085
+openai_billing-0.1.0a1.dist-info/METADATA,sha256=MWFDiYAkB-xLiN78zAIgFts_HjxGZ5LJ6TSvipPtGYI,2616
+openai_billing-0.1.0a1.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+openai_billing-0.1.0a1.dist-info/RECORD,,

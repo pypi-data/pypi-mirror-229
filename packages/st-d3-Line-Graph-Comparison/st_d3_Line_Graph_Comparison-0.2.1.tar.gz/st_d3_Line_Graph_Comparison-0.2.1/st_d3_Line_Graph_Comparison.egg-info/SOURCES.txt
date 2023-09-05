@@ -1,0 +1,8 @@
+MANIFEST.in
+setup.py
+d3LineGraphSrc/__init__.py
+st_d3_Line_Graph_Comparison.egg-info/PKG-INFO
+st_d3_Line_Graph_Comparison.egg-info/SOURCES.txt
+st_d3_Line_Graph_Comparison.egg-info/dependency_links.txt
+st_d3_Line_Graph_Comparison.egg-info/requires.txt
+st_d3_Line_Graph_Comparison.egg-info/top_level.txt

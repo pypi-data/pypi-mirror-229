@@ -1,0 +1,17 @@
+odoo/addons/stock_picking_filter_product/README.rst,sha256=HzemAGB19BrtXdCm3UX4YL2tql9omWjdIwkZeb73taY,3361
+odoo/addons/stock_picking_filter_product/__init__.py,sha256=RmKTK90wY6WiwOyyV-VogEf0gSVWlTcf6Fvbs_0pssc,123
+odoo/addons/stock_picking_filter_product/__manifest__.py,sha256=-NNUXd_N-pHtGgdGA-zA2hqdbn1osol1tEOqdoztxdc,676
+odoo/addons/stock_picking_filter_product/i18n/stock_picking_filter_product.pot,sha256=KMn9k6L1WAtVBbeLqFhCyHr0-fbyRCvG-cCvg-pxuKU,695
+odoo/addons/stock_picking_filter_product/models/__init__.py,sha256=Oq-YiolLgQM7O_I0GUhFEWA4VxHcyp-IMPIwNbULMHs,132
+odoo/addons/stock_picking_filter_product/models/product_product.py,sha256=w54cRM-Zx19GdymS1YaN4TDaRLiRvDUXURYp2rE9uCc,592
+odoo/addons/stock_picking_filter_product/readme/CONTRIBUTORS.rst,sha256=DUS1M_90lQYsGuWya-YHEXNOmDBpgkajgwPg_eKa7AU,58
+odoo/addons/stock_picking_filter_product/readme/DESCRIPTION.rst,sha256=7gANpnXX0STHxBx7xPTA1cr0CXb0Q0eLmvnL_Slhkvg,171
+odoo/addons/stock_picking_filter_product/readme/USAGE.rst,sha256=XWsdlxZ94V6IlLqqegWgvvneIgi1GOLzmiNFq9Atm1I,198
+odoo/addons/stock_picking_filter_product/static/description/icon.png,sha256=6xBPJauaFOF0KDHfHgQopSc28kKvxMaeoQFQWZtfZDo,9455
+odoo/addons/stock_picking_filter_product/static/description/index.html,sha256=U_s99i1pnumuSVTXWf6-vQ4esGfW1sH3PDhPFkLqyuU,12846
+odoo/addons/stock_picking_filter_product/views/stock_picking_view.xml,sha256=IAQpFdReL9wqzYAfSzPYyViiAF-TQZOfjV59T6QTl_o,1035
+odoo/addons/stock_picking_filter_product/views/stock_scrap_view.xml,sha256=drmXkL4yGqaU3PtQl8uUY_kGG5WFAvYWbOMyGeKSPWg,720
+odoo12_addon_stock_picking_filter_product-12.0.1.0.0.99.dev3.dist-info/METADATA,sha256=KUJZYxkYBlgf2nTxic5g6UrN38vu5L9bqd5SmBNC9-Y,3987
+odoo12_addon_stock_picking_filter_product-12.0.1.0.0.99.dev3.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+odoo12_addon_stock_picking_filter_product-12.0.1.0.0.99.dev3.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
+odoo12_addon_stock_picking_filter_product-12.0.1.0.0.99.dev3.dist-info/RECORD,,

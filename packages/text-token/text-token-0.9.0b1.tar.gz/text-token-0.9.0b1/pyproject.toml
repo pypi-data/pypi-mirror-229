@@ -1,0 +1,27 @@
+[tool.black]
+line-length = 140
+target-version = ['py311']
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "text-token"
+version = "0.9.0b1"
+authors = [
+  { name="Shaped Sundew" },
+]
+description = "Tokenization of user text."
+readme = "README.md"
+requires-python = ">=3.11"
+classifiers = [
+    "Programming Language :: Python :: 3.11",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Development Status :: 4 - Beta"
+]
+
+[project.urls]
+"Homepage" = "https://github.com/Shapedsundew9/text-token"
+"Bug Tracker" = "https://github.com/Shapedsundew9/text-token/issues"

@@ -1,0 +1,10 @@
+fpdf
+pikepdf
+PyPDF2
+pdf2docx
+tqdm
+reportlab
+PyMuPDF
+poprogress
+pofile
+pillow

@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: clintest
+Version: 0.1.0
+Summary: A test framework for clingo programs
+Home-page: https://github.com/potassco/clintest
+Author: Tobias Stolzmann
+Author-email: tobias.stolzmann@uni-potsdam.de
+License: MIT
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: clingo >=5.5.0
+
+# clintest
+
+`clintest` is a Python framework that enables you to write efficient unit tests for `clingo` programs quickly.
+Devising and running multiple tests is a simple as:
+
+```python
+from clintest.test import Assert, And
+from clintest.quantifier import All, Any
+from clintest.assertion import Contains
+from clintest.solver import Clingo
+
+solver = Clingo("0", "a. {b}.")
+test = And(
+    Assert(Any(), Contains("a")),
+    Assert(All(), Contains("b")),
+    Assert(Any(), Contains("c")),
+)
+
+solver.solve(test)
+test.assert_()
+```
+
+For details, please read [the documentation](https://potassco.org/clintest/).

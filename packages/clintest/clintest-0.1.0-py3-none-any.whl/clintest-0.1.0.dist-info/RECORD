@@ -1,0 +1,12 @@
+clintest/__init__.py,sha256=SRjKbmEZfVCzEaln44e8yMq_vkb6Sz0oX3WZG2p7epw,8624
+clintest/__main__.py,sha256=zL2JvdMokQVgUIErPC8wNPPOqAFtWQH_hKexgqqUS3Q,184
+clintest/assertion.py,sha256=Ov28nBcY1v25JxWBHjNtb0dRPYv2OfzQQ4wI_b60L9M,5881
+clintest/outcome.py,sha256=zjgsCcpXH6Mb4m_vT8DLUDUXmPbhvGgvzMmLNda9070,2204
+clintest/quantifier.py,sha256=Q6qS-XMq2BUFFpZKkLq86XrQzZkhgcBJDD3VCdD2GcM,3994
+clintest/solver.py,sha256=O2CJfG9V9qRIfY5WcdZcxw0CrotmahJCMa4UiJwx77A,1956
+clintest/test.py,sha256=EKXgd8JdnaVAbigkPCGRKJYOz3X_vxXUm24SrQBPe2U,20544
+clintest-0.1.0.dist-info/LICENSE,sha256=0HHg3B74S9FQZDbWlk1R6O_vXz0ZY1fXDw81uCwjSeo,1073
+clintest-0.1.0.dist-info/METADATA,sha256=6SL__I1ULRkOvUBn-3B0Vm-sgTfkjc_y7NaNnwHDS1Y,930
+clintest-0.1.0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+clintest-0.1.0.dist-info/top_level.txt,sha256=uBsLyEgCO3eracgQPFYRhzkG1qIHnu4_Y6Kiah_DmWQ,9
+clintest-0.1.0.dist-info/RECORD,,

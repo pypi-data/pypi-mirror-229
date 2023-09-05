@@ -1,0 +1,87 @@
+Metadata-Version: 2.1
+Name: phase-cli
+Version: 1.5.3
+Summary: Securely manage your secrets and environment variables with Phase.
+Home-page: https://github.com/phasehq/cli
+Author: Phase
+Author-email: info@phase.dev
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: keyring ==24.2.0
+Requires-Dist: questionary ==2.0.0
+Requires-Dist: cffi ==1.15.1
+Requires-Dist: requests ==2.31.0
+Requires-Dist: PyNaCl ==1.5.0
+
+# Phase-CLI
+
+Securely manage your secrets and environment variables with Phase.
+
+## Features
+
+- Inject secrets to your application during runtime without any code changes
+- Import your existing .env files and encrypt them
+- Sync encrypted secrets with Phase cloud
+- Multiple environments eg. dev, testing, staging, production
+
+## Installation
+
+You can install Phase-CLI using curl:
+
+```bash
+curl -fsSL https://pkg.phase.dev/install.sh | bash
+```
+
+## Usage
+
+### Login
+
+Create an app in the [Phase Console](https://console.phase.dev) and copy appID and pss
+
+```bash
+phase auth
+```
+
+### Initialize
+
+Link the phase cli to your project
+
+```bash
+phase init
+```
+
+### Import .env
+
+Import and encrypt existing secrets and environment variables
+
+```bash
+phase secrets import .env
+```
+
+## List / view secrets
+
+```bash
+phase secrets list --show
+```
+
+## Run and inject secrets
+
+`phase run // your run command`
+
+Example:
+
+```bash
+phase run yarn dev
+```
+
+```bash
+phase run go run
+```
+
+```bash
+phase run npm start
+```

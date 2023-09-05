@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: mainprocess
+Version: 0.11
+Summary: Runs EXE-files as independent main processes
+Home-page: https://github.com/hansalemaos/mainprocess
+Author: Johannes Fischer
+Author-email: aulasparticularesdealemaosp@gmail.com
+License: MIT
+Keywords: subprocess,run,os
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Utilities
+Description-Content-Type: text/markdown
+License-File: LICENSE.rst
+
+
+# Runs EXE-files as independent main processes
+
+## pip install mainprocess
+
+
+```python
+from mainprocess import mainprocess
+# cmd.exe and notepad.exe won't be subprocesses of python.exe
+# If you close python.exe, they won't be closed automatically
+mainprocess(["cmd.exe"])
+mainprocess(["notepad.exe", r"C:\ipconfigdata.txt"])
+```

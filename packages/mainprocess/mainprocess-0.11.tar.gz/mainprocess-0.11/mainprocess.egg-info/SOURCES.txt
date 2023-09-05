@@ -1,0 +1,14 @@
+LICENSE.rst
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+mainprocess/README.MD
+mainprocess/__init__.py
+mainprocess/requirements.txt
+mainprocess/thirdparty.json
+mainprocess.egg-info/PKG-INFO
+mainprocess.egg-info/SOURCES.txt
+mainprocess.egg-info/dependency_links.txt
+mainprocess.egg-info/requires.txt
+mainprocess.egg-info/top_level.txt

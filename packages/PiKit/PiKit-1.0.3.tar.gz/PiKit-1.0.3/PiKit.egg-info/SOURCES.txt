@@ -1,0 +1,10 @@
+setup.py
+PiKit/__init__.py
+PiKit/add_num.py
+PiKit/face_detetion.py
+PiKit.egg-info/PKG-INFO
+PiKit.egg-info/SOURCES.txt
+PiKit.egg-info/dependency_links.txt
+PiKit.egg-info/requires.txt
+PiKit.egg-info/top_level.txt
+test/test.py

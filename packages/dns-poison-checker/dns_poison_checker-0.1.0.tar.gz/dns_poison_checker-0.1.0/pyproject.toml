@@ -1,0 +1,38 @@
+[tool.poetry]
+name = "dns-poison-checker"
+version = "0.1.0"
+description = "A tool to check spoofing between internal and external DNS servers."
+authors = ["HE Yaowen <he.yaowen@hotmail.com>"]
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/he-yaowen/dns-posion-checker"
+repository = "https://github.com/he-yaowen/dns-posion-checker.git"
+keywords = ["dns", "spoofing"]
+include = ["dns_poison_checker/poison_hosts"]
+packages = [{include = "dns_poison_checker"}]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Environment :: Console",
+    "Intended Audience :: System Administrators",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Topic :: Internet :: Name Service (DNS)",
+    "Topic :: Utilities",
+]
+
+[tool.poetry.dependencies]
+python = "^3.7,<=3.12"
+click = "^8.1.7"
+dnspython3 = "^1.15.0"
+
+[tool.poetry.scripts]
+dns-poison-check = "dns_poison_checker.__main__:cli"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

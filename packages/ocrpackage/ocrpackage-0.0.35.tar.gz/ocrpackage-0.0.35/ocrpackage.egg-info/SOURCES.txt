@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+ocrpackage/antispoofing_model.h5
+ocrpackage/antispoofing_model.json
+ocrpackage/haarcascade_frontalface_default.xml
+ocrpackage.egg-info/PKG-INFO
+ocrpackage.egg-info/SOURCES.txt
+ocrpackage.egg-info/dependency_links.txt
+ocrpackage.egg-info/requires.txt
+ocrpackage.egg-info/top_level.txt
+ocrpackage/haarcascades/haarcascade_frontalface_alt.xml
+ocrpackage/haarcascades/haarcascade_profileface.xml

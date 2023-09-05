@@ -1,0 +1,4 @@
+opencv-python
+numpy
+PyMuPDF
+pdf_table2json

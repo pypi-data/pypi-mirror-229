@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: nnapec
+Version: 0.1.0
+Summary: An emulator for the APEC model
+Home-page: https://github.com/grburgess/nnapec
+Author: J. Michael Burgess
+Author-email: jburgess@mpe.mpg.de
+License: GPL-2+
+Project-URL: Bug Tracker, https://github.com/grburgess/nnapec/issues
+Project-URL: Source Code, https://github.com/grburgess/nnapec
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: GNU General Public License v2 or later (GPLv2+)
+Classifier: Operating System :: POSIX
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Scientific/Engineering :: Physics
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# nnAPEC
+![CI](https://github.com/grburgess/nnapec/workflows/CI/badge.svg?branch=master)
+[![codecov](https://codecov.io/gh/grburgess/nnapec/branch/master/graph/badge.svg)](https://codecov.io/gh/grburgess/nnapec)
+[![Documentation Status](https://readthedocs.org/projects/nnapec/badge/?version=latest)](https://nnapec.readthedocs.io/en/latest/?badge=latest)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3372456.svg)](https://doi.org/10.5281/zenodo.3372456)
+![PyPI](https://img.shields.io/pypi/v/nnapec)
+![PyPI - Downloads](https://img.shields.io/pypi/dm/nnapec)
+
+![alt text](https://raw.githubusercontent.com/grburgess/nnapec/master/docs/media/logo.png)
+
+
+An emulator for the APEC model
+
+
+* Free software: GNU General Public License v3
+* Documentation: https://nnapec.readthedocs.io.
+
+
+## Features
+
+
+* TODO
+
+## Credits
+

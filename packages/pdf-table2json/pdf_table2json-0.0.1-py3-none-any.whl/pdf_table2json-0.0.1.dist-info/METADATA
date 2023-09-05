@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: pdf-table2json
+Version: 0.0.1
+Summary: PDF Table to JSON Converter
+Home-page: https://github.com/yousojeong/pdf-table-extract/
+Author: hielosan
+Author-email: hielosan@naver.com
+Keywords: pdf,table,json,converter,cv,openCV
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.6
+Requires-Dist: opencv-python
+Requires-Dist: numpy
+Requires-Dist: PyMuPDF
+Requires-Dist: pdf-table2json
+

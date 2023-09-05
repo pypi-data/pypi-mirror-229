@@ -1,0 +1,16 @@
+odoo/addons/pos_order_product_search/README.rst,sha256=YE1V1UxlgcjdgsXiYN96sp6L2jsHyLDij0Yi4aHBaeI,3058
+odoo/addons/pos_order_product_search/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+odoo/addons/pos_order_product_search/__manifest__.py,sha256=eC4Fw7iZjJSMu7ROiicHFTve461csafcskIG8ASDWAs,399
+odoo/addons/pos_order_product_search/i18n/it.po,sha256=5cwjO0e_69QvvRHOSfdkg0YPbk90y_t90AIjraKULqs,1055
+odoo/addons/pos_order_product_search/i18n/pos_order_product_search.pot,sha256=cFDpzjlWWqNqWeWU5T0lGFEgAhaHAJkp5Y7t4vhgHEo,845
+odoo/addons/pos_order_product_search/readme/CONTRIBUTORS.rst,sha256=XdRDPnVCqs5W8Xq2HeMSI2upDcxi97pMsCMcBEmsWt0,67
+odoo/addons/pos_order_product_search/readme/DESCRIPTION.rst,sha256=ZNug5kek_rJ0jumrsO7mzHvfmy0IHbthMCNwFWNxINw,41
+odoo/addons/pos_order_product_search/readme/ROADMAP.rst,sha256=RarX4i-j8ZIkEuYkBbd4dSzSva8a3nx7nB85Fl1elfg,57
+odoo/addons/pos_order_product_search/readme/USAGE.rst,sha256=mI_o4swJf7eQ4UCsywzvE20PpDZNbpMmfqInCZh4OKQ,104
+odoo/addons/pos_order_product_search/static/description/icon.png,sha256=6xBPJauaFOF0KDHfHgQopSc28kKvxMaeoQFQWZtfZDo,9455
+odoo/addons/pos_order_product_search/static/description/index.html,sha256=k3ArhKpzVDfgpCcHmkBmwZS7_QMjC0ZcYqlh1Uhh_ww,12827
+odoo/addons/pos_order_product_search/views/pos.xml,sha256=pdpgiXjfSwr1HpnJCDqsuIS1qHCdKbZ6477qF26a0g4,1056
+odoo14_addon_pos_order_product_search-14.0.1.0.1.dev6.dist-info/METADATA,sha256=YpW0IxjDR_fHMpnY1_AHkwaqP5ESyKGK2HY0gNasjXM,3615
+odoo14_addon_pos_order_product_search-14.0.1.0.1.dev6.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+odoo14_addon_pos_order_product_search-14.0.1.0.1.dev6.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
+odoo14_addon_pos_order_product_search-14.0.1.0.1.dev6.dist-info/RECORD,,

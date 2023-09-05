@@ -1,0 +1,14 @@
+tap_airbyte/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tap_airbyte/tap.py,sha256=9FOznQemmQkQuLGZv5uaIpePRAsd6jbu495YzyynYDw,27383
+tap_airbyte/tests/__init__.py,sha256=8F4j1HXPaACIZSoU9aWgQiRXPV1Z3fi1MBI8fF_u38w,34
+tap_airbyte/tests/fixtures/KPHX.csv,sha256=elk7Vk01ZzJmkslzI1y3iSvPO4CtbJB-68IrY0Hswlo,21038
+tap_airbyte/tests/fixtures/KPHX.singer,sha256=8Vdvu-fUkwXgWOSwwJrJJmpAH0QCuw7MCWCFXJad69Q,149270
+tap_airbyte/tests/fixtures/PUBLIC_APIS.singer,sha256=-Dbmfk2q1A608I_OHvMVWCKGwPB4sBt63t68oRFRoRs,426946
+tap_airbyte/tests/fixtures/SMEARGLE.singer,sha256=m-K7nLWVwCs4sXF8cnPA5Duise5s8SLIy8pcKgOnI8g,49763
+tap_airbyte/tests/test_core.py,sha256=RFOCoUQEJDl8or7A8faFVzxia3DlHC1YsFoSt3fKOeY,1276
+tap_airbyte/tests/test_syncs.py,sha256=vt56gfplnxxn8m7LSzHOuaqy1ZJJspHVYccdA5hvDyg,8550
+tap_airbyte-0.0.1.dist-info/LICENSE,sha256=s1U3-dvhp6sO1Z2r1zjnFqnCX6c2u9mpOkvGgEBTnYM,1077
+tap_airbyte-0.0.1.dist-info/METADATA,sha256=VfBoMOrq6vN5-rnSjB2Ny06fOvacdOGjxa2jeGzfHBc,484
+tap_airbyte-0.0.1.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+tap_airbyte-0.0.1.dist-info/entry_points.txt,sha256=UbO0XAjq4hV-MR-Qzko2TGXm-YJFssyZ4aMCg7g_J6U,62
+tap_airbyte-0.0.1.dist-info/RECORD,,

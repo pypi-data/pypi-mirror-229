@@ -1,0 +1,3 @@
+[console_scripts]
+tap-airbyte=tap_airbyte.tap:TapAirbyte.cli
+

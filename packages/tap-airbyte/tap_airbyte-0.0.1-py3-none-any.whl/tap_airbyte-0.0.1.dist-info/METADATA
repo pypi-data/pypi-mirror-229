@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: tap-airbyte
+Version: 0.0.1
+Summary: `tap-airbyte` is a Singer tap for Airbyte, built with the Meltano Singer SDK.
+License: MIT
+Keywords: ELT,Airbyte
+Author: Daniel Purtov
+Requires-Python: >=3.10.0,<3.11
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Provides-Extra: s3
+Requires-Dist: orjson (>=3.8.3,<4.0.0)
+Requires-Dist: singer-sdk (>=0.31.1,<0.32.0)

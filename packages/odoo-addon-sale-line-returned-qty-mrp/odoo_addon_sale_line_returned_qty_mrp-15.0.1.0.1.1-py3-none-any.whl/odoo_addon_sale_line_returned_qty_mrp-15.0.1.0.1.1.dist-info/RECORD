@@ -1,0 +1,16 @@
+odoo/addons/sale_line_returned_qty_mrp/README.rst,sha256=2PCm0pZ4OOjBboQo8s1-abwcPyl9_uY6KuOn2mIL7hs,3088
+odoo/addons/sale_line_returned_qty_mrp/__init__.py,sha256=X9EJGOE2GtZbS0G82PtSXmWSZ_R8jEM0rlJTDliQjp4,21
+odoo/addons/sale_line_returned_qty_mrp/__manifest__.py,sha256=HLckZ6hwK51fwfNMfVSkYAzhXcOISV78FasuqTystaE,563
+odoo/addons/sale_line_returned_qty_mrp/i18n/sale_line_returned_qty_mrp.pot,sha256=77Sy5YCvJ_OhkABKHlv7xEoPy_XjLfDG69yz_cwNTgQ,519
+odoo/addons/sale_line_returned_qty_mrp/models/__init__.py,sha256=0XTNG-MzihYtVvjGhNDM789gpRyLtTlIZGa1FuLbzV8,30
+odoo/addons/sale_line_returned_qty_mrp/models/sale_order_line.py,sha256=_3BaHJFn8gZy7txwg0twBWVLk3Nt4oL5dW2hjgEnJyM,4404
+odoo/addons/sale_line_returned_qty_mrp/readme/CONTRIBUTORS.rst,sha256=mWEzgm-kSyUiL2vE9HMVVNPsoyG0W0s180Nt8xfwaFQ,66
+odoo/addons/sale_line_returned_qty_mrp/readme/DESCRIPTION.rst,sha256=0-SM10rWWl9nvbnAoSPRvdcGjUNbeWJ1EV4I5Ald7os,112
+odoo/addons/sale_line_returned_qty_mrp/static/description/icon.png,sha256=6xBPJauaFOF0KDHfHgQopSc28kKvxMaeoQFQWZtfZDo,9455
+odoo/addons/sale_line_returned_qty_mrp/static/description/index.html,sha256=6_X3S0KXc2UhVbXuLgRNAKrEJ-BhrvOrp1k0TjSlc2c,12369
+odoo/addons/sale_line_returned_qty_mrp/tests/__init__.py,sha256=aQKk9bIgztIyo0qOkQE39N3HgaqP3MNMxyLyGCUULkQ,46
+odoo/addons/sale_line_returned_qty_mrp/tests/test_sale_line_returned_qty_mrp.py,sha256=AConoEtfOwR7hbP-eSUxwNdfBDavmqYcjC6nCLX6-mg,7291
+odoo_addon_sale_line_returned_qty_mrp-15.0.1.0.1.1.dist-info/METADATA,sha256=JLwz6e39hS2-CRIi3jVdrc3uRjyHQosNcdcGo3CuYwE,3760
+odoo_addon_sale_line_returned_qty_mrp-15.0.1.0.1.1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+odoo_addon_sale_line_returned_qty_mrp-15.0.1.0.1.1.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
+odoo_addon_sale_line_returned_qty_mrp-15.0.1.0.1.1.dist-info/RECORD,,

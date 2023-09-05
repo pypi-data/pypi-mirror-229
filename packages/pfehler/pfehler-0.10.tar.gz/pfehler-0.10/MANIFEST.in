@@ -1,0 +1,3 @@
+include pfehler/requirements.txt
+include pfehler/thirdparty.json
+include pfehler/README.MD

@@ -1,0 +1,14 @@
+LICENSE.rst
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+pfehler/README.MD
+pfehler/__init__.py
+pfehler/requirements.txt
+pfehler/thirdparty.json
+pfehler.egg-info/PKG-INFO
+pfehler.egg-info/SOURCES.txt
+pfehler.egg-info/dependency_links.txt
+pfehler.egg-info/requires.txt
+pfehler.egg-info/top_level.txt

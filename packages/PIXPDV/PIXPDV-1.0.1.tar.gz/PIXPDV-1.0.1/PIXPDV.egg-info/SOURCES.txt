@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+PIXPDV.egg-info/PKG-INFO
+PIXPDV.egg-info/SOURCES.txt
+PIXPDV.egg-info/dependency_links.txt
+PIXPDV.egg-info/requires.txt
+PIXPDV.egg-info/top_level.txt
+pixpdv/__init__.py
+pixpdv/pixpdv.py

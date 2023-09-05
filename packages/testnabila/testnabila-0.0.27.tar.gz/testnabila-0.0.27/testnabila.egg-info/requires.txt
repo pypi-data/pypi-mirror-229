@@ -1,0 +1,13 @@
+typing-extensions<4.6.0,>=3.6.6
+cmake>=3.27.2
+dlib
+setuptools
+retina-face
+opencv-python
+tensorflow
+easyocr
+Pillow
+scikit-image
+scipy
+pandas
+numpy

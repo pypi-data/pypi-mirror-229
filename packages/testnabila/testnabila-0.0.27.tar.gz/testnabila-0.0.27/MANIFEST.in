@@ -1,0 +1,7 @@
+include testnabila/*.jpg
+include testnabila/*.jpeg
+include testnabila/*.png
+include testnabila/*.xml
+include testnabila/*.h5
+include testnabila/*.json
+include testnabila/haarcascades/*.xml

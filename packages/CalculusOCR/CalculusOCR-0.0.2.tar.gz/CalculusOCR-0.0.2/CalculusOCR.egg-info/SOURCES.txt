@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+CalculusOCR/CalculusOCR.py
+CalculusOCR/__init__.py
+CalculusOCR.egg-info/PKG-INFO
+CalculusOCR.egg-info/SOURCES.txt
+CalculusOCR.egg-info/dependency_links.txt
+CalculusOCR.egg-info/top_level.txt

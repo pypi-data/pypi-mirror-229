@@ -1,0 +1,8 @@
+setup.py
+arianeDevs/__init__.py
+arianeDevs/responsedto.py
+arianeDevs.egg-info/PKG-INFO
+arianeDevs.egg-info/SOURCES.txt
+arianeDevs.egg-info/dependency_links.txt
+arianeDevs.egg-info/requires.txt
+arianeDevs.egg-info/top_level.txt

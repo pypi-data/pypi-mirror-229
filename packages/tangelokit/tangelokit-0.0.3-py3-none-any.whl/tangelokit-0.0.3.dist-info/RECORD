@@ -1,0 +1,17 @@
+tangelokit/__init__.py,sha256=GGP36NKwoT3xeWamMj-n7HSPyDmVjsGgLfp2VTlUhQk,105
+tangelokit/generate_data_structure.py,sha256=R1dpEJsaw1wwYcCEMtHT0kCPqBbpmPlccOKciWVYXT8,4391
+tangelokit/schema_validation.py,sha256=PxfsrTQw2uSRcjO9P1oiT0c0rt8Qp4erytOG1La3TaU,2549
+tangelokit/tangelokit.py,sha256=YQnfbOSzQ6C7vviqV1Hxl668ADTIVzOassiSHyqLY_8,3913
+tangelokit/common/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tangelokit/common/enums.py,sha256=9bCIwSq7bXzDG267GQCE09RMXJAuGfNeCRjU5MsAlY0,392
+tangelokit/validator/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tangelokit/validator/schema_validation.py,sha256=3zTet5rAVDG48ELH8ooGgYgvPRtJcpGv7rdEq27a0fg,859
+tangelokit/validator/schemas.py,sha256=iCngf-mvZu1wIcRhY4YlzHGS-aFGdotzn52hKpfw1ds,2516
+tangelokit-0.0.3.dist-info/DESCRIPTION.rst,sha256=zS54wBVgy3CfSq8q7qh-JWLsjwhGW64lUZGRcMV_tdQ,9
+tangelokit-0.0.3.dist-info/METADATA,sha256=HlpXl59Xov0qh5KzsUcaaEI7VXLJfaUQGOBsxkWhtYQ,599
+tangelokit-0.0.3.dist-info/RECORD,,
+tangelokit-0.0.3.dist-info/WHEEL,sha256=8Lm45v9gcYRm70DrgFGVe4WsUtUMi1_0Tso1hqPGMjA,92
+tangelokit-0.0.3.dist-info/metadata.json,sha256=Keactco_m6NbmiZrnw6cV5jgvkAi1aQk5FXtn8qo21U,737
+tangelokit-0.0.3.dist-info/top_level.txt,sha256=7C108Hbqxyr3VDW6IToC8sxtFnvBTWiTwUEQG3GLYHU,16
+test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test/test_generate_data_structure.py,sha256=3GDb9TR7K5GfyhbgdwjOMF8VVQXbK83YmZqBiX7JVvQ,5015

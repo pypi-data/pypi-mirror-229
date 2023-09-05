@@ -1,0 +1,17 @@
+odoo/addons/stay_report_py3o/README.rst,sha256=u-kRmH75A5_xVqgyXXlz39pVOow0P-AFX_I8-BtK_GE,3154
+odoo/addons/stay_report_py3o/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+odoo/addons/stay_report_py3o/__manifest__.py,sha256=vZxrWq1Der9cEM8sK6pU8WCGoA0nJT_csPDiLoyC-O0,625
+odoo/addons/stay_report_py3o/report.xml,sha256=NWWoL-x04mc4dmkHyG7ZWZqMQGS7UNMwX7xsFJgTFrQ,1294
+odoo/addons/stay_report_py3o/stay_arrival.odt,sha256=6zOemTZR_pgvJYaxtQMrSLGynAqXdBuWNcMMWkttemc,16525
+odoo/addons/stay_report_py3o/stay_journal.odt,sha256=4Akmed3XHre9IYL9rgY-sfokXo0h7zb4-Aavp9EK1qY,19102
+odoo/addons/stay_report_py3o/stay_meal.odt,sha256=embFAg1uS7jAFaGmpjtS09KalMjw0TZ3qq3ScaSGkaI,19936
+odoo/addons/stay_report_py3o/stay_toclean.odt,sha256=J6i7SmfCRxynhbDnhB9_E_fmWqG93hwzGijXWHtMtoA,15256
+odoo/addons/stay_report_py3o/i18n/stay_report_py3o.pot,sha256=AyzPzY6fvZoAIdVCppv0SiPLoR_D-HBQlYffHd1jWNE,341
+odoo/addons/stay_report_py3o/readme/CONTRIBUTORS.rst,sha256=e8dOgio6UxRss1tsAaHVr97hi-hjTfI5ouj7XQ1JHGE,50
+odoo/addons/stay_report_py3o/readme/DESCRIPTION.rst,sha256=nA8jYPmblU_u0oXyc3kXkKd1p1-wFdNaf-0HbRzInb8,105
+odoo/addons/stay_report_py3o/static/description/icon.png,sha256=6xBPJauaFOF0KDHfHgQopSc28kKvxMaeoQFQWZtfZDo,9455
+odoo/addons/stay_report_py3o/static/description/index.html,sha256=Kwp4YCR3woTcqqCSogxHKW5619NqDuzCxkfQRBv_EDo,12482
+odoo14_addon_stay_report_py3o-14.0.1.0.1.dev9.dist-info/METADATA,sha256=De39yPPDJbsiMNEuBGBVTNtrQ7EQOjzSCE4b51yOCOA,3809
+odoo14_addon_stay_report_py3o-14.0.1.0.1.dev9.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+odoo14_addon_stay_report_py3o-14.0.1.0.1.dev9.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
+odoo14_addon_stay_report_py3o-14.0.1.0.1.dev9.dist-info/RECORD,,

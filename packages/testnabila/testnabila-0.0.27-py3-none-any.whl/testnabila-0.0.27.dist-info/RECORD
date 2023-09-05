@@ -1,0 +1,16 @@
+testnabila/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+testnabila/antispoofing_model.h5,sha256=n8wugHT6SLtWkvjmcXTwnmEHR0hClLcfV8f43YvLL9w,10444552
+testnabila/antispoofing_model.json,sha256=_wz2cuER6u38VJuLBe0EjAxizN-WGbR7hBqNEalhSA8,81587
+testnabila/f_liveness_detection.py,sha256=ztZhVpvDMHXgGtrPVuowZAk50bMnekkSy1oSfPu7rLk,1326
+testnabila/f_orientation_detection.py,sha256=DjaqNQpz7xT8OANYIYqleVYJxf2MOuOmFmiOLs5NKZk,2571
+testnabila/f_utils.py,sha256=wAnf5l91mzZ1eFt_kXs_BlbbMyluJ_7gyrCWA1H5G0U,598
+testnabila/haarcascade_frontalface_default.xml,sha256=D31FJ4ROtRTUpJSOgi2pD7sWo0oLu7xq3GSYdHpar7A,930127
+testnabila/liveness.py,sha256=_5h9RYsoIna0g33yc7GFoLLP37JihR8R00WkNvmgXKQ,2765
+testnabila/ocr.py,sha256=dnDtCrAYmqAKph3ajF5L74uARCpe6a6o0rSvFjfOPUI,25543
+testnabila/haarcascades/haarcascade_frontalface_alt.xml,sha256=YoHfE0Wcwhj_BH0Csq44WbEv8UqT_-iVL3sz-te5aXs,676709
+testnabila/haarcascades/haarcascade_profileface.xml,sha256=s5pKO-RVOdsUan_B0-dhopLBluuIQhGF5qYVswVeYS0,828514
+testnabila-0.0.27.dist-info/LICENSE,sha256=JTmNGOPPvG2XBgkW2R2xwzJeR_OEjaFKeePN1jGYVt8,1068
+testnabila-0.0.27.dist-info/METADATA,sha256=S3edVcuPnwWWGtnmjuxlW1F9OHGWztC4GttwyW4gsFc,4190
+testnabila-0.0.27.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+testnabila-0.0.27.dist-info/top_level.txt,sha256=DzeMdpzNvK2bQX1lCgLcYN43IKT71qO-CY_d8Mhin9A,11
+testnabila-0.0.27.dist-info/RECORD,,

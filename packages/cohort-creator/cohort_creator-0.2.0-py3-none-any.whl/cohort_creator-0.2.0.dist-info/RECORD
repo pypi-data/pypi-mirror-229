@@ -1,0 +1,15 @@
+cohort_creator/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cohort_creator/_cli.py,sha256=TebEWLwcJXSznYokoDp4wDZOdrqbTfUfsLKu6UQjKAw,4736
+cohort_creator/_parsers.py,sha256=IfXFHx-WuH-h_NOox6-ZVyXwQRAfOQxiWrQ4ldqaomU,5529
+cohort_creator/_utils.py,sha256=fHT45csE8gqpOPnT1CzzGbZVl8XeOOAXue2R1f_6qGI,21094
+cohort_creator/_version.py,sha256=dQUHa1PGpJsNE2x_SQFxtOX-jousEqplwH1bdsk6mnE,160
+cohort_creator/bagelify.py,sha256=JBw9IIR21sIxt-35ux7KaWaQACUsmZbjCpKBE6kOBJs,4319
+cohort_creator/cohort_creator.py,sha256=zhHMDAZCjZdOzU1LIwwSI-63JZ4XsiPM23vhx27lggk,16624
+cohort_creator/logger.py,sha256=F4AAnC3Pu47u6QYua7x3QArA1r1rag1IQgwIBrdaDhg,415
+cohort_creator/data/bids_filter.json,sha256=KbdV3mesUbqc4q29CRs-wa8vDIKlosWEK5q1ge4QOT0,1773
+cohort_creator/data/openneuro.tsv,sha256=tmrxlrQsGD4neLAh6ObB4l7Y3uuNBodYXr4eepAVJ-0,252956
+cohort_creator-0.2.0.dist-info/METADATA,sha256=UZDVewGqrxYlDKEclGJnaq_hnzkpgAp4keefhurlumo,7026
+cohort_creator-0.2.0.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+cohort_creator-0.2.0.dist-info/entry_points.txt,sha256=un4Zmzfjc6F4n7xFxORFa12UeZWKMAuWRv5_fdcIx2U,59
+cohort_creator-0.2.0.dist-info/licenses/LICENSE,sha256=n0MFSDgxSd4TUNt7QCwn1MlJqNs1M0AnfrBMnA-KzRY,1073
+cohort_creator-0.2.0.dist-info/RECORD,,

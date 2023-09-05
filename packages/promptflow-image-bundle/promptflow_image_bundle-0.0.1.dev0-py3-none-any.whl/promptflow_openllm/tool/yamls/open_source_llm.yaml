@@ -1,0 +1,24 @@
+promptflow_openllm.tool.open_source_llm.OpenSourceLLM.call:
+  name: Open Source LLM
+  description: Tool to use Azure Foundation Models
+  type: python
+  module: promptflow_openllm.tool.open_source_llm
+  class_name: OpenSourceLLM
+  function: call
+  inputs:
+    prompt:
+      type:
+        - string
+    connection:
+      type:
+        - CustomConnection
+    api:
+      enum:
+        - chat
+        - completion
+      type:
+        - string
+    model_kwargs:
+      default: "{}"
+      type:
+        - object

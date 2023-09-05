@@ -1,0 +1,29 @@
+#! /bin/bash
+
+# print image build info
+echo "build info: $BUILD_INFO"
+
+# export environment variables for embedding store sdk
+source /service/scripts/init_for_embedding_store.sh
+
+echo "start promptflow runtime..."
+
+RUN_MODE=${PROMPTFLOW_RUN_MODE:-"compute"}
+if [ "$RUN_MODE" = "serving" ]; then
+    PROMPTFLOW_WORKER_NUM=${PROMPTFLOW_WORKER_NUM:-"8"}
+    # TODO: remove MAX_CONCURRENT_REQUESTS parameters after pfs changed to use PROMPTFLOW_WORKER_NUM
+    [[ -z "${MAX_CONCURRENT_REQUESTS}" ]] && WORKER_NUM=${PROMPTFLOW_WORKER_NUM} || WORKER_NUM=${MAX_CONCURRENT_REQUESTS}
+    # https://docs.gunicorn.org/en/latest/settings.html#threads
+    # If you try to use the sync worker type and set the threads setting to more than 1, the gthread worker type will be used instead.
+    WORKER_THREADS=${PROMPTFLOW_WORKER_THREADS:-"1"}
+    echo "start promptflow serving with worker_num: ${WORKER_NUM}, worker_threads: ${WORKER_THREADS}"
+    gunicorn -w ${WORKER_NUM} --threads ${WORKER_THREADS} -b "0.0.0.0:8080" --timeout 300 "promptflow.runtime.serving.app:create_app()"
+else
+    # embedding store service will start under non-serving mode
+    export IS_EMBEDDING_STORE_REST_SERVICE_ENABLED="true"
+
+    echo "start ingress..."
+    # we only need an init worker num, worker num can grow as long as memory is not in pressure
+    INIT_WORKER_NUM=${PROMPTFLOW_INIT_WORKERS:-"4"}
+    /service/ingress/promptflow-ingress --app-dir /service/app/ --init-process ${INIT_WORKER_NUM}
+fi

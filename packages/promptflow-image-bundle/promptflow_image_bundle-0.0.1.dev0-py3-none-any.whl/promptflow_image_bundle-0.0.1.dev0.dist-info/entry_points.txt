@@ -1,0 +1,6 @@
+[console_scripts]
+prt = promptflow.runtime._cli.prt:main
+start_promptflow = promptflow.runtime._cli.start_runtime:main
+
+[package_tools]
+promptflow_openllm_tools = promptflow_openllm.tool.tools_manager:list_package_tools

@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+maritalk/__init__.py
+maritalk/model.py
+maritalk.egg-info/PKG-INFO
+maritalk.egg-info/SOURCES.txt
+maritalk.egg-info/dependency_links.txt
+maritalk.egg-info/requires.txt
+maritalk.egg-info/top_level.txt

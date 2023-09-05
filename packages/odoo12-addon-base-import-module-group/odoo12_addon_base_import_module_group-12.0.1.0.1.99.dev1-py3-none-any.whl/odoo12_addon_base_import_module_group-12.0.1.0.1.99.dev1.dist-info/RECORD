@@ -1,0 +1,16 @@
+odoo/addons/base_import_module_group/README.rst,sha256=rRnfTwmw9mX9shZLHGNUHhv-Ej2cM2maX2gqX4XzeUY,2914
+odoo/addons/base_import_module_group/__init__.py,sha256=n-PYF681J6XrNml-Z_-r6mD7Zj3MB-j58Ol4W7yH0iI,22
+odoo/addons/base_import_module_group/__manifest__.py,sha256=3TTa29jefVB39Zz1lgluv2YeX8UW-SeUjT-83zIjunk,603
+odoo/addons/base_import_module_group/i18n/base_import_module_group.pot,sha256=81NX7MbeLmyCI8L_H_VWGAziRFJCxh-TbSV4nClQcTI,1079
+odoo/addons/base_import_module_group/models/__init__.py,sha256=uiI4qKbMoqcZNPLQuDrzZCEgLKWj3E3SpOp88Alwf5M,24
+odoo/addons/base_import_module_group/models/ir_module.py,sha256=P2CJwvnEwDKEfA5ZFHvm-siSOrGjCcZlIz_TV3z1Wkw,679
+odoo/addons/base_import_module_group/readme/CONTRIBUTORS.rst,sha256=1KboIWnLfR5sMxzg0-KQy3SJdDwFNFdu0kM_4jjBJsI,50
+odoo/addons/base_import_module_group/readme/DESCRIPTION.rst,sha256=6km4yfeZVw20oEcKS1Qeaorf1TK79VGqirdode4qQbc,103
+odoo/addons/base_import_module_group/security/res_groups.xml,sha256=5avlS6ICxx6MgLQPIf6y5g_8KL13mf089YXQ0oymDIg,444
+odoo/addons/base_import_module_group/static/description/icon.png,sha256=6xBPJauaFOF0KDHfHgQopSc28kKvxMaeoQFQWZtfZDo,9455
+odoo/addons/base_import_module_group/static/description/index.html,sha256=0B0djfgY80GZiA4iJcC-q8UfvaUE8pSB138-J4LqFrY,12187
+odoo/addons/base_import_module_group/views/import_module_group.xml,sha256=Yk3YukQn19DgRBgoubMKWyS08AJ1WyHgmxocKPaACAM,569
+odoo12_addon_base_import_module_group-12.0.1.0.1.99.dev1.dist-info/METADATA,sha256=yLPvVsXFiKpx1M8UihJdTcNSZWBu5qP26CoeGcbGTTg,3488
+odoo12_addon_base_import_module_group-12.0.1.0.1.99.dev1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+odoo12_addon_base_import_module_group-12.0.1.0.1.99.dev1.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
+odoo12_addon_base_import_module_group-12.0.1.0.1.99.dev1.dist-info/RECORD,,

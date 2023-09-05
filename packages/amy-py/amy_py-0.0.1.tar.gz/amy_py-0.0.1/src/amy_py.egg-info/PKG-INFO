@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: amy-py
+Version: 0.0.1
+Summary: Transform Python development with this innovative package, introducing a unique syntax extension that empowers developers to write code more expressively and efficiently. Explore a new level of flexibility and productivity in your projects with this custom Python language enhancements.
+Author: Emir Husain
+Author-email: emirhusain.eh@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE

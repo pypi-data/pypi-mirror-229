@@ -1,0 +1,17 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+xorbits_sql/__init__.py
+xorbits_sql/_version.py
+xorbits_sql/conftest.py
+xorbits_sql/core.py
+xorbits_sql/errors.py
+xorbits_sql/executor.py
+xorbits_sql/table.py
+xorbits_sql.egg-info/PKG-INFO
+xorbits_sql.egg-info/SOURCES.txt
+xorbits_sql.egg-info/dependency_links.txt
+xorbits_sql.egg-info/not-zip-safe
+xorbits_sql.egg-info/requires.txt
+xorbits_sql.egg-info/top_level.txt

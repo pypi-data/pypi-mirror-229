@@ -1,0 +1,1 @@
+{"version":3,"file":"c.7e8b4fbe.js","sources":["../../../../node_modules/esptool-js/lib/targets/rom.js"],"sourcesContent":["export class ROM {\n    get_erase_size(offset, size) {\n        return size;\n    }\n}\n"],"names":["ROM","get_erase_size","offset","size"],"mappings":"AAAO,MAAMA,EACTC,eAAeC,EAAQC,GACnB,OAAOA,CACV","x_google_ignoreList":[0]}

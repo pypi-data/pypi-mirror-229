@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: imaginarium
+Version: 0.2
+Requires-Dist: torch
+Requires-Dist: numpy
+Requires-Dist: tqdm
+Requires-Dist: redis
+Requires-Dist: pandas
+Requires-Dist: clean-fid
+Requires-Dist: colab-convert
+Requires-Dist: einops
+Requires-Dist: ftfy
+Requires-Dist: ipython
+Requires-Dist: ipywidgets
+Requires-Dist: jsonmerge
+Requires-Dist: jupyterlab
+Requires-Dist: jupyter-http-over-ws
+Requires-Dist: kornia
+Requires-Dist: matplotlib
+Requires-Dist: notebook
+Requires-Dist: numexpr
+Requires-Dist: omegaconf
+Requires-Dist: opencv-python
+Requires-Dist: pytorch-lightning (==1.7.7)
+Requires-Dist: resize-right
+Requires-Dist: scikit-image (==0.19.3)
+Requires-Dist: scikit-learn
+Requires-Dist: timm
+Requires-Dist: torchdiffeq
+Requires-Dist: transformers (==4.19.2)
+Requires-Dist: safetensors
+Requires-Dist: albumentations
+Requires-Dist: more-itertools
+Requires-Dist: devtools
+Requires-Dist: validators
+Requires-Dist: numpngw
+Requires-Dist: open-clip-torch
+Requires-Dist: torchsde
+Requires-Dist: ninja
+Requires-Dist: pydantic
+Requires-Dist: screeninfo
+

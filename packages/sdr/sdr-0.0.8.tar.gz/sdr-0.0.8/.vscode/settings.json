@@ -1,0 +1,57 @@
+{
+    "python.testing.pytestArgs": [
+        "-c=pyproject.toml",
+    ],
+    "python.testing.unittestEnabled": false,
+    "python.testing.pytestEnabled": true,
+    "python.linting.pylintEnabled": true,
+    "python.linting.enabled": true,
+    "python.formatting.provider": "none",
+    "editor.formatOnSave": true,
+    "notebook.formatOnSave.enabled": true,
+    "[python]": {
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": true
+        },
+        "editor.defaultFormatter": "ms-python.black-formatter"
+    },
+    "editor.rulers": [
+        120
+    ],
+    "cSpell.words": [
+        "Albersheim",
+        "awgn",
+        "baseband",
+        "correlator",
+        "downsample",
+        "downsampled",
+        "downsamples",
+        "downsampling",
+        "exponentials",
+        "feedforward",
+        "figsize",
+        "hexdump",
+        "intersymbol",
+        "lowpass",
+        "matplotlib",
+        "multirate",
+        "Nyquist",
+        "overdamped",
+        "passband",
+        "periodogram",
+        "periodograms",
+        "polyphase",
+        "pyplot",
+        "QPSK",
+        "resampler",
+        "resamplers",
+        "savefig",
+        "scipy",
+        "sinc",
+        "stopband",
+        "underdamped",
+        "upsampled",
+        "upsamples",
+        "upsampling"
+    ]
+}

@@ -1,0 +1,7 @@
+LICENCE.txt
+setup.py
+WALEED.egg-info/PKG-INFO
+WALEED.egg-info/SOURCES.txt
+WALEED.egg-info/dependency_links.txt
+WALEED.egg-info/top_level.txt
+code/__init__.py

@@ -1,0 +1,72 @@
+# UltraCOLOR library v0.2.0
+## Table of Contents
+- [1. Description](#1-description)
+- [2. Features](#2-features)
+  - [2.1 Does not require dependencies](#21-does-not-require-dependencies)
+  - [2.2 Lightweight](#22-lightweight)
+  - [2.3 Easy to use](#23-easy-to-use)
+  - [2.4 All major color spaces are supported](#24-all-major-color-spaces-are-supported)
+  - [2.5 Accurate color conversion](#25-accurate-color-conversion)
+- [3. Installation](#3-installation)
+  - [3.1 Install prebuilt package](#31-install-prebuilt-package)
+  - [3.2 From source code](#32-from-source-code)
+- [4. Supported Color Spaces](#4-supported-color-spaces)
+- [5. Release history](#5-release-history)
+- [6. Found a bug or want to contribute?](#6-found-a-bug-or-want-to-contribute)
+
+
+## 1. Description
+UltraCOLOR is a Python library that provides functionality for working with different color spaces. It supports RGBA, Hex, HSLA and HSVA color spaces, allowing for accurate color conversion. The library does not require any third-party dependencies and only utilizes the Python standard library. With UltraCOLOR, you can easily convert colors between different color spaces and perform various operations on them.
+
+## 2. Features
+### 2.1 Does not require dependencies
+This library **does not require** third party dependencies: *only* the Python >= 3.8 is required
+### 2.2 Lightweight
+UltraCOLOR is a lightweight library, making it a perfect choice for projects where performance is a key factor.
+### 2.3 Easy to use
+The library provides a simple and intuitive API, making it easy to perform complex color operations with just a few lines of code.
+### 2.4 All major color spaces are supported
+All major color spaces are supported: RGB, Hex, HSL and HSV.
+### 2.5 Accurate color conversion
+This is achieved by using the built-in type `Decimal`
+```python
+from ucolor import ColorRGBA, convert
+foo = ColorRGBA(33, 33, 33)
+bar = convert.rgba_to_hsla(foo)
+baz = convert.hsla_to_rgba(bar)
+print(foo == baz) # True
+```
+
+## 3. Installation
+### 3.1 Install prebuilt package
+
+```console
+$ pip3 install ucolor
+```
+### 3.2 From source code
+*NOTE: when installing this way you get the latest version of the library, it may contain bugs or not work at all.*
+```console
+$ pip3 install git+https://notabug.org/Aserogl/ucolor.git@main
+```
+
+## 4. Supported Color Spaces
+- [x] RGBA
+- [x] Hex
+- [x] HSLA
+- [x] HSVA
+
+## 5. Release history
+### v0.2.0 (current)
+#### Added
+- Color space HSVA
+- Support for Hex short format
+#### Changed
+- Hex color space format: long - #FFFFFF, short - #FFF (no compatibility with v0.1.0)
+- Builtin HSLA green color
+
+### v0.1.0
+#### First version
+
+## 6. Found a bug or want to contribute?
+If you found a bug, please open an issue [here](https://notabug.org/Aserogl/ucolor/issues). If you would like to contribute to the development of the library, you can make a merge request [here](https://notabug.org/Aserogl/ucolor/pulls)
+

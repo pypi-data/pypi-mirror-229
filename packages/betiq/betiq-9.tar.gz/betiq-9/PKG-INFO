@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: betiq
+Version: 9
+Summary: An unofficial SDK for The Odds API.
+Author: Ian Draves
+Author-email: iantdraves@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: furo (>=2023.8.19,<2024.0.0)
+Requires-Dist: requests (>=2.31.0,<3.0.0)
+Requires-Dist: sphinx (>=7.2.5,<8.0.0)
+Description-Content-Type: text/markdown
+
+# betiq
+An unofficial SDK for The Odds API.
+

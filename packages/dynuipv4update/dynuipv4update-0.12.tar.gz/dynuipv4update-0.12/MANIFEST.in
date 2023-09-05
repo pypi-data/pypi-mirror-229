@@ -1,0 +1,3 @@
+include dynuipv4update/requirements.txt
+include dynuipv4update/thirdparty.json
+include dynuipv4update/README.MD

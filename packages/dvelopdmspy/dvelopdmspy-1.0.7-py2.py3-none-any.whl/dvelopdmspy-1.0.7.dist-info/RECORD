@@ -1,0 +1,11 @@
+dvelopdmspy/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dvelopdmspy/dvelopdmspy.py,sha256=fm1zDyRwChG_c2ae0u_f5Xd-v229YwN1nq3Mqy7Rj9M,7080
+dvelopdmspy/exceptions.py,sha256=vH48BcvbQ23fj_jXrQZ2E9gXWkolorfFoB2Ru3FgOhI,50
+dvelopdmspy/models.py,sha256=_cwrpUgU4pH3Lhywe42zfstcPjcli9kr56yPIQh7J9E,4934
+dvelopdmspy/rest_adapter.py,sha256=GyPUQvrwrdKrra9sUWqeSMe55U7OxNgEufO7pmyZp2s,6028
+dvelopdmspy-1.0.7.dist-info/COPYING,sha256=_33U21OgtytEZsHeK-1QBwVdjKKNX--7Pdz5XsmmAwI,35817
+dvelopdmspy-1.0.7.dist-info/LICENSE,sha256=_33U21OgtytEZsHeK-1QBwVdjKKNX--7Pdz5XsmmAwI,35817
+dvelopdmspy-1.0.7.dist-info/METADATA,sha256=2FyNAQTbQWmTqskgP32c185fjJqSulpkqQdzffzh1RI,1300
+dvelopdmspy-1.0.7.dist-info/WHEEL,sha256=bb2Ot9scclHKMOLDEHY6B2sicWOgugjFKaJsT7vwMQo,110
+dvelopdmspy-1.0.7.dist-info/top_level.txt,sha256=Op0bZXre0P1o-M3-VMxN57QPeTHsMof7j_TKpZFABOs,12
+dvelopdmspy-1.0.7.dist-info/RECORD,,

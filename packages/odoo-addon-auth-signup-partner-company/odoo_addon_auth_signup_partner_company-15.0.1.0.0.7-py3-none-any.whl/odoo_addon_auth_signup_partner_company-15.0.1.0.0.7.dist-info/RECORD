@@ -1,0 +1,15 @@
+odoo/addons/auth_signup_partner_company/README.rst,sha256=a0cyNbujNNoItk9I_-LxmCCqJfA6S7Ilzwss6RoxoBc,3217
+odoo/addons/auth_signup_partner_company/__init__.py,sha256=X9EJGOE2GtZbS0G82PtSXmWSZ_R8jEM0rlJTDliQjp4,21
+odoo/addons/auth_signup_partner_company/__manifest__.py,sha256=EFGbwMFmzLscRA_qKWBbrrAD2Z4DHiPI4d4gXXjRrX8,378
+odoo/addons/auth_signup_partner_company/i18n/auth_signup_partner_company.pot,sha256=xfvHLQ1AlTB1_wF-X2Z8oTdOEQawCkniTCuJ9sv9AvA,505
+odoo/addons/auth_signup_partner_company/models/__init__.py,sha256=a9OomdMIQ5u5js_3xb5DAt2-kdHyJSTIO9RrkmP8_40,24
+odoo/addons/auth_signup_partner_company/models/res_users.py,sha256=bWt5zAwFwrBz73VTMGETdWt-bTSmdiBHxOHdZRm4DcM,566
+odoo/addons/auth_signup_partner_company/readme/DESCRIPTION.rst,sha256=qkXWF1smvBzQZ9Qngrz6av_NNgjRH5wNHlb9wxyCCzg,452
+odoo/addons/auth_signup_partner_company/static/description/icon.png,sha256=6xBPJauaFOF0KDHfHgQopSc28kKvxMaeoQFQWZtfZDo,9455
+odoo/addons/auth_signup_partner_company/static/description/index.html,sha256=B7F_AKV6ma6Nun21gGEoYJ8V36WZYUYLEXFmLlf-sD0,12240
+odoo/addons/auth_signup_partner_company/tests/__init__.py,sha256=o6iRyV-8slfVR2Gp73eeRVGASxTqgcZPbGi8a7HMwIY,47
+odoo/addons/auth_signup_partner_company/tests/test_auth_signup_partner_company.py,sha256=6nGyOpei5XI0iAbSvmpAArAV3hHfHK_ObWvZWeBDbVU,1359
+odoo_addon_auth_signup_partner_company-15.0.1.0.0.7.dist-info/METADATA,sha256=7Qs-gnpWYnNu4pXsGsKoKVY1mxOdYSRP8Y0QgzkqGRg,3773
+odoo_addon_auth_signup_partner_company-15.0.1.0.0.7.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+odoo_addon_auth_signup_partner_company-15.0.1.0.0.7.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
+odoo_addon_auth_signup_partner_company-15.0.1.0.0.7.dist-info/RECORD,,

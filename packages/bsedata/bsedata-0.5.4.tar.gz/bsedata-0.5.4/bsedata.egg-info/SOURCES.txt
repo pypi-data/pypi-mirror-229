@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.py
+bsedata/__init__.py
+bsedata/bse.py
+bsedata/exceptions.py
+bsedata/gainers.py
+bsedata/indices.py
+bsedata/losers.py
+bsedata/quote.py
+bsedata.egg-info/PKG-INFO
+bsedata.egg-info/SOURCES.txt
+bsedata.egg-info/dependency_links.txt
+bsedata.egg-info/requires.txt
+bsedata.egg-info/top_level.txt

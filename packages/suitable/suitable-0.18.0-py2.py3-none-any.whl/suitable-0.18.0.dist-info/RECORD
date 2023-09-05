@@ -1,0 +1,15 @@
+suitable/__init__.py,sha256=_PoiWkjgYv6b7i4lGAVABRK22C1dLS_awKhU7PY9O6k,231
+suitable/api.py,sha256=pbR5AG5oGaicqKKtxtmetg9I6PhmrAPKEmKVl7CuBfM,10985
+suitable/callback.py,sha256=juIzyptNCerf4G7okDGuTxe45SIqzgmXirm2OGHfxms,761
+suitable/common.py,sha256=Jkn0oKo2Da523pgNslBf4MDlgw1ygzPF1R1kDk0U_D8,162
+suitable/errors.py,sha256=ia1RWur_d5A7Fj80Phjsr8aBJSdJo7Ltfid7EzT3M3o,1080
+suitable/inventory.py,sha256=drktFPWvffX0ez-1CDTzJB2S4Q8ljvKYO_uJDGITclg,1505
+suitable/mitogen.py,sha256=snA4NsUHsTuFGkJgiItZ8gKDqsufZO24q-IPOAct7K8,1351
+suitable/module_runner.py,sha256=pDHIsVJNJDhwXNMIVRCMQC-snfbDO9COkAU2xUSuM6g,11769
+suitable/runner_results.py,sha256=JF_-3f_lvx1mbLqWjL7nlsMXHAG16GCflLc2pzPB1Xk,962
+suitable/utils.py,sha256=Vf_xNG724EROKnhOAtnDhnwpdsVbDw6m609Nyq8O7xE,200
+suitable-0.18.0.dist-info/LICENSE,sha256=CuBIWlvTemPmNgNZZBfk6w5lMzT6bH-TLKOg6F1K8ic,35148
+suitable-0.18.0.dist-info/METADATA,sha256=KETaHS79fwwduX5s7Jhnt8sUl_8E732EdugJo6fbhm8,7859
+suitable-0.18.0.dist-info/WHEEL,sha256=iYlv5fX357PQyRT2o6tw1bN-YcKFFHKqB_LwHO5wP-g,110
+suitable-0.18.0.dist-info/top_level.txt,sha256=LpYcMyZo-Eary2v5pA4wXbAyWYjF4WQmU2U_xtZOFhI,9
+suitable-0.18.0.dist-info/RECORD,,

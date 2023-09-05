@@ -1,0 +1,17 @@
+odoo/addons/stock_override_procurement/README.rst,sha256=b99-Pz__uRrjSqToJyXqhy2E52i4gM18-58nwqnQF3A,3691
+odoo/addons/stock_override_procurement/__init__.py,sha256=X9EJGOE2GtZbS0G82PtSXmWSZ_R8jEM0rlJTDliQjp4,21
+odoo/addons/stock_override_procurement/__manifest__.py,sha256=KNABQEgYpD4LqrKwjJIES29bXBCYhh7EBLIAdeA1urc,473
+odoo/addons/stock_override_procurement/i18n/stock_override_procurement.pot,sha256=MLYEFL-WnTjb269tbZA3wufNG08mt2qXx5AeacLJRyo,522
+odoo/addons/stock_override_procurement/models/__init__.py,sha256=4OCVLmaV0ffJoVxCJ1GeDI2QHkG9NoZ3sWbjC5W0N4o,32
+odoo/addons/stock_override_procurement/models/procurement_group.py,sha256=iaNvqQks_-5KSFiddRXPoYlVTF5WjTgbsCucLxlDOhw,1381
+odoo/addons/stock_override_procurement/readme/CONTRIBUTORS.rst,sha256=rUsbjj0Pvm_c1Az5LJou7W3kt6yuexr0hSsG98w1K4E,90
+odoo/addons/stock_override_procurement/readme/DESCRIPTION.rst,sha256=424Sfu3mgLIq_KjDxDF9w2neyo2uO9n1gDqm0Wl93H0,225
+odoo/addons/stock_override_procurement/readme/USAGE.rst,sha256=sAyjS7--ODGfxd4U9xRcK62YlD37JeQiaStl4z_PY3c,449
+odoo/addons/stock_override_procurement/static/description/icon.png,sha256=6xBPJauaFOF0KDHfHgQopSc28kKvxMaeoQFQWZtfZDo,9455
+odoo/addons/stock_override_procurement/static/description/index.html,sha256=EWqYo8G2ytKDWyhhfhRz0iYuXdlXhrQ3aO22g33x6n8,14463
+odoo/addons/stock_override_procurement/tests/__init__.py,sha256=uVxbetryBTlSJe7Q8UWm0_h-pIIHgMG4eYpOzPC1hew,46
+odoo/addons/stock_override_procurement/tests/test_stock_override_procurement.py,sha256=_Wx3o6gQgXND1HMQJUA7RWBym_4-mGvoXbO7pqKH5nc,4061
+odoo_addon_stock_override_procurement-16.0.1.0.0.3.dist-info/METADATA,sha256=9g44q5zIw6zzFFd0j3LTCfhKac7J1udvmqFyHzPNM78,4286
+odoo_addon_stock_override_procurement-16.0.1.0.0.3.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+odoo_addon_stock_override_procurement-16.0.1.0.0.3.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
+odoo_addon_stock_override_procurement-16.0.1.0.0.3.dist-info/RECORD,,

@@ -1,0 +1,2 @@
+from flask_favicon.flask_extension import FlaskFavicon
+from flask_favicon.flask_integration import use_favicon

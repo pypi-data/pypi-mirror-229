@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: exceptbot
+Version: 1.0
+Summary: Exception Logger with AI Suggestions for Django
+Home-page: https://exceptbot.com
+Author: Brian Risk
+Author-email: geneffects@gmail.com
+License-File: LICENSE.md

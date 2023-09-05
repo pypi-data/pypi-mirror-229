@@ -1,0 +1,5 @@
+Metadata-Version: 2.1
+Name: revelsMD
+Version: 0.1.5
+Summary: Reduced variance sampling for molecular dynamics simulations
+Author-email: Samuel Coles <swc57@bath.ac.uk>

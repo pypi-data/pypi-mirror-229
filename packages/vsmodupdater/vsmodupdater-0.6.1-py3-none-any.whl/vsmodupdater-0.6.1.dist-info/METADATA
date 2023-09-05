@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: vsmodupdater
+Version: 0.6.1
+Summary: a mod updater for VintageStory
+Author-email: Ferdinand B <me+vsmodupdater@yrlf.at>
+Project-URL: Homepage, https://github.com/Ferdi265/vsmodupdater
+Project-URL: Bug Tracker, https://github.com/Ferdi265/vsmodupdater/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests ~=2.28
+
+# vsmodupdater
+
+A tool for updating VintageStory mods.
+
+## Installing
+
+- run `pipx install git+https://github.com/Ferdi265/vsmodupdater`
+
+## Usage
+
+- run `vsmodupdater` to update mods
+- run `vsmodupdater -i modid1 modid2` or `vsmodupdater -I mods.txt` to install mods
+- run `vsmodupdater -r modid1 modid2` or `vsmodupdater -R mods.txt` to remove mods
+- run `vsmodupdater -D -` or `vsmodupdater -D mods.txt` to dump installed mods
+- for help run `vsmodupdater --help`

@@ -1,0 +1,10 @@
+zigzag-dse
+rtree
+deap
+brokenaxes
+
+[dev]
+bumpver
+pip-tools
+build
+twine

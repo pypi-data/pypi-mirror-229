@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+src/aiotdk/__init__.py
+src/aiotdk.egg-info/PKG-INFO
+src/aiotdk.egg-info/SOURCES.txt
+src/aiotdk.egg-info/dependency_links.txt
+src/aiotdk.egg-info/top_level.txt
+src/aiotdk/gts/__init__.py

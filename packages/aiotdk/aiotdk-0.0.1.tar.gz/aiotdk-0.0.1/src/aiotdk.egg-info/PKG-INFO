@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: aiotdk
+Version: 0.0.1
+Summary: A Python package to interact with TDK (Türkiye Dil Kurumu) API.This package works asynchronously unlike others.TDK'nın API'si ile etkileşim kurmak için bir Python paketi.Bu paket diğerlerinden farklı olarak asenkron çalışır.
+Home-page: http://github.com/aylak-github/aiotdk
+Author: Yakup Kaya
+Author-email: support@yakupkaya.net.tr
+License: GNU AFFERO GENERAL PUBLIC LICENSE (v3)
+Keywords: example documentation tutorial
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+http://github.com/aylak-github/aiotdk/blob/main/README.md

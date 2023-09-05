@@ -1,0 +1,3 @@
+include stderrstdoutcapture/requirements.txt
+include stderrstdoutcapture/thirdparty.json
+include stderrstdoutcapture/README.MD

@@ -1,0 +1,13 @@
+LICENSE.rst
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+stderrstdoutcapture/README.MD
+stderrstdoutcapture/__init__.py
+stderrstdoutcapture/requirements.txt
+stderrstdoutcapture/thirdparty.json
+stderrstdoutcapture.egg-info/PKG-INFO
+stderrstdoutcapture.egg-info/SOURCES.txt
+stderrstdoutcapture.egg-info/dependency_links.txt
+stderrstdoutcapture.egg-info/top_level.txt

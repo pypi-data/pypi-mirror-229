@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+src/__init__.py
+src/fileLoader.egg-info/PKG-INFO
+src/fileLoader.egg-info/SOURCES.txt
+src/fileLoader.egg-info/dependency_links.txt
+src/fileLoader.egg-info/top_level.txt
+src/file_loader/__init__.py
+src/file_loader/file_loader.py

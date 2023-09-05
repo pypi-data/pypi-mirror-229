@@ -1,0 +1,16 @@
+python-dotenv
+bson
+pydantic
+pymongo[srv]
+google-api-python-client
+google-cloud-core
+google-cloud-storage
+pytest
+pandas
+
+scikit-learn
+scikit-fuzzy
+
+torch
+transformers[torch]
+sentence-transformers[torch]

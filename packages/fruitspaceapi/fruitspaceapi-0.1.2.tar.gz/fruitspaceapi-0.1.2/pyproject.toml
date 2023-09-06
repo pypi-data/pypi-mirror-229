@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "fruitspaceapi"
+version = "0.1.2"
+description = "Module to interact with database of GDPS made with FruitSpace"
+authors = ["S7mplex <alekseypycoder@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+aiohttp = "^3.8.5"
+asyncio = "^3.4.3"
+urllib3 = "^2.0.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

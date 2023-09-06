@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: fruitspaceapi
+Version: 0.1.2
+Summary: Module to interact with database of GDPS made with FruitSpace
+Author: S7mplex
+Author-email: alekseypycoder@gmail.com
+Requires-Python: >=3.11,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: aiohttp (>=3.8.5,<4.0.0)
+Requires-Dist: asyncio (>=3.4.3,<4.0.0)
+Requires-Dist: urllib3 (>=2.0.4,<3.0.0)

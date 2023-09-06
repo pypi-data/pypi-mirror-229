@@ -1,0 +1,9 @@
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/conftest.py,sha256=AqTRVZpdTEZK0LJNnPC2VY56za-G84RoQ1EOLCf79As,618
+tests/test_basic_tokenizer.py,sha256=gEC3ntXm9_GGG1eYgNZnmC7QYrA3M5qbg7gzopjS3sY,3381
+tests/test_word2vec.py,sha256=UdfWcRwt_LOv1HTZGQja44HnoPb7Cmk3fnQUQSKkqaM,730
+screeve_embeddings-0.1.0.dist-info/LICENSE,sha256=8w6gdPU1_K789oPyGC98zdb74eSZlUB11Lqf-xyEJJE,1064
+screeve_embeddings-0.1.0.dist-info/METADATA,sha256=JjH1jXD3jTVQTEWIoOmJ4XfWZ_OeOA1A125qrdye_PU,423
+screeve_embeddings-0.1.0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+screeve_embeddings-0.1.0.dist-info/top_level.txt,sha256=EdW7283x-lr_cbuivW8Ij7ANAP-ZJ9sLtILQseEPxXg,6
+screeve_embeddings-0.1.0.dist-info/RECORD,,

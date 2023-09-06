@@ -1,0 +1,34 @@
+[tool.poetry]
+name = "extract-transform"
+version = "1.0.8"
+description = ""
+authors = ["Frederik Vanhevel <frederik.vanhevel@gmail.com>"]
+readme = "README.md"
+license = "MIT"
+packages = [{include = "extract_transform"}]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.0.287"
+black = "^23.7.0"
+pytest = "^7.4.1"
+pyright = "^1.1.325"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.pytest.ini_options]
+testpaths = ["extract_transform"]
+addopts = [
+    "--import-mode=importlib",
+]
+
+
+[tool.ruff]
+extend-ignore = ["E722", "F841", "E501"]
+line-length = 120
+ignore-init-module-imports = true

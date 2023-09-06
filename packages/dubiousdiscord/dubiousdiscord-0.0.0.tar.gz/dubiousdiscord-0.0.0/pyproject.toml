@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools", "wheel", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dubiousdiscord"
+authors = [
+    {name = "lapras"},
+]
+description = "A complete Discord API wrapper focused on using Discord Interactions en tandem with Flask."
+readme = "README.md"
+requires-python = ">=3.10"
+keywords = ["discord", "discordapi", "discord-api"]
+dependencies = [
+    "requests",
+    "flask",
+    "pynacl"
+]
+
+dynamic = ["version"]

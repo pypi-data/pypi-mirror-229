@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: Thugstools
+Version: 3.11
+Summary: A simple program to find files easily with similar type of extension and to organize them.
+Home-page: https://github.com/Spidy20/PyMusic_Player
+Author: Ram Nikhilesh
+Keywords: nuttertools,tools,ntools
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+

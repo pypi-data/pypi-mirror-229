@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: color-manager-nv
+Version: 1.0.0
+Summary: A package for recoloring icon- and wallpaper-packs and desktop themes
+Home-page: https://github.com/nicklasvraa/color-manager
+Author: Nicklas Vraa
+Author-email: nicklasvraa@proton.me
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3 or later (AGPLv3+)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+License-File: LICENSE
+Requires-Dist: colormath
+Requires-Dist: tqdm
+Requires-Dist: pillow
+

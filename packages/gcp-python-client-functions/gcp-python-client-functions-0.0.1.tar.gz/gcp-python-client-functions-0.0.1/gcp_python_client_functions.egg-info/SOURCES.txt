@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+settings.ini
+setup.py
+gcp_python_client_functions/__init__.py
+gcp_python_client_functions/_modidx.py
+gcp_python_client_functions/clients.py
+gcp_python_client_functions.egg-info/PKG-INFO
+gcp_python_client_functions.egg-info/SOURCES.txt
+gcp_python_client_functions.egg-info/dependency_links.txt
+gcp_python_client_functions.egg-info/entry_points.txt
+gcp_python_client_functions.egg-info/not-zip-safe
+gcp_python_client_functions.egg-info/requires.txt
+gcp_python_client_functions.egg-info/top_level.txt

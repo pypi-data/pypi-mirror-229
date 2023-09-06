@@ -1,0 +1,2 @@
+[nbdev]
+gcp_python_client_functions = gcp_python_client_functions._modidx:d

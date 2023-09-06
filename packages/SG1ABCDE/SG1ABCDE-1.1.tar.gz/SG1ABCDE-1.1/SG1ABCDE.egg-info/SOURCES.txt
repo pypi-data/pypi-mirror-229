@@ -1,0 +1,12 @@
+setup.py
+SG1ABCDE/libbackend_cpu.so
+SG1ABCDE/libbackend_ruy.so
+SG1ABCDE/libbackend_train.so
+SG1ABCDE/libneuralnetworks.so
+SG1ABCDE/libnnfw-dev.so
+SG1ABCDE/nnfw_api_pybind.cpython-38-x86_64-linux-gnu.so
+SG1ABCDE/test.py
+SG1ABCDE.egg-info/PKG-INFO
+SG1ABCDE.egg-info/SOURCES.txt
+SG1ABCDE.egg-info/dependency_links.txt
+SG1ABCDE.egg-info/top_level.txt

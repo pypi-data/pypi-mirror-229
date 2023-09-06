@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+cookie_component/__init__.py
+cookie_component.egg-info/PKG-INFO
+cookie_component.egg-info/SOURCES.txt
+cookie_component.egg-info/dependency_links.txt
+cookie_component.egg-info/requires.txt
+cookie_component.egg-info/top_level.txt
+cookie_component/frontend/build/app.css
+cookie_component/frontend/build/asset-manifest.json
+cookie_component/frontend/build/index.html
+cookie_component/frontend/build/static/js/main.09573a7c.js
+cookie_component/frontend/build/static/js/main.09573a7c.js.LICENSE.txt
+cookie_component/frontend/build/static/js/main.09573a7c.js.map

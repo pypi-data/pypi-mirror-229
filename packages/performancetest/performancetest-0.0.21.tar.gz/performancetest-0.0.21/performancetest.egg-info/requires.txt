@@ -1,0 +1,8 @@
+psutil
+airtest
+fastapi
+tidevice
+func-timeout
+sqlalchemy
+sqlalchemy-serializer
+uvicorn

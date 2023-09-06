@@ -1,0 +1,83 @@
+<div class="commit">
+    <div>
+
+        <svg class="circle" width="16" height="16">
+            <circle cx="8" cy="8" r="4" stroke="grey" stroke-width="2px" fill="white"/>
+        </svg>
+    </div>
+    <div class="commit-info">
+        {% if config.show_sha %}
+        <span class="sha no-wrap"><a href="{{entry.url}}" class="high-lightable">{{ entry.sha[0:7] }}</a></span>
+        <button class="sha-copy-button" sha="{{entry.sha}}"><svg width="16px" height="16px" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+            <g transform="matrix(1.125,0,0,1.125,-0.125,-0.125)">
+                <path d="M9,3C9,1.896 8.104,1 7,1L3,1C1.896,1 1,1.896 1,3L1,7C1,8.104 1.896,9 3,9L7,9C8.104,9 9,8.104 9,7L9,3Z" style="fill:white;"/>
+                <path d="M9,3C9,1.896 8.104,1 7,1L3,1C1.896,1 1,1.896 1,3L1,7C1,8.104 1.896,9 3,9L7,9C8.104,9 9,8.104 9,7L9,3ZM8.111,3L8.111,7C8.111,7.613 7.613,8.111 7,8.111C7,8.111 3,8.111 3,8.111C2.387,8.111 1.889,7.613 1.889,7L1.889,3C1.889,2.387 2.387,1.889 3,1.889L7,1.889C7.613,1.889 8.111,2.387 8.111,3Z" style="fill:rgb(138,138,138);"/>
+            </g>
+            <g transform="matrix(1.125,0,0,1.125,4.875,4.875)">
+                <path d="M9,3C9,1.896 8.104,1 7,1L3,1C1.896,1 1,1.896 1,3L1,7C1,8.104 1.896,9 3,9L7,9C8.104,9 9,8.104 9,7L9,3Z" style="fill:white;"/>
+                <path d="M9,3C9,1.896 8.104,1 7,1L3,1C1.896,1 1,1.896 1,3L1,7C1,8.104 1.896,9 3,9L7,9C8.104,9 9,8.104 9,7L9,3ZM8.111,3L8.111,7C8.111,7.613 7.613,8.111 7,8.111L3,8.111C2.387,8.111 1.889,7.613 1.889,7C1.889,7 1.889,3 1.889,3C1.889,2.387 2.387,1.889 3,1.889C3,1.889 7,1.889 7,1.889C7.613,1.889 8.111,2.387 8.111,3Z" style="fill:rgb(138,138,138);"/>
+            </g>
+        </svg></button>
+        {% endif %}
+        {% if config.show_headline %}
+        {% if entry.integration_request is defined and entry.integration_request and config.show_integration_request_title_instead_of_headline %}
+        <span class="headline no-wrap"><a href="{{entry.integration_request.url}}"><code class="high-lightable">{{entry.integration_request.uri}}</code></a></span>
+        <span class="headline high-lightable no-wrap">{{entry.integration_request.title}}</span>
+        {% else %}
+        <span class="headline high-lightable no-wrap">{{ entry.subject }}</span>
+        {% endif %}
+        {% endif %}
+        {% if config.show_additions_deletions %}
+        <span class="commit-additions high-lightable no-wrap">+{{calculate_total_additions(entry.numstat)}}</span>
+        <span class="commit-deletions high-lightable no-wrap">-{{calculate_total_deletions(entry.numstat)}}</span>
+        {% endif %}
+        {% if config.show_commit_date %}
+        <span class="commit-date high-lightable no-wrap">{{entry.commit_date.strftime("%B %d, %Y %H:%M:%S")}}</span>
+        {% endif %}
+        {% if config.show_commit_author %}
+        <div><p class="commit-author"><a href="mailto:{{entry.author_mail}}" class="high-lightable">{{entry.author_name}}</a></p></div>
+        {% endif %}
+        {% if entry.issues and config.show_issues %}
+        <div><p class="commit-issue">
+        {% for issue in entry.issues %}
+        {% if issue.url %}<a href="{{issue.url}}" class="high-lightable">{{issue.key}}</a>{% else %}{{issue.key}}{% endif %}{{ ", " if not loop.last else "" }}
+        {% endfor %}
+        </p></div>
+        {% endif %}
+        {% if entry.body and config.show_commit_body %}
+        <div>
+            {% for line in entry.body.split('\n') %}
+            <p class="commit-body" class="high-lightable">{{ line }}</p>
+            {% endfor %}
+        </div>
+        {% endif %}
+        {% if entry.numstat and config.show_numstat %}
+        <div>
+            {% for numstat_entry in entry.numstat %}
+            <p class="numstat-entry">
+                <span class="commit-additions" class="high-lightable">+{{numstat_entry.additions}}</span>
+                <span class="commit-deletions" class="high-lightable">-{{numstat_entry.deletions}}</span>
+                <span class="high-lightable">{{numstat_entry.path}}</span>
+            </p>
+            {% endfor %}
+        </div>
+        {% endif %}
+        {% if entry.other_parents and config.show_other_parents %}
+        {% for entries in entry.other_parents %}
+        {% include "change_log_entries.html" %}
+        {% endfor %}
+        {% endif %}
+        {% if entry.submodule_updates and config.show_submodule_update %}
+        <div>
+          {% for sub_update in entry.submodule_updates.values() %}
+              <p class="submodule-update high-lightable">{{ sub_update.path }}: {{ sub_update.from_sha[0:7] }} -> {{ sub_update.to_sha[0:7] }}</p>
+              {% if config.show_submodule_changelog %}
+              {% with entries = sub_update.entries %}
+              {% include "change_log_entries.html" %}
+              {% endwith %}
+              {% endif %}
+          {% endfor %}
+      </div>
+        {% endif %}
+    </div>
+</div>

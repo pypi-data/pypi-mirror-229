@@ -1,0 +1,37 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "archee"
+version = "0.0.1-2"
+authors = [{ name = "modlee", email = "michael@modlee.ai" }]
+description = "modlee package"
+# readme = "README.md"
+requires-python = ">=3.10"
+# dynamic = ["version", "description"]
+
+dependencies = [
+    "datasets",
+    "lightning==2.0.7",
+    "mlflow==2.6.0",
+    "numpy",
+    "pandas",
+    "pytorch_lightning==2.0.7",
+    "scikit_learn",
+    "scipy",
+    "setuptools==68.0.0",
+    "torch==2.0.1",
+    "torchmetrics",
+    "torchvision",
+    "transformers",
+]
+
+[tool.setuptools]
+packages = ["modlee"]
+# py-modules=["modlee"]
+# package-dir={""="modlee"}
+
+[testpypi]
+username = "__token__"
+password = "pypi-AgENdGVzdC5weXBpLm9yZwIkMzhiMDgwM2YtODQxZS00MmZlLTkxNzAtN2YxNjFmODJhYzk4AAIqWzMsIjdlNWUxZjYyLTk0ZDctNDk3OC05MGYzLWRkMDRhNmU5YzE2OCJdAAAGICHTmlxgaGnIIlKB4PTsuPCoyYdGl8ePncuhsAA5Q0yK"

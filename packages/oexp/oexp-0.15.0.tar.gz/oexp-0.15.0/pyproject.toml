@@ -1,0 +1,13 @@
+[project]
+name = 'oexp'
+version = '0.15.0'
+authors = [
+	{ name = 'Matt Groth', email = 'mjgroth@mit.edu'} 
+]
+dependencies = [
+	'requests',
+	'aiohttp',
+	'tqdm',
+	'mstuff==0.7.12'
+]
+description = 'Online Experiments'

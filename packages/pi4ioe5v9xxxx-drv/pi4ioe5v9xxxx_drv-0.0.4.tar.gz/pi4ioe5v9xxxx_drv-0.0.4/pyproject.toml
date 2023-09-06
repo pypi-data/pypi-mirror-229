@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pi4ioe5v9xxxx_drv"
+version = "0.0.4"
+authors = [
+  { name="Anton Verburg", email="info@tec-v.nl" },
+]
+description = "Driver for pi4ioe5v0xxxx I2C IO expander chips"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "smbus2"
+]
+
+
+[project.urls]
+"Homepage" = "https://github.com/antonverburg/pi4ioe5v9xxxx_drv"
+"Bug Tracker" = "https://github.com/antonverburg/pi4ioe5v9xxxx_drv/issues"

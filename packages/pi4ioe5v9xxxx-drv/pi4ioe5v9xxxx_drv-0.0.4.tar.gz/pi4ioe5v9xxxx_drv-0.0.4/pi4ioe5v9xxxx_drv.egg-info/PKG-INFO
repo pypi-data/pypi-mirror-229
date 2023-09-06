@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: pi4ioe5v9xxxx-drv
+Version: 0.0.4
+Summary: Driver for pi4ioe5v0xxxx I2C IO expander chips
+Author-email: Anton Verburg <info@tec-v.nl>
+Project-URL: Homepage, https://github.com/antonverburg/pi4ioe5v9xxxx_drv
+Project-URL: Bug Tracker, https://github.com/antonverburg/pi4ioe5v9xxxx_drv/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# pi4ioe5v9xxxx_drv
+Python driver for pi4ioe5v9xxxx I2C IO expansion chips of Diodes.com
+
+To build the package run: `python3 -m build`

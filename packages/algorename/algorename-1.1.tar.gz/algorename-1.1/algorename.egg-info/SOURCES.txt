@@ -1,0 +1,16 @@
+.env
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+algorename.egg-info/PKG-INFO
+algorename.egg-info/SOURCES.txt
+algorename.egg-info/dependency_links.txt
+algorename.egg-info/entry_points.txt
+algorename.egg-info/requires.txt
+algorename.egg-info/top_level.txt
+algorithms/__init__.py
+algorithms/example.py
+tests/__init__.py
+tests/test_algorithms_example.py

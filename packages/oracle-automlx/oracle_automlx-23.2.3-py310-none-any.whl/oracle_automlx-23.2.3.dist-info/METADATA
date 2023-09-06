@@ -1,0 +1,112 @@
+Metadata-Version: 2.1
+Name: oracle-automlx
+Version: 23.2.3
+Summary: Automated Machine Learning with Explainability SDK
+Author: Oracle AutoMLx
+License: Oracle No-Fee Terms and Conditions (NFTC)
+Project-URL: Documentation, https://docs.oracle.com/en-us/iaas/tools/automlx/latest/html/multiversion/latest/index.html
+Project-URL: Demo Notebooks, http://github.com/oracle-samples/automlx
+Keywords: Oracle,AutoMLx,AutoML,Explainability,Machine Learning,ML,Artificial Intelligence,AI,Fairness,Unintended Bias
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.8.7, !=3.9.*, <=3.10.8,
+Description-Content-Type: text/markdown
+Requires-Dist: aif360 ==0.5.0
+Requires-Dist: category-encoders ==2.5.0
+Requires-Dist: dask[complete] ==2022.02.1
+Requires-Dist: dice-ml ==0.9
+Requires-Dist: imbalanced-learn ==0.9.1
+Requires-Dist: lightgbm ==3.3.5
+Requires-Dist: numpy ==1.22.2
+Requires-Dist: pandas ==1.4.1
+Requires-Dist: psutil ==5.9.0
+Requires-Dist: pyod ==0.9.7
+Requires-Dist: scikit-learn ==1.1.1
+Requires-Dist: scipy ==1.8.1
+Requires-Dist: statsmodels ==0.13.2
+Requires-Dist: xgboost ==1.6.1
+Requires-Dist: protobuf <4.0.0
+Provides-Extra: deep-learning
+Requires-Dist: torch ==1.13.1 ; extra == 'deep-learning'
+Requires-Dist: pytorch-tabnet ==4.0.0 ; extra == 'deep-learning'
+Requires-Dist: catboost ==1.1 ; extra == 'deep-learning'
+Provides-Extra: forecasting
+Requires-Dist: sktime ==0.13.2 ; extra == 'forecasting'
+Provides-Extra: oaa
+Requires-Dist: numpy ==1.21.5 ; extra == 'oaa'
+Requires-Dist: pandas ; extra == 'oaa'
+Requires-Dist: cx-Oracle ==8.1.0 ; extra == 'oaa'
+Requires-Dist: cycler ==0.10.0 ; extra == 'oaa'
+Requires-Dist: joblib ==0.14.0 ; extra == 'oaa'
+Requires-Dist: kiwisolver ==1.1.0 ; extra == 'oaa'
+Requires-Dist: matplotlib ==3.1.2 ; extra == 'oaa'
+Requires-Dist: pyparsing ==2.4.0 ; extra == 'oaa'
+Requires-Dist: python-dateutil ==2.8.1 ; extra == 'oaa'
+Requires-Dist: pytz ==2019.3 ; extra == 'oaa'
+Requires-Dist: scikit-learn ==1.0.1 ; extra == 'oaa'
+Requires-Dist: scipy ==1.6.0 ; extra == 'oaa'
+Requires-Dist: six ==1.13.0 ; extra == 'oaa'
+Requires-Dist: threadpoolctl ==2.1.0 ; extra == 'oaa'
+Provides-Extra: onnx
+Requires-Dist: skl2onnx ==1.13 ; extra == 'onnx'
+Requires-Dist: onnx ==1.13.1 ; extra == 'onnx'
+Requires-Dist: onnxmltools ==1.11.1 ; extra == 'onnx'
+Requires-Dist: onnxruntime ==1.12.1 ; extra == 'onnx'
+Provides-Extra: viz
+Requires-Dist: ipython ==8.4.0 ; extra == 'viz'
+Requires-Dist: ipywidgets ==8.0.2 ; extra == 'viz'
+Requires-Dist: plotly ==5.4.0 ; extra == 'viz'
+
+### Automated Machine Learning with Explainability (AutoMLx)
+
+The AutoMLx package provides advanced automated machine learning solutions and machine learning model explanations for tabular and text datasets.
+
+The [AutoML Pipeline](https://docs.oracle.com/en-us/iaas/tools/automlx/latest/html/multiversion/latest/automl.html) automatically preprocesses, selects and engineers high-quality features in your dataset, which are then given to an automatically chosen and tuned machine learning model.
+
+The [MLExplainer](https://docs.oracle.com/en-us/iaas/tools/automlx/latest/html/multiversion/latest/mlx.html) offers a wide variety of visual and interactive explanations. For example, these include (local and global) feature importance, feature dependence and counterfactual explanations. These explanations provide multi-facetted insights into what your (AutoMLx or scikit-learn-style) model has learned and whether or not you should trust it.
+
+The [fairness module](https://docs.oracle.com/en-us/iaas/tools/automlx/latest/html/multiversion/latest/fairness.html) offers tools to help you diagnose and understand the unintended bias present in your dataset and model so that you can make steps towards more inclusive and fair applications of machine learning.
+
+### Installation
+
+There are two ways to use AutoMLx.
+
+#### Direct Installation
+
+AutoMLx can be installed on x86 or ARM machines in a python 3.8 or 3.10 environment using:
+
+```
+pip3 install oracle-automlx
+```
+
+Several AutoMLx dependencies are optional and can be installed with:
+
+```
+pip3 install oracle-automlx[option]
+```
+
+where "option" can be one of:
+ - "viz", which provides visualization functionality for explanations and the AutoML time-series forecaster,
+ - "forecasting", which installs the forecasting models needed for the AutoML time-series forecaster,
+ - "deep-learning", which installs some torch-based deep-learning models for the AutoML classifier, regressor and anomaly detector, and
+ - "onnx", which installs the onnx-related libraries needed to export AutoML models to the ONNX format.
+
+Multiple optional dependencies can be installed simultaneously using a comma-separated list. For example:
+
+```
+pip3 install oracle-automlx[forecasting,viz]
+```
+
+#### Oracle Cloud Infrastructure (OCI) Data Science (DS) Conda Pack
+
+AutoMLx is also available in the [Oracle Cloud Infrastructure](https://www.oracle.com/cloud/) [Data Science](https://www.oracle.com/artificial-intelligence/data-science/) service in the [AutoMLx](https://docs.oracle.com/en-us/iaas/data-science/using/conda-automlx-fam.htm) conda pack. 
+
+### Getting Started
+
+Head to our [Quick Start](https://docs.oracle.com/en-us/iaas/tools/automlx/latest/html/multiversion/latest/guides/quickstart.html).
+
+### License
+
+Copyright (c) 2023 Oracle and/or its affiliates. Licensed under the [NFTC License](https://www.oracle.com/downloads/licenses/no-fee-license.html).

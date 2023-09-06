@@ -1,0 +1,8 @@
+godata-0.1.5.dist-info/METADATA,sha256=LL8vntuxesw_bt7tvpxhubs2vxGCXCxcYRgiRkF8x5s,375
+godata-0.1.5.dist-info/WHEEL,sha256=1cy7zp67ENt2Pf-yQJu98W6dR4u9Pd9a_o4ZgQdfd4I,136
+godata/__init__.py,sha256=mugHk9TW4D8Dci3q_I2aiIalnEJhs5rauRlBuf1OMKQ,128
+godata/project.py,sha256=wwJLX6FGH-GD0L_3TCHvCOKePdTxpMRvmBq0CsokB40,4262
+godata/io/__init__.py,sha256=oCo1BbzJOnQz7CTjd49Eu1uXU3ppTk0KkdGYh53lK6U,4116
+godata/io/numpyio.py,sha256=1WB1c5DTcWFd8wJElZMWdYFABJjOH4ITi7qBPNzG0HE,222
+godata/godata.pypy310-pp73-x86_64-linux-gnu.so,sha256=pPcoz1dVMFElz256qArWUzTQj2rPzVGoX-JC3HAsZDY,9612336
+godata-0.1.5.dist-info/RECORD,,

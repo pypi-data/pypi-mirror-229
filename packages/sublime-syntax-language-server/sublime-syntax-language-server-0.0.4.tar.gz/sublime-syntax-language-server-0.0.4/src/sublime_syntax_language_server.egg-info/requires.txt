@@ -1,0 +1,8 @@
+platformdirs
+pygls
+
+[dev]
+pytest-cov
+
+[web]
+beautifulsoup4

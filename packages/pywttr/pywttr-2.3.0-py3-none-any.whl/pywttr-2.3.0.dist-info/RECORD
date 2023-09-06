@@ -1,0 +1,9 @@
+pywttr/__init__.py,sha256=zd2LwAb9w6qG6Y-LBdb2fyXchkspokrMHO2OuoxocSo,729
+pywttr/_get_weather.py,sha256=tCnZTD9EE4Ach-mWkPhve8Ir20RbHnzsjyFcT1pCmoE,7186
+pywttr/_http.py,sha256=XW6S-VN_TG5foU6Ivv5YKaE6EwXaWRcqQlM07suZvcc,691
+pywttr/_wttr.py,sha256=KfNUbpPnOIJCWntSp509KXimoKyeRdjlX9ysqItK49Y,5301
+pywttr/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pywttr-2.3.0.dist-info/LICENSE,sha256=1x8a8JvB6Tm-oi0Knf_OySff8jjCZa2Uhw591k6oUDg,1065
+pywttr-2.3.0.dist-info/METADATA,sha256=JmyjqTSwOuALwue02Q43Y__LXX2pdLcPC9GIneZYnGQ,2071
+pywttr-2.3.0.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+pywttr-2.3.0.dist-info/RECORD,,

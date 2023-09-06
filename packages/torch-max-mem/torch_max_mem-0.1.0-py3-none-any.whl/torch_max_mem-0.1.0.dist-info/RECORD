@@ -1,0 +1,8 @@
+torch_max_mem/__init__.py,sha256=7XoGfOMupwSZ3HWFXhwQB7ysIhPZeERbVRfzCDxaADw,230
+torch_max_mem/api.py,sha256=jmQeFwckXvkyqieQZ8nxZNem14Po7bMx1IxGcBoSiWA,12589
+torch_max_mem/version.py,sha256=ZRw1KUwdrKldXQwBjW48KJGVLJlD8EiDiS4vIDqCgf0,1028
+torch_max_mem-0.1.0.dist-info/LICENSE,sha256=UWPCY1OmquNWdcfQkJXqtsKRSWU66D-ULFEOqxDhTII,1071
+torch_max_mem-0.1.0.dist-info/METADATA,sha256=6AZtU7ahu0y9DhImhaxW2rWu63skz91m_DUnIAMopL8,7236
+torch_max_mem-0.1.0.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+torch_max_mem-0.1.0.dist-info/top_level.txt,sha256=ztqqyZB7neLi8zWiWdaaKytNuRkZ7SzO7YDUQ4ZJR3U,14
+torch_max_mem-0.1.0.dist-info/RECORD,,

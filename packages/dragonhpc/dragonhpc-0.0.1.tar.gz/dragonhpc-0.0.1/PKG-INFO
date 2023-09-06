@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: dragonhpc
+Version: 0.0.1
+Summary: Dragon is a composable distributed run-time for managing dynamic processes, memory, and data at scale through high-performance communication objects.
+Author-email: Dragon Team <dragonhpc@hpe.com>
+Project-URL: Homepage, https://github.com/dragonhpc/dragon
+Project-URL: Bug Tracker, https://github.com/dragonhpc/dragon/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX :: Linux
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+Dragon - Scalable Distributed Computing Made Easy
+===================================================
+
+Dragon is a composable distributed run-time for managing dynamic processes,
+memory, and data at scale through high-performance communication objects. Some of
+the key use cases for Dragon include distributed applications and
+workflows for analytics, HPC, and converged HPC/AI.

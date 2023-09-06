@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: pyneapple-lib
+Version: 0.1.0
+Summary: Scalable and expressive spatial analysis
+Home-page: https://github.com/MagdyLab/Pyneapple/tree/main/pyneapple/
+Author: Yunfan Kang
+Author-email: ykang040@ucr.edu
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: pip
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: jpype1
+Requires-Dist: geopandas
+Requires-Dist: pandas
+Requires-Dist: libpysal
+Requires-Dist: matplotlib
+Requires-Dist: install-jdk
+
+UNKNOWN
+

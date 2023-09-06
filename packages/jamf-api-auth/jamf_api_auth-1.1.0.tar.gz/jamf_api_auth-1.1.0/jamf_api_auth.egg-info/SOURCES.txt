@@ -1,0 +1,10 @@
+LICENSE
+README.md
+jamf_auth.py
+pyproject.toml
+setup.cfg
+jamf_api_auth.egg-info/PKG-INFO
+jamf_api_auth.egg-info/SOURCES.txt
+jamf_api_auth.egg-info/dependency_links.txt
+jamf_api_auth.egg-info/requires.txt
+jamf_api_auth.egg-info/top_level.txt

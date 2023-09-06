@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+settings.ini
+setup.py
+aprep/__init__.py
+aprep/_modidx.py
+aprep/core.py
+aprep.egg-info/PKG-INFO
+aprep.egg-info/SOURCES.txt
+aprep.egg-info/dependency_links.txt
+aprep.egg-info/entry_points.txt
+aprep.egg-info/not-zip-safe
+aprep.egg-info/requires.txt
+aprep.egg-info/top_level.txt

@@ -1,0 +1,14 @@
+LICENSE.rst
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+LatinFixer/README.MD
+LatinFixer/__init__.py
+LatinFixer/requirements.txt
+LatinFixer/thirdparty.json
+LatinFixer.egg-info/PKG-INFO
+LatinFixer.egg-info/SOURCES.txt
+LatinFixer.egg-info/dependency_links.txt
+LatinFixer.egg-info/requires.txt
+LatinFixer.egg-info/top_level.txt

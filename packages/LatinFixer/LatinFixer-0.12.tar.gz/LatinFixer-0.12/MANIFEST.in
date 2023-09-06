@@ -1,0 +1,3 @@
+include LatinFixer/requirements.txt
+include LatinFixer/thirdparty.json
+include LatinFixer/README.MD

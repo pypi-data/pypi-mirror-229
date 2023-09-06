@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: droneframe
+Version: 0.1.0
+Summary: Extract frames from drone footage along with their EXIF data.
+Home-page: https://github.com/anwaraliahmad/droneframe
+Author: Anwar Ali-Ahmad
+Author-email: contact@anwaraliahmad.tech
+License: MIT
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: argparse
+

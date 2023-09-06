@@ -1,0 +1,2 @@
+[commitizen.plugin]
+cz_base = cz_base:BaseCz

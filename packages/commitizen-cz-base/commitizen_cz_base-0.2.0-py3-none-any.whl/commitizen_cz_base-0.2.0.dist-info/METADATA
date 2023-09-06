@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: commitizen-cz-base
+Version: 0.2.0
+Summary: Commitizen configuration for base Angewandte projects
+License: Apache Software License 2.0
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: commitizen >=3.0.0
+
+# commitizen-cz-base
+
+Commitizen configuration for base Angewandte projects.
+
+To use it, install the package with `pip install commitizen-cz-base` and add the following to `pyproject.toml`:
+
+```
+[tool.commitizen]
+name = "cz_base"
+```

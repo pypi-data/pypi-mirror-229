@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+chromedriver_autoinstaller_fix/__init__.py
+chromedriver_autoinstaller_fix/utils.py
+chromedriver_autoinstaller_fix.egg-info/PKG-INFO
+chromedriver_autoinstaller_fix.egg-info/SOURCES.txt
+chromedriver_autoinstaller_fix.egg-info/dependency_links.txt
+chromedriver_autoinstaller_fix.egg-info/entry_points.txt
+chromedriver_autoinstaller_fix.egg-info/requires.txt
+chromedriver_autoinstaller_fix.egg-info/top_level.txt

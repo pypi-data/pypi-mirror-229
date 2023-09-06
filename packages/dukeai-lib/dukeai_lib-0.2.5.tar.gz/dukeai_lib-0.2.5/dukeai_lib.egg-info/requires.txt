@@ -1,0 +1,4 @@
+chalice~=1.27.1
+requests~=2.27.1
+base58==2.1.1
+urllib3~=1.26.9

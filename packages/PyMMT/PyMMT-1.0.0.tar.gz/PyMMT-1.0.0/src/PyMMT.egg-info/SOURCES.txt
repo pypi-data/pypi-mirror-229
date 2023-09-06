@@ -1,0 +1,13 @@
+README.md
+pyproject.toml
+src/PyMMT.egg-info/PKG-INFO
+src/PyMMT.egg-info/SOURCES.txt
+src/PyMMT.egg-info/dependency_links.txt
+src/PyMMT.egg-info/requires.txt
+src/PyMMT.egg-info/top_level.txt
+src/pymmt/__init__.py
+src/pymmt/pymmt.py
+src/pymmt/instruments/__init__.py
+src/pymmt/instruments/binospec.py
+src/pymmt/instruments/mmirs.py
+tests/test.py

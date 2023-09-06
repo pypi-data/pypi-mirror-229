@@ -1,0 +1,84 @@
+p cnf 116 42
+c p distribution  0.875 0.125
+c p distribution  0.875 0.125
+c p distribution  0.875 0.125
+c p distribution  0.875 0.125
+c p distribution  0.875 0.125
+c p distribution  0.875 0.125
+c p distribution  0.875 0.125
+c p distribution  0.875 0.125
+c p distribution  0.875 0.125
+c p distribution  0.875 0.125
+c p distribution  0.875 0.125
+c p distribution  0.875 0.125
+c p distribution  0.875 0.125
+c p distribution  0.875 0.125
+c p distribution  0.875 0.125
+c p distribution  0.875 0.125
+c p distribution  0.875 0.125
+c p distribution  0.875 0.125
+c p distribution  0.875 0.125
+c p distribution  0.875 0.125
+c p distribution  0.875 0.125
+c p distribution  0.875 0.125
+c p distribution  0.875 0.125
+c p distribution  0.875 0.125
+c p distribution  0.875 0.125
+c p distribution  0.875 0.125
+c p distribution  0.875 0.125
+c p distribution  0.875 0.125
+c p distribution  0.875 0.125
+c p distribution  0.875 0.125
+c p distribution  0.875 0.125
+c p distribution  0.875 0.125
+c p distribution  0.875 0.125
+c p distribution  0.875 0.125
+c p distribution  0.875 0.125
+c p distribution  0.875 0.125
+c p distribution  0.875 0.125
+c p distribution  0.875 0.125
+c p distribution  0.875 0.125
+c p distribution  0.875 0.125
+82 -81 -1 0
+85 -82 -3 0
+83 -82 -5 0
+84 -83 -7 0
+85 -84 -9 0
+86 -85 -11 0
+87 -86 -13 0
+88 -87 -15 0
+89 -87 -17 0
+90 -88 -19 0
+91 -89 -21 0
+92 -91 -23 0
+93 -92 -25 0
+94 -93 -27 0
+95 -94 -29 0
+96 -93 -31 0
+97 -95 -33 0
+97 -96 -35 0
+98 -97 -37 0
+111 -98 -39 0
+99 -96 -41 0
+100 -94 -43 0
+101 -100 -45 0
+102 -101 -47 0
+102 -100 -49 0
+103 -104 -51 0
+104 -95 -53 0
+105 -103 -55 0
+116 -105 -57 0
+110 -105 -59 0
+106 -110 -61 0
+108 -106 -63 0
+107 -108 -65 0
+112 -102 -67 0
+113 -112 -69 0
+99 -111 -71 0
+114 -108 -73 0
+109 -114 -75 0
+114 -107 -77 0
+115 -107 -79 0
+81 0
+-115 0
+

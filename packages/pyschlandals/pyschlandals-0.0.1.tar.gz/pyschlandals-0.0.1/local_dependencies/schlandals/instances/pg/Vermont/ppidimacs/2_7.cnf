@@ -1,0 +1,40 @@
+p cnf 34 26
+c p distribution  0.875 0.125
+c p distribution  0.875 0.125
+c p distribution  0.875 0.125
+c p distribution  0.875 0.125
+c p distribution  0.875 0.125
+c p distribution  0.875 0.125
+c p distribution  0.875 0.125
+c p distribution  0.875 0.125
+c p distribution  0.875 0.125
+c p distribution  0.875 0.125
+c p distribution  0.875 0.125
+c p distribution  0.875 0.125
+27 0
+-32 0
+31 -26 -1 0
+26 -31 -1 0
+28 -25 -3 0
+25 -28 -3 0
+33 -25 -5 0
+25 -33 -5 0
+34 -29 -7 0
+29 -34 -7 0
+31 -26 -9 0
+26 -31 -9 0
+32 -33 -11 0
+33 -32 -11 0
+30 -27 -13 0
+27 -30 -13 0
+30 -31 -15 0
+31 -30 -15 0
+34 -27 -17 0
+27 -34 -17 0
+33 -25 -19 0
+25 -33 -19 0
+34 -29 -21 0
+29 -34 -21 0
+27 -31 -23 0
+31 -27 -23 0
+

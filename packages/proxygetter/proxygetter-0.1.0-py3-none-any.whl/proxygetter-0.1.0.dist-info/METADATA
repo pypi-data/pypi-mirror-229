@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: proxygetter
+Version: 0.1.0
+Summary: A utility to get and filter free proxies
+Home-page: https://github.com/ArthurVerrez/proxygetter
+Author: Arthur Verrez
+Author-email: macdouglass@example.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.10
+License-File: LICENSE
+Requires-Dist: requests
+Requires-Dist: beautifulsoup4
+
+UNKNOWN
+

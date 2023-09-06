@@ -1,0 +1,9 @@
+proxygetter/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+proxygetter/proxygetter.py,sha256=9JFwg9u-YCi4U5a1q-3W8t5eIRc0r4JXxuqSa-50s5Y,3146
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_proxygetter.py,sha256=ZguhhxHAeDnKMAjYVurNAmRKFb4-b6gyc5CPaWjIDgE,1054
+proxygetter-0.1.0.dist-info/LICENSE,sha256=GBxi8oj_eMhrDKUPE2slotIXCrclBu5EtzU8HFHQOfg,1081
+proxygetter-0.1.0.dist-info/METADATA,sha256=SrZT3s59mdWEwHEN1SH6NyNp0yAlJhiPg-3-5_rfVyI,531
+proxygetter-0.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+proxygetter-0.1.0.dist-info/top_level.txt,sha256=8IWYcOHqwRdxwt5ypi8dJ3JorLPKVgXtJOT0SsPQ4mk,18
+proxygetter-0.1.0.dist-info/RECORD,,

@@ -1,0 +1,31 @@
+[project]
+name = "empyrealSDK"
+version = "0.0.1.post1"
+description = "Empyreal SDK for web3 development"
+readme = "README.md"
+requires-python = ">=3.7"
+license = {file = "LICENSE.txt"}
+authors = [
+  { name="empyrealapp", email="dev@empyreal.app" },
+]
+dependencies = [
+  "eth-typing>=3.0.0",
+  "eth-utils>=2.1.0",
+  "hexbytes>=0.1.0",
+  "httpx>=0.23.3",
+  "pydantic>=2.3.0",
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/empyrealapp/empyrealSDK"
+"Bug Tracker" = "https://github.com/empyrealapp/empyrealSDK/issues"
+
+
+[build-system]
+requires = ['setuptools >=61.0']
+build-backend = 'setuptools.build_meta'

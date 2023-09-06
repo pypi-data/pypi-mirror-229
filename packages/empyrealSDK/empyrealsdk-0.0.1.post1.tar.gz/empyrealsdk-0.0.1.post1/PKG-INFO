@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: empyrealSDK
+Version: 0.0.1.post1
+Summary: Empyreal SDK for web3 development
+Author-email: empyrealapp <dev@empyreal.app>
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Dist: eth-typing>=3.0.0
+Requires-Dist: eth-utils>=2.1.0
+Requires-Dist: hexbytes>=0.1.0
+Requires-Dist: httpx>=0.23.3
+Requires-Dist: pydantic>=2.3.0
+Project-URL: Bug Tracker, https://github.com/empyrealapp/empyrealSDK/issues
+Project-URL: Homepage, https://github.com/empyrealapp/empyrealSDK
+
+# empyrealSDK
+
+Tooling for Building Web3 applications with integrated wallet management.
+

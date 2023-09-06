@@ -1,0 +1,4 @@
+include pymathis/smartmathis.dll
+include pymathis/smartmathis.so
+include pymathis/tests/ProbeAndCtrlTEST.data
+include pymathis/tests/ProbeAndCtrlTEST.pickle

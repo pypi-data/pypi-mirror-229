@@ -1,0 +1,8 @@
+README.md
+setup.py
+TNSA/__init__.py
+TNSA/tnsamcv.py
+TNSAMCV.egg-info/PKG-INFO
+TNSAMCV.egg-info/SOURCES.txt
+TNSAMCV.egg-info/dependency_links.txt
+TNSAMCV.egg-info/top_level.txt

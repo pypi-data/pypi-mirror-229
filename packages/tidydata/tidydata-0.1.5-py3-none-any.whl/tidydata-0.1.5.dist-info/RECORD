@@ -1,0 +1,9 @@
+tidydata/__init__.py,sha256=daEdpEyAJIa8b2VkCqSKcw8PaExcB6Qro80XNes_sHA,2
+tidydata/__main__.py,sha256=j1dz1X_VclvdMv5dB3Tj3oiL3BFDSNcxsE1ioMdGj5o,77
+tidydata/cli.py,sha256=TE4EcRzAJfJ8bsN5lq65v86BVIoQJXGFE4XSc_DgI2s,2015
+tidydata/config.py,sha256=3pGop9z7yiDfDNjLgy9pnR-yV74D4fYUFKKhEa9IciE,17314
+tidydata/core.py,sha256=xlm3KJOdmV0WoJf1ypkskLoqv33JnmrzCP2aSOFDKNQ,23185
+tidydata/variable.py,sha256=6oCCPaEwO_XY29PzWNNkapxZ0KYVGiCCtA_TZbllN9w,7907
+tidydata-0.1.5.dist-info/METADATA,sha256=xocLt9BuH5vnA7OePy9N3IjCSm1T8VWAJmACX2v7wCA,811
+tidydata-0.1.5.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+tidydata-0.1.5.dist-info/RECORD,,

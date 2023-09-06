@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: my-img-2-txt
+Version: 0.0.1
+Summary: Transform images with texts on it into a single text
+Home-page: 
+Author: Michelle Santos
+Author-email: michellesantosvet@gmail.com
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: opencv
+Requires-Dist: pytesseract
+
+Transforms images into text using cv2 and pytesseract libraries

@@ -1,0 +1,4 @@
+GitPython
+aiostream
+asyncssh
+paramiko

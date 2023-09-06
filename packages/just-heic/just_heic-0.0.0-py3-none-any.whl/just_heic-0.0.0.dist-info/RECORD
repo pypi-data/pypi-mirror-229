@@ -1,0 +1,16 @@
+just_heic/__init__.py,sha256=IV24aRNierB4Tav66E_CcL7UdAF77ESC8iBYz6GH6vE,289
+just_heic/change_date.py,sha256=pXVt-wCmBxLA8ZyOLbxS7FxJFN-W1v_5rGifYQAsSxE,1151
+just_heic/heic_to_jpg.py,sha256=Ny_b4Ql5wLNJ68Rh_G9YQkUsLVLo571xULAK3rHqwMo,2270
+just_heic/main.py,sha256=i3Yn3w0I1EO4wi021Jv76o2tqhc3JFZFdvsyt6tV2ng,2509
+just_heic/utils.py,sha256=N9YOIHHgg07uwDF9Yy7FP66Ma5WpdzzuogHL9mNvYEE,3477
+just_heic/__pycache__/__init__.cpython-311.pyc,sha256=rm6rMFpJrocv-WwnOAYjY3LCzcwkID6ET4nays6qiSM,677
+just_heic/__pycache__/change_date.cpython-311.pyc,sha256=KfmuYsZTPFNA14uyyL_BVtL_nAQra3jSd_AMzwX21yk,2187
+just_heic/__pycache__/heic_to_jpg.cpython-311.pyc,sha256=Fe4d1CK8bBBNyFm0SzBM3-QXWZX3f_NLCtWxlbEaOO0,3576
+just_heic/__pycache__/main.cpython-311.pyc,sha256=qr3Bq41uIfmTFfYU0-uu0V4cjx-Kd3mJJcPBB5qur-E,3207
+just_heic/__pycache__/utils.cpython-311.pyc,sha256=c0kQwJ0q0JhJrcoJokmZtMn9yCV5sclwsfVLBfA1WSc,6348
+just_heic-0.0.0.dist-info/LICENSE,sha256=mRHelfWKACgH_I8oF8chpzYSAV3WsDItwqxnexSTT_A,1090
+just_heic-0.0.0.dist-info/METADATA,sha256=jexMfpHSv0YZngzPxkzs_c9ZDz-2J1U5IL_AM-xV-YY,1152
+just_heic-0.0.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+just_heic-0.0.0.dist-info/entry_points.txt,sha256=RPfsm-dZDkKwXBRw9Ta17HhXxRiUiboivj27s6dIW-E,49
+just_heic-0.0.0.dist-info/top_level.txt,sha256=zOTp1YXKckKRaMPfi8bqm4vle8p_ffKKV3aDIDTk6b4,10
+just_heic-0.0.0.dist-info/RECORD,,

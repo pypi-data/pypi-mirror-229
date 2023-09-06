@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: just-heic
+Version: 0.0.0
+Summary: Convert heic files to jpg and keep metadata
+Home-page: https://github.com/justengel/just_heic
+Download-URL: https://github.com/justengel/just_heic/archive/refs/tags/v0.0.0.tar.gz
+Author: Justin Engel
+Author-email: jtengel08@gmail.com
+License: Proprietary
+Keywords: heic jpg
+Platform: any
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/x-rst
+License-File: LICENSE
+Requires-Dist: Pillow (>=10.0.0)
+Requires-Dist: pillow-heif (>=0.13.0)
+
+=========
+just_heic
+=========
+
+Convert heic files to jpg files fixing orientation and preserving date times.
+
+
+.. code-block:: python
+
+    just_heic to_jpg file.heic file.jpg
+    just_heic to_jpg src_folder dest_folder -r -t -v
+    just_heic to_jpg --help
+
+
+Change created time to the exif metadata date taken.
+
+.. code-block:: python
+
+    just_heic to_date_taken src_folder -r --ext .jpg
+    just_heic to_date_taken --help
+
+
+Install
+=======
+
+.. code-block::
+
+    pip install just_heic

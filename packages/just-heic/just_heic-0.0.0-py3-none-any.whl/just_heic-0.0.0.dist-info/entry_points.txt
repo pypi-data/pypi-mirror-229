@@ -1,0 +1,2 @@
+[console_scripts]
+just_heic = just_heic.main:cli

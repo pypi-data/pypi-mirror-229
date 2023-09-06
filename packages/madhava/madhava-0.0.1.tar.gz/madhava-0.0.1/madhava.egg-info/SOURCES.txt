@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+madhava/__init__.py
+madhava/madhavapi.py
+madhava.egg-info/PKG-INFO
+madhava.egg-info/SOURCES.txt
+madhava.egg-info/dependency_links.txt
+madhava.egg-info/top_level.txt

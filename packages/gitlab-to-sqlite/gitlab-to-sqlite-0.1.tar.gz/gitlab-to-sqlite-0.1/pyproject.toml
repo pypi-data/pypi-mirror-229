@@ -1,0 +1,23 @@
+[project]
+name = "gitlab-to-sqlite"
+version = "0.1"
+description = "Save data from GitLab to a SQLite database."
+readme = "README.md"
+
+authors = [{name = "Reiner Gerecke"}]
+license = {text = "Apache-2.0"}
+classifiers = [
+    "Development Status :: 3 - Alpha"
+]
+dependencies = [
+    "sqlite-utils>=2.7.2",
+    "gql[all]"
+]
+
+[project.scripts]
+gitlab-to-sqlite = "gitlab_to_sqlite.cli:cli"
+
+[project.urls]
+Homepage = "https://github.com/squiddy/gitlab-to-sqlite"
+Changelog = "https://github.com/squiddy/gitlab-to-sqlite/releases"
+Issues = "https://github.com/squiddy/gitlab-to-sqlite/issues"

@@ -1,0 +1,8 @@
+README.md
+VERSION
+pyproject.toml
+langterm/__init__.py
+langterm.egg-info/PKG-INFO
+langterm.egg-info/SOURCES.txt
+langterm.egg-info/dependency_links.txt
+langterm.egg-info/top_level.txt

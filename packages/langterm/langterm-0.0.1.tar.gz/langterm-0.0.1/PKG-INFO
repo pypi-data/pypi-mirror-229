@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: langterm
+Version: 0.0.1
+Summary: Hackable Language Terminal powered by Large Language Models (LLMs)
+Author-email: Fireworks AI <info@fireworks.ai>
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Description-Content-Type: text/markdown
+
+# Language Terminal (LangTerm)
+Hackable Language Terminal powered by Large Language Models (LLMs)
+
+## Build
+
+```
+python -m build
+```

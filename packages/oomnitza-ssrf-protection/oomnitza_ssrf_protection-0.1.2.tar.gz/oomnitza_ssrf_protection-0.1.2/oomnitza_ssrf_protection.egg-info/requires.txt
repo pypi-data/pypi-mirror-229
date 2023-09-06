@@ -1,0 +1,8 @@
+aiodns==3.0.0
+pycares==4.2.2
+
+[tests]
+pytest>=3
+pytest-lazy-fixture>=0.6.3
+pytest-cov>=2
+pytest-aiohttp>=0.3.0

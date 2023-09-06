@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: ionic-sdk-python
+Version: 0.0.0a3
+Summary: 
+Author: Owen Sims
+Author-email: owen@ionicapi.com
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Description-Content-Type: text/markdown
+
+# Ionic Python SDK
+
+## Setup
+
+## Dev
+
+## Test
+
+## Deploy (Publish)
+
+https://python-poetry.org/docs/libraries/
+

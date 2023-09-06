@@ -1,0 +1,2 @@
+[nbdev]
+indoc = indoc._modidx:d

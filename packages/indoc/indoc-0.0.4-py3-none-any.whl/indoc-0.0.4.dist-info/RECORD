@@ -1,0 +1,12 @@
+indoc/__init__.py,sha256=k5KIvE6e3VLlTnvtvwi3xCBSvlafL1Wyew4PG-QncLE,73
+indoc/_modidx.py,sha256=rKhP0bR6uoY8HgKIJa3FcSq_25HOUjUqmW2Sucges9I,3453
+indoc/const.py,sha256=2Gm8hJk94Nr3aJ62mjgfZFMK15Bl97kL7AwqUY-6dI8,1451
+indoc/funcs.py,sha256=GoNb1KVmbElvUQqw1BeTAmnYXGKy4jT7F7CTZJiJnOQ,4418
+indoc/indoc.py,sha256=dhC0aEy8ePxwNVzrdr5-GLNArERJ3IwszgyUWsGAdes,923
+indoc/utils.py,sha256=r3eB8C7CwWzxPDmKuZDJ3T3Zlu8G5F6gf5iu4HT3Ovc,13231
+indoc-0.0.4.dist-info/LICENSE,sha256=xV8xoN4VOL0uw9X8RSs2IMuD_Ss_a9yAbtGNeBWZwnw,11337
+indoc-0.0.4.dist-info/METADATA,sha256=5SuopgvQhT10tb0RqkAMbHyklR5f8OZC93Dp5E59ZQU,3014
+indoc-0.0.4.dist-info/WHEEL,sha256=5sUXSg9e4bi7lTLOHcm6QEYwO5TIF1TNbTSVFVjcJcc,92
+indoc-0.0.4.dist-info/entry_points.txt,sha256=PPd5ETSz5cHyG0Tj8JTDh7tY3x_oKT1dTry37l6Qu40,32
+indoc-0.0.4.dist-info/top_level.txt,sha256=RzSiZdGHxOBXVqsTQawDrWGHL3Ow5RGp0yB_pnF8DYo,6
+indoc-0.0.4.dist-info/RECORD,,

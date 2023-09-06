@@ -1,0 +1,10 @@
+bidcell-1.0.0.dist-info/METADATA,sha256=Fk8k1pHjEnduiFrDb0yB41-ufo7EX_VUW9QUfQ3VNZI,7836
+bidcell-1.0.0.dist-info/WHEEL,sha256=1D4d-_ODszlK6-qFybc5BLF-ZhZvee-uKVh2hLa3IIc,90
+bidcell-1.0.0.dist-info/licenses/LICENSE,sha256=5nUgf0Nz5PmryQHGA_QxWCxz9up861OR4RFcryQlUsc,36131
+data/dataset_xenium_breast1_small/morphology_mip_small.tif,sha256=jYA2JT5XcKiHEsqsIiqRDL5orn2lgJ43mKXWg_Egku0,8640256
+data/dataset_xenium_breast1_small/transcripts_small.csv,sha256=2o04Z7yF4AZCG-5wI_uSbhlf7NU6ZxbdEITUigIS2mQ,13964049
+data/sc_references/sc_breast.csv,sha256=7qZ7jNIHHeQYphjVLKoayhYk1N1hx5d0l0IrtH0tJw0,321121
+data/sc_references/sc_breast_markers_neg.csv,sha256=5RtaRQJtjuV1wHiaraP17fS1nx2TPbZG9M7j0GDiwSA,20776
+data/sc_references/sc_breast_markers_pos.csv,sha256=H2uj7-zt_35PknZTz2k_JMGTwy3njjYvQyA7sAXH5Zo,20776
+data/stereoseq_mousebrain_genes.txt,sha256=uoAq1fh17giqX3Wz9sNybJFQzgetrtQegEtiAS1YfcM,1543
+bidcell-1.0.0.dist-info/RECORD,,

@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+settings.ini
+setup.py
+ropts/__init__.py
+ropts/_modidx.py
+ropts/core.py
+ropts.egg-info/PKG-INFO
+ropts.egg-info/SOURCES.txt
+ropts.egg-info/dependency_links.txt
+ropts.egg-info/entry_points.txt
+ropts.egg-info/not-zip-safe
+ropts.egg-info/requires.txt
+ropts.egg-info/top_level.txt

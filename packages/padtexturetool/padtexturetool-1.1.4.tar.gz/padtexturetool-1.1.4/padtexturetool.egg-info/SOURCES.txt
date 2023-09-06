@@ -1,0 +1,16 @@
+LICENSE
+README.md
+setup.py
+padtexturetool/__init__.py
+padtexturetool/__main__.py
+padtexturetool/encoding.py
+padtexturetool/extract.py
+padtexturetool/settings.py
+padtexturetool/texture.py
+padtexturetool/texture_reader.py
+padtexturetool/texture_writer.py
+padtexturetool.egg-info/PKG-INFO
+padtexturetool.egg-info/SOURCES.txt
+padtexturetool.egg-info/dependency_links.txt
+padtexturetool.egg-info/requires.txt
+padtexturetool.egg-info/top_level.txt

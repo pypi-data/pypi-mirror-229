@@ -1,0 +1,13 @@
+docwriter/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+docwriter/__main__.py,sha256=_XIq0gre07lzUHkj-WQUJka-lYp0aGS410pTq7hodn0,4337
+docwriter/check.py,sha256=-6oYmnG-I0Ztj7rgEAOCDeb6WoyMrJNdkeiIp9V1BLw,1188
+docwriter/content.py,sha256=Jp6JQjM39h97Mh2NQtl1J3enFcNLQlmLNPd4V5bSEYY,20993
+docwriter/formatter.py,sha256=sZpW2TBZYANhokSys4iSnQOgmlWM1vcr-SKExLkz8iU,6437
+docwriter/siteconfig.py,sha256=r-y-yliTz3Rm7zxdK9c9ne85APHqqwsPgQ-UmCAiTtc,8906
+docwriter/sources.py,sha256=4GarTW0sy0s9WA-9Dild1yx8TvIP3jFspWa97oWJ7X0,13317
+docwriter/tomarkdown.py,sha256=cpW9aMoawsTCRIiCaWcMpoDk9xFyOQx3IQO0VYMUpyU,20582
+docwriter/utils.py,sha256=zLqfcO8ORWJKtbsFxa6-3Wk_YZn1zkO72WBDb-dFlxQ,4680
+docwriter-1.3.3.dist-info/METADATA,sha256=H4WikQpYCylGYvAzA2l1ksCIADcX9_0vAY9TBJ_J2sk,5133
+docwriter-1.3.3.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+docwriter-1.3.3.dist-info/top_level.txt,sha256=f-zQh7wAq767I7yiq5JJ8a3kIluwqhhr_XMcwC1GXPA,10
+docwriter-1.3.3.dist-info/RECORD,,

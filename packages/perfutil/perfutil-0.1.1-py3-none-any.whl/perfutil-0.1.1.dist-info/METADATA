@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: perfutil
+Version: 0.1.1
+Summary: A simple performance utility library
+Home-page: UNKNOWN
+Author: Lucas Wang
+Author-email: longfei_wang.tech@outlook.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: clickhouse-driver
+Requires-Dist: redis
+
+UNKNOWN
+

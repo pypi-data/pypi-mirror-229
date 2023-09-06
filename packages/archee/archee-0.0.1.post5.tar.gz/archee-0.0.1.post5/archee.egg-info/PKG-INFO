@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: archee
+Version: 0.0.1.post5
+Summary: modlee package
+Author-email: modlee <michael@modlee.ai>
+Requires-Python: >=3.10

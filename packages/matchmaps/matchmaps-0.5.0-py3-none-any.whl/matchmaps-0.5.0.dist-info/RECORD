@@ -1,0 +1,11 @@
+matchmaps/__init__.py,sha256=L-3AOGjTAsCo5tzFAtk4tuMewL9B7hyU2hZPIFKBlw8,303
+matchmaps/_compute_mr_diff.py,sha256=zC8cJiNWJQZuM9oLOMLnBTBytSeqXYOmUL7abd9UaCo,14658
+matchmaps/_compute_ncs_diff.py,sha256=zYqps6EYhkPsJN5GVlIHtCoKFBWwFNCO8qd0lM7oGMQ,8444
+matchmaps/_compute_realspace_diff.py,sha256=sa3H4i4myLr9FZnMSiiDV4n-GBLDlhmUZplsSM9c3co,13854
+matchmaps/_utils.py,sha256=0AL5rWhksjnkEZgA1jPaBEkgJZn31YUQFT2mGA_HEDg,27615
+matchmaps/_version_util.py,sha256=prntpjMbKD81Xb-w68-K3JcZxZDc5s1hlPDQxk0cv50,185
+matchmaps-0.5.0.dist-info/METADATA,sha256=0qKPSp0pEDeDdwKFYYgR14zd3dZXfWn-KGqmEBxU8FE,2358
+matchmaps-0.5.0.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+matchmaps-0.5.0.dist-info/entry_points.txt,sha256=vkB6154w2R6nb5lmefQbnMCK2IRNhbNgMb4X2Jk02cI,214
+matchmaps-0.5.0.dist-info/licenses/LICENSE,sha256=6jbcNukLFiUkZW4rBidmDfVoehv9VkjP8alX8MPA9Xw,1514
+matchmaps-0.5.0.dist-info/RECORD,,

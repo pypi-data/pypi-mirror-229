@@ -1,0 +1,10 @@
+requests
+requests_toolbelt
+pydantic
+python-magic
+
+[tests]
+pytest
+
+[tests:python_version < "3.3"]
+unittest.mock

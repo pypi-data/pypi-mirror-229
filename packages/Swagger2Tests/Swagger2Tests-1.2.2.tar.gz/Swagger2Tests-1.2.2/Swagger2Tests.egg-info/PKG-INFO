@@ -1,0 +1,145 @@
+Metadata-Version: 2.1
+Name: Swagger2Tests
+Version: 1.2.2
+Summary: swagger
+Home-page: https://gitee.com/visonforcoding/code-template-tools
+Author: visonforcoding
+Author-email: visonforcoding@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+
+# 生成pytest用例
+
+## install
+
+```shell
+python3 -m venv .myenv
+source .myenv/bin/activate
+#deactivate 退出
+```
+
+## 1. 初始化
+
+```shell
+Swagger2Tests --init --target='./'
+```
+
+初始化项目时会在指定的`target`目录,初始化项目，并且生成一些基础文件。
+
+- constants 可配置一些公共参数 比如 domain等
+- helpers 一些通用方法
+- templates 生成模板，可进行自定义修改
+
+## 生成测试文件
+
+```shell
+Swagger2Tests --swagger='https://swagger.json' --target='./'
+```
+
+- swagger 参数支持文件和url
+
+当前会按请求参数类型，一次性生成固定值，如果需要每次请求都动态更改,则可以在文件里进行修改，使用Helper类的方法
+
+```python
+    def test_chargingUsingPOST(self):
+        # 计算费用
+        requestBody = {
+            "appid": REQUEST_APPID,
+            "bizContent": {
+                'amount': Helper.get_random_float(),
+                'gasId': 'string',
+                'gunNo': Helper.get_random_int(),
+                'oilNo': Helper.get_random_int()
+            },
+            "sign": "string",
+            "timestamp": Helper.get_random_datetime()
+        }
+```
+
+## 用pytest 进行接口测试
+
+1. 在当前目录创建test_suits目录
+2. 在该目录内创建符合pytest扫描规则的测试文件,下面是个示例`test_detail.py`.
+
+```python
+from apps.testCases.goods.items.DetailCase import *
+
+class TestDetail:
+
+    def test_detail(self):
+        DetailCase.detailUsingGET()
+```
+
+以上只是一个示例，描述了对单个接口的测试。实际上，你可以处理接口返回，进行串联，模拟某个功能场景的测试集合。
+
+3. 编写pytest执行文件
+
+```python
+import pytest
+
+if __name__ == '__main__':
+    pytest.main(['-s'])
+
+```
+
+执行单接口或场景接口集合测试
+
+```shell
+python3 pytest_main.py  
+```
+
+- 使用pytest_main.py 执行的意义在于，避免有使用自定义包,因目录层级而存在的包导入问题
+
+## 结合locust进行压力测试
+
+1. 编写locust用例文件
+
+```python
+from locust import HttpUser,task
+from locust.clients import LocustResponse
+from apps.testCases.goods.items.DetailCase import *
+from Swagger2Tests.helpers.helper import RequestInfo
+
+
+class TestUser(HttpUser):
+
+    min_wait = 5 * 1000
+    max_wait = 10 * 1000
+
+
+    @task
+    def getGoodsDetail(self):
+        r:RequestInfo = DetailCase.detailUsingGET(self.host)
+        response:LocustResponse
+        with self.client.request(r.request_method,r.request_path,
+                            data=r.request_body,params=r.request_params,
+                            catch_response =True
+                            ) as response:
+            if response.status_code == 200:
+                response.success()
+            else:
+                response.failure("Request failed with status code: %s" % response.status_code)
+
+```
+
+## development
+
+1. test
+
+```shell
+python3 -m tests.test_run --swagger='./tests/oil_detail.json'
+```
+
+2. compile and deploy
+
+```
+python3 setup.py sdist bdist_wheel
+twine upload dist/*   
+```
+
+

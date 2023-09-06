@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: topicgpt
+Version: 0.0.1.dev7
+Summary: A package for integrating LLMs like GPT-3.5 and GPT-4 into topic modelling
+Author: Arik Reuter
+Author-email: arik_reuter@gmx.de
+License: MIT
+Keywords: Topic Modelling,GPT,LLM,OpenAI,Retrieval Augmented Generation,Chat-GPT,GPT-3,GPT-4
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows

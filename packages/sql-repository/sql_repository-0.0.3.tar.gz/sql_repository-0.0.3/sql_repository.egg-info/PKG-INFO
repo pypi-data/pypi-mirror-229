@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: sql-repository
+Version: 0.0.3
+Summary: ...
+Home-page: https://github.com/Baseline-quebec/sql_repository
+Download-URL: https://github.com/Baseline-quebec/sql_repository/archive/refs/tags/0.0.3.zip
+Author: Baseline
+Author-email: info@baseline.quebec
+License: MIT
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Scientific/Engineering
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# SQL Repository
+
+A minimalist package to handle SQL repository logic build on top of SQL Alchemy.
+
+Features:
+
+    - The package add a tin layer around `sqlalchemy` to handle more easely SQL repository

@@ -1,0 +1,15 @@
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+sql_repository/__init__.py
+sql_repository/sql_repository.py
+sql_repository/utils.py
+sql_repository/version.py
+sql_repository.egg-info/PKG-INFO
+sql_repository.egg-info/SOURCES.txt
+sql_repository.egg-info/dependency_links.txt
+sql_repository.egg-info/requires.txt
+sql_repository.egg-info/top_level.txt
+tests/__init__.py
+tests/test_utils.py

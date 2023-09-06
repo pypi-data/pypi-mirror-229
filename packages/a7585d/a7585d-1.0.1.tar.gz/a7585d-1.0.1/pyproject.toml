@@ -1,0 +1,25 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "a7585d"
+version = "1.0.1"
+authors = [
+  { name="Andrea Abba", email="abba@nuclearinstruments.eu" },
+]
+description = "Library to control A7585D Caen HV module (all versions)"
+readme = "README.md"
+requires-python = ">=3.5"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+keywords = ["A7585D", "SiPM bias", "HV", "Nuclear Instruments", "CAEN"]
+dependencies = [
+    "pyserial"
+]
+[project.urls]
+"Homepage" = "https://github.com/NuclearInstruments/a7585d-python"
+"Bug Tracker" = "https://github.com/NuclearInstruments/a7585d-python"

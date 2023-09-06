@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: eigs
+Version: 0.0.0
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v2 (LGPLv2)
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Physics
+Requires-Dist: numpy
+Requires-Dist: scipy
+Summary: An efficient complex eigensolver written in Rust.
+Keywords: eigenvalues,eigenvectors,eigenmodes,eigs
+Home-Page: https://github.com/flaport/eigs-rs
+Author: Floris Laporte <floris.laporte@gmail.com>
+Author-email: Floris Laporte <floris.laporte@gmail.com>
+License: LGPL-2.1-only
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown; charset=UTF-8; variant=GFM
+Project-URL: Source Code, https://github.com/flaport/eigs-rs
+
+# EIGS-py
+
+Python wrapper for eigs-rs
+

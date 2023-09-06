@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: partcsv
+Version: 0.1.3
+Summary: Partition data to csv files
+Author-email: Endre Márk Borza <endremborza@gmail.com>
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: branthebuilder[doc] ; extra == "doc"
+Requires-Dist: branthebuilder ; extra == "test"
+Requires-Dist: pandas ; extra == "test"
+Project-URL: Homepage, https://github.com/endremborza/partcsv
+Provides-Extra: doc
+Provides-Extra: test
+
+# partcsv
+
+[![pypi](https://img.shields.io/pypi/v/partcsv.svg)](https://pypi.org/project/partcsv/)
+
+

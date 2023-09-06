@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: terindo-single
+Version: 0.1.0
+Summary: terindo-system
+Home-page: https://github.com/pypa/sampleproject
+Author: ab-Js
+Author-email: terindo.id@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: License.txt
+Requires-Dist: ultralytics ==8.0.171
+Requires-Dist: opencv-contrib-python ==4.6.0.66
+Requires-Dist: opencv-python ==4.6.0.66
+Requires-Dist: opencv-python-headless ==4.8.0.76
+Requires-Dist: paddleocr ==2.7.0.2
+Requires-Dist: paddlepaddle ==2.5.1
+Requires-Dist: websockets ==11.0.3
+Requires-Dist: zipp ==3.16.2
+Requires-Dist: gdown ==4.7.1
+Requires-Dist: pyzipper ==0.3.6
+Requires-Dist: requests ==2.31.0
+Requires-Dist: Pillow ==9.5.0
+
+terindo-system
+

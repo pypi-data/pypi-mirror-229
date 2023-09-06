@@ -1,0 +1,7 @@
+README.txt
+setup.py
+pagtestyyb.egg-info/PKG-INFO
+pagtestyyb.egg-info/SOURCES.txt
+pagtestyyb.egg-info/dependency_links.txt
+pagtestyyb.egg-info/requires.txt
+pagtestyyb.egg-info/top_level.txt

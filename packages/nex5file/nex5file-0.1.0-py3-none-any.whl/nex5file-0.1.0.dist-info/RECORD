@@ -1,0 +1,16 @@
+nex5file/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+nex5file/filedata.py,sha256=MTcihZWZvpG7nYuNfAdQh7eDdbs8gGMx7HlRyojcV-I,19876
+nex5file/headers.py,sha256=hL0UOFmk_QPr2HyLPO3EiIQhBr6kHmh8pBvUoeF8xxk,13527
+nex5file/reader.py,sha256=594IlZBiHlNnamkExL7B3MfWP9PKUVpbaSzLfRX9YCQ,20063
+nex5file/variables.py,sha256=ulMYGuLzrHDjnx0CvM9vMT_FTtrd7OQlp4v53O4RRxw,25655
+nex5file/writer.py,sha256=uBlDdChCi7XNdl_QblTom419sbP3zKJjWDt6juVFpLo,13974
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_filedata.py,sha256=QnH5Lm3qmA0P0v4ljxW8pFTYMZDCxVAt9kDuIqj1lqs,6538
+tests/test_reader.py,sha256=rcZlsP-pRu9RuEn1ydRJYjGcazJW4_2chzuUDjVLDKQ,2938
+tests/test_variables.py,sha256=L7du5OaRSymd8ok-HzdQ-vVIfpSVLJTZeqk5gjSDMx0,2410
+tests/test_writer.py,sha256=b6wEmz4lStt8dIZkE8StihJTV6ljfm2atTaZlqrxhbA,7749
+nex5file-0.1.0.dist-info/LICENSE,sha256=eb41NVvEFho20euBMtccPxPRgY1BuxcR03LxDP2GS1k,1091
+nex5file-0.1.0.dist-info/METADATA,sha256=fllw67J8DBhKh1K0kLVfZrpdkoz4G1a_wGL3EoFxmHE,646
+nex5file-0.1.0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+nex5file-0.1.0.dist-info/top_level.txt,sha256=h9LheAtOPiocoTCs6kKTaYiWYOezbqHrXuIaGQByjYE,15
+nex5file-0.1.0.dist-info/RECORD,,

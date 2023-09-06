@@ -1,0 +1,6 @@
+requests
+pymysql
+pymongo
+redis
+mmh3
+bitarray

@@ -1,0 +1,5 @@
+[
+  "lc_test.py::test_centroid",
+  "lc_test.py::test_nearest",
+  "lc_test.py::test_two_topics"
+]

@@ -1,0 +1,234 @@
+{% extends 'epijats/_common.html.jinja' %}
+
+{% macro article_preview(doc, dsi_base_url) %}
+<div class="page-content-pillar">
+  <div class="eprint">
+
+    <nav class="preview-mode">
+      <a class="webpaper-none" href="#web">Switch to webpaper</a>
+      <a class="webpaper-only" href="#">Switch to print preview</a>
+    </nav>
+
+    {{- article_layout(doc, dsi_base_url) }}
+
+  </div><!-- eprint -->
+</div><!-- page-content-pillar -->
+{% endmacro %}
+
+{% macro citation(doc, dsi_base_url) %}
+  {% for contributor in doc.contributors %}
+    {{ (contributor['given-names'] ~ ' ' ~ contributor.surname) | escape }}
+  {% endfor %}
+  ({{ doc.date.year or '20??' }})
+  "{{ doc.title }}"
+  perm.pub
+  {{ dsi_base_url }}/&zwnj;dsi:<code>{{ doc.dsi or '???????????????????????????' }}</code>
+{% endmacro %}
+
+{% macro dsi_html_code(doc) -%}
+<code><span class="base64">{{ doc.base_dsi or '???????????????????????????' }}</span>/{{ doc.edid or '?' }}</code>
+{%- endmacro %}
+
+{% macro article_layout(doc, dsi_base_url, website_hooks=none) %}
+{% set static_dir = website_hooks.static_dir if website_hooks else 'static' %}
+  <header>
+    <div class="page-left">
+      <img class="logo logo-cc" src="{{ static_dir }}/cc.svg">
+      <img class="logo logo-oa" src="{{ static_dir }}/Open_Access_logo_PLoS_transparent.svg">
+    </div>
+    <div class="page-center"></div>
+    <div class="page-right">
+        <div class="article-dsi">
+          <a href="{{ dsi_base_url }}/{{ doc.dsi }}">
+            <span class="logotype">perm.pub</span>/<strong>dsi:</strong>{{ dsi_html_code(doc) }}
+          </a>
+          <div class="online-msg">Additional formats and editions available online.</div>
+        </div>
+    </div>
+  </header>
+
+  <footer>
+    <div class="page-left">
+      <div class="article-swhid">
+        Archived baseprint:
+        <a href="{{ swh_archive_url}}{{ doc.hash_scheme }}{{ doc.hexhash }}">
+          <strong>{{ doc.hash_scheme }}</strong><code>{{ doc.hexhash }}</code>
+        </a>
+      </div>
+    </div>
+    <div class="page-center"></div>
+    <div class="page-right">0 of 0</div>
+  </footer>
+
+  <header>
+    <div class="page-left">
+      <span class="online-msg">Additional formats and editions available online.</span>
+    </div>
+    <div class="page-center"></div>
+    <div class="page-right">
+      <a href="{{ dsi_base_url }}/{{ doc.dsi }}">
+        {{ dsi_base_url }}/dsi:{{ dsi_html_code(doc) }}
+      </a>
+    </div>
+  </header>
+
+  <article lang="en" class="aside-rack">
+
+    <div class="aside-shelf webpaper-only">
+      <div class="article-header">
+        <div class="article-dsi">
+          <a href="{{ dsi_base_url }}/{{ doc.dsi }}">
+            <span class="uri">
+              <span class="uri-scheme">dsi:</span><wbr>{{ dsi_html_code(doc) }}
+            </span>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="aside-shelf">
+      <h1 class="title">{{ doc.title or "No Title" }}</h1>
+      <aside>
+        {{edition_band(doc)}}
+        {{article_dates(doc)}}
+      </aside>
+      {{ contributors_list(doc.contributors, show_email=not website_hooks) }}
+    </div>
+
+    {% if website_hooks %}
+    <div class="aside-shelf">
+      <div class="article-buttons">
+        {{ website_hooks.correspond() }}
+      </div>
+      <aside>
+        <div class="article-buttons">
+          {{ website_hooks.cite() }}
+        </div>
+      </aside>
+    </div>
+    {% endif %}
+
+    <div class="aside-shelf">
+      <div>
+        {% if not website_hooks %}
+        <dl class="article-one-column-only">
+            <dt>Citation</dt>
+            <dd>{{ citation(doc, dsi_base_url) -}}</dd>
+        </dl>
+        {% endif %}
+        <section class="abstract">
+          {% if doc.abstract %}
+            <h2>Abstract</h2>
+            {{ doc.abstract }}
+          {% endif %}
+        </section>
+      </div>
+      <aside class="article-two-column-only">
+        <dl>
+          {% if not website_hooks %}
+            <dt>Citation</dt>
+            <dd>{{ citation(doc, dsi_base_url) -}}</dd>
+          {% endif %}
+          <dt>Copyright</dt>
+          <dd>{{ copyright(doc, show_https=false) }}</dd>
+        </dl>
+      </aside>
+    </div>
+
+    <div class="article-body">
+      {% if doc.body %}
+        {{ doc.body }}
+      {% endif %}
+    </div>
+
+    <div class="article-footer webpaper-only">
+      <div class="copyright article-one-column-only">
+        {{- copyright(doc) }}
+      </div>
+      <div class="article-swhid">
+        Archived baseprint:
+        <a href="{{ swh_archive_url}}{{ doc.hash_scheme }}{{ doc.hexhash }}">
+          <span class="uri">
+            <span class="uri-scheme"
+              >{{ doc.hash_scheme }}</span><wbr><code>{{ doc.hexhash }}</code>
+          </span>
+        </a>
+      </div>
+    </div>
+
+  </article>
+{% endmacro %}
+
+
+{# article_css_style is used to generated standalone HTML page and eprint PDF #}
+{% macro article_css_style() %}
+  <style>
+    html {
+      font-size: 12px;
+    }
+  </style>
+  <link href="static/printstrap.css" rel="stylesheet">
+  {{- article_main_css_style() }}
+  <style>
+    .page-content-pillar {
+      margin: 0 auto;
+    }
+    @media screen {
+      .page-content-pillar {
+        max-width: calc(74 * var(--ps-base-font-size));
+      }
+    }
+
+    .webpaper body {
+      padding-top: 3rem;
+    }
+
+
+    /* styling of UI controls to switch to webpaper mode */
+    html.webpaper {
+      background-color: #def;
+    }
+    nav.preview-mode {
+      display: none;
+      font-family: system-ui;
+    }
+    @media screen {
+      body {
+        margin-top: 64px;
+      }
+      nav.preview-mode {
+        display: block;
+        position: absolute;
+        top: -42px;
+        font-size: 16px;
+      }
+      nav.preview-mode a {
+        appearance: button;
+        color: initial;
+        text-decoration: none;
+        background-color: lightyellow;
+        padding: 8px;
+        margin-top: -8px;
+      }
+    }
+  </style>
+  <script>
+    function handleHash() {
+      if (window.location.hash == "#web") {
+          document.documentElement.classList.add('webpaper');
+      } else {
+          document.documentElement.classList.remove('webpaper');
+      }
+    }
+    handleHash();
+    window.addEventListener('hashchange', handleHash);
+  </script>
+{% endmacro %}
+
+
+{# article_main_css_style is used by popgen.es website #}
+{% macro article_main_css_style(static_dir="static") %}
+  {{- pandoc_class_css() }}
+  <link href="{{ static_dir }}/webpaper.css" rel="stylesheet">
+  <link href="{{ static_dir }}/article.css" rel="stylesheet">
+{% endmacro %}

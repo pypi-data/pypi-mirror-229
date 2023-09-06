@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: epijats
+Version: 1.1.1
+Summary: E-Printing Identified JATS
+Home-page: https://gitlab.com/perm.pub/epijats
+Author: Castedo Ellerman
+Author-email: castedo@castedo.com
+License: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX
+Classifier: Development Status :: 4 - Beta
+Classifier: Topic :: Text Processing :: Markup :: XML
+Requires-Python: >=3.9
+License-File: LICENSE
+Requires-Dist: setuptools
+Provides-Extra: html
+Requires-Dist: jinja2 ; extra == 'html'
+Provides-Extra: jats
+Requires-Dist: elifetools >=0.26 ; extra == 'jats'
+Requires-Dist: GitPython ; extra == 'jats'
+Requires-Dist: jsoml ; extra == 'jats'
+Provides-Extra: jsoml
+Requires-Dist: jsoml ; extra == 'jsoml'
+Provides-Extra: pdf
+Requires-Dist: jinja2 ; extra == 'pdf'
+Requires-Dist: weasyprint >=57.2 ; extra == 'pdf'
+Provides-Extra: successions
+Requires-Dist: hidos ; extra == 'successions'
+Requires-Dist: pikepdf ; extra == 'successions'
+Provides-Extra: yaml
+Requires-Dist: ruamel.yaml ; extra == 'yaml'
+

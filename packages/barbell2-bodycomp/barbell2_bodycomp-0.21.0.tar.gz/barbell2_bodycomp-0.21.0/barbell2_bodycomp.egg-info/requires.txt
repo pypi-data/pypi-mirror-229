@@ -1,0 +1,7 @@
+numpy
+pydicom
+pynrrd
+matplotlib
+nibabel
+tensorflow
+totalsegmentator

@@ -1,0 +1,10 @@
+algorithms/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+algorithms/example.py,sha256=VbLz98NTJKXMpTVpPyGvA-G-mUF22hbuAUhQvvWfhs0,533
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_algorithms_example.py,sha256=buTr8U6skrkPHnvDMu9pmw_vxlJyn9eI9wS4NkxbBPs,346
+algorename-0.1.dist-info/LICENSE,sha256=cayfAedAr_H0Xay9dZXM3gm6Dv9p2sFmyb-Br_Qb7w8,1085
+algorename-0.1.dist-info/METADATA,sha256=XHWlYb6IQQF6lMEo1TAlCahQ4Mwfji2kegxTAe1CQK8,263
+algorename-0.1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+algorename-0.1.dist-info/entry_points.txt,sha256=An6d0FzSC2UAJjexq8PwGJF4CQbFaqmRu9C3hXYzzn0,47
+algorename-0.1.dist-info/top_level.txt,sha256=Fmsc1lrxhkuz4dJoFZq7EJ69Hb9NvcH8jcqg_bmgMuA,17
+algorename-0.1.dist-info/RECORD,,

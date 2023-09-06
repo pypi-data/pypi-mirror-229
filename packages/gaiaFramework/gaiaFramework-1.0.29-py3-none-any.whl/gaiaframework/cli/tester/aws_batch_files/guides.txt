@@ -1,0 +1,11 @@
+# windows how to install hadoop
+#
+# 1. find pyspark hadoop version - you can run spark_pipeline and it will print it
+# 2. download hadoop binary from - https://github.com/kontext-tech/winutils/tree/master/hadoop-3.4.0-win10-x64/bin
+# 3. place bin folder in C:/hadoop/bin
+# 4. add Environment Variable HADOOP_HOME = C:\hadoop
+# 5. copy hadoop.dll from bin folder to C:\Windows\System32
+#
+# guides:
+# https://saturncloud.io/blog/how-to-fix-the-hadoop-error-on-windows-javalangunsatisfiedlinkerror/
+# https://stackoverflow.com/questions/41851066/exception-in-thread-main-java-lang-unsatisfiedlinkerror-org-apache-hadoop-io

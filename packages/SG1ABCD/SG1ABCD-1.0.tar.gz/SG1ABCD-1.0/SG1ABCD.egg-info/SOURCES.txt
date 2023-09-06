@@ -1,0 +1,6 @@
+setup.py
+SG1ABCD/nnfw_api_pybind.cpython-38-x86_64-linux-gnu.so
+SG1ABCD.egg-info/PKG-INFO
+SG1ABCD.egg-info/SOURCES.txt
+SG1ABCD.egg-info/dependency_links.txt
+SG1ABCD.egg-info/top_level.txt

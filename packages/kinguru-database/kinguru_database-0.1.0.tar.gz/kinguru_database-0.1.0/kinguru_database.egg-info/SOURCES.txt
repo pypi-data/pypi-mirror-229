@@ -1,0 +1,7 @@
+README.md
+setup.py
+kinguru_database/__init__.py
+kinguru_database.egg-info/PKG-INFO
+kinguru_database.egg-info/SOURCES.txt
+kinguru_database.egg-info/dependency_links.txt
+kinguru_database.egg-info/top_level.txt

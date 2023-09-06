@@ -1,0 +1,74 @@
+name: Run Tests
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+  workflow_dispatch:
+
+env:
+  DJANGO_SETTINGS_MODULE: example.settings
+  REPO_NAME: sat-automation
+  SLACK_UPDATES: true
+  SLACK_CHANNEL_ID: C053NUS9BE0
+
+jobs:
+  run-tests:
+    name: Run Tests
+    runs-on: sat-hosted
+    steps:
+      - name: Get Code
+        uses: actions/checkout@v3
+        with:
+          ref: ${{ github.head_ref }}
+      - name: Get SAT Actions
+        uses: actions/checkout@v3
+        with:
+          repository: SAT/sat-actions
+          path: sat-actions
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.10"
+      - name: Cache Packages
+        uses: actions/cache@v3
+        with:
+          path: ~/.local
+          key: requirements-local-${{ runner.os }}-${{ steps.setup_python.outputs.python-version }}-${{ hashFiles('**/requirements/base/base.txt') }}-${{ hashFiles('**/requirements/dev/dev.txt') }}-${{ hashFiles('.github/workflows/*.yml') }}
+          restore-keys: |
+            requirements-local-${{ runner.os }}-${{ steps.setup_python.outputs.python-version }}-
+      - name: Setup Virtual Environment
+        run: |
+          python -m venv venv
+      - run: |
+          source venv/bin/activate
+          make setup
+      - name: Run Tests
+        run: |
+          source venv/bin/activate
+          pytest -x
+      - name: Send Failure Message on Slack if Tests Fail
+        if: ${{ failure() }}
+        uses: ./sat-actions/slack-updates
+        with:
+          channel-id: ${{ github.event.inputs.slack-channel-id || env.SLACK_CHANNEL_ID }}
+          message: "The tests for `${{ env.REPO_NAME }}` have failed."
+        env:
+          SLACK_BOT_TOKEN: ${{ secrets.SLACK_BOT_TOKEN }}
+          SLACK_UPDATES: ${{ github.event.inputs.slack-updates || env.SLACK_UPDATES }}
+
+      - name: End the Job if the Tests Fail
+        if: ${{ failure() }}
+        run: exit 1
+
+      - name: Send Success Message on Slack
+        uses: ./sat-actions/slack-updates
+        with:
+          channel-id: ${{ github.event.inputs.slack-channel-id || env.SLACK_CHANNEL_ID }}
+          message: "The tests for `${{ env.REPO_NAME }}` have passed."
+        env:
+          SLACK_BOT_TOKEN: ${{ secrets.SLACK_BOT_TOKEN }}
+          SLACK_UPDATES: ${{ github.event.inputs.slack-updates || env.SLACK_UPDATES }}

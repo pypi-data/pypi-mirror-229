@@ -1,0 +1,13 @@
+AUTHORS.rst
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/autometa/__init__.py
+src/autometa/autometa.py
+src/autometa/util.py
+src/autometa.egg-info/PKG-INFO
+src/autometa.egg-info/SOURCES.txt
+src/autometa.egg-info/dependency_links.txt
+src/autometa.egg-info/requires.txt
+src/autometa.egg-info/top_level.txt

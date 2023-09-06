@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: terindo-single
+Version: 0.1.0
+Summary: terindo-system
+Home-page: https://github.com/pypa/sampleproject
+Author: ab-Js
+Author-email: terindo.id@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: License.txt
+
+terindo-system
+

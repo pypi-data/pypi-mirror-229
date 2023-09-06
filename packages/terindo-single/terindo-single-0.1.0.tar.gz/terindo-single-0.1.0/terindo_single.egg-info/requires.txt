@@ -1,0 +1,12 @@
+ultralytics==8.0.171
+opencv-contrib-python==4.6.0.66
+opencv-python==4.6.0.66
+opencv-python-headless==4.8.0.76
+paddleocr==2.7.0.2
+paddlepaddle==2.5.1
+websockets==11.0.3
+zipp==3.16.2
+gdown==4.7.1
+pyzipper==0.3.6
+requests==2.31.0
+Pillow==9.5.0

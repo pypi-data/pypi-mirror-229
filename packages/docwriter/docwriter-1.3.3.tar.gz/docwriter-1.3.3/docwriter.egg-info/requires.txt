@@ -1,0 +1,4 @@
+mistune<3.0,>=0.8.4
+mkdocs>=1.4.3
+mkdocs-material>=8.2.6
+PyYAML>=5.4.1

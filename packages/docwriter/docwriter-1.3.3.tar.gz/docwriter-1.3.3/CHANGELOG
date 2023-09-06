@@ -1,0 +1,67 @@
+docwriter-1.3.3 (2023-09-06)
+
+  * Update build-dependencies.
+  * Allow use of mistune 0.8.4 or v2.
+  * Set a default output_dir to avoid a TypeError.
+  * Create output_dir if it doesn't exist, so other directories can be used.
+  * Specify a `site_url`, so mkdocs creates a proper sitemap.
+
+docwriter-1.3.2 (2021-06-26)
+
+  * Convert dashes and ellipsis to HTML equivalents.
+  * Update to mkdocs 1.2.1 and mkdocs-material 7.1.9.
+
+docwriter-1.3.1 (2021-03-29)
+
+  * Add regression tests.
+  * [Security] Bump pyyaml from 5.3.1 to 5.4.1.
+  * Update to mkdocs-material 7.0.6.
+
+docwriter-1.3 (2020-03-21)
+
+  * Drop support for Python < 3.5.
+
+docwriter-1.2.1 (2020-02-29)
+
+  * Fix code blocks after Markdown 3.2 release.
+  * Fix incompatible dependency of Markdown.
+
+docwriter-1.2 (2019-12-09)
+
+  * Automatically create the 'markdown' directory if it does not exist.
+  * Add option `site` to build the static site in a custom directory.
+
+docwriter-1.1.1 (2019-03-14)
+
+  * [Security] Bump pyyaml from 3.13 to 5.1.
+
+docwriter-1.1 (2019-03-02)
+
+  * Use fixed version numbers in `requirements.txt`.
+  * Add `CONTRIBUTING.md`.
+  * Improve `README.md`.
+
+docwriter-1.0.2 (2018-09-04)
+
+  * Show cross-referenced text in monospaced font.
+
+docwriter-1.0.1 (2018-08-07)
+
+  * Fix 'Docs' link in breadcrumb navigation.
+
+docwriter-1.0 (2018-08-06)
+
+  * Support MkDocs 1.0 and drop support for previous versions.
+
+docwriter-0.3.1 (2018-08-03)
+
+  * Change content type of README to markdown.
+
+docwriter-0.3 (2018-08-02)
+
+  * Change TOC link to 'index.html'.
+  * Show long description in pypi project page.
+
+docwriter-0.2 (2018-08-02)
+
+  * Initial release.

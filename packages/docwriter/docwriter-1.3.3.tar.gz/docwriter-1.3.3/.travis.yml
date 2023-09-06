@@ -1,0 +1,63 @@
+#
+#  .travis.yml
+#
+#    DEPRECATED (see below): Travis CI build configuration.
+#
+#  Copyright (C) 2018-2021 by
+#  Nikhil Ramakrishnan.
+#
+#  This file is part of the FreeType project, and may only be used,
+#  modified, and distributed under the terms of the FreeType project
+#  license, LICENSE.TXT.  By continuing to use, modify, or distribute
+#  this file you indicate that you have read the license and
+#  understand and accept it fully.
+
+#
+# Travis CI build configuration is no longer being used. This
+# repository is now hosted on gitlab.freedesktop.org/freetype, and
+# uses a similar Gitlab CI configuration. See file '.gitlab-ci.yml'.
+# This file will be removed in the near future.
+#
+
+language: python
+jobs:
+  include:
+    - python: 3.6
+      env: TOXENV=py36
+    - python: 3.7
+      env: TOXENV=py37
+    - python: 3.8
+      env: TOXENV=py38
+    - python: 3.9
+      env: TOXENV=py39
+    - os: linux
+      language: python
+      python: 3.7
+      env: TOXENV=regression
+
+  allow_failures:
+    - env: TOXENV=regression
+
+  fast_finish: true
+
+# command to install dependencies
+before_install:
+  - if [ "$TOXENV" = "regression" ]; then sudo apt-get -qq update && sudo apt-get install -y clang autoconf cmake libtool; fi
+
+install:
+  - pip install tox
+
+# command to run tests
+script:
+  - tox
+
+deploy:
+  provider: pypi
+  username: "[REMOVED]"
+  distributions: "sdist bdist_wheel"
+  password:
+    secure: "[REMOVED]"
+  on:
+    tags: true
+    repo: freetype/docwriter
+    condition: "$TOXENV = py37"

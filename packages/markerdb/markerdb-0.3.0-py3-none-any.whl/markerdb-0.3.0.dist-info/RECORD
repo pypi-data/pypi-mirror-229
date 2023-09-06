@@ -1,0 +1,14 @@
+mdbrun/__init__.py,sha256=dFE85cKIIPnAS6IxTWeLu_rXeLVQlDedXUJz0pbNutY,35
+mdbrun/__main__.py,sha256=0_PIvBMZ7VvgebzXoOb9OSgpvoaSOOGJdy1xPqftUj4,246
+mdbrun/create.py,sha256=nPaJJmJG-NfoX9iWogdDe_xSBn_mrByfBZgg3e6O8b0,1445
+mdbrun/db.py,sha256=qXP3WEiNwgOcKjQxtGKWzfoQadOL-CcGnybotEfmCYY,7927
+mdbrun/details.py,sha256=k4duIOmf0FAZba3k7B4gZuhCOU-P44mFp8dZJXdgJ6U,4705
+mdbrun/fasta.py,sha256=g3zdaVvopLyMq7kRb-c-A5KbiGc9oNMEfv7RlWSwPk0,4484
+mdbrun/main.py,sha256=C2DPDg3KFiNZgyMA5IyukP-0tHD-i2Sb7BEHpwvbOX8,1337
+mdbrun/table.py,sha256=OwgFPe-qQjkLfIDP6FeSlTpBLP_pFV513yxB0yFg7g8,1679
+mdbrun/taxids.py,sha256=nV4ogZqTqN-rpVfPCJXU32hOvGDX1aWFhs5nxHPeDlE,4728
+markerdb-0.3.0.dist-info/METADATA,sha256=rli7SDU9fvwxioPHwicSan_tx8UjH94uBo781ldrK-s,5357
+markerdb-0.3.0.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+markerdb-0.3.0.dist-info/entry_points.txt,sha256=4NLtOlltif64tMVoEVnJkUrGa0dRj_RYdJhEM0h-JMA,50
+markerdb-0.3.0.dist-info/top_level.txt,sha256=UvrNCFK5F_P9I63Ksa0UT9BU24bVpsNK2aOKg8cWciA,7
+markerdb-0.3.0.dist-info/RECORD,,

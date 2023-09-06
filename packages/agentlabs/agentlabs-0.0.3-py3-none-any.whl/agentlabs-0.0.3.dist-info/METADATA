@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: agentlabs
+Version: 0.0.3
+Summary: agentlabs: A Python library for implementing agents on Weavel (https://weavel.vercel.app)
+Keywords: weavel,agent,llm,tools,agentlabs,llm agent
+Requires-Python: >=3.7.1
+License-File: LICENSE
+Requires-Dist: pydantic
+

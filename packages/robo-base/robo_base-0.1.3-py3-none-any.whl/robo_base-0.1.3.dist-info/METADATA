@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: robo-base
+Version: 0.1.3
+Summary: base modules, objects, classes
+Home-page: https://github.com/mkner/robo-base
+Author: Mike Knerr
+License: MIT
+Keywords: python,packages
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+
+**robo-base**
+
+
+Base objects required for mobile robotics modules
+
+
+
+
+
+
+

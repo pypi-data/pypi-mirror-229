@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: db-analytics-tools
+Version: 0.1.4
+Summary: Databases Tools for Data Analytics
+Home-page: https://github.com/joekakone/db-analytics-tools
+Download-URL: https://github.com/joekakone/db-analytics-tools
+Author: Joseph Konka
+Author-email: contact@josephkonka.com
+License: MIT
+Keywords: databases analytics etl sql orc
+Requires-Python: >=3.6
+License-File: LICENSE
+
+Databases Tools for Data Analytics

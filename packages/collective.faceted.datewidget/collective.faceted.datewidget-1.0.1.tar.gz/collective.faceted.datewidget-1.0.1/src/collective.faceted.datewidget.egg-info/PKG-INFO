@@ -1,0 +1,87 @@
+Metadata-Version: 2.1
+Name: collective.faceted.datewidget
+Version: 1.0.1
+Summary: Custom date widgets for eea.facetednavigation
+Home-page: https://pypi.python.org/pypi/collective.faceted.datewidget
+Author: Martin Peeters
+Author-email: martin.peeters@affinitic.be
+License: GPL version 2
+Keywords: Python Plone
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Plone
+Classifier: Framework :: Plone :: 4.3
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: GNU General Public License v2 (GPLv2)
+Provides-Extra: test
+License-File: LICENSE.GPL
+License-File: LICENSE.rst
+
+.. This README is meant for consumption by humans and pypi. Pypi can render rst files so please do not use Sphinx features.
+   If you want to learn more about writing documentation, please check out: http://docs.plone.org/about/documentation_styleguide.html
+   This text does not appear on pypi or github. It is a comment.
+
+=============================
+collective.faceted.datewidget
+=============================
+
+
+Installation
+------------
+
+Install collective.faceted.datewidget by adding it to your buildout::
+
+    [buildout]
+
+    ...
+
+    eggs =
+        collective.faceted.datewidget
+
+
+and then running ``bin/buildout``
+
+
+Contribute
+----------
+
+- Issue Tracker: https://github.com/collective/collective.faceted.datewidget/issues
+- Source Code: https://github.com/collective/collective.faceted.datewidget
+
+
+License
+-------
+
+The project is licensed under the GPLv2.
+
+
+Contributors
+============
+
+- Martin Peeters [Affinitic], Original author
+
+
+Changelog
+=========
+
+
+1.0.1 (2023-09-05)
+------------------
+
+- Fix widget vocabulary to be compatible with new requirements from eea.facetednavigation [URB-2868, URB-2870]
+  [jchandelle]
+
+
+1.0.0 (2023-07-03)
+------------------
+
+- Upgrade to be compatible with eea.facetednavigation 10 and above
+  [mpeeters]
+
+
+1.0a1 (2018-03-01)
+------------------
+
+- Initial release.
+  [mpeeters]

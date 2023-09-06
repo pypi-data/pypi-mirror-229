@@ -1,0 +1,15 @@
+ogbujipt/__about__.py,sha256=GqQ_O-Fiqa2rkPSvmDb62Zm55DRe18314SBldN6p-UQ,145
+ogbujipt/__init__.py,sha256=os4IYNKdu54S-0hninK3ts-YY3OPADC7rnjgypDwFho,358
+ogbujipt/async_helper.py,sha256=2--ME48tidcnwkSMvtMAJeYEaCf_fsskbtM8XkTqNwQ,3265
+ogbujipt/config.py,sha256=S9euCrAhpZo0VP6B7HyHXCNnx6vu0M-9sfxb19F8dhU,2560
+ogbujipt/embedding_helper.py,sha256=YM7h9qxvp6Il0_2tJuH7_2FZl0i-4WN2iOc6aEl8nwQ,8921
+ogbujipt/text_helper.py,sha256=F6vZLIfQNObohvi0ni9kiIfcC_PLW4-tl9b3HtPuqHM,5276
+ogbujipt/word_loom.py,sha256=70K1WWvAGa_TemJsOwVQ85gx5Y4YwtA42-_GLVeMBCE,2147
+ogbujipt/prompting/__init__.py,sha256=IpuF7viYeSJNrFdaBg_Z918q_b4T1amc8jPqzbHhKaA,303
+ogbujipt/prompting/basic.py,sha256=qzJUuFUXhGnGCFFXaIeLpGIiurvAZ3PVg-OvxrfzE_M,3735
+ogbujipt/prompting/model_style.py,sha256=WSaESmUYkcv1oIjwqbWgEZyFyYk1sdD6qWRfmLObXbM,5472
+ogbujipt/resources/wordloom/sample.toml,sha256=aKiLF0-a7LmFeLOWjDpzkErixgH3gRNC69tqLmi8_Ig,1623
+ogbujipt-0.4.1.dist-info/METADATA,sha256=-ORYbWooh-p1PmOEdBT8k6OYazglUZNA7REGrq2UFp0,8913
+ogbujipt-0.4.1.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+ogbujipt-0.4.1.dist-info/licenses/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+ogbujipt-0.4.1.dist-info/RECORD,,

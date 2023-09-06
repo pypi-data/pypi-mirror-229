@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: teachpyx
+Version: 0.3.1
+Summary: Programmation Python
+Home-page: https://github.com/sdpython/teachpyx
+Author: Xavier Dupré
+Author-email: xavier.dupre@gmail.com
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Education
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Classifier: Topic :: Education
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+License-File: LICENSE.txt
+
+teachpyx: programmation python
+==============================
+
+Programmation *Python* en français. A usage pédagogique. La
+`documentation <https://sdpython.github.io/doc/teachpyx/dev/>`_ du module
+est construite pour un cours de programmation.

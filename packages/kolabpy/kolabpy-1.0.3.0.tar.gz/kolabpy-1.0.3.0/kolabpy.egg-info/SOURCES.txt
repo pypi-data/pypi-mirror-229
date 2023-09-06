@@ -1,0 +1,11 @@
+setup.py
+kolabpy/SASLogin.py
+kolabpy/SASMagic.py
+kolabpy/__init__.py
+kolabpy/convert_code.py
+kolabpy/p_domap.py
+kolabpy.egg-info/PKG-INFO
+kolabpy.egg-info/SOURCES.txt
+kolabpy.egg-info/dependency_links.txt
+kolabpy.egg-info/requires.txt
+kolabpy.egg-info/top_level.txt

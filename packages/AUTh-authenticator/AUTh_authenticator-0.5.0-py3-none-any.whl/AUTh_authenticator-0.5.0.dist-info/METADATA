@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: AUTh-authenticator
+Version: 0.5.0
+Summary: A small example package
+Home-page: https://github.com/Neron-png/AUTh-authenticator
+Author: Neron Panagiotopoulos
+Author-email: neronpanagiotopoulos@gmail.com
+Project-URL: Bug Tracker, https://github.com/Neron-png/AUTh-authenticator/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: beautifulsoup4 >=4.12.2
+Requires-Dist: pkce >=1.0.3
+
+
+Python script to generate universis access tokens without oauth2
+
+## Example:
+
+```python
+from AUTh_authenticator import universis
+
+universis.generate_token("username", "password")
+# "eyJhjGciOvJSUzI1NiIzInR5cCI..."
+
+```

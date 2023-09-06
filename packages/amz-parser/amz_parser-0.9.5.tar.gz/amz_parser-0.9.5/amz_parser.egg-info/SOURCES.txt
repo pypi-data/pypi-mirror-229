@@ -1,0 +1,9 @@
+setup.py
+amz_parser/__init__.py
+amz_parser/listing_parser.py
+amz_parser/review_parser.py
+amz_parser.egg-info/PKG-INFO
+amz_parser.egg-info/SOURCES.txt
+amz_parser.egg-info/dependency_links.txt
+amz_parser.egg-info/requires.txt
+amz_parser.egg-info/top_level.txt

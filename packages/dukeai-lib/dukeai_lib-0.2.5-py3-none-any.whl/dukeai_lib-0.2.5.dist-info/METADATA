@@ -1,0 +1,91 @@
+Metadata-Version: 2.1
+Name: dukeai-lib
+Version: 0.2.5
+Summary: Common functions used across the DUKE.ai project environments.
+Home-page: https://duke.ai
+Author: Blake Donahoo
+Author-email: Blake Donahoo <blake@duke.ai>
+License: GNU General Public License v3 (GPLv3)
+Keywords: dukeai,duke.ai
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Topic :: Utilities
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: chalice ~=1.27.1
+Requires-Dist: requests ~=2.27.1
+Requires-Dist: base58 ==2.1.1
+Requires-Dist: urllib3 ~=1.26.9
+
+## Duke.ai Lib (*dukeai_lib*)
+
+Latest Release: 2023-07-25
+
+---
+
+*The dukeai_lib PIP package repository; Contains base functions that are used across multiple internal backend projects making it easier for developers to maintain consistency via a centralized codebase while enabling retroactive updates to core functionality.*
+
+---
+**Modules**
+
+- **tools**
+
+   - gen_random_sha()
+
+- **application**
+
+   - check_access()
+   - api_response()
+
+- **utilities**
+
+   - DecimalEncoder(class)
+
+- **schema_kung_fu**
+
+  - rate_confirmation
+     - *flatten_ratecon()*
+     - *unflatten_ratecon()*
+  - accessorial
+     - *flatten_accessorial()*
+     - *unflatten_accessorial()*
+  - bill_of_lading
+     - *flatten_bol()*
+     - *unflatten_bol()*
+  - invoice
+     - *flatten_invoice()*
+     - *unflatten_invoice()*
+  - noa_lor
+     - *flatten_noa_lor()*
+     - *unflatten_noa_lor()*
+  - classification
+     - *dt_multiclass_to_dynamoson()*
+     - *translate_dt_multiclass()*
+     - *classification_template()*
+     - *standardize_classification_name()*
+     - *parse_classification_dynamoson()*
+     - *parse_multiple_classification_dynamoson()*
+  - schema_utilities
+     - *dict(REFERENCE_OPTIONS)*
+     - *dict(STATES)*
+     - *get_idtype()*
+     - *format_state()*
+     - *parse_incoming_address()*
+     - *format_time()*
+     - *parse_time()*
+---
+
+**Usage**
+
+pip install dukeai_lib
+
+*and subsequently...*
+
+import dukeai_lib
+
+***or***
+
+from dukeai_lib.schema_kung_fu import schema_utilities

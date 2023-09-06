@@ -1,0 +1,14 @@
+_kaldifst.cp37-win_amd64.pyd,sha256=bfzSfGUbKvaWUkc5NnFpoHNv6lsUBN2HuHyqro9tQeY,2506752
+kaldifst/__init__.py,sha256=y-rttZaWjMCKvCxNgBn6msXXzckHTis7gIFhlkdXDDw,750
+kaldifst/iterator.py,sha256=KO4RyOtxo5qwJP-LTgHOZHoaXgmIP36IELsVvXUrfVk,2036
+kaldifst/table_types.py,sha256=MHHOQQZwBRBk5Wz2Tqts59d2yPrnp_JGKyekpfXQ9sU,5086
+kaldifst/lib/kaldifst_core.lib,sha256=wWySuxQEOSJCEc85MXAo68uZjLYbyw1jbM_njNcyoX4,2168830
+kaldifst/lib/kaldifst_fst.lib,sha256=jueMDgUMLcYBJUuRJSozrnvmNw2NQzwNTULw9b8NwGY,10097754
+kaldifst/lib/kaldifst_fstscript.lib,sha256=bbJBfmcfh62soVeouz3lDkvK_Ekn8dweEsz119uC0_s,167718610
+kaldifst/utils/__init__.py,sha256=wn3k0mHyCJ7rulp8MCVHJilgjlf3rPaHpkBIx0S8z_c,49
+kaldifst/utils/k2_converter.py,sha256=ZLLE2YVMJzFXhqNxvCOh9bwJQ6Xiut15hQHhcsxZt5U,4591
+kaldifst-1.7.5.dist-info/LICENSE,sha256=jfClcNbFUkJ_A39ojeA1MTvJ1caVOPB4_H-ABviJeF4,11939
+kaldifst-1.7.5.dist-info/METADATA,sha256=02aGUwmVGccOrUwx-NpnmQQuNpSqRA_9jeZuGC3SN-E,867
+kaldifst-1.7.5.dist-info/WHEEL,sha256=P6MkoxfArCDjH_Cd27qF5eFfOSJbz6XgNmPOs7M04KU,101
+kaldifst-1.7.5.dist-info/top_level.txt,sha256=5daD6QbX-r0ecQMOY4qNXZoJSX9-qpzbVlx1Bgi9sfI,19
+kaldifst-1.7.5.dist-info/RECORD,,

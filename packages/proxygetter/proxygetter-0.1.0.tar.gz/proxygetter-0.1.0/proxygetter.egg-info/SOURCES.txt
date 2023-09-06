@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+proxygetter/__init__.py
+proxygetter/proxygetter.py
+proxygetter.egg-info/PKG-INFO
+proxygetter.egg-info/SOURCES.txt
+proxygetter.egg-info/dependency_links.txt
+proxygetter.egg-info/requires.txt
+proxygetter.egg-info/top_level.txt
+tests/__init__.py
+tests/test_proxygetter.py

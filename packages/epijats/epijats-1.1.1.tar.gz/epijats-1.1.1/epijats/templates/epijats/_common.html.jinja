@@ -1,0 +1,244 @@
+{% macro orcid_url(orcid) -%}
+{% if not orcid.startswith("http") %}https://orcid.org/{% endif %}{{orcid | escape}}
+{%- endmacro %}
+
+{% set swh_archive_url = "https://archive.softwareheritage.org/" %}
+
+{% macro link_fonts() %}
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fira+Mono&family=Fira+Sans&family=Fira+Sans+Condensed&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Fira+Mono&family=Fira+Sans+Condensed&family=Fira+Sans:ital,wght@0,300;0,400;0,700;1,400&display=swap" rel="stylesheet">
+{% endmacro %}
+
+
+{% macro obsolete_alert() %}
+  <div class="edition-obsolete" role="alert">
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#f21" class="bi bi-exclamation-triangle-fill flex-shrink-0 me-2" viewBox="0 0 16 16" role="img" aria-label="Warning:">
+      <path d="M8.982 1.566a1.13 1.13 0 0 0-1.96 0L.165 13.233c-.457.778.091 1.767.98 1.767h13.713c.889 0 1.438-.99.98-1.767L8.982 1.566zM8 5c.535 0 .954.462.9.995l-.35 3.507a.552.552 0 0 1-1.1 0L7.1 5.995A.905.905 0 0 1 8 5zm.002 6a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+    </svg>Obsolete
+  </div>
+{% endmacro %}
+
+
+{% macro edition_band(doc) %}
+    <div class="edition-band">
+      {% if doc.edid %}
+      <div class="edition-number">Edition&nbsp;{{ doc.edid }}</div>
+      {% endif %}
+      {% if doc.obsolete %}
+        {{- obsolete_alert() }}
+      {% endif %}
+    </div>
+{% endmacro %}
+
+
+{% macro article_dates(doc) %}
+    <dl class="article-dates">
+      {% if doc.date %}
+      <dt>Author date</dt>
+      <dd>{{ doc.date }}</dd>
+      {% endif %}
+      {% if doc.archive_date %}
+      <dt>Archive date</dt>
+      <dd>{{ doc.archive_date }}</dd>
+      {% endif %}
+    </dl>
+{% endmacro %}
+
+
+{% macro copyright(doc, show_https=true) %}
+  <p>
+    <a href="http://creativecommons.org/licenses/by/4.0/" rel="nofollow">
+      {{ 'https://' if show_https }}creativecommons.org/licenses/by/4.0/
+    </a>
+  </p>
+  <p>
+    {{ doc.date.year }} © The Authors.
+    This document is distributed under a Creative Commons Attribution 4.0 International
+    license.
+  </p>
+{% endmacro %}
+
+
+{% macro contributors_list(contributors, show_email=True) %}
+<dl class="contributors">
+  {% for contributor in contributors %}
+    <dt>
+      {{ (contributor['given-names'] ~ ' ' ~ contributor.surname) | escape }}
+      {% if contributor.orcid %}
+        <a class="orcid" href="{{ orcid_url(contributor.orcid) }}"><i class="orcid-icon"></i></a>
+      {%- endif -%}
+    </dt>
+    {% if contributor.email and show_email %}
+      <dd><a href="mailto:{{ contributor.email[0] | escape }}">{{ contributor.email | join(', ') | escape }}</a></dd>
+    {% endif %}
+  {% endfor %}
+  {% if not contributors %}
+    <dt>Author who?</dt>
+  {% endif %}
+</dl>
+{% endmacro %}
+
+
+{% macro common_css() %}
+  <style>
+    .eprint a,
+    .eprint a:visited {
+      color: var(--main-color);
+      text-decoration: inherit;
+    }
+
+    article img {
+      display: block;
+      max-height: 6in;
+      max-width: 90%;
+      margin: 1em auto;
+    }
+    article p img {
+      display: inline;
+      margin: 0;
+    }
+    article ol, article ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    article li > ol, article li > ul {
+      margin-top: 0;
+    }
+    article code {
+      font-family: var(--eprint-font-mono);
+      white-space: pre-wrap;
+      hyphens: none;
+      break-inside: avoid;
+    }
+
+    article figure {
+      break-inside: avoid;
+      margin: 2em 0 2em -20%;
+      width: 120%;
+    }
+    article figcaption {
+      font-size: 0.8em;
+      font-style: italic;
+      margin: auto;
+      width: 80%;
+    }
+
+    article blockquote {
+      border-color: var(--main-color);
+      border-left: 2px solid;
+      font-style: italic;
+      margin: 1.5em;
+      padding: 0.5em 1em;
+    }
+    article blockquote > :first-child {
+      margin-top: 0;
+    }
+    article blockquote > :last-child {
+      margin-bottom: 0;
+    }
+
+    article pre {
+      margin: 1em 0;
+      overflow: auto;
+      break-inside: avoid;
+      hyphens: none;
+    }
+    article pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+
+    article table {
+      border-collapse: collapse;
+      font-size: 0.8em;
+      overflow-x: auto;
+    }
+    article tr {
+      break-inside: avoid;
+    }
+    article td, article th {
+      border: 0.005in solid;
+      border-color: var(--light-text-color);
+      padding: 0.5em;
+      vertical-align: top;
+    }
+
+    article sub, article sup {
+      line-height: 0;
+    }
+
+    article hr {
+      border: 0;
+      border-color: var(--text-color);
+      border-top: 0.005in solid;
+    }
+  </style>
+{% endmacro %}
+
+
+{% macro pandoc_class_css() %}
+  <style>
+    /* bibliographic references */
+
+    article div.csl-entry {
+      clear: both;
+      break-inside: avoid;
+      word-break: break-word;
+    }
+    article .hanging div.csl-entry {
+      margin-left:2em;
+      text-indent:-2em;
+    }
+    article div.csl-left-margin {
+      min-width:2em;
+      float:left;
+    }
+    article div.csl-right-inline {
+      margin-left:2em;
+      padding-left:1em;
+    }
+    article div.csl-indent {
+      margin-left: 2em;
+    }
+  </style>
+{% endmacro %}
+
+{% macro var_base_font_css() %}
+  <style>
+    :root {
+      /* calculated variables to use */
+
+      --min-body-width: calc(var(--min-body-width-rem) * 1rem);
+
+      --base-font-size: max(
+        var(--min-font-size-rem) * 1rem,
+        min(var(--var-font-size), var(--max-font-size))
+      );
+
+
+      /* input variables for calculated variables */
+
+      --max-font-size: 1.25rem;
+      --min-font-size-rem: 0.875;
+      --min-body-width-rem: 22.5;     /* 360px when rem is 16px */
+      --unit-font-view-width-rem: 66; /* viewport width when base font reach 1rem */
+
+
+      /* bunch of calculation variables for --base-font-size */
+
+      --var-font-ratio: calc(
+        (1 - var(--min-font-size-rem)) /
+        (var(--unit-font-view-width-rem) - var(--min-body-width-rem))
+      );
+      --var-font-const: calc(
+        var(--min-font-size-rem) - var(--var-font-ratio) * var(--min-body-width-rem)
+      );
+      --var-font-size: calc(
+        var(--var-font-const) * 1rem + var(--var-font-ratio) * 100vw 
+      );
+    }
+  </style>
+{% endmacro %}

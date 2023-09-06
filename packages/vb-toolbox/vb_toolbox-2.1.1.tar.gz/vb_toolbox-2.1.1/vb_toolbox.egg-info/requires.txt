@@ -1,0 +1,6 @@
+Pillow
+multiprocess
+nibabel
+numpy
+psutil
+scipy

@@ -1,0 +1,26 @@
+https://packaging.python.org/en/latest/tutorials/packaging-projects/
+
+---
+
+In this directory:
+
+py -m build
+
+py -m twine upload dist/*
+
+username: __token__
+password: pypi-...
+
+---
+
+$HOME/.pypirc 
+
+[pypi]
+  username = __token__
+  password = pypi-...
+
+---
+
+TODO:
+
+tests

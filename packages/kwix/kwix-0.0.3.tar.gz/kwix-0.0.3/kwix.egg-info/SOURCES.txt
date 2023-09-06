@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.md
+settings.ini
+setup.py
+kwix/__init__.py
+kwix/_modidx.py
+kwix/mixs.py
+kwix/test.py
+kwix/utils.py
+kwix.egg-info/PKG-INFO
+kwix.egg-info/SOURCES.txt
+kwix.egg-info/dependency_links.txt
+kwix.egg-info/entry_points.txt
+kwix.egg-info/not-zip-safe
+kwix.egg-info/requires.txt
+kwix.egg-info/top_level.txt

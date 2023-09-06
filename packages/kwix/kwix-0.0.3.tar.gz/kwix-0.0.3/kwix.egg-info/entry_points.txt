@@ -1,0 +1,2 @@
+[nbdev]
+kwix = kwix._modidx:d

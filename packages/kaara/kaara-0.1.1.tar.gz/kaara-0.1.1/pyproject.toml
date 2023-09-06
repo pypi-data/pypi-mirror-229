@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "kaara"
+version = "0.1.1"
+description = ""
+authors = ["Wingrammer <wilpar49@hotmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+[tool.poetry.scripts]
+kaara = "kaara.__main__:main"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

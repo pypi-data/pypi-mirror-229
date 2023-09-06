@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: tw-pywrap
+Version: 0.1.1
+Summary: tw-pywrap is now twkit
+Home-page: https://github.com/seqeralabs/twkit
+Author: Esha Joshi, Adam Talbot, Harshil Patel
+Author-email: esha.joshi@seqera.io, adam.talbot@seqera.io, harshil.patel@seqera.io
+License: MIT
+Keywords: nextflow,bioinformatics,workflow,pipeline,nextflow-tower
+Classifier: Development Status :: 7 - Inactive
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+# tw-pywrap is now twkit
+
+This package has been renamed. Use `pip install twkit` instead.
+
+New package: https://pypi.org/project/twkit/

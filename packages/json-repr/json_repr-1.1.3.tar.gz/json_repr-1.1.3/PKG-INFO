@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: json_repr
+Version: 1.1.3
+Summary: Pretty print JSON like data structures with a "repr(...)" fallback, e.g. for MongoDB types
+Project-URL: Homepage, https://github.com/clxx/json-repr
+Project-URL: Bug Tracker, https://github.com/clxx/json-repr/issues
+Author-email: Carsten Lindner <Carsten.Lindner@gmx.net>
+License-File: LICENSE
+Keywords: JSON,MongoDB,pp,pretty print,repr
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# json-repr
+ Pretty print JSON like data structures with a "repr(...)" fallback, e.g. for MongoDB types

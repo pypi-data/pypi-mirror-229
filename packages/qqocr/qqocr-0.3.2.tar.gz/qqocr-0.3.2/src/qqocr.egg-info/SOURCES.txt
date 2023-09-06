@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+src/qqocr/__init__.py
+src/qqocr/main.py
+src/qqocr.egg-info/PKG-INFO
+src/qqocr.egg-info/SOURCES.txt
+src/qqocr.egg-info/dependency_links.txt
+src/qqocr.egg-info/requires.txt
+src/qqocr.egg-info/top_level.txt

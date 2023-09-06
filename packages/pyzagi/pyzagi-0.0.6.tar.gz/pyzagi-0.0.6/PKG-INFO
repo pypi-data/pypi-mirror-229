@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: pyzagi
+Version: 0.0.6
+Summary: Bizagi ODATA API handler for Python
+Project-URL: Homepage, https://github.com/bogpok/pyzagi
+Project-URL: Bug Tracker, https://github.com/bogpok/pyzagi/issues
+Author-email: Bogdan Pokrepin <pokrepin@gmail.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# Overview
+
+**pyzagi** [WIP] is Bizagi ODATA API handler for Python

@@ -1,0 +1,22 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "pyzagi"
+version = "0.0.6"
+authors = [
+  { name="Bogdan Pokrepin", email="pokrepin@gmail.com" },
+]
+description = "Bizagi ODATA API handler for Python"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/bogpok/pyzagi"
+"Bug Tracker" = "https://github.com/bogpok/pyzagi/issues"

@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: mkdocstrings-python-xref
+Version: 1.5.3
+Summary: Enhanced mkdocstrings python handler
+Project-URL: Repository, https://github.com/analog-garage/mkdocstrings-python-xref
+Project-URL: Documentation, https://analog-garage.github.io/mkdocstrings-python-xref/
+Author-email: Christopher Barber <Christopher.Barber@analog.com>
+License-File: LICENSE.md
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Software Development :: Documentation
+Requires-Python: >=3.8
+Requires-Dist: mkdocstrings-python<2.0,>=1.6.2
+Description-Content-Type: text/markdown
+
+Python handler for [mkdocstrings] supporting relative cross-references.
+
+
+
+[mkdocstrings]: https://github.com/mkdocstrings/mkdocstrings
+[mkdocstrings_python]: https://github.com/mkdocstrings/python

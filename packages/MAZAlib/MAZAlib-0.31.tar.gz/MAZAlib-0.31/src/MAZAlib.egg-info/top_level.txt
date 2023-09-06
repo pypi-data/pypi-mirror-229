@@ -1,0 +1,4 @@
+MAZAlib
+eigen3
+non_local_means
+segmentation

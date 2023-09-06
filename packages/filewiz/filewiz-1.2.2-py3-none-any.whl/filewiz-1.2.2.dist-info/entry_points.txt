@@ -1,0 +1,3 @@
+[console_scripts]
+filewiz=filewiz.handler:main
+

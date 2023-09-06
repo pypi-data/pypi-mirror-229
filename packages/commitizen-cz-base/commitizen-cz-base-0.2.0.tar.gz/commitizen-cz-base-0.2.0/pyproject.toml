@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=45", "setuptools-scm[toml]>=6.2"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "commitizen-cz-base"
+version = "0.2.0"
+description = "Commitizen configuration for base Angewandte projects"
+readme = "README.md"
+requires-python = ">=3.7"
+license = {text = "Apache Software License 2.0"}
+classifiers = [
+    "Programming Language :: Python :: 3",
+]
+dependencies = [
+    "commitizen>=3.0.0",
+]
+
+[project.entry-points."commitizen.plugin"]
+cz_base = "cz_base:BaseCz"
+
+
+[tool.setuptools]
+py-modules = ["cz_base"]

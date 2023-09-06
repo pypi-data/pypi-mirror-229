@@ -1,0 +1,12 @@
+removestar/__init__.py,sha256=26Wdg9R3_Dwde7RuyBsrXvQLRuWLAveenLvYyWaIoq4,48
+removestar/__main__.py,sha256=9l_qKkfTHlK_w9ACNUq42aqY-nyoKXh64tBRyL5Ksgs,4739
+removestar/_version.py,sha256=7ztxymi-ZPDQOofpQnSpF_3xQ6l5p8x9aGThqradXVM,155
+removestar/helper.py,sha256=kmAmEqPq7VoXI5ctijF-LJM8MWyULbD_qMifjLinhmw,1768
+removestar/output.py,sha256=XUizIbTkxcDwDpf0IiSESSOYW7-vySzjmPoPk_J3WZo,2205
+removestar/removestar.py,sha256=iSP2DzSz9W60yAWUqB_Se-uth2yZ-HFRc9U9uJfrZCM,13289
+removestar/version.pyi,sha256=j5kbzfm6lOn8BzASXWjGIA1yT0OlHTWqlbyZ8Si_o0E,118
+removestar-1.4.dist-info/METADATA,sha256=ffKG0w8s5a2cYjReWtLQTgmQzxEsmRpatIk3jAwDrf0,10044
+removestar-1.4.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+removestar-1.4.dist-info/entry_points.txt,sha256=EVR0C8Va6tpRzn8qc5U5Ui7P1Vs98635mRMFmXD0qdQ,56
+removestar-1.4.dist-info/licenses/LICENSE,sha256=YTpZCgOZa37z6Zht6Tyq9PvkJbO5vROYzcChit49jjI,1069
+removestar-1.4.dist-info/RECORD,,

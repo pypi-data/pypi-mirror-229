@@ -1,0 +1,7 @@
+json_repr/__init__.py,sha256=6XWkbG2muZGVFoS3EwoX1FFIDmRl3HM5krLg3pCdvyQ,69
+json_repr/dumps.py,sha256=jaL_NhHM-Pg3BqcwkC-ccrbR-S859l84Isye-YwYbTA,1435
+json_repr/mongo_db.py,sha256=O_Qntf8oxBG7x3l2cM-f6B9SdEn2JAT7eaH4BAkZABg,471
+json_repr-1.1.3.dist-info/METADATA,sha256=m6bgTpbaEtI4mAZl8Q8wJOmomEcIoNslpcJokJ5vtHw,713
+json_repr-1.1.3.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+json_repr-1.1.3.dist-info/licenses/LICENSE,sha256=Om2TKOEP4QPMsyLF8WxloGAsZa_JuhCfNMBLtYoY_84,1081
+json_repr-1.1.3.dist-info/RECORD,,

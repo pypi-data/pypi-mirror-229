@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+lyysdk.egg-info/PKG-INFO
+lyysdk.egg-info/SOURCES.txt
+lyysdk.egg-info/dependency_links.txt
+lyysdk.egg-info/requires.txt
+lyysdk.egg-info/top_level.txt

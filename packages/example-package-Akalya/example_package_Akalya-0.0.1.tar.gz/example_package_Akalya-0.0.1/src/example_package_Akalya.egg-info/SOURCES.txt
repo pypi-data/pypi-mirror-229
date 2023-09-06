@@ -1,0 +1,12 @@
+README.md
+pyproject.toml
+setup.py
+src/__init__.py
+src/ingest_data.py
+src/nonstandardcode.py
+src/score.py
+src/train.py
+src/example_package_Akalya.egg-info/PKG-INFO
+src/example_package_Akalya.egg-info/SOURCES.txt
+src/example_package_Akalya.egg-info/dependency_links.txt
+src/example_package_Akalya.egg-info/top_level.txt

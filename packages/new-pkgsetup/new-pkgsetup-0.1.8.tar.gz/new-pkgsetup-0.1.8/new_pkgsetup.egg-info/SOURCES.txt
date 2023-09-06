@@ -1,0 +1,11 @@
+LICENSE
+README.rst
+pyproject.toml
+setup.cfg
+setup.py
+new_pkgsetup.egg-info/PKG-INFO
+new_pkgsetup.egg-info/SOURCES.txt
+new_pkgsetup.egg-info/dependency_links.txt
+new_pkgsetup.egg-info/top_level.txt
+newpkg/__init__.py
+newpkg/code.py

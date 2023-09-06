@@ -1,0 +1,2 @@
+[console_scripts]
+sqlkite = sqlkite.__main__:main

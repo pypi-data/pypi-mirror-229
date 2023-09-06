@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: new-pkgsetup
+Version: 0.1.9
+Summary: package build using setuptools
+Home-page: https://github.com/mkner/new-pkgsetup/
+License: MIT
+Keywords: python,packages
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+License-File: LICENSE
+
+
+**Project template for both python packages & Read The Docs**
+
+|
+| Basic directory structures and template files for building both
+| python pypi packages and documentation for RTD (Read The Docs)
+| using the sphinx theme.
+
+|
+| Configuration is for setup.cfg and setuptools
+|
+| This set of example directories and files actually build *both* RTD and PYPI !
+|
+| Python package release here: https://pypi.org/project/new-pkgsetup/
+|
+| RTD documentation is here: https://new-pkgsetup.readthedocs.io/en/latest/
+
+
+
+

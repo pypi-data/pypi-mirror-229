@@ -1,0 +1,2 @@
+[console_scripts]
+sublime-syntax-language-server = sublime_syntax_language_server.__main__:main

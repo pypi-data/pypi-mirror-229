@@ -1,0 +1,17 @@
+sublime_syntax_language_server/__init__.py,sha256=rMKx7H96TzrjRu1d4Zqki-uDwnunDNcbT3KXPH5PcWU,403
+sublime_syntax_language_server/__main__.py,sha256=iSJIvhbfp5CDAEHTX7qvRIKZMfjRM2GMQAQ0CEjo-iQ,1097
+sublime_syntax_language_server/_metainfo.py,sha256=R35Qs6G_ilD9uVcs8axyZZV2rL1B-swC8d45TtDndyQ,628
+sublime_syntax_language_server/_version.py,sha256=C_sEDFDxz5lXxlK-Oo8_UXoTORDgjzXO4KLRiUAkVKA,160
+sublime_syntax_language_server/api.py,sha256=6IPleFlPVNQLcs2wkd4CQfZ6jUnEvwzh03SgnLkhIzk,1325
+sublime_syntax_language_server/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sublime_syntax_language_server/server.py,sha256=rRVWrcf21rVh9XlVLsuECpAjG9YRKCosQ5A7erZQZc8,9015
+sublime_syntax_language_server/assets/json/sublime-syntax.json,sha256=Q8-Hy4UTqVI33kQ3dK9bYAbhQ_ZBMfdjCV-J4qn14Io,28115
+sublime_syntax_language_server-0.0.4.data/data/share/bash-completion/completions/sublime-syntax-language-server,sha256=gvDf0NyiT5K1BktG13ZR_DNOJjgYoWJ9IePLzR4bilw,4127
+sublime_syntax_language_server-0.0.4.data/data/share/man/man1/sublime-syntax-language-server.1,sha256=19BMN_Wsdxfhis2c8waZtLLfgaJMu_ZLEElE0pcPdxs,508
+sublime_syntax_language_server-0.0.4.data/data/share/zsh/site-functions/_sublime-syntax-language-server,sha256=f9i3wJoSRwgHBzZbIxD9uujs7j4_izC4JGueJT0rVOI,1338
+sublime_syntax_language_server-0.0.4.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+sublime_syntax_language_server-0.0.4.dist-info/METADATA,sha256=irxSUekR1TuxcAiEFTuNuwq4W8-7htMhBatItRgF_20,9813
+sublime_syntax_language_server-0.0.4.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+sublime_syntax_language_server-0.0.4.dist-info/entry_points.txt,sha256=zczIM0uf9OvskSEJBfIq8zcTGleIYt22hfUJ0Lj9c6g,96
+sublime_syntax_language_server-0.0.4.dist-info/top_level.txt,sha256=2GRFoCqFzDPcPNzOxPQ0tKfbfG9eqIdW_nzAPu3J-Bw,31
+sublime_syntax_language_server-0.0.4.dist-info/RECORD,,

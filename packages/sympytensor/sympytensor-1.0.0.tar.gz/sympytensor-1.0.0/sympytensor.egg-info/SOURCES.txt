@@ -1,0 +1,14 @@
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+sympytensor/__init__.py
+sympytensor/pymc.py
+sympytensor/pytensor.py
+sympytensor.egg-info/PKG-INFO
+sympytensor.egg-info/SOURCES.txt
+sympytensor.egg-info/dependency_links.txt
+sympytensor.egg-info/requires.txt
+sympytensor.egg-info/top_level.txt
+tests/test_pymc.py
+tests/test_pytensor.py

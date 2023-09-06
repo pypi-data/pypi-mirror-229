@@ -1,0 +1,9 @@
+click
+click_logging
+requests
+cryptojwt
+pygraphviz
+fastapi
+uvicorn[standard]
+oidcmsg
+pydantic_settings

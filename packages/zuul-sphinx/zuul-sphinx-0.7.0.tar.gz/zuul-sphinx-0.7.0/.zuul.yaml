@@ -1,0 +1,17 @@
+- project:
+    vars:
+      node_version: 14
+      release_python: python3
+    check:
+      jobs:
+        - zuul-nox-docs
+    gate:
+      jobs:
+        - zuul-nox-docs
+    promote:
+      jobs:
+        - zuul-promote-nox-docs
+    release:
+      jobs:
+        - zuul-publish-nox-docs
+        - zuul-release-python

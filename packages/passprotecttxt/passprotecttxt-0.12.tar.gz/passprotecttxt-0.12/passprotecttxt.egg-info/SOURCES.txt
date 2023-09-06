@@ -1,0 +1,14 @@
+LICENSE.rst
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+passprotecttxt/README.MD
+passprotecttxt/__init__.py
+passprotecttxt/requirements.txt
+passprotecttxt/thirdparty.json
+passprotecttxt.egg-info/PKG-INFO
+passprotecttxt.egg-info/SOURCES.txt
+passprotecttxt.egg-info/dependency_links.txt
+passprotecttxt.egg-info/requires.txt
+passprotecttxt.egg-info/top_level.txt

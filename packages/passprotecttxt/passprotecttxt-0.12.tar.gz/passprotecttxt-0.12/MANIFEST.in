@@ -1,0 +1,3 @@
+include passprotecttxt/requirements.txt
+include passprotecttxt/thirdparty.json
+include passprotecttxt/README.MD

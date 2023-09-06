@@ -1,0 +1,2 @@
+[console_scripts]
+certifi-system-store-wrapper = certifi_system_store_wrapper:__main__.main

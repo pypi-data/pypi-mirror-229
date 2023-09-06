@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: serunaiAutomation
+Version: 2.1
+Summary: Serunai Automation
+Author: Maimul
+Author-email: maimulskates@gmail.com
+Requires-Dist: selenium
+Requires-Dist: seleniumbase
+Requires-Dist: openpyxl
+Requires-Dist: hashlib
+Requires-Dist: json
+Requires-Dist: csv
+Requires-Dist: datetime
+Requires-Dist: time
+Requires-Dist: random
+

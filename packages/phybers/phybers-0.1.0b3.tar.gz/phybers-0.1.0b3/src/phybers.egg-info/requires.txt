@@ -1,0 +1,16 @@
+numpy
+dipy
+joblib
+matplotlib
+scikit-learn
+networkx
+pandas
+PyQt5
+PyOpenGL
+PyOpenGL_accelerate
+nibabel
+pydicom
+scikit-image
+scipy
+openpyxl
+regex

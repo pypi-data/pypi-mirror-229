@@ -1,0 +1,11 @@
+examples/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+genotations/__init__.py,sha256=OsmkGNO2mYfAns-hmIL_G2v6X-ujWRsYZIEnMtu-wCk,21
+genotations/ensembl.py,sha256=QJefJMRaKOQRPTFY9bJu5E1Imt4AmBKtqCYW7RFs7Qw,28993
+genotations/genomes.py,sha256=LlcaPMUg_UB-dIjhAMdBxYKfBxvdKbVSZ3ZKLFXxPvA,22108
+genotations/intersections.py,sha256=mMdnll2zoaNAftHgWCWiusFPmDK1nIUaKEX4QnQ78QM,3560
+genotations/primers.py,sha256=1tldDFSxy24Ix3Rrc8fGSLg36IJaAz7fNZ-xdHmFPjY,15203
+genotations/quantification.py,sha256=Tb2QXiQ5CcJNUHL50xDKX7nfnBhv9i2Mvla4k2RHePg,4836
+genotations-0.1.7.dist-info/METADATA,sha256=VRMCNHUHrMRGBYCQYNMvWqRg7812jq0L6PWd0-Vgkyk,4010
+genotations-0.1.7.dist-info/WHEEL,sha256=iYlv5fX357PQyRT2o6tw1bN-YcKFFHKqB_LwHO5wP-g,110
+genotations-0.1.7.dist-info/top_level.txt,sha256=XsYRkpKCaVCg5C2jPtaME37vFQkID2FjGF9J523zB7U,21
+genotations-0.1.7.dist-info/RECORD,,

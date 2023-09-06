@@ -1,0 +1,3 @@
+[sopel.plugins]
+twitter = sopel_twitter
+

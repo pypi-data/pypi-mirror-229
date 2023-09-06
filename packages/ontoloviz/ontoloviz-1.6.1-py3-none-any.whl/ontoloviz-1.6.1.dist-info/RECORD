@@ -1,0 +1,13 @@
+ontoloviz/__init__.py,sha256=O2_wNzMjSkbARGZOHc5MwyaTq0yfxtRRKah-M6szuFY,144
+ontoloviz/__main__.py,sha256=uzlOCkPQB3xtxW1SWlBxvUstk4t9UHAyMvh-8QEFNK4,188
+ontoloviz/app.py,sha256=haX8kdPKLv0wylqQ7kkBXtIgdR7tf-cM2-zkMFbZ7Sk,81668
+ontoloviz/app_test.py,sha256=eW7LFTR6DH5Efuie9jWtV_smIa4kdliKbSQcngrbT4Q,2560
+ontoloviz/app_utils.py,sha256=fF1udI2druzulfQtjo19xW3Gb0HlBG7SoNB7ZuK8Huk,30232
+ontoloviz/core.py,sha256=mQmBZ5k99RXU1EPEPQ5NkBGclLHLHq3vPNy-d9o6r48,86704
+ontoloviz/core_utils.py,sha256=ogCmYaLalSW24vvk_IhlexYDxK7l66oUU9I1ToX8Hho,2778
+ontoloviz/obo_utils.py,sha256=5wiqvK0_RhkwNykfgjqo9DqiR_meWbbkypEgChbkdQ0,13487
+ontoloviz-1.6.1.dist-info/entry_points.txt,sha256=mrTat7ObPd_38zOIGfO1OAxkNIVCwpVwtXT31RyoX2U,51
+ontoloviz-1.6.1.dist-info/LICENSE,sha256=pYwg2RfnOTgmU1BtPWlAgw9e5uYn1HVsFX4oKwL8Gjo,1090
+ontoloviz-1.6.1.dist-info/METADATA,sha256=FM9TW0NvsDvfHmPgP_7O_PskHiV9HNo-Zw-zLL83QB0,19584
+ontoloviz-1.6.1.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+ontoloviz-1.6.1.dist-info/RECORD,,

@@ -1,0 +1,87 @@
+Metadata-Version: 2.1
+Name: basd
+Version: 2023.9.1
+Summary: Implements the command line interface to the Battery System Designer tool.
+Author-email: The foxBMS Team <info@foxbms.org>
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Scientific/Engineering :: Physics
+Classifier: Topic :: Scientific/Engineering :: Visualization
+Requires-Dist: cadquery>=2.2.0
+Requires-Dist: click>=8.1.3
+Requires-Dist: colorama>=0.4.6
+Requires-Dist: joblib>=1.2.0
+Requires-Dist: jsonschema>=4.17.3
+Requires-Dist: matplotlib>=3.7.1
+Requires-Dist: numpy>=1.24.2
+Requires-Dist: pandas>=2.0.0
+Requires-Dist: platformdirs>=3.5.0
+Requires-Dist: scipy>=1.10.1
+Requires-Dist: black==23.3.0 ; extra == "dev"
+Requires-Dist: isort==5.12.0 ; extra == "dev"
+Requires-Dist: pylint==2.17.3 ; extra == "dev"
+Requires-Dist: mypy==1.2.0 ; extra == "dev"
+Requires-Dist: sphinx ; extra == "doc"
+Requires-Dist: sphinxcontrib-programoutput ; extra == "doc"
+Requires-Dist: furo ; extra == "doc"
+Requires-Dist: sphinxcontrib-spelling ; extra == "doc"
+Requires-Dist: pytest >=2.7.3 ; extra == "test"
+Requires-Dist: pytest-cov ; extra == "test"
+Project-URL: Documentation, https://basd.readthedocs.io
+Project-URL: Home, https://github.com/foxBMS/basd
+Project-URL: Source, https://github.com/foxBMS/basd
+Provides-Extra: dev
+Provides-Extra: doc
+Provides-Extra: test
+
+<table>
+    <tbody>
+        <tr>
+        <td><h1>Battery System Designer (BaSD)</h1></td>
+            <td rowspan=4> <img width="80" height="80" src="./src/basd/_static/basd-logo.png" alt="BaSD logo"></td>
+        </tr>
+    </tbody>
+</table>
+
+    Automated, requirements driven battery system design
+
+``BaSD`` uses the basic, formalized requirements for a battery system from an
+electrical point of view (e.g., minimum and maximum system voltage, maximum
+discharge current etc.) and a mechanical point of view (i.e., the design space)
+and transfers this into a battery system configuration that satisfies these
+requirements.
+``BaSD`` uses a database of available cells to find these possible battery
+system configurations.
+
+![BaSD workflow](docs/overview.png)
+
+Workflow of the ``BaSD`` tool to automatically create a battery system
+configuration, layout and simplified CAD model
+
+## User Installation
+
+The latest release can be installed via pip from [PyPi](https://pypi.org/project/basd):
+
+```bash
+$ pip install basd
+```
+
+The latest development version can be installed via pip:
+
+```bash
+$ pip install git+https://github.com/BaSD-Project/BaSD
+```
+
+## Acknowledgment
+
+| This work was financially supported by the Federal Ministry of Education and Research within the projects FKZ: 03XP0338C ("SimBAS"). The project is cared by Project Management Jülich. The responsibility for this publication rests with the authors. | ![This work was financially supported by the Federal Ministry of Education and Research within the projects FKZ: 03XP0338C ("SimBAS"). The project is cared by Project Management Jülich. The responsibility for this publication rests with the authors.](./docs/_static/bmbf.png) |
+|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+

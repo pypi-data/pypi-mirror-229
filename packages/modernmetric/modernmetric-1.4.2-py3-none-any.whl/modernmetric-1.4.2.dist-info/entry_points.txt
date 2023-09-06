@@ -1,0 +1,2 @@
+[console_scripts]
+modernmetric = modernmetric.__main__:main

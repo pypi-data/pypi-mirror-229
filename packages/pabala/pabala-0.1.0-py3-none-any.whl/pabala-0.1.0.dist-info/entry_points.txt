@@ -1,0 +1,4 @@
+[console_scripts]
+build-layer=scripts.build_layer:main
+build-package=scripts.build_package:main
+

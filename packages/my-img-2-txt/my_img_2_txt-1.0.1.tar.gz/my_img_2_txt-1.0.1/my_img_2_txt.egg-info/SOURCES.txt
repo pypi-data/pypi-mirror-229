@@ -1,0 +1,8 @@
+README.md
+setup.py
+my_img_2_text/__init__.py
+my_img_2_text/my_img_2_txt.py
+my_img_2_txt.egg-info/PKG-INFO
+my_img_2_txt.egg-info/SOURCES.txt
+my_img_2_txt.egg-info/dependency_links.txt
+my_img_2_txt.egg-info/top_level.txt

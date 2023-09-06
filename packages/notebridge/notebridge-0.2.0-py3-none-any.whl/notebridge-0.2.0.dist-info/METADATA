@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: notebridge
+Version: 0.2.0
+Summary: Notebridge is a tool to connect NoteAid app to your user-defined agent.
+Home-page: https://notebridge.lingxi.li/
+License: MIT
+Author: Lingxi Li
+Author-email: hi@lingxi.li
+Requires-Python: >=3.8,<4
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: pydantic (>=2.2.1,<3.0.0)
+Requires-Dist: requests (>=2.31.0,<3.0.0)
+Project-URL: Repository, https://github.com/lilingxi01/notebridge
+Description-Content-Type: text/markdown
+
+<img src="https://imagedelivery.net/Dr98IMl5gQ9tPkFM5JRcng/19234312-c06c-4c78-76de-f4618543b400/Ultra" alt="BloArk" />
+
+# Notebridge
+
+Notebridge is an adapter library in Python, lying between your NoteAid agent and the actual NoteAid API. It provides a simple interface to define your agent and to connect it to the NoteAid chat API.
+
+## Installation
+
+The package is available on PyPI and can be installed using pip:
+
+```bash
+pip install notebridge
+```
+

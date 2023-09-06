@@ -1,0 +1,6 @@
+notebridge/__init__.py,sha256=W6lpa37nTXCB-YdRDXR2ulC7t4oMerFVqIkiqjedyGw,82
+notebridge/adapter.py,sha256=_wJlAJFa7uzNts01jqp1WMiqqI8bImErWhJ96bKVuUM,1497
+notebridge/bridge.py,sha256=SxfV_fqd79B2xUAz3KgmJUpv9hr-YXTAHXW4DkZhhTQ,1120
+notebridge-0.2.0.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+notebridge-0.2.0.dist-info/METADATA,sha256=MFis4Q58SL5tG2nLI50hGApWaO0d3j_qG7JzMDkUeMk,1205
+notebridge-0.2.0.dist-info/RECORD,,

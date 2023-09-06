@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: cv_ae_multi_model
+Version: 0.0.1
+Summary: Package to assist in production deployment.
+Author-email: Akansha Shrivastava <akansha9j@gmail.com>
+Project-URL: Homepage, https://gecgithub01.walmart.com/ItemInvDataScience/image_classy_ultron
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+This package contains code for dealing with multiple models within a same module for deployment in production.

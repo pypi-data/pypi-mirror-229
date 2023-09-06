@@ -1,0 +1,3 @@
+include clientgdocs/requirements.txt
+include clientgdocs/thirdparty.json
+include clientgdocs/README.MD

@@ -1,0 +1,14 @@
+LICENSE.rst
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+clientgdocs/README.MD
+clientgdocs/__init__.py
+clientgdocs/requirements.txt
+clientgdocs/thirdparty.json
+clientgdocs.egg-info/PKG-INFO
+clientgdocs.egg-info/SOURCES.txt
+clientgdocs.egg-info/dependency_links.txt
+clientgdocs.egg-info/requires.txt
+clientgdocs.egg-info/top_level.txt

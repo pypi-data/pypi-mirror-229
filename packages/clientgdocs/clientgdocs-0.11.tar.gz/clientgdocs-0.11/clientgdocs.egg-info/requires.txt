@@ -1,0 +1,6 @@
+beautifulsoup4
+flatten_any_dict_iterable_or_whatsoever
+lxml
+passprotecttxt
+pfehler
+requests

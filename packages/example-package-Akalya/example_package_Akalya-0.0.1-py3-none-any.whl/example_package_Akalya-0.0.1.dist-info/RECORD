@@ -1,0 +1,9 @@
+__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ingest_data.py,sha256=aYJiMn7qqTX5KHI1LdfaGZ5MdHnWRZS3FBJ5ZNwfpUs,3572
+nonstandardcode.py,sha256=FjW55kXHOawSrG9zjUZWrprne2tWYaHDLyIYUzB_P58,7104
+score.py,sha256=y7qRBIho6Joz1MNgiGKcQ04nIPzXasWe6z_sskx0suc,917
+train.py,sha256=gljb2YDMkaM9Lwk8J3v-193xnZ8umVDaomjcHRuEWSU,2098
+example_package_Akalya-0.0.1.dist-info/METADATA,sha256=Y4wLaXVATjSPZrrBeItnVMn3zem-TD9WBVMpY7KiAZA,1354
+example_package_Akalya-0.0.1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+example_package_Akalya-0.0.1.dist-info/top_level.txt,sha256=PSnt_qVIEqHtRI_d0wG1rd5HD41c_ceA5gfGSGuHToQ,49
+example_package_Akalya-0.0.1.dist-info/RECORD,,

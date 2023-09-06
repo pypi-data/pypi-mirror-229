@@ -1,0 +1,64 @@
+Metadata-Version: 2.1
+Name: maybe-type
+Version: 1.0.5
+Summary: Addind the maybe type to python
+Author: Leander
+License-File: LICENSE
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# Adds the Maybe type to Python
+
+## Classes
+* Maybe: A union type that represents a value of Some[T] or None
+* Some: A container for a value of type T. Has the functions bind and map
+
+## Functions
+* with_maybe: A decorator that takes a function, which might throw an exception, and returns a function that returns a Maybe
+
+## Examples
+```python
+from maybe import Maybe, Some
+
+def divide(a: int, b: int) -> Maybe[int]:
+    if b == 0:
+        return None
+
+    return Some(a // b)
+
+res = divide(10, 2) # Some(5)
+res = divide(10, 0) # None
+```
+
+```python
+from maybe import with_maybe, Some
+
+@with_maybe
+def divide(a: int, b: int) -> int:
+    return a // b
+
+res = divide(10, 2) # Some(5)
+res = divide(10, 0) # None
+```
+
+```python
+from maybe import Maybe, Some
+
+def divide(a: int, b: int) -> Maybe[int]:
+    if b == 0:
+        return None
+
+    return Some(a // b)
+
+def plus_one(a: int) -> int:
+    return a + 1 
+
+def minus_one(a: int) -> Maybe[int]:
+    return Some(a - 1)
+
+res1 = divide(10, 2).map(plus_one) # Some(6)
+res1 = divide(10, 2).bind(plus_one) # Some(Some(6))
+res2 = divide(10, 2).bind(minus_one) # Some(4)
+```

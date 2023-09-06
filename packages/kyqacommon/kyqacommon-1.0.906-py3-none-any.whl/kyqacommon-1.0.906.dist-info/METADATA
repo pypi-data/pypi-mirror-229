@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: kyqacommon
+Version: 1.0.906
+Summary: kyqacommon
+Home-page: 
+Author: lyl
+Author-email: lyulei66@163.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: minio (==7.1.13)
+Requires-Dist: pymysql (==1.0.3)
+Requires-Dist: progress (==1.6)
+Requires-Dist: paramiko (==3.2.0)
+
+# kyqaCommon Package
+#专属昆易自动化测试公共方法；

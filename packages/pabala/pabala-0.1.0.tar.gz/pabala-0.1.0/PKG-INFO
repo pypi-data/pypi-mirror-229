@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: pabala
+Version: 0.1.0
+Summary: 
+Author: Dawid Kraczkowski
+Author-email: dawid.kraczkowski@kaizenreporting.com
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: pyaml (>=23.7.0,<24.0.0)
+Requires-Dist: toml (>=0.10.2,<0.11.0)
+Description-Content-Type: text/markdown
+
+# Pabala!
+Pabala is a set of tools to help you build and deploy Python applications based on AWS Lambda architecture (Pabala!).
+
+

@@ -1,0 +1,6 @@
+from typing import List
+
+def __getattr__(name: str) -> str: ...
+
+# Generated environment variable definitions
+

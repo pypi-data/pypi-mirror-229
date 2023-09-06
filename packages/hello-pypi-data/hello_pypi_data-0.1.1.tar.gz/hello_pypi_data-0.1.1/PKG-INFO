@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: hello-pypi-data
+Version: 0.1.1
+Summary: 
+Author: Tom Forbes
+Author-email: tom@tomforb.es
+Requires-Python: >=3.11,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Description-Content-Type: text/markdown
+
+# Hello!
+
+https://py-code.org
+
+

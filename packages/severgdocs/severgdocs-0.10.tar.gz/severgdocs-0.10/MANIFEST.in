@@ -1,0 +1,3 @@
+include severgdocs/requirements.txt
+include severgdocs/thirdparty.json
+include severgdocs/README.MD

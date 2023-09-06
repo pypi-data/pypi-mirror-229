@@ -1,0 +1,14 @@
+LICENSE.rst
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+severgdocs/README.MD
+severgdocs/__init__.py
+severgdocs/requirements.txt
+severgdocs/thirdparty.json
+severgdocs.egg-info/PKG-INFO
+severgdocs.egg-info/SOURCES.txt
+severgdocs.egg-info/dependency_links.txt
+severgdocs.egg-info/requires.txt
+severgdocs.egg-info/top_level.txt

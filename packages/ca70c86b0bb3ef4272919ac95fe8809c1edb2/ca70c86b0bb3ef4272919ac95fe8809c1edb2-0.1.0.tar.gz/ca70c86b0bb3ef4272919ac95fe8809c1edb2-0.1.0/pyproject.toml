@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "ca70c86b0bb3ef4272919ac95fe8809c1edb2"
+version = "0.1.0"
+description = "Query Engine API for Distributed AtomSpace"
+authors = ["marcocapozzoli <marcocapozzoli90@gmail.com>"]
+readme = "README.md"
+packages = [{include = "hyperon_das"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+ca70c86b0bb3ef4272919ac95fe8809c1edb = "^0.1.0"
+
+
+
+[tool.poetry.group.dev.dependencies]
+isort = "^5.12.0"
+flake8 = "^6.1.0"
+black = "^23.7.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

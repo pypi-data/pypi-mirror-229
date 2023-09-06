@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: ca70c86b0bb3ef4272919ac95fe8809c1edb2
+Version: 0.1.0
+Summary: Query Engine API for Distributed AtomSpace
+Author: marcocapozzoli
+Author-email: marcocapozzoli90@gmail.com
+Requires-Python: >=3.11,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: ca70c86b0bb3ef4272919ac95fe8809c1edb (>=0.1.0,<0.2.0)
+Description-Content-Type: text/markdown
+
+# hyperon-das
+Query Engine API for Distributed AtomSpace adn Pattern Matcher
+

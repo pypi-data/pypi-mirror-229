@@ -1,0 +1,12 @@
+requests==2.31.0
+
+[build]
+build==1.0.0
+twine==4.0.2
+
+[dev]
+black==23.7.0
+pytest==7.4.1
+pytest-cov==4.1.0
+pytest-mock==3.11.1
+ruff==0.0.287

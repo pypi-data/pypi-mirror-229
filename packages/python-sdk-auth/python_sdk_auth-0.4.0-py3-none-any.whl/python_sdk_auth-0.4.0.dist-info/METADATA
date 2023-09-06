@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: python-sdk-auth
+Version: 0.4.0
+Summary: Library for Hologram Authentication methods
+Author: Hologram
+Author-email: support@hologram.io
+License: Hologram Proprietary
+Platform: Posix; MacOS X; Windows
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Internet
+Classifier: Topic :: Security :: Cryptography
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.9
+Classifier: License :: Other/Proprietary License
+License-File: LICENSE
+License-File: AUTHORS
+Requires-Dist: hjson (~=3.0.0)
+Requires-Dist: pycryptodome (==3.9.0)
+
+
+This is a library for Hologram Authentication methods

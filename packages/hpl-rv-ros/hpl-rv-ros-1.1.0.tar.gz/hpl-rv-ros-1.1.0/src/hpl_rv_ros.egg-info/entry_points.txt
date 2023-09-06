@@ -1,0 +1,2 @@
+[console_scripts]
+hpl-rv-ros = hplrv_ros.cli:main

@@ -1,0 +1,8 @@
+sqlkite/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sqlkite/orm/__init__.py,sha256=LvwZEELJR6gxoENBFDweZD4GW7kWmXEVjwcbCNyN6ZA,205
+sqlkite/orm/base.py,sha256=2MXZAD5-RRbxiVsJ_dH_tJhp-IFf8RPd_RMiiFkRy8E,322
+sqlkite-0.1.0.dist-info/METADATA,sha256=x7cnR9uPP_rqTXq7MsXac_EsKc33dnZbf1aePHJlTf4,1257
+sqlkite-0.1.0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+sqlkite-0.1.0.dist-info/entry_points.txt,sha256=-OkASHNzJ1jK5eRMduzNGWSLQ105ausFGc_42pIIt1U,50
+sqlkite-0.1.0.dist-info/top_level.txt,sha256=ppv6Werutb-XMSxYfWQG1CWSRLvELdODVDJz6lGHQkY,8
+sqlkite-0.1.0.dist-info/RECORD,,

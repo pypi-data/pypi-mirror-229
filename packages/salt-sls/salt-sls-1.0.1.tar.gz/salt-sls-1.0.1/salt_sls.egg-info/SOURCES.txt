@@ -1,0 +1,14 @@
+LICENSE
+README.rst
+setup.cfg
+setup.py
+salt_sls/conf.py
+salt_sls/scripts.py
+salt_sls/version.py
+salt_sls.egg-info/PKG-INFO
+salt_sls.egg-info/SOURCES.txt
+salt_sls.egg-info/dependency_links.txt
+salt_sls.egg-info/entry_points.txt
+salt_sls.egg-info/requires.txt
+salt_sls.egg-info/top_level.txt
+salt_sls/salt_sls/init.py

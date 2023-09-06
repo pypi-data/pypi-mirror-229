@@ -1,0 +1,8 @@
+pop>=23.0.0
+salt
+
+[full]
+salt
+
+[salt]
+salt

@@ -1,0 +1,3 @@
+[console_scripts]
+sls = salt_sls.scripts:start
+

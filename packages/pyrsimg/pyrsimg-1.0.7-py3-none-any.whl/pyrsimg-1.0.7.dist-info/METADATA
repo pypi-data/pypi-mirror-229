@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: pyrsimg
+Version: 1.0.7
+Summary: Python toolkit for easy processing of remote sensing image
+Author: The pyrsimg developers
+Author-email: xinluo_xin@163.com
+Maintainer: Xin Luo
+Maintainer-email: xinluo_xin@163.com
+License: GPL License
+Requires-Python: >=3.6
+License-File: LICENSE
+Requires-Dist: pyproj >=3.1.0
+Requires-Dist: torch >=2.0.1
+Requires-Dist: scikit-learn >=1.2.2
+Requires-Dist: numpy >=1.22.0
+Requires-Dist: opencv-python
+Requires-Dist: matplotlib >=3.6.2
+Requires-Dist: scipy >=1.10
+Requires-Dist: astropy >=5.1
+

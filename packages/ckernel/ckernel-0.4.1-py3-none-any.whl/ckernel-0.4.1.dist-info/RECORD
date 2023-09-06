@@ -1,0 +1,17 @@
+ckernel/__init__.py,sha256=5gJ-Jj0PZ9X9DhPkQ4ppfqNR-KK_4aOjaY62UchCq8I,565
+ckernel/__main__.py,sha256=iShFqGcN6Ev2T7_WuX_kCvo6TlI8iSuWjCnM9eXw2Ko,82
+ckernel/async_kernel.py,sha256=fMAVOSdpwpCoPGmxlK3WrX6a99ZfpbaoVXt7LEon3AU,1322
+ckernel/autocompile_kernel.py,sha256=auCU-F16N_wzr4qDI9jiFHbXohit6EwoHB2k0poyj5E,13299
+ckernel/base_kernel.py,sha256=EoII1zBOMOcQD77qektFnX-VioMeqWrCneEZhw-2yQ0,4696
+ckernel/main.py,sha256=SpdQYo_hBvcd7SK9n0fZy5e2Sjw9zwRDGUJmSCalQUE,8904
+ckernel/resource.py,sha256=HYD9SYbbCtN7xkOebh123H-BMQa3etklN1IjrbkFMRU,641
+ckernel/util.py,sha256=OUtBMRvsDfAcbgFXZaskW73NbgPTf0KizVKmd_Y3YPQ,8006
+ckernel/resources/__init__.py,sha256=9_8wL9Scv8_Cs8HJyJHGvx1vwXErsuvlsAqNZLcJQR0,8
+ckernel/resources/ck_input_wrappers.c,sha256=Eu_uc1j4OUeNIWpjKs5hICv3SnX7N-NYz0yA0--82c4,11713
+ckernel/resources/kernel.sh,sha256=M4WZg_zVDz7ev11fSTwjALuRBVLtHaGOdls-x0sxyyk,197
+ckernel-0.4.1.dist-info/LICENSE,sha256=JCb8IvL_O-WS_Ns0ugbQTXhJzWK5ExYAmqB3dOqdpx8,1496
+ckernel-0.4.1.dist-info/METADATA,sha256=F8v5l8TwjpS0rG30NqZHXGtMUXIPw_5hLeQ0Do5swWc,6157
+ckernel-0.4.1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+ckernel-0.4.1.dist-info/entry_points.txt,sha256=2tvrq78DXhRzdEStPt4h7r8mkEhOedhOCbTJd3LneEY,46
+ckernel-0.4.1.dist-info/top_level.txt,sha256=upL9wcDkgM2fKOZYOmxYJFbAch-DEf8jZpTR3rtdOFk,8
+ckernel-0.4.1.dist-info/RECORD,,

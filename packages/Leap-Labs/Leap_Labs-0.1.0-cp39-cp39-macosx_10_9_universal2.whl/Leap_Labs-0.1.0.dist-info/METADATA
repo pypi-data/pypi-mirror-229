@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: Leap-Labs
+Version: 0.1.0
+Summary: Leap Labs Universal Interpretability Engine
+Home-page: https://www.leap-labs.com/
+Author: Jessica Rumbelow
+Author-email: jessica@leap-labs.com
+License: Closed-source
+Requires-Dist: tensorflow
+Requires-Dist: atexit
+Requires-Dist: copy
+Requires-Dist: numpy
+Requires-Dist: wandb
+Requires-Dist: subprocess
+Requires-Dist: requests
+Requires-Dist: pandas
+Requires-Dist: IPython
+Requires-Dist: threading
+Requires-Dist: os
+Requires-Dist: json
+Requires-Dist: random
+Requires-Dist: tqdm
+Requires-Dist: torch
+Requires-Dist: shutil
+Requires-Dist: leap
+Requires-Dist: PIL
+Requires-Dist: torchvision
+

@@ -1,0 +1,15 @@
+docparser/__init__.py,sha256=bMdVoxKukHEBbL3Y6Q4wFhX9Y7XsoGukjS3TL5zv-dU,132
+docparser/_tesseract_langs.py,sha256=PLkW5DHb_etnAHBGAfD1dkFOgMME2CjZgdOwb8jSDmU,3497
+docparser/parser.py,sha256=kemnFmRqESJ2TjeEZARkfWGSUkNSHgWAl0S-a_6ilWc,4871
+docparser/pipeline_clip.py,sha256=9RoZOCsMILVwMQdhakMmt-1KLDOFnL-J8ROBAf4lsOc,2968
+docparser/pipeline_dict.py,sha256=ffxu9MRFctCyYNn5RuHfaIISHMkXAJfdyBUOH3J7Xs8,3944
+docparser/sample.py,sha256=Ass70mJUvtGuxf34StDtA05Pg8AxyXuEs-vL9OBCgHs,521
+docparser/utils.py,sha256=VLW88DUI9G3oo2sixiDq4yl-Z0Md9i0NyPxvOQRibVU,1844
+docparser/data/__init__.py,sha256=6qpWsyQkIoC5bCuVUCTZeJk-VPfuqqyQB9f7XlLpb9w,30
+docparser/data/tesseract_langs.py,sha256=jwM0K_MUUQOdn9og0ql0Df8xmudSss_Cac_QWjigvm0,3512
+tests/__init__.py,sha256=oyaD6Y_z4S1BvRSNto8swtzXJOBKZmWY07xHUzBYlKc,55
+tests/sample_test.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+samagra_docparser-0.1.1.dist-info/METADATA,sha256=RVMWXjNZQNeu1rgH2AM0WQ6D-dTsdRZQzNZIxC6TrN4,404
+samagra_docparser-0.1.1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+samagra_docparser-0.1.1.dist-info/top_level.txt,sha256=Pfcd66rteo6rJ_oapG0jKh2qPs3uSFSHt7JgQuFnngE,16
+samagra_docparser-0.1.1.dist-info/RECORD,,

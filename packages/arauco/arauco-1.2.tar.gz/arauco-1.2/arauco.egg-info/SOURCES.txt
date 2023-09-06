@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+arauco/__init__.py
+arauco.egg-info/PKG-INFO
+arauco.egg-info/SOURCES.txt
+arauco.egg-info/dependency_links.txt
+arauco.egg-info/requires.txt
+arauco.egg-info/top_level.txt

@@ -1,0 +1,51 @@
+Metadata-Version: 2.1
+Name: portage-livecheck
+Version: 0.0.2
+Summary: Tool to update ebuilds.
+License: MIT
+Author: Andrew Udvare
+Author-email: audvare@gmail.com
+Requires-Python: >=3.10,<4
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: click (>=8.1.3,!=8.1.4)
+Requires-Dist: loguru (>=0.7.1,<0.8.0)
+Requires-Dist: pyyaml (>=6.0.1,<7.0.0)
+Requires-Dist: requests (>=2.31.0,<3.0.0)
+Description-Content-Type: text/markdown
+
+# livecheck
+
+Tool for overlays to update ebuilds.
+
+## Installation
+
+```shell
+pip install portage-livecheck
+```
+
+## Command line usage
+
+```shell
+livecheck
+```
+
+## Development use
+
+Run `poetry install --with=dev --with=docs --with=tests` to set up a virtualenv.
+
+Fully copy `/etc/portage` to the root of your virtualenv. Then you must fix `make.profile`. Also
+consider making changes in `repos.conf` if necessary.
+
+Example:
+
+```shell
+poetry shell
+cd "${VIRTUAL_ENV}/etc"
+cp -R /etc/portage .
+cd portage
+ln -sf "$(readlink -f /etc/portage/make.profile)" make.profile
+```
+

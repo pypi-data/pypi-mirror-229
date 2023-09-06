@@ -1,0 +1,17 @@
+typer[all]
+tqdm
+numpy
+scipy
+pandas
+pymongo
+tabulate
+matplotlib
+sqlalchemy
+dataclasses
+dataclasses-json
+scikit-learn
+seqeval
+openpyxl
+netifaces
+ipaddress
+httpx

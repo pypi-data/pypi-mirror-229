@@ -1,0 +1,57 @@
+Metadata-Version: 2.1
+Name: json_repr
+Version: 1.1.9
+Summary: Handle JSON like data structures with a "repr(...)" fallback, e.g. for MongoDB types
+Project-URL: Homepage, https://github.com/clxx/json-repr
+Project-URL: Bug Tracker, https://github.com/clxx/json-repr/issues
+Author-email: Carsten Lindner <Carsten.Lindner@gmx.net>
+License-File: LICENSE
+Keywords: JSON,MongoDB,dumps,eval,repr
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# json-repr
+
+Pretty print JSON like data structures with a "repr(...)" fallback, e.g. for MongoDB types
+
+## Usage
+
+```python
+import json_repr
+
+# JSON: Legacy Mongo Shell Format
+original_source = """{
+    "_id" : ObjectId("507f1f77bcf86cd799439011"),
+    "persons": [
+        {
+            "name": "Alice",
+            "id": NumberInt(1)
+        },
+        {
+            "name": "Bob",
+            "id": NumberInt(2)
+        }
+    ]
+}"""
+
+document = json_repr.eval_mongo_db_json(original_source)
+
+print(document.persons[0])
+
+dumped_source = json_repr.dumps(document)
+print(dumped_source)
+
+print(dumped_source == original_source)
+```
+
+## MongoDB
+
+Currently supported (legacy) mongo shell types:
+
+* ObjectId
+* NumberInt
+* NumberLong
+* NumberDecimal

@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: znu-nlp
+Version: 0.0.3
+Summary: nlp modules for znu
+License-File: LICENSE
+Requires-Dist: httpx (==0.18.2)
+

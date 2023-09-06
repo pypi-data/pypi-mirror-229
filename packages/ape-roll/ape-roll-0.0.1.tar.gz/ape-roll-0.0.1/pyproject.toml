@@ -1,0 +1,33 @@
+[tool.poetry]
+name = "ape-roll"
+version = "0.0.1"
+description = "Build weiroll transactions with ape"
+authors = ["FP <fp@noemail.com>"]
+license = "MIT"
+packages = [
+    { include = "ape_roll" },
+]
+
+[tool.poetry.dependencies]
+python = ">=3.8,<3.12"
+eth-ape = "^0.6.18"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.pytest.ini_options]
+# NOTE: can't use xdist
+addopts = """
+    -n 0
+    --cov-branch
+    --cov-report term
+    --cov-report html
+    --cov-report xml
+    --cov=ape_safe
+"""
+python_files = "test_*.py"
+testpaths = "tests"
+markers = "fuzzing: Run Hypothesis fuzz test suite"

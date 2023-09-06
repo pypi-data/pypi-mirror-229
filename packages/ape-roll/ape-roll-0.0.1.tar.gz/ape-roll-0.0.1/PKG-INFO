@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: ape-roll
+Version: 0.0.1
+Summary: Build weiroll transactions with ape
+License: MIT
+Author: FP
+Author-email: fp@noemail.com
+Requires-Python: >=3.8,<3.12
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: eth-ape (>=0.6.18,<0.7.0)

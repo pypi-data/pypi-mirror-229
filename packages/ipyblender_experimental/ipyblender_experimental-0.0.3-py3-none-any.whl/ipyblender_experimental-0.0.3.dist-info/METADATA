@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: ipyblender_experimental
+Version: 0.0.3
+License-File: LICENSE
+Requires-Python: ~=3.10.0
+Requires-Dist: anywidget
+Requires-Dist: bpy
+Requires-Dist: ipykernel
+Requires-Dist: watchfiles

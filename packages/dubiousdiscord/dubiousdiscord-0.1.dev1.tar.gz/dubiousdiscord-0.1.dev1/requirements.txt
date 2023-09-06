@@ -1,0 +1,4 @@
+requests
+flask
+pynacl
+bs4

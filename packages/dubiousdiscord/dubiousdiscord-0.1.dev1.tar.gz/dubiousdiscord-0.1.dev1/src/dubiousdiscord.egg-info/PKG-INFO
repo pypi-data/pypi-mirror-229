@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: dubiousdiscord
+Version: 0.1.dev1
+Summary: A complete Discord API wrapper focused on using Discord Interactions en tandem with Flask.
+Author: lapras
+Keywords: discord,discordapi,discord-api
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+
+# dubiousdiscord
+
+A complete Discord API wrapper focused on using Discord Interactions en tandem with Flask.
+
+https://dubiousdiscord.readthedocs.io/en/latest/

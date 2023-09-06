@@ -1,0 +1,16 @@
+picofun/__init__.py,sha256=I3Y-XzKy01L49Uz9Ugw7DOgMyd_-7goj76kTJPOMrtE,49
+picofun/__main__.py,sha256=2IWzc91SplpWzvG8S-P3HkWGvbgcdZoRPX4mu-7tYq0,329
+picofun/cli.py,sha256=WB68bvbQK9hIHZw_oAtU0FAE7vKrhsnIEEg3IZY5plA,1957
+picofun/config.py,sha256=Z61ldtlPETllPKAg3JpGtHNK-c4tMHqJaI5gtQ7pMo0,4706
+picofun/errors.py,sha256=Zc13zmKQ0d9Q0SEvIl-yKYNgx3zANGAJ9nMA2AQsvgA,2461
+picofun/lambda_generator.py,sha256=ksVNAMrNEUIaRvuEmHq7Y7pSd1HTOaxNVpizwzfL-Io,2781
+picofun/layer.py,sha256=r4LxS0ZUUdI78lYH6uBxkVgPGWaB-k27BBu70vQvhw0,1039
+picofun/requirements_manager.py,sha256=IIpkg0ecmIcykArNQ-teAkWfgDIklMsqo9g96_YRcHQ,1387
+picofun/spec.py,sha256=31n1Fcbk6z6WTQZGvNrb-83gGMofuYlRd8M4iux1x3s,4522
+picofun/template.py,sha256=DHyKA-kn1t1cdR2kp-DP4_v7kIDovkUqF0kX5VEHpv8,1174
+picofun/terraform_generator.py,sha256=0BVDLv-ecVNskbfZ1JRte2G6-fqPyxvX2SHF9q78uH0,1258
+picofun-0.1.0.dist-info/LICENSE.txt,sha256=xYRFhxhX4lq0gNFEsCgRkuwjMzod1R_vhiyJSEIUzDM,1094
+picofun-0.1.0.dist-info/METADATA,sha256=miR2iVrGMfj2MXmPJ2dWfsnIDwTq2zc_2q0G5h75kSA,2042
+picofun-0.1.0.dist-info/WHEEL,sha256=5sUXSg9e4bi7lTLOHcm6QEYwO5TIF1TNbTSVFVjcJcc,92
+picofun-0.1.0.dist-info/top_level.txt,sha256=2fglU_7VMh3YGjrOwAzPQhuHae26coswoiFhl4_8en8,8
+picofun-0.1.0.dist-info/RECORD,,

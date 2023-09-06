@@ -1,0 +1,23 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "json_repr"
+version = "1.0.1"
+authors = [
+  { name="Carsten Lindner", email="Carsten.Lindner@gmx.net" }
+]
+description = 'Pretty print JSON like data structures with a "repr(...)" fallback, e.g. for MongoDB types'
+readme = "README.md"
+requires-python = ">=3.6"
+keywords = ["JSON", "repr", "pretty print", "pp", "MongoDB"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent"
+]
+
+[project.urls]
+"Homepage" = "https://github.com/clxx/json-repr"
+"Bug Tracker" = "https://github.com/clxx/json-repr/issues"

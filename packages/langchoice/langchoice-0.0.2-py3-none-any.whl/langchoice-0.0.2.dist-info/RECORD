@@ -1,0 +1,15 @@
+langchoice/.pytest_cache/.gitignore,sha256=Ptcxtl0GFQwTji2tsL4Gl1UIiKa0frjEXsya26i46b0,37
+langchoice/.pytest_cache/CACHEDIR.TAG,sha256=N9yI75oKvt2-gQU6bdj9-xOvthMEXqHrSlyBWnSjveQ,191
+langchoice/.pytest_cache/README.md,sha256=c_1vzN2ALEGaay2YPWwxc7fal1WKxLWJ7ewt_kQ9ua0,302
+langchoice/.pytest_cache/v/cache/lastfailed,sha256=Ux4ju0eXwTuaz0_ma9vC1YnSFrNmlF_jemRn5IF_9Pk,41
+langchoice/.pytest_cache/v/cache/nodeids,sha256=3TAQm2ZiCIH9BJa3JIplOMZtZyIpjgYiQDvbwLMuF98,96
+langchoice/.pytest_cache/v/cache/stepwise,sha256=T1PNoYwrqgwDVLtfmj7L5e0Sq02OEbqHPC8RFhICuUU,2
+langchoice/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+langchoice/common.py,sha256=Wjj6hh3LOiIuSE9CM74ONluVk6QLdSBRpX5BeJ3IKUo,179
+langchoice/langchoice.py,sha256=aUPSBPTfylRQ1LcNGsUsXN1z3JYk8HYGXim8tkwC5Zg,5216
+langchoice/lc_test.py,sha256=Edn_azHLYqX0Aw52I713Jg6Tdx_84GUZXYsJRWd7T-E,1553
+langchoice/out.txt,sha256=u5OQpAynx7V-nBZYRlmE6V5pEQM_-OQo6h0KR8DUN_4,2957
+langchoice-0.0.2.dist-info/LICENSE,sha256=Qd0y-hHkrsRAu_DCd0IZLgvQfUyDVmm19Y43FkKg9Qw,11347
+langchoice-0.0.2.dist-info/METADATA,sha256=S-MyeYg5lPDhmTRQsx1fVVVniZqGew0aFJiDehImtck,3152
+langchoice-0.0.2.dist-info/WHEEL,sha256=WGfLGfLX43Ei_YORXSnT54hxFygu34kMpcQdmgmEwCQ,88
+langchoice-0.0.2.dist-info/RECORD,,

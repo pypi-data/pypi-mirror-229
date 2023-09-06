@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: screeve-embeddings
+Version: 0.2.0
+Summary: pre-trained word2vec embeddings
+Author: Nargizi
+Author-email: supasuperdin@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# embeddings
+pre-trained embeddings for Georgian language

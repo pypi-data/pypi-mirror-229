@@ -1,0 +1,124 @@
+Metadata-Version: 2.1
+Name: Primice
+Version: 1.1.1
+Summary: A Multifunctional library for personal use
+Home-page: 
+Author: Primice
+Author-email: 1121796946@qq.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Primice
+
+
+# v1.0.0
+>2023/07/06
+这是我个人使用工具包的1.0.0版本，暂时包含了以下内容：
+## 数据库模块
+<hr>
+
+### MongoDB存储模块
+```python
+from Primice.Mongo.to_Mongodb import MyMongodb
+
+# 初始化
+my_mongodb = MyMongodb(db='test', collection='test', cache_size=60)
+```
+* 该模块基于pymongo封装
+* 该模块提供了基本的增删改查功能
+  * 增：`insert_one`, `insert_many`
+  * 删：`delete_one`, `delete_many`
+  * 改：`update_one`, `update_many`
+  * 查：`query`
+* 添加了缓存的功能，设定缓存数据的条数，并提供了`insert`方法来插入数据，当缓存数据达到设定的条数时，自动将缓存数据插入到数据库中
+
+### MySQL存储模块
+
+#### 初始化数据库连接
+```python
+from Primice.MySQL.to_MySQL import MysqlSingleConnect
+
+  # MySQL的配置包含
+  # host='localhost', 
+  # port=3306, 
+  # user='root', 
+  # password='', 
+  # db(必需), 
+  # charset='utf8'
+db = MysqlSingleConnect(db='test')
+```
+#### 初始化数据表
+
+```python
+from Primice.MySQL.DataTable import DataTable, data_input
+
+tab = DataTable('test',['id','name','age'])
+tab.tab_data.append([1,'张三',18])
+```
+* 需要了解的是，`DataTable`类与`data_input`是需要配合使用的
+* `DataTable`类用于初始化数据表和存储表数据，`data_input`用于向数据库插入数据
+* 请注意，`DataTable`的第二个参数列表为插入数据的字段名，当我们向示例的`tab_data`添加数据时，需要保证数据的顺序与字段名的顺序一致
+* `data_input`方法的参数为`DataTable`类的实例,同时，需要将初始化的数据库连接传入第二个参数`db`
+
+
+## 工具模块
+<hr>
+
+### 布隆过滤器
+使用了 mmh3 哈希函数和第三方库 bitarray 来实现布隆过滤器。
+在 BloomFilter 类中，我们通过使用位数组来表示过滤器的状态，并定义了 add 和 contains 方法来添加和检查元素。
+* add 方法使用 mmh3.hash 函数生成哈希值，并将对应的位数组位置置为 1。
+* contains 方法通过遍历所有的哈希函数，检查对应的位数组位置是否为 1，如果有任一位为 0，则说明元素不存在。
+
+您可以根据需要调整位数组大小（size）和哈希函数数量（num_hash）来适应您的应用场景。
+下面是使用的示例代码：
+```python
+from Primice.Utils.BloomFilter import BloomFilter
+
+# 示例用法
+bloom_filter = BloomFilter(100, 3)  # 创建布隆过滤器，指定位数组大小和哈希函数数量
+
+# 添加元素到布隆过滤器
+bloom_filter.add("apple")
+bloom_filter.add("banana")
+bloom_filter.add("orange")
+
+# 检查元素是否存在于布隆过滤器
+print(bloom_filter.contains("apple"))  # 输出 True
+print(bloom_filter.contains("kiwi"))  # 输出 False
+```
+#### 关于数组大小和哈希函数数量的说明
+* 布隆过滤器的位数组大小（size）是一个影响性能和误报率的关键参数。较大的位数组可以容纳更多的元素，但会增加内存消耗。较小的位数组可能会导致较高的误报率。
+根据经验，可以通过以下公式来估计位数组大小（size）：
+  ```python
+  size = - (n * log(p)) / (log(2)^2)
+  ```
+其中，n 是预期的元素数量，p 是期望的误报率。
+例如，如果您的数据集大小为 1000 万，希望误报率低于 1%，可以将 n 设置为 1000 万，p 设置为 0.01，然后计算 size：
+  ```python
+  size = - (10000000 * log(0.01)) / (log(2)^2) ≈ 95850561
+  ```
+因此，可以选择 size 为 95850561，即约为 9585 万。
+
+* 哈希函数数量（num_hash）是影响误报率的另一个关键参数。较多的哈希函数可以降低误报率，但会增加计算开销。较少的哈希函数可能会导致较高的误报率。
+  假设布隆过滤器的位数组大小为 m，哈希函数的数量为 k，元素的个数为 n，误报率为 p。则误报率与哈希函数数量的关系可以通过以下公式计算：
+  ```python
+  p = (1 - e^(-kn/m))^k
+  ```
+  其中，e 是自然对数的底数。
+  从上述公式可以看出，随着哈希函数数量 k 的增加，误报率 p 逐渐减小。但是，增加 k 也会带来更多的计算开销和内存消耗。
+  但是在极端情况下例如哈希函数数量=数组大小，那么误报率将会是100%。因此通常情况下，哈希函数数量的选择范围是 1 到 10。
+
+### 超级鹰
+内置超级鹰，使用价格可以参考超级鹰官网:http://www.chaojiying.com/price.html
+```python
+from Primice.Utils.chaojiying import ChaojiyingClient
+
+chaojiying = Chaojiying_Client('username', 'password', 'soft_id')	#用户中心>>软件ID 生成一个替换 96001
+im = open('test.jpg', 'rb').read()													#本地图片文件路径 来替换 a.jpg 有时WIN系统须要//
+print(chaojiying.PostPic(im, 1902))#1902 验证码类型  官方网站>>价格体系 3.4+版 print 后要加()
+# 这里的im就是图片的二进制内容，如果是requests在线请求的图片信息，可以直接将content传入
+```

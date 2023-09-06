@@ -1,0 +1,12 @@
+
+[audio]
+simpleaudio==1.0.4
+
+[develop]
+black==23.7.0
+coverage==7.3.0
+flake8-pyproject==1.2.3
+
+[packaging]
+build
+twine>=1.11

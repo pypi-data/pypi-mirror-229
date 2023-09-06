@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: kolabpy
+Version: 1.0.3.2
+Home-page: https://aric.snu.ac.kr/
+Author: Kolab
+Author-email: kkd8326@snu.ac.kr
+License: MIT
+Requires-Python: >=3
+Requires-Dist: saspy ==5.3.0
+Requires-Dist: geopandas >=0.10
+Requires-Dist: folium >=0.8
+
+Contributor:apjh2529@naver.com,kkd8326@snu.ac.kr

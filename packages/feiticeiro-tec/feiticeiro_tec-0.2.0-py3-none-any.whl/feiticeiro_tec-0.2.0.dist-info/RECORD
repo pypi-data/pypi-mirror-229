@@ -1,0 +1,17 @@
+feiticeiro_tec/config/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+feiticeiro_tec/config/with_dynaconf.py,sha256=7e5XQKJoExheCbh1dZomZR_54ZIA2_eX_5GX7zrtQMY,1249
+feiticeiro_tec/flask/complress.py,sha256=HLVqYyPjfGHpt-gtX8b6OEIF30GKBXleFcNunNyxjqI,1083
+feiticeiro_tec/pydantic/contato.py,sha256=SZoAeVbedtnSVsb4aSyPBLo1bs_ETxLO5wP8_U3VUDo,294
+feiticeiro_tec/pydantic/credencial.py,sha256=HuC_bNYbEzQ9TYSFJhBmOX09gsF_0_qVw9oIUPQwoKw,361
+feiticeiro_tec/pydantic/empresa.py,sha256=cdHdKGt04okbWasXupbmwsK0-fwW4tTM-lZgLjVcCnI,529
+feiticeiro_tec/pydantic/endereco.py,sha256=7WbNHIjmhsDAWbIoEIZy0dipbNCipSoMHdb3_atk9Pc,424
+feiticeiro_tec/request/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+feiticeiro_tec/request/cep.py,sha256=WXL-SdG1iPldzqz8nZl6BzEGmLfKk5rjOSfdymZfZj4,1931
+feiticeiro_tec/validate/__init__.py,sha256=uHhLrAeGsI-oJMpWNPuxeUmpLaYlFTRgMsPjGAhXhE4,138
+feiticeiro_tec/validate/abs.py,sha256=NfICg59SFOxOmrlNy4sEbGeWAWPQuKEVIBFw3e2KB9w,2075
+feiticeiro_tec/validate/types.py,sha256=42kgngzS7zD6LtsQYEVoijrg9IfcFMoOwf9mL_YLLxk,802
+feiticeiro_tec/validate/validates.py,sha256=omwCskS-4jmFFjJoi_sCsm_-ApTKpcI3q0kQ8J0kc4k,684
+feiticeiro_tec-0.2.0.dist-info/METADATA,sha256=oBhFsRfxc0dF2ULOPiGWUyGPQAw7qoc1be4OI1esan4,2406
+feiticeiro_tec-0.2.0.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+feiticeiro_tec-0.2.0.dist-info/top_level.txt,sha256=edvBtsmhBLXqTVkRv8-x6Mk4AYFBWDtUCAvT42yBqdA,303
+feiticeiro_tec-0.2.0.dist-info/RECORD,,

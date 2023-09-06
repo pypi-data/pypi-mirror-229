@@ -1,0 +1,11 @@
+feiticeiro_tec
+feiticeiro_tec/config
+feiticeiro_tec/config/__pycache__
+feiticeiro_tec/flask
+feiticeiro_tec/flask/__pycache__
+feiticeiro_tec/pydantic
+feiticeiro_tec/pydantic/__pycache__
+feiticeiro_tec/request
+feiticeiro_tec/request/__pycache__
+feiticeiro_tec/validate
+feiticeiro_tec/validate/__pycache__

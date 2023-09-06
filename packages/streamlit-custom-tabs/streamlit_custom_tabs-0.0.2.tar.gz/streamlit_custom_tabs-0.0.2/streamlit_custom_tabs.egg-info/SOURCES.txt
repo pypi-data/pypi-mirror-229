@@ -1,0 +1,16 @@
+MANIFEST.in
+README.md
+setup.py
+Tab_Bar/frontend/build/asset-manifest.json
+Tab_Bar/frontend/build/bootstrap.min.css
+Tab_Bar/frontend/build/index.html
+Tab_Bar/frontend/build/static/css/main.005f19b1.css
+Tab_Bar/frontend/build/static/css/main.005f19b1.css.map
+Tab_Bar/frontend/build/static/js/main.8d8d10ca.js
+Tab_Bar/frontend/build/static/js/main.8d8d10ca.js.LICENSE.txt
+Tab_Bar/frontend/build/static/js/main.8d8d10ca.js.map
+streamlit_custom_tabs.egg-info/PKG-INFO
+streamlit_custom_tabs.egg-info/SOURCES.txt
+streamlit_custom_tabs.egg-info/dependency_links.txt
+streamlit_custom_tabs.egg-info/requires.txt
+streamlit_custom_tabs.egg-info/top_level.txt

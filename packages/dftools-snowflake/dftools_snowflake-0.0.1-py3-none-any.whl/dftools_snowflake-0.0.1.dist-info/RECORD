@@ -1,0 +1,12 @@
+dftools_snowflake/__init__.py,sha256=F52lLKwvL5WmReg1UY14OZ-u4r_wTggwzzoO7pPhMyk,314
+dftools_snowflake/connection/__init__.py,sha256=6IFkWOtietW4hJPochFl8GtNzRC08mg5XoxT8TYfcEM,338
+dftools_snowflake/connection/snowflake_connection_info.py,sha256=bl8dWUo4KbuTl_wFmtpcnFqYiUTMajSAY7UNHrxWu_k,2403
+dftools_snowflake/connection/snowflake_connection_wrapper.py,sha256=MuH7HRrqqfMcoSLtFcKDjbiiyO3hnoS222IcpUhrtuU,8340
+dftools_snowflake/service/__init__.py,sha256=C-mtWhf6aQ4nCfo0QpFy5GWGNmatgCIhJIC-Z0D4xBA,153
+dftools_snowflake/service/meta_decoder.py,sha256=7NhQDkf1B2a-ySegApAxTUjqY87jPaODI6zkx3qGgXI,2616
+dftools_snowflake/service/snowflake_meta_service.py,sha256=3BUGFin0UpL_3tkYDyOpzS3tzl2gnqkjdfJW2G8tA94,1109
+dftools_snowflake/util/snowflake_system_queries.py,sha256=_Gl7uVilOSzDpg6iSG3Ji6ChqpnEvqwkHD9Xhck22Jw,2479
+dftools_snowflake-0.0.1.dist-info/METADATA,sha256=yuia0n58sztKISVPIT4r2rv5Pz25brJmL-piL9xbBJo,903
+dftools_snowflake-0.0.1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+dftools_snowflake-0.0.1.dist-info/top_level.txt,sha256=1u7T1m0-PXHHrjDYvGCJlTXk97pEFfQURi_H4kvKUp8,18
+dftools_snowflake-0.0.1.dist-info/RECORD,,

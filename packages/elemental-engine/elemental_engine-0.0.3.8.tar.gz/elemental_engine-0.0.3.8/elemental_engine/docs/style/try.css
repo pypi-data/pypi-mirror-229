@@ -1,0 +1,89 @@
+body {
+  position: relative;
+  border: 0px solid;
+}
+
+@media print,
+screen and (max-width: 85rem) {
+
+  .eIeJha,
+  .dtUibw {
+    padding: 4px;
+  }
+}
+
+.swaggerBox.hide {
+  visibility: hidden;
+  width: 0;
+  height: 0;
+  opacity: 0;
+}
+
+.swaggerBox.show {
+  cursor: initial;
+  opacity: 1;
+}
+
+/* Reset the style of swagger-ui */
+.swaggerBox .swagger-ui .wrapper {
+  padding: 0;
+}
+
+.swaggerBox .swagger-ui .download-contents {
+  visibility: hidden;
+  top: -10px;
+  right: 0;
+  width: initial;
+}
+
+/* Disable api bar to avoid problems */
+.swaggerBox:not(.onlySwagger) .swagger-ui .opblock .opblock-summary {
+  cursor: not-allowed;
+  pointer-events: none;
+}
+
+/* Disable the api bar, but exclude the authorization button */
+.swaggerBox .swagger-ui .authorization__btn {
+  cursor: initial;
+  pointer-events: initial;
+}
+
+.swaggerBox {
+  border: 0px solid;
+  background-color: #fff;
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.swaggerBox:not(.onlySwagger) {
+  overflow: hidden;
+}
+
+/* Hide some disturbing elements */
+.swaggerBox.pure:not(.onlySwagger) .swagger-ui .opblock-summary {
+  visibility: hidden;
+  padding: 0;
+}
+
+.swaggerBox.pure:not(.onlySwagger) .opblock-section thead,
+.swaggerBox.pure:not(.onlySwagger) .swagger-ui .opblock-summary * {
+  display: none;
+}
+
+.swaggerBox:not(.onlySwagger) .swagger-ui .opblock .opblock-section-header,
+.swaggerBox:not(.onlySwagger) .btn.cancel,
+.swaggerBox:not(.onlySwagger) .try-out,
+.swaggerBox:not(.onlySwagger) .responses-inner>div>h4,
+.swaggerBox:not(.onlySwagger) :not(.live-responses-table).responses-table,
+.swaggerBox:not(.onlySwagger) .opblock-body>.opblock-description-wrapper {
+  display: none;
+}
+
+.swaggerBox .tryBtn {
+  margin-right: 10px;
+  background-color: #fff;
+}

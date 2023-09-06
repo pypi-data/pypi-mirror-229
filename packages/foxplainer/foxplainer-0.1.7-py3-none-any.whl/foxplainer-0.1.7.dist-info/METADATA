@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: foxplainer
+Version: 0.1.7
+Summary: FoX: a Fo rmal eX plainer for JIT Defect Prediction
+License: MIT
+Author: Jinqiang Yu
+Author-email: trustablefox@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: anytree (>=2.8.0,<3.0.0)
+Requires-Dist: ipywidgets (>=7.7.1,<8.0.0)
+Requires-Dist: numpy (>=1.23.2,<2.0.0)
+Requires-Dist: pandas (>=1.4.3,<2.0.0)
+Requires-Dist: scikit-learn (==1.1.2)
+Requires-Dist: six (>=1.16.0,<2.0.0)

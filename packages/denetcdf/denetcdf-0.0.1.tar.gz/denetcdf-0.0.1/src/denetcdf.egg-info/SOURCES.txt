@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+src/denetcdf/__init__.py
+src/denetcdf/denetcdf.py
+src/denetcdf.egg-info/PKG-INFO
+src/denetcdf.egg-info/SOURCES.txt
+src/denetcdf.egg-info/dependency_links.txt
+src/denetcdf.egg-info/top_level.txt
+test/test.py
+test/testmultivar.py

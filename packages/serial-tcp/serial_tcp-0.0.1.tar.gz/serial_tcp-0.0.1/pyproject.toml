@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "serial-tcp"
+version = "0.0.1"
+description=""
+license = "BSD-3-Clause"
+authors = ["HE Yaowen <he.yaowen@hotmail.com>"]
+readme = "README.md"
+packages = [{ include = "serial_tcp" }]
+
+[tool.poetry.dependencies]
+python = "^3.8,<3.12"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

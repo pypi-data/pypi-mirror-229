@@ -1,0 +1,1 @@
+from instld.errors import InstallingPackageError

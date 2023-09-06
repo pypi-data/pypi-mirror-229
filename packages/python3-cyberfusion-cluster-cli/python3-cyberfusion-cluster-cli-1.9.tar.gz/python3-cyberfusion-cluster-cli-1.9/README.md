@@ -1,0 +1,46 @@
+# python3-cyberfusion-cluster-cli
+
+CLI for Cyberfusion Cluster API.
+
+# Install
+
+## PyPI
+
+Run the following command to install the package from PyPI:
+
+    pip3 install python3-cyberfusion-cluster-cli
+
+## Generic
+
+Run the following command to create a source distribution:
+
+    python3 setup.py sdist
+
+## Debian
+
+Run the following commands to build a Debian package:
+
+    mk-build-deps -i -t 'apt -o Debug::pkgProblemResolver=yes --no-install-recommends -y'
+    dpkg-buildpackage -us -uc
+
+# Configure
+
+When running the CLI for the first time, run the following command:
+
+    clusterctl setup
+
+The command will prompt you for API credentials.
+
+This creates a config file in `~/.config/cyberfusion/cyberfusion.cfg`.
+
+# Usage
+
+The CLI provides commands for all relevant API endpoints.
+
+Run the following command for help:
+
+    clusterctl -h
+
+# Tests
+
+No tests are present.

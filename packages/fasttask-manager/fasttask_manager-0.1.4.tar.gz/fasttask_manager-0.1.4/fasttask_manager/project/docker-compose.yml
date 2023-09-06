@@ -1,0 +1,16 @@
+version: "3.9"
+
+services:
+  {project_name}:
+    image: {project_name}
+    container_name: {project_name} 
+    restart: always
+    command: sh run.sh
+    depends_on:
+      - redis
+    ports:
+          - "{port}:80"
+    
+    volumes:
+      - ./files:/fasttask/files
+ 

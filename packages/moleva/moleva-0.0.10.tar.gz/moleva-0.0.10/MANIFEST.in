@@ -1,0 +1,2 @@
+include moleva/*.so
+include test.py

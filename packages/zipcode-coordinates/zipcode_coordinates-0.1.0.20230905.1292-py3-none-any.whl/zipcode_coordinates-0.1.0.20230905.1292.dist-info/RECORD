@@ -1,0 +1,9 @@
+zipcode_coordinates/__init__.py,sha256=mKnjbye9V8h0hcwi5VMA-Tvl5w6w9BejUa8Ppkl_vp0,810
+zipcode_coordinates/exceptions.py,sha256=BKyKc8YSaTg7HuyGvco34KhrjXv5zbheyBCsppBeFrg,270
+zipcode_coordinates/version.py,sha256=snJmk8rXGkZY2Tk2aIO302v8waH-mPvm1IXSLlRuidA,30
+zipcode_coordinates/data/de.py,sha256=SBAlmXouNceF8nA2DhG6ykyQ3xEZcI1p21-O3fSuzgM,17
+zipcode_coordinates-0.1.0.20230905.1292.dist-info/LICENSE,sha256=h-7-hMxlbm_sT8BeN25z1s6GLRHpdtHWFiiHZkLqg3E,1060
+zipcode_coordinates-0.1.0.20230905.1292.dist-info/METADATA,sha256=S9mN16d0OpH1SFTyOU8uq9Mx9kHzoJMLNMmhmH_PhuM,1508
+zipcode_coordinates-0.1.0.20230905.1292.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+zipcode_coordinates-0.1.0.20230905.1292.dist-info/top_level.txt,sha256=PbaVGSWXABpGdjhctNnD4kqvG46ZEuNoESZDPvESpmo,20
+zipcode_coordinates-0.1.0.20230905.1292.dist-info/RECORD,,

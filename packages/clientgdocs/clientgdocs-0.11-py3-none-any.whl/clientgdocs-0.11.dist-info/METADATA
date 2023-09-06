@@ -1,0 +1,66 @@
+Metadata-Version: 2.1
+Name: clientgdocs
+Version: 0.11
+Summary: Jerrybuilt data exchange through Google Docs - client
+Home-page: https://github.com/hansalemaos/clientgdocs
+Author: Johannes Fischer
+Author-email: aulasparticularesdealemaosp@gmail.com
+License: MIT
+Keywords: data,exchange
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Utilities
+Description-Content-Type: text/markdown
+License-File: LICENSE.rst
+Requires-Dist: beautifulsoup4
+Requires-Dist: flatten-any-dict-iterable-or-whatsoever
+Requires-Dist: lxml
+Requires-Dist: passprotecttxt
+Requires-Dist: pfehler
+Requires-Dist: requests
+
+
+# Jerrybuilt data exchange through Google Docs - client 
+
+## Tested against Windows 10 / Python 3.10 / Anaconda
+
+## pip install clientgdocs
+
+```python
+This module provides a function for extracting text content from a Google Docs link
+protected by a password. It uses BeautifulSoup, requests, and other libraries to
+retrieve and decrypt the content.
+
+Functions:
+	get_text_from_google_docs(doclink, password, timeout=30):
+		Retrieves and decrypts the text content from a Google Docs link protected by a password.
+
+Parameters:
+	doclink (str): The URL of the Google Docs document.
+	password (str): The password used to decrypt the document.
+	timeout (int, optional): The maximum time (in seconds) to wait for the document to load. Defaults to 30 seconds.
+
+Returns:
+	str: The decrypted text content of the Google Docs document.
+
+Example:
+
+# server module 
+from severgdocs import update_text
+nt = update_text(
+    text="babudada",
+    password="bibidudu",
+    doclink="https://docs.google.com/document/d/xxxx/edit",
+)
+print(nt)
+
+# this module 
+from clientgdocs import get_text_from_google_docs
+doclink = "https://docs.google.com/document/d/xxxx/edit"
+password = "bibidudu"
+text = get_text_from_google_docs(doclink, password, timeout=30)
+print(text)
+
+```

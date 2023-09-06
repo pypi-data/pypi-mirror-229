@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+doodad/__init__.py
+doodad/find_names.py
+doodad/util.py
+doodad.egg-info/PKG-INFO
+doodad.egg-info/SOURCES.txt
+doodad.egg-info/dependency_links.txt
+doodad.egg-info/not-zip-safe
+doodad.egg-info/top_level.txt

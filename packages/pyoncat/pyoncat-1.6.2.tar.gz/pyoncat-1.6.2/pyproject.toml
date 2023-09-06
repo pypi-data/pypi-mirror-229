@@ -1,0 +1,30 @@
+# pyproject.toml
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pyoncat"
+version = "1.6.2"
+description = "A Python Client for ONCat (the ORNL Neutron Catalog)."
+readme = "pyoncat/README.md"
+authors = [{ name = "ONCat Support", email = "oncat-support@ornl.gov" }]
+license = { file = "pyoncat/LICENSE" }
+classifiers = [
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+]
+keywords = ["ornl", "neutron", "metadata", "catalog"]
+dependencies = ["requests"]
+requires-python = ">=2.6, !=3.0.*, !=3.1.*, !=3.2.*, <4"
+
+[project.optional-dependencies]
+auth = ["oauthlib", "requests-oauthlib"]
+
+[project.urls]
+Homepage = "https://oncat.ornl.gov"
+
+[tool.setuptools.packages]
+find = { where = ["."], include = ["pyoncat", "pyoncat.lib"] }

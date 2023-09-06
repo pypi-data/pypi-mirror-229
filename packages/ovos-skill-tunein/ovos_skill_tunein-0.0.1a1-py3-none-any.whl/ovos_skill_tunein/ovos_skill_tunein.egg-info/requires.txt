@@ -1,0 +1,2 @@
+ovos_workshop>=0.0.5,~=0.0
+tunein>=0.0.4a1,~=0.0

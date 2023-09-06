@@ -1,0 +1,15 @@
+bdata/__init__.py,sha256=OvrDdkYPrCoZX9ElZ6or4iWIRHthNUTZdIxoBn5Wt04,502
+bdata/asym_fns.py,sha256=T49fAM-TGEgA8_PdHyWS6N3yWcSke4FmJyx-j-iSNUw,8040
+bdata/bdata.py,sha256=lv5xTqqPVbRPe2iUdR72CeqJerQ1uqjyFA6zu4mqf8o,98831
+bdata/bjoined.py,sha256=SjCNgmjdkuctkhK8PL0kujCp_b7KoBGygFY_cYahGBk,11238
+bdata/bmerged.py,sha256=kTK30N6rZbSrSFgSV-5ao0W9nrsWB3tgB6QiYkjJdnw,12044
+bdata/calc.py,sha256=_QwNL4ySwWPL-LnFX7t9CSPO5I1LpA-Zq7uOjnnbTXI,3206
+bdata/containers.py,sha256=8wB-32H-sMDoaaMcyO56Wy7gVFZOWDP9uh6Xirpw9i4,1073
+bdata/exceptions.py,sha256=NdTDx6otRjV5mcTP8YXPkC08NwBy-RNyzSTp6GsooXE,236
+bdata/life.py,sha256=tvIgMRkbZBfpKDmAT1Gx6aW2i3iuhTd4MvcW1FoYYd8,2132
+bdata/version.py,sha256=CzPo0SA4V4JSnLTCQzFkqjh9jGPbNMVhTVkI0Rv2al0,37
+bdata/data/nmr_antenna_data.csv,sha256=xFoOTSDuTJuaC94Q1TkV4e22vc4ekTNnVrjF-SYJ8yM,314
+bdata-6.11.4.dist-info/METADATA,sha256=5BBOV0uHGO7-SyFBIkrUmcw9Eq0OXJHsokmLhUQlWsI,47540
+bdata-6.11.4.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+bdata-6.11.4.dist-info/licenses/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+bdata-6.11.4.dist-info/RECORD,,

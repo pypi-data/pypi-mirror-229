@@ -1,0 +1,8 @@
+setup.py
+MagiTools/Saplogin.py
+MagiTools/__init__.py
+MagiTools.egg-info/PKG-INFO
+MagiTools.egg-info/SOURCES.txt
+MagiTools.egg-info/dependency_links.txt
+MagiTools.egg-info/requires.txt
+MagiTools.egg-info/top_level.txt

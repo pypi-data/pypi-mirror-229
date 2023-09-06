@@ -1,0 +1,6 @@
+README.md
+setup.py
+quickbase_quickbooks.egg-info/PKG-INFO
+quickbase_quickbooks.egg-info/SOURCES.txt
+quickbase_quickbooks.egg-info/dependency_links.txt
+quickbase_quickbooks.egg-info/top_level.txt

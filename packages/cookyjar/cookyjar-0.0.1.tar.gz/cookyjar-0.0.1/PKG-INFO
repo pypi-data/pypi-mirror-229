@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: cookyjar
+Version: 0.0.1
+Summary: Streamlit component that allows you to do work with cookies
+Home-page: 
+Author: Cem Bakar
+Author-email: cembakar@gmail.com
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Provides-Extra: devel
+License-File: LICENSE
+
+# streamlit-custom-component
+
+Streamlit component that allows you to do X
+
+## Installation instructions
+
+```sh
+pip install cookyjar
+```
+
+## Usage instructions
+
+```python
+import streamlit as st
+
+from cookyjar import cookyjar
+
+cookies = cookyjar()
+
+st.write(value)
+```

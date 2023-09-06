@@ -1,0 +1,2 @@
+[console_scripts]
+ndeftool = ndeftool.cli:main

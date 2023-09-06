@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: wings
+Version: 1.4.0
+Summary: Interact with a WINGS instance
+License: Apache-2
+Author: Maximiliano Osorio
+Author-email: maxiosorio@gmail.com
+Requires-Python: >=3.7,<4.0
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: certifi (>=2023.7.22,<2024.0.0)
+Requires-Dist: chardet (>=5.2.0,<6.0.0)
+Requires-Dist: idna (>=3.4,<4.0)
+Requires-Dist: requests (>=2.31.0,<3.0.0)
+Requires-Dist: urllib3 (>=2.0.4,<3.0.0)
+Description-Content-Type: text/markdown
+
+# WINGS client Python
+
+[![Build Status](https://travis-ci.org/KnowledgeCaptureAndDiscovery/wings-client.svg?branch=master)](https://travis-ci.org/KnowledgeCaptureAndDiscovery/wings-client)
+[![PyPI version](https://badge.fury.io/py/wings.svg)](https://pypi.org/project/wings/)
+[![Downloads](https://img.shields.io/pypi/dm/wings.svg)](https://pypi.org/project/wings/)
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+
+
+## Installation
+
+```bash
+pip install wings
+```
+

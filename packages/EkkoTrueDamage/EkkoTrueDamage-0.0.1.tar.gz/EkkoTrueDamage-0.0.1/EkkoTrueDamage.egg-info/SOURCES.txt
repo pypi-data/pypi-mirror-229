@@ -1,0 +1,9 @@
+LICENSE
+setup.py
+EkkoTrueDamage.egg-info/PKG-INFO
+EkkoTrueDamage.egg-info/SOURCES.txt
+EkkoTrueDamage.egg-info/dependency_links.txt
+EkkoTrueDamage.egg-info/top_level.txt
+pack_web/__init__.py
+pack_web/app.py
+pack_web/player.py

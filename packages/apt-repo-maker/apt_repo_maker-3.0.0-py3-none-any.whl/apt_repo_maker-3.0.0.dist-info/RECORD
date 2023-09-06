@@ -1,0 +1,7 @@
+apt_repo_maker/__init__.py,sha256=EPmgXOdWKks5S__ZMH7Nu6xpAeVrZpfxaFy4pykuyeI,22
+apt_repo_maker/__main__.py,sha256=ow62vNJQlBH9ihldlmaCDh4Uj2pMCATdJnW_9enkZbE,15072
+apt_repo_maker-3.0.0.dist-info/LICENSE,sha256=VAaU2etBxude0d0mcD01uhs4lbMIzKOJ8Zw7wgxbeRo,1068
+apt_repo_maker-3.0.0.dist-info/METADATA,sha256=L6ZCk4-hCtQ_oEcDepu9hBH4pItfT1JWIHcGYpDYEFs,4575
+apt_repo_maker-3.0.0.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+apt_repo_maker-3.0.0.dist-info/entry_points.txt,sha256=dC_7mpWshGQalFejy7q9H1Nbe8XokSBVP1TfgNDhiJU,57
+apt_repo_maker-3.0.0.dist-info/RECORD,,

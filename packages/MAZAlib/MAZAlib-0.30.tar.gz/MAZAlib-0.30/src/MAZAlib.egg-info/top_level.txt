@@ -1,0 +1,3 @@
+MAZAlib
+non_local_means
+segmentation

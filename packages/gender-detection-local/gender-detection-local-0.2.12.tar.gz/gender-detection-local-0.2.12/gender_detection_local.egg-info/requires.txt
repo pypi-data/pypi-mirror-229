@@ -1,0 +1,11 @@
+tensorflow>=2.13.0
+logzio-python-handler>=4.1.0
+opencv_python>=4.7.0.72
+opencv_python_headless>=4.7.0.72
+PyMySQL>=1.0.2
+python-dotenv>=1.0.0
+scikit-learn>=1.3.0
+tqdm>=4.66.1
+database-infrastructure-local>=0.0.11
+gender-local>=0.0.3
+logger-local>=0.0.51

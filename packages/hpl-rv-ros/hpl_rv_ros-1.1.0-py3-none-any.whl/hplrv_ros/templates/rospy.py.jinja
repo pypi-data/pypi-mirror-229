@@ -1,0 +1,82 @@
+{# SPDX-License-Identifier: MIT #}
+{# Copyright © 2021 André Santos #}
+
+{##############################################################################}
+{# RENDERED CODE #}
+{##############################################################################}
+
+{{ lib }}
+
+
+###############################################################################
+# ROS Node
+###############################################################################
+
+import rospy
+{% for rospkg in ros_imports %}
+import {{ rospkg }}.msg as {{ rospkg }}
+{% endfor %}
+
+
+class HplMonitorNode:
+    def __init__(self):
+        self.monitor = HplMonitorManager(success_cb=self._on_success, failure_cb=self._on_failure)
+        self.monitor.live_server.host = '127.0.0.1'
+        self.monitor.live_server.port = 4242
+        self.pubs = {}
+        for i in range(len(self.monitor.monitors)):
+            mon = self.monitor.monitors[i]
+            cls = type(mon).__name__
+            assert cls not in self.pubs
+            self.pubs[cls] = rospy.Publisher(f'~p{i}/verdict',
+                std_msgs.Bool, queue_size=1, latch=True)
+        self.subs = [
+            {# -#}
+        {% for topic, typename in topics.items() %}
+            rospy.Subscriber('{{ topic }}', {{ typename|replace('/', '.') }},
+                self.on_msg_{{ topic|replace('/', '_') }}),
+        {% endfor %}
+        ]
+
+    def run(self):
+        thread = self.monitor.live_server.start_thread()
+        t = rospy.get_time()
+        self.monitor.launch(t)
+        rate = rospy.Rate(100) # 100hz
+        try:
+            while not rospy.is_shutdown():
+                t = rospy.get_time()
+                self.monitor.on_timer(t)
+                rate.sleep()
+        except rospy.ROSInterruptException:
+            t = rospy.get_time()
+            self.monitor.shutdown(t)
+            thread.join(10.0)
+    {# -#}
+{% for topic in topics %}
+
+    {% set cbname = 'on_msg_' ~ topic.replace('/', '_') %}
+    def {{ cbname }}(self, msg):
+        t = rospy.get_time()
+        self.monitor.{{ cbname }}(msg, t)
+{% endfor %}
+
+    def _on_success(self, mon, _timestamp, _witness):
+        # t = rospy.Time.from_sec(mon.time_state)
+        cls = type(mon).__name__
+        self.pubs[cls].publish(True)
+
+    def _on_failure(self, mon, _timestamp, _witness):
+        # t = rospy.Time.from_sec(mon.time_state)
+        cls = type(mon).__name__
+        self.pubs[cls].publish(False)
+
+
+def main():
+    rospy.init_node("hplrv_monitor", log_level=rospy.DEBUG)
+    node = HplMonitorNode()
+    node.run()
+
+
+if __name__ == "__main__":
+    main()

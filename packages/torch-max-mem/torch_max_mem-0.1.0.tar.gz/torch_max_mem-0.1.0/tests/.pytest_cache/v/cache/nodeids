@@ -1,0 +1,11 @@
+[
+  "test_decorator.py::TestDecorator::test_knn",
+  "test_decorator.py::TestDecorator::test_knn_stateful",
+  "test_decorator.py::test_default_no_arg",
+  "test_decorator.py::test_key_hasher[None]",
+  "test_decorator.py::test_key_hasher[keys1]",
+  "test_decorator.py::test_key_hasher[keys2]",
+  "test_decorator.py::test_optimization",
+  "test_decorator.py::test_optimization_multi_level",
+  "test_decorator.py::test_parameter_types"
+]

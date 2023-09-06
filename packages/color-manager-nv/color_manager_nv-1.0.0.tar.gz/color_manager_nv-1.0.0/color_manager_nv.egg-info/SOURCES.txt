@@ -1,0 +1,11 @@
+LICENSE
+setup.py
+color_manager/__init__.py
+color_manager/gui.py
+color_manager/ngtk.py
+color_manager/utils.py
+color_manager_nv.egg-info/PKG-INFO
+color_manager_nv.egg-info/SOURCES.txt
+color_manager_nv.egg-info/dependency_links.txt
+color_manager_nv.egg-info/requires.txt
+color_manager_nv.egg-info/top_level.txt

@@ -1,0 +1,12 @@
+plinkliftover/__init__.py,sha256=3_Ck_DJ1YnAQ9-9ZSFCcYWTalFDcWngLoddNMIKH2Zg,1492
+plinkliftover/__main__.py,sha256=xqICZaos0EfCKf--PdJ0RMxp7D5jY1jdNLZuvJkv_Mk,4784
+plinkliftover/bed2map.py,sha256=PRjVJ9MmfAKqbiMYn-aErg8UxwRhpekvTwqX7yOmOcI,2247
+plinkliftover/liftover.py,sha256=foeZagmASx0PwVtWPrljzUP_F7T6iEQWTDe2DD8gX-s,4229
+plinkliftover/logger.py,sha256=t2zSjFrXdmEewRzs4L3qPwCz92T7yWHhaN5EhrxFW7Q,827
+plinkliftover/map2bed.py,sha256=8JlAf569PJrmtiHiCm1d3J1HHVuvm49d_HN2bS7i2PY,2218
+plinkliftover/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+plinkliftover-0.5.2.dist-info/METADATA,sha256=pMDZ2UJHpe7W41pXuc4SH4oKjvM_i3FJw4EuBjJkhnY,7061
+plinkliftover-0.5.2.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+plinkliftover-0.5.2.dist-info/entry_points.txt,sha256=QTeEVX2nm3JQtU1z0X7BZSfvsehm_DshafuIqH9LqZQ,147
+plinkliftover-0.5.2.dist-info/licenses/LICENSE.md,sha256=bqhD2fIhoqfLdX1lyGNoufIHWE7Q8mU-SyFadwKn4cc,34902
+plinkliftover-0.5.2.dist-info/RECORD,,

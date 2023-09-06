@@ -1,0 +1,7 @@
+README.md
+setup.py
+saffronorchestrator/__init__.py
+saffronorchestrator.egg-info/PKG-INFO
+saffronorchestrator.egg-info/SOURCES.txt
+saffronorchestrator.egg-info/dependency_links.txt
+saffronorchestrator.egg-info/top_level.txt

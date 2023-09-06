@@ -1,0 +1,13 @@
+algorename/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+algorename/main.py,sha256=icXAU5a25vDgVNml5N5I-2wQAmsKCOn73Ef5x_C8yxM,6914
+algorithms/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+algorithms/example.py,sha256=DLcC3rGbPqsXWSYg4uJHfGmOMPs946sOJK-OWpxbPgo,674
+algorithms/example2.py,sha256=DWmWXK2ckeWHe04pgycVPMffAliB0EFpHRQmX1sQQtw,677
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_algorithms_example.py,sha256=2hTlnY6YSFffyAqQXA1imp7hIgzzOLvxdd07Dr72x3o,736
+algorename-1.5.dist-info/LICENSE,sha256=cayfAedAr_H0Xay9dZXM3gm6Dv9p2sFmyb-Br_Qb7w8,1085
+algorename-1.5.dist-info/METADATA,sha256=gi5_1biOTpxbh7nP1rWfIqMbyoVKPrqNMZJhU6vdItM,3636
+algorename-1.5.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+algorename-1.5.dist-info/entry_points.txt,sha256=kJk_ff4z5rZ8VWs8btq6ef-QLH0EfSDHO9N7vfIgLks,52
+algorename-1.5.dist-info/top_level.txt,sha256=ZyEQMGoTa0zAPAh8GBQb7P6k7ayr2A_k5Fh1vc-9RKI,28
+algorename-1.5.dist-info/RECORD,,

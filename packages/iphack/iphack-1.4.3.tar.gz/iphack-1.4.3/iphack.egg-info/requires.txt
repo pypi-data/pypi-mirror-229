@@ -1,0 +1,5 @@
+ua-headers==0.0.3
+requests
+torpy==1.1.6
+pyproxify==0.0.1
+bs4==0.0.1

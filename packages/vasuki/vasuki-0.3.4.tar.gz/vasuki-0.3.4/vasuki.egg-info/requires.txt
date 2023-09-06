@@ -1,0 +1,9 @@
+docopt<1
+munch<5
+ulid-py==0.0.9
+hashids==1.2.0
+gibberish==0.4.0
+
+[service]
+responder<3,>=1
+typesystem==0.2.5

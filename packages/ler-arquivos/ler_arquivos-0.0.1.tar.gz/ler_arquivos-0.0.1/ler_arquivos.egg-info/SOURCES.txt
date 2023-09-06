@@ -1,0 +1,9 @@
+README.md
+setup.py
+ler_arquivos/__init__.py
+ler_arquivos/ler_arquivos.py
+ler_arquivos.egg-info/PKG-INFO
+ler_arquivos.egg-info/SOURCES.txt
+ler_arquivos.egg-info/dependency_links.txt
+ler_arquivos.egg-info/requires.txt
+ler_arquivos.egg-info/top_level.txt

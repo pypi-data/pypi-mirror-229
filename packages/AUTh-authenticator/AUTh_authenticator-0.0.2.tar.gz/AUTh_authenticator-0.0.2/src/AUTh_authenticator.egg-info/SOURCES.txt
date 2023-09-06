@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/AUTh_authenticator/__init__.py
+src/AUTh_authenticator/__preHeaders__.py
+src/AUTh_authenticator/universis.py
+src/AUTh_authenticator.egg-info/PKG-INFO
+src/AUTh_authenticator.egg-info/SOURCES.txt
+src/AUTh_authenticator.egg-info/dependency_links.txt
+src/AUTh_authenticator.egg-info/requires.txt
+src/AUTh_authenticator.egg-info/top_level.txt

@@ -1,0 +1,14 @@
+atoti_directquery_synapse/LICENSE,sha256=cPp3_uNzKaAx82fl_os5850JAcEbnP6s-OtZnLlU1SI,23472
+atoti_directquery_synapse/__init__.py,sha256=uF9I3kmjKgyK8TjqDgk9uwUgTlNSBviiRx-Tej0NdJ4,235
+atoti_directquery_synapse/_plugin.py,sha256=w9QbTIqLnfTIv3mV2x52rpS6vG_LFTlrxjn9hZYReSo,429
+atoti_directquery_synapse/connection.py,sha256=iw3gbMYHW3E5x0L2H1JOkDIejIHN4hH3jLY9zpjt-6Q,1404
+atoti_directquery_synapse/connection_info.py,sha256=wBcZM_edin2yTZLzg_ROTOpvwPrMoCoR4_T3ntUDL0o,2042
+atoti_directquery_synapse/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+atoti_directquery_synapse/table.py,sha256=5Cvyd-4igCXHrZM6KcdhykgqMbHjCf8gXtnWMyDNCfQ,127
+atoti_directquery_synapse/table_options.py,sha256=l3Obee3e9XdH0E8tq3jsH8K51wrTAYo02JsmwTh0TYM,4745
+atoti_directquery_synapse/data/atoti-directquery-synapse.jar,sha256=bPoWzfVj9rhQMtXngc8irhR7MkQOB_5Bxx1__ETrlss,31519334
+atoti_directquery_synapse-0.8.4.dist-info/METADATA,sha256=XenxMHCDF_vqCItTt5JLO3tiaiQ-pNMWdKqkTUw0_mQ,853
+atoti_directquery_synapse-0.8.4.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+atoti_directquery_synapse-0.8.4.dist-info/entry_points.txt,sha256=48lb0mZUzojbVOFLzoUNEraRO9njyxzVVN_7VfkFkL8,86
+atoti_directquery_synapse-0.8.4.dist-info/top_level.txt,sha256=7GEmEvW6xq_ureAW24c_U72vlOI2sBvnAlCdakeji-c,26
+atoti_directquery_synapse-0.8.4.dist-info/RECORD,,

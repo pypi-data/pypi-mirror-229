@@ -1,0 +1,565 @@
+#!/bin/bash
+
+root=${1:-app}
+app_py_path="${root//\//.}"
+app_py_path="${app_py_path#.}"
+app_py_path="${app_py_path%.}"
+mydir=$(pwd)
+
+dirs=(
+    "nginx"
+    "$root"
+    "$root/core"
+    "$root/core/models"
+    "$root/core/schemas"
+    "$root/tests"
+    "$root/tests/v1"
+    "$root/v1"
+    "$root/v1/dependencies"
+    "$root/v1/routers"
+    "$root/v1/internal"
+
+)
+
+declare -A files
+
+
+files=(
+    ["$root/main.py"]="
+from fastapi import FastAPI
+from fastapi.middleware.cors import CORSMiddleware
+from $app_py_path.v1 import routers
+from $app_py_path.v1.routers import root
+
+app = FastAPI()
+
+origins = [
+    'http://localhost',
+    'http://localhost:3000',
+]
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=origins,
+    allow_credentials=True,
+    allow_methods=['*'],
+    allow_headers=['*'],
+)
+
+
+########## ROUTERS ##########
+
+app.include_router(
+    root.endpoint_list,
+    prefix='',
+)
+
+app.include_router(
+    routers.router,
+    prefix='/v1',
+    tags=['v1'],
+)
+
+"
+    ["$root/workers.py"]="
+from uvicorn.workers import UvicornWorker
+
+class MyUvicornWorker(UvicornWorker):
+    # CONFIG_KWARGS = {'loop': 'asyncio', 'http': 'h11', 'lifespan': 'off'}
+    CONFIG_KWARGS = {'loop': 'asyncio', 'lifespan': 'off'}
+
+"
+    ["$root/core/utils.py"]="
+from fastapi import HTTPException
+from _morm_config_ import DB_POOL
+from morm.db import DB
+from $app_py_path.core.schemas.sql import Sql
+
+
+def fixType(x):
+    '''Fix type of string to int, float, bool, or None to be used in SQL queries
+
+    Args:
+        x (str): string to fix
+
+    Returns:
+        any: int, float, bool, or None to be used in SQL queries
+    '''
+    x = str(x).strip()
+    if x.lower() in ['true','ok','yes','y']: return True
+    if x.lower() in ['false','','no','n']: return False
+    if x.lower() in ['null','none','na','n/a']: return None
+    try:
+        if '.' in x: return float(x)
+        return int(x)
+    except:
+        return x
+
+async def get_table_info(m):
+    '''Get table/model information
+
+    Args:
+        m (ModelType): Model class
+
+    Returns:
+        dict: table/model information
+    '''
+    db = DB(DB_POOL)
+    db_table = m.Meta.db_table
+    meta = m.Meta.__dict__.copy()
+    try:
+        del meta['_field_defs_']
+        del meta['f']
+        for k in list(meta.keys()):
+            if k.startswith('_'): del meta[k]
+    except KeyError: ...
+    res = {
+        'general':{
+            'name': m.__name__,
+            'description': m.__doc__,
+            '_repr': repr(m),
+            },
+        'fields_detail': m._get_fields_json_(),
+        'meta': meta,
+    }
+    q = f\"select\\
+            relname as table_name,\\
+            nspname as schema,\\
+            reltuples as row_counts,\\
+            pg_relation_size(c.oid) AS size\\
+        from pg_class c JOIN pg_catalog.pg_namespace n\\
+        ON n.oid = c.relnamespace where relkind='r'\\
+        and relname = '{db_table}'\"
+    r = await db.fetch(q)
+    res['general']['stat'] = dict(**r[0])
+    # q = f'SELECT * FROM information_schema.columns WHERE table_name = '{db_table}';'
+    # r = await db.fetch(q)
+    # res['cols'] = r
+    # print(m._get_all_fields_json_())
+    return res
+
+async def run_sql(sql: Sql):
+    '''Run raw SQL query
+
+    Args:
+        sql (Sql): Sql dataclass object
+
+    Returns:
+        query result, depending on query function: sql.fn
+    '''
+    try:
+        db = DB(DB_POOL)
+        try:
+            fn = getattr(db, sql.fn)
+        except Exception as e:
+            raise HTTPException(status_code=403, detail=f'Unknown fn: {fn}')
+        return await fn(sql.q, *sql.vals)
+    except Exception as e:
+        raise HTTPException(status_code=403, detail=f'Error: {e}')
+
+"
+
+    ["$root/core/schemas/sql.py"]="
+from pydantic import BaseModel as PydanticBaseModel
+
+
+class Sql(PydanticBaseModel):
+    '''A simple SQL query model'''
+    fn:str = 'fetch'
+    q:str
+    vals:list = []
+
+"
+
+    ["$root/core/models/__init__.py"]="
+'''All models are available here in _all_models_ dict by their names.
+
+Please have unique names for your models to make proper use of the
+_all_models_ dict.
+'''
+
+import glob, os
+from morm.utils import import_module
+from morm.model import ModelType
+from $app_py_path.core.settings import BASE_DIR
+
+_all_models_ = {}
+
+for file in glob.glob(os.path.join(os.path.dirname(__file__), '*.py')):
+    if file.endswith('__init__.py'):
+        continue
+    module = import_module(file, base_path=BASE_DIR)
+    _all_models_.update(dict([(name, cls) for name, cls in module.__dict__.items() if isinstance(cls, ModelType) and not getattr(getattr(cls, 'Meta', None), 'abstract', True)]))
+
+"
+
+    ["$root/core/models/base.py"]="
+from morm.pg_models import BaseCommon, Base, Model
+
+# BaseCommon defines id, created_at and updated_at fields,
+# while pg_models.Base defines only id,
+# and pg_models.Model defines nothing.
+
+class MyBase(BaseCommon):
+    class Meta:
+        abstract = True
+
+"
+    ["$root/core/models/user.py"]="
+from morm.fields import Field
+from morm.fields.common import ForeignKey, EmailField
+from $app_py_path.core.models.base import MyBase
+
+
+class Org(MyBase):
+    '''All available organizations'''
+    class Meta:
+        db_table = 'orgs'
+        exclude_fields_up = ('created_at',)
+    name = Field('varchar(255)')
+    url = Field('varchar(255)')
+    description = Field('text')
+    isLive = Field('boolean')
+
+
+class User(MyBase):
+    '''All of our users'''
+    class Meta:
+        db_table = 'users'
+        exclude_fields_up = ('created_at',)
+        exclude_fields_down = ('password',)
+
+    username = Field('varchar(65)')
+    fullname = Field('varchar(65)')
+    nickname = Field('varchar(20)')
+    email = EmailField(max_length=255, unique=True)
+    password = Field('varchar(255)')
+    bio = Field('text')
+    profession = Field('varchar(255)', default='Unknown')
+    org = ForeignKey(Org, on_delete='SET NULL')
+    lastLogin = Field('timestamp')
+    isSuperUser = Field('boolean')
+    isLive = Field('boolean')
+
+
+class NormalUser(User):
+    '''A proxy to User class that filters out sensitive fields during data retrieval using db(Model) queries'''
+    class Meta:
+        proxy = True
+        exclude_fields_up = ('created_at',)
+        exclude_fields_down = ('password','isSuperUser','isLive', 'lastLogin')
+
+"
+    ["$root/core/settings.py"]="
+import os
+
+DEBUG = True if os.getenv('DEBUG', 'true').lower() == 'true' else False
+
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+"
+    ["$root/v1/routers/__init__.py"]="
+'''Make a single APIRouter that contains all the routers.
+
+We will automatically include all routers (module.router) in this directory
+sequentially. You should give sequential names to your router modules
+such as route_0001_admin.py, route_0002_user.py, etc...
+'''
+
+from fastapi import APIRouter
+import glob, os
+from morm.utils import import_module
+from $app_py_path.core.settings import BASE_DIR
+
+router = APIRouter()
+
+__all_router_paths = [] # This is for sorting the routers
+for file in glob.glob(os.path.join(os.path.dirname(__file__), '*.py')):
+    if file.endswith('__init__.py'):
+        continue
+    __all_router_paths.append(file)
+sorted(__all_router_paths)
+for file in __all_router_paths:
+    module = import_module(file, base_path=BASE_DIR)
+    router.include_router(module.router)
+del __all_router_paths
+
+"
+    ["$root/v1/routers/root.py"]="
+from typing import List
+from fastapi import APIRouter, Request
+from pydantic import BaseModel
+from $app_py_path.core.settings import DEBUG
+
+
+router = APIRouter()
+
+class RequestData(BaseModel):
+    method: str
+    url: str
+    base_url: str
+    headers: dict
+    cookies: dict
+    query_params: dict
+    form: list
+    body: str
+
+async def return_request(request: Request):
+    body = await request.body()
+    form = await request.form()
+    data = RequestData(
+        method=request.method,
+        url=str(request.url),
+        base_url=str(request.base_url),
+        headers=dict(request.headers),
+        cookies=request.cookies,
+        query_params=dict(request.query_params),
+        form=list(form),
+        body=body.decode('utf-8'),
+    )
+    return data
+
+
+@router.get('/')
+async def handle_get(request: Request):
+    '''
+    All available request data:
+
+    'app', 'auth', 'base_url', 'body', 'client', 'close', 'cookies', 'form', 'get', 'headers', 'is_disconnected', 'items', 'json', 'keys', 'method', 'path_params', 'query_params', 'receive', 'scope', 'send_push_promise', 'session', 'state', 'stream', 'url', 'url_for', 'user', 'values'
+    '''
+    return await return_request(request)
+
+
+
+class Endpoint(BaseModel):
+    title: str
+    url: str
+    version: str
+
+class EndpointList(BaseModel):
+    title: str
+    endpoints: List[Endpoint]
+
+endpoint_list = APIRouter()
+@endpoint_list.get('/')
+async def endpoint_list_get(request: Request):
+    return EndpointList(title='Welcome to our API base. We have a few versions available for you.', endpoints=[Endpoint(title='v1 endpoint of the API', url='/v1', version='v1')])
+
+"
+
+    ["$root/tests/v1/test_sample.py"]="
+from fastapi.testclient import TestClient
+from $app_py_path.main import app
+
+client = TestClient(app)
+
+def test_sample():
+    response = client.get('/')
+    assert response.status_code == 200
+    assert response.json() == {'msg': 'Hello World'}
+"
+    ["requirements.txt"]="morm
+fastapi
+uvicorn
+gunicorn
+python-multipart
+"
+    [".gitignore"]="*.pyc
+/build/
+/dist/
+/*egg-info/
+__pycache__/
+*.html
+*.old
+*.log
+.vscode/
+.idea/
+/.venv/
+/venv/
+/.env*
+.pytest_cache
+/htmlcov
+/site/
+.coverage
+coverage.xml
+Pipfile.lock
+.ipynb_checkpoints
+.mypy_cache
+
+# vim temporary files
+*~
+.*.sw?
+.cache
+"
+    ["nginx/default"]="server {
+    listen 80 default_server;
+
+    server_name _;
+
+    location /.well-known/acme-challenge/ {
+        alias $HOME/.acme-challenge/;
+        try_files \$uri =404;
+    }
+
+    location / {
+        return 302 https://\$host\$request_uri;
+    }
+}
+
+"
+    ["nginx/$app_py_path"]="
+server {
+    listen 443 ssl;
+    server_name $app_py_path.com www.$app_py_path.com;
+
+    ssl_certificate $HOME/neurocert/fullchain.crt;
+    ssl_certificate_key $HOME/neurocert/dom.key;
+    ssl_session_timeout 5m;
+    ssl_protocols TLSv1 TLSv1.1 TLSv1.2;
+    ssl_ciphers ECDHE-RSA-AES256-GCM-SHA384:ECDHE-RSA-AES128-GCM-SHA256:DHE-RSA-AES256-GCM-SHA384:ECDHE-RSA-AES256-SHA384:ECDHE-RSA-AES128-SHA256:ECDHE-RSA-AES256-SHA:ECDHE-RSA-AES128-SHA:DHE-RSA-AES256-SHA:DHE-RSA-AES128-SHA;
+    ssl_session_cache shared:SSL:50m;
+    #ssl_dhparam /path/to/server.dhparam;
+    ssl_prefer_server_ciphers on;
+
+    gzip on;
+    gzip_comp_level    5;
+    gzip_min_length    256;
+    gzip_proxied       any;
+    gzip_vary          on;
+
+    gzip_types
+    application/atom+xml
+    application/javascript
+    application/json
+    application/ld+json
+    application/manifest+json
+    application/rss+xml
+    application/vnd.geo+json
+    application/vnd.ms-fontobject
+    application/x-font-ttf
+    application/x-web-app-manifest+json
+    application/xhtml+xml
+    application/xml
+    font/opentype
+    image/bmp
+    image/svg+xml
+    image/x-icon
+    text/cache-manifest
+    text/css
+    text/plain
+    text/vcard
+    text/vnd.rim.location.xloc
+    text/vtt
+    text/x-component
+    text/x-cross-domain-policy;
+    # text/html is always compressed by gzip module
+
+    access_log  /var/log/nginx/$app_py_path.access.log;
+    error_log  /var/log/nginx/$app_py_path.error.log;
+
+
+    location ~ ^.*\.txt\$ {
+        access_log off; log_not_found off;
+        root $HOME/$app_py_path/raw;
+    }
+    location /img/ {
+        access_log off; log_not_found off;
+        root $HOME/$app_py_path/raw;
+    }
+
+    location = /favicon.ico { access_log off; log_not_found off; }
+    location /static/ {
+        access_log off; log_not_found off;
+        root $HOME/$app_py_path/raw;
+        expires 1d;
+    }
+
+    ##index.php should be converted to dir links, make it look like we run on PHP!
+    location ~ ^/(.*/)index[.](php)([^/]*)\$ {
+        return 301 /\$1\$3;
+    }
+    ##for domain/index.php, make it look like we run on PHP!
+    location ~ ^/index[.]php([^/]*)\$ {
+        return 301 /\$1;
+    }
+
+    location / {
+        include proxy_params;
+        proxy_pass http://unix:/tmp/.$app_py_path.sock;
+    }
+
+}
+
+"
+    ["run"]="#!/bin/bash
+. ./vact
+uvicorn $app_py_path.main:app --reload --loop asyncio
+"
+    ["mgr"]="#!/bin/bash
+. ./vact
+python mgr.py \${1+\"\$@\"}
+"
+    ["$app_py_path.service"]="[Unit]
+Description=$app_py_path daemon
+After=network.target
+
+[Service]
+User=$USER
+Group=$USER
+WorkingDirectory=$mydir
+ExecStart=$mydir/gunicorn.sh
+
+[Install]
+WantedBy=multi-user.target
+
+"
+    ["gunicorn.sh"]="#!/bin/bash
+. ~/.bashrc
+export LC_MEASUREMENT=en_US.UTF-8
+export LC_PAPER=en_US.UTF-8
+export LC_MONETARY=en_US.UTF-8
+export LANG=en_US.UTF-8
+export LC_NAME=en_US.UTF-8
+export LC_ADDRESS=en_US.UTF-8
+export LC_NUMERIC=en_US.UTF-8
+export LC_TELEPHONE=en_US.UTF-8
+export LC_IDENTIFICATION=en_US.UTF-8
+export LC_TIME=en_US.UTF-8
+
+
+export ${app_py_path^^}_ENV=live # use live env (from vact)
+
+################################################################################
+############################ Cleanups and resets ###############################
+################################################################################
+
+################################################################################
+. ./vact
+gunicorn --timeout 300 --access-logfile - --workers 3 -k $app_py_path.workers.MyUvicornWorker  --worker-connections=1000 $app_py_path.main:app --bind unix:/tmp/.$app_py_path.sock
+
+"
+
+)
+
+for dir in "${dirs[@]}"; do
+    mkdir -p "$dir"
+    file="$dir/__init__.py"
+    if [[ -f "$file" ]]; then
+        echo "File exists: $file"
+        continue
+    fi
+    if [[ "$dir" != 'nginx' ]]; then
+        echo "${files[$file]}" > "$file"
+    fi
+done
+
+for key in "${!files[@]}"; do
+    if [[ -f "$key" ]]; then
+        echo "File exists: $key"
+        continue
+    fi
+    echo "${files[$key]}" > "$key"
+done
+
+morm_admin init -p $app_py_path
+chmod +x ./run ./mgr ./gunicorn.sh
+pip install -r requirements.txt

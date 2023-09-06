@@ -1,0 +1,15 @@
+qci_client/__init__.py,sha256=Nk5w2s9WswRbhkXWkNeYjKCl_W2y0csYdIicGlzigjo,136
+qci_client/base.py,sha256=hXZa-TPd9R3hotNHEBx9f33CCOAbCS18wPIB2F_n6vA,5920
+qci_client/data_converter.py,sha256=7xVAfFkatzJRFV2PLHNYP78bx07P31r3g8iB4DUiNPo,16078
+qci_client/qci_client.py,sha256=-kDfaefQsvvQkRdzxPtO8cDIu1mqlz82i_ey-aZ-hqI,32310
+qci_client/utils.py,sha256=WKTPn5hHJyAbzo5bxuKQD0u--cFHB1mB6AY3DpMdEJQ,3543
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_data_converter.py,sha256=w_wOQS33k0qxxGqJT5ejsNkZGXXFtBhALZF9NVYSwo0,18895
+tests/test_qci_client.py,sha256=_wzdE1Qkzk-dlzux23cz35kQ6TfCHR6pMAd8PvLGVKg,32173
+tests/test_remote_jobs.py,sha256=bS-CBwJrqOjOsliKY2IUeYxWVKDxsYkhovF4_f3ZJLo,4248
+tests/test_utils.py,sha256=iRmspikr4m7ZRFLioj7iEB-sIAV8g8IKGQ5D_FNperw,4529
+qci_client-1.4.5.dist-info/LICENSE,sha256=8eh0oqsNNVR1Jk-13gkqRRSo2axtUU5kp2KzH4f9u3U,11354
+qci_client-1.4.5.dist-info/METADATA,sha256=0n7TDBtdFu8pUvrd_UhdK--0wk2V65H-NQwOwE4chBk,1723
+qci_client-1.4.5.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+qci_client-1.4.5.dist-info/top_level.txt,sha256=MblPAORzqAj0Nby1KQFz9tixdFXXEuijRwhiqps2vo0,17
+qci_client-1.4.5.dist-info/RECORD,,

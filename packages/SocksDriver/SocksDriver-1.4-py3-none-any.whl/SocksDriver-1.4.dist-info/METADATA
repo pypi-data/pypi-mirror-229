@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: SocksDriver
+Version: 1.4
+Summary: Driver for proprietary ChristmasSocks server
+Author: David Weber
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# SocksDriver
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+
+Driver for proprietary ChristmasSocks server.

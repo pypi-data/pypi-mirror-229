@@ -1,0 +1,7 @@
+README.md
+setup.py
+omero_webtagging_autotag.egg-info/PKG-INFO
+omero_webtagging_autotag.egg-info/SOURCES.txt
+omero_webtagging_autotag.egg-info/dependency_links.txt
+omero_webtagging_autotag.egg-info/requires.txt
+omero_webtagging_autotag.egg-info/top_level.txt

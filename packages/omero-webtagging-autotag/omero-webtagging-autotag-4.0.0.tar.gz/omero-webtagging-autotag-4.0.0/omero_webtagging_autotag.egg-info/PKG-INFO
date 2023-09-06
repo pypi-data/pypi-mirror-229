@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: omero-webtagging-autotag
+Version: 4.0.0
+Summary: omero-webtagging-autotag is now omero-autotag
+Classifier: Development Status :: 7 - Inactive
+Description-Content-Type: text/markdown
+
+# omero-webtagging-autotag is now omero-autotag
+
+This package has been renamed. Use `pip install omero-autotag` instead.
+
+New package: https://pypi.org/project/omero-autotag/

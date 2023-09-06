@@ -1,0 +1,1 @@
+from gorillacareer.jobPostFinder import get_job_from_linkedin, get_job_from_indeed

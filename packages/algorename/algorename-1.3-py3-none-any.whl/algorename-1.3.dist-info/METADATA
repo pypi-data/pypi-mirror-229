@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: algorename
+Version: 1.3
+Summary: A utility to change file names based on algorithms.
+Author: Mario Nascimento
+Author-email: mario@whitehathacking.tech
+License-File: LICENSE
+Requires-Dist: python-dotenv
+Requires-Dist: pytest
+

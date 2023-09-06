@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: omero-webtagging-tagsearch
+Version: 4.0.0
+Summary: omero-webtagging-tagsearch is now omero-tagsearch
+Classifier: Development Status :: 7 - Inactive
+Description-Content-Type: text/markdown
+
+# omero-webtagging-tagsearch is now omero-tagsearch
+
+This package has been renamed. Use `pip install omero-tagsearch` instead.
+
+New package: https://pypi.org/project/omero-tagsearch/

@@ -1,0 +1,4 @@
+Click>=7.0
+agent-marketplace-sdk==0.1.6
+ai_maintainer_git_util>=0.1.0
+docker>=4.2.2

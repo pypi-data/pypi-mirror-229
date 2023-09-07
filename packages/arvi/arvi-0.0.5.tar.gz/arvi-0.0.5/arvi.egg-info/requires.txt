@@ -1,0 +1,5 @@
+loguru
+mpldatacursor
+tqdm
+pyexoplaneteu
+dace-query

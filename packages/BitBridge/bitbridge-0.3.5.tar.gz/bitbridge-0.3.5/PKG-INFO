@@ -1,0 +1,88 @@
+Metadata-Version: 2.1
+Name: BitBridge
+Version: 0.3.5
+Summary: A modern Python interface to the Bitcoin Core RPC, offering both synchronous and asynchronous support.
+Project-URL: Homepage, https://github.com/godd0t/bitbridge
+Author-email: godd0t <lirrishala@gmail.com>
+License: MIT
+License-File: LICENSE
+Classifier: Development Status :: 1 - Planning
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Software Development :: Version Control :: Git
+Classifier: Topic :: Utilities
+Requires-Python: >=3.10
+Requires-Dist: httpx>=0.24.1
+Requires-Dist: rich>=13.5.2
+Provides-Extra: lint
+Requires-Dist: black>=23.7.0; extra == 'lint'
+Requires-Dist: ruff>=0.0.287; extra == 'lint'
+Provides-Extra: test
+Requires-Dist: coverage[toml]>=7.3.0; extra == 'test'
+Requires-Dist: faker>=19.3.1; extra == 'test'
+Requires-Dist: pytest-asyncio>=0.21.1; extra == 'test'
+Requires-Dist: pytest-sugar>=0.9.7; extra == 'test'
+Requires-Dist: pytest>=7.4.1; extra == 'test'
+Description-Content-Type: text/markdown
+
+# BitBridge 🌉
+
+BitBridge offers a seamless Python interface to the Bitcoin Core RPC, simplifying interactions with the Bitcoin protocol. With support for both synchronous and asynchronous operations, BitBridge is perfectly suited for diverse applications - from web platforms and backend services to data analytics tools. 
+
+## 🌟 Features
+
+- **Dual Mode Operations**: Supports both synchronous and asynchronous operations, giving you the flexibility to choose based on your application's needs.
+  
+- **Modularity at Core**: Designed with a modular architecture, BitBridge can easily be extended and integrated into a variety of systems.
+  
+- **Complete RPC Integration**: Comprehensive coverage of all RPC methods offered by Bitcoin Core, ensuring you have everything you need for Bitcoin interactions in one place.
+
+## 🚀 Installation
+
+```bash
+pip install BitBridge
+```
+
+## 🎯 Quick Start
+
+### Synchronous Mode:
+
+```python
+from bitbridge import BitBridgeFacade, BitBridgeConfig
+
+# Configure RPC server details
+config = BitBridgeConfig(url="http://127.0.0.1:8332", username="your_username", password="your_password")
+bridge = BitBridgeFacade(config)
+
+def fetch_best_block():
+    # Retrieve the best block hash
+    best_block_hash = bridge.blockchain.get_best_block_hash()
+    # Additional operations...
+```
+
+### Asynchronous Mode:
+
+```python
+from bitbridge import AsyncBitBridgeFacade, BitBridgeConfig
+
+# Configure RPC server details
+config = BitBridgeConfig(url="http://127.0.0.1:8332", username="your_username", password="your_password")
+bridge = AsyncBitBridgeFacade(config)
+
+async def fetch_best_block():
+    # Retrieve the best block hash
+    best_block_hash = await bridge.blockchain.get_best_block_hash()
+    # Additional operations...
+```
+
+## 🛠 Status
+
+🚧 **Development Phase**: Please note that BitBridge is still in its initial development phase. Some features might be experimental.
+
+## 📜 License
+
+BitBridge is open-sourced under the [MIT License](https://github.com/godd0t/bitbridge/blob/main/LICENSE). 

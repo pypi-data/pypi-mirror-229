@@ -1,0 +1,13 @@
+coords/AltAz.py,sha256=yI97XfgJIW1gPyMgrbqbQmNwXFV9Jpnmmx_DPSOyFQU,2127
+coords/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+coords/hour_angle.py,sha256=fsPGJMWXz719Bdryw3Dq1zqFxnZW7EfNEW2nOpE2Els,1561
+parse/LatLon.py,sha256=2F7kwxPjFOKxPc-vnkY8GLxKolKB8hiDaNRMnUdbSd8,1322
+parse/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+time/JD.py,sha256=vomOMf2VyhXkXUIJiGvcQbx4T1c_vdyIDSUUOqTt1iw,3080
+time/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+time/lst.py,sha256=dtdAwzPvtMtX1sJEXZHR6l5uHzXcOfQyk-6jSdupUEI,2664
+astrotransform-0.1.1.dist-info/LICENSE,sha256=ohytDhe8JcyF_87v00JFY2UBzI1x7y4b4Dm4yVLFa2A,1087
+astrotransform-0.1.1.dist-info/METADATA,sha256=vdUmzPnZgxNyh-XMfDcXB6-fxMkoq4MYwrbkzykXSFE,372
+astrotransform-0.1.1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+astrotransform-0.1.1.dist-info/top_level.txt,sha256=6d2eGPnCHNiQD7oyWynEfcgcMfCL3IALaTW41qI-GnY,18
+astrotransform-0.1.1.dist-info/RECORD,,

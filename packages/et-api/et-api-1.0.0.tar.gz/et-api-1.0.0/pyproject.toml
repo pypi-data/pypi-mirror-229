@@ -1,0 +1,25 @@
+[build-system]
+requires=['setuptools', 'setuptools-scm']
+build-backend="setuptools.build_meta"
+
+[tools.setuptools.packages.find]
+where = ["src"]
+include = ["et_api"]
+namespaces = true
+
+[project]
+name = "et-api"
+version = "1.0.0"
+readme = "README.md"
+description = "Proofpoint Emerging Threats Python API Package"
+license = { text = "MIT" }
+requires-python = ">3.9"
+dependencies = [
+    'requests'
+]
+
+[project.urls]
+repository = "https://github.com/pfptcommunity/et-api-python"
+homepage = "https://apidocs.emergingthreats.net"
+#documentation = "https://github.com/pfptcommunity/et-api-python"
+#changelog = "https://github.com/pfptcommunity/et-api-python"

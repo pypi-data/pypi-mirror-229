@@ -1,0 +1,9 @@
+flake8_no_pytest_mark_only/__init__.py,sha256=xLp0dOjpZnhHmZOArQmXj15S2nBfvuPt6grUdQEvmm8,175
+flake8_no_pytest_mark_only/plugin.py,sha256=v3HRM4v1lUzUlfhk5k8NJOU-0iTPe98dBUTWAB1_Kes,2324
+flake8_no_pytest_mark_only/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+flake8_no_pytest_mark_only-1.0.0.dist-info/LICENSE,sha256=JMoNJDyJe7DUq4yNgOsFijXszYCNDCSZh0aeWAAsnuw,1062
+flake8_no_pytest_mark_only-1.0.0.dist-info/METADATA,sha256=A0Oeyv3RsRjhveHsQjCn3kI3GxXOGi3ArAkU6KJKsIc,3660
+flake8_no_pytest_mark_only-1.0.0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+flake8_no_pytest_mark_only-1.0.0.dist-info/entry_points.txt,sha256=_RTPki5bAXhdE8efFrA3MGE6hrovbJKXJSQWI-4RXDw,82
+flake8_no_pytest_mark_only-1.0.0.dist-info/top_level.txt,sha256=47h2l1iIU6T0_HjAfjbXmE4QxmuE8IxTCSE4B7soegE,27
+flake8_no_pytest_mark_only-1.0.0.dist-info/RECORD,,

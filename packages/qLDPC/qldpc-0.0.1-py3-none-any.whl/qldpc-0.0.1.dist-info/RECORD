@@ -1,0 +1,7 @@
+qldpc/__init__.py,sha256=X7lgqSW6af5q-zf69H18IFtKepDMEsoFOgCAjZK-uKU,178
+qldpc/abstract.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+qldpc/codes.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+qldpc-0.0.1.dist-info/LICENSE,sha256=utE3ICsUiDEY2sfPx66eIcWZCVnNhxMm2wReY-zIQq8,11345
+qldpc-0.0.1.dist-info/METADATA,sha256=W70KTbi20LnKaPpsvOy90Xvsj-jf-ZgJUDVanEX54Ck,4636
+qldpc-0.0.1.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+qldpc-0.0.1.dist-info/RECORD,,

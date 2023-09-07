@@ -1,0 +1,16 @@
+*.log
+*.qcow2
+vmlinuz
+*.fd
+.vscode/
+output/
+__pycache__/
+rpmbuild/
+repo/
+*.done
+hosts
+attestation/full-disk-encryption/Cargo.lock
+attestation/full-disk-encryption/target/
+deploy/tdx_stack/tdx_repo/
+build/ubuntu-22.04/guest_repo/
+build/ubuntu-22.04/host_repo/

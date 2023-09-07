@@ -1,0 +1,13 @@
+fastpy_rest/__init__.py,sha256=GuxKr3AD6oQn5M89FLkK3LSZuPyFOGcIp3Kq5b6ltOA,210
+fastpy_rest/core.py,sha256=QOIk52v0VGYFfAO8ZXze_VvgFWfp021vgJ0-0gUVWGw,9599
+fastpy_rest/exceptions.py,sha256=0m6OcrxVYwo-W9fIq6re82_u9j4g3NGoFB9S_KCDvQU,1237
+fastpy_rest/main.py,sha256=FA4riM2bUkOwHM-koE1zeenODvj_HnvuxwMMV4LrXWE,7028
+fastpy_rest/params.py,sha256=s4v9yGZDt3Qb-rMTAy0Zc389onEtfES-h4IMQq_a5FU,5881
+fastpy_rest/requests.py,sha256=E8isQQqqpC723emLfda0YLFmM36jXXZJGmRewxzAh2k,3707
+fastpy_rest/responses.py,sha256=tINhPf4THJm8F2ormM-P7xALb6eeqfVHpkdwDcfIpSk,1479
+fastpy_rest/status_codes.py,sha256=zmu7SP3ALK0NS2MgzGoQpcY4wSUGTrVK-V9k6Nehhpg,1732
+fastpy_rest-0.1.3.dist-info/LICENSE,sha256=lCMePJPfuUa3gmDFjsHWj-fGQZ7IDOPun8ehqyDq2Fw,1089
+fastpy_rest-0.1.3.dist-info/METADATA,sha256=hJtr0W26AC2oIOJ2DYAzCHmy8moE2FOSU8WU-loasF8,5805
+fastpy_rest-0.1.3.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+fastpy_rest-0.1.3.dist-info/top_level.txt,sha256=gX36AQPJ8S1kOLYgNS8VU6x6dVeEpEMZ3x-YoJf5lFk,12
+fastpy_rest-0.1.3.dist-info/RECORD,,

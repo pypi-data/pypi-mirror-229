@@ -1,0 +1,8 @@
+README.md
+setup.py
+TNSA/__init__.py
+TNSA/tnsaltk.py
+TNSALTK.egg-info/PKG-INFO
+TNSALTK.egg-info/SOURCES.txt
+TNSALTK.egg-info/dependency_links.txt
+TNSALTK.egg-info/top_level.txt

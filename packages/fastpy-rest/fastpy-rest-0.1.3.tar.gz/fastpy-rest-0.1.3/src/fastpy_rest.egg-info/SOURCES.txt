@@ -1,0 +1,17 @@
+LICENSE
+README.md
+setup.py
+src/fastpy_rest/__init__.py
+src/fastpy_rest/core.py
+src/fastpy_rest/exceptions.py
+src/fastpy_rest/main.py
+src/fastpy_rest/params.py
+src/fastpy_rest/requests.py
+src/fastpy_rest/responses.py
+src/fastpy_rest/status_codes.py
+src/fastpy_rest.egg-info/PKG-INFO
+src/fastpy_rest.egg-info/SOURCES.txt
+src/fastpy_rest.egg-info/dependency_links.txt
+src/fastpy_rest.egg-info/requires.txt
+src/fastpy_rest.egg-info/top_level.txt
+tests/test_fastpy.py

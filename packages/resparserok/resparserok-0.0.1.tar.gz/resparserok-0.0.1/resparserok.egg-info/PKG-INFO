@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: resparserok
+Version: 0.0.1
+Summary: A simple resume parser used for extracting information from resumes, compatible with python 3.10
+Home-page: https://github.com/sinmentis/pyresparser-py3.10
+Author: sinmentis
+License: GPL-3.0
+License-File: LICENSE

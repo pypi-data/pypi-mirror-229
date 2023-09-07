@@ -1,0 +1,26 @@
+numpy<2,>=1.23
+
+[:python_version < "3.10"]
+magicgui==0.7.2
+
+[:python_version >= "3.10"]
+magicgui==0.7.3
+
+[:sys_platform != "darwin"]
+qtpy==2.3.1
+
+[:sys_platform == "darwin"]
+qtpy>=2.3.0
+
+[docs]
+mkdocs-material
+mkdocstrings-python
+mkdocstrings
+
+[testing]
+tox
+pytest
+pytest-cov
+pytest-qt
+napari
+pyqt5

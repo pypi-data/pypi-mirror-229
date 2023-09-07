@@ -1,0 +1,21 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+[project]
+name = "numfracpy"
+version = "0.3"
+authors = [
+  { name="Jorge Hernan Lopez", email="jhlopezm2@gmail.com" },
+  { name="Alejandro Perez", email="aaappprrr@gmail.com" }
+]
+description = "This Library implements functions in the fractional calculus framework. "
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+[project.urls]
+"Homepage" = "https://github.com/jhlopezm/NUMFRACPY"
+"Bug Tracker" = "https://github.com/jhlopezm/NUMFRACPY/issues"

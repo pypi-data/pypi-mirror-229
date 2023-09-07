@@ -1,0 +1,13 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.py
+bdvisual/__init__.py
+bdvisual.egg-info/PKG-INFO
+bdvisual.egg-info/SOURCES.txt
+bdvisual.egg-info/dependency_links.txt
+bdvisual.egg-info/requires.txt
+bdvisual.egg-info/top_level.txt
+bdvisual/plot/__init__.py
+bdvisual/plot/outdir.py
+bdvisual/plot/rador.py

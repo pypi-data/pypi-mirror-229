@@ -1,0 +1,8 @@
+setup.py
+resparserok.egg-info/PKG-INFO
+resparserok.egg-info/SOURCES.txt
+resparserok.egg-info/dependency_links.txt
+resparserok.egg-info/entry_points.txt
+resparserok.egg-info/not-zip-safe
+resparserok.egg-info/requires.txt
+resparserok.egg-info/top_level.txt

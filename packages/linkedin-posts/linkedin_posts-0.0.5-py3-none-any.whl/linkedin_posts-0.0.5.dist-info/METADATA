@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: linkedin-posts
+Version: 0.0.5
+Summary: Utility to share Linkedin posts using the Linkedin Marketing API
+Author-email: Rami <ramiboutas@protonmail.com>
+Project-URL: Homepage, https://github.com/ramiboutas/linkedin-posts
+Project-URL: Bug Tracker, https://github.com/ramiboutas/linkedin-posts/issues
+Project-URL: Documentation, https://linkedin-posts.ramiboutas.com
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+
+# linkedin-posts
+
+
+[Documentation](https://linkedin-posts.ramiboutas.com)

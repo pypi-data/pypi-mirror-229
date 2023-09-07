@@ -1,0 +1,15 @@
+analysis_usedecorator.py,sha256=oprYdoLVP09F4fuBEIaMD4-rL6PxcZYZPRyrRJxvw-g,4094
+datapeachcli.py,sha256=m_QFUZd46DtOPDGuuah0XOBGuhYcaYCYaYtYI6u53aM,17313
+templates/LICENSE,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+templates/README.md,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+templates/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+templates/requirements.txt,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+templates/setup.j2,sha256=ZgX4tEBsxSmo4B2i3c6pNIvhQNcPsbAVvFk_ICJStZc,200
+templates/src/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+templates/src/main.py,sha256=tOpYYedFX8OtHOfXusWPNV5KARppyPpCfsREByZAwJA,545
+templates/src/main_async.py,sha256=FFBm3xC6x1gXoUWTELPVAFyu7QQZYn5VjKNVPWQOtb4,584
+datapeach_cli-1.0.1.dist-info/METADATA,sha256=E44LSWai_zCNkxYAcD938oXkqeCWUq4phxY-9XVV6s0,407
+datapeach_cli-1.0.1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+datapeach_cli-1.0.1.dist-info/entry_points.txt,sha256=-2ms_Vi8jE5U0ce4lnHZEqM-vktbVWoSgaBy9LrSWaY,66
+datapeach_cli-1.0.1.dist-info/top_level.txt,sha256=ce-50Tr--YiLhO5ysiaqd98iTOeC7N7Tpj6X6cw6tfY,45
+datapeach_cli-1.0.1.dist-info/RECORD,,

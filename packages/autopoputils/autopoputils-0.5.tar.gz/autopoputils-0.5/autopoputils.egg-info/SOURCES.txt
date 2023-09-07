@@ -1,0 +1,10 @@
+README.md
+setup.py
+autopoputils/__init__.py
+autopoputils/aws_util.py
+autopoputils/recording_util.py
+autopoputils.egg-info/PKG-INFO
+autopoputils.egg-info/SOURCES.txt
+autopoputils.egg-info/dependency_links.txt
+autopoputils.egg-info/requires.txt
+autopoputils.egg-info/top_level.txt

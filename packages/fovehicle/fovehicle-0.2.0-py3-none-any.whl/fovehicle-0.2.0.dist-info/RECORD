@@ -1,0 +1,11 @@
+fovehicle/__init__.py,sha256=z5Ozn0BAZ1EjozdILF7BPUV2R26OxT6eY3XWuBv0Y_Y,724
+fovehicle/emotor.py,sha256=Xpx4hDY0kPz4bU4ALKzluhEGPYKZ4vjZYH1uj_MZZSY,658
+fovehicle/engine.py,sha256=fAmobEfElnz2xta_9CDX60szM7gxReINQDc195dhrJY,806
+fovehicle/gearbox.py,sha256=FWNaGgNgYFCCOtNzR9MaqrvHdxCTdmFN6xks8rz9KoI,690
+fovehicle/resistance.py,sha256=-6lYez4zKV5DmTyXmKWrWNgA4rdZyan_zqjQwS86bqU,1708
+fovehicle/vehicle.py,sha256=02KGBzbUp3Y6w8GhoqydsAkEVnHTGF6UFar1XzP4R2E,4987
+fovehicle-0.2.0.dist-info/LICENSE.txt,sha256=9TFvhl9vZv0CHHbLZqlTUzjyDcKgBBsDWRBknkH_7Hk,1079
+fovehicle-0.2.0.dist-info/METADATA,sha256=1aHW6ZCj-kEXh9A1WkHGD2U5m1m6aYDeLzQd7_1SkAU,2474
+fovehicle-0.2.0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+fovehicle-0.2.0.dist-info/top_level.txt,sha256=oK361PW7A5z2qY1T9sVuCpHjrkSi8j2_irN0iHt8nhc,10
+fovehicle-0.2.0.dist-info/RECORD,,

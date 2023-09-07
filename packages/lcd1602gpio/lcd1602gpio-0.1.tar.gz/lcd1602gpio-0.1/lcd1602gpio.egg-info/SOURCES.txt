@@ -1,0 +1,10 @@
+LICENSE
+README.md
+lcd1602gpio.py
+pyproject.toml
+setup.py
+lcd1602gpio.egg-info/PKG-INFO
+lcd1602gpio.egg-info/SOURCES.txt
+lcd1602gpio.egg-info/dependency_links.txt
+lcd1602gpio.egg-info/requires.txt
+lcd1602gpio.egg-info/top_level.txt

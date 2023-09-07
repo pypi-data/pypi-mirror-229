@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: fast-auth-tools
+Version: 0.1.0
+Summary: Simple Authentication Library for FastAPI
+Home-page: https://github.com/nihilok/auth_base
+Author: nihilok
+Author-email: 

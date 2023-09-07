@@ -1,0 +1,13 @@
+topicgpt/Clustering.py,sha256=BvQvjFPsgdwwqSe-PbwFY2M9eqgNxK2c1Irn_AhfK9Q,12039
+topicgpt/ExtractTopWords.py,sha256=LXElB4yuIq4IzIsZxphfst_qSUAFD5dC5wMy0RMQcxk,18978
+topicgpt/GetEmbeddingsOpenAI.py,sha256=uivUSZ18Ly1627L2tlQtGosARjvy5pR6JF2JcDMB5hE,7969
+topicgpt/Metrics.py,sha256=M8_l4ojn0Vw2ZAeT_nMMbWZfF_xe9rmyJoDgxABX2v4,20934
+topicgpt/TopicGPT.py,sha256=ssxpEewZiDAI5bODAkzmA3v3uG3dGvgxl0cpPBAgkGs,19038
+topicgpt/TopicPrompting.py,sha256=FUnaWXLhNTmmikYGBBeDbr3h3HHajZwIuuk7j_5_yBM,59484
+topicgpt/TopicRepresentation.py,sha256=upG5ujpHKRJmhmJDNiRZjExXtcLlWCsSGHEZKpTzGxM,32558
+topicgpt/TopwordEnhancement.py,sha256=AtdOMFWf7WzAfeVSaFaxtzsvcOkoI8pvVoe7h8I7nNc,16024
+topicgpt/__init__.py,sha256=i68m10z_RSD_MSucy_lZLqIiyKH2jqenJPFovvonKMY,320
+topicgpt-0.0.1.dev9.dist-info/METADATA,sha256=o_0Xw2YAZTEF7XtjQb2s4FHrOuiF1TzHpAyNPWqUpR0,18962
+topicgpt-0.0.1.dev9.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+topicgpt-0.0.1.dev9.dist-info/top_level.txt,sha256=G21kkadGUYCDXNtssmQGKUPSH6vXvAN2NT9AEnFPhNs,9
+topicgpt-0.0.1.dev9.dist-info/RECORD,,

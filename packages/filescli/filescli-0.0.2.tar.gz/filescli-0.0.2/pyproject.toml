@@ -1,0 +1,25 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "filescli"
+version = "0.0.2"
+authors = [
+  { name="Alex Yurhel", email="alexyurgel@gmail.com" },
+]
+description = "File manager for the command line"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.scripts]
+filescli = 'filescli:run_app'
+
+[project.urls]
+"Homepage" = "https://github.com/lestec-al/files"
+"Bug Tracker" = "https://github.com/lestec-al/files/issues"

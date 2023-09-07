@@ -1,0 +1,12 @@
+__pycache__/
+output/
+.venv/
+.vscode/
+
+pypi/
+
+icon.ico
+.gitignore
+
+.test.py
+files_kivy_ftp.py

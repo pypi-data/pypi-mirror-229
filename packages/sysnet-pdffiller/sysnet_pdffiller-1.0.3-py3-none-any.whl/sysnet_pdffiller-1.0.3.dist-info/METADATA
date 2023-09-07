@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: sysnet-pdffiller
+Version: 1.0.3
+Summary: Tools for filling PDF templates with data
+Author-email: Data Developer <info@sysnet.cz>
+Project-URL: Homepage, https://github.com/SYSNET-CZ/pdf/tree/master/pdf-filler
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Programming Language :: Python :: 3
+Classifier: Intended Audience :: Developers
+Classifier: License :: Free For Home Use
+Classifier: Natural Language :: Czech
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Software Development :: Libraries
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: PyPDF3 ==1.0.6
+Requires-Dist: fillpdf ==0.7.2
+Requires-Dist: requests ~=2.31.0
+Requires-Dist: pyreportjasper ~=2.1.2
+Requires-Dist: sysnet-pyutils >=1.0.2
+Requires-Dist: sysnet-ident >=1.0.2
+
+# PDF Filler
+
+Knihovna pro plnění připravených PDF šablon daty.

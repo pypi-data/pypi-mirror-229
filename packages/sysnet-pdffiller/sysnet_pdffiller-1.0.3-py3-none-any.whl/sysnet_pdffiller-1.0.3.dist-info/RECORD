@@ -1,0 +1,9 @@
+sysnet_pdf/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sysnet_pdf/config.py,sha256=4RF7d3A69IGgbMTZb2JITjPTqXVb0lelP4pNg4UutOw,292
+sysnet_pdf/jasper.py,sha256=VY-sCqGKmG-6UII1dXg7L53YDM-Pe60iOtlcfEzlgus,816
+sysnet_pdf/pdf_utils.py,sha256=UzjXd2D6VQ41Pne_6f9E-T79SpVAfiva_aM1M2_ff4I,12915
+sysnet_pdffiller-1.0.3.dist-info/LICENSE,sha256=bx5iLIKjgAdYQ7sISn7DsfHRKkoCUm1154sJJKhgqnU,35184
+sysnet_pdffiller-1.0.3.dist-info/METADATA,sha256=KVNTQwgxJJad3iv1s2vcq5Fj83Hep0uYeWs7BE0syWs,952
+sysnet_pdffiller-1.0.3.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+sysnet_pdffiller-1.0.3.dist-info/top_level.txt,sha256=ZJRhbnrH5efdEL2-UgNEuPzfPawUXZl0aXI0GuRtcV4,11
+sysnet_pdffiller-1.0.3.dist-info/RECORD,,

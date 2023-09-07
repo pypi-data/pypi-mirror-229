@@ -1,0 +1,15 @@
+axsqlalchemy/__init__.py,sha256=LCQnj5RVBNGkyWtwcbfCBLfSwLNbTuDa1vESdOtE3mM,265
+axsqlalchemy/model.py,sha256=AZpyXJaKNjRMVCixzX3IviGVG3aYVGIKTTsWvOzR_VQ,1884
+axsqlalchemy/repository.py,sha256=oDMMCw9xhFwldkdi1oq0KzpEaetf5luq0Myp1Ol0iTQ,6107
+axsqlalchemy/schema.py,sha256=88Ehz1XLV-zh6ZveidShvN3BcjchDjVxHnIYKyODF2Y,718
+axsqlalchemy/settings.py,sha256=VkdxkOjz_SX8GuROdLW03CTPskVJDSpV4FYcx60eQ8M,578
+axsqlalchemy/uow.py,sha256=4ToVPp2UQ9Zc1A1Yez55RzRrPYykmwP0UeIbPOYh3wg,1709
+axsqlalchemy/testing/__init__.py,sha256=v3Q5gxpGLAJrkd34996VZDz6IZaIpRvsUh-WRpjz6lg,126
+axsqlalchemy/testing/base_async_repo_test.py,sha256=kvvXYD9owP2BjBq1L_bBe9p5c94lTBDZAceCXyU9y28,2421
+axsqlalchemy/utils/__init__.py,sha256=uwLzrNx4Pf242UUlQ7GqsPY3C6H59O1J43wdpQDkg4o,144
+axsqlalchemy/utils/creation.py,sha256=kl0WWjHHlX1ux0hPMIcIISiaGbXzkV3cizpZj7toq5s,537
+axsqlalchemy/utils/filters.py,sha256=ljZ_31Znhxb70EOAkfqJU9AyS8Mfz2Z-yqWzfEe9gvs,1079
+axsqlalchemy-0.0.35.dist-info/METADATA,sha256=9bper5WRg9EgfGGHcIGfpZtAXudLsPSBPmFc8XyM2cc,301
+axsqlalchemy-0.0.35.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+axsqlalchemy-0.0.35.dist-info/top_level.txt,sha256=DQHGT32p1VVG5ESQeTnOIaAcakqvKO0eiUkRjUNzrVU,13
+axsqlalchemy-0.0.35.dist-info/RECORD,,

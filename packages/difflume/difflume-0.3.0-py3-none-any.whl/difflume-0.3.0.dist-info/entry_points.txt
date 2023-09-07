@@ -1,0 +1,3 @@
+[console_scripts]
+difflume=difflume.main:main
+

@@ -1,0 +1,9 @@
+pylitsense/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pylitsense/pylitsense.py,sha256=9BYfyvdsZbWiu1FMBxWFR4plg3KLvipwKXlPkFLFAVs,1322
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_pylitsense.py,sha256=Ykx_Um3SWk8tS7-Pv9wHJQfsHk9LJq3s0dbTa0Fw_as,1004
+pylitsense-0.1.0.dist-info/LICENSE,sha256=RzrgfK83XOt8jkqWkgNcDuXZDKUBJP1BIVt_Kgg_s1E,1069
+pylitsense-0.1.0.dist-info/METADATA,sha256=toskKOS3OnF5rFbSfQp8GWr5NmvFRRIT8oUs_oSxF2g,2691
+pylitsense-0.1.0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+pylitsense-0.1.0.dist-info/top_level.txt,sha256=d7cihwtLi_MK2cfxqFR2_TeCTihhgZFwrGKzVPhFXlM,17
+pylitsense-0.1.0.dist-info/RECORD,,

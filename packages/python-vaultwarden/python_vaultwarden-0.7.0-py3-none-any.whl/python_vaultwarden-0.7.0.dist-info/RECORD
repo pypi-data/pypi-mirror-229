@@ -1,0 +1,15 @@
+vaultwarden/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+vaultwarden/__version__.py,sha256=RaANGbRu5e-vehwXI1-Qe2ggPPfs1TQaZj072JdbLk4,22
+vaultwarden/clients/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+vaultwarden/clients/bitwarden.py,sha256=b7YiJbsNARLo0PMTiBudh--WLoeEwxcnbwZgXU15B6I,18940
+vaultwarden/clients/vaultwarden.py,sha256=97bkiT9d7MtnLKYOA7fTsFpZGK2MUxBSN4rhLprOuMQ,6177
+vaultwarden/models/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+vaultwarden/models/api_models.py,sha256=CynGhhCVmW95h62QtVErUxNr89W5QtOxoTqhteWpNRU,1440
+vaultwarden/models/exception_models.py,sha256=SWUcpJAeAXTg8htm2jUynWKsWHiO6UNqQIsY0eQZuGI,186
+vaultwarden/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+vaultwarden/utils/logger.py,sha256=EJj9ePhjUaIQElCEXkOFr9tgCiN4dRdrozvQ7FXZEws,75
+vaultwarden/utils/tools.py,sha256=-IoqYiLu4cK2LG5Bumovd03i6K_Iz0xjUeiTaxzn1AU,817
+python_vaultwarden-0.7.0.dist-info/METADATA,sha256=rsOhj99w7o2ypQqCvxO9OaY3xuGEmcX1Je8AXWE22I0,2330
+python_vaultwarden-0.7.0.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+python_vaultwarden-0.7.0.dist-info/licenses/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+python_vaultwarden-0.7.0.dist-info/RECORD,,

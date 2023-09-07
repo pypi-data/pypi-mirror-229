@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: martian-python
+Version: 0.0.2
+Summary: Python client library for the Martian API
+Home-page: https://github.com/withmartian/martian-python
+Author: Martian
+Author-email: yash@withmartian.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7.1
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+Provides-Extra: datalib
+Provides-Extra: wandb
+Provides-Extra: embeddings
+License-File: LICENSE
+
+# Martian Python Library
+
+## Installation
+
+You can install this package by running
+
+```bash
+pip install martian-python
+```
+
+## Usage
+
+See the Martian API documentation at [docs.withmartian.com](https://docs.withmartian.com).
+
+### Example
+
+```python
+from martian import openai
+
+openai.martian_api_key = ...
+
+chat_completion = openai.ChatCompletion.create(
+    # model="gpt-3.5-turbo",
+    messages=[{"role": "user", "content": "Hello world"}]
+)
+
+print(chat_completion.choices[0].message.content)
+```

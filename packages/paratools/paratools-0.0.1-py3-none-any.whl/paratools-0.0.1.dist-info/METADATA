@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: paratools
+Version: 0.0.1
+Summary: A python library that lets you import Python code blocks from
+Author: Peter Kouvaris
+Author-email: kouvaris.peter@gmail.com
+License-File: LICENSE
+Requires-Dist: click (==8.1.7)
+

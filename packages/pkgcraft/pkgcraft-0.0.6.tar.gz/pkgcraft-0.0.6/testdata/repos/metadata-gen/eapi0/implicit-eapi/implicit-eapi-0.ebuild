@@ -1,0 +1,2 @@
+DESCRIPTION="implicit EAPI"
+SLOT=0

@@ -1,0 +1,159 @@
+Metadata-Version: 2.1
+Name: ItemResponseCalc
+Version: 1.0.0
+Summary: Statistical Analysis of Questionnaire Response Data
+Author: Arne Leijon
+Author-email: leijon@kth.se
+License: MIT License
+Keywords: Questionnaire,Item Response Theory,IRT,Ordinal Ratings,Bayesian
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python :: 3.6
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Information Analysis
+Classifier: Topic :: Multimedia :: Sound/Audio
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: numpy >=1.17
+Requires-Dist: scipy >=1.7
+Requires-Dist: matplotlib
+Requires-Dist: samppy >=1.2.2
+Requires-Dist: pandas >=2.0
+Requires-Dist: openpyxl >=3.0
+
+Package **ItemResponseCalc** implements probabilistic Bayesian analysis
+of responses from a questionnaire designed to measure individual `traits', 
+i.e., preferences, judgments, or capabilities.
+
+The analysis is based on *Item Response Theory (IRT)*.
+This is a family of probabilistic models designed to handle responses to test instruments for any purpose in social, psychological, or educational research.
+The analysis model estimates individual parameters numerically on an objective *interval scale*,
+although the raw input data are *subjective*
+and indicate only an *ordinal* judgment for each item in the questionnaire.
+
+This implementation uses the *Graded Response Model* (Samejima, 1997; Fox, 2010), 
+applied with a logistic distribution for the latent random variable assumed to determine each response.
+This model treats subjects' responses
+as determined by the outcome of a latent individual trait variable,
+i.e., somewhat similar to the latent internal "sensation"
+variable assumed to determine responses in psycho-physical experiments.
+
+Another model for similar data might be the Partial Credits Model (Masters, 1982; Fox, 2010),
+which belongs to the Rasch family.
+
+## Data Collection
+The present package version can only handle discrete *ordinal* response data.
+The response alternatives must represent a natural order, e.g., 
+`strongly disagree`, `disagree`, `no opinion`, `agree`, `strongly agree`.
+
+This package *does not include* functions to administer the data collection;
+it can only use existing recorded data.
+The present version *does not include* functions to validate the statistical properties of the questionnaire itself,
+and thus cannot help in the design of a questionnaire.
+It can only analyze recorded response data sets obtained from an existing test instrument.
+
+The package can analyze response data with the following features:
+
+1. The questionnaire may include several items.
+
+1. The items may be designed to measure either 
+	a single trait, or several traits.
+	The analysis will automatically determine how many traits are needed
+	to effectively model the complete set of response data.
+    	The analysis results will show estimated values for each trait.
+   	 
+ 1. Separate model parameters are estimated for the traits of individual respondents, 
+ 	and for the response scale of each item.
+	The analysis results will show which items are associated with each trait.
+	The results also show how the trait scale corresponds to the ordinal responses for each item.
+ 
+1. The number of response alternatives may differ among questionnaire items.
+	Each item must have at least two response alternatives,
+	even if one alternative is not explicitly shown in the questionnaire. 
+	(For example, if an item requires a Yes/No answer, 
+	only the Yes alternative might be shown as a tick box, 
+	and the absence of a tick mark is interpreted as a No answer.) 
+	
+1. Data for one or more distinct *Participant Groups* may be included.
+	The analysis will show predicted differences between the populations
+	from which the groups are recruited.
+	The statistical credibility is calculated *jointly* for all population differences,
+	automatically accounting for the effects of multiple comparisons.	
+    
+1. The analysis model can use input data stored in various file formats. 
+    Package Pandas is used to access the data. 
+	The response alternatives for each item may be encoded in different ways 
+	in each input source.
+
+1. The user may specify inclusion criteria for respondent records,
+	separately for each input file.
+
+1. If an input data file includes respondent labels,
+	the program checks for duplicate IDs, 
+    and only the last record from each respondent will be used. Otherwise, all input records are treated as independent, 
+	assumed to be given by different respondents.
+
+The Bayesian model is hierarchical.
+The package can estimate predictive distributions of traits for
+* a random individual in each population represented by a group of respondents,
+* the mean of each population represented by a group of respondents.
+
+All results are saved in files with figures and tables, with user-selectable formats. 
+
+## Package Documentation
+General information and version history is given in the package doc-string that may be accessed by command
+`help(ItemResponseCalc)`.
+
+Specific information about the organization and accepted formats of input data files
+is presented in the doc-string of module item_response_data, accessible 
+via `help(ItemResponseCalc.item_response_data)`.
+
+After running an analysis, the logging output file briefly explains
+the analysis results presented in figures and tables.
+
+## Usage
+1. Install the most recent package version:
+    `python3 -m pip install --upgrade ItemResponseCalc`
+
+1. Copy the template script `run_irt.py`, rename it, and
+    edit the copy as suggested in the template, to specify
+    - your questionnaire and response alternatives,
+    - the respondent groups and corresponding input data sources,
+    - a directory where all output result files will be stored.
+
+1. Run your edited script: `python3 run_my_irt.py`.
+
+## Requirements
+This package requires Python 3.9 or newer, with recent versions of 
+Numpy, Scipy, Pandas, and Matplotlib, 
+as well as a support package samppy, and openpyxl for reading xlsx files.
+The pip installer will check and install these required packages if needed.
+
+Input data can be accessed from sources in any format 
+that package Pandas can handle.
+Some file formats may require additional help packages to be installed manually.
+
+Pandas can also extract data from an SQL database, 
+but then the SQLAlchemy package might need to be installed manually.
+
+
+## References
+A. Leijon (2023). 
+*Analysis of Ordinal Response Data using 
+Bayesian Item Response Theory package ItemResponseCalc*.
+Technical report with all math details.
+Contact the author for a copy.
+
+A. Leijon, H. Dillon, L. Hickson, M. Kinkel, S. E. Kramer, and P. Nordqvist (2020). 
+Analysis of data from the international outcome inventory for hearing aids (IOI-HA) using Bayesian item response theory. 
+*Int J Audiol* 60(2):81–88.
+[download](https://www.tandfonline.com/doi/full/10.1080/14992027.2020.1813338)
+
+J.-P. Fox (2010). *Bayesian Item Response Modeling: Theory and Applications*. Statistics for Social and Behavioral Sciences. Springer.
+
+G. N. Masters (1982). A Rasch model for partial credit scoring. *Psychometrika*, 47(2):149–174.
+
+F. Samejima (1997). Graded response model. In W. J. v. D. Linden and R. K. Hambleton, eds., *Handbook of Modern Item Response Theory*, p. 85–100. Springer, New York.
+

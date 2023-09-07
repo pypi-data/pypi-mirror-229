@@ -1,0 +1,17 @@
+README.md
+pyproject.toml
+setup.cfg
+src/OCR_file_name_changer.egg-info/PKG-INFO
+src/OCR_file_name_changer.egg-info/SOURCES.txt
+src/OCR_file_name_changer.egg-info/dependency_links.txt
+src/OCR_file_name_changer.egg-info/entry_points.txt
+src/OCR_file_name_changer.egg-info/requires.txt
+src/OCR_file_name_changer.egg-info/top_level.txt
+src/ocr_file_name_changer/__init__.py
+src/ocr_file_name_changer/exceptions.py
+src/ocr_file_name_changer/files_handling.py
+src/ocr_file_name_changer/main.py
+src/ocr_file_name_changer/ocr_handling.py
+tests/test_files_handling.py
+tests/test_main.py
+tests/test_ocr_handling.py

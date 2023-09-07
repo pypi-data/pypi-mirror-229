@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: OCR_file_name_changer
+Version: 1.0.2
+Summary: CLI tool to process images from current directory, detect strings and rename files to detected strings
+Author: "Maciej Ferenc"
+Author-email: "maciekferenc1@gmail.com"
+Requires-Python: >=3.10

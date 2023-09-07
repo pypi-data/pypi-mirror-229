@@ -1,0 +1,14 @@
+[project]
+name = "OCR_file_name_changer"
+version = "1.0.2"
+description = "CLI tool to process images from current directory, detect strings and rename files to detected strings"
+requires-python = ">=3.10"
+dependencies = [
+    "paddlepaddle",
+    "paddleocr"
+]
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+

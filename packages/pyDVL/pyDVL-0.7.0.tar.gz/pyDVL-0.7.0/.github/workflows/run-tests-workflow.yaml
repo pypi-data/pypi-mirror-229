@@ -1,0 +1,43 @@
+name: Run Tests
+
+on:
+  workflow_call:
+    inputs:
+      tests_to_run:
+        description: "Determines which tests to run using Tox. Should be one of: base, torch, notebooks"
+        type: string
+        required: true
+      python_version:
+        description: "Determines which Python version to use"
+        type: string
+        required: true
+
+env:
+  PY_COLORS: 1
+
+jobs:
+  run-tests:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+      with:
+        fetch-depth: 0
+    - name: Setup Python ${{ inputs.python_version }}
+      uses: ./.github/actions/python
+      with:
+        python_version: ${{ inputs.python_version }}
+    - name: Cache Tox Directory for Tests
+      uses: actions/cache@v3
+      with:
+        key: tox-${{ github.ref }}-${{ runner.os }}-${{ hashFiles('tox.ini', 'requirements.txt') }}
+        path: .tox
+    - name: Test Base Modules
+      run: tox
+      if: inputs.tests_to_run == 'base'
+    - name: Test Modules that rely on PyTorch
+      run: tox -e torch
+      if: inputs.tests_to_run == 'torch'
+    - name: Test Notebooks
+      run: tox -e notebooks
+      if: inputs.tests_to_run == 'notebooks'
+      continue-on-error: true

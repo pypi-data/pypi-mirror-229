@@ -1,0 +1,15 @@
+president_speech/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+president_speech/cli.py,sha256=ri52BCG1yWT0DkiW4Zw520ox1JvWmstQxdAP46RMb_8,1401
+president_speech/crawling_speech.py,sha256=bNaiGKKCIeK3F0BOtCmXIuqJ5dpKFK-WX96RwouR2SU,2185
+president_speech/extract_speech_from_pdf.py,sha256=jQeOi4sj1xp0wrcCtqldbB9lpvVw5YtOhFjXc38X4XA,3036
+president_speech/db/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+president_speech/db/connection_manager.py,sha256=-DfbKts2PTjoMfBbYtAi6rXS8NhjLDb3z0iI4kicLTo,643
+president_speech/db/init.db,sha256=Sspst1VL23xtis0i6xZp69tocwosFH2f59aYuj7Jxx8,1810432
+president_speech/db/parquet_interpreter.py,sha256=8rea1VDcdV9Vk6nBLVGccfoUwbOR4xaaQDv59bJNvms,969
+president_speech/db/search.py,sha256=MRJ4QS_SUF52heW1vVxWQWagnWiMdNpQduskMfgK3aA,716
+president_speech/db/parquet/president_speech_ko.parquet,sha256=vGmbV8rupFcY0EBpXszA70MHJDs-iG4xAw8akNh5jpA,28996430
+president_speech-0.6.0.dist-info/METADATA,sha256=cd1gPTBcTI2O5ZAIWbE7jDmD_dodRWkGn0eX3-c7PQo,3761
+president_speech-0.6.0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+president_speech-0.6.0.dist-info/entry_points.txt,sha256=TEPb6OUj4-6fxUXsNHqV8bKG64nLBs4CtNElkruKG2s,164
+president_speech-0.6.0.dist-info/top_level.txt,sha256=pkUyUrQ4nponD6fmFm7KUgohhhqiYE-xNkcdoHcFgYM,17
+president_speech-0.6.0.dist-info/RECORD,,

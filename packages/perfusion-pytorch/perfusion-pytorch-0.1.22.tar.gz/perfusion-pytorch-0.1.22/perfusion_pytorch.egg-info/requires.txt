@@ -1,0 +1,5 @@
+beartype
+einops>=0.6.1
+open-clip-torch
+opt-einsum
+torch>=2.0

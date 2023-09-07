@@ -1,0 +1,7 @@
+{# This is what the htmx internal API returns - rendered by view rt_messages() #}
+{% for item in items %}
+    <tr>
+        <td class="bg-{{item.status}}" width="5%"></td>
+        <td>{{item.msg|safe}}</td>
+    </tr>
+{% endfor %}

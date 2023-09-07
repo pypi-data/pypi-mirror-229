@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+
+{# This is a full-page template inheriting from project's base.html #}
+{# It is badly named and should be page.html, but keeping the name for backwards compatibility. #}
+
+{% block title %}Upload Progress{% endblock %}
+
+{% block content %}
+
+  <div class="container-fluid">
+
+    <div class="row">
+      <div class="col-sm-12">
+        <div class="card">
+          <div class="card-header">
+            <h3>Queue progress: {{ queue_name }}</h3>
+          </div>
+          <div class="card-body">
+
+            <h4>
+            Live progress:
+            </h4>
+            {% include 'pluto_rt/table_partial.html' %}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+{% endblock content %}

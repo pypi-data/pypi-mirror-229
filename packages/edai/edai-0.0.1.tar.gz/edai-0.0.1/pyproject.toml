@@ -1,0 +1,38 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "edai"
+version = "0.0.1"
+authors = [
+  { name="Cody", email="cody@edai.dev" },
+]
+description = "EDA with AI"
+readme = "readme.md"
+requires-python = ">=3.11"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+  'python-dotenv',
+  'toml',
+  'Pillow',
+  'typer[all]',
+  'requests',
+  'openai',
+  'marvin',
+  'ibis-framework[duckdb,polars,deltalake]',
+  'plotly',
+  'streamlit',
+]
+
+[project.urls]
+"Homepage" = "https://github.com/lostmygithubaccount/edai"
+"Bug Tracker" = "https://github.com/lostmygithubaccount/edai/issues"
+
+[project.scripts]
+edai= "edai.cli:app"
+

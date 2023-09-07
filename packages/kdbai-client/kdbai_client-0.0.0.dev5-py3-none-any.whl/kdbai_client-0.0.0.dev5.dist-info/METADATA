@@ -1,0 +1,140 @@
+Metadata-Version: 2.1
+Name: kdbai-client
+Version: 0.0.0.dev5
+Summary: KDB.AI Client for Python
+License: LICENSE.txt
+Author: KX AI Team
+Author-email: ai@kx.com
+Requires-Python: >=3.8,<4.0
+Classifier: Environment :: Console
+Classifier: Environment :: Other Environment
+Classifier: Framework :: Flake8
+Classifier: Framework :: Pytest
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Financial and Insurance Industry
+Classifier: Intended Audience :: Healthcare Industry
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: Manufacturing
+Classifier: Intended Audience :: Other Audience
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Telecommunications Industry
+Classifier: License :: Other/Proprietary License
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: C
+Classifier: Programming Language :: Cython
+Classifier: Programming Language :: Other
+Classifier: Programming Language :: Other Scripting Engines
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Typing :: Typed
+Provides-Extra: lint
+Provides-Extra: test
+Requires-Dist: mypy ; extra == "lint"
+Requires-Dist: mypy-gitlab-code-quality ; extra == "lint"
+Requires-Dist: pandas (>=1.5.0)
+Requires-Dist: pykx (>=1.6.0)
+Requires-Dist: pytest (>=7.3.2,<8.0.0) ; extra == "test"
+Requires-Dist: pytest-cov (>=4.0.0,<5.0.0) ; extra == "test"
+Requires-Dist: pytest-mock ; extra == "test"
+Description-Content-Type: text/markdown
+
+# KDB.AI Client for Python
+
+## Introduction
+
+### What is KDB.AI?
+Built on kdb Insights, KDB.AI is a powerful knowledge-based vector database and search engine that allows developers to build scalable, reliable and real-time applications by providing advanced search, recommendation and personalization for AI applications, using real-time data. For more information, please visit the [KDB.AI website](https://kx.com/products/kdb-ai/).
+
+### What can KDB.AI do?
+KDB.AI allows you to set-up a knowledge-based vector database and search engine in a few simple steps. With KDB.AI you can:
+
+- Create an index of vectors (Flat, IVE, IVFPQ, or HNSW).
+- Insert vectors to an index.
+- Perform fast vector similarity search with optional metadata filtering.
+
+### What is kdbai-client?
+
+kdbai-client is a python package making it easier to access KDB.AI's REST API for python users.
+## Installation
+
+### Installing kdbai-client using `pip`
+
+Ensure you have a recent version of pip:
+
+pip install --upgrade pip
+
+
+Then install the latest version of kdbai-client with the following command:
+
+```
+pip install kdbai-client
+```
+
+To install a specific version of kdbai-client run the following command replacing <INSERT_VERSION> with a specific released semver version of the interface
+
+```
+pip install kdbai-client==<INSERT_VERSION>
+```
+
+**Warning:** Python packages should typically be installed in a virtual environment. [This can be done with the venv package from the standard library](https://docs.python.org/3/library/venv.html).
+
+
+## Using kdbai-client
+
+For full documentation and detailed examples, visit [KDB.AI website](https://kx.com/products/kdb-ai/).
+
+### Quickstart
+
+Creating a connection and a table:
+
+```
+import kdbai_client as kdbai
+import numpy as np
+import pandas as pd
+
+session = kdbai.Session(host='XXXX.kx.com', api_key='YOUR_KDBAI_API_KEY')
+
+schema = {'columns': [{'name': 'id', 'pytype': 'str'},
+                      {'name': 'vectors',
+                        'vectorIndex': {'dims': 8, 'metric': 'L2', 'type': 'flat'}}]}
+table = session.create_table('quickstartkdbai',schema)
+```
+
+Using an existing table:
+```
+table = session.table('quickstartkdbai')
+```
+
+Querying table list:
+```
+session.list()
+['quickstartkdbai']
+```
+
+Inserting vector data into an existing table:
+```
+ids = ['h', 'e', 'l', 'l', 'o']  # Example ID values
+vectors = np.random.rand(40).astype(np.float32).reshape(5,8)
+df = pd.DataFrame({"id": ids, "vectors": list(vectors)})
+table.insert(df)
+```
+
+Run similarity search (the search API also supports batch querying and filtered search):
+```
+results = table.search(vectors=[[0.1, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9]], n=3)
+```
+
+The dimension of input query vectors must match the vector embedding dimensions in the table, defined in schema above.
+
+Drop table:
+```
+table.drop()
+```
+

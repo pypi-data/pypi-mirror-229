@@ -1,0 +1,14 @@
+cjkfuzz/__init__.py,sha256=HZwVAvgKzxM2gKQiHKacZ46LBIlwogYtIm_VL99qngc,343
+cjkfuzz/fuzz.py,sha256=XOzbfXMMR55yVelCQrKqwFiUy_c_WGYPy8nhr8gO1Q4,5441
+cjkfuzz/hamming.py,sha256=SYxUb6J3jLbgsoqbVk_u2RIHEvIe8hkvN0KGydwfeJg,668
+cjkfuzz/jaro.py,sha256=RlGB8-gCGDpOurnwHRd9lJyYNJIqVatAI9zbHdIP3ek,2084
+cjkfuzz/jaro_winkler.py,sha256=RgXTTIMfJJRlUxHO2lOklmlFZ-T-F5YmpqVRYWvLU5E,946
+cjkfuzz/levenshtein.py,sha256=veztU6OZLyqdzodi9dELN-UlCemB8I8RJDQHlGRqzqM,1373
+cjkfuzz/match.py,sha256=9O8Zgu1-H0CH1_xoh3lDh9K2k-qxUBCfBvDfZQEC72A,545
+cjkfuzz/process.py,sha256=inSd6ea9tovz4cYRlJLYpCXuPbYXtglVVud1cEQ7HN4,1535
+cjkfuzz/tokenizer.py,sha256=Vqb2QO69ZehqiaKJyqDAAE-mPZnzDTnPjyJ3LBwfV-c,695
+cjkfuzz/utils.py,sha256=vwwqC6qfhsCcyiM29BsupOsjSkfA6CxYQ13_BCqliW4,1079
+cjkfuzz-0.0.4.dist-info/LICENSE,sha256=xS8qIAFSZebvdsr2N3O2l_FHKqZ8SMHcU6Q5HN3_SWA,1066
+cjkfuzz-0.0.4.dist-info/METADATA,sha256=Qn4PQ3yeDxN-3jQO1Iy72ovKSA-hZ6IAl_y0DhMuVgQ,1008
+cjkfuzz-0.0.4.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+cjkfuzz-0.0.4.dist-info/RECORD,,

@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: nonebot-plugin-yiyan
+Version: 1.1.4
+Summary: Nonebot文心一言对话平台
+Home-page: https://github.com/barryblueice/nonebot-plugin-yiyan
+Author: barryblueice
+Author-email: barryblueice@outlook.com
+Maintainer: barryblueice
+Maintainer-email: barryblueice@outlook.com
+Requires-Python: >=3.8,<4.0
+Requires-Dist: nonebot2
+Requires-Dist: nonebot-adapter-onebot
+Requires-Dist: requests
+
+百度文心一言 nonebot对话平台
+
+基于zhenxun_bot平台开发的文心一言对话插件，稍加修改也可用在各类基于nonebot的机器人平台上。
+
+目前已支持连续聊天记录，但连续性不强。
+
+已支持自定义人格对话。
+
+配置：
+https://github.com/barryblueice/nonebot-plugin-yiyan
+
+API申请：
+https://github.com/barryblueice/nonebot-plugin-yiyan/wiki/%E6%9C%BA%E5%99%A8%E4%BA%BA%E9%85%8D%E7%BD%AE%E6%95%99%E7%A8%8

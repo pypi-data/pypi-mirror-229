@@ -1,0 +1,8 @@
+README.md
+setup.py
+pydatachain/__init__.py
+pydatachain.egg-info/PKG-INFO
+pydatachain.egg-info/SOURCES.txt
+pydatachain.egg-info/dependency_links.txt
+pydatachain.egg-info/not-zip-safe
+pydatachain.egg-info/top_level.txt

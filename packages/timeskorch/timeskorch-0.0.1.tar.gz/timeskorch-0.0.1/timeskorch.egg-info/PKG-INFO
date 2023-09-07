@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: timeskorch
+Version: 0.0.1
+Summary: Time Skorch (TS) is a powerful tool designed to make time series analysis and forecasting a breeze.
+Home-page: https://github.com/minqukanq/timeskorch
+Author: mingukang
+Author-email: kang.mingu94@gmail.com
+Keywords: time series,sklearn,pytorch,skorch,deep learning
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# Time Skorch (TS) - Deep Learning for Time Series
+
+
+Time Skorch (TS) is a powerful tool designed to make time series analysis and forecasting a breeze. Leveraging the capabilities of the popular scikit-learn library and seamlessly integrating with scikit-learn's API, TS provides a simple yet robust solution for working with time series data.
+TS provides a simple yet robust solution for working with time series data while leveraging the power of deep learning.
+
+## What is Time Skorch (TS)?
+Time series data, with its temporal dependencies, is pervasive in various domains such as finance, healthcare, and environmental sciences. TS is your all-in-one solution for tackling time series challenges. With TS, you can:
+* Forecasting
+* ~~Classification~~ (future work)
+* ~~Imputation~~ (future work)
+
+## Quick Tour
+```python
+ Do Something
+```
+
+## Getting Started
+To start using Time Skorch (TS) for your deep learning-based time series projects, simply install it via pip:
+```bash
+pip install timeskorch
+```
+
+## Contributing
+We welcome contributions from the community to enhance and expand the capabilities of Time Skorch. Feel free to open issues, submit pull requests, or engage in discussions on our GitHub repository.
+
+## Contact
+Feel free to contact Mingu Kang (kang.mingu94@gmail.com) if you have any further questions.

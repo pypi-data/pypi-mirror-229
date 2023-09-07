@@ -1,0 +1,8 @@
+README.md
+setup.py
+timeskorch/__init__.py
+timeskorch.egg-info/PKG-INFO
+timeskorch.egg-info/SOURCES.txt
+timeskorch.egg-info/dependency_links.txt
+timeskorch.egg-info/requires.txt
+timeskorch.egg-info/top_level.txt

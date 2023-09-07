@@ -1,0 +1,7 @@
+boto3
+requests
+openai
+anthropic
+paper-qa
+langchain
+importlib

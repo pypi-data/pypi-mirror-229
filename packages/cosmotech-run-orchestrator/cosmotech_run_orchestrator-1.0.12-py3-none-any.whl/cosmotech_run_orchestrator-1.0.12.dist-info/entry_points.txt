@@ -1,0 +1,2 @@
+[console_scripts]
+csm-orc = cosmotech.orchestrator.console_scripts.main:main

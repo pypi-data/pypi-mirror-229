@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "revolving_asyncio"
+authors = [
+    {name = "wukan", email = "wu-kan@163.com"},
+]
+description = "easy to covert between sync and async"
+readme = "README.md"
+requires-python = ">=3.6"
+keywords = ["sync", "async", "asyncio"]
+license = {text = "MIT"}
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Programming Language :: Python"
+]
+dependencies = [
+    "nest_asyncio",
+]
+dynamic = ["version"]
+
+[tool.setuptools]
+packages = ["revolving_asyncio"]
+
+[tool.setuptools.dynamic]
+version = {attr = "revolving_asyncio._version.__version__"}

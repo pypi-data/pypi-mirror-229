@@ -1,0 +1,8 @@
+setup.py
+DDSampling/DDSampling.py
+DDSampling/__init__.py
+DDSampling.egg-info/PKG-INFO
+DDSampling.egg-info/SOURCES.txt
+DDSampling.egg-info/dependency_links.txt
+DDSampling.egg-info/requires.txt
+DDSampling.egg-info/top_level.txt

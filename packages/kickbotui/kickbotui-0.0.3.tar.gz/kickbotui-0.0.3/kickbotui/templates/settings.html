@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+
+{% block title %}Kickbot Settings{% endblock %}
+
+{% block content %}
+<br>
+<div class="card">
+    <div class="card-header">
+        Bot Settings
+    </div>
+    <div class="card-body">
+        <form method="post">
+            <input type="text" name="username" placeholder="Bot Username/Email" value="{% if bot %}{{ bot.username }}{% endif %}">
+            <br><br>
+            <input type="password" name="password" placeholder="Bot Password" value="{% if bot %}{{ bot.password }}{% endif %}">
+            <br>
+            <button class="bot-button" type="submit">Submit</button>
+        </form>
+    </div>
+</div>
+{% endblock %}

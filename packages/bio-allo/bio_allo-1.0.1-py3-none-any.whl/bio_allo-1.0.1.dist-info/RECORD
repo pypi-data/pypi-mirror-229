@@ -1,0 +1,14 @@
+Allo/__init__.py,sha256=g7yhw7HdOnMv2RaoDMbsGn4zRYmkhmpvn811t19xuu4,72
+Allo/allo,sha256=hXkl7cCynnBQzY5cY8ZKmXIQTQEdB8Ar1RdjtBXSClM,14112
+Allo/allocation.py,sha256=xsdJvUaw3eheKqeFJdkNH4NVZ0lb9LXhcfLEWdZXI2Y,29731
+Allo/mixed.h5,sha256=FrcOsp8PZHHm8s-kCSReu8neMmDJb-FsqBXwgPZXtA0,285408
+Allo/mixed.json,sha256=HSr8tzXXtKbsgVlXfXWaNnvGwONd7HwkM83Gimcvj3o,3317
+Allo/narrow.h5,sha256=0Btg-8Rmqkix-B_ZWzWSZH6PgzXKsqAB49OLSdMIVes,285448
+Allo/narrow.json,sha256=ZPIXsRyHtpzSBf3G95rIzDTYUQplSFNBoU6AzzcN1nk,3303
+Allo/predictPeak.py,sha256=AmzXgYNJ8Z-rqeLdHbfr6Rfc2mm0FD86tzAvt6XrXR8,1412
+bio_allo-1.0.1.data/scripts/allo,sha256=hXkl7cCynnBQzY5cY8ZKmXIQTQEdB8Ar1RdjtBXSClM,14112
+bio_allo-1.0.1.dist-info/LICENSE.txt,sha256=M9VpeHxfYE2uWUE1-50kbkVd-kcA15rsd7C80H7CgZY,1103
+bio_allo-1.0.1.dist-info/METADATA,sha256=U5pY7DK-5sx8oVyvi5FdEQMts9EHSskFRiUoRHbTyZs,422
+bio_allo-1.0.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+bio_allo-1.0.1.dist-info/top_level.txt,sha256=hBEfsgbb3rWSGx-nzY3wP3UffGoSwh4cawxMMyfv_FU,5
+bio_allo-1.0.1.dist-info/RECORD,,

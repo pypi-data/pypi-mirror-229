@@ -1,0 +1,6 @@
+PyPDF3==1.0.6
+fillpdf==0.7.2
+requests~=2.31.0
+pyreportjasper~=2.1.2
+sysnet-pyutils>=1.0.2
+sysnet-ident>=1.0.2

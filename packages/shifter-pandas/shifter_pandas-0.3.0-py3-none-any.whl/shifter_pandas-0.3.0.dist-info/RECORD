@@ -1,0 +1,10 @@
+shifter_pandas/__init__.py,sha256=WVGI-Gmm9i1dH2M1ZsHRmPbUi8x3xtY861x6W-B5pHc,259
+shifter_pandas/bp.py,sha256=S8sjoNvVt3sVYZ9OGEntd__4-0R_uy-a2fBDD1M_vQU,18517
+shifter_pandas/ofs.py,sha256=oCbCGLQnVi_bLfFY5jFKUIxnXnLFrScAAZlB3JekV8I,3815
+shifter_pandas/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+shifter_pandas/wikidata_.py,sha256=A0k_7mcau5wdkCU-3oIGjcqaHI7nbCsGE422OQ_u_B0,25895
+shifter_pandas/worldbank.py,sha256=QyZggUFfhgeR-3GCyCyF6TmmcoJgVfnqm-pnb7KbKSI,3152
+shifter_pandas-0.3.0.dist-info/LICENSE,sha256=MhPzfWupei0bnIkHk-FUyUm3S_F0d1hSd1iZLKi8Dto,1289
+shifter_pandas-0.3.0.dist-info/METADATA,sha256=7uYkf6zRyDCkFo3lCCSIsOTAg4DSWJwTKoWyZCT2ED0,4288
+shifter_pandas-0.3.0.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+shifter_pandas-0.3.0.dist-info/RECORD,,

@@ -1,0 +1,23 @@
+!
+!  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+!  SLEPc - Scalable Library for Eigenvalue Problem Computations
+!  Copyright (c) 2002-, Universitat Politecnica de Valencia, Spain
+!
+!  This file is part of SLEPc.
+!  SLEPc is distributed under a 2-clause BSD license (see LICENSE).
+!  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+!
+        module slepclmedef
+        use slepcbvdef
+#include <../src/lme/f90-mod/slepclme.h>
+        end module
+
+        module slepclme
+        use slepclmedef
+        use slepcbv
+#include <../src/lme/f90-mod/slepclme.h90>
+        interface
+#include <../src/lme/f90-mod/ftn-auto-interfaces/slepclme.h90>
+        end interface
+        end module
+

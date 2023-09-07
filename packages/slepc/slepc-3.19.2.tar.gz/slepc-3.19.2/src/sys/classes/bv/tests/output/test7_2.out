@@ -1,0 +1,2 @@
+Test BVMatMult (m=40, n=44, k=9).
+Norm of error: 0.

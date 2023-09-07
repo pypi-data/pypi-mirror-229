@@ -1,0 +1,17 @@
+Cython
+librosa
+matplotlib
+numpy
+phonemizer
+scipy
+tensorboard
+Unidecode
+p_tqdm
+varname
+tqdm
+loguru
+dotmap
+inflect
+encodec
+lhotse
+torchaudio

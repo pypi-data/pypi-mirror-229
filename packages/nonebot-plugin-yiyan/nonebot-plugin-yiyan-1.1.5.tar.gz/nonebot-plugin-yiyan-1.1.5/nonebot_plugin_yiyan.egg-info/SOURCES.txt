@@ -1,0 +1,8 @@
+setup.py
+nonebot_plugin_yiyan/README.md
+nonebot_plugin_yiyan/__init__.py
+nonebot_plugin_yiyan.egg-info/PKG-INFO
+nonebot_plugin_yiyan.egg-info/SOURCES.txt
+nonebot_plugin_yiyan.egg-info/dependency_links.txt
+nonebot_plugin_yiyan.egg-info/requires.txt
+nonebot_plugin_yiyan.egg-info/top_level.txt

@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pysimplebase"
+version = "0.0.8"
+authors = [
+  { name="Dmitry Vorontsov", email="dv1555@hotmail.com" },
+]
+description = "High performance JSON-oriented database"
+readme = "README.rst"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)",
+    "Operating System :: OS Independent",
+]
+
+dependencies = [
+  "filelock",
+  "msgspec"
+]
+
+
+[project.urls]
+"Homepage" = "https://simplebase.readthedocs.io/en/latest/#"

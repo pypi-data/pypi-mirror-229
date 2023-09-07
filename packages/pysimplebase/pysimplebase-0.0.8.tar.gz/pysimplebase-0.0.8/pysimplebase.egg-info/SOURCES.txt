@@ -1,0 +1,10 @@
+LICENSE
+README.rst
+pyproject.toml
+pysimplebase/__init__.py
+pysimplebase/pysimplebase.py
+pysimplebase.egg-info/PKG-INFO
+pysimplebase.egg-info/SOURCES.txt
+pysimplebase.egg-info/dependency_links.txt
+pysimplebase.egg-info/requires.txt
+pysimplebase.egg-info/top_level.txt

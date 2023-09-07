@@ -1,0 +1,15 @@
+database:
+  kind: postgres
+  host: ${POSTGRES_HOST:-db}
+  port: 5432
+  user: ${POSTGRES_USER:-dipdup}
+  password: ${POSTGRES_PASSWORD}
+  database: ${POSTGRES_DB:-dipdup}
+
+hasura:
+  url: http://${HASURA_HOST:-hasura}:8080
+  admin_secret: ${HASURA_SECRET}
+  allow_aggregations: true
+  camel_case: true
+
+logging: ${LOGLEVEL:-INFO}

@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: famqy
+Version: 0.1.1
+Summary: MongoDB query builder for FastAPI
+Author-email: TeiaLabs <contato@teialabs.com>
+Project-URL: Repository, https://github.com/TeiaLabs/famqy
+Project-URL: Documentation, https://github.com/TeiaLabs/famqy/README.md
+Keywords: mongo,fastapi,rest
+Requires-Python: >=3.11
+Requires-Dist: fastapi
+

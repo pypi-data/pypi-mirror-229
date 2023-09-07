@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: tavily-python
+Version: 0.1.0
+Summary: Python wrapper for the Tavily API
+Home-page: https://github.com/assafelovic/tavily-python
+Author: Assaf Elovic
+Author-email: assaf.elovic@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6

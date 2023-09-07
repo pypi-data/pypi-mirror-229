@@ -1,0 +1,7 @@
+poetry_monorepo_dependency_plugin/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+poetry_monorepo_dependency_plugin/path_dependency_rewriter.py,sha256=1JNVS-PxWgxcc-3XvqZLqdQITvlO9ZtkvPoraeDjVMo,4961
+poetry_monorepo_dependency_plugin/plugin.py,sha256=HutcH_xZFtsQ8FIl5iLyvBc54SNygh_yuDrg2ru5QF0,6376
+poetry_monorepo_dependency_plugin-1.1.0.dist-info/METADATA,sha256=V8wKDwqpmBYAZYXhcMJCpYp_gucRQ9IeKRTTCpmKkw8,6904
+poetry_monorepo_dependency_plugin-1.1.0.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+poetry_monorepo_dependency_plugin-1.1.0.dist-info/entry_points.txt,sha256=RuJmUPNyoSGTJFQIDrL0w8ferdpyr0i_xfxE3hShicY,129
+poetry_monorepo_dependency_plugin-1.1.0.dist-info/RECORD,,

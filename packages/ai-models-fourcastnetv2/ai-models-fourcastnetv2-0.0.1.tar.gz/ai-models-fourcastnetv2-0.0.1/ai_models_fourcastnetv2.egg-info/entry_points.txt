@@ -1,0 +1,2 @@
+[ai_models.model]
+fourcastnetv2-small = ai_models_fourcastnetv2.model:model

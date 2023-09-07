@@ -1,0 +1,55 @@
+Metadata-Version: 2.1
+Name: pov
+Version: 0.0.1
+Summary: Telegram MTProto API framework in Python for users and bots
+Author: pov
+Author-email: pov@pov.og
+License: LGPLv3
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: Implementation
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Topic :: Internet
+Classifier: Topic :: Communications
+Classifier: Topic :: Communications :: Chat
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Software Development :: Libraries :: Application Frameworks
+Requires-Python: ~=3.7
+Description-Content-Type: text/markdown
+License-File: COPYING
+License-File: COPYING.lesser
+License-File: NOTICE
+
+# pov Library
+
+
+### Core library of [pov](https://pypi.org/project/pov/)
+Pyrogram And Telethon based for your userbot.
+
+
+### Installing
+
+``` bash
+pip3 install pov
+```
+
+### License
+[![License](https://www.gnu.org/graphics/gplv3-with-text-136x68.png)](LICENSE)   
+This library is licensed under [GNU General Public License](https://www.gnu.org/licenses/agpl-3.0.html) v3 or later.
+
+# Credits
+*  [???](https://pypi.org/project/pov/) for [pov](https://pypi.org/project/pov/)
+*  [Dan](https://github.com/delivrance) for [Pyrogram](https://github.com/pyrogram/pyrogram)
+*  [Lonami](https://github.com/LonamiWebs/) for [Telethon](https://github.com/LonamiWebs/Telethon)

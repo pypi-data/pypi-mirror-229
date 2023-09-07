@@ -1,0 +1,14 @@
+imagebackup/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+imagebackup/blockio.py,sha256=9GRjkO65BWspBcHeno8SGdA9oIK3-2JUzfyRhAvdFog,3008
+imagebackup/fuse.py,sha256=xOpOQJ_aIFsGVusRreAuDqoTPlKQr_1zdx0PpPi1X88,10535
+imagebackup/imagebackup.py,sha256=79t5K64ncfSAlUl9Uc_02qaV1DHOJGNrFQ10aJl_Bx8,10991
+imagebackup/main.py,sha256=PIVzUsj6IVm8vO1K70RULpm0BZh3vi0sOBhaf5CRj6M,14563
+imagebackup/ntfsclone.py,sha256=df5GoET4Csw624kz7VQiA_zNf0hfC45jEtjNcfXHpKg,13204
+imagebackup/partclone.py,sha256=eZIPDgOSw1QNZrPoTg5doSPajnZiddR-uSWnEvTCrvo,14331
+imagebackup/partimage.py,sha256=1ChiqLr1_stiUttNN_AkuINq8l9sR5N62xgCS5YhJpA,39943
+imagebackup-0.1.6.dist-info/LICENSE,sha256=ph2ny11mK4NW5146NPaDhw9fPHo-uY3OI0plQTZnXtU,1067
+imagebackup-0.1.6.dist-info/METADATA,sha256=XbynFW4oloxKPo1xk8J-3trcWQthP-sH76wxycaxkvs,18888
+imagebackup-0.1.6.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+imagebackup-0.1.6.dist-info/entry_points.txt,sha256=l8DqsVDAQN9W9w9MeWNp8BdozmdR7kIDYkqv26aDksA,141
+imagebackup-0.1.6.dist-info/top_level.txt,sha256=xfPTlt7Q3HFrkGw2MOjM7WaITjzTE38tMrcJ9w_aHGo,12
+imagebackup-0.1.6.dist-info/RECORD,,

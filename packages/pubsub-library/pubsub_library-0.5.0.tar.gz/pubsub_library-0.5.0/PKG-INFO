@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: pubsub_library
+Version: 0.5.0
+Summary: Lib para gerenciar filas de mensagens
+Home-page: https://github.com/caiquilipe/pubsub-library.git
+Author: Caiqui Fhelipe
+Author-email: caiqui_lipe@hotmail.com

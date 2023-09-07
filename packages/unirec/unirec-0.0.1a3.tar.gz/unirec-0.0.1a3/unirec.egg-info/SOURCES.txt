@@ -1,0 +1,8 @@
+README
+setup.py
+unirec/__init__.py
+unirec.egg-info/PKG-INFO
+unirec.egg-info/SOURCES.txt
+unirec.egg-info/dependency_links.txt
+unirec.egg-info/requires.txt
+unirec.egg-info/top_level.txt

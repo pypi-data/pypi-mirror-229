@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: unirec
+Version: 0.0.1a3
+Summary: A compact recommender library for universal recommendation systems
+Home-page: UNKNOWN
+Author: Jianxun Lian
+Author-email: jialia@microsoft.com
+License: MIT
+Description: UniRec: A compact recommender library for universal recommendation systems.
+        
+        Sorry, the project is under review and access is temporarily suspended.
+Keywords: recommender system,deep learning,pytorch
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: Environment :: GPU :: NVIDIA CUDA
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Operating System :: OS Independent
+Classifier: Natural Language :: English
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown

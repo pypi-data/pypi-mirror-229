@@ -1,0 +1,25 @@
+[build-system]
+requires=['setuptools', 'setuptools-scm']
+build-backend="setuptools.build_meta"
+
+[tools.setuptools.packages.find]
+where = ["src"]
+include = ["psat_api"]
+namespaces = true
+
+[project]
+name = "psat-api"
+version = "3.0.2"
+readme = "README.md"
+description = "Proofpoint Security Awareness Training Python API Package"
+license = { text = "MIT" }
+requires-python = ">3.9"
+dependencies = [
+    'requests'
+]
+
+[project.urls]
+repository = "https://github.com/pfptcommunity/psat-api-python"
+homepage = "https://proofpoint.securityeducation.com/api/reporting/documentation"
+#documentation = "https://github.com/pfptcommunity/et-api-python"
+#changelog = "https://github.com/pfptcommunity/et-api-python"

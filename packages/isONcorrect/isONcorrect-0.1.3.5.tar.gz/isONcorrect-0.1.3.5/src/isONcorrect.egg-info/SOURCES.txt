@@ -1,0 +1,17 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+src/isONcorrect.egg-info/PKG-INFO
+src/isONcorrect.egg-info/SOURCES.txt
+src/isONcorrect.egg-info/dependency_links.txt
+src/isONcorrect.egg-info/entry_points.txt
+src/isONcorrect.egg-info/requires.txt
+src/isONcorrect.egg-info/top_level.txt
+src/isoncorrect/__init__.py
+src/isoncorrect/correct_seqs.py
+src/isoncorrect/create_augmented_reference.py
+src/isoncorrect/help_functions.py
+src/isoncorrect/isONcorrect.py
+src/isoncorrect/run_isoncorrect.py

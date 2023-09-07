@@ -1,0 +1,3 @@
+[console_scripts]
+isONcorrect = isoncorrect.isONcorrect:main
+run_isoncorrect = isoncorrect.run_isoncorrect:main

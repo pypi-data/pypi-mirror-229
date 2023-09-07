@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "vimgpt"
+version = "0.1.1"
+description = "LLM agent with direct Vim access using neovim/pynvim"
+authors = ["nsbradford <nsbradford@gmail.com>"]
+license = "MIT license"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+openai = "0.28.0"
+pynvim = "0.4.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+vimgpt_demo_headless = "vimgpt.demo_headless:main"
+vimgpt_demo_attached = "vimgpt.demo_attached:main"

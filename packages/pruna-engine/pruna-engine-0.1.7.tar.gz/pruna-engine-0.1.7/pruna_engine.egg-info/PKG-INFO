@@ -1,0 +1,51 @@
+Metadata-Version: 2.1
+Name: pruna-engine
+Version: 0.1.7
+Summary: This code is for the Pruna AI Engine which loads and runs models optimized with Pruna AI
+License: All Rights Reserved
+Description-Content-Type: text/markdown
+Provides-Extra: tensorrt-8.6.0
+Provides-Extra: tensorrt-8.5.3.1
+
+# Pruna Engine
+
+Pruna Engine is a Python package providing the capability of running deep learning models optimized through Pruna AI.
+
+## Installation
+
+You can install Pruna Engine via pip from PyPI by specifying which tensorrt version you would like:
+
+```shell
+pip install pruna-engine[tensorrt-8.6.0] --extra-index-url https://pypi.ngc.nvidia.com
+```
+or
+```shell
+pip install pruna-engine[tensorrt-8.5.3.1] --extra-index-url https://pypi.ngc.nvidia.com
+```
+
+## Requirements
+- You need to have CUDA toolkit installed on your machine. If you are using a conda environment you can do this by running:
+```shell
+conda install -c conda-forge cudatoolkit
+```
+- You need CUDA 12 to be installed on your machine
+
+## Usage
+
+Here is a simple example of how to use Pruna Engine with a ResNet50 optimized model:
+
+```python
+from pruna_engine import load_model
+# And 'your_api_key' is your actual API key
+your_api_key = 'test'
+optimized_model = load_model('resnet50_model', your_api_key)
+# Run prediction
+pred = optimized_model(test_input)
+```
+
+## License
+
+All Rights Reserved
+
+Copyright 2023 Pruna AI
+

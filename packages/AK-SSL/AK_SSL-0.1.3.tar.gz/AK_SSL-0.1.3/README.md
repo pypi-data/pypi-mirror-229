@@ -1,0 +1,319 @@
+<p align="center">
+  <img src="https://raw.githubusercontent.com/audrina-ebrahimi/AK_SSL/main/Documents/logo.png" alt="AK_SSL Logo"  width="50%"/>
+</p>
+
+<h1>
+<br>AK_SSL: A Self-Supervised Learning Library
+</h1>
+
+
+
+![GitHub](https://img.shields.io/github/license/audrina-ebrahimi/AK_SSL) ![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg) ![PyPI - Version](https://img.shields.io/pypi/v/AK_SSL)
+
+
+---
+
+## 📒 Table of Contents
+- 📒 Table of Contents
+- 📍 Overview
+- ✍️ Self Supervised Learning
+- 🔎 Supported Methods
+- 💡 Tutorial
+- 📜 References Used
+- 💯 License
+- 🤝 Collaborators
+
+
+---
+## 📍 Overview
+Welcome to the Self-Supervised Learning Library! This repository hosts a collection of tools and implementations for self-supervised learning. Self-supervised learning is a powerful paradigm that leverages unlabeled data to pre-trained models, which can then be fine-tuned on specific tasks with smaller labeled datasets. This library aims to provide researchers and practitioners with a comprehensive set of tools to experiment, learn, and apply self-supervised learning techniques effectively.
+This project was our assignment during the summer apprenticeship in the newly established Intelligent and Learning System ([ILS](http://ils.ui.ac.ir/)) laboratory at the University of Isfahan.
+
+---
+
+## ✍️ Self Supervised Learning
+
+Self-supervised learning is a subfield of machine learning where models are trained to predict certain aspects of the input data without relying on manual labeling. This approach has gained significant attention due to its ability to leverage large amounts of unlabeled data, which is often easier to obtain than fully annotated datasets. This library provides implementations of various self-supervised techniques, allowing you to experiment with and apply these methods in your own projects.
+
+---
+
+## 🔎 Supported Methods
+
+### BarlowTwins
+
+### BYOL
+
+### DINO
+
+### MoCo v2
+
+### MoCo v3
+
+### SimCLR v1
+
+### SimCLR v2
+
+### SimSiam
+
+### SwAV
+
+---
+
+## 💡 Tutorial
+
+Using AK_SSL, you have the flexibility to leverage the most recent self-supervised learning techniques seamlessly, harnessing the complete capabilities of PyTorch. You can explore diverse backbones, models, and optimizer while benefiting from a user-friendly framework that has been purposefully crafted for ease of use.
+
+You can easily import Trainer module from AK_SSL library and start utilizing it right away.
+
+```python
+from AK_SSL import Trainer
+```
+
+### Initializing the Trainer
+Now, let's initialize the self-supervised trainer with our chosen method, backbone, dataset, and other configurations.
+
+```python
+trainer = Trainer(
+    method="barlowtwins",           # training method as string
+    backbone=backbone,              # backbone architecture as torch.Module
+    feature_size=feature_size,      # size of the extracted features as integer
+    dataset=train_dataset,          # training dataset as torch.utils.data.Dataset
+    image_size=32,                  # dataset image size as integer
+    save_dir="./save_for_report/",  # directory to save training checkpoints and Tensorboard logs as string
+    checkpoint_interval=50,         # interval (in epochs) for saving checkpoints as integer
+    reload_checkpoint=False,        # reload a previously saved checkpoint as boolean
+    verbose=True,                   # enable verbose output for training progress as a boolean
+    **kwargs                        # other arguments 
+)
+```
+Note: The use of **kwargs can differ between methods, depending on the specific method, loss function, transformation, and other factors. If you are utilizing any of the objectives listed below, you must provide their arguments during the initialization of the Trainer class.
+
+- <details><summary>SimCLR Transformation</summary>
+  
+  ```
+    color_jitter_strength     # a float to Set the strength of color
+    use_blur                  # a boolean to specify whether to apply blur augmentation
+    mean                      # a float to specify the mean values for each channel
+    std                       # a float to specify the standard deviation values for each channel
+  ```
+  
+  </details>
+
+- <details><summary>BarlowTwins</summary>
+
+  - Method
+    ```
+      projection_dim          # an integer to specify dimensionality of the projection head
+      hidden_dim              # an integer to specify dimensionality of the hidden layers in the neural network
+      moving_average_decay    # a float to specify decay rate for moving averages during training
+    ```
+  - Loss
+    ```
+      lambda_param            # a float to controlling the balance between the main loss and the orthogonality loss
+    ```
+  
+  </details>
+
+
+- <details><summary>DINO Method</summary>
+
+  - Method
+    ```
+      projection_dim          # an integer to specify dimensionality of the projection head
+      hidden_dim              # an integer to specify dimensionality of the hidden layers in the projection head neural network
+      bottleneck_dim          # an integer to specify dimensionality of the bottleneck layer in the student network
+      temp_student            # a float to specify temperature parameter for the student's logits
+      temp_teacher            # a float to specify temperature parameter for the teacher's logits
+      norm_last_layer         # a boolean to specify whether to normalize the last layer of the network
+      momentum_teacher        # a float to control momentum coefficient for updating the teacher network
+      num_crops               # an integer to determines the number of augmentations applied to each input image
+      use_bn_in_head          # a boolean to spcecify whether to use batch normalization in the projection head
+    ```
+  - Loss
+    ```
+      center_momentum        # a float to control momentum coefficient for updating the center of cluster assignments
+    ```
+
+  </details>
+
+
+- <details><summary>MoCo v2</summary>
+
+  - Method
+    ```
+      projection_dim          # an integer to specify dimensionality of the projection head
+      K                       # an integer to specify number of negative samples per positive sample in the contrastive loss
+      m                       # a float to control momentum coefficient for updating the moving-average encoder
+    ```
+  - Loss
+    ```
+      temperature             # a float to control the temperature for the contrastive loss function
+    ```
+
+  </details>
+  
+- <details><summary>MoCo v3</summary>
+
+  - Method  
+    ```
+      projection_dim          # an integer to specify dimensionality of the projection head
+      hidden_dim              # an integer to specify dimensionality of the hidden layers in the projection head neural network
+      moving_average_decay    # a float to specify decay rate for moving averages during training
+    ```
+  - Loss
+    ```
+      temperature             # a float to control the temperature for the contrastive loss function
+    ```
+
+  </details>
+
+
+- <details><summary>SimCLR</summary>
+
+  - Method
+    ```
+      projection_dim          # an integer to specify dimensionality of the projection head
+      projection_num_layers   # an integer to specify the number of layers in the projection head (1: SimCLR v1, 2: SimCLR v2)
+      projection_batch_norm   # a boolean to indicate whether to use batch normalization in the projection head
+    ```
+  - Loss
+    ```
+      temperature             # a float to control the temperature for the contrastive loss function
+    ```
+
+  </details>
+
+- <details><summary>SimSiam</summary>
+  
+  - Method
+    ```
+      projection_dim          # an integer to specify dimensionality of the projection head
+    ```
+  - Loss
+    ```
+      eps                     # a float to control the stability of the loss function
+    ```
+
+  </details>
+  
+
+- <details><summary>SwAV</summary>
+
+  - Method
+    ```
+      projection_dim          # an integer to specify dimensionality of the projection head
+      hidden_dim              # an integer to specify dimensionality of the hidden layers in the projection head neural network
+      epsilon                 # a float to control numerical stability in the algorithm
+      sinkhorn_iterations     # an integer to specify the number of iterations in the Sinkhorn-Knopp algorithm
+      num_prototypes          # an integer to specify the number of prototypes or clusters for contrastive learning
+      queue_length            # an integer to specify rhe length of the queue for maintaining negative samples
+      use_the_queue           # a boolean to indicate whether to use the queue for negative samples
+      num_crops               # an integer to determines the number of augmentations applied to each input image
+    ```
+  - Loss
+    ```
+      temperature             # a float to control the temperature for the contrastive loss function
+    ```
+
+  </details>
+
+
+### Training the Self-Supervised Model
+
+Then, we'll train the self-supervised model using the specified parameters.
+
+```python
+  trainer.train(               
+      batch_size=256,          # the number of training examples used in each iteration as integer
+      start_epoch=1,           # the starting epoch for training as integer (if 'reload_checkpoint' parameter was True, start epoch equals to the latest checkpoint epoch)
+      epochs=100,              # the total number of training epochs as integer
+      optimizer="Adam",        # the optimization algorithm used for training as string (Adam, SGD, or AdamW)
+      weight_decay=1e-6,       # a regularization term to prevent overfitting by penalizing large weights as float
+      learning_rate=1e-3,      # the learning rate for the optimizer as float
+)
+```
+
+
+### Evaluating th Self-Supervised Model
+This evaluation assesses how well the pre-trained model performs on a dataset, specifically for tasks related to linear evaluation.
+```python
+trainer.evaluate(
+    train_dataset=train_dataset,      # to specify the training dataset as torch.utils.data.Dataset
+    test_dataset=test_dataset,        # to specify the testing dataset as torch.utils.data.Dataset
+    eval_method="linear",             # the evaluation method to use as string (linear or finetune)
+    top_k=1,                          # the number of top-k predictions to consider during evaluation as integer
+    epochs=100,                       # the number of evaluation epochs as integer
+    optimizer='Adam',                 # the optimization algorithm used during evaluation as string (Adam, SGD, or AdamW)
+    weight_decay=1e-6,                # a regularization term applied during evaluation to prevent overfitting as float
+    learning_rate=1e-3,               # the learning rate for the optimizer during evaluation as float
+    batch_size=256,                   # the batch size used for evaluation in integer
+    fine_tuning_data_proportion=1,    # the proportion of training data to use during evalutation as float in range of (0.0, 1]
+)
+```
+
+### Get the Self-Supervised Model backbone
+
+In case you want to use the pre-trained network in your own downstream task, you need to define a downstream task model. This model should include the self-supervised model backbone as one of its components. Here's an example of how to define a simple downstream model class:
+
+```python
+  class DownstreamNet(nn.Module):
+      def __init__(self, backbone, **kwargs):
+          super().__init__()
+          self.backbone = backbone
+  
+          # You can define your downstream task model here
+  
+      def forward(self, x):
+          x = self.backbone(x)
+          # ...
+  
+  
+  downstream_model = DownstreamNet(trainer.get_backbone())
+```
+
+### Loading Self-Supervised Model Checkpoint
+
+To load a previous checkpoint into the network, you can do as below.
+```python
+path = 'YOUR CHECKPOINT PATH'
+trainer.load_checkpoint(path)
+```
+
+### Saving Self-Supervised Model backbone
+To save model backbone, you can do as below.
+
+```python
+trainer.save_backbone()
+```
+
+
+That's it! You've successfully trained and evaluate a self-supervised model using the AK_SSL Python library. You can further customize and experiment with different self-supervised methods, backbones, and hyperparameters to suit your specific tasks.
+You can find the description of Trainer class and its function using `help` built in fuction in python.
+
+---
+
+## 📜 References Used
+
+In the development of this project, we have drawn inspiration and utilized code, libraries, and resources from various sources. We would like to acknowledge and express our gratitude to the following references and their respective authors:
+
+- [Lightly Library](https://github.com/lightly-ai/lightly)
+- [PYSSL Library](https://github.com/giakou4/pyssl)
+- [SimCLR Implementation](https://github.com/Spijkervet/SimCLR)
+- All original codes of supported methods
+
+These references have played a crucial role in enhancing the functionality and quality of our project. We extend our thanks to the authors and contributors of these resources for their valuable work.
+
+---
+
+## 💯 License
+
+This project is licensed under the MIT License.
+
+---
+
+## 🤝 Collaborators
+By:
+  - [Kian Majlessi](https://github.com/kianmajl)
+  - [Audrina Ebrahimi](https://github.com/audrina-ebrahimi)
+
+Thanks to [Dr. Peyman Adibi](https://scholar.google.com/citations?user=u-FQZMkAAAAJ) and [Dr. Hossein Karshenas](https://scholar.google.com/citations?user=BjMFkWEAAAAJ), for their invaluable guidance and support throughout this project.

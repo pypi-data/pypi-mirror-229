@@ -1,0 +1,10 @@
+MANIFEST.in
+setup.py
+json_urley/__init__.py
+json_urley/_path_element.py
+json_urley/json_urley_error.py
+json_urley.egg-info/PKG-INFO
+json_urley.egg-info/SOURCES.txt
+json_urley.egg-info/dependency_links.txt
+json_urley.egg-info/requires.txt
+json_urley.egg-info/top_level.txt

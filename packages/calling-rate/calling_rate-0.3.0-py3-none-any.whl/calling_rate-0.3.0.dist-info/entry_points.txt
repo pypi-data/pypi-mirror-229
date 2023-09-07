@@ -1,0 +1,3 @@
+[console_scripts]
+calling-rates-curator=calling_rate.curator:curator
+

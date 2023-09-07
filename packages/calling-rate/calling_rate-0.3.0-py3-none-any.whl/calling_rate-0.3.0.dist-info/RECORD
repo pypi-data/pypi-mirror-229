@@ -1,0 +1,9 @@
+calling_rate/__init__.py,sha256=1V4H4H2Lj2C0dEohuEWYcbcPuS88Of7aarQEffI0c88,212
+calling_rate/curator.py,sha256=R4Z66feixien2_FCvkpXCIBh0cDXXRy1xTstvneo65I,623
+calling_rate/number_of_burrows_from_call_rates.py,sha256=Odln6-UGx1HaCyhFJvNRGiDqkq4THopdPZdoJl_lDY4,3252
+calling_rate/raw_data_to_tdp.py,sha256=FoACI7ONAyhD8bMv8I_sm_953R8FXOdUqEIcjkywHpM,1076
+calling_rate-0.3.0.dist-info/entry_points.txt,sha256=QB9KPBCaQVW6Dc-vc_BSpKrYhfWjuQODT7u1Mdq-Ddc,70
+calling_rate-0.3.0.dist-info/LICENSE,sha256=hIahDEOTzuHCU5J2nd07LWwkLW7Hko4UFO__ffsvB-8,34523
+calling_rate-0.3.0.dist-info/WHEEL,sha256=EZbGkh7Ie4PoZfRQ8I0ZuP9VklN_TvcZ6DSE5Uar4z4,81
+calling_rate-0.3.0.dist-info/METADATA,sha256=yZK1m1EFLO7mogqN4crc4d9iDBjfxTjOtq1tdAxgdcg,1586
+calling_rate-0.3.0.dist-info/RECORD,,

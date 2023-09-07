@@ -1,0 +1,11 @@
+django_typomatic/__init__.py,sha256=ruqSa9zKPabEIaOSG9QGFhC9X7kWSa01x1Q5jQb_UnE,20908
+django_typomatic/mappings.py,sha256=ib7WmpsvhAgEDAAmbH_FUJ8A2sEUpC-7zZuMuACFzqg,1207
+django_typomatic/test__init__.py,sha256=4eEwRx9SWUOrFwEuchgxMJ5ZTIhVhQzm2izBADYYBNw,10622
+django_typomatic/management/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_typomatic/management/commands/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_typomatic/management/commands/generate_ts.py,sha256=P5Z-7412ZO9E5Ji2pV2XxRHtlEUcmmMU097idPtgzZI,5362
+django_typomatic-2.4.1.dist-info/LICENSE,sha256=1T3ssRgrdEhCIY_bn1oFtmTqal98FhN-FgaAGU0EmY8,1068
+django_typomatic-2.4.1.dist-info/METADATA,sha256=BlWNc-QrPOdVjHsZBxCYZmFEhR_bI2RRHcdwiuR_UJM,9895
+django_typomatic-2.4.1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+django_typomatic-2.4.1.dist-info/top_level.txt,sha256=e7TtKReFtbtwcn9lXDlNsydkdgJjsXzYQFD2Pk3zzBo,17
+django_typomatic-2.4.1.dist-info/RECORD,,

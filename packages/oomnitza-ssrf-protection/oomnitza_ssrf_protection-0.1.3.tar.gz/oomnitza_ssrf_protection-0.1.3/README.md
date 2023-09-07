@@ -1,0 +1,83 @@
+# Oomnitza SSRF Protection
+
+Package contains reusable logic to apply Oomnitza SSRF protection.
+
+### Overview
+
+The SSRF Protector library is a Python library designed to protect
+against Server-Side Request Forgery (SSRF) attacks. 
+SecuritySSRFProtection class provides a check_url method that allows you to validate URLs
+and ensure they do not point to sensitive or internal resources.
+
+### Installation
+You can install the SSRF Protector library using pip:
+```
+pip install oomnitza-ssrf-protection
+```
+
+### Usage
+To use the SSRF Protector library, follow the steps below:
+
+Import the AsyncSecuritySSRFProtection class from the library and
+call the check_url method with the URL you want to validate:
+
+``` python
+url = "https://example.com"
+result = await AsyncSecuritySSRFProtection().check_url(url)
+```
+
+It's also possible to use SyncSecuritySSRFProtection as synchronous version  
+
+``` python
+url = "https://example.com"
+result = SyncSecuritySSRFProtection().check_url(url)
+```
+
+It's also possible to pass whitelist of URLs
+
+``` python
+url_to_check = "https://example.com"
+allowed_urls=["http://127.0.0.1", "http://169.254.1.194"]
+
+result = await AsyncSecuritySSRFProtection(
+    allowed_urls=allowed_urls
+).check_url(url_to_check)
+```
+
+The check_url method will raise SSRFProtectionError if the URL is potentially
+dangerous (e.g., pointing to internal resources).
+
+
+### Development
+
+Install package with or without test dependencies.
+
+``` shell
+python3 -m venv .venv
+source .venv/bin/activate
+pip install oomnitza-ssrf-protection
+pip install -e '.[tests]'
+```
+
+Feel free to write additional tests to cover the new changes and run test
+suite.
+
+
+### Distribution
+
+Build and upload the package to the PyPi repository.
+
+Upload package to testpypi 
+
+```shell
+python3 -m build
+python3 -m twine upload --repository testpypi dist/*
+```
+
+Upload package to pypi 
+
+
+```shell
+python3 -m build
+python3 -m twine upload dist/*
+```

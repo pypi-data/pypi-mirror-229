@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+oomnitza_ssrf_protection/__init__.py
+oomnitza_ssrf_protection/ssrf_protection.py
+oomnitza_ssrf_protection.egg-info/PKG-INFO
+oomnitza_ssrf_protection.egg-info/SOURCES.txt
+oomnitza_ssrf_protection.egg-info/dependency_links.txt
+oomnitza_ssrf_protection.egg-info/not-zip-safe
+oomnitza_ssrf_protection.egg-info/requires.txt
+oomnitza_ssrf_protection.egg-info/top_level.txt
+tests/.coverage
+tests/__init__.py
+tests/test_ssrf_protection.py

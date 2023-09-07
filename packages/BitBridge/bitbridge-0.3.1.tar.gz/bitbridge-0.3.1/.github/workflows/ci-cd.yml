@@ -1,0 +1,37 @@
+name: CI/CD for BitBridge
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    env:
+      RPC_USER: ${{ secrets.RPC_USER }}
+      RPC_PASS: ${{ secrets.RPC_PASS }}
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: 3.11
+
+      - name: Install dependencies
+        run: pip install -r requirements/requirements.dev.txt
+
+      - name: Start Testnet Bitcoin Core
+        run: |
+          docker-compose -f docker/docker-compose-ci.yaml up -d
+          sleep 10
+
+      - name: Run tests
+        run: pytest
+
+      - name: Stop Testnet Bitcoin Core
+        run: docker-compose -f docker/docker-compose-ci.yaml down

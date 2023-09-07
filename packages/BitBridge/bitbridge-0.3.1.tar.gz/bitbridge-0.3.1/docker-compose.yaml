@@ -1,0 +1,19 @@
+version: '3'
+services:
+  bitcoind:
+    env_file:
+      - .env
+    image: ruimarinho/bitcoin-core:latest
+    ports:
+      - "18443:18443"
+    command:
+      - "-printtoconsole"
+      - "-regtest=1"
+      - "-fallbackfee=0.0002"
+      - "-maxtxfee=0.05"
+      - "-rpcallowip=0.0.0.0/0"
+      - "-rpcbind=0.0.0.0"
+      - "-rpcuser=${RPC_USER}"
+      - "-rpcpassword=${RPC_PASS}"
+    volumes:
+      - ./bitcoin_data:/root/.bitcoin

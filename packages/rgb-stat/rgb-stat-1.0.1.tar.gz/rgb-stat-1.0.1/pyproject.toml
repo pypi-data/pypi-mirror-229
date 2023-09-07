@@ -1,0 +1,60 @@
+[project]
+name = "rgb-stat"
+version = "1.0.1"
+license = {file = "LICENSE.txt"}
+authors = [
+    { name = "Nathan Sommer", email = "nathan@springvalleycorp.com"}
+]
+maintainers = [
+    { name = "Nathan Sommer", email = "nathan@springvalleycorp.com" }
+]
+description = "R,G,B Image Calculator (in Python)"
+dependencies = [
+    "click>=8.1.7",
+    'gphoto2>=2.3.6 ; platform_system != "Windows"',
+    "matplotlib>=3.7.2",
+    "numpy>=1.25.2",
+    "opencv-python>=4.8.0.76",
+    "psutil>=5.9.5",
+    "scipy>=1.11.2",
+]
+keywords = [
+    "RGB",
+]
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers = [
+    "Development Status :: 2 - Pre-Alpha",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+]
+
+[project.urls]
+Homepage = "https://github.com/jbal/rgb"
+Issues = "https://github.com/jbal/rgb/issues"
+Repository = "https://github.com/jbal/rgb"
+
+[project.scripts]
+rgb = "rgb_stat.main:rgb"
+
+[project.optional-dependencies]
+test = [
+    "pytest>=7.2.0",
+]
+
+[build-system]
+requires = [
+    "setuptools>=61.0",
+    "wheel",
+]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["rgb*"]
+namespaces = false

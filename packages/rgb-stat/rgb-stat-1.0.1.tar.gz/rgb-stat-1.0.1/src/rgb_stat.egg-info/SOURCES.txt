@@ -1,0 +1,16 @@
+LICENSE
+README.md
+pyproject.toml
+src/rgb_stat/__init__.py
+src/rgb_stat/image_util.py
+src/rgb_stat/main.py
+src/rgb_stat/stat.py
+src/rgb_stat/util.py
+src/rgb_stat.egg-info/PKG-INFO
+src/rgb_stat.egg-info/SOURCES.txt
+src/rgb_stat.egg-info/dependency_links.txt
+src/rgb_stat.egg-info/entry_points.txt
+src/rgb_stat.egg-info/requires.txt
+src/rgb_stat.egg-info/top_level.txt
+tests/test_stat.py
+tests/test_util.py

@@ -1,0 +1,2 @@
+[console_scripts]
+rgb = rgb_stat.main:rgb

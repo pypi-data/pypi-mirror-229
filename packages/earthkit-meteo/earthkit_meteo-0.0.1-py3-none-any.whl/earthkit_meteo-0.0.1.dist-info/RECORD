@@ -1,0 +1,8 @@
+earthkit/meteo/__init__.py,sha256=PoBuM5VETcvQFUTKMOUCcqmiegoYtgt2TmmQap5nDQU,702
+earthkit/meteo/version.py,sha256=KqIYxtCotOr2xqfuHA7EUGqYWWsayTj9QVTxPcMS6kk,72
+earthkit/meteo/solar/__init__.py,sha256=f-iGF-M4VV830czdBtD8jCMRVDQ99o-KjJ1pRrJ6R_I,6798
+earthkit_meteo-0.0.1.dist-info/LICENSE,sha256=EXa9TeBMc3bjJ8QjcgV6rl6rc7tLDFdHIMzFD6ougSU,11382
+earthkit_meteo-0.0.1.dist-info/METADATA,sha256=UuZAXEhE72wEgV5KQKuTdR09-CNkkTqebD99jGThA28,1794
+earthkit_meteo-0.0.1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+earthkit_meteo-0.0.1.dist-info/top_level.txt,sha256=rlHOKqOMbPp3ZOnnqxjzxP3k_XvdR3AeH_mQLzGAVBI,9
+earthkit_meteo-0.0.1.dist-info/RECORD,,

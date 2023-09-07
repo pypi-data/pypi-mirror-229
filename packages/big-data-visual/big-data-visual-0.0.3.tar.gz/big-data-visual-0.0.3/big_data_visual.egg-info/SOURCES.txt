@@ -1,0 +1,12 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.py
+big_data_visual.egg-info/PKG-INFO
+big_data_visual.egg-info/SOURCES.txt
+big_data_visual.egg-info/dependency_links.txt
+big_data_visual.egg-info/requires.txt
+big_data_visual.egg-info/top_level.txt
+plot/__init__.py
+plot/outdir.py
+plot/rador.py

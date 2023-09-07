@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: big-data-visual
+Version: 0.0.3
+Summary: 方便进行大数据处理、呈现的工具类封装包
+Home-page: https://www.fashiontech.top
+Author: 武汉美宸时科科技有限公司
+Author-email: 28206254@qq.com
+Maintainer: 金飞
+Maintainer-email: 28206254@qq.com
+License-File: LICENSE.txt
+
+# 大数据视觉工具包
+
+方便进行大数据处理、呈现的工具类封装包
+
+https://pypi.org/project/big-data-visual/0.0.1/

@@ -1,0 +1,8 @@
+pick
+psutil
+pyradios==0.0.22
+requests
+rich
+sentry-sdk
+urllib3
+zenlog

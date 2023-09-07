@@ -1,0 +1,2 @@
+[console_scripts]
+filescli = filescli:run_app

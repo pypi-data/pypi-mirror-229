@@ -1,0 +1,89 @@
+.swaggerBox.show {
+    background: #263239;
+    color: white;
+  }
+  
+  .swagger-ui .btn.execute {
+    background-color: #007bff;
+  }
+
+  .button.sc-jXcxbT.jsdzMI {
+    margin-top: 20px;
+}
+  
+  .swagger-ui .btn.execute:hover {
+    background-color: #0056b3;
+    transition: background-color 0.3s ease;
+  }
+  
+  .swagger-ui .opblock.opblock-get .opblock-summary-method {
+    background: #4c9a4f;
+  }
+  
+  .swagger-ui .opblock.opblock-get .opblock-summary {
+    border-color: #4c9a4f;
+  }
+
+ .dIxbMO > button {
+    background-color: #263239;
+    /* border: 0px; */
+    color: inherit;
+    /* padding: 2px 10px; */
+    /* font-family: Roboto, sans-serif; */
+    /* font-size: 14px; */
+    line-height: 1.5em;
+    cursor: pointer;
+    /* outline: 0px; */
+    vertical-align: middle;
+}
+
+  .swagger-ui .opblock.opblock-get {
+    border: 0px;
+    background: #263239;
+  }
+  
+  .swagger-ui .opblock {
+    box-shadow: 0 0 3px rgba(0,0,0,.19);
+    color: white;
+  }
+  
+  .swagger-ui table thead tr td, .swagger-ui table thead tr th {
+    color: white;
+    font-size: 12px;
+    font-weight: 700;
+    padding: 12px 0;
+    text-align: left;
+    border-bottom: 1px solid rgba(59,65,81,.2);
+  }
+  
+  .swagger-ui .opblock .opblock-summary-description {
+    color: white;
+    font-size: 12px;
+    flex: 1 1 auto;
+    word-break: break-word;
+    font-family: sans-serif;
+  }
+  
+  .swagger-ui .opblock .opblock-summary-operation-id, .swagger-ui .opblock .opblock-summary-path, .swagger-ui .opblock .opblock-summary-path__deprecated {
+    font-size: 16px;
+    color: white;
+    display: flex;
+    align-items: center;
+    word-break: break-word;
+    padding: 0 10px;
+    font-family: monospace;
+    font-weight: 500;
+  }
+  
+  .swagger-ui .parameter__type {
+    color: white;
+    font-size: 12px;
+    padding: 5px 0;
+  }
+  
+  .swagger-ui .parameter__name {
+    color: white;
+    font-size: 15px;
+    /* font-weight: 400; */
+    margin-right: 0.75em;
+  }

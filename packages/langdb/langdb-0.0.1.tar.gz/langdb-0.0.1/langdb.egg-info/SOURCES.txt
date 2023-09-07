@@ -1,0 +1,7 @@
+README.md
+VERSION
+pyproject.toml
+langdb.egg-info/PKG-INFO
+langdb.egg-info/SOURCES.txt
+langdb.egg-info/dependency_links.txt
+langdb.egg-info/top_level.txt

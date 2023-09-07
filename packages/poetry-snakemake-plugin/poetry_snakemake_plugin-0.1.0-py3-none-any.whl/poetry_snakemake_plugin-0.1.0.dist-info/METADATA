@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: poetry-snakemake-plugin
+Version: 0.1.0
+Summary: 
+Author: Johannes Koester
+Author-email: johannes.koester@uni-due.de
+Requires-Python: >=3.8.1,<4.0.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: cleo (>=2.0.1,<3.0.0)
+Requires-Dist: jinja2 (>=3.1.2,<4.0.0)
+Requires-Dist: poetry (>=1.2,<2.0)
+Description-Content-Type: text/markdown
+
+# poetry-snakemake-plugin
+
+[![test coverage: 100%](https://img.shields.io/badge/test%20coverage-100%25-green)](https://github.com/yte-template-engine/yte/blob/main/pyproject.toml#L30)
+
+A plugin for poetry that adds Snakemake-specific functionality.
+Currently it supports scaffolding the source code for new Snakemake executor plugins (see https://github.com/snakemake/snakemake-interface-executor-plugins).``

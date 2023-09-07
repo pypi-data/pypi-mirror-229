@@ -1,0 +1,11 @@
+span.gitlink-icon {
+    margin-right: 5px;
+    top: 3px;
+    position: relative;
+}
+
+span.gitlink-docs-icon {
+    margin-left: 5px;
+    top: 3px;
+    position: relative;
+}

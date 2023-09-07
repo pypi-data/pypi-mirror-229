@@ -1,0 +1,10 @@
+kontor/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+kontor/applicant.py,sha256=2BtypHXi8V_5OBH3cD97RjfDO2GDUfk458WPF4WeH0I,11423
+kontor/bureau.py,sha256=OzK6xnx2Iq0c-Afe1tl_M_XRkFFX0VD3Eg6wW_6J2sA,30468
+kontor/defines.py,sha256=rxxxayODm7oyWfL1AlFizg84FOm-ExOl45kvRKQwCBE,6364
+kontor-0.0.19.dist-info/LICENSE,sha256=imddkRSBuxQ5M3yoUwq7p45eyjByQlMIDQgho8UPEMQ,1499
+kontor-0.0.19.dist-info/METADATA,sha256=0ZR5xLhfv99k8jcDvgy5qWLYjGcvw_fu_JqOVJLYwws,3080
+kontor-0.0.19.dist-info/WHEEL,sha256=iYlv5fX357PQyRT2o6tw1bN-YcKFFHKqB_LwHO5wP-g,110
+kontor-0.0.19.dist-info/top_level.txt,sha256=a-Z_f9g2nEkJ_jyiltxmXW9Z1OxeK6DVlW5aM8Tolxw,7
+kontor-0.0.19.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+kontor-0.0.19.dist-info/RECORD,,

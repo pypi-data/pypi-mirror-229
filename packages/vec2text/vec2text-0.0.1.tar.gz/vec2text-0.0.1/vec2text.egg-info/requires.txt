@@ -1,0 +1,13 @@
+bert_score
+datasets
+evaluate
+openai
+optimum
+pre-commit
+pylcs
+rouge_score
+sacrebleu
+sentence_transformers
+tokenizers
+tqdm
+transformers

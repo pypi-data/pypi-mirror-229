@@ -1,0 +1,17 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+tests/__init__.py
+tests/test_analyze_utils.py
+tests/test_corrector_trainer.py
+tests/test_inversion_trainer.py
+tests/test_inversion_trainer_bow.py
+tests/test_inversion_trainer_na.py
+tests/test_models.py
+tests/test_sequence_level_beam_generation.py
+vec2text.egg-info/PKG-INFO
+vec2text.egg-info/SOURCES.txt
+vec2text.egg-info/dependency_links.txt
+vec2text.egg-info/requires.txt
+vec2text.egg-info/top_level.txt

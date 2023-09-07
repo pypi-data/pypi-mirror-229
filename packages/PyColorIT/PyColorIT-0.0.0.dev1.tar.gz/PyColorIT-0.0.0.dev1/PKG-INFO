@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: PyColorIT
+Version: 0.0.0.dev1
+Requires-Python: >=3.9
+Requires-Dist: numpy
+Requires-Dist: jax[cpu]

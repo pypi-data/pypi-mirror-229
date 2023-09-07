@@ -1,0 +1,11 @@
+pyproject.toml
+src/PyColorIT.egg-info/PKG-INFO
+src/PyColorIT.egg-info/SOURCES.txt
+src/PyColorIT.egg-info/dependency_links.txt
+src/PyColorIT.egg-info/not-zip-safe
+src/PyColorIT.egg-info/requires.txt
+src/PyColorIT.egg-info/top_level.txt
+src/pycolorit/__init__.py
+src/pycolorit/color.py
+src/pycolorit/css_filter.py
+src/pycolorit/gradient.py

@@ -1,0 +1,5 @@
+dafne_dl
+matplotlib
+
+[gui]
+PyQt5

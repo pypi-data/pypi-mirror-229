@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+src/D_ID.py
+src/did_api.egg-info/PKG-INFO
+src/did_api.egg-info/SOURCES.txt
+src/did_api.egg-info/dependency_links.txt
+src/did_api.egg-info/requires.txt
+src/did_api.egg-info/top_level.txt

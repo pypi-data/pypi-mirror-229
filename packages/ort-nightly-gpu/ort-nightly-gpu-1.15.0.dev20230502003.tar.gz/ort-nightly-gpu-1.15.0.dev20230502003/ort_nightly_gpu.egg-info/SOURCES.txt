@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+ort_nightly_gpu.egg-info/PKG-INFO
+ort_nightly_gpu.egg-info/SOURCES.txt
+ort_nightly_gpu.egg-info/dependency_links.txt
+ort_nightly_gpu.egg-info/not-zip-safe
+ort_nightly_gpu.egg-info/top_level.txt

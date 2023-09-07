@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: ort-nightly-gpu
+Version: 1.15.0.dev20230502003
+Summary: test
+Author: test
+License: MIT
+License-File: LICENSE

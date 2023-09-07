@@ -1,0 +1,35 @@
+[build-system]
+requires = ["flit_core >=3.8,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "topsy"
+authors = [{name = "Andrew Pontzen", email = "a.pontzen@ucl.ac.uk"}]
+dynamic = ["version", "description"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: BSD License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Topic :: Scientific/Engineering :: Visualization",
+]
+readme = 'README.md'
+requires-python = ">=3.7"
+
+dependencies = [
+    "numpy >=1.16.0",
+    "pynbody >=1.3.0",
+    "matplotlib >=3.6.0",
+    "pillow >=9.5.0", # 9.5.0 needed for Image.frombytes accepting memoryview
+    "wgpu >= 0.9.4",
+    "jupyter_rfb >=0.4.1",
+    "glfw >= 2.6.0" # windowing
+]
+
+
+[project.scripts]
+topsy = "topsy:main"
+
+[project.urls]
+Home = "https://github.com/pynbody/topsy"

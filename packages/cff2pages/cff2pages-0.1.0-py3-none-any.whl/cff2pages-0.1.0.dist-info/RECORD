@@ -1,0 +1,11 @@
+cff2pages/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cff2pages/cff2pages.py,sha256=lohJfcs2Pdm6g0KaZ7KLIMg0_e7KuoHPLSG1fUtAyXs,3015
+cff2pages/resources/css/default.css,sha256=reBe5tgg3-g9sdB9ybTcAUcG7fLLvQKySr9TDrTf7B4,1981
+cff2pages/resources/img/github-logo.png,sha256=Nn1csq3GCUUc-RJyUO3-iTg3SF58d519y04xI09ZsAE,6393
+cff2pages/resources/img/gitlab-logo.png,sha256=sAws6gh9R0tMK81gwr3c8KnMtaJKjeumXL97tPcweG4,3659
+cff2pages/resources/img/orcid_16x16.webp,sha256=33SgMB8qAvp2nIZrexehpweDF7aCZbA4uACy7F6AbgY,166
+cff2pages/templates/index.html,sha256=P0MtPF8DyR3SboLp3ow_OdcS43eJEFfD8z0JsUf0o2M,5684
+cff2pages-0.1.0.dist-info/METADATA,sha256=KuejsnhROiJ2eOITy7Fcrbg_sBTGgnzsrFh1-Hl-JLk,4110
+cff2pages-0.1.0.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+cff2pages-0.1.0.dist-info/licenses/LICENSE,sha256=P73CtKV3tDtLGvmmBOC3jtFGvxBao-xZy-45T3Wf4gI,1081
+cff2pages-0.1.0.dist-info/RECORD,,

@@ -1,0 +1,33 @@
+# the "wheel" crate is excluded from the workspace because pyo3 has problems with
+# "cargo test" and "cargo bench"
+[workspace]
+members = ["wasm", "chik_streamable_macro", "chik-bls", "klvm-utils", "chik-protocol", "chik_py_streamable_macro", "chik-tools", "fuzz", "klvm-utils/fuzz"]
+exclude = ["wheel"]
+
+[package]
+name = "chik"
+version = "0.2.9"
+edition = "2021"
+license = "Apache-2.0"
+description = "Utility functions and types used by the Chik blockchain full node"
+authors = ["Richard Kiss <him@richardkiss.com>", "Arvid Norberg <arvid@chiknetwork.com>"]
+homepage = "https://github.com/Chik-Network/chik_rs/"
+repository = "https://github.com/Chik-Network/chik_rs/"
+
+[features]
+py-bindings = ["dep:pyo3"]
+
+[dependencies]
+klvmr = "=0.2.8"
+hex = "=0.4.3"
+pyo3 = { version = ">=0.19.0", features = ["extension-module"], optional = true }
+klvm-utils = { version = "=0.2.7", path = "../klvm-utils" }
+chik-protocol = { version = "=0.2.7", path = "../chik-protocol" }
+hex-literal = "=0.4.1"
+
+[lib]
+name = "chik"
+crate-type = ["rlib"]
+
+[profile.release]
+lto = true

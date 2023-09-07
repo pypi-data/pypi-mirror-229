@@ -1,0 +1,16 @@
+[package]
+name = "chik_streamable_macro"
+version = "0.2.4"
+edition = "2021"
+license = "Apache-2.0"
+description = "Streamable derive macro for serializing/deserializing types in Chik protocol format"
+authors = ["Arvid Norberg <arvid@libtorrent.org>"]
+homepage = "https://github.com/Chik-Network/chik_rs/"
+repository = "https://github.com/Chik-Network/chik_rs/"
+
+[lib]
+proc-macro = true
+
+[dependencies]
+syn = { version = "2.0.22", features = ["full"] }
+quote = "1.0.28"

@@ -1,0 +1,9 @@
+gammarer/aws_waf_geo_restriction_rule_group/__init__.py,sha256=R9nFh0GCxEw31MWC-j345Pb6OT7JINfPLN1CubSGv5k,11833
+gammarer/aws_waf_geo_restriction_rule_group/py.typed,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+gammarer/aws_waf_geo_restriction_rule_group/_jsii/__init__.py,sha256=e7UKsghw-O6DvC95P5JFmmDgnuRQKxT86mz6SGSX_Fk,458
+gammarer/aws_waf_geo_restriction_rule_group/_jsii/aws-waf-geo-restriction-rule-group@0.9.1.jsii.tgz,sha256=FowBay-JblwGVOqMf8fg9BgkABgFFez0dtNRqanB5ck,28247
+gammarer.aws_waf_geo_restriction_rule_group-0.9.1.dist-info/LICENSE,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+gammarer.aws_waf_geo_restriction_rule_group-0.9.1.dist-info/METADATA,sha256=vZUDftOWcSojuP07SS86xW_g_62FBL08a9fxM-lYCQI,3922
+gammarer.aws_waf_geo_restriction_rule_group-0.9.1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+gammarer.aws_waf_geo_restriction_rule_group-0.9.1.dist-info/top_level.txt,sha256=KJjeCHKZfj1dN2Ip1piM9BKO8rN6r4xXHtkpTHMDzVk,9
+gammarer.aws_waf_geo_restriction_rule_group-0.9.1.dist-info/RECORD,,

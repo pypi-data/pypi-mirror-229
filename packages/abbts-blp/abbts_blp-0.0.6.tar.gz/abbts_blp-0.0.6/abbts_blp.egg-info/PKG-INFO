@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: abbts-blp
+Version: 0.0.6
+Summary: abbts_blp
+Home-page: https://github.com/p-d-h/abbts_blp
+Author: Pascal Helfenstein
+Author-email: pascal.helfenstein@abbts.ch
+License: LICENSE.txt
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+Github: https://github.com/p-d-h/abbts_blp  
+Installation: pip install abbts_blp (https://pypi.org/project/abbts-blp/)  
+Dokumentation: https://raw.githack.com/p-d-h/abbts_blp/main/docs/build/html/index.html

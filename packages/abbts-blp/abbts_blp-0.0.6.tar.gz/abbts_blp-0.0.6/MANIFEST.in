@@ -1,0 +1,3 @@
+# https://python-packaging.readthedocs.io/en/latest/non-code-files.html
+# include requirements.txt
+recursive-include abbts_blp/rgb *

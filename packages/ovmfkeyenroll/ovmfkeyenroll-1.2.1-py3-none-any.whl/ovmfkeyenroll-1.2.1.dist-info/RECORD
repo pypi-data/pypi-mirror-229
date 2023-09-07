@@ -1,0 +1,9 @@
+ovmfkeyenroll/SecureBootEnable.bin,sha256=S_USLzRFVMU73i67jNK349FgCtYxw4Wl18ziPHeFRZo,1
+ovmfkeyenroll/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ovmfkeyenroll/secure_boot.py,sha256=8VjMLl7RPvfTeTwr7E1XJmOUPLWKae8r7M1ab4OMEpg,10144
+ovmfkeyenroll/var_enroll.py,sha256=TK3p8myLCCJCP7YhB14uLkyAz1kS_r4WDQsnNj68dwc,32763
+ovmfkeyenroll-1.2.1.dist-info/METADATA,sha256=1tPgc5v98ncUo4_LzPjv7PiObgtdJOD8hNagz3DHrxg,1861
+ovmfkeyenroll-1.2.1.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+ovmfkeyenroll-1.2.1.dist-info/entry_points.txt,sha256=5mOyRqFKi6pFLJKn2ltPmwJD3dsMuP3g2-541Byvf5E,111
+ovmfkeyenroll-1.2.1.dist-info/licenses/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+ovmfkeyenroll-1.2.1.dist-info/RECORD,,

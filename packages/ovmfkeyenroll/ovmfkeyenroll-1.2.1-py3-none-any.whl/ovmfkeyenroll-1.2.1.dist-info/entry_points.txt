@@ -1,0 +1,3 @@
+[console_scripts]
+ovmfkeyenroll = ovmfkeyenroll.secure_boot:main
+ovmfvarenroll = ovmfkeyenroll.var_enroll:main

@@ -1,0 +1,8 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.py
+src/tqueue.egg-info/PKG-INFO
+src/tqueue.egg-info/SOURCES.txt
+src/tqueue.egg-info/dependency_links.txt
+src/tqueue.egg-info/top_level.txt

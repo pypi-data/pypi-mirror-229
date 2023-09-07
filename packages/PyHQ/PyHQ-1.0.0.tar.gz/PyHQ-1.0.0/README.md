@@ -1,0 +1,41 @@
+# PyHQ (Python Package)
+
+PyHQ is an open-source, advanced, and multi-purpose Python package.
+
+Read the docs [here](https://anikethchavare.gitbook.io/PyHQ).
+
+## Package Information
+
+**Name** - PyHQ</br>
+**Version** - 1.0.0</br>
+**Description** - PyHQ is an open-source, advanced, and multi-purpose Python package.</br>
+**Author** - Aniketh Chavare</br>
+**GitHub URL** - [https://github.com/anikethchavare/PyHQ](https://github.com/anikethchavare/PyHQ)</br>
+**Pypi.org URL** - [https://pypi.org/project/PyHQ](https://pypi.org/project/PyHQ)</br>
+**Docs URL** - [https://anikethchavare.gitbook.io/PyHQ](https://anikethchavare.gitbook.io/PyHQ)
+
+## Changelog
+
+Go to the `CHANGELOG.md` file to see the changelog.
+
+## License
+
+Copyright 2023 Aniketh Chavare
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+
+## Conclusion
+
+If you experience any problems or bugs, please go to the 'Issues' section and create an issue. I will look into it and resolve it ASAP.
+
+I hope you liked the package. Thank you!

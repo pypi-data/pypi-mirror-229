@@ -1,0 +1,43 @@
+{% extends 'base.html' %}
+
+{% block title %}Kickbot Dashboard{% endblock %}
+
+{% block content %}
+<br>
+<div class="card">
+    <div class="card-header">
+        Dashboard
+    </div>
+    <div class="card-body">
+        <form method="post">
+            <input type="text" name="streamer_name" placeholder="Streamer username" required>
+            <br>
+            <button class="bot-button" type="submit" >Start Bot</button>
+        </form>
+        {% if bot_running %}
+        <a href="/killbot"><button class="bot-button" style="background-color: red;">Stop Bot</button></a>
+        {% endif %}
+    </div>
+</div>
+
+<div class="card mt-3">
+    <div class="card-header">
+        Bot Output
+    </div>
+    <div class="card-body" id="bot-messages" style="color: white; text-align: left;">
+    </div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.3.2/socket.io.js"></script>
+<script>
+    // Establish a WebSocket connection
+    const socket = io.connect('http://localhost:8000');
+
+    socket.on('bot_output', (message) => {
+        const botMessages = document.getElementById('bot-messages');
+        const newMessage = document.createElement('p');
+        newMessage.innerText = message;
+        botMessages.insertBefore(newMessage, botMessages.firstChild);
+    });
+</script>
+{% endblock %}

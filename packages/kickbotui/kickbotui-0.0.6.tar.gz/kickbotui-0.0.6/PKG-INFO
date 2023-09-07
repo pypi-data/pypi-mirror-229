@@ -1,0 +1,51 @@
+Metadata-Version: 2.1
+Name: kickbotui
+Version: 0.0.6
+Summary: Basic User-Interface for interacting with the kickbot package
+Home-page: https://github.com/lukemvc/kickbotui
+License: UNKNOWN
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# kickbotui
+
+---
+#### A basic user interface for the [kickbot package](https://github.com/lukemvc/kickbot)
+
+
+
+https://github.com/lukemvc/kickbotui/assets/137377630/e2f5e361-0872-4611-b4ae-60830fffd941
+
+
+# Table of Contents
+
+- [About](#about)
+- [Installation](#installation)
+- [Usage](#usage)
+
+## About
+This package contains a flask app that will run on localhost port 8000. (http://127.0.0.1:8000).
+
+It provides a simple user interface to add Command handlers, and Timed event functions.
+
+This only has funcitonality for command and event handers. For additional functionality and customization,
+use [kickbot](https://github.com/lukemvc) directly.
+
+## Installation
+```commandline
+pip install kickbotui
+```
+
+## Usage
+simply open a terminal and run:
+```commandline
+kickbotui
+```
+or
+```commandline
+python -m kickbotui
+```
+
+
+

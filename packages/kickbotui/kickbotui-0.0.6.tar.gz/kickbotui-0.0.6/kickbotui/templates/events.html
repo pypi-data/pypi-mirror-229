@@ -1,0 +1,40 @@
+{% extends 'base.html' %}
+
+{% block title %}Kickbot Timed Events{% endblock %}
+
+{% block content %}
+<br>
+<div class="card">
+    <div class="card-header">
+        Timed Events
+    </div>
+    <div class="card-body">
+        {% for event in events%}
+            <div class="row-card command-card" >
+                <p>
+                    <span style="color: #07ff0c;">Every {{ event.minutes }} minutes</span>
+                <br>
+                    Send: {{ event.action }}
+                    <a class="delete-button" href="/events/delete/{{ event.id }}">Delete</a>
+                </p>
+            </div>
+        {% endfor %}
+        <div class="card">
+            <div class="card-header">
+                Add Event
+            </div>
+            <div class="card-body">
+                 <form method="post">
+                     <label for="minutes" style="color: white">Time in Minutes:</label>
+                     <input type="number" min="1" name="minutes" id="minutes" required>
+                     <br><br>
+                     <label for="event" style="color: white;">Send:</label>
+                     <input type="text" name="event_action" id="event" required>
+                     <br>
+                    <button class="bot-button" type="submit">Add</button>
+                 </form>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

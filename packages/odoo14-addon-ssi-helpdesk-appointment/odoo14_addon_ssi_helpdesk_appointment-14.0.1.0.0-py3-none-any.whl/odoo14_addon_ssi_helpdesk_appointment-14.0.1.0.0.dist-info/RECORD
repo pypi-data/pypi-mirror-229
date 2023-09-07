@@ -1,0 +1,11 @@
+odoo/addons/ssi_helpdesk_appointment/README.rst,sha256=CU0-oz7ZG6Gt-Q-Fv2FjqWuSDrsRgAWMrukQaH5jlP0,1230
+odoo/addons/ssi_helpdesk_appointment/__init__.py,sha256=pXobMvi-Xzga8dGVPzYthZUHJzQSY3b6Bevs09H-1uY,201
+odoo/addons/ssi_helpdesk_appointment/__manifest__.py,sha256=GTGErL1nGnRezagk9mIB5QlgTYxmeYDbos0eHwVWQ9Y,599
+odoo/addons/ssi_helpdesk_appointment/models/__init__.py,sha256=HFwR6UWI8UPB8oYcO-oRVnwwBjfp2RjkuDn4tuGYXNs,210
+odoo/addons/ssi_helpdesk_appointment/models/helpdesk_ticket.py,sha256=_6BWCUhtvbvOkZ_22jUl1Uc-uKFFmgspJULV5jqoU9g,1553
+odoo/addons/ssi_helpdesk_appointment/static/description/icon.png,sha256=lNGJOSg4cMRfwPTfFKVT6d5B2N1N83iVpEEN1blqu1I,48333
+odoo/addons/ssi_helpdesk_appointment/views/helpdesk_ticket_views.xml,sha256=Czt2v2FVAtZ0naWu9SbRHypvXWhU6VrTwx2KkG9xvEE,1944
+odoo14_addon_ssi_helpdesk_appointment-14.0.1.0.0.dist-info/METADATA,sha256=uPfOgMaHTBKzD83t31-PmIAn17dtBx1hmO3ddeVzabI,1838
+odoo14_addon_ssi_helpdesk_appointment-14.0.1.0.0.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+odoo14_addon_ssi_helpdesk_appointment-14.0.1.0.0.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
+odoo14_addon_ssi_helpdesk_appointment-14.0.1.0.0.dist-info/RECORD,,

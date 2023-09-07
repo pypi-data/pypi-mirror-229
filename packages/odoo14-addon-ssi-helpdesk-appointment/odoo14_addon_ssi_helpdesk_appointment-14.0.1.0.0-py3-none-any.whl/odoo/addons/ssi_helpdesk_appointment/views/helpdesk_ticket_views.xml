@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- Copyright 2022 OpenSynergy Indonesia
+     Copyright 2022 PT. Simetri Sinergi Indonesia
+     License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl). -->
+<odoo>
+
+<record id="helpdesk_ticket_view_search" model="ir.ui.view">
+    <field name="name">helpdesk_ticket - search</field>
+    <field name="model">helpdesk_ticket</field>
+    <field name="inherit_id" ref="ssi_helpdesk.helpdesk_ticket_view_search" />
+    <field name="arch" type="xml">
+        <data>
+            <xpath expr="//separator[@name='activity']" position="before">
+                <separator name="appointment" />
+                <filter
+                        name="not_done_appointment"
+                        string="Appointment Not Done"
+                        domain="[('appointment_request_state','=',False)]"
+                    />
+                <filter
+                        name="done_appointment"
+                        string="Appointment Done"
+                        domain="[('appointment_request_state','=',True)]"
+                    />
+            </xpath>
+        </data>
+    </field>
+</record>
+
+<record id="helpdesk_ticket_view_form" model="ir.ui.view">
+     <field name="name">helpdesk_ticket form</field>
+     <field name="model">helpdesk_ticket</field>
+     <field name="inherit_id" ref="ssi_helpdesk.helpdesk_ticket_view_form" />
+     <field name="mode">extension</field>
+     <field name="arch" type="xml">
+          <data>
+               <xpath expr="//page[1]" position="after">
+                    <page name="appointment" string="Appointments">
+                         <group name="appointment" colspan="4" col="2">
+                              <field name="appointment_request_state" />
+                         </group>
+                         <field name="appointment_schedule_ids" />
+                    </page>
+               </xpath>
+          </data>
+     </field>
+</record>
+</odoo>

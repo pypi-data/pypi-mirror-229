@@ -1,0 +1,16 @@
+bindep
+bindir
+bthornto
+caplog
+capsys
+cpart
+fileh
+fqcn
+levelname
+levelno
+netcommon
+pip4a
+reqs
+specp
+uninstallation
+vuuid

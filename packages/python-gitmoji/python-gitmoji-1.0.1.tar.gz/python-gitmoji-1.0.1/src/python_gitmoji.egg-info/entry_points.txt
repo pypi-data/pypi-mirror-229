@@ -1,0 +1,2 @@
+[console_scripts]
+dump-gitmoji-api = gitmoji.cli:dump_gitmoji_api

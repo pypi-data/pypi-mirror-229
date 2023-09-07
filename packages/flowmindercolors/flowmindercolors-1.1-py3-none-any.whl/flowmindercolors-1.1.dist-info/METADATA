@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: flowmindercolors
+Version: 1.1
+Requires-Dist: matplotlib
+Requires-Dist: cycler
+Requires-Dist: numpy
+

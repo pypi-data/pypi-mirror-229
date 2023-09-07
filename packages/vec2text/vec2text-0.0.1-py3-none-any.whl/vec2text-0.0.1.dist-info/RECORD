@@ -1,0 +1,13 @@
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_analyze_utils.py,sha256=j4uIcn-0fTrlsPi5nja2wnK7hPcAjL3-qKgG-ArWVwQ,1140
+tests/test_corrector_trainer.py,sha256=t6sA7jaIjdh_pIkwYsa7rUCEa6MU_WBazXzB-Sw4Jr8,2529
+tests/test_inversion_trainer.py,sha256=2R1qqn8LTonTHOkcUrB0x9tHGshY877sNqBoANL-Te4,4600
+tests/test_inversion_trainer_bow.py,sha256=gOlJn7ErhEoh5m9dwQgK6a5vM83RtEgmJ0uhabSDn8s,2412
+tests/test_inversion_trainer_na.py,sha256=s5iiszTSUcrIfuYTaqDfEA3RYpwXf4Y7jFjthyMnwhw,2411
+tests/test_models.py,sha256=Ho_QpeBehuKgrU6MtTTviEAD5YA-DGOU5s7AWObfeyE,3079
+tests/test_sequence_level_beam_generation.py,sha256=gpRy-u0q5f_yxGZcDDVI_qb-ZNmKffGSe0kq_HaoSw8,1492
+vec2text-0.0.1.dist-info/LICENSE,sha256=9wKQDzemmLOCkR7vQWcbAWETffD_mN8YZipwTmjBfQQ,3865
+vec2text-0.0.1.dist-info/METADATA,sha256=JUgVXvkVEtdhtj6S78rIS9tTxh8RSVii6xMiKRyn_LA,503
+vec2text-0.0.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+vec2text-0.0.1.dist-info/top_level.txt,sha256=EdW7283x-lr_cbuivW8Ij7ANAP-ZJ9sLtILQseEPxXg,6
+vec2text-0.0.1.dist-info/RECORD,,

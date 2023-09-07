@@ -1,0 +1,10 @@
+{
+  "argv": [
+    "python",
+    "-m",
+    "swi_prolog_kernel",
+    "-f",
+    "{connection_file}"
+  ],
+  "display_name": "SWI Prolog"
+}

@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: hiss-me-maybe
+Version: 0.1.0
+Summary: 
+Author: Samuel Yvon
+Author-email: samuelyvon9@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: click
+Requires-Dist: pydantic (>=1.10,<2.0)
+Requires-Dist: requests
+Requires-Dist: rich (>=13.3.2,<14.0.0)
+Description-Content-Type: text/markdown
+
+# 🐍 hiss-me-maybe
+
+Python Version of my `rs-call-me-maybe`. Baby snake version for now, only supports Pushover.
+
+
+## Pushover use
+
+```shell
+echo "hello" | hmm creds
+```
+
+Where `creds` is `base64(f"{userkey}:{applicationkey}")`
+

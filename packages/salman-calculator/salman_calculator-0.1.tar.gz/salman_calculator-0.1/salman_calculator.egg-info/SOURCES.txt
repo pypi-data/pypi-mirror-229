@@ -1,0 +1,5 @@
+setup.py
+salman_calculator.egg-info/PKG-INFO
+salman_calculator.egg-info/SOURCES.txt
+salman_calculator.egg-info/dependency_links.txt
+salman_calculator.egg-info/top_level.txt

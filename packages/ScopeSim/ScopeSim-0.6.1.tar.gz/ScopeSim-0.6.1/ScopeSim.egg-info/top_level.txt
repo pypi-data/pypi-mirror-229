@@ -1,0 +1,6 @@
+OLD_code
+build
+dist
+docs
+scopesim
+scopesim_pkg_dir_tmp

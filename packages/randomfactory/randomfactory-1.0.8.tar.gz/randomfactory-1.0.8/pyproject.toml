@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "randomfactory"
+version = "1.0.8"
+description = "randomfactory is a helper function for generating random output that is used in testcase."
+authors = ["chavokim <treeboy0384@gmail.com>"]
+readme = "README.md"
+license = "MIT"
+homepage = "https://github.com/codetree21/randomfactory"
+repository = "https://github.com/codetree21/randomfactory"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+
+[tool.poetry.scripts]
+test = "randomfactory.test:main"
+

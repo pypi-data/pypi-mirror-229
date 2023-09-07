@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: wookie
+Version: 1.0.0
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: Nexachromic
+Author-email: nexachromic@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+# Star Wars API Wrapper
+
+This is an asynchronous wrapper for the [Star Wars API]("https://starwarsapi.site/")
+
+## Usage
+
+>> Getting a character by name
+
+```py
+if __name__ == "__main__":
+        from starwarsapi import StarWarsClient
+
+sw = StarWarsClient(base_url="https://starwarsapi.site")
+character_by_name = await sw.get_character_by_name("Luke Skywalker")
+        print("Character by Name:", character_by_name)
+
+```
+
+>> Get character count
+
+```py
+if __name__ == "__main__":
+        from starwarsapi import StarWarsClient
+
+sw = StarWarsClient(base_url="https://starwarsapi.site")
+character_count_ = await sw.get_character_count()
+        print(character_count)
+```
+
+### More examples to come... Hold on for a while and refer https://starwarsapi.site/docs/
+

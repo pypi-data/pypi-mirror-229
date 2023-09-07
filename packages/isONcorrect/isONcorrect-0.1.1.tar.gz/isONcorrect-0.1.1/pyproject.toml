@@ -1,0 +1,21 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+[project]
+name = "isONcorrect"
+version = "0.1.1"
+authors = [
+  { name="Kristoffer Sahlin", email="krsahlin.work@gmail.com" },
+]
+description = "De novo error-correction of long-read transcriptome reads"
+readme = "README.md"
+requires-python = ">=3.4"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/ksahlin/isONcorrect"
+"Bug Tracker" = "https://github.com/ksahlin/isONcorrect/issues"

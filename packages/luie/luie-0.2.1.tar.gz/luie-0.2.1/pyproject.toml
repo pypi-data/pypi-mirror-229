@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "luie"
+version = "0.2.1"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+transformers = "^4.32.1"
+strenum = "^0.4.15"
+fire = "^0.5.0"
+seqeval = "^1.2.2"
+kodali = "^0.3.0"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.4.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

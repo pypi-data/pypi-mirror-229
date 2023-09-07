@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: tlem
+Version: 0.1.0
+Summary: 
+Author: fecet
+Author-email: xiezej@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Description-Content-Type: text/markdown
+
+---
+title: Tlem
+emoji: 🏆
+colorFrom: yellow
+colorTo: yellow
+sdk: static
+pinned: false
+license: apache-2.0
+---
+
+Check out the configuration reference at https://huggingface.co/docs/hub/spaces-config-reference
+

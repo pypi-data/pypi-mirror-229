@@ -1,0 +1,6 @@
+[console_scripts]
+epiannot = epiout.main:cli_epiannot
+epiannot_create = epiout.main:cli_epiannot_create
+epiannot_list = epiout.main:cli_epiannot_list
+epicount = epiout.main:cli_epicount
+epiout = epiout.main:cli_epiout

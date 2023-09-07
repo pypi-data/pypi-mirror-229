@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: terindo-single
+Version: 0.1.3
+Summary: terindo-system
+Home-page: https://terindo.biz.id
+Author: ab-js
+Author-email: terindo.id@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: License.txt
+
+Library TeraSystem 
+

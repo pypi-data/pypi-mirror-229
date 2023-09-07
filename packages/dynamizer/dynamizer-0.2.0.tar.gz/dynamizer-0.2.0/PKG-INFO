@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: dynamizer
+Version: 0.2.0
+Summary: Dynamodb model maker.
+License: MIT
+Author: Kevin Schiroo
+Author-email: kjschiroo@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Provides-Extra: mock
+Requires-Dist: moto[dynamodb] (>=4.1.11,<5.0.0) ; extra == "mock"

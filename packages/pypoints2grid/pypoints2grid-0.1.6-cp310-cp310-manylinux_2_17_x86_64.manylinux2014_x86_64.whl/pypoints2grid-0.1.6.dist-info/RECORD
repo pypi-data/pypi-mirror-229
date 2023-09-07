@@ -1,0 +1,10 @@
+_points2grid.cpython-310-x86_64-linux-gnu.so,sha256=csR2d7e31sjkKqcEwtEY5o4xVn5_GoiBBYGyfQIadRM,270312
+pypoints2grid-0.1.6.dist-info/RECORD,,
+pypoints2grid-0.1.6.dist-info/WHEEL,sha256=cD39NF6a3hkhaWoPQJng7gnGZRIfQsUCtwcedITCPtg,152
+pypoints2grid-0.1.6.dist-info/LICENSE,sha256=sTs7bSkkMvwpJiyDFf219wKldRmkDo2dLbwX1F1PVj4,1069
+pypoints2grid-0.1.6.dist-info/METADATA,sha256=6urlTqSOKOZi3j5fbynINm2v4Yq9r1ABxwrDIIkaq38,4357
+pypoints2grid-0.1.6.dist-info/top_level.txt,sha256=MVzwJjfsTQkNaStZ7Q165r9kRd-M4Zpw1jjgk5mCB4o,35
+include/GridEnum.h,sha256=_tDqd_bJ4LuLe3TunQ8yr_BExm-gxIWSz8vrbEU7cWw,151
+include/Interpolator.h,sha256=rPXQj7vt6bSWmC3P_Cj4lHad8Uu_2DnnYvkCnim5Cxw,13751
+include/GridPoint.h,sha256=YC_VSTsPPrGyLlV1VEReE7Wf15TX8g0YhSgFyCFty3Y,2216
+pypoints2grid/__init__.py,sha256=RUkfsQJAqy1nm2EC3GTUlYmtrQ9qg00sRJJnmE_UzDM,2681

@@ -1,0 +1,14 @@
+kdelikelihood/__init__.py,sha256=OUhLM8Ko5ZZFid4o0ylm43hW1gfSU5P8FmJnMm_IsgQ,271
+kdelikelihood/_kde_tools.cp311-win_amd64.pyd,sha256=bhFH0pH3AeHskYMC9QwHHWY7Vf1xrW1bwmxqNx69tKs,114176
+kdelikelihood/_kde_tools.cpp,sha256=X_ZRNignVY4U6Vd0kQPvlM6PWdY_l5HQqrrQsx680Go,592332
+kdelikelihood/_kde_tools.pxd,sha256=0OjWKc2EsHOhE3XAHMFY128v3CnXz6R4ROocoDis_0Q,1942
+kdelikelihood/_kde_tools.pyx,sha256=_ppnuR2kASCF_nojVSy3X6L9RoXpP8E9JT90PqZKdF0,8529
+kdelikelihood/_kde_tools_internals.h,sha256=57gfJebPOFjzHzSzJkcRnml8OQDg3wUHSBNGgU43Gf8,10060
+kdelikelihood/analyze.py,sha256=RT22eke1I7dP8UK0AfpoXN2S9b4fbsv229i32GYok8I,7237
+kdelikelihood/kdelikelihood.py,sha256=DN_z2fxJmyzPNOzI4w1ujxpFoF-_ydJkReDrISNMuEE,23689
+kdelikelihood/optimize.py,sha256=iIFjvjqjjnPrBXajNirxfaglB2pLmkygjgArXKUKCLA,17756
+kdelikelihood-0.1.1.dist-info/LICENSE,sha256=fTqV5eBpeAZO0_jit8j4Ref9ikBSlHJ8xwj5TLg7gFk,7817
+kdelikelihood-0.1.1.dist-info/METADATA,sha256=9UXr6iI12dkAN3JZXc_T7A3VJME-OiFYApuU2-AB1b4,5793
+kdelikelihood-0.1.1.dist-info/WHEEL,sha256=badvNS-y9fEq0X-qzdZYvql_JFjI7Xfw-wR8FsjoK0I,102
+kdelikelihood-0.1.1.dist-info/top_level.txt,sha256=DsANZtcrVe1qzLmxf8ZUJX7X_HEBLk87swxKB-G0YbY,14
+kdelikelihood-0.1.1.dist-info/RECORD,,

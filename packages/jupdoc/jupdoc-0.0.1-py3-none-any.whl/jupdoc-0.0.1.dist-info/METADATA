@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: jupdoc
+Version: 0.0.1
+Summary: Convert jupyter notebooks to reports, with different levels of detail based on tags
+Home-page: https://github.com/wadhwaniAI/jupdoc
+Author: Ashish Papanai
+Author-email: ashishp@wadhwaniai.org
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: nbconvert
+Requires-Dist: nbformat
+Requires-Dist: PyYAML
+Requires-Dist: setuptools
+Requires-Dist: coloredlogs
+

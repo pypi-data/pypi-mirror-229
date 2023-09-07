@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: snraspi-lib
+Version: 1.0.6
+Summary: Convenience utilities for Raspberry Pi
+Home-page: https://github.com/signag/snraspi-lib
+Author: signag
+Author-email: siegfried.nagel@t-online.de
+Project-URL: Source, https://github.com/signag/snraspi-lib/
+Keywords: Raspberry Pi sensors
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: adafruit-blinka (==8.20.1)
+Requires-Dist: adafruit-circuitpython-bme280 (==2.6.22)
+Requires-Dist: adafruit-circuitpython-busdevice (==5.2.6)
+Requires-Dist: adafruit-circuitpython-dht (==4.0.2)
+Requires-Dist: adafruit-circuitpython-requests (==2.0.1)
+Requires-Dist: adafruit-circuitpython-typing (==1.9.4)
+Requires-Dist: adafruit-platformdetect (==3.50.0)
+Requires-Dist: distlib (==0.3.7)
+Requires-Dist: logging-plus (==1.1.2)
+Requires-Dist: pyserial (==3.5)
+Requires-Dist: rpi.gpio (==0.7.1)
+Requires-Dist: adafruit-pureio (==1.1.11) ; python_full_version >= "3.5.0"
+Requires-Dist: pyusb (==1.2.1) ; python_full_version >= "3.6.0"
+Requires-Dist: importlib-metadata (==6.7.0) ; python_version < "3.8"
+Requires-Dist: certifi (==2023.7.22) ; python_version >= "3.6"
+Requires-Dist: filelock (==3.12.2) ; python_version >= "3.7"
+Requires-Dist: platformdirs (==3.10.0) ; python_version >= "3.7"
+Requires-Dist: pyftdi (==0.54.0) ; python_version >= "3.7"
+Requires-Dist: setuptools (==68.0.0) ; python_version >= "3.7"
+Requires-Dist: typing-extensions (==4.7.1) ; python_version >= "3.7"
+Requires-Dist: virtualenv (==20.24.4) ; python_version >= "3.7"
+Requires-Dist: zipp (==3.15.0) ; python_version >= "3.7"
+Provides-Extra: dev
+
+# snraspi-lib
+
+This Package includes convenience functions for Raspberry Pi
+
+## Package 'sensors'
+
+- [Environment Sensors](https://github.com/signag/snraspi-lib/blob/main/docs/EnvironmentSensors.md)

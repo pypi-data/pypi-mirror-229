@@ -1,0 +1,7 @@
+build
+setuptools
+black
+pytest
+importlib_metadata
+toml
+pyyaml

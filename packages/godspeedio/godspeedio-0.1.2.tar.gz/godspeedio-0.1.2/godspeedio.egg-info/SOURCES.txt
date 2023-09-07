@@ -1,0 +1,16 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+godspeedio/__init__.py
+godspeedio/processing.py
+godspeedio/state.py
+godspeedio/streaming.py
+godspeedio/transformers.py
+godspeedio/util.py
+godspeedio.egg-info/PKG-INFO
+godspeedio.egg-info/SOURCES.txt
+godspeedio.egg-info/dependency_links.txt
+godspeedio.egg-info/requires.txt
+godspeedio.egg-info/top_level.txt
+tests/test_godspeed.py

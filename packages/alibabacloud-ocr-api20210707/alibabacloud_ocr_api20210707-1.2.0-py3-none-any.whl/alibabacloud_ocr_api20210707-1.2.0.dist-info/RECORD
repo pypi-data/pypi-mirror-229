@@ -1,0 +1,8 @@
+alibabacloud_ocr_api20210707/__init__.py,sha256=5GblYyMbk8JySosj59Rvi2uzLqfP-DAs77ikwTafXT4,21
+alibabacloud_ocr_api20210707/client.py,sha256=RjYtuRoT3PLH5f82eG-OunlqpwDjr_wTfQViL3o_PYo,230989
+alibabacloud_ocr_api20210707/models.py,sha256=eeE4qCEa3rVFW4Lxe7FOx-4rsr4CNBf4h2XVh0OmWi4,457533
+alibabacloud_ocr_api20210707-1.2.0.dist-info/LICENSE,sha256=0CFItL6bHvxqS44T6vlLoW2R4Zaic304OO3WxN0oXF0,600
+alibabacloud_ocr_api20210707-1.2.0.dist-info/METADATA,sha256=DDm9p_1g8EDVstPaY-3UpIdNSv_CgjiPBpWgwwHFtSs,2242
+alibabacloud_ocr_api20210707-1.2.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+alibabacloud_ocr_api20210707-1.2.0.dist-info/top_level.txt,sha256=ouwsYsyZGsWUeR8kM0tHVX179MRWMLW17KCuf7YBicU,29
+alibabacloud_ocr_api20210707-1.2.0.dist-info/RECORD,,

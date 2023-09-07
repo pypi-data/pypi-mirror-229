@@ -1,0 +1,37 @@
+name: Build
+
+on:
+  workflow_dispatch:
+  pull_request:
+  push:
+    branches: [ main ]
+
+jobs:
+  build_wheels:
+    name: Build wheel for ${{ matrix.python }}-${{ matrix.os[1] }} on ${{ matrix.os[0] }}
+    runs-on: ${{ matrix.os[0] }}
+    strategy:
+      fail-fast: false
+      matrix:
+        os:
+          - [ windows-latest, win_amd64 ]
+        python: [ "cp39", "cp310", "cp311" ]
+
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+
+      - name: Build wheels
+        uses: pypa/cibuildwheel@v2.14.1
+        env:
+          CIBW_BUILD: ${{ matrix.python }}-${{ matrix.os[1] }}
+        with:
+          output-dir: wheelhouse
+
+      - name: Upload artifacts
+        uses: actions/upload-artifact@v3
+        if: github.event_name == 'workflow_dispatch'
+        with:
+          name: ${{ matrix.python }}-${{ matrix.os[0] }}
+          path: ./wheelhouse/*.whl

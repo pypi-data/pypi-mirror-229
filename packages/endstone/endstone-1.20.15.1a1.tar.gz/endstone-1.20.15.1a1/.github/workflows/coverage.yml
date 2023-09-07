@@ -1,0 +1,43 @@
+name: Code Coverage
+
+on:
+  workflow_dispatch:
+  pull_request:
+  push:
+    branches: [ main ]
+
+jobs:
+  run:
+    runs-on: ${{ matrix.os }}
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ windows-latest ]
+        build-config: [ Debug ]
+
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+
+      - name: Setup OpenCppCoverage and add to PATH
+        run: |
+          choco install OpenCppCoverage -y
+          echo "C:\Program Files\OpenCppCoverage" >> $env:GITHUB_PATH
+
+      - name: CMake build
+        run: |
+          mkdir build
+          cd build
+          cmake .. -DENABLE_CODE_COVERAGE=ON -DCMAKE_BUILD_TYPE=${{ matrix.build-config }}
+          cmake --build . --config ${{ matrix.build-config }}
+
+      - name: Run tests and generate coverage
+        working-directory: build
+        run: OpenCppCoverage --export_type cobertura:coverage.xml --sources "src" --sources "include" --cover_children -- ctest -C ${{ matrix.build-config }} --output-on-failure
+
+      - name: Upload coverage reports to Codecov
+        uses: codecov/codecov-action@v3
+        with:
+          token: ${{ secrets.CODECOV_TOKEN }}
+          files: ./build/coverage.xml

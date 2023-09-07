@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: test-jmrum
+Version: 0.4
+Summary: DESCRIPTION
+Author: Jessica Rumbelow
+Author-email: <jessica@leap-labs.com>
+Keywords: python,leap
+License-File: LICENSE
+Requires-Dist: torch
+Requires-Dist: test
+
+LONG_DESCRIPTION

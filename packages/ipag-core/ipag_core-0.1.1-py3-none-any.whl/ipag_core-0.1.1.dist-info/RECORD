@@ -1,0 +1,15 @@
+ipag_core/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ipag_core/data.py,sha256=Hwx_4WbLhYKQpIgM_8R1kHz12f0vgv7LVpjFLECZNtI,2672
+ipag_core/define.py,sha256=7pdKxjb8tdViiVwi9iRAEA83kbcTsDK15DB_-2sjoec,2626
+ipag_core/io/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ipag_core/io/array.py,sha256=-711OxQNpw1Vx69GADd_IKIDq91blVlLVL_FlEH19os,2292
+ipag_core/io/base.py,sha256=a3GJEu36GkGGHc5fOGmywb8tQpS5uEJQihNN0e2mlfM,2707
+ipag_core/io/fits.py,sha256=Ft-U1m-o9XeSafhEcsiNlMPt0TvyaD4nDkI767phqFQ,5317
+ipag_core/ipag.py,sha256=x1GtLapFWTNBk-8IHIwuTRrakODjIsBI98q6Ht-EyJ4,1093
+ipag_core/log.py,sha256=ghD_XTvaueCOc0LhIKfLtyJ1zRxULaWpxw9jSMtJ6lg,797
+ipag_core/path.py,sha256=QKWqZdfplp5qAGfOchKks5IK-_sJx4WphczUeR34BiU,5790
+ipag_core/processor.py,sha256=ivemsjelfv2icHKTlMEpu1YfQAotoZQeusGpCuBwNWA,2773
+ipag_core/pydantic.py,sha256=LmmpJoYjfqneVStn96HYqmvEYsMfZvLglQE_WYMzx7g,385
+ipag_core-0.1.1.dist-info/METADATA,sha256=my6yizDmSqy_kAsxdRhH9Q-0nF8an7SyQxzVFTtlFME,695
+ipag_core-0.1.1.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+ipag_core-0.1.1.dist-info/RECORD,,

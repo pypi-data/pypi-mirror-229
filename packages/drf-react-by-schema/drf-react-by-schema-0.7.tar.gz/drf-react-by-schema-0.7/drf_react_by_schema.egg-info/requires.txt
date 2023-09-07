@@ -1,0 +1,5 @@
+django-cors-headers
+django-filter
+django-rest-framework
+djangorestframework-simplejwt
+drf-nested-routers

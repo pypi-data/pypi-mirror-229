@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+src/joinery/__init__.py
+src/joinery.egg-info/PKG-INFO
+src/joinery.egg-info/SOURCES.txt
+src/joinery.egg-info/dependency_links.txt
+src/joinery.egg-info/requires.txt
+src/joinery.egg-info/top_level.txt

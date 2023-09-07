@@ -1,0 +1,8 @@
+SG1AB/libbackend_cpu.so,sha256=rSFJGMJ2leg6icioDb7olnNQoqZJAhOtvHoGi99Tc1w,3000128
+SG1AB/libnnfw-dev.so,sha256=vmwF9NlDPpEzUFKwBlfdK-LJ0nAmVgE6lr8iaR56-TI,695768
+SG1AB/libonert_core.so,sha256=czBg9kNMclXjL26fVUQS-JSMeSC3jVTav0o0QFtwrrQ,3373288
+SG1AB/nnfw_api_pybind.cpython-38-x86_64-linux-gnu.so,sha256=RWW2liNnoemQtqwUled6T_OCDIjhVvRBzz8mm8dGBnU,216920
+SG1AB-1.0.0.1.dist-info/METADATA,sha256=Cln9ekBN4Qiwa4vfYFN2fAXj-ptMUQCxekmIFsMbMoM,235
+SG1AB-1.0.0.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+SG1AB-1.0.0.1.dist-info/top_level.txt,sha256=AL85HNhSypdWTwgYm2ZcLi8s7pX1pJs4LlAILX39KN0,6
+SG1AB-1.0.0.1.dist-info/RECORD,,

@@ -1,0 +1,8 @@
+setup.py
+pypck_dummy.egg-info/PKG-INFO
+pypck_dummy.egg-info/SOURCES.txt
+pypck_dummy.egg-info/dependency_links.txt
+pypck_dummy.egg-info/requires.txt
+pypck_dummy.egg-info/top_level.txt
+pypckdummy/__init__.py
+pypckdummy/todays_practice.py

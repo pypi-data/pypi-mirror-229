@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: django-track-history
+Version: 0.2.2
+Summary: Easy model change tracking for Django
+Home-page: https://github.com/akszydelko/django-track-history
+Author: Arkadiusz Szydelko
+Author-email: akszydelko@gmail.com
+License: BSD
+Keywords: django track history
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Environment :: Web Environment
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Framework :: Django
+Classifier: Framework :: Django :: 2.0
+Classifier: Framework :: Django :: 2.1
+Classifier: Framework :: Django :: 2.2
+Classifier: Framework :: Django :: 3.0
+License-File: LICENSE
+Requires-Dist: django (>=2.0)
+
+
+    A simple model change tracking for Django.
+
+    More on: https://github.com/akszydelko/django-track-history
+
+    Copyright (c) 2023, Arkadiusz Szydełko All rights reserved.
+
+    Licensed under BSD 3-Clause License
+    
+

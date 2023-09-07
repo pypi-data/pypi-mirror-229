@@ -1,0 +1,11 @@
+pySTid/__init__.py,sha256=P5a1-ahQFkevmlOc40tXSE-X7ZO--IsxF9LfvSVWWkg,32
+pySTid/stidapi.py,sha256=WlPiRkN29vVm9wZF5esspksn1Ld83YTCYbXMba5Eylc,10976
+pySTid/stidcore.py,sha256=Dj5MNbpPdtyuV9fM753nUPpLY21nIex2F46G7TCTedo,9163
+pySTid/stidmobile-id-com-chain.pem,sha256=3bzGl9JzI3YkaBJffuElx2HYXvxj5MjlAKt4zU9DZic,5608
+pySTid/stidresponse.py,sha256=m4sKatwBDa3VsQ_9yeTUHJ2KuGTzKT7ZPTfNFVTGB1I,310
+pySTid-0.0.11.data/data/stidmobile-id-com-chain.pem,sha256=3bzGl9JzI3YkaBJffuElx2HYXvxj5MjlAKt4zU9DZic,5608
+pySTid-0.0.11.dist-info/LICENSE.txt,sha256=HrhfyXIkWY2tGFK11kg7vPCqhgh5DcxleloqdhrpyMY,11558
+pySTid-0.0.11.dist-info/METADATA,sha256=MrSxMK6YXC9YeaUfsfrx48NP_cu7b2fYKbIhsCZOViY,567
+pySTid-0.0.11.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+pySTid-0.0.11.dist-info/top_level.txt,sha256=tHv8PRM6v_ifCVBucl1RJflQlTThh2NGMf8SEU-p6sc,7
+pySTid-0.0.11.dist-info/RECORD,,

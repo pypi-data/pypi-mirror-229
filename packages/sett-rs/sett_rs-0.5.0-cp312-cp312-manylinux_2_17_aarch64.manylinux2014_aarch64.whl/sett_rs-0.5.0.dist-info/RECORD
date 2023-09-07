@@ -1,0 +1,10 @@
+sett_rs-0.5.0.dist-info/METADATA,sha256=sfmYT0dvv28BYp_-34_ColLWGLbrPUL7z4b2RzRLrSo,1832
+sett_rs-0.5.0.dist-info/WHEEL,sha256=QJMZojpTHPhncFxlFZ7y5MG_HYfzv-cqwHwhG1oCEE8,131
+sett_rs/_sett_rs.pyi,sha256=UbmKzHAUFEE9CcM1ULxRXazRoT07am-u4K_orZLNiAA,5111
+sett_rs/__init__.py,sha256=fsl-s12iJOmHEl_kuK2VkgUKL8QIXdisoLAqMBP5ptM,106
+sett_rs/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sett_rs/cert.py,sha256=ess6W437u5DmN_baoUQeuoF3XVrLDmmnCzKgwlvX7G8,602
+sett_rs/gnupg.py,sha256=79Tb5gCQ8ptBe2Tbh9-5V3sImJQ7MRrlQ9QZQMxrhTA,179
+sett_rs/workflow.py,sha256=NiZaUBkGgze7frFQlBEr7L9w80MCmAXw4yzWxtdisis,464
+sett_rs/_sett_rs.cpython-312-aarch64-linux-gnu.so,sha256=woNYQUO2fxFeIQW4TtmB4TeFVenenfZWfDTLRxMuKQ8,14505632
+sett_rs-0.5.0.dist-info/RECORD,,

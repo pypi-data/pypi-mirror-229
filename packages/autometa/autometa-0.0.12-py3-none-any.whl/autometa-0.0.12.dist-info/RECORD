@@ -1,0 +1,10 @@
+autometa/__init__.py,sha256=VdxQuHAh9VQVrgAsO-GMX5xeuOxpbR3zNUZ-5sFMDJ0,113
+autometa/api.py,sha256=mzTkAH-xwFG9_T2wlF8m4JauJu2sGFveAf-lG_7c-Xk,3413
+autometa/autometa.py,sha256=sd56MiT_-ca_44HCyUDHd4EnsWD5OrXyUj7UxKImuo0,5872
+autometa/util.py,sha256=mHrp_-I7YVHUgJtY3_KpwzUccqzko8iy_Jm9B1f4eh8,2544
+autometa-0.0.12.dist-info/AUTHORS.rst,sha256=UmJKgA5gdWAKdsvDNnUYQa-OmBeQ5xUrA486i08htVg,191
+autometa-0.0.12.dist-info/LICENSE,sha256=q5B_hWFXYspZn7Pu9ieNU1nkFxhnBq89vpoHynM_EQg,10312
+autometa-0.0.12.dist-info/METADATA,sha256=1ltqt0qrkf7U55IPN3ZpK6bjtdOaLy75UYuGYUAi0kg,4358
+autometa-0.0.12.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+autometa-0.0.12.dist-info/top_level.txt,sha256=scDRUtusNiciOMYFCseW_JN6HrKo_xRrJuOXtTmtzds,9
+autometa-0.0.12.dist-info/RECORD,,

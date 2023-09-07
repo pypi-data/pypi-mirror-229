@@ -1,0 +1,11 @@
+nimbus/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+nimbus/__main__.py,sha256=0TOumVeD6bckkLh-2xvh74N1MH5JOjSLK1K6w0MyP2E,73
+nimbus/config.txt,sha256=BTdh3Wc_w39CU3xHZ6FRhgf_p_ANSFlygi8y4GM_0KY,20
+nimbus/nimbus.py,sha256=KoxwV2JCicH7rXo1VEZI_FKzGQgpKL1QCdMtqctDh_g,9597
+nimbus/nimbus_cli.py,sha256=axctDsW9TMdCaehjFgCbE3--E9VI0glY-Q2oHCbOeJY,5034
+nimbus/server_public_key.txt,sha256=LKuXiHUnVm5AnCeG9uFEv4jlIS-7Vfl0PKh2RNiVaWw,426
+nimbus_cloud-0.0.6.dist-info/METADATA,sha256=fkviT1Xjml3U0uknkwlAnJBPvaGbsWfjKwWtI5sKYsk,4302
+nimbus_cloud-0.0.6.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+nimbus_cloud-0.0.6.dist-info/entry_points.txt,sha256=7tdTJOyNLzqzvPI3gWcogmTpqA0PLDoYAA6DccVbGbc,48
+nimbus_cloud-0.0.6.dist-info/top_level.txt,sha256=teRrpKmbQVCOUOPklpnnL0QwECNgnM1HVjeJGUlA7fA,7
+nimbus_cloud-0.0.6.dist-info/RECORD,,

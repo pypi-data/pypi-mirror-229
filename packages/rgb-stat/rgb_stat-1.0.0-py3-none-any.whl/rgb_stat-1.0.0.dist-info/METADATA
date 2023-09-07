@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: rgb-stat
+Version: 1.0.0
+Summary: R,G,B Image Calculator (in Python)
+Author-email: Nathan Sommer <nathan@springvalleycorp.com>
+Maintainer-email: Nathan Sommer <nathan@springvalleycorp.com>
+Project-URL: Homepage, https://github.com/jbal/rgb
+Project-URL: Issues, https://github.com/jbal/rgb/issues
+Project-URL: Repository, https://github.com/jbal/rgb
+Keywords: RGB
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: click >=8.1.7
+Requires-Dist: matplotlib >=3.7.2
+Requires-Dist: numpy >=1.25.2
+Requires-Dist: opencv-python >=4.8.0.76
+Requires-Dist: psutil >=5.9.5
+Requires-Dist: scipy >=1.11.2
+Requires-Dist: gphoto2 >=2.3.6 ; platform_system != "Windows"
+Provides-Extra: test
+Requires-Dist: pytest >=7.2.0 ; extra == 'test'
+
+# rgb
+RGB Image Util

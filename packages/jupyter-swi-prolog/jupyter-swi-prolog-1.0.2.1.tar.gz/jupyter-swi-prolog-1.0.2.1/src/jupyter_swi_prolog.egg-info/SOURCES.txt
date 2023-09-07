@@ -1,0 +1,11 @@
+README.md
+setup.py
+src/jupyter_swi_prolog.egg-info/PKG-INFO
+src/jupyter_swi_prolog.egg-info/SOURCES.txt
+src/jupyter_swi_prolog.egg-info/dependency_links.txt
+src/jupyter_swi_prolog.egg-info/requires.txt
+src/jupyter_swi_prolog.egg-info/top_level.txt
+src/swi_prolog_kernel/__init__.py
+src/swi_prolog_kernel/__main__.py
+src/swi_prolog_kernel/kernel.json
+src/swi_prolog_kernel/kernel.py

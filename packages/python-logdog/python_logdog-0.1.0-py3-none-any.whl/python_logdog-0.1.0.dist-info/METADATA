@@ -1,0 +1,113 @@
+Metadata-Version: 2.1
+Name: python-logdog
+Version: 0.1.0
+Summary: Python logging utilities
+Author: Adam Wasilewski
+License: MIT License
+        
+        Copyright (c) 2023 Adam Wasilewski
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+        
+Project-URL: GitHub, https://github.com/a-was/logdog.py
+Keywords: logging
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# logdog
+
+Python package with `logging` utilities
+
+# Requirements
+
+- Python >= 3.10
+
+# Installation
+
+```bash
+pip install -U python-logdog
+```
+
+# Usage
+
+> [!NOTE]
+> These are only basic examples.
+> More advanced ones can be found in the `examples/` directory
+
+## Message wrapper
+
+### Basic
+
+```python
+import logging
+
+from logdog import LogMessageWrapper
+
+logging.basicConfig(level=logging.INFO)
+logger = logging.getLogger("mylogger")
+
+user_id = 1
+some_value = "some string"
+
+logger.info("user login", extra={"not": "included", "user": user_id, "value": some_value})
+# output: INFO:mylogger:user login
+
+log = LogMessageWrapper(logger)
+
+log.info("user login", user=user_id, action="login", value=some_value)
+# output: INFO:mylogger:user login user=1 action=login value="some string"
+```
+
+### Custom format
+
+```python
+logging.basicConfig(level=logging.INFO, format="%(asctime)s : %(levelname)-8s : %(message)s")
+logger = logging.getLogger("mylogger")
+log = LogMessageWrapper(logger, prefix=" : ")
+
+log.info("user login", user=user_id, action="login", value=some_value)
+# output: 2023-09-05 12:01:09,836 : INFO     : user login : user=1 action=login value="some string"
+```
+
+### Renderers
+
+Currently there are 2 renderers:
+
+- `LogfmtRenderer` (default one)
+- `JsonRenderer`
+
+Same simple example using different renderer:
+
+```python
+from logdog.wrapper import JsonRenderer, LogMessageWrapper
+
+logging.basicConfig(level=logging.INFO, format="%(asctime)s : %(levelname)-8s : %(message)s")
+logger = logging.getLogger("mylogger")
+log = LogMessageWrapper(
+    logger,
+    prefix=" [",
+    suffix="]",
+    renderer=JsonRenderer(),
+)
+
+log.info("user login", user=user_id, action="login", value=some_value)
+# output: 2023-09-05 12:01:09,836 : INFO     : user login [{"user": 1, "action": "login", "value": "some string"}]
+```

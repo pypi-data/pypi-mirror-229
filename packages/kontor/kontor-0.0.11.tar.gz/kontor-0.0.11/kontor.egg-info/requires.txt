@@ -1,0 +1,5 @@
+dacite
+tqdm
+
+[test]
+pytest

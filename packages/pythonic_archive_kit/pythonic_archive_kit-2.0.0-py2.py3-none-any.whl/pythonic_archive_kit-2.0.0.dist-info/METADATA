@@ -1,0 +1,165 @@
+Metadata-Version: 2.1
+Name: pythonic_archive_kit
+Version: 2.0.0
+Summary: The Pythonic Archive Kit
+Author: Alyce Osbourne
+Description-Content-Type: text/markdown
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Requires-Dist: cryptography ; extra == "all"
+Requires-Dist: dill ; extra == "all"
+Requires-Dist: cryptography ; extra == "encryption"
+Requires-Dist: dill ; extra == "extended"
+Project-URL: Home, https://github.com/AlyceOsbourne/PythonicArchiveKit
+Provides-Extra: all
+Provides-Extra: encryption
+Provides-Extra: extended
+
+# PAK: Picklable and Encrypted Recursive Namespace
+
+PAK is a Python library that provides a simple, recursive namespace that can be pickled and encrypted. It allows you to manage structured data with ease.
+
+## Features
+
+- **Recursive Namespace**: PAK offers a recursive namespace that can be used like a dictionary or an object. This allows
+  for flexible and structured data management.
+
+- **Pickling**: PAK objects can be easily serialized using Python's built-in `pickle` module, making it convenient for
+  saving and loading data.
+  or, if you need more powerful serialization, you can use the `dill` package.
+
+- **Encryption (Optional)**: PAK supports optional encryption of data using the `cryptography` package. This ensures the
+  security of your PAK files.
+
+- **Compression (Optional)**: PAK supports optional compression of data using the `lzma' or 'gzip' packages. This
+  reduces the size of your PAK files.
+
+- **Context Manager**: PAK provides a context manager that automatically saves and loads PAK objects. This makes it easy
+  to manage your data.
+
+## Installation
+
+You can install PAK using pip:
+
+```bash
+pip install pythonic_archive_kit
+```
+
+This will provide the basic implementation of PAK. If you want to use encryption, you will need to install
+the `cryptography` package:
+
+```bash
+pip install cryptography
+# or
+pip install pythonic_archive_kit[encryption]
+```
+
+And to include the more advanced serialization provided by `dill`:
+
+```bash
+pip install dill
+# or
+pip install pythonic_archive_kit[serialization]
+```
+
+## Usage
+
+### Basic Usage
+
+```python
+from pythonic_archive_kit import load_pak, PAK, save_pak
+
+# Create a PAK object
+pak = PAK()
+pak.foo = "bar"
+pak["baz"] = "qux"
+
+# Save and load PAK objects
+save_pak(pak, "example.pak")
+loaded_pak = load_pak("example.pak")
+```
+
+You can also make use of the paks context manager to automatically save and load PAK objects:
+
+```python
+from pythonic_archive_kit import open_pak
+
+with open_pak("gamedata") as gamedata:
+    ...
+```
+
+### Encryption (Optional)
+
+To use encryption, ensure you have the `cryptography` package installed. You can encrypt PAK data by providing a
+password:
+
+```python
+from pythonic_archive_kit import save_pak, load_pak, PAK
+
+pak = PAK()
+# Save an encrypted PAK file
+save_pak(pak, "encrypted.pak", password = "mypassword")
+
+# Load the encrypted PAK file
+loaded_pak = load_pak("encrypted.pak", password = "mypassword")
+```
+
+A password can also be passed to the context manager:
+
+```python
+from pythonic_archive_kit import open_pak
+
+with open_pak("gamedata", password = "mypassword") as gamedata:
+    ...
+```
+
+### Examples
+
+Here are some examples of how PAK can be used in different scenarios, including game development, project management,
+and personal note-taking.
+
+#### RPG Save Data
+
+```python
+# Save player data
+from pythonic_archive_kit import open_pak
+
+with open_pak("player_data.pak") as player_data:
+    player_data.stats.level = 10
+    player_data.inventory.gold = 500
+    player_data.inventory.items = ["sword", "shield"]
+
+# Load player data
+with open_pak("player_data.pak") as player_data:
+    print(player_data.stats.level)  # Output: 10
+```
+
+#### Project Management
+
+```python
+# Save project data
+from pythonic_archive_kit import open_pak
+
+with open_pak("project_data.pak") as project:
+    project.name = "My Awesome Project"
+    project.tasks = ["design", "implementation", "testing"]
+
+# Load project data
+with open_pak("project_data.pak") as project:
+    print(project.name)  # Output: My Awesome Project
+```
+
+#### Personal Notes
+
+```python
+from pythonic_archive_kit import open_pak
+
+# Save personal notes
+with open_pak("personal_notes.pak") as notes:
+    notes.journal.day1 = "Visited the park"
+    notes.reminders = ["Buy groceries", "Call mom"]
+
+# Load personal notes
+with open_pak("personal_notes.pak") as notes:
+    print(notes.journal.day1)  # Output: Visited the park
+```
+

@@ -1,0 +1,12 @@
+.gitignore
+README.md
+pyproject.toml
+.github/workflows/publish.yml
+famqy/__init__.py
+famqy/funcs.py
+famqy/utils.py
+famqy.egg-info/PKG-INFO
+famqy.egg-info/SOURCES.txt
+famqy.egg-info/dependency_links.txt
+famqy.egg-info/requires.txt
+famqy.egg-info/top_level.txt

@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=45", "setuptools_scm[toml]>=6.2"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "famqy"
+authors = [ { name = "TeiaLabs", email = "contato@teialabs.com" } ]
+description = "MongoDB query builder for FastAPI"
+requires-python = ">=3.11"
+keywords = ["mongo", "fastapi", "rest"]
+dependencies = ["fastapi"]
+dynamic = ["version"]
+
+[project.urls]
+Repository = "https://github.com/TeiaLabs/famqy"
+Documentation = "https://github.com/TeiaLabs/famqy/README.md"
+
+[tool.setuptools_scm]

@@ -1,0 +1,36 @@
+[tool.poetry]
+name = "chartsworth"
+version = "0.10.0"
+description = ""
+authors = ["Kyle Kelley <rgbkrk@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">3.9,<3.12"
+slack-sdk = "^3.21.3"
+chatlab = {extras = ["noteable"], version = "1.0.0a20"}
+numpy = ">=1.23"
+matplotlib = ">=3.6"
+pillow = ">=9.0"
+
+
+[tool.poetry.group.dev.dependencies]
+mypy = "^1.4.1"
+black = "^23.7.0"
+types-pillow = "^10.0.0.2"
+ipykernel = "^6.25.0"
+ipython = "^8.14.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.isort]
+profile = "black"
+line_length = 100
+
+[tool.black]
+line-length = 100
+
+[tool.ruff]
+line-length = 100

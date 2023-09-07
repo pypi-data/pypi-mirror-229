@@ -1,0 +1,7 @@
+README.md
+pyproject.toml
+setup.py
+wookie.egg-info/PKG-INFO
+wookie.egg-info/SOURCES.txt
+wookie.egg-info/dependency_links.txt
+wookie.egg-info/top_level.txt

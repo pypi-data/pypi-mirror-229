@@ -1,0 +1,19 @@
+[build-system]
+requires = ["httpx", "asyncio"]
+
+[project]
+name = "wookie"
+version = "2.0.0"
+description = "Asynchronous API wrapper for https://starwarsapi.site/"
+authors = [{ name = "Nexachromic", email = "nexachromic@gmail.com" }]
+license = { file = "LICENSE" }
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+]
+keywords = ["star wars", "starwars", "starwarsapi"]
+dependencies = [
+    "httpx",
+]
+requires-python = ">=3.6"

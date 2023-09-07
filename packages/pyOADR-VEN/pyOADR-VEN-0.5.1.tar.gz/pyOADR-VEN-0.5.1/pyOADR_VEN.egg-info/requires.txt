@@ -1,0 +1,10 @@
+isodate
+lxml
+requests
+signxml
+pytz
+python-dateutil
+pony@ git+ssh://git@github.com/ponyorm/pony.git
+pem
+voluptuous
+bs4

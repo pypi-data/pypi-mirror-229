@@ -1,0 +1,31 @@
+{
+  "descriptionHash": "D85CBF8DE16F135794728FC51F82E078A7371E19F1AC2AF23A24246090BE26416681775FD1B58BCF3B9AE600AAE55F405EB053107BD928DAB07F0AC600B5EBED",
+  "descriptionLocation": "/home/runner/work/apicurio-registry/apicurio-registry/registry/python-sdk/openapi.json",
+  "lockFileVersion": "1.0.0",
+  "kiotaVersion": "1.5.1",
+  "clientClassName": "RegistryClient",
+  "clientNamespaceName": "client",
+  "language": "Python",
+  "usesBackingStore": false,
+  "includeAdditionalData": true,
+  "serializers": [
+    "Microsoft.Kiota.Serialization.Json.JsonSerializationWriterFactory",
+    "Microsoft.Kiota.Serialization.Text.TextSerializationWriterFactory",
+    "Microsoft.Kiota.Serialization.Form.FormSerializationWriterFactory",
+    "Microsoft.Kiota.Serialization.Multipart.MultipartSerializationWriterFactory"
+  ],
+  "deserializers": [
+    "Microsoft.Kiota.Serialization.Json.JsonParseNodeFactory",
+    "Microsoft.Kiota.Serialization.Text.TextParseNodeFactory",
+    "Microsoft.Kiota.Serialization.Form.FormParseNodeFactory"
+  ],
+  "structuredMimeTypes": [
+    "application/json",
+    "text/plain",
+    "application/x-www-form-urlencoded",
+    "multipart/form-data"
+  ],
+  "includePatterns": [],
+  "excludePatterns": [],
+  "disabledValidationRules": []
+}

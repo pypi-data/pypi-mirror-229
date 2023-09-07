@@ -1,0 +1,16 @@
+arvi/__init__.py,sha256=G_107pDt8CgUtDUOViQN0h2x_G6vvbc9xgK0ZYGmsig,241
+arvi/config.py,sha256=a18kYkTU_sTRS-DM5wAxEiDk4uw1N35ExGOynLw_jTo,18
+arvi/dace_wrapper.py,sha256=25oYl0frZyB9QN_RrQJWRpniPWwmbPjnp7z0N0M5D8A,5657
+arvi/plots.py,sha256=3cD1HddpIM7-J2pMPVgDzMuCPIU-kpHVJk_y6GEZjiA,7590
+arvi/reports.py,sha256=FtalLbmBHOSHQ3RldImUZTHPc3cc3Z3W5r3d-31FIo8,3261
+arvi/setup_logger.py,sha256=nvnd2PtXYnpYMGleTeqAKFe-TnC6SjNlTZ-EmiewLyY,278
+arvi/simbad_wrapper.py,sha256=5GvgZGbydvs30cbNu7jSHlNkc8PjFLzTpRajUOEiMHg,3050
+arvi/stats.py,sha256=OIlXisf_kuUhfDRhvCirmJ2e-YSIJnoBjdFOXaYd0bQ,868
+arvi/timeseries.py,sha256=H10B53TBWVNyX3I3Y4PlGkXYb4GZ_Sa5wz4LMM9QDoM,15164
+arvi/translations.py,sha256=eyUJei8wlsyBecTz8E_ntpP35-Mre2Tzm_mUMMGaZWY,150
+arvi/utils.py,sha256=n1GDu25V7OKtpdFHlXnxcGUd8H9D1UGsXxfmaNc9jkk,890
+arvi-0.0.5.dist-info/LICENSE,sha256=6JfQgl7SpM55t0EHMFNMnNh-AdkpGW25MwMiTnhdWQg,1068
+arvi-0.0.5.dist-info/METADATA,sha256=SzPOOUIX-flWmM2XRop8WuyMDiZFylPrwgzJWpX-e7I,824
+arvi-0.0.5.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+arvi-0.0.5.dist-info/top_level.txt,sha256=4EeiKDVLD45ztuflTGfQ3TU8GVjJg5Y95xS5XjI-utU,5
+arvi-0.0.5.dist-info/RECORD,,

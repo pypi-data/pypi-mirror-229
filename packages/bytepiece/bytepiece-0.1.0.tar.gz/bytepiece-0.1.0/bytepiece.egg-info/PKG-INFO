@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: bytepiece
+Version: 0.1.0
+Summary: Smarter Bytes-based Tokenizer
+Home-page: https://github.com/bojone/bytepiece
+Author: bojone
+Author-email: bojone@spaces.ac.cn
+License: Apache License 2.0
+Description: BytePiece: https://github.com/bojone/bytepiece
+Platform: UNKNOWN

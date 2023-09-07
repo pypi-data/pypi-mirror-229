@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+[project]
+name = "template_data_project"
+version = "0.0.6"
+authors = [
+  { name="ABOULOIFA Najib", email="najib.abouloifa@gmail.com" },
+]
+description = "data engineering package template involves setting up a directory structure and including essential files and documentation that data engineers can use as a starting point for their projects."
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/ABNajib/data_engineering_template"

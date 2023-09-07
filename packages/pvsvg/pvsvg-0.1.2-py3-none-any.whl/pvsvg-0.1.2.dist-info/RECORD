@@ -1,0 +1,12 @@
+pvsvg/__init__.py,sha256=mii6Bh7vavc_mGgnB6_FbuQRld9f0ZPNZ9fLAUGVcZw,29
+pvsvg/network.py,sha256=DC_o6guB5QUUsda2G4vmYb1z8aqJAtf7Qg6jIUVNkpc,5541
+pvsvg/scripts/canvas2svg.js,sha256=qKUvqeRJFVDExYU4dR37sqkddynHA1Vsd652QJZQjxI,47954
+pvsvg/scripts/utils.js,sha256=9DLgMJjxzqaW8-jP1tfGrzZlAjn8r9YHWh60cB-fapU,1650
+pvsvg/scripts/vis.js,sha256=dt0Atj2ddNMg6115z2Wttq-lZcc4n6UgYdfkkOwa-Uc,1867090
+pvsvg/styles/slider.css,sha256=oddVhlMflcbVm2X3LXVZcTQ9g3BxKja6yNiotBi0ioo,1075
+pvsvg/styles/vis-network.min.css,sha256=3WlZ6aOjlQMJkl4u1hCsZU8axamfMSQk0viXsaK6eCY,14427
+pvsvg/templates/template.html,sha256=PXXq6tzoKXhd8fRT-3SobAdOquWRA8q_xoTofnAqvF8,6121
+pvsvg-0.1.2.dist-info/LICENSE,sha256=u0YnExd4S1PJBN405dvdXPilkIEQtVZP8oOEDmJSM0w,1070
+pvsvg-0.1.2.dist-info/METADATA,sha256=Va1g6A_6kE_nD0cDZBLemeIVfOztYBgtLsvkbfISQwM,3185
+pvsvg-0.1.2.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+pvsvg-0.1.2.dist-info/RECORD,,

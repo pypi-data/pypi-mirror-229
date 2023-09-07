@@ -1,0 +1,14 @@
+copying.lesser.md
+copying.md
+pyproject.toml
+readme.md
+setup.py
+src/simple_transforms/pytrans.c
+src/simple_transforms/__init__.py
+src/simple_transforms/pytrans.c
+src/simple_transforms.egg-info/PKG-INFO
+src/simple_transforms.egg-info/SOURCES.txt
+src/simple_transforms.egg-info/dependency_links.txt
+src/simple_transforms.egg-info/requires.txt
+src/simple_transforms.egg-info/top_level.txt
+tests/test_affine.py

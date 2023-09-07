@@ -1,0 +1,4 @@
+numpy>=1.17.3
+
+[flint]
+numpy-flint>=0.3.3

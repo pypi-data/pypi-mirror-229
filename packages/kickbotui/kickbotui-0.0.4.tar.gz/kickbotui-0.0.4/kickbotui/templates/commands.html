@@ -1,0 +1,50 @@
+{% extends 'base.html' %}
+
+{% block title %}Kickbot Commands{% endblock %}
+
+{% block content %}
+<br>
+<div class="card">
+    <div class="card-header">
+        Commands
+    </div>
+    <div class="card-body">
+        {% for command in commands %}
+            <div class="row-card command-card" >
+                <p>
+                    <span style="color: #07ff0c;">{{ command.trigger }}</span>
+                <br>
+                    {% if command.is_reply %}Reply{% else %}Message{% endif %}: {{ command.action }}
+                    <a class="delete-button" href="/commands/delete/{{ command.id }}">Delete</a>
+                </p>
+            </div>
+        {% endfor %}
+        <div class="card">
+            <div class="card-header">
+                Add Command
+            </div>
+            <div class="card-body">
+                 <form method="post">
+                    <select name="prefix">
+                      <option value="!">!</option>
+                      <option value="$">$</option>
+                      <option value="/">/</option>
+                      <option value="#">#</option>
+                    </select>
+                    <input type="text" name="command" placeholder="Command" required>
+                    <br><br>
+                     <p style="font-size: 20px; color: #07ff0c;">Action</p>
+                     <select name="command_action">
+                         <option value="reply">Reply to user</option>
+                         <option value="message">Send message in chat</option>
+                     </select>
+                     <br><br>
+                     <input type="text" name="action_response" required>
+                     <br>
+                    <button class="bot-button" type="submit">Add</button>
+                 </form>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

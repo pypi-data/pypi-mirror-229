@@ -1,0 +1,17 @@
+wpe/cli.py,sha256=cU2a18I2Pp2T_oFMmnQWPxvUT3fhpQWBXrXMrXEUEgc,3662
+wpe/core.py,sha256=hliczx6V1JmJZnersSyuCnDsz0vC2a18GHVJzfGuEug,8382
+wpe/deploy_target.py,sha256=30g11uUrpmcDSi2KjaV6A0yiCInnIxLpSIxuhSgrWzo,2464
+wpe/parameter.py,sha256=ZtFF840uEKCAZ3mW9eM1TswMvV8E6YF57rRpHuB2jaY,14459
+wpe/pathman.py,sha256=H8gVdBhcv0ujTEFqv4F_J_XQkSGQ7CcaCujh5wDVCc4,2222
+wpe/templates/.wpe/wpe_parameters.toml,sha256=-8Yb7BlbKQtCaOzNzUD1cJZkAW4ypJIBVNffy2dKkQA,1330
+wpe/templates/premakePlugins.lua,sha256=KuFJzHJGxEvFmWoE_3uEtSlRP9LKE9auk7gyc5DOFpM,12929
+wpe/templates/SoundEnginePlugin/ProjectNameFXParams.cpp,sha256=O6Z4yXPIoN54hD5JNE3Y4n2SDiGpN_oVCKMld957sBc,3470
+wpe/templates/SoundEnginePlugin/ProjectNameFXParams.h,sha256=lvC_OBlQ9u2U4Q0SJQPnbll5FCN38TS0oBgcDv7t3D4,3282
+wpe/templates/WwisePlugin/ProjectName.xml,sha256=2ZzVZCgiToNN12uooh4wQ5oMQvjTkdrlCD6AsiFp3kE,2530
+wpe/templates/WwisePlugin/ProjectNamePlugin.cpp,sha256=GRaAK6dvx4H82P6e8sWiBkoGYYzwTzeS9PbDx-9_Xks,2521
+wpe/util.py,sha256=6lMJuffCgobKegfQAudURlVx9ipDfCmEMwB5XcgA4og,781
+wpe/wp_wrapper.py,sha256=GFW-ZJ3VippECs4KFKVoPnDIabri6f4faLqkgBMXIzs,2138
+wp_enhanced-0.4.1.dist-info/entry_points.txt,sha256=G3IGOUOi9FdgAHObGOCXLcofeOjV0ADKHbYbhv_hFNU,36
+wp_enhanced-0.4.1.dist-info/METADATA,sha256=1VZTxb9xsLyg6ifLXMcipePrd2m_PCxMcTr1RuN9Igc,2648
+wp_enhanced-0.4.1.dist-info/WHEEL,sha256=kLuE8m1WYU0Ig0_YEGrXyTtiJvKPpLpDEiChiNyei5Y,88
+wp_enhanced-0.4.1.dist-info/RECORD,,

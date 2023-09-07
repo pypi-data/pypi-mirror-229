@@ -1,0 +1,4 @@
+{
+    // constante clé, le seuil principal pour déterminer quelle TVA appliquer (€)
+    "SEUIL_TVA": 250
+}

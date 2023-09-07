@@ -1,0 +1,45 @@
+{
+    "config": {
+        "abort": {
+            "single_instance_allowed": "Sudah dikonfigurasi. Hanya satu konfigurasi yang diizinkan."
+        },
+        "step": {
+            "user": {
+                "description": "Ingin menyiapkan Jadwal Sholat Islam?",
+                "title": "Siapkan Jadwal Sholat Islam"
+            }
+        }
+    },
+    "options": {
+        "step": {
+            "init": {
+                "data": {
+                    "calculation_method": "Metode perhitungan waktu sholat"
+                }
+            }
+        }
+    },
+    "selector": {
+        "calculation_method": {
+            "options": {
+                "custom": "Khusus",
+                "egypt": "Otoritas Umum Survei Mesir",
+                "france": "Union Organization islamic de France",
+                "gulf": "Wilayah Teluk",
+                "isna": "Islamic Society of North America",
+                "jafari": "Shia Ithna-Ansari",
+                "karachi": "Universitas Sains Islam, Karachi",
+                "kuwait": "Kuwait",
+                "makkah": "Universitas Umm Al-Qura, Mekkah",
+                "moonsighting": "Moonsighting Committee Worldwide",
+                "mwl": "Liga Muslim Dunia",
+                "qatar": "Qatar",
+                "russia": "Spiritual Administration of Muslims of Russia",
+                "singapore": "Majlis Ugama Islam Singapura, Singapura",
+                "tehran": "Institut Geofisika, Universitas Teheran",
+                "turkey": "Diyanet \u0130\u015fleri Ba\u015fkanl\u0131\u011f\u0131, Turki"
+            }
+        }
+    },
+    "title": "Jadwal Sholat Islami"
+}

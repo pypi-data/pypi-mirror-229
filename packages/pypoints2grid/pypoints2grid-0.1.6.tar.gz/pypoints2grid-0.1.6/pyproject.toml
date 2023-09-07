@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=42", "pybind11"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pypoints2grid"
+version = "0.1.6"
+description = "implemention of points2grid algorithm"
+readme = "README.md"
+authors = [{ name = "Dag Wästberg", email = "dwastberg@gmail.com" }]
+maintainers = [{ name = "Dag Wästberg", email = "dwastberg@gmail.com" }]
+requires-python = ">=3.9"
+license = { text = "BSD-4-Clause" }
+classifiers = [
+    "Intended Audience :: Science/Research",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: C++",
+]
+dependencies = ['numpy>=1.19.2,<2.0.0']

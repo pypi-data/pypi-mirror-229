@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+pyblend.egg-info/PKG-INFO
+pyblend.egg-info/SOURCES.txt
+pyblend.egg-info/dependency_links.txt
+pyblend.egg-info/requires.txt
+pyblend.egg-info/top_level.txt

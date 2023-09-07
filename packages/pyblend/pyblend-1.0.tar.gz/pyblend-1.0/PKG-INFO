@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: pyblend
+Version: 1.0
+Summary: PyBlend is a Python library for Blender. It provides a lot of valuable functions for Blender scripting.
+Author: Haoyu Zhen
+Author-email: Haoyu Zhen <anye_zhen@sjtu.edu.cn>
+Project-URL: Homepage, https://github.com/anyeZHY/PyBlend
+Project-URL: Bug Tracker, https://github.com/anyeZHY/PyBlend/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: objaverse
+
+# PyBlend
+
+PyBlend is a Python library for [Blender](https://www.blender.org/). It provides a lot of valuable functions for Blender scripting.

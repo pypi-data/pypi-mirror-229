@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: secateur
+Version: 0.4
+Summary: The Database Shrink Toolkit for Python, SQLAlchemy addon
+Home-page: https://github.com/darentydarenty/secateur
+Author: Daniil Somov
+Author-email: bearscream3@gmail.com
+License: UNKNOWN
+Description: 
+        ## Introduction
+        ...
+        
+        ## Installation / Requirements
+        ...
+        
+        ## Documentation
+        ...
+        
+        ## Getting Help / Development / Bug reporting
+        Please create an issue on <https://github.com/darentydarenty/secateur/issues>
+        
+        ## License
+        Secateur is distributed under the [MIT License](https://opensource.org/license/mit/).
+        
+Platform: UNKNOWN
+Description-Content-Type: text/markdown

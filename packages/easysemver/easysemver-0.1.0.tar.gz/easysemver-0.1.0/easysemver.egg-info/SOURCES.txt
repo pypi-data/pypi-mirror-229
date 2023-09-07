@@ -1,0 +1,14 @@
+.gitignore
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+.github/workflows/pypi-publish.yaml
+easysemver/__init__.py
+easysemver/main.py
+easysemver.egg-info/PKG-INFO
+easysemver.egg-info/SOURCES.txt
+easysemver.egg-info/dependency_links.txt
+easysemver.egg-info/not-zip-safe
+easysemver.egg-info/top_level.txt

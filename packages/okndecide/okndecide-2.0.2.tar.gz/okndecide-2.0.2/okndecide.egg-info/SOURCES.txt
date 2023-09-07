@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+okndecide/__init__.py
+okndecide/okndecide.py
+okndecide.egg-info/PKG-INFO
+okndecide.egg-info/SOURCES.txt
+okndecide.egg-info/dependency_links.txt
+okndecide.egg-info/entry_points.txt
+okndecide.egg-info/not-zip-safe
+okndecide.egg-info/requires.txt
+okndecide.egg-info/top_level.txt

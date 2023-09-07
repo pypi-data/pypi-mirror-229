@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+  <menuitem
+    id="photovoltaic_production_menu"
+    name="Photovoltaic Production"
+    sequence="10"
+    web_icon="photovoltaic_production,static/description/icon.png"
+  />
+
+  <record id="photovoltaic_production_view_tree" model="ir.ui.view">
+    <field name="name">photovoltaic_production.tree</field>
+    <field name="model">photovoltaic.production</field>
+    <field name="arch" type="xml">
+      <tree>
+        <field name="date" />
+        <field name="plant" />
+
+        <field name="EAct_exp" />
+        <field name="EAct_imp" />
+        <field name="ERInd_exp" />
+        <field name="ERInd_imp" />
+      </tree>
+    </field>
+  </record>
+
+  <record id="photovoltaic_production_view_search" model="ir.ui.view">
+    <field name="name">photovoltaic_production.search</field>
+    <field name="model">photovoltaic.production</field>
+    <field name="arch" type="xml">
+      <search>
+        <field name="plant" />
+
+        <filter
+          string="Today"
+          name="filter_today"
+          domain="[ ( 'date', '&gt;=', datetime.datetime.now().strftime('%Y-%m-%d 00:00:00') ), ( 'date', '&lt;=', datetime.datetime.now().strftime('%Y-%m-%d 23:23:59') ) ]"
+        />
+
+        <filter
+          string="Yesterday"
+          name="filter_yesterday"
+          domain="[ ( 'date', '&gt;=', (datetime.datetime.now() - datetime.timedelta(days=1)).strftime('%Y-%m-%d 00:00:00') ), ( 'date', '&lt;=', (datetime.datetime.now() - datetime.timedelta(days=1)).strftime('%Y-%m-%d 23:23:59') ) ]"
+        />
+
+        <filter
+          string="2023"
+          name="filter_2023"
+          domain="[('date', '&lt;=', '2023-01-01'), ('date', '&gt;=', '2023-12-31')]"
+        />
+
+        <group name="groupby">
+          <filter
+            string="Plant"
+            name="group_plant"
+            domain=""
+            context="{'group_by': 'plant'}"
+          />
+
+          <filter
+            string="Month"
+            name="group_month"
+            domain=""
+            context="{'group_by': 'date:month'}"
+          />
+
+          <filter
+            string="Day"
+            name="group_day"
+            domain=""
+            context="{'group_by': 'date:day'}"
+          />
+        </group>
+      </search>
+    </field>
+  </record>
+
+  <record id="photovoltaic_production_view_form" model="ir.ui.view">
+    <field name="name">photovoltaic_production.form</field>
+    <field name="model">photovoltaic.production</field>
+    <field name="arch" type="xml">
+      <form>
+        <group colspan="4">
+          <field name="date" />
+          <field name="plant" />
+
+          <field name="EAct_exp" />
+          <field name="EAct_imp" />
+          <field name="ERInd_imp" />
+          <field name="ERInd_exp" />
+        </group>
+      </form>
+    </field>
+  </record>
+
+  <record id="photovoltaic_production_action" model="ir.actions.act_window">
+    <field name="name">Production</field>
+    <field name="res_model">photovoltaic.production</field>
+    <field name="view_mode">tree,form</field>
+    <field name="context">{ 'search_default_group_plant': True, 'search_default_group_month': True, 'search_default_group_day': True }</field>
+  </record>
+
+  <record id="menu_photovoltaic_production" model="ir.ui.menu">
+    <field name="name">Production</field>
+    <field name="sequence" eval="90"/>
+    <field name="action" ref="photovoltaic_production_action"/>
+    <field name="parent_id" ref="photovoltaic_production_menu"/>
+  </record>
+
+</odoo>

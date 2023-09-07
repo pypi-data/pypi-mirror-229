@@ -1,0 +1,12 @@
+perfusion_pytorch/__init__.py,sha256=HyMz1_NjgGxwfHjQscd_pPmU0IQjfdOtqEewnCVOteM,488
+perfusion_pytorch/embedding.py,sha256=-IFtzMaud3oRjH5GdFvs_Cjmse1i5_XrCQCKWoBMRQQ,10285
+perfusion_pytorch/open_clip.py,sha256=pQI5LXdp-p-soCuV0GXi0g76sICYR4ld2J3gChgQN7A,2403
+perfusion_pytorch/optimizer.py,sha256=3EfmixB8ErkqVmnT7w1J2dlg5h8__WlawLarsZzoHUA,1225
+perfusion_pytorch/perfusion.py,sha256=1n5HyzhUZG3XiF0hMauRp9tx7VEehj3pUp8EbsgMcWA,16097
+perfusion_pytorch/save_load.py,sha256=29lsoxS_tkT2Y52bzWjod4gwcvDOxRLoMn2LcbleeAU,2312
+perfusion_pytorch/data/covariance_CLIP_ViT-L-14.pt,sha256=uudD7uN4iU0p6vMTdAJE5vq8hmI6qAPGle3awz8NA6U,2360161
+perfusion_pytorch-0.1.22.dist-info/LICENSE,sha256=JCo3d2HvOFPGYvaXfnYX4-qjRyQvVElop5ZRITXMg-U,1066
+perfusion_pytorch-0.1.22.dist-info/METADATA,sha256=89eFBA2tFRWdlFqHCNFfZmUzxbZ7gSGjKyFnxi-O5xg,753
+perfusion_pytorch-0.1.22.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+perfusion_pytorch-0.1.22.dist-info/top_level.txt,sha256=NaPS2X00Ajc0y8u1lNrHpseHgozKSfAPhePWxd6WnhM,18
+perfusion_pytorch-0.1.22.dist-info/RECORD,,

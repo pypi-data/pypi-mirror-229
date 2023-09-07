@@ -1,0 +1,6 @@
+XlsxWriter
+moz-sql-parser
+setuptools
+
+[test]
+plone.app.testing

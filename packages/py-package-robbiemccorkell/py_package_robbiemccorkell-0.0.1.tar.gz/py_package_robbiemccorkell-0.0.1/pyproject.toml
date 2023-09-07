@@ -1,0 +1,7 @@
+[project]
+name = "py_package_robbiemccorkell"
+version = "0.0.1"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"

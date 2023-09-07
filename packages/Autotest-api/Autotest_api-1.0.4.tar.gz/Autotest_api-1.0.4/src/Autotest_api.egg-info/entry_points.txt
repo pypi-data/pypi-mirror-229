@@ -1,0 +1,2 @@
+[pytest11]
+Autotest_api = Autotest_api.plugin

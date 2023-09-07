@@ -1,0 +1,12 @@
+- 1、安装pytest 框架使用
+- 2、编写 yaml 测试用例，使用 pytest 运行的命令
+- 3、extract 功能实现多个接口步骤的参数关联
+- 4、全局登录一次，在用例中自动在请求头部添加token认证
+- 5、用例参数化 parameters 功能实现
+- 6、yaml 中调用 fixture 功能实现
+- 7、yaml 中调用辅助函数功能使用
+- 8、用例分层机制：API和用例层
+- 9、支持 logging 日志
+- 10、支持 allure 报告
+- 11、支持mysql 数据库增删改查
+- 12、支持Lark通知

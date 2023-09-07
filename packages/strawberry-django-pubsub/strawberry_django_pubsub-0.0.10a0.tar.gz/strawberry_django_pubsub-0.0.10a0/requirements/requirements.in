@@ -1,0 +1,6 @@
+django
+strawberry-graphql[debug-server,channels]
+pytest
+pytest-django
+uvicorn
+msgpack

@@ -1,0 +1,10 @@
+djangorestframework==3.14.0
+markdown-it-py==3.0.0
+drf-yasg==1.21.7
+coreapi==2.3.3
+psycopg2-binary==2.9.5
+selenium==4.11.2
+
+[dev]
+
+[production]

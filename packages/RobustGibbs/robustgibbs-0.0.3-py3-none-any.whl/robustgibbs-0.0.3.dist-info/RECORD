@@ -1,0 +1,11 @@
+RobustGibbs/.DS_Store,sha256=OxLGGIa41nkHmg0caMjq0IciZPACy3TfsC0fvvVCva0,6148
+RobustGibbs/IQR.py,sha256=zzps0YZ1qagFUmiSGys3zaneq6cpdD7ydQK6q6DuRyU,15472
+RobustGibbs/MAD.py,sha256=ht8WWrx6wcsrz6eubQKwLFMuQ37AumTa-UXZln3_INI,31723
+RobustGibbs/Quantile.py,sha256=G3iX1Ezv8EAnhePVOGcyYMGtXhq8ySsiY_9hNXPOliw,11582
+RobustGibbs/__init__.py,sha256=IHsShfF6zml7-VimkkSca3YNMGN80aqaba0u7JvDuy4,151
+RobustGibbs/postertior_sample.py,sha256=qBsf2rKWw7a1lG9die5Q1HMvdQy1l02oO2zz0PjgcjY,6053
+RobustGibbs/truncated.py,sha256=xzQkj215DbjYL8wJVhIMeZ4ZXVa7XHV-K0iPfimmK-s,3263
+robustgibbs-0.0.3.dist-info/METADATA,sha256=gWLlvBRUkXq3_juiplS06FSbgnsC984PlFYkhAfypXQ,1864
+robustgibbs-0.0.3.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+robustgibbs-0.0.3.dist-info/licenses/LICENSE.txt,sha256=JH66g3o0D4lLrJiq6NtBXXSvWt15Y1dMPCr0-56z34Y,1075
+robustgibbs-0.0.3.dist-info/RECORD,,

@@ -1,0 +1,7 @@
+flowmindercolors.py
+setup.py
+flowmindercolors.egg-info/PKG-INFO
+flowmindercolors.egg-info/SOURCES.txt
+flowmindercolors.egg-info/dependency_links.txt
+flowmindercolors.egg-info/requires.txt
+flowmindercolors.egg-info/top_level.txt

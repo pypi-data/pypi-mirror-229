@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.py
+src/dockermonitor/__init__.py
+src/dockermonitor/dockermonitor.py
+src/dockermonitor.egg-info/PKG-INFO
+src/dockermonitor.egg-info/SOURCES.txt
+src/dockermonitor.egg-info/dependency_links.txt
+src/dockermonitor.egg-info/top_level.txt

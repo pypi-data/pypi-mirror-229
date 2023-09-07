@@ -1,0 +1,14 @@
+victo/__init__.py,sha256=LVjrTcMwXzKIuSN5k0pFOGMF4rUJdRb2dQi4fuAiw4U,46
+victo/c_ds.py,sha256=YRkUEBb0_OMOTjWb-KFIxh8DUNeLB_tvm9QMGdEuf2s,2488
+victo/cproxy.py,sha256=wfuEVyGSE1fYXOQ5JZAThfF_ZlUOJLoZYuXPiC70e4c,4521
+victo/facade.py,sha256=lTwVNwpcuE3GjQrOvxhLD4dCpoBSDsGhjwiZyTKkZbU,1376
+victo/py_ds.py,sha256=Hzsl8T9lnb_Ka0sZAMDU-77gywpc43X3UMoluwSbeug,3645
+victo/lib/linux/libvicto.so,sha256=98nT92pIlty81KA8AAm56e4zfST7Us8fMPvMCDN8nbE,31424
+victo/lib/macos/libvicto.dylib,sha256=uRS9eakoQ_SV4YNGv9vFauWInU3r_HPG38eItTKtRbw,52768
+victo-0.0.19.data/data/victo/lib/linux/libvicto.so,sha256=98nT92pIlty81KA8AAm56e4zfST7Us8fMPvMCDN8nbE,31424
+victo-0.0.19.data/data/victo/lib/macos/libvicto.dylib,sha256=uRS9eakoQ_SV4YNGv9vFauWInU3r_HPG38eItTKtRbw,52768
+victo-0.0.19.dist-info/LICENSE,sha256=PwAoAQdf6jPCumxcbWHyezEvGTHJIQV1SX6maZ7AkBQ,1075
+victo-0.0.19.dist-info/METADATA,sha256=LJNx_pc4GlFlC_xrbdkrSj4A_6wTOeCNgQ0dYSAG3DE,8565
+victo-0.0.19.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+victo-0.0.19.dist-info/top_level.txt,sha256=QDnI_AkaFqFA2HXsMptMvtTAsPv8cDvzoLKlvVUbrlk,6
+victo-0.0.19.dist-info/RECORD,,

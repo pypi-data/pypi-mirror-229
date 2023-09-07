@@ -1,0 +1,16 @@
+dionysus-2.0.10.dist-info/RECORD,,
+dionysus-2.0.10.dist-info/top_level.txt,sha256=jtuTZg11Qqiheat6-YWhtKX05D8XCx2AokEv9C5OeVQ,9
+dionysus-2.0.10.dist-info/WHEEL,sha256=VtKoLltD0wqHu6_s11a0Ob_gp6wjeXhPtQoOiPKq10M,153
+dionysus-2.0.10.dist-info/NOTICES.txt,sha256=onblNSJL2wQDlVTNuqBbjd-bWKh-sYR1RPi2UUtWFM8,7527
+dionysus-2.0.10.dist-info/METADATA,sha256=DyfyZhpbI33jFfwDm9zZT6OQX2wzLcleCiOHIc8M_uU,4560
+dionysus-2.0.10.dist-info/LICENSE.txt,sha256=3yGgWwEun4ZptXZFzaVjO8AuQuQtMwOQAwIzhHKnYr0,2419
+dionysus/plot.py,sha256=VK64DhFE1xJm-CBay3G6eXHdkpOldPtri3C6PfN7uJQ,5025
+dionysus/_version.py,sha256=TAnpg5LLSbjgh0e1j5l_Ts3I2UUvl1c5yizRzPlARww,73
+dionysus/_dionysus.cpython-311-x86_64-linux-gnu.so,sha256=IZ4cqieYnpac-p501e8Xrjp2Ju34p4Vkac8rLrIWlNs,1028000
+dionysus/__init__.py,sha256=ha4J1hvj5CDyJza6wEvsecB4_AL_lDkqZIe3AL1yoy4,2769
+dionysus/__pycache__/_version.cpython-39.pyc,sha256=amw2O0lf-eWd-cSVQ3p68DOE3ljf4mWa2LZGuVrvlxw,247
+dionysus/__pycache__/_version.cpython-37.pyc,sha256=lPOcRiJ8CYYVn2qaCJJSzolLp95tBSBj2ZT502EUbMU,243
+dionysus/__pycache__/_version.cpython-311.pyc,sha256=INy4wFlx8ZYgDnyY8GeoVrZZhc9W2pAXhMcEYLt4s0c,336
+dionysus/__pycache__/_version.cpython-310.pyc,sha256=RllanwFUL6sZ7hlX21d_e7oj04f1QxOOnmUAeqZnKeA,248
+dionysus/__pycache__/__init__.cpython-39.pyc,sha256=NlR78MVhptkuvawR9ztX2qpB1ry0NofSv1mMZ7CQtSw,2975
+dionysus/__pycache__/__init__.cpython-37.pyc,sha256=sRM_kx-EH0jYr5j__PMdkDW5Ymj6jOsUgDGMc85zxlM,3002

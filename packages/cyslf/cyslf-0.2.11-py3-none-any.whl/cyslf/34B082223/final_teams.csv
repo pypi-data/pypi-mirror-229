@@ -1,0 +1,224 @@
+id,first_name,last_name,grade,skill,coach_skill,parent_skill,goalie_skill,unavailable_days,preferred_days,disallowed_locations,preferred_locations,backup_locations,teammate_requests,lock,emailed_parents,school,comment,team
+19,David,Bazile,4.0,5.0,5.0,8.0,2.0,,,,,"Sennott, Donnelly, Ahern",,False,False,Baldwin,,Ethiopia
+41,Lukas,Danila,4.0,4.0,,4.0,6.0,TR,MWF,"Ahern, Donnelly, Pacific, Magazine, Sennott","Danehy, Raymond, Russell",,"Ezra Stearns,  ,  ",False,False,Peabody,,Ethiopia
+2,Ahmed,Abdelsalam,4.0,6.0,6.0,5.0,6.0,,,,,"Danehy, Russell, Maher",,False,False,Tobin,,Ethiopia
+131,Roy,Park,3.0,3.0,3.0,4.0,6.0,TR,WF,"Ahern, Donnelly, Maher, Danehy, Raymond, Common, Sacramento, Pacific, Magazine, Sennott",Russell,,"quentin , otto , tomazzo ",False,False,Haggerty,,Ethiopia
+77,Wyatt,Hughes,3.0,3.0,,3.0,6.0,TR,MW,"Ahern, Donnelly, Common, Sacramento, Pacific, Magazine, Sennott","Danehy, Raymond, Russell",,"Will Downey, Isaac Stockman,  ",False,False,Peabody,,Ethiopia
+93,Amen,Kumilachew,3.0,7.0,,7.0,6.0,,MTWRF,"Ahern, Donnelly, Maher, Pacific, Magazine, Sennott","Danehy, Raymond, Russell",," ,  ,  ",False,False,Banneker,,Ethiopia
+152,Dominic,Rodriguez,3.0,8.0,,8.0,6.0,TR,MWF,,"Ahern, Donnelly, Common, Sacramento, Pacific, Magazine, Sennott","Raymond, Danehy, Russell"," ,  ,  ",False,False,Kennedy Longfellow,,Ethiopia
+142,Miles,Raycroft,3.0,6.0,,6.0,6.0,,,,,"Russell, Danehy, Raymond",,False,False,Carroll,,Ethiopia
+36,Kai,Clark-Quintanilla,3.0,3.0,3.0,3.0,6.0,W,T,"Ahern, Donnelly, Pacific, Magazine, Sennott",Maher,"Danehy, Russell, Raymond","Xander  Smith, Jack Verner, Leo Spencer",False,False,Tobin,Volunteer as head coach,Ethiopia
+150,James,Roach,4.0,6.0,,6.0,6.0,TWR,F,"Ahern, Donnelly, Pacific, Magazine, Sennott","Danehy, Raymond, Common, Sacramento",,"Graham  Roach. Twin bother. Need to be together for family scheduling ,  ,  ",False,False,Baldwin,,Ethiopia
+116,Kibur,Mesfin,2.0,8.0,,8.0,6.0,MW,T,"Ahern, Donnelly, Common, Sacramento, Pacific, Magazine, Sennott",Russell,," ,  ,  ",False,False,Graham and Parks,,Ethiopia
+25,Batiste,Brooks,4.0,10.0,,10.0,6.0,W,,"Maher, Danehy, Raymond, Russell",Sennott,"Pacific, Donnelly, Ahern"," ,  ,  ",False,False,International School of Boston,,Ireland
+151,Tian Tian,Roberts,2.0,4.0,,4.0,6.0,,,,,"Ahern, Donnelly, Sennott",,False,False,Friends,,Ireland
+15,Mika,Aykroyd,4.0,4.0,4.0,3.0,6.0,W,T,"Ahern, Donnelly, Maher, Danehy, Raymond, Russell","Pacific, Magazine",,"Zac Nicolette,  ,  ",False,False,MLK,Volunteer as assistant coach,Ireland
+39,Shalom,Daniel,4.0,9.0,9.0,8.0,6.0,,,,,"Russell, Danehy, Raymond",,False,False,PHA,,Ireland
+109,Harrison,Mak,3.0,7.0,,7.0,6.0,,,,,"Pacific, Sennott, Magazine",,False,False,MLK,,Ireland
+126,Zachary,Nicolette,4.0,4.0,4.0,5.0,2.0,WRF,T,"Ahern, Donnelly, Maher, Danehy, Raymond, Russell","Pacific, Magazine",,"Caleb Huang, Harrison Mak, Theodore Liao",False,False,MLK,Volunteer as head coach,Ireland
+55,Felix,Fagenholz,3.0,5.0,,5.0,6.0,MRF,TW,"Maher, Danehy, Raymond, Russell","Pacific, Magazine","Sennott, Donnelly, Common","Idris Ziro,  ,  ",False,False,Morse,,Ireland
+221,Eddie,Pineda,3.0,3.0,3.0,2.0,3.0,,W,"Maher, Danehy, Raymond","Pacific, Magazine, Sennott","Russell, Sacramento, Common"," ,  ,  ",False,False,Amigos,,Ireland
+105,Jose Luis,Lopez Artavia,2.0,6.0,6.0,5.0,6.0,W,MTR,"Ahern, Donnelly, Maher, Danehy, Raymond","Common, Sacramento, Pacific, Magazine",,"Constantino  Rougas,  ,  ",False,False,Morse,,Ireland
+69,Jonathan,Haileyesus,4.0,3.0,3.0,1.0,6.0,MF,TR,"Ahern, Donnelly","Russell, Pacific, Magazine","Sennott, Common, Sacramento"," ,  ,  ",False,False,Peabody,,Ireland
+20,Liam,Beausang,3.0,6.0,6.0,4.0,6.0,W,MTR,"Ahern, Donnelly, Russell","Common, Sacramento, Pacific, Magazine, Sennott",,"Theo DeMichele, Asher Russell,  ",False,False,BB&N,,England
+191,Takuma,Ueno,4.0,9.0,9.0,8.0,6.0,,,,,,,False,False,Graham and Parks,,England
+52,Solomon,Ender-Brown,3.0,8.0,,8.0,6.0,WF,MT,,"Danehy, Raymond, Russell, Pacific, Magazine","Sennott, Common, Donnelly","Freddy  Von Grotthus, Harrison Fennell, Finn Jones (son of Rosie Jones— not sure of Finn’s last name)",False,False,Shady Hill,,England
+86,Liam,Keenan,3.0,2.0,2.0,3.0,6.0,MW,R,"Maher, Danehy, Raymond, Russell, Pacific, Magazine",Sennott,"Donnelly, Ahern, Common","Max Sharma, Sam Sharma, Emil Adelmant-Pacy",False,False,Cambridgeport,Volunteer as head coach,England
+118,Memphis,Michels,2.0,2.0,2.0,2.0,6.0,,MF,"Ahern, Donnelly, Pacific, Magazine, Sennott","Maher, Danehy, Raymond",," ,  ,  ",False,False,Haggerty,,England
+31,Ethan,Chen,4.0,6.0,6.0,6.0,6.0,W,T,"Maher, Danehy, Raymond, Russell","Common, Sacramento, Pacific, Magazine, Sennott",,"Reuben Lu, Mika Aykroyd, Theodore Liao",False,False,MLK,,England
+17,Abel,Baldwin,2.0,8.0,,8.0,6.0,F,M,"Ahern, Donnelly, Pacific, Magazine, Sennott","Maher, Russell","Danehy, Raymond, Common"," ,  ,  ",False,False,02138-1022,Volunteer as assistant coach,England
+219,Martin,Cunningham,3.0,4.0,,4.0,6.0,,,,,"Russell, Danehy, Maher",,False,False,International School of Boston,,England
+134,Ofer,Peleg,3.0,6.0,6.0,7.0,6.0,MWF,TR,"Maher, Danehy, Raymond, Russell, Pacific, Magazine",Sennott,"Donnelly, Common, Sacramento"," ,  ,  ",False,False,Cambridgeport,,England
+190,Armando,Toledano Laredo,4.0,6.0,6.0,8.0,6.0,F,R,"Ahern, Donnelly, Maher, Russell, Pacific, Magazine, Sennott","Common, Sacramento",,"Preston  Newhall , Teo  Argueso ,  ",False,False,Amigos,,England
+107,Reuben,Lu,4.0,3.0,3.0,3.0,3.0,,TR,"Ahern, Donnelly, Sennott","Danehy, Raymond, Russell, Common, Sacramento",,"Ethan Chen, George Scott,  ",False,False,2138,Volunteer as head coach,England
+91,Damon,Krall,3.0,5.0,5.0,4.0,6.0,M,W,"Ahern, Donnelly, Maher, Danehy, Raymond, Russell","Pacific, Magazine",,"Heath  Claggett,  ,  ",False,False,MLK,,Brazil
+121,Yonathan,Mulat,4.0,4.0,,4.0,6.0,MF,TR,"Ahern, Donnelly, Maher, Sennott","Danehy, Raymond","Pacific, Magazine, Common"," ,  ,  ",False,False,Cambridgeport,,Brazil
+143,Ali,Razafsha,3.0,5.0,5.0,4.0,3.0,,,,,"Raymond, Common, Sacramento",,False,False,Haggerty,,Brazil
+168,Lucas,Sherman-Chang,3.0,3.0,3.0,3.0,6.0,,,,,"Pacific, Sennott, Magazine",,False,False,Amigos,,Brazil
+192,Leo,Verdi,3.0,8.0,,8.0,6.0,,TR,Russell,"Common, Sacramento, Sennott","Pacific, Donnelly, Raymond","Freddy  Von Grotthuss ,  ,  ",False,False,Shady Hill,,Brazil
+95,Isaiah,Laboy,3.0,6.0,,6.0,6.0,F,TWR,"Maher, Danehy, Raymond","Ahern, Donnelly, Russell, Common, Sacramento, Pacific, Magazine, Sennott",,"Thomas  Carmanica, Liam Keenan,  ",False,False,Cambridgeport,,Brazil
+90,Avi,Krakower,4.0,10.0,10.0,9.0,6.0,WF,MTR,"Danehy, Raymond, Russell, Common, Sacramento","Pacific, Magazine","Sennott, Donnelly, Ahern","Ethan Daricek,  ,  ",False,False,Morse,,Brazil
+72,Elijah,Herron,2.0,2.0,2.0,6.0,6.0,MW,R,,"Maher, Danehy, Raymond, Russell","Common, Sacramento, Magazine"," ,  ,  ",False,False,Graham and Parks,,Brazil
+198,Gordon,Wiacek,3.0,10.0,,10.0,6.0,,,,,"Sennott, Pacific, Donnelly",,False,False,Cambridgeport,,Brazil
+141,Nathan,Ravenel,4.0,1.0,1.0,3.0,2.0,,,,,"Sacramento, Common, Raymond",,False,False,Fayerweather Street School,,Brazil
+18,Shinji,Batra,4.0,3.0,3.0,3.0,3.0,TF,MWR,"Maher, Danehy, Raymond, Russell","Pacific, Magazine, Sennott","Common, Donnelly, Sacramento","Rohan Tencer, Theo Hampton, Mika Aykroyd",False,False,MLK,,Portugal
+200,Friedrich,Wiehe,3.0,5.0,5.0,5.0,6.0,,,,,"Donnelly, Ahern, Sennott",,False,False,King Open,,Portugal
+124,Alexander,Nehs,3.0,3.0,,3.0,6.0,,MTWRF,,"Ahern, Donnelly, Common, Sacramento, Pacific, Magazine, Sennott","Raymond, Danehy, Russell","Ryan Johnston-Ash, Evan  Johnston-Ash, Oscar Spies",False,False,King Open,,Portugal
+89,Hamza,Kolia,4.0,8.0,,8.0,6.0,,,,,"Danehy, Raymond, Russell",,False,False,Peabody,,Portugal
+4,Emil,Adelmant-Pacy,3.0,3.0,3.0,6.0,6.0,MTF,WR,"Maher, Danehy, Raymond, Russell, Common, Sacramento","Pacific, Magazine, Sennott",,"Liam  Keenan, Alfred Kennan, Roman Trunnell-Kahn",False,False,Morse,,Portugal
+83,Ryan,Johnston-Ashe,3.0,7.0,7.0,6.0,6.0,MT,WF,"Maher, Danehy, Raymond, Russell, Pacific, Magazine","Ahern, Donnelly, Common, Sacramento",,"Alex  Nehs, Oscar Spies,  ",False,False,King Open,,Portugal
+147,Leo,Ribnick,3.0,5.0,5.0,5.0,6.0,,TWR,"Maher, Danehy, Raymond, Russell","Ahern, Donnelly","Sennott, Pacific, Magazine","David Meyer, Gabriel Rosa, Finn Goldsmith",False,False,King Open,,Portugal
+117,David,Meyer,3.0,6.0,6.0,6.0,6.0,,MTWR,"Maher, Danehy, Raymond, Russell, Pacific, Magazine","Ahern, Donnelly",,"Leo Ribnick, Elliot Sowinski,  ",False,False,King Open,,Portugal
+176,Elliott,Sowinski,3.0,5.0,5.0,6.0,6.0,,TWR,"Maher, Danehy, Raymond, Russell, Common, Sacramento, Pacific, Magazine","Ahern, Donnelly",,"David  Meyer, Leo Ribnick ,  ",False,False,King Open,,Portugal
+57,Teodore,Febvay,4.0,10.0,10.0,7.0,6.0,F,MR,"Maher, Danehy, Raymond, Russell","Ahern, Donnelly, Sennott","Pacific, Magazine, Sacramento"," ,  ,  ",False,False,Amigos,,Portugal
+189,Rohan,Tencer,3.0,4.0,4.0,5.0,2.0,T,,"Maher, Russell","Pacific, Magazine, Sennott","Common, Donnelly, Ahern","Shinji Batra, Theo Hampton,  ",False,False,MLK,,Portugal
+135,Luis,Perez Bianciardi,3.0,3.0,3.0,3.0,6.0,MF,R,"Maher, Danehy, Raymond, Russell",Sennott,"Donnelly, Ahern, Pacific","Coach John Royal blue team, Location is more important than day, thank you ( Sennot if possible!) ,  ",False,False,Amigos,,Spain
+22,Nathaniel,Beerbohm,3.0,6.0,,6.0,6.0,TRF,M,"Ahern, Donnelly, Maher, Danehy, Raymond, Russell","Common, Sacramento",,"Nile Gray, Milo Frey, Gustav Bahlmann",False,False,Baldwin,,Spain
+130,West,Otto,4.0,4.0,4.0,4.0,6.0,,,,,"Maher, Danehy, Russell",,False,False,Haggerty,,Spain
+197,Jack,Ward,3.0,5.0,,5.0,6.0,TR,,Sennott,Maher,"Danehy, Raymond, Russell","Dylan McNuff, Jose Lopez,  ",False,False,Morse,,Spain
+167,Kadyn,Sharpe,3.0,10.0,10.0,6.0,6.0,TR,WF,"Maher, Danehy, Raymond, Russell, Pacific, Magazine",Sennott,"Donnelly, Ahern, Sacramento","Liam Keenan, Mattias Willard, Finn Goldsmith",False,False,Cambridgeport,,Spain
+220,Milo,Frey,2.0,4.0,,4.0,6.0,F,W,Maher,"Ahern, Donnelly, Common, Sacramento, Sennott","Pacific, Magazine, Raymond","Gustav Bahlmann, Ziv Sonalkar-Wright, Nile  Gray",False,False,Baldwin,,Spain
+125,Preston,Newhall,3.0,7.0,7.0,6.0,6.0,MTR,F,"Ahern, Donnelly, Maher, Danehy, Raymond, Russell","Common, Sacramento, Pacific, Magazine, Sennott",,"Jon & Xavier Cillero Etxebeste, Aarav Hidago,  ",False,False,Amigos,,Spain
+88,Julian,Kim,4.0,10.0,10.0,8.0,6.0,MR,W,"Ahern, Donnelly, Maher, Pacific, Magazine","Common, Sacramento","Raymond, Danehy, Sennott","Miles Dana, Elias Straub, Mohammed Fak",False,False,Baldwin,,Spain
+64,Finn,Goldsmith,3.0,5.0,5.0,4.0,6.0,,,,,"Ahern, Donnelly, Sennott",,False,False,Cambridgeport,,Spain
+106,Theo,Love,4.0,4.0,4.0,3.0,3.0,,W,"Maher, Danehy, Raymond, Russell","Ahern, Donnelly, Common, Sacramento, Pacific, Magazine, Sennott",,"Otomars Macri, Kyan Conwright, Aarav Hidalgo",False,False,2139,,Spain
+115,NEHMYA,MENGISTE,4.0,3.0,3.0,8.0,6.0,,,,,"Sennott, Donnelly, Pacific",,False,False,King Open,,Spain
+85,Omar,Kasabchy,3.0,8.0,8.0,8.0,6.0,,,,,"Russell, Danehy, Raymond",,False,False,Amigos,,Uruguay
+208,Abdrahim,Yasin,4.0,8.0,8.0,6.0,6.0,,,,,"Maher, Russell, Danehy",,False,False,Tobin,,Uruguay
+153,Gabriel,Rosa,3.0,6.0,6.0,6.0,6.0,M,F,"Maher, Danehy, Raymond, Russell","Ahern, Donnelly","Sennott, Pacific, Magazine","Leo Ribnick, David Meyer, Friedel  Wiehe",False,False,King Open,,Uruguay
+222,Nicolas,Hill,3.0,9.0,,9.0,6.0,,,,,"Maher, Russell, Danehy","Tripp Donohoe, we can make any day work nico just wants to play with tripp! ,  ",False,False,Atrium,Volunteer as Team Parent/Manager,Uruguay
+30,Thomas,Caramanica,3.0,5.0,5.0,4.0,6.0,W,T,"Maher, Russell","Ahern, Donnelly","Sennott, Pacific, Common","Finn Goldsmith , Isaiah 3rd grade c-port,  ",False,False,Cambridgeport,,Uruguay
+211,Ofek,Zhitomirsky,4.0,6.0,6.0,6.0,3.0,,F,"Maher, Danehy, Raymond, Russell","Pacific, Magazine","Sennott, Donnelly, Ahern"," ,  ,  ",False,False,Graham and Parks,Volunteer as assistant coach,Uruguay
+32,Shaurya Veer,Chowdhary,4.0,6.0,6.0,8.0,6.0,MW,TR,"Ahern, Donnelly, Maher, Russell, Pacific, Magazine, Sennott","Common, Sacramento",,"Read  , Jaden  , Andreas  ",False,False,MLK,Volunteer as Team Parent/Manager,Uruguay
+104,Yotam,Linder,3.0,2.0,2.0,3.0,1.0,MW,F,"Pacific, Magazine, Sennott","Danehy, Raymond, Russell, Common, Sacramento",,"Tommaso Tallarita, Quentin Baraglia,  ",False,False,Tobin,,Uruguay
+60,Jasper,Gallagher-Goose,4.0,2.0,2.0,4.0,3.0,R,TF,"Ahern, Donnelly, Pacific, Magazine, Sennott","Danehy, Raymond, Russell",,"Niels Seidler-Kahn, Aiden Severe, Elijah Quest-Mercadante",False,False,2140,,Uruguay
+114,Itamar,Meirovitch,2.0,5.0,5.0,4.0,6.0,F,MR,"Ahern, Donnelly, Maher, Pacific, Magazine, Sennott","Common, Sacramento",,"Owen Minervino, Ofer Peleg, Adam bechor Neumark",False,False,Baldwin,,Uruguay
+16,Gustav,Bahlmann,3.0,4.0,,4.0,6.0,WF,MTR,,"Ahern, Donnelly, Common, Sacramento, Sennott","Pacific, Magazine, Raymond","Nile  Gray, Milo Frey, Ziv Sonalkar-wright",False,False,Baldwin,,Uruguay
+45,Alexander,Dewan,4.0,5.0,5.0,5.0,3.0,,,,,"Maher, Danehy, Russell",,False,False,2138,,Ivory Coast
+27,Anton,Buck,4.0,9.0,9.0,9.0,6.0,TW,RF,"Ahern, Donnelly, Pacific, Magazine, Sennott","Danehy, Raymond, Common, Sacramento",," ,  ,  ",False,False,Baldwin,,Ivory Coast
+43,Samuel,DeLucas,3.0,8.0,,8.0,6.0,,,"Ahern, Donnelly, Pacific, Magazine, Sennott","Maher, Danehy, Raymond, Russell",," ,  ,  ",False,False,Peabody,,Ivory Coast
+122,Lincoln,Murphy,2.0,2.0,2.0,4.0,6.0,TW,R,"Ahern, Donnelly, Common, Sacramento, Pacific, Magazine, Sennott","Maher, Danehy, Raymond, Russell",,"Ezra Jaramillo,  ,  ",False,False,"St. Agnes (Arlington, MA)",Volunteer as Team Parent/Manager,Ivory Coast
+155,Asher,Russell,3.0,5.0,5.0,6.0,6.0,WF,MR,"Ahern, Donnelly, Pacific, Magazine","Danehy, Raymond, Russell, Common, Sacramento",,"Theodore  DeMichele, Liam Beausang,  ",False,False,BB&N,,Ivory Coast
+3,Dagim Abiyou,ABIYOU,3.0,8.0,,8.0,6.0,,,,,"Russell, Danehy, Maher",,False,False,Banneker,,Ivory Coast
+46,Shayhan,Dias,4.0,3.0,3.0,3.0,6.0,,MTWR,"Ahern, Donnelly, Russell, Common, Sacramento, Pacific, Magazine, Sennott","Maher, Danehy, Raymond",,"Benjamin Evan ,  ,  ",False,False,Baldwin,,Ivory Coast
+48,Miles,Dollard,3.0,6.0,,6.0,6.0,F,MTWR,"Ahern, Donnelly, Pacific, Magazine, Sennott","Danehy, Raymond, Common, Sacramento",,"Owen Minervino,  ,  ",False,False,Baldwin,,Ivory Coast
+51,Moses,Ellner,3.0,5.0,5.0,3.0,6.0,TW,R,"Ahern, Donnelly, Russell, Common, Sacramento, Pacific, Magazine, Sennott","Danehy, Raymond",," ,  ,  ",False,False,Morse,,Ivory Coast
+183,Daniel,Suh,4.0,2.0,2.0,5.0,6.0,,,,"Danehy, Raymond","Russell, Maher, Common","anyone from team italy last season , anyone from team italy last season , anyone from team italy last season ",False,False,Tobin,,Ivory Coast
+38,Ezequiel,Cousin,3.0,6.0,,6.0,6.0,TWF,,"Ahern, Donnelly, Common, Sacramento, Pacific, Magazine, Sennott","Maher, Danehy, Raymond",,"Marcus Von Burchardt , JP  Collins, Daniel  Yung ",False,False,Amigos,,Ivory Coast
+50,William,Downey,3.0,8.0,,8.0,6.0,W,F,"Ahern, Donnelly, Common, Sacramento, Pacific, Magazine, Sennott","Maher, Danehy, Raymond, Russell",,"Wyatt Hughes, Ishan Kuesters,  ",False,False,Peabody,,Eritrea
+162,George,Scott,4.0,3.0,3.0,3.0,3.0,,,,,"Sennott, Pacific, Donnelly",,False,False,BB&N,,Eritrea
+148,Liam,Riley,4.0,5.0,5.0,6.0,3.0,W,M,"Ahern, Donnelly, Common, Sacramento, Pacific, Magazine, Sennott",Maher,,"William Benanti, Reed Alves,  ",False,False,Carroll School,,Eritrea
+146,Henry,Reynolds,4.0,4.0,4.0,8.0,6.0,,,,,"Raymond, Sacramento, Danehy",,False,False,Shady Hill,,Eritrea
+23,William,Benanti,4.0,9.0,9.0,5.0,6.0,W,M,"Ahern, Donnelly, Common, Sacramento, Pacific, Magazine, Sennott",Maher,,"Liam Riley, Jackson Kaine,  ",False,False,Haggerty,,Eritrea
+1,Qasim,Massoud,3.0,8.0,,8.0,6.0,,,,,"Maher, Russell, Danehy",,False,False,Baldwin,,Eritrea
+127,Augustin,O'Malley,3.0,6.0,,6.0,6.0,,,,,"Danehy, Raymond, Russell",,False,False,Graham and Parks,,Eritrea
+138,Miles,Rafferty,3.0,3.0,3.0,4.0,6.0,TF,MWR,"Ahern, Donnelly, Common, Sacramento, Pacific, Magazine, Sennott","Maher, Danehy, Raymond, Russell",,"Henry Reynolds, Wyatt Hughs,  ",False,False,Peabody,,Eritrea
+161,Shaked,Schlamm,2.0,4.0,4.0,5.0,6.0,W,F,"Ahern, Donnelly, Pacific, Magazine, Sennott","Danehy, Raymond, Russell, Common, Sacramento",,"Arbel Schlamm, Jon  Cillero,  ",False,False,Graham and Parks,,Eritrea
+5,Nadeem,Ahmed,3.0,6.0,,6.0,6.0,,,,,"Sennott, Pacific, Donnelly",,False,False,Kennedy Longfellow,,Eritrea
+128,Marcel,O'Malley,3.0,4.0,,4.0,6.0,,,,,"Danehy, Raymond, Russell",,False,False,Graham and Parks,,Eritrea
+171,Mutong,Si,4.0,10.0,10.0,8.0,6.0,,,,,"Common, Raymond, Danehy",,False,False,MLK,,Korea
+96,Jeremy,Layton,4.0,5.0,5.0,5.0,2.0,,TR,"Maher, Danehy, Raymond, Russell","Ahern, Donnelly","Sennott, Pacific, Magazine","Colton Mazanec,  ,  ",False,False,Kennedy Longfellow,,Korea
+154,Kostantinos,Rougas,2.0,3.0,3.0,6.0,2.0,RF,MTW,"Danehy, Raymond, Russell","Pacific, Magazine","Sennott, Common, Donnelly","Jose Lopez,  ,  ",False,False,Morse,,Korea
+157,Tom,Sands,3.0,8.0,8.0,6.0,6.0,,,"Maher, Danehy, Raymond, Russell, Common, Sacramento, Pacific, Magazine","Ahern, Donnelly, Sennott",,"Oscar Spies,  ,  ",False,False,King Open,,Korea
+37,Kyan,Conwright,4.0,1.0,1.0,5.0,6.0,,,,,"Donnelly, Sennott, Ahern","Rejoin 5/6 Navy with Coach Nick and Niels ,  ,  ",False,False,Amigos,,Korea
+110,Colton,Mazanec,4.0,3.0,3.0,4.0,6.0,,,,,"Donnelly, Sennott, Ahern",,False,False,Fletcher Maynard,,Korea
+71,Marlon,Herath,3.0,6.0,6.0,6.0,6.0,MF,TWR,"Maher, Danehy, Raymond, Russell, Common, Sacramento, Pacific, Magazine","Ahern, Donnelly",,"Zavian Scalera, Ryan Brubaker,  ",False,False,2141,,Korea
+7,Geovani,Albuquerque,3.0,7.0,7.0,9.0,3.0,,,"Maher, Danehy, Raymond, Russell, Common, Sacramento","Ahern, Donnelly",,"Connor Rogers  Sammy ,  ,  ",False,False,King Open,,Korea
+166,Sam,Sharma,3.0,5.0,5.0,6.0,6.0,MW,,"Maher, Danehy, Raymond, Russell, Pacific, Magazine",Sennott,"Donnelly, Common, Ahern","Liam Keenan, Alfred Keenan,  ",False,False,Cambridgeport,,Korea
+165,Max,Sharma,3.0,5.0,5.0,6.0,6.0,MW,,"Maher, Danehy, Raymond, Russell, Pacific, Magazine",Sennott,"Donnelly, Common, Ahern","Liam Keenan, Alfred Keenan,  ",False,False,2139,,Korea
+68,Wilfred,Gutierrez,4.0,7.0,7.0,7.0,6.0,TR,MWF,,"Common, Sacramento, Pacific, Magazine","Raymond, Danehy, Russell"," ,  ,  ",False,False,Amigos,,USA
+59,Yarosan,Fetene,2.0,8.0,,8.0,6.0,,,,,"Danehy, Raymond, Russell",,False,False,2138,,USA
+82,Evan,Johnston-Ashe,3.0,6.0,6.0,6.0,6.0,MT,WF,"Maher, Danehy, Raymond, Russell, Pacific, Magazine","Ahern, Donnelly, Common, Sacramento",,"Alex  Nehs, Oscar Spies,  ",False,False,King Open,,USA
+174,Adonai,Solomon,4.0,9.0,,9.0,6.0,,,,,"Russell, Maher, Danehy",,False,False,Wildrose Montessori school,,USA
+163,Paul,Seemuller,3.0,4.0,4.0,5.0,6.0,W,F,"Ahern, Donnelly, Maher, Russell, Pacific, Magazine, Sennott","Danehy, Raymond, Common, Sacramento",,"Paolo Passamonti, William Audrain , Aayush Kc",False,False,St. Peter's,,USA
+63,adam,gera margaliot,4.0,3.0,,3.0,6.0,R,F,"Ahern, Donnelly, Maher, Pacific, Magazine, Sennott","Common, Sacramento",,"shaked  schlamm, arbel schlamm,  ",False,False,Haggerty,,USA
+74,Joshua,Hogan,4.0,4.0,4.0,3.0,6.0,,,,,"Russell, Danehy, Raymond",,False,False,Baldwin,,USA
+10,Maxwell,Arnason,2.0,5.0,5.0,5.0,6.0,,F,"Maher, Danehy, Raymond, Russell, Pacific, Magazine","Common, Sacramento",,"Shaked Schlamm, Shiah Arsham, Jon Cillero",False,False,Cambridgeport,,USA
+201,Leo,Willard,4.0,2.0,2.0,4.0,2.0,,MTWRF,"Ahern, Donnelly, Sennott","Danehy, Raymond, Russell, Common, Sacramento",,"Miles Lind, Nate Ravenel,  ",False,False,Lesley Ellis School,,USA
+35,Heath,Claggett,3.0,6.0,6.0,6.0,6.0,,,,,"Pacific, Sennott, Magazine",,False,False,MLK,,USA
+24,Max,Bench,3.0,6.0,,6.0,6.0,,,,,"Ahern, Donnelly, Sennott",,False,False,King Open,,Japan
+108,Saul,Lubin,4.0,5.0,5.0,5.0,6.0,TR,MWF,"Ahern, Donnelly, Pacific, Magazine, Sennott","Danehy, Raymond, Russell, Common, Sacramento",,"Colin Sherwood, Henry Reynolds, Nolan O’Brien",False,False,Shady Hill,,Japan
+159,Tobias,Schebesta,4.0,5.0,5.0,6.0,6.0,MTRF,W,"Ahern, Donnelly, Maher, Pacific, Magazine, Sennott","Danehy, Raymond, Russell",," ,  ,  ",False,False,Baldwin,,Japan
+206,Yaramayah,Yahawadah,2.0,8.0,,8.0,6.0,TR,,Maher,"Danehy, Raymond, Russell","Donnelly, Ahern, Sennott"," ,  ,  ",False,False,2141,,Japan
+136,Gabriel,Pires,3.0,8.0,,8.0,6.0,F,MWR,,"Danehy, Raymond, Russell","Maher, Common, Sacramento","Max Kim,  ,  ",False,False,Haggerty,,Japan
+119,Owen,Minervino,3.0,2.0,,2.0,6.0,F,MR,"Ahern, Donnelly, Maher, Pacific, Magazine, Sennott","Common, Sacramento",,"Itamar Meirovitch, Miles  Dollard, Rumi Javedan",False,False,Baldwin,,Japan
+188,Kidus,Teklemariam,4.0,9.0,9.0,8.0,6.0,,MWF,"Ahern, Donnelly, Maher, Common, Sacramento, Pacific, Magazine, Sennott",,," ,  ,  ",False,False,Banneker,,Japan
+144,Conor,Regan,4.0,4.0,4.0,4.0,2.0,,MTWR,"Maher, Russell","Ahern, Donnelly, Common, Sacramento, Pacific, Magazine, Sennott",,"Samuel Lee, Geovani Albuquerque, Benjamin  Kupiec",False,False,King Open,,Japan
+132,Paolo,Passamonti,3.0,2.0,2.0,4.0,6.0,TR,WF,"Ahern, Donnelly, Common, Sacramento, Pacific, Magazine, Sennott","Danehy, Raymond, Russell",,"William Audrain Vercoglio, Paul Seemuller Carrè, Liam Christopher ( Liam's father, former sunshine team's coach)",False,False,St. Peter's,,Japan
+209,Oscar,Yates,3.0,6.0,,6.0,6.0,,,"Ahern, Donnelly, Pacific, Magazine, Sennott","Danehy, Raymond, Common, Sacramento",,"Teddy McKenna, Thomas  Horan, Ziv Sonalkar",False,False,Baldwin,,Japan
+120,Mariano,Mostein,2.0,4.0,4.0,4.0,3.0,M,R,"Ahern, Donnelly, Common, Sacramento, Pacific, Magazine, Sennott","Maher, Danehy, Raymond",,"Oliver James,  ,  ",False,False,Graham and Parks,,Japan
+84,Julien,Jourdain,4.0,3.0,3.0,3.0,6.0,,,"Ahern, Donnelly, Maher, Russell, Sennott","Common, Sacramento, Pacific, Magazine",,"Antonio Goncalves , Ali Muhammad , Was on  Mexico last year ",False,False,2139,,Mexico
+103,Miles,Lind,3.0,3.0,3.0,4.0,2.0,,MT,"Ahern, Donnelly, Pacific, Magazine, Sennott","Danehy, Raymond, Common, Sacramento",,"Leo Willard, Nate Ravenel, Finn Schoenau",False,False,Shady Hill,,Mexico
+76,Caleb,Huang,3.0,4.0,4.0,7.0,6.0,,,"Ahern, Donnelly, Maher, Danehy, Raymond, Russell","Pacific, Magazine",,"Zac Nicolette, Theodore Liao,  ",False,False,MLK,,Mexico
+65,Antonio,Goncalves III,4.0,5.0,5.0,6.0,2.0,,MTW,"Danehy, Raymond, Russell","Common, Sacramento, Pacific, Magazine, Sennott",," ,  ,  ",False,False,MLK,,Mexico
+172,Reid,Sinclair,4.0,5.0,5.0,6.0,6.0,,MWF,"Ahern, Donnelly, Pacific, Magazine, Sennott","Danehy, Raymond, Common, Sacramento",," ,  ,  ",False,False,Graham and Parks,,Mexico
+73,Aarav,Hidalgo,4.0,10.0,10.0,6.0,6.0,MT,RF,"Maher, Danehy, Raymond, Russell","Pacific, Magazine, Sennott","Donnelly, Ahern, Common","Preston Newhall, Theo Love,  ",False,False,2139,,Mexico
+66,Aoto,Goto,1.0,2.0,2.0,3.0,6.0,,,"Ahern, Donnelly, Pacific, Magazine, Sennott","Danehy, Raymond, Russell",,"Reid Sinclair, Tripster Donohoe, Andreas Brain",False,False,Graham and Parks,,Mexico
+47,William,Doherty,3.0,6.0,6.0,6.0,4.0,TR,MWF,"Ahern, Donnelly, Sennott","Maher, Danehy, Raymond, Common, Sacramento",,"Oliver James, Gus Rougas,  ",False,False,Atrium,Volunteer as assistant coach,Mexico
+194,Marcus,von Burchard,3.0,9.0,,9.0,6.0,TR,WF,"Ahern, Donnelly, Maher, Danehy, Raymond, Russell","Pacific, Magazine",,"Lucas Sherman-Chang, Ezequiel Cousin,  ",False,False,Amigos,,Mexico
+178,Leo,Spencer,3.0,6.0,6.0,4.0,6.0,,,,,"Maher, Danehy, Russell",,False,False,Tobin,,Mexico
+13,Shiah,Arsham,4.0,5.0,,5.0,6.0,,,Maher,"Ahern, Donnelly, Common, Sacramento, Sennott","Pacific, Magazine, Raymond","Max  Arnason,  ,  ",False,False,Cambridgeport,,Belgium
+99,Kijun,Lee,3.0,3.0,,3.0,6.0,,,,,"Magazine, Common, Pacific",,False,False,King Open,,Belgium
+26,Ezra,Brown,3.0,6.0,,6.0,6.0,TR,MWF,"Ahern, Donnelly, Maher, Russell, Pacific, Magazine, Sennott","Common, Sacramento",," ,  ,  ",False,False,2138,,Belgium
+75,Thomas,Horan,3.0,2.0,2.0,2.0,6.0,MT,WRF,"Ahern, Donnelly, Russell, Pacific, Magazine, Sennott","Danehy, Raymond, Common, Sacramento",,"Teddy McKenna,  ,  ",False,False,Baldwin,,Belgium
+214,Jordan,Correia silva,3.0,9.0,,9.0,6.0,,,,,"Donnelly, Ahern, Sennott",,False,False,King Open,,Belgium
+213,Elias,Straub,3.0,1.0,1.0,2.0,3.0,TR,WF,"Ahern, Donnelly, Sennott",Maher,"Danehy, Raymond, Russell","Miles Dana,  ,  ",False,False,German International School Boston,,Belgium
+21,Adam,Bechor Neumark,3.0,4.0,4.0,5.0,3.0,M,F,,"Danehy, Raymond, Russell, Common, Sacramento","Sennott, Pacific, Donnelly","Ezra  Levin (last season Sierra Leon), King  (last season Sierra Leon), Shaked  Schlamm",False,False,Tobin,,Belgium
+98,Jaeyun,Lee,2.0,6.0,6.0,9.0,6.0,TR,,"Maher, Danehy, Raymond, Russell","Ahern, Donnelly","Sennott, Pacific, Magazine"," ,  ,  ",False,False,Fletcher Maynard,,Belgium
+100,Samuel,Lee,4.0,7.0,7.0,5.0,6.0,,MT,"Maher, Danehy, Raymond, Russell","Ahern, Donnelly, Common, Sacramento, Pacific, Magazine, Sennott",,"Conor Regan, Geovani Albuquerque,  ",False,False,King Open,Volunteer as Team Parent/Manager,Belgium
+216,Adam,Essalemy,4.0,10.0,10.0,2.0,6.0,TR,MWF,,"Ahern, Donnelly, Pacific, Magazine","Sennott, Common, Sacramento"," ,  ,  ",False,False,Morse,,Belgium
+149,Graham,Roach,4.0,6.0,,6.0,6.0,TWR,F,"Ahern, Donnelly, Pacific, Magazine, Sennott","Danehy, Raymond, Common, Sacramento",,"James  Roach. Twin brother. Need to be together for family scheduling. ,  ,  ",False,False,Baldwin,,Belgium
+6,Mohammad,Alabbad,3.0,6.0,6.0,9.0,6.0,WF,MT,"Ahern, Donnelly, Maher, Danehy, Raymond, Common, Sacramento, Pacific, Magazine, Sennott",Russell,,"Sami  ,  ,  ",False,False,2140,,Germany
+28,Julian,Bustos,3.0,6.0,,6.0,6.0,,,,,"Maher, Russell, Danehy",,False,False,Graham and Parks,,Germany
+181,Marcel AJ,Stile Altman,4.0,9.0,,9.0,6.0,RF,MT,"Ahern, Donnelly, Pacific, Magazine, Sennott","Maher, Danehy, Raymond",,"Shady Hill 4th Graders ,  ,  ",False,False,Shady Hill,,Germany
+54,Benjamin,Evan,4.0,4.0,4.0,5.0,2.0,TRF,MW,"Ahern, Donnelly, Maher, Pacific, Magazine, Sennott","Danehy, Raymond, Common, Sacramento",,"Shayhan Dias, Tariq Mokhtar, David Dorvil (Bazile)",False,False,Baldwin,Volunteer as head coach,Germany
+8,Ajer,Alkadir,4.0,8.0,8.0,6.0,5.0,RF,MW,"Ahern, Donnelly, Maher, Common, Sacramento, Pacific, Magazine, Sennott",Russell,," ,  ,  ",False,False,Banneker,,Germany
+156,Ilan,Samlan,3.0,10.0,10.0,7.0,6.0,TWR,M,"Ahern, Donnelly, Maher, Common, Sacramento, Pacific, Magazine, Sennott",Russell,,"Ofek Zhitomirsky, Geva Rosenzweig,  ",False,False,Graham and Parks,,Germany
+182,Henry,Stott,3.0,2.0,2.0,3.0,3.0,,,,,"Sacramento, Raymond, Common",,False,False,Baldwin,,Germany
+49,Tristram,Donohoe,4.0,3.0,,3.0,6.0,,,,,"Raymond, Danehy, Sacramento",,False,False,2140,,Germany
+129,Masaki,Ohsugi,2.0,4.0,4.0,9.0,6.0,TW,MR,"Ahern, Donnelly, Pacific, Magazine, Sennott",Russell,"Maher, Danehy, Raymond"," ,  ,  ",False,False,Graham and Parks,,Germany
+158,Younis,Sayed,3.0,2.0,2.0,3.0,6.0,,,,,"Russell, Maher, Danehy",,False,False,Peabody,,Germany
+196,Benjamin,Walther,4.0,4.0,4.0,6.0,6.0,,,,,"Sacramento, Common, Raymond",,False,False,Baldwin,,Germany
+123,Suriyan,Narayanan,4.0,4.0,4.0,5.0,6.0,,TWR,"Maher, Danehy, Raymond, Russell, Common, Sacramento","Ahern, Donnelly",,"Colton Mazanec,  ,  ",False,False,Ideal4Gifted,,Argentina
+34,Jon,Cillero,2.0,3.0,,3.0,6.0,MTWR,F,"Ahern, Donnelly, Maher, Danehy, Raymond, Russell, Sennott","Common, Sacramento",,"Shaked Schlamm, Maxwell Arnason, Isaak Stockman",False,False,Amigos,Volunteer as head coach,Argentina
+212,Idris,Ziro,3.0,4.0,4.0,6.0,6.0,MW,RF,"Ahern, Donnelly, Maher, Danehy, Raymond, Russell, Common, Sacramento, Sennott","Pacific, Magazine",,"Ilyas  Kanzi Belghiti,  ,  ",False,False,Morse,,Argentina
+92,Ari,Kuhlmann,3.0,6.0,6.0,4.0,6.0,,,,,"Pacific, Sennott, Magazine",,False,False,MLK,,Argentina
+58,Harry,Fennell,3.0,8.0,,8.0,6.0,,,,,"Danehy, Raymond, Common",,False,False,Shady Hill ,,Argentina
+112,Devon,McNulty,3.0,6.0,6.0,6.0,6.0,,,,,"Raymond, Danehy, Sacramento",,False,False,Morse,,Argentina
+133,Dhilan,Patwardhan,4.0,5.0,5.0,4.0,3.0,T,RF,"Ahern, Donnelly, Maher","Pacific, Magazine","Sennott, Common, Sacramento"," ,  ,  ",False,False,2139,Volunteer as head coach,Argentina
+40,Simon,Daniel,4.0,9.0,9.0,8.0,6.0,,,,,"Russell, Danehy, Raymond",,False,False,PHA,,Argentina
+61,Maxwell,Gallardo Foreman,3.0,2.0,2.0,4.0,6.0,,MTRF,,"Danehy, Raymond, Russell","Maher, Common, Sacramento","Xander Smith, Kai Clark, Milo Frey ",False,False,Baldwin,Volunteer as Team Parent/Manager,Argentina
+195,Freddy,von Grotthuss,3.0,6.0,6.0,8.0,6.0,,,,,"Sacramento, Common, Sennott",,False,False,Shady Hill,,Argentina
+42,Ethan,Daricek,4.0,7.0,7.0,9.0,6.0,,MWF,"Ahern, Donnelly, Maher, Danehy, Raymond, Russell, Common, Sacramento, Sennott","Pacific, Magazine",,"Theo Hampton, Ethan Chen, Avi Krakower",False,False,Morse,,Argentina
+44,Theo,DeMichele,3.0,6.0,6.0,3.0,6.0,,TR,,"Maher, Danehy, Raymond, Russell, Common, Sacramento, Pacific, Magazine, Sennott",,"Asher  Russell, Liam  Beusang,  ",False,False,BB&N,,Netherlands
+12,Zachary,Arroyo,3.0,7.0,,7.0,6.0,T,MF,"Ahern, Donnelly, Maher, Common, Sacramento, Pacific, Magazine, Sennott",Russell,,"Oliver Arroyo, Oliver and Zachary are twins and need to be on the same team for family logistics ,  ",False,False,Peabody,,Netherlands
+160,Arbel,Schlamm,2.0,5.0,,5.0,6.0,W,F,"Ahern, Donnelly, Pacific, Magazine, Sennott","Danehy, Raymond, Russell, Common, Sacramento",,"Shaked Schlamm, Jon Cillero,  ",False,False,Graham and Parks,,Netherlands
+70,Theo,Hampton,4.0,5.0,5.0,4.0,2.0,,,,"Pacific, Magazine","Sennott, Donnelly, Common","Ethan Daricek, Anees Senhadji,  ",False,False,MLK,,Netherlands
+207,Michael,Yang,4.0,4.0,,4.0,6.0,,,"Ahern, Donnelly, Pacific, Magazine","Danehy, Raymond","Russell, Maher, Common"," ,  ,  ",False,False,Not assigned yet,,Netherlands
+11,Oliver,Arroyo,3.0,7.0,,7.0,6.0,T,MF,"Ahern, Donnelly, Maher, Common, Sacramento, Pacific, Magazine, Sennott",Russell,,"Zachary Arroyo, Oliver and Zachary are twins and we need to have them on the same team for logistics  ,  ",False,False,2140,,Netherlands
+210,Ye'ab,yilma,3.0,10.0,,10.0,6.0,,,,,"Danehy, Raymond, Russell",,False,False,Banneker,,Netherlands
+177,William,Sparkes,4.0,5.0,,5.0,6.0,W,,"Ahern, Donnelly, Pacific, Magazine, Sennott","Maher, Danehy, Raymond, Common, Sacramento",,"McKinley Sullivan, Quentin  Chancgone-Murphy,  ",False,False,Shady Hill,,Netherlands
+170,Yuto,Shimizu,3.0,3.0,,3.0,6.0,T,F,"Ahern, Donnelly, Maher, Russell, Common, Sacramento, Pacific, Magazine, Sennott","Danehy, Raymond",," ,  ,  ",False,False,TBD,,Netherlands
+9,Reed,Alves,4.0,2.0,2.0,4.0,6.0,,RF,"Ahern, Donnelly, Common, Sacramento, Pacific, Magazine, Sennott","Maher, Danehy, Raymond",," ,  ,  ",False,False,Haggerty,,Netherlands
+164,Niels,Seidler Kahn,3.0,6.0,,6.0,6.0,TWF,MR,"Ahern, Donnelly, Maher","Danehy, Raymond, Russell","Sacramento, Common, Sennott","Jasper Gallagher Goose, Gianluca ,  ",False,False,Fayerweather street school,,Netherlands
+139,Isaac,Rand,2.0,6.0,6.0,6.0,6.0,,,,,"Maher, Danehy, Raymond",,False,False,Isaac is old/age eligible for 3rd grade,,Italy
+217,Zavian,Scalera,3.0,8.0,,8.0,6.0,,,,,"Ahern, Donnelly, Sennott",,False,False,Tobin,,Italy
+173,Xander,Smith,3.0,2.0,2.0,2.0,6.0,W,TR,"Ahern, Donnelly, Pacific, Magazine","Maher, Danehy, Raymond, Common, Sacramento",,"Kai  Clark-Quintanilla, Leo Spencer, Jack Verner",False,False,Tobin,Volunteer as assistant coach,Italy
+14,Matthew Ashenafi,Ashenafi,4.0,8.0,,8.0,6.0,,MTF,"Ahern, Donnelly, Common, Sacramento, Sennott","Maher, Pacific, Magazine",," ,  ,  ",False,False,2140,,Italy
+185,Tommaso,Tallarita,3.0,4.0,4.0,4.0,2.0,,F,"Ahern, Donnelly, Maher, Pacific, Magazine, Sennott",Russell,"Sacramento, Common, Raymond","Quentin  Baraglia,  ,  ",False,False,Tobin,Volunteer as Team Parent/Manager,Italy
+180,Ezra,Stearns,4.0,4.0,4.0,6.0,6.0,MWF,TR,"Ahern, Donnelly, Maher, Common, Sacramento, Pacific, Magazine, Sennott","Danehy, Raymond, Russell",," ,  ,  ",False,False,2140,,Italy
+62,Logan,Garrett,4.0,6.0,6.0,5.0,6.0,,,"Ahern, Donnelly, Common, Sacramento, Pacific, Magazine, Sennott","Maher, Danehy, Raymond",," ,  ,  ",False,False,Shady Hill,,Italy
+215,Maxwell,Kim,3.0,4.0,,4.0,6.0,M,R,"Ahern, Donnelly, Maher, Common, Sacramento, Pacific, Magazine, Sennott","Danehy, Raymond",,"Gabriel  Pires,  ,  ",False,False,Haggerty,,Italy
+78,Oliver,James,3.0,3.0,3.0,2.0,2.0,R,,,"Maher, Danehy, Raymond, Russell","Sacramento, Common, Sennott","Hudson  Mulvey, Gus O’Mailey, Mariano Mostein",False,False,Graham and Parks,,Italy
+187,Daniel,Tegegnework,4.0,8.0,8.0,8.0,6.0,,TR,"Ahern, Donnelly, Maher, Common, Sacramento, Pacific, Magazine, Sennott","Danehy, Raymond",,"Kidus  Teklemariam,  ,  ",False,False,2140,,Italy
+202,Mattias,Willard,3.0,5.0,5.0,8.0,6.0,TF,MR,"Maher, Danehy, Raymond, Russell, Common, Sacramento",Sennott,"Pacific, Donnelly, Ahern","Ofer Peleg, Benjamin  Kupieck ,  ",False,False,Cambridgeport,,France
+33,Adil,Chowdhury,3.0,8.0,,8.0,6.0,TWF,M,"Ahern, Donnelly, Maher, Danehy, Raymond, Russell","Pacific, Magazine, Sennott",," ,  ,  ",False,False,Graham and Parks,,France
+193,Jack,Verner,3.0,2.0,2.0,6.0,6.0,,,,,"Maher, Danehy, Raymond",,False,False,Tobin,,France
+94,Benjamin,Kupiec,3.0,4.0,4.0,5.0,6.0,W,TRF,"Maher, Danehy, Raymond, Russell, Common, Sacramento","Ahern, Donnelly, Pacific, Magazine, Sennott",," ,  ,  ",False,False,Cambridgeport,,France
+53,Stiles,Espada,3.0,10.0,,10.0,6.0,,,,,"Maher, Danehy, Russell",,False,False,Graham and Parks,,France
+140,Miles,Rand,2.0,6.0,6.0,4.0,6.0,,,,,"Maher, Danehy, Raymond",,False,False,"Miles is old, age eligible 3rd grade",,France
+97,Austin,Lee,5.0,10.0,10.0,9.0,6.0,W,TRF,"Maher, Danehy, Raymond, Russell, Common, Sacramento",Sennott,"Donnelly, Pacific, Ahern"," ,  ,  ",False,False,2139,,France
+79,Tehm Bala,James,4.0,2.0,,2.0,6.0,,T,Maher,"Ahern, Donnelly, Common, Sacramento, Pacific, Magazine, Sennott",,"Colton Mazanec, Tara Mazanec, Team Korea Team Korea",False,False,Amigos,,France
+175,Ziv,Sonalkar-Wright,3.0,2.0,,2.0,6.0,WF,MR,Russell,"Common, Sacramento",,"Gustav Bahlmann, Milo Frey, Qasim  Massoud ",False,False,Baldwin,,France
+102,Theodore,Liao,4.0,5.0,5.0,6.0,3.0,F,T,"Maher, Danehy, Raymond, Russell","Common, Sacramento, Pacific, Magazine, Sennott",,"Zac Nicolette, Mika Akroyd,  ",False,False,MLK,,France
+145,Luca,Rene,3.0,6.0,6.0,9.0,6.0,RF,MTW,"Ahern, Donnelly, Maher, Common, Sacramento, Pacific, Magazine, Sennott","Danehy, Raymond, Russell",," ,  ,  ",False,False,2140,,Sierra Leone
+137,John Patrick,Quartararo-Collins,3.0,6.0,6.0,5.0,6.0,,,,"Danehy, Raymond, Russell",," ,  ,  ",False,False,Amigos,,Sierra Leone
+29,Jacob,Campbell,4.0,4.0,4.0,5.0,6.0,,,,,"Maher, Russell, Danehy",,False,False,Tobin,,Sierra Leone
+184,McKinley,Sullivan,4.0,6.0,,6.0,6.0,F,W,"Ahern, Donnelly, Pacific, Magazine, Sennott",Maher,"Danehy, Raymond, Common"," ,  ,  ",False,False,Shady Hill,,Sierra Leone
+101,Henry,Lehrer,3.0,7.0,,7.0,6.0,WF,MTR,"Ahern, Donnelly, Common, Sacramento, Pacific, Magazine, Sennott","Danehy, Raymond, Russell",," ,  ,  ",False,False,Tobin,,Sierra Leone
+81,Nehemiah,Jean-Simon,3.0,3.0,3.0,2.0,6.0,,,"Maher, Danehy, Raymond","Common, Sacramento, Pacific, Magazine, Sennott",," ,  ,  ",False,False,Kennedy Longfellow,,Sierra Leone
+186,Narain,Tanwar,3.0,5.0,,5.0,6.0,,TWR,"Ahern, Donnelly, Pacific, Magazine, Sennott","Danehy, Raymond, Russell",,"Natan Amleson, Brendan Logan,  ",False,False,Tobin,,Sierra Leone
+205,Noah,Woreta,4.0,8.0,8.0,6.0,4.0,,TF,,"Danehy, Raymond, Russell, Common, Sacramento","Maher, Magazine, Sennott"," ,  ,  ",False,False,Peabody,,Sierra Leone
+204,Emmett,Woodward,3.0,4.0,,4.0,6.0,RF,,"Ahern, Donnelly, Common, Sacramento, Pacific, Magazine, Sennott","Maher, Danehy, Raymond, Russell",,"Will  Downey, Finn  Schoenau,  ",False,False,St. Columbkille Partnership School,,Sierra Leone
+0,Gregory,Huang,3.0,7.0,,7.0,6.0,,,,,"Russell, Maher, Danehy",,False,False,Shady Hill,,Sierra Leone
+80,Ezra,Jaramillo,3.0,3.0,3.0,3.0,3.0,F,,"Ahern, Donnelly, Pacific, Magazine, Sennott","Maher, Danehy, Raymond",,"King (from Sierra Leone last year), Adam (from Sierra Leone last year), Eric (from Sierra Leone last year)",False,False,Haggerty,,Sierra Leone
+67,Nile,Gray,3.0,5.0,,5.0,6.0,TRF,M,"Ahern, Donnelly, Maher, Danehy, Raymond, Russell","Common, Sacramento, Sennott",,"Nate  Beerbohm, Milo Frey, Gustav Bahlmann",False,False,Baldwin,,Canada
+111,Theodore,McKenna,2.0,6.0,,6.0,6.0,,,,,"Raymond, Danehy, Common",,False,False,Baldwin,,Canada
+56,mohammed,fak,4.0,5.0,5.0,4.0,2.0,,,,,"Donnelly, Ahern, Sennott",,False,False,King Open,,Canada
+87,Ibrahim,Khan,3.0,3.0,,3.0,6.0,,TW,"Maher, Danehy, Raymond, Russell, Pacific, Magazine","Common, Sacramento, Sennott",," ,  ,  ",False,False,Cambridgeport,,Canada
+113,Theodore,Mechev,4.0,5.0,5.0,6.0,6.0,,TWR,"Maher, Danehy, Raymond, Russell","Ahern, Donnelly, Sennott","Pacific, Magazine, Sacramento","Devin De Tissera, Oscar Spies, Zachary Hoss",False,False,King Open,,Canada
+179,Oscar,Spies,3.0,3.0,3.0,3.0,6.0,,MTWRF,"Maher, Danehy, Raymond, Russell, Common, Sacramento, Pacific, Magazine","Ahern, Donnelly",,"Max Bench, Ryan Johnston-Ashe, Theodore Mechev",False,False,King Open,,Canada
+203,Eamon,Wolfe,3.0,6.0,,6.0,6.0,,,,,"Sennott, Pacific, Donnelly",,False,False,Carroll School,,Canada
+218,Safee-ul,Bashar,4.0,9.0,,9.0,6.0,,TWR,,"Maher, Danehy, Raymond, Russell","Sacramento, Common, Sennott"," ,  ,  ",False,False,Baldwin,,Canada
+199,Justin,Wideman,3.0,8.0,,8.0,6.0,TRF,MW,"Ahern, Donnelly, Maher, Danehy, Raymond, Russell","Common, Sacramento, Pacific, Magazine, Sennott",," ,  ,  ",False,False,Kennedy Longfellow,,Canada
+169,Colin,Sherwood,4.0,4.0,4.0,3.0,6.0,,,,,"Common, Sennott, Pacific",,False,False,Atrium School,,Canada

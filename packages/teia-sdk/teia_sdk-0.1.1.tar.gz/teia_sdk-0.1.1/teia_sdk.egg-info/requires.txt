@@ -1,0 +1,12 @@
+http_error_schemas>=1.0.0
+httpx
+melting_schemas>=1.0.1
+pydantic[email]<2
+python-dotenv
+requests
+rich
+starlette
+typer[all]
+
+[test]
+pytest

@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: teia-sdk
+Version: 0.1.1
+Summary: Teia SDK
+Home-page: https://github.com/TeiaLabs/teia-sdk
+Author: TeiaLabs
+Author-email: contato@teialabs.com
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+Provides-Extra: test
+
+# Teia SDK 🕸️
+
+# install 🕷️
+```bash
+pip install ./
+cp example.env .env
+```

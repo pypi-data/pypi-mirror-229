@@ -1,0 +1,25 @@
+from setuptools import setup, find_packages
+
+with open("README.rst", "r") as fh:
+    long_description = fh.read()
+
+setup(
+    name='py-seo-html',
+    version='0.1',
+    description="Python library for SEO-friendly HTML text processing and keyword linking",
+    long_description=long_description,
+    author='Mark',
+    author_email='markolofsen@gmail.com',
+    url='https://github.com/markolofsen/py-seo-html',
+    classifiers=[
+        "Programming Language :: Python :: 3",
+        "License :: OSI Approved :: MIT License",
+        "Operating System :: OS Independent",
+    ],
+    python_requires=">=3.6",
+    packages=find_packages(),
+    install_requires=[
+        'beautifulsoup4',
+        'nltk',
+    ],
+)

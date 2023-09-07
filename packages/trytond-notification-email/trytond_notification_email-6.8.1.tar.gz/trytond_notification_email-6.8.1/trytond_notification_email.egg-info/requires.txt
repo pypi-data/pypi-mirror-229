@@ -1,0 +1,9 @@
+Genshi
+python-sql
+trytond<6.9,>=6.8
+
+[test]
+trytond_company<6.9,>=6.8
+trytond_commission<6.9,>=6.8
+trytond_party<6.9,>=6.8
+trytond_web_user<6.9,>=6.8

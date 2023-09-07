@@ -1,0 +1,13 @@
+MANIFEST.in
+README.md
+setup.py
+clf_inference_intelcomp/__init__.py
+clf_inference_intelcomp/classification.py
+clf_inference_intelcomp/utils.py
+clf_inference_intelcomp.egg-info/PKG-INFO
+clf_inference_intelcomp.egg-info/SOURCES.txt
+clf_inference_intelcomp.egg-info/dependency_links.txt
+clf_inference_intelcomp.egg-info/requires.txt
+clf_inference_intelcomp.egg-info/top_level.txt
+clf_inference_intelcomp/data/classes.yaml
+clf_inference_intelcomp/data/models.yaml

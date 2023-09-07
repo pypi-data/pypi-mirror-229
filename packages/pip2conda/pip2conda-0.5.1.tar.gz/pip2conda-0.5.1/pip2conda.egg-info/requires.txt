@@ -1,0 +1,14 @@
+build>=1.0.0
+grayskull>=1.0.0
+requests
+ruamel.yaml
+packaging
+
+[docs]
+myst-parser
+sphinx
+sphinx_rtd_theme
+
+[test]
+pytest
+pytest-cov

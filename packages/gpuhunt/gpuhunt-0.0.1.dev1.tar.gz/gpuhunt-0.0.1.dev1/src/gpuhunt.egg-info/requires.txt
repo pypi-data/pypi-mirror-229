@@ -1,0 +1,15 @@
+
+[aws]
+boto3
+
+[azure]
+azure-mgmt-compute
+azure-identity
+
+[fetch]
+requests
+pydantic>=2.0.0
+
+[gcp]
+google-cloud-billing
+google-cloud-compute

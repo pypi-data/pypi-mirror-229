@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: gpuhunt
+Version: 0.0.1.dev1
+Summary: A catalog of GPU pricing for different cloud providers
+Author: dstack GmbH
+Project-URL: GitHub, https://github.com/dstackai/gpuhunt
+Project-URL: Issues, https://github.com/dstackai/gpuhunt/issues
+Keywords: gpu,cloud,pricing
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Mozilla Public License 2.0 (MPL 2.0)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Provides-Extra: fetch
+Provides-Extra: aws
+Provides-Extra: azure
+Provides-Extra: gcp
+License-File: LICENSE
+
+Easy access to GPU pricing data for major cloud providers: AWS, Azure, GCP, and LambdaLabs.
+The catalog includes details about prices, locations, CPUs, RAM, GPUs, and spots (interruptable instances).
+
+## Usage
+
+```python
+import gpuhunt
+
+items = gpuhunt.query()
+
+print(*items, sep="\n")
+```
+
+## Advanced usage
+
+```python
+from gpuhunt import Catalog
+
+catalog = Catalog()
+catalog.load(version="20230831")
+items = catalog.query()
+
+print(*items, sep="\n")
+```
+
+## See also
+
+* [dstack](https://github.com/dstackai/dstack)

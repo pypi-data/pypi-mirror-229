@@ -1,0 +1,10 @@
+clf_inference_intelcomp/__init__.py,sha256=tbcSNB9VzSQVuqZcIsTibUIdC6sug4kveHiYT5F0TFg,130
+clf_inference_intelcomp/classification.py,sha256=SIISfIjXKqJenCPEPuXZZkZSMhWJtyZ7d3u_jZ1PBAs,6628
+clf_inference_intelcomp/utils.py,sha256=Y7ep-bkbbt7BTQWjF5oX51zi98EryFw2PTZp86uNHK0,2221
+clf_inference_intelcomp/data/classes.yaml,sha256=kF7v9xhdXRVRmvlRhNPvM5M7cHeyXrQBWFQKTZwUkR4,14270
+clf_inference_intelcomp/data/models.yaml,sha256=zW95V8_2-8_S90tI_9qwSHjAIfiBxDZqVtjBdo0SG9Y,654
+clf_inference_intelcomp-0.1.6.dist-info/LICENSE,sha256=cWOHUv9hXgvdYBoA3fWmPDSOk9GBy_OP01B-Sh8JtNk,1068
+clf_inference_intelcomp-0.1.6.dist-info/METADATA,sha256=T_o5tChfTN2RpAGP4dwlPjq_vZT0Mjf-zPOZvjJowNU,22133
+clf_inference_intelcomp-0.1.6.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+clf_inference_intelcomp-0.1.6.dist-info/top_level.txt,sha256=bL9_grE2BZRdzJYXS7mmdEZe-D9a61FC-lv5fSeWbAA,24
+clf_inference_intelcomp-0.1.6.dist-info/RECORD,,

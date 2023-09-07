@@ -1,0 +1,12 @@
+click>=8.1.7
+matplotlib>=3.7.2
+numpy>=1.25.2
+opencv-python>=4.8.0.76
+psutil>=5.9.5
+scipy>=1.11.2
+
+[:platform_system != "Windows"]
+gphoto2>=2.3.6
+
+[test]
+pytest>=7.2.0

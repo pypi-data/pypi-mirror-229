@@ -1,0 +1,64 @@
+============================= test session starts ==============================
+platform darwin -- Python 3.10.12, pytest-7.4.1, pluggy-1.2.0
+rootdir: /Users/nishant/LLM/langchoice/langchoice
+plugins: anyio-3.6.2
+collected 2 items
+
+lc_test.py {'greeting': ['hello', 'hi', "what's up?"], 'politics': ['what are your political beliefs?', 'thoughts on the president?', 'left wing', 'right wing']}
+query: hello citizens of the nation
+nearest documents:
+          ids  distances                         documents
+0  greeting_0   0.831764                             hello
+1  greeting_1   1.107550                                hi
+2  greeting_2   1.481395                        what's up?
+3  politics_1   1.495407        thoughts on the president?
+4  politics_0   1.541126  what are your political beliefs?
+executing conv_flow for greeting
+query: define politics of the region
+nearest documents:
+          ids  distances                         documents
+0  politics_0   1.314997  what are your political beliefs?
+1  politics_3   1.516095                        right wing
+2  politics_2   1.601495                         left wing
+3  greeting_2   1.694817                        what's up?
+4  greeting_0   1.827255                             hello
+No predefined triggers. Ask LLM!
+query: meet tomorrow at 10?
+nearest documents:
+          ids  distances                         documents
+0  greeting_1   1.453559                                hi
+1  greeting_0   1.503864                             hello
+2  greeting_2   1.601521                        what's up?
+3  politics_0   1.871922  what are your political beliefs?
+4  politics_1   1.910484        thoughts on the president?
+No predefined triggers. Ask LLM!
+.{'greeting': ['hello', 'hi', "what's up?"], 'politics': ['what are your political beliefs?', 'thoughts on the president?', 'left wing', 'right wing']}
+query: hello citizens of the nation
+nearest documents:
+         ids  distances     documents
+0  _greeting   0.799849  rep-greeting
+1  _politics   1.078990  rep-politics
+query: define politics of the region
+nearest documents:
+         ids  distances     documents
+0  _politics   1.108847  rep-politics
+1  _greeting   1.452639  rep-greeting
+query: meet tomorrow at 10?
+nearest documents:
+         ids  distances     documents
+0  _greeting   1.179261  rep-greeting
+1  _politics   1.461229  rep-politics
+.
+
+=============================== warnings summary ===============================
+lc_test.py::test_nearest
+lc_test.py::test_nearest
+lc_test.py::test_nearest
+lc_test.py::test_centroid
+lc_test.py::test_centroid
+lc_test.py::test_centroid
+  /Users/nishant/miniconda3/lib/python3.10/site-packages/chromadb/utils/read_write_lock.py:29: DeprecationWarning: notifyAll() is deprecated, use notify_all() instead
+    self._read_ready.notifyAll()
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+======================== 2 passed, 6 warnings in 1.46s =========================

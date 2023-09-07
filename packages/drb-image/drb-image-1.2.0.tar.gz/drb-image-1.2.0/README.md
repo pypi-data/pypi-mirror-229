@@ -1,0 +1,88 @@
+# DRB Image Extractor
+It's an applicative part using DRB allowing to extract image from
+data according its topic.
+
+### Packaging
+The package python containing an addon image of a DRB topic must have the following
+instruction:
+ - a `drb.image` entry point whose its value is the targeted Python
+   package containing the `cortex.yaml` file
+
+### How to define an addon image ?
+Addon Image are defined in a `cortex.yaml` file following the template:
+```yaml
+topic: <topic_uuid>                        # target topic
+image:
+  <name>:                              # Variable name
+     source:
+      - <extractor>: <extractor_content>       # An extractor
+---
+topic: <topic_uuid>                        # target topic
+default: <name>                            # Default name to extract
+image:
+  <name>:                                  # Variable name
+    source:
+      - <extractor>: <extractor_content>       # An extractor
+  <name_2>:                                # Variable name
+    source:
+      - <extractor>: <extractor_content>       # An extractor
+---
+topic: <topic_uuid>
+image:  
+  <name>:                                  # Variable name
+    source:
+      - <extractor>: <extractor_content> # An extractor
+      - <extractor>: <extractor_content> # An extractor
+        <another_options> : ...            # Add another option
+```
+
+
+### How to extract an image ?
+
+For the following addon description.
+
+```yaml
+topic: b0dad6fa-9ae4-4694-b00b-449cd456d32a # Sentinel-1A Interferometric Wide Swath Level 1 S Product
+default: thumbnail
+image:  
+  QuickLook:                                  
+    source:
+      - xquery: /preview/quick-look.png
+      - script: sentinel1.image_addon:my_method 
+  thumbnail:
+    source:
+      - xquery: /thumbnail.png
+```
+
+The different image node can be extract with this:
+
+```python
+from drb.image import AddonImage
+import drb.topics.resolver as resolver
+
+
+if __name__ == '__main__':
+    node = resolver.create('S1A_IW_RAW__0SDH_20220201T101715_20220201T101734_041718_04F6C6_A26E.SAFE')
+    
+    # Retrieve the addon image object corresponding to the product
+    extract = AddonImage.create(node)
+    
+    # Retrieve the addon image object corresponding to the image name and by default the first resolution
+    extract = AddonImage.create(node=node, image_name='QuickLook') 
+
+    # Retrieve the addon image object corresponding to the image_name and resolution given in argument
+    extract = AddonImage.create(node=node, image_name='QuickLook', resolution='10m')
+    
+    # This will raise an DrbException because it can't find any image addon
+    extract = AddonImage.create(node=node, image_name='Not_existing_image')
+
+    # Retrieve the drb-driver-image node corresponding to the addon using the default extraction, here thumbnail
+    image_node = extract.image_node() 
+
+```
+
+If a topic defines more than one image, and image_name is not specified, AddonImage.create() return the default image if it is set, or the first image declared in the topic. If the topic of the node is not found in the cortex file, it will also check all the topic's parents recursively.
+
+### Extractor
+
+All the information about extractor can be found [here](https://gitlab.com/drb-python/metadata/extractor)

@@ -1,0 +1,7 @@
+IPython
+jinja2
+pandas
+
+[testing]
+pytest
+pytest-cov

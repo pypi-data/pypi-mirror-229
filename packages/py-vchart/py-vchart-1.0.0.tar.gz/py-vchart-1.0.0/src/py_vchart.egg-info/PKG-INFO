@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: py-vchart
+Version: 1.0.0
+Summary: python visualization sdk for @visactor/vchart
+Home-page: https://github.com/VisActor/py-vchart
+Author: VisActor
+Author-email: xuanhun521@126.com
+License: mit
+Project-URL: Documentation, https://github.com/VisActor/py-vchart
+Platform: any
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Description-Content-Type: text/x-rst; charset=UTF-8
+License-File: LICENSE
+Requires-Dist: IPython
+Requires-Dist: jinja2
+Requires-Dist: pandas
+Provides-Extra: testing
+Requires-Dist: pytest; extra == "testing"
+Requires-Dist: pytest-cov; extra == "testing"

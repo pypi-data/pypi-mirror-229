@@ -1,0 +1,6 @@
+[console_scripts]
+finetune = sparsify.auto.tasks.finetune.finetune:parse_args_and_run
+sparsify.check_environment = sparsify.check_environment.main:main
+sparsify.login = sparsify.login:main
+sparsify.run = sparsify.cli.run:main
+

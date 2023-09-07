@@ -1,0 +1,6 @@
+nbconvert
+nbformat
+pandas
+pulsar-client
+pyyaml
+requests

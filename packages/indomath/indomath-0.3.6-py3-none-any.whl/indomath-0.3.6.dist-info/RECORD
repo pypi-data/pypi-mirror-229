@@ -1,0 +1,8 @@
+indomath/__init__.py,sha256=xf0HmHEvqZQEAqkQX-1ndrBIfk0AAhYg2zn79mcgzZo,2279
+indomath/geometry.py,sha256=7X8IYQdhaWWSsbskTES5NTgFsM8p-FDpBT6GToZkCHk,987
+indomath/matrix.py,sha256=wc-HV5Q3CAvH-gwBPmtJLhkVe5bBYWCJQmSIZPomdNk,591
+indomath/mtk.py,sha256=1e2LTLJYTw7P8UCIkSkFEqK1Nfbi0-ztpB--FcmC2dU,224
+indomath-0.3.6.dist-info/METADATA,sha256=FyGJhpQ-cGh0NMyG7kcfQDDBRlpkKTDx4KBYsBF2vVs,175
+indomath-0.3.6.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+indomath-0.3.6.dist-info/top_level.txt,sha256=KbV_JlgOYwh7f0Zu_iYSfwrvIDye3duzQ5agKDqHuiM,9
+indomath-0.3.6.dist-info/RECORD,,

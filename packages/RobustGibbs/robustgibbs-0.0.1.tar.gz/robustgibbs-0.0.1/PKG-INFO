@@ -1,0 +1,59 @@
+Metadata-Version: 2.1
+Name: RobustGibbs
+Version: 0.0.1
+Summary: Package for Gibbs Sampling with Robust Statistics.
+Project-URL: Homepage, https://github.com/pypa/sampleproject
+Project-URL: Bug Tracker, https://github.com/pypa/sampleproject/issues
+Author-email: Antoine Luciano <antoine.luciano@dauphine.psl.eu>
+License-File: LICENSE.txt
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# RobustGibbs Package
+
+`Robust_Gibbs` is a package that allows users to sample from the parameters posteriors when only some robust statistics of the data are available. The paper that describe all the theory of the methods can be found on arXiV (https://arxiv.org/abs/2307.14973). 
+
+## Main functions
+
+We propose here three mains functions named `Gibbs_med_MAD`, `Gibbs_med_IQR` and `Gibbs_Quantile` to cover the case when we observe the pairs (median, MAD) or (median, IQR) or a sequence of quantiles. 
+
+
+## Install
+
+Install via clone the repository and install via pip
+
+```shell
+git clone https://github.com/???
+pip install .
+```
+
+## Use
+
+Here, we sample from the posterior of parameters of a normal distribution using the couple of conjuguate couple Normal-InverseGamma. 
+
+```python
+# CODE
+```
+
+## Available distributions/likelihoods
+* Normal distribution (`distribution="normal"`)
+* Cauchy distribution (`distribution="cauchy"`)
+* Weibull distribution (`distribution="weibull"`)
+* Translated distribution (`distribution="translated_weibull"`)
+
+## Available location priors
+* Normal (`par_loc="normal"`)
+* Cauchy (`par_loc="cauchy"`)
+* Gamma (`par_loc="gamma"`)
+
+## Available scale priors
+* Gamma (`par_scale="gamma"`)
+* Jeffreys (`par_scale="jeffreys"`)
+
+## Available shape prior
+* Gamma (`par_shape="gamma"`)
+
+

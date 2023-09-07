@@ -1,0 +1,4 @@
+aio-pika
+aioredis
+azure-core
+azure-servicebus

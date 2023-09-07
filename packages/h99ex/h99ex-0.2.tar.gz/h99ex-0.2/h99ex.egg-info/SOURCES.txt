@@ -1,0 +1,8 @@
+setup.cfg
+setup.py
+h99ex.egg-info/PKG-INFO
+h99ex.egg-info/SOURCES.txt
+h99ex.egg-info/dependency_links.txt
+h99ex.egg-info/not-zip-safe
+h99ex.egg-info/top_level.txt
+h99examples/__init__.py

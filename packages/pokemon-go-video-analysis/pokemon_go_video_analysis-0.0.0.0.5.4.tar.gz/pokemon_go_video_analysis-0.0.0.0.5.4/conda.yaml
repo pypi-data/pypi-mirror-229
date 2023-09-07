@@ -1,0 +1,6 @@
+name: pogo_video_analysis_env
+channels:
+  - defaults
+dependencies:
+  - pip:
+    - ocr-ops

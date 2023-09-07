@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/pybind_points2grid.cpp
+src/pypoints2grid/__init__.py
+src/pypoints2grid.egg-info/PKG-INFO
+src/pypoints2grid.egg-info/SOURCES.txt
+src/pypoints2grid.egg-info/dependency_links.txt
+src/pypoints2grid.egg-info/not-zip-safe
+src/pypoints2grid.egg-info/requires.txt
+src/pypoints2grid.egg-info/top_level.txt
+tests/test_points2grid.py

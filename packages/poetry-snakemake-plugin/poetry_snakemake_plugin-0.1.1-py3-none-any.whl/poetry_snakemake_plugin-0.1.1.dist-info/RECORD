@@ -1,0 +1,11 @@
+poetry_snakemake_plugin/__init__.py,sha256=m4Ijliz5IJ9KenGGq9X_FSQPYwsMGHv_e_Lbjg6IazQ,2334
+poetry_snakemake_plugin/templates/ci.yml.j2,sha256=qJAneFEM0W4yPGO4YYh-EiF7jTh5hJ2cIZqq4xRSKq8,1615
+poetry_snakemake_plugin/templates/conventional_prs.yml.j2,sha256=2kpnTi1KNU7YtzMn5KQsEKw3ZQFkpWJasP9HSrYg1jc,305
+poetry_snakemake_plugin/templates/init.py,sha256=eQs5NrI3CVbpPCVVHwFaabmXvZhihYawOAL2SgQURUE,4435
+poetry_snakemake_plugin/templates/release_please.yml.j2,sha256=MNfUFs5u0KRggQee2nN2mnpM4sHhaT77Fe1yy8NGFYQ,1295
+poetry_snakemake_plugin/templates/setup.cfg.j2,sha256=UVeqlNessLpX1B-bY-HUtqPIX42e3nQHCVA08qTPga0,216
+poetry_snakemake_plugin/templates/tests.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+poetry_snakemake_plugin-0.1.1.dist-info/METADATA,sha256=s3y73OxUPzTydIb3ouli9i2Ot2Cq_SZoLRg4DTi7f6s,1458
+poetry_snakemake_plugin-0.1.1.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+poetry_snakemake_plugin-0.1.1.dist-info/entry_points.txt,sha256=qsRQatCMD2yuyGps2PdX6gPLZCgkW666PoxfFD0szIg,120
+poetry_snakemake_plugin-0.1.1.dist-info/RECORD,,

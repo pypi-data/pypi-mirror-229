@@ -1,0 +1,4 @@
+eo-learn
+
+[METEOBLUE]
+meteoblue_dataset_sdk<2,>=1

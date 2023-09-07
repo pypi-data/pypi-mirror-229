@@ -1,0 +1,9 @@
+declarativex/__init__.py,sha256=NDBF9-GAj7W3bn1R2XDpOxmeqCayCUO7d9lN7usFvkI,100
+declarativex/client.py,sha256=N5OjUOJx5_HG6mAZyncInyD2ShFeNWliVZKyM7jWQDQ,5312
+declarativex/compatibility.py,sha256=YUzLhu8pgsiDvEAb_o4s6DOLmi6rz7bEMxCfT6C9ZQQ,1083
+declarativex/decorators.py,sha256=49O5mFeHTWsv5e14-zl_04SG50wWdVz9oe0cmwkJWUw,6141
+declarativex/dependencies.py,sha256=vaZTwjuNuZ-ubZyCk7S0ECTd6NFH1OIeOto9F8sfSEk,722
+declarativex-1.1.2.dist-info/LICENSE,sha256=pxXUEkT1RUemZWb9NRWJVJR45B-mQt5GhZkUzqgEqSk,1125
+declarativex-1.1.2.dist-info/METADATA,sha256=29jkiqEaflG480CAGWEAnCMauQ9Wd9o0v4R223Kdmjc,5872
+declarativex-1.1.2.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+declarativex-1.1.2.dist-info/RECORD,,

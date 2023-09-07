@@ -1,0 +1,15 @@
+README.md
+setup.py
+djapy/__init__.py
+djapy.egg-info/PKG-INFO
+djapy.egg-info/SOURCES.txt
+djapy.egg-info/dependency_links.txt
+djapy.egg-info/requires.txt
+djapy.egg-info/top_level.txt
+djapy/decs/__init__.py
+djapy/decs/wrappers.py
+djapy/utils/__init__.py
+djapy/utils/mapper.py
+djapy/utils/types.py
+djapy/views/__init__.py
+djapy/views/generics.py

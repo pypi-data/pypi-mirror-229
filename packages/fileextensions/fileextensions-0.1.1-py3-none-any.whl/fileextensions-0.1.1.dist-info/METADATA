@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: fileextensions
+Version: 0.1.1
+Summary: Provides an organized collection of lists of file extensions, categorized by their usage or type, such as documents, videos, audios, and others
+Download-URL: https://pypi.org/project/fileextensions/
+Author: Marcos Lopez Castro
+Author-email: marcoslopezcastroon@gmail.com
+License: MIT
+Keywords: Extensions,FileExtensions
+License-File: LICENSE.txt
+

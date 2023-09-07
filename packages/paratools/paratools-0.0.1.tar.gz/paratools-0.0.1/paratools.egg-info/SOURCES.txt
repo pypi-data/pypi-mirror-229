@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+paratools.egg-info/PKG-INFO
+paratools.egg-info/SOURCES.txt
+paratools.egg-info/dependency_links.txt
+paratools.egg-info/entry_points.txt
+paratools.egg-info/requires.txt
+paratools.egg-info/top_level.txt

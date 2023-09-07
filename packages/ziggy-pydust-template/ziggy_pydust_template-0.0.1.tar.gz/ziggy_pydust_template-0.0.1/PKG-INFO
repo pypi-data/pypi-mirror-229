@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: ziggy-pydust-template
+Version: 0.0.1
+Summary: 
+Author: Fulcrum Inc.
+Author-email: hello@fulcrum.so
+Requires-Python: >=3.11,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Description-Content-Type: text/markdown
+
+# Ziggy Pydust Template
+
+This template includes:
+
+- A Python Poetry project.
+- A `src/` directory containing a Pydust Python module.
+- Pytest setup for running both Python and Zig unit tests.
+- GitHub Actions workflows for building and publishing the package.
+- VSCode settings for recommended extensions, debugger configurations, etc.
+
+We recommend heading to [Getting Started](https://fulcrum-so.github.io/ziggy-pydust/getting_started/).
+

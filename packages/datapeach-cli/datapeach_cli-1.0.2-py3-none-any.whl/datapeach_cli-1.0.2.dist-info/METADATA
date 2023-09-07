@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: datapeach-cli
+Version: 1.0.2
+Summary: UNKNOWN
+Home-page: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: click
+Requires-Dist: datapeach-wrapper
+Requires-Dist: ipython
+Requires-Dist: jinja2
+Requires-Dist: nbconvert
+Requires-Dist: nbformat
+Requires-Dist: pandas
+Requires-Dist: pyyaml
+Requires-Dist: requests
+
+UNKNOWN
+

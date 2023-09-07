@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: strongarm-ios
+Version: 14.0.7
+Summary: Mach-O/ARM64 analyzer
+Home-page: https://github.com/datatheorem/strongarm
+Author: Data Theorem
+License-File: LICENSE.txt

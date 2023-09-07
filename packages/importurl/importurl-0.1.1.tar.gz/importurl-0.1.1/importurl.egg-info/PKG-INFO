@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: importurl
+Version: 0.1.1
+Summary: Import python module using url with importurl
+Author: VenzTechnolo
+Author-email: venztechnolo@gmail.com
+Keywords: import,module,uri,requests
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Development Status :: 4 - Beta
+Requires: requests
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+
+# ImportURL
+
+[![Discord][1]](<https://discord.com/channels/267624335836053506/>)
+[![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
+
+Hello, From python discord server
+
+## What is importurl ?
+
+importurl is a python module to import python modules using url
+
+### Example
+
+```python
+import importurl
+example_module = importurl.Module ("https://example.com/module.py")
+```
+
+### Documentations
+
+Docs included with markdown format in docs folder
+
+## My profile in python discord server
+
+![AVATAR](https://avatars.githubusercontent.com/u/136630721?v=4)
+
+@Giga Coder
+
+[1]: https://raw.githubusercontent.com/python-discord/branding/main/logos/badge/badge_github.svg
+

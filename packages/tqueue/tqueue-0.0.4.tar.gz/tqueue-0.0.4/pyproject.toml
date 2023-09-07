@@ -1,0 +1,53 @@
+[project]
+name = "tqueue"
+description = "Threading Queue"
+authors = [
+    {name = "Hai Cao", email = "cthai83@gmail.com"}
+]
+dependencies = []
+
+requires-python = ">=3.6"
+readme = "README.md"
+license = {text = "MIT License"}
+keywords = ["queue","threading"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Programming Language :: Python :: 3.6",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: Implementation :: CPython",
+    "Programming Language :: Python :: Implementation :: PyPy",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Topic :: Software Development :: Libraries",
+]
+dynamic = ["version"]
+
+[project.urls]
+"Project" = "https://github.com/haiz/tqueue"
+"Documentation" = "https://tqueue.readthedocs.io/"
+
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[tools.setuptools]
+packages = ["src"]
+
+[tool.setuptools.packages.find]
+namespaces = false
+include = ["src*"]
+exclude = ["tests*", "src.tests*", "examples*", "logs*"]
+
+[tool.ruff]
+line-length = 99
+exclude = []
+
+[tool.pdm.dev-dependencies]
+dev = [
+    "pytest-cov>=4.0.0",
+]

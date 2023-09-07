@@ -1,0 +1,8 @@
+markitup/__init__.py,sha256=0djpCFrbEUaMdRTbQbeT-9OR4_vRSkYTqFLvGlK82vw,49
+markitup/html.py,sha256=anHhO6K3snJy0zHnHaC26tkc-Yhmat2LGY5wOEWcUZ8,19329
+markitup/md.py,sha256=5aHC15tiErpBQFeN9XQ-4_GySRR9feMogWubglb4HK0,424
+markitup/sgr.py,sha256=0qPZUpa31O5kqF9XD1RGsuuYMgUCsbqXB3onV0fwj0I,4584
+markitup-0.0.0.dev6.dist-info/METADATA,sha256=Iaa5tibRqZTLeQ-WvfKgVz0zykK3bB3yrifkUvTT74U,81
+markitup-0.0.0.dev6.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+markitup-0.0.0.dev6.dist-info/top_level.txt,sha256=d9AMw_yJR6GsFJ5rWRRPwcsoPxhZ50zX9xMKYXvgGHM,9
+markitup-0.0.0.dev6.dist-info/RECORD,,

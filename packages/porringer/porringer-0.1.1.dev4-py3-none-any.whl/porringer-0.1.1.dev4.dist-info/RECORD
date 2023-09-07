@@ -1,0 +1,11 @@
+porringer-0.1.1.dev4.dist-info/METADATA,sha256=Rxtg-U-JTEVJJyzETXC8n37WQjCba7wJ1cgO1W83r8w,468
+porringer-0.1.1.dev4.dist-info/WHEEL,sha256=1D4d-_ODszlK6-qFybc5BLF-ZhZvee-uKVh2hLa3IIc,90
+porringer-0.1.1.dev4.dist-info/entry_points.txt,sha256=Gxw1I6VBwgLLa5nVYba-7il8UdauQLbXcD9h5id5_B8,71
+porringer-0.1.1.dev4.dist-info/licenses/LICENSE.md,sha256=wUELBJ0UKnpv6gI6lccpfQn9LyXZRT0vaLfW-pZDIuc,1073
+porringer/__init__.py,sha256=8ZRc1sGeVrPBx4lD717BgRaQekyh78QKV9SKsdt638U,3
+porringer/application/__init__.py,sha256=8ZRc1sGeVrPBx4lD717BgRaQekyh78QKV9SKsdt638U,3
+porringer/application/click.py,sha256=8kwO9XLzZm1gUo3m56_jRpoH-c_yCGKuWzXvquNN1rI,3198
+porringer/application/version.py,sha256=IvrDSgNgt4MUj1QUg4dYw5zsUrjk891ZwtRywu7f2Q0,209
+porringer/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+porringer/schema.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+porringer-0.1.1.dev4.dist-info/RECORD,,

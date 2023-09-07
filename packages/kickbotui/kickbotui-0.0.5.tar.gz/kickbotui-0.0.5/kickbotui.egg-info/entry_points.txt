@@ -1,0 +1,3 @@
+[console_scripts]
+kickbotui = kickbotui.app:main
+

@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "CageCavityCalc"
+version = "1.0.0"
+
+dependencies = [
+    "numpy",
+    "scipy",
+    "sklearn",
+    "rdkit"]
+
+[project.scripts]
+CageCavityCalc = "CageCavityCalc.__main__:main"

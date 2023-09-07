@@ -1,0 +1,5 @@
+nbconvert
+nbformat
+PyYAML
+setuptools
+coloredlogs

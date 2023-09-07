@@ -1,0 +1,89 @@
+Metadata-Version: 2.1
+Name: jupdoc
+Version: 0.0.2
+Summary: Convert jupyter notebooks to reports, with different levels of detail based on tags
+Home-page: https://github.com/wadhwaniAI/jupdoc
+Author: Ashish Papanai
+Author-email: ashishp@wadhwaniai.org
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# JupDoc: Convert Jupyter Notebooks with Role-Based Access Control
+
+[![PyPI Version](https://img.shields.io/pypi/v/jupdoc.svg)](https://pypi.org/project/jupdoc/)
+[![Python Versions](https://img.shields.io/pypi/pyversions/jupdoc.svg)](https://pypi.org/project/jupdoc/)
+[![License](https://img.shields.io/pypi/l/jupdoc.svg)](https://pypi.org/project/jupdoc/)
+
+JupDoc is a Python package that simplifies the process of converting Jupyter Notebooks into multiple docx files or other formats while applying role-based access control based on cell tags.
+
+_Please note that this package is still under development, and the documentation is not complete. There may be bugs and the API may change._
+
+## Features
+
+- Convert Jupyter Notebooks to docx, PDF, HTML, and more.
+- Define access roles using cell tags.
+- Generate separate documents for each access role.
+
+## Installation
+
+You can install JupDoc using pip:
+```bash
+pip install jupdoc
+```
+JupDoc is based on Quarto to convert ipynb files to other formats. The instructions to install quarto can be found [here](https://quarto.org/docs/getting-started/installation.html).
+
+## Usage
+We support two ways to convert notebooks to docs. The first one is using the command line interface. The second one is using the python API.
+
+### Command Line Interface
+The command line interface can be used as follows:
+```bash
+jupdoc --config <config_file>
+```
+In case of absence of the config file, the configs can be passed as command line arguments:
+```bash
+jupdoc --filename <filename> --tags <tags> --prefix <prefix> --output <output> --format <format>
+```
+The arguments are as follows:
+- `filename`: The path to the notebook file.
+- `tags`: The tags to be used for access control. Multiple tags can be passed as a comma-separated string.
+- `prefix`: The prefix to be used for the output files.
+- `output`: The path to the output directory.
+- `format`: File format to be exported to. 
+
+### Python API
+The python API can be used as follows:
+```python
+from jupdoc import convert
+args = {
+    "filename": "notebook.ipynb",
+    "tags": ["tag1", "tag2"],
+    "prefix": "prefix",
+    "output": "output",
+    "format": "docx"
+}
+convert(**args)
+```
+
+## To Do
+1. Improve documentation.
+2. Provide upload to Google Drive option.
+3. Add support for report templates.
+4. Add support for multiple cell tags.
+
+## License
+This project is licensed under the terms of the MIT license.
+
+## Acknowledgements
+This project is based on [Quarto](https://quarto.org/).
+
+## Contributing
+Contributions are welcome, and they are greatly appreciated! Every little bit helps, and credit will always be given.
+You can contribute in many ways:
+- Report bugs.
+- Fix bugs and submit pull requests.
+- Write, clarify, or fix documentation.
+- Suggest or add new features.

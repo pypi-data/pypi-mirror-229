@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+jupdoc/__init__.py
+jupdoc/__main__.py
+jupdoc/convert.py
+jupdoc/main.py
+jupdoc.egg-info/PKG-INFO
+jupdoc.egg-info/SOURCES.txt
+jupdoc.egg-info/dependency_links.txt
+jupdoc.egg-info/entry_points.txt
+jupdoc.egg-info/requires.txt
+jupdoc.egg-info/top_level.txt

@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: DDSampling
+Version: 0.1
+Summary: A short description
+Author: DarkSourceOfCode
+Author-email: jbani004@ucr.edu
+Requires-Dist: numpy
+

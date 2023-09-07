@@ -1,0 +1,607 @@
+#!/usr/bin/env python
+# coding: utf-8
+
+# # PYTZEN
+# ----
+# 
+# ## Disclaimer:
+# This library is offered 'as-is' with **no official support, maintenance, or warranty**. Primarily, PYTZEN is an experimentation and learning platform, which may not be apt for production settings. Users are encouraged to delve into the library but should note that the developers won't actively address arising issues.
+# 
+# ## Code Access:
+# The associated GitHub repository is private. Direct access to the source code's versioning or issue tracking is restricted. However, the source code is available on this page and in the **Download files** section:
+# - **Source Distribution**: `pytzen-*.tar.gz`
+# - **Built Distribution**: `pytzen-*-py3-none-any.whl`
+# 
+# ## Usage Caution:
+# We are not liable for issues stemming from the library's usage in production environments. Users should extensively test and vet the library in a safe space before expansive implementation.
+# 
+# ----
+
+# # ZenGenerator
+# Tailored for data scientists, the ZenGenerator addresses the specific demands of dynamic model applications within the Jupyter Notebook ecosystem. Here's what it offers:
+# 
+# - **Dynamic Class Creation**: With just a dictionary input detailing attributes, effortlessly generate and instantiate Python classes.
+# - **Auto-Documentation**: Each dynamically formed class comes with automated documentation, ensuring clarity and coherence.
+# - **Rapid Prototyping**: Experience unrestricted class definition, immediate model testing, and tweaks—all in real-time.
+# - **Config-Driven Design**: It caters to classes birthed from configuration details or external datasets.
+# - **System Extensions**: It's a boon for enriching prevailing systems via new class plugins or extensions.
+# - **Jupyter Export**: Seamlessly export your Jupyter Notebook with the newly created class as both source code and markdown, facilitating a smooth transition between coding and documentation.
+# 
+# In summary, ZenGenerator molds a wholly functional, auto-documented Python class within Jupyter Notebook, primed for swift deployment and dissemination.
+
+# ## Source code
+# 
+# ### Development Environment Authentication
+# 
+# Within the PYTZEN package, a unique approach to development is taken: source code, documentation, and testing are all produced within a single Jupyter notebook. To manage this integrated environment and ensure that specific functionalities, meant just for testing and development, don't inadvertently execute in a production setting, PYTZEN incorporates an environment check.
+# 
+# The `DEV` variable serves as a boolean indicator. When the Jupyter notebook is operated from the specified development directory (`/home/pytzen/lab/pytzen/src/pytzen`), `DEV` is set to `True`. This allows for conditional execution of development-specific code blocks within the notebook, acting as an authentication gate for test code and other development-centric tasks.
+
+# In[18]:
+
+
+import json
+import textwrap
+import os
+
+DEV = (os.getcwd() == '/home/pytzen/lab/pytzen/src/pytzen')
+
+
+# ### Blueprints for Dynamic Class Generation
+# 
+# In the PYTZEN framework, there exists a distinctive approach to dynamically generate classes using meta-representations. Two primary blueprints, `ATT` and `MET`, guide this process:
+# 
+# - **Attributes Blueprint (`ATT`):** `ATT` offers a meta-representation of potential attributes for the dynamically generated class. Each listed attribute in `ATT` is itself conceptually a class, which primarily provides documentation about the attribute's intent and role. While direct attributes are initialized during object creation and serve as input parameters, `ATT` outlines attributes that can be utilized or generated as output by the class methods. This blueprint remains static post-instantiation, establishing a consistent reference map for the class's methods.
+# 
+# - **Methods Blueprint (`MET`):** `MET` is a repository defining potential methods the generated class might employ. Each method within `MET` is set up to serve dual purposes: to hold comprehensive documentation and to anchor the actual method implementations using decorators. By doing so, it ensures that the method's details and its implementation are both accessible and tied together. Once anchored via decorators, the methods are linked to their `met` reference through the 'exec' label. While the blueprint offers a predefined list, the actual methods should be anchored before class instantiation.
+# 
+# Together, these blueprints enable PYTZEN to produce classes dynamically, ensuring both their structure and functionality are clearly documented and accessible.
+
+# In[19]:
+
+
+ATT = [
+    "Attributes Blueprint (`ATT`):",
+    "This offers a meta-representation of potential attributes for the dynamically generated class. Each listed attribute in `ATT` is, in essence, a class. Its primary role is to provide documentation about the attribute's intent and purpose.",
+    "- **Direct vs. Pipeline Attributes:** Direct attributes are initialized during object creation and serve as essential input parameters. Meanwhile, `ATT` describes attributes that class methods either use or generate as outputs.",
+    "- **Static Blueprint:** Post-instantiation, the blueprint remains unchangeable. It acts as a consistent reference map for the class's methods, defining their interaction terrain."
+]
+
+MET = [
+    "Methods Blueprint (`MET`):",
+    "This is a structured guide defining the potential methods the generated class may employ. Each entry within `MET` has a dual role:",
+    "1. **Hold Documentation:** It gives a comprehensive overview of the method's intent, parameters, and expected outcomes.",
+    "2. **Method Anchor:** This serves as an endpoint, linking the actual method implementations. These methods must be anchored via decorators before class instantiation.",
+    "- **Connecting Methods:** Once anchored, methods are tied to their `met` reference through the 'exec' label. While `MET` lays out a predefined method list, the actual methods need to be anchored in advance of instantiation.",
+    "Overall, `MET` operates as a roadmap and a connector, identifying potential methods and linking them to their implementations."
+]
+
+
+# ### Versatile Documentation Generation
+# 
+# The `generate_doc` function facilitates the conversion of varied JSON-compatible structures, whether they be dictionaries, lists, or other serializable objects, into a structured and readable string format optimal for documentation. Once presented with such an object, it translates it into its string counterpart, ensuring each line fits a set width (here, 68 characters). Subsequently, typical JSON characters like curly braces, square brackets, and quotes are removed for clarity. This function is ideal for generating concise and intelligible auto-documentation directly from diverse data structures.
+
+# In[20]:
+
+
+import json
+import textwrap
+
+def generate_doc(json_obj):
+    """
+    Generate a formatted documentation string from a JSON-compatible object.
+
+    Args:
+        json_obj (object): A JSON-compatible structure (e.g., dict, list) 
+        to be converted into a formatted string.
+
+    Returns:
+        str: A structured and human-readable representation suitable for 
+        documentation purposes.
+    """
+    
+    # Convert the JSON-compatible object into an indented string representation.
+    doc = json.dumps(json_obj, indent=2)
+    
+    # Use textwrap to ensure that each line is of the set width (68 characters).
+    doc = [textwrap.fill(line, width=68) for line in doc.splitlines()]
+    
+    # Join the lines to form the updated string.
+    doc = '\n'.join(doc)
+    
+    # Remove characters typical of JSON structures for better readability.
+    for char in ['{', '}', '[', ']', '"']:
+        doc = doc.replace(char, '')
+    
+    # Further formatting to remove commas and clean up.
+    doc = doc.replace(',\n', '\n')
+    
+    return doc
+
+
+# ### Dynamic Class Generation with `class_pattern`
+# 
+# The `class_pattern` function is at the forefront of adaptive Python programming, enabling developers to craft classes dynamically based on a dictionary, `dict_class`, that dictates the desired specifications. This powerful mechanism results in the `ClassDesign` class, which is distinctively malleable. It adjusts its attributes, methods, and even its documentation in line with the provided dictionary. When instantiated, `ClassDesign` populates its attributes from the 'input' key of the dictionary. Importantly, these inputs are separate from the `att` attributes. While `att` serves as a blueprint for output construction and delineates necessary shared attributes, the `input` key allows for immediate initialization parameters for the class. Significantly, if during the course of class construction, a need arises for an attribute that wasn't originally planned, it can be added directly to the class, but it will remain outside of the `att` blueprint. Moreover, any methods described within the dictionary are seamlessly integrated into the generated class, fully equipped with documentation sourced directly from the dictionary. In essence, `class_pattern` isn't just about creating a class; it's about devising an intuitively documented, adaptable, and shared blueprint that can be readily extended or adjusted, making it invaluable for dynamic and collaborative development scenarios.
+
+# In[21]:
+
+
+def class_pattern(dict_class):
+    """
+    Dynamically generate a new class based on a dictionary structure.
+    The dictionary can dictate the class's initial attributes, methods, 
+    and corresponding documentation. Attributes outside the defined set 
+    in the dictionary can also be incorporated into the class directly, 
+    but won't be a part of the 'att' set, which is used for defining 
+    necessary attributes for output build and sharing.
+
+    Args:
+        dict_class (dict): Dictionary containing class details such as 
+        input attributes and methods.
+
+    Returns:
+        type: A dynamically generated class.
+    """
+    
+    class ClassDesign:
+        """
+        A dynamically generated class.
+
+        Before instantiation, this class offers a static description. 
+        However, once instantiated with a specific dictionary, the 
+        instance will carry a tailored docstring based on the provided 
+        dictionary's structure and content.
+
+        It dynamically adjusts its attributes, methods, and 
+        documentation based on the provided dictionary during 
+        instantiation.
+        """
+    
+        def __init__(self, **kwargs):
+            # Set the class's docstring based on the dictionary's 
+            # structure and content
+            self.__doc__ = generate_doc(json_obj=dict_class)
+            class_input = dict_class['input']
+
+            # Initializing attributes from the dictionary
+            for k, v in class_input.items():
+                setattr(self, k, None)
+
+            # Overriding attributes with any provided kwargs if they're 
+            # valid inputs
+            for k, v in kwargs.items():
+                if k in class_input:
+                    setattr(self, k, v)
+                else:
+                    error = f"Invalid attribute '{k}' for this class."
+                    raise ValueError(error)
+            
+            # Setting methods to the class if they're defined in the 
+            # dictionary and have implementations 
+            # in the 'met' attribute of the class
+            for method_name in dict_class['methods']:
+                met_class = getattr(self.met, method_name, None)
+                if met_class and hasattr(met_class, 'exec'):
+                    method = getattr(met_class, 'exec')
+                    method.__doc__ = dict_class['methods'][method_name]
+                    setattr(self, method_name, method)
+    
+    return ClassDesign
+
+
+# In[22]:
+
+
+class ZenGenerator:
+    """
+    A utility for dynamically generating a class based on a dictionary.
+
+    The dictionary specifies the name, description, input values, 
+    attributes, and methods for the new class.
+    
+    Attributes:
+        attributes (dict): Attributes with their descriptions.
+        methods (dict): Methods with their descriptions.
+        cls (type): The generated class based on the provided 
+        dictionary.
+    """
+    
+    def __init__(self, path_json: str) -> None:
+        """
+        Constructor for ZenGenerator.
+        
+        Args:
+            dict_class (dict): Dictionary defining the class.
+        """
+        # Path to the JSON file containing class definition
+        self.path = path_json
+        
+        # Parse the JSON file and retrieve class details
+        dict_class = self.open_json()
+        
+        # Separate out attributes and methods for the class
+        self.attributes = dict_class['attributes']
+        self.methods = dict_class['methods']
+        
+        # Generate the main class based on the provided dictionary
+        self.cls = class_pattern(dict_class=dict_class)
+        
+        # Dynamically add attributes and methods blueprints to the 
+        # generated class
+        self.cls.att = self.get_attributes()
+        self.cls.met = self.get_methods()
+
+    def open_json(self):
+        """
+        Opens the provided JSON file and loads its contents into a 
+        dictionary.
+
+        Returns:
+            dict: Dictionary representation of the JSON content.
+        """
+        # Open the JSON file for reading
+        with open(self.path, 'r') as json_file:
+            # Load the contents of the JSON file into a Python 
+            # dictionary
+            dict_class = json.load(json_file)
+        return dict_class
+
+    def get_attributes(self):
+        """
+        Generates a class blueprint with attributes and their respective 
+        documentation.
+
+        Returns:
+            type: A class named 'attributes' containing the specified 
+            attributes.
+        """
+        # Dictionary to store attributes with their documentation
+        dict_attr = {}
+        
+        # Iterate over each attribute and its description
+        for name, desc in self.attributes.items():
+            # Generate documentation for the attribute
+            desc = generate_doc(desc)
+            # Create a type representing the attribute with its 
+            # documentation
+            dict_attr[name] = type(name, (object,), {'__doc__': desc})
+            
+        # Generate a class 'attributes' with the specified attributes
+        att = type('attributes', (object,), dict_attr)
+        
+        # Add documentation to the class 'attributes'
+        att.__doc__ = generate_doc(ATT)
+        return att
+
+    def get_methods(self):
+        """
+        Generates a class blueprint with methods and their respective 
+        documentation.
+
+        Returns:
+            type: A class named 'methods' containing the specified 
+            methods.
+        """
+        # Dictionary to store methods with their documentation
+        dict_meth = {}
+        
+        # Iterate over each method and its description
+        for name, desc in self.methods.items():
+            # Generate documentation for the method
+            desc = generate_doc(desc)
+            # Create a type representing the method with its 
+            # documentation
+            dict_meth[name] = type(name, (object,), {'__doc__': desc})
+            
+        # Generate a class 'methods' with the specified methods
+        met = type('methods', (object,), dict_meth)
+        
+        # Add documentation to the class 'methods'
+        met.__doc__ = generate_doc(MET)
+        return met
+
+   
+    def create(self, method_name):
+        """
+        Create a decorator to anchor a specific method to the class's 
+        `met` blueprint.
+
+        This decorator serves dual purposes:
+
+        1. **Method Linkage:** It attaches the method to its 
+        corresponding entry within the `met` blueprint using the 'exec' 
+        reference, which points to the wrapped function. This allows the 
+        generated class to be aware of and utilize the method during 
+        runtime.
+
+        2. **Attribute Safety:** The decorator ensures that the method 
+        does not introduce new attributes to `att`, preserving its 
+        predefined structure. This ensures that only designed 
+        attributes, specified during the initial class generation, are 
+        used.
+
+        Only methods that have been predefined in the initial dictionary 
+        (thus present in the `met` blueprint) can be anchored using this 
+        decorator. Any attempt to anchor a non-designed method will 
+        result in an error.
+
+        It's essential to use this decorator to bind methods to the 
+        class before instantiation to preserve the integrity of the 
+        class's design.
+
+        Args:
+            method_name (str): The method name specified in the initial 
+            dictionary, which corresponds to an entry within the `met` 
+            blueprint. This name must be one of the designed methods.
+
+        Returns:
+            decorator: A decorator to enforce the constraints on the 
+            method and link it to the generated class.
+        """
+
+
+        # Define the main decorator function
+        def decorator(func):
+            """
+            The core decorator that wraps a given function.
+
+            Args:
+                func (callable): The target function.
+
+            Returns:
+                callable: A wrapped version of the function.
+            """
+
+            # Define a wrapper to perform checks and modifications 
+            # during runtime
+            def wrapper(*args, **kwargs):
+                """
+                Wrapper function to enforce constraints during method 
+                execution.
+
+                Args:
+                    *args: Positional arguments.
+                    **kwargs: Keyword arguments.
+
+                Returns:
+                    Result of the original function after applying 
+                    constraints.
+                """
+                # Backup current attributes to detect unauthorized 
+                # additions later
+                backup_attributes = set(self.cls.att.__dict__.keys())
+                
+                # Execute the original function
+                result = func(self.cls, *args, **kwargs)
+                
+                # Detect any new attributes added by the function
+                added_attributes = (
+                    set(self.cls.att.__dict__.keys()) - backup_attributes)
+                
+                # Iterate over added attributes to ensure they're compliant
+                for attr in added_attributes:
+                    if attr not in self.cls.attributes:
+                        cls = self.cls.__name__
+                        e = f"Attribute '{attr}' is not allowed in {cls}.att"
+                        delattr(self.cls.att, attr)
+                        raise AttributeError(e)
+    
+                return result
+
+            # Link the wrapper to the blueprint method
+            nested_method = getattr(self.cls.met, method_name, None)
+            if nested_method:
+                nested_method.exec = wrapper
+            else:
+                cls = self.cls.__name__
+                error = f"'{method_name}' not found in methods of {cls}."
+                raise AttributeError(error)
+
+            return wrapper
+
+        return decorator
+
+    def convert_notebook(
+        self, name_notebook, path_doc, name_doc_simple):
+        """
+        Converts a Jupyter notebook to both markdown and python script 
+        formats.
+
+        Parameters:
+        - name_notebook (str): Name of the Jupyter notebook.
+        - path_doc (str): Directory path where the markdown file should 
+        be saved.
+        - name_doc_simple (str): Desired base name for the exported 
+        markdown file. The function will automatically append ".md" to 
+        this base name to produce the final markdown filename. For 
+        example, providing 'README' will result in an exported file 
+        named 'README.md'.
+
+        Note: Ensure the provided directory paths exist to avoid any 
+        issues during file export.
+        """
+
+        name_doc = f"{name_doc_simple}.md"
+        path_script = './'
+
+        # Command to export the notebook to markdown
+        os.system(
+            (f"jupyter nbconvert --to markdown {name_notebook} "
+            + f"--output-dir={path_doc} --output={name_doc}")
+            )
+
+        # Command to export the notebook to Python script
+        os.system(
+            (f"jupyter nbconvert --to script {name_notebook} "
+            + f"--output-dir={path_script}")
+            )
+
+
+# # Usage
+
+# In[23]:
+
+
+if DEV:
+    PATH_JSON = 'my_class.json'
+
+
+# ## `JSON` structure
+{
+    "name": "MyClass",
+    "description": "Docstring explaining the class.",
+    "input": {
+        "some_input": "Docstring explaining the input.",
+        "another_input": "Docstring explaining another input."
+    },
+    "attributes": {
+        "some_attribute": "Docstring explaining the attribute.",
+        "another_attribute": "Docstring explaining another attribute."
+    },
+    "methods": {
+        "some_method": "Docstring explaining the method.",
+        "another_method": "Docstring explaining another method."
+    }
+}
+# ## Defining the new class
+
+# In[24]:
+
+
+if DEV:
+    # Create an instance of ZenGenerator using the dictionary loaded from 
+    # the JSON file
+    zen = ZenGenerator(path_json=PATH_JSON)
+
+    # Retrieve the dynamically generated class from the ZenGenerator 
+    # instance
+    MyClass = zen.cls
+
+    print(zen)
+    print(MyClass)
+
+
+# ## `help` before instantiation
+
+# In[25]:
+
+
+if DEV:
+    print(help(MyClass))
+
+
+# In[26]:
+
+
+if DEV:
+    print(MyClass.att.some_attribute.__doc__)
+    print(MyClass.att.another_attribute.__doc__)
+    print(MyClass.met.some_method.__doc__)
+    print(MyClass.met.another_method.__doc__)
+
+
+# ## Adding functionality before instantiation
+
+# In[27]:
+
+
+if DEV:
+    print(zen.create.__doc__)
+
+
+# In[28]:
+
+
+if DEV:
+    # Use the 'create' decorator method from the ZenGenerator instance 
+    # to add a new method named 'some_method'.
+    # The use of an underscore (_) as a function name indicates that the 
+    # name itself is not significant.
+    @zen.create('some_method')
+    def _(MyClass, test):  
+        print(test)
+        MyClass.att.some_attribute = 137
+        return 'I am printing from the new assigned funcionality.'
+
+    # Call the 'some_method' that we added to the instance, passing 
+    # 'test' as an argument.
+    print(MyClass.met.some_method.exec(
+        'Test from method blueprint with exec().'))
+    print(f'My assigned attribute is {MyClass.att.some_attribute}.')
+
+
+# ## Trying to add non designed attribute in `att`
+
+# In[29]:
+
+
+if DEV:
+    @zen.create('another_method')
+    def _(MyClass):
+        MyClass.att.something_unexpected = 'Error'
+        return 'Ok.'
+    
+    try:
+        MyClass.met.another_method.exec()
+    except Exception as err:
+        print(err)
+
+
+# ## Trying to add non designed method in `met`
+
+# In[30]:
+
+
+if DEV:
+    try:
+        @zen.create('forbidden_method')
+        def _(MyClass):
+            return 'Ok.'
+    except Exception as err:
+        print(err)
+
+
+# ## Trying to add non designed attribute in the root class
+
+# In[31]:
+
+
+if DEV:
+    @zen.create('another_method')
+    def _(MyClass):
+        MyClass.something_unexpected = 'No Error'
+        return 'Ok.'
+
+    print(MyClass.met.another_method.exec())
+    print(MyClass.something_unexpected)
+
+
+# ## Instance of the new class
+
+# In[32]:
+
+
+if DEV:
+    # Create an instance of the dynamically generated class
+    my_class = MyClass(some_input=3)
+    print(my_class.some_method('Testing method directly from instance.'))
+    print(my_class.some_method.__doc__)
+
+
+# ## `help` after instantiation
+
+# In[33]:
+
+
+if DEV:
+    print(help(MyClass))
+
+
+# In[34]:
+
+
+if DEV:
+    name_notebook = "generator.ipynb"
+    path_doc = '/home/pytzen/lab/pytzen/'
+    name_doc_simple = 'README'
+    zen.convert_notebook(name_notebook, path_doc, name_doc_simple)

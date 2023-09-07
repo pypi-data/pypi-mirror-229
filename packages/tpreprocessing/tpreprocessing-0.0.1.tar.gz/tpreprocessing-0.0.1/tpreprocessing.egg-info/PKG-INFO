@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: tpreprocessing
+Version: 0.0.1
+Summary: simple text preprocessing package that preprocess text by simple functions
+Home-page: UNKNOWN
+Author: Mohamed Hany
+Author-email: momorwe@gmail.com
+License: MIT
+Keywords: text-preprocessing
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+
+preprocess text
+
+Change Log
+==========
+
+0.0.1 (9/6/2023)
+----------------
+- First Release
+

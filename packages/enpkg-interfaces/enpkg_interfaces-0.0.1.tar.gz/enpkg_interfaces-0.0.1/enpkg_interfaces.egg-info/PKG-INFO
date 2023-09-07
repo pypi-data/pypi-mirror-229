@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: enpkg-interfaces
+Version: 0.0.1
+Summary: Module providing interfaces for the ENPKG project.
+Home-page: https://github.com/enpkg/enpkg
+Author: Luca Cappelletti
+License: MIT
+Keywords: Graph Representation Learning,LINE,TransE,Node2Vec,DeeWalk
+Requires-Python: >=3.8.0
+License-File: LICENSE

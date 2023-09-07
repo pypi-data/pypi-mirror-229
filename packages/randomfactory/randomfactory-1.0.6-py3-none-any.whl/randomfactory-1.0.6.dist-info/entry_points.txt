@@ -1,0 +1,3 @@
+[console_scripts]
+test=randomfactory.test:main
+

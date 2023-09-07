@@ -1,0 +1,8 @@
+service:
+  uri: https://api.earthmover.io
+  token_path:
+chunkstore:
+  uri:
+  hash_method: hashlib.sha256
+anyio:
+  backend: asyncio

@@ -1,0 +1,9 @@
+jsonnotate/__init__.py,sha256=YVOUFL3mVvC3N0qNKifi9tNLvsKt4__juqFF2jY2Yew,244
+jsonnotate/attributes.py,sha256=9coUF40RdmhGaYKBt6QqDsYIEq_pr3vieGkuGpdEeZ8,2729
+jsonnotate/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+jsonnotate/rfc3339.py,sha256=DIDZDpCnoAjLUaX6WxzKQmsSGpiErg1p2YpmAP7MV78,1998
+jsonnotate/schema.py,sha256=31ils6ve2NqjfOR4Zj6MKBPE6-BNBHDEOiOz0y8OtIY,6920
+jsonnotate/serialisation.py,sha256=CjCsMbtOIHN1pMk4n4w2EQnLg86hds-ES1g3jTDOrs8,3040
+jsonnotate-0.2.1.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+jsonnotate-0.2.1.dist-info/METADATA,sha256=luA6AlcIODR_M-bc2zrFsTjcAChAeW3QCU5iywW7KJs,300
+jsonnotate-0.2.1.dist-info/RECORD,,

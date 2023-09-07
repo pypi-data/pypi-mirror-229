@@ -1,0 +1,10 @@
+README.md
+setup.py
+pymig/__init__.py
+pymig/npre3d.py
+pymig.egg-info/PKG-INFO
+pymig.egg-info/SOURCES.txt
+pymig.egg-info/dependency_links.txt
+pymig.egg-info/not-zip-safe
+pymig.egg-info/requires.txt
+pymig.egg-info/top_level.txt

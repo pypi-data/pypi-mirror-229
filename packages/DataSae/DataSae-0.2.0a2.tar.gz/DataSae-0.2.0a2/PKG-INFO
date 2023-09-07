@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: DataSae
+Version: 0.2.0a2
+Summary: Data Quality Framework provides by Jabar Digital Service.
+Author-email: Pipin Fitriadi <pipinfitriadi@gmail.com>, Agistya Anugrah Dwiutama <agistyaanugrah@gmail.com>, Riska Amalia <riskaamalia.mail@gmail.com>, Rizky Prilian Dwicahya <rizky.prilian@gmail.com>, Misdan Wijaya <misdan.wijaya07@gmail.com>, Fauzan Muhammad Rabbani <fauzanmrabbani@gmail.com>, Hanief Fatchudin <hanieffatchudin@gmail.com>, Adi Bintang Pradana <adibintangprada@gmail.com>, Firman Ramadan <firmanramadan97@gmail.com>, Raihan Jauhari <raihanjauhari@gmail.com>, Puji Nur Hidayah <pujinhidayah@gmail.com>
+Maintainer-email: JDS Data Engineer''s Official Mail <dataengineering@digitalservice.id>, JDS Data Engineer''s Mail <jds.dataengineer@gmail.com>
+License: AGPL-3.0-only
+Project-URL: Docs, https://jabardigitalservice.github.io/DataSae/
+Project-URL: Repository, https://github.com/jabardigitalservice/DataSae
+Keywords: data quality framework,data sae,good data,data bagus,validation,jds,jabar digital service,data engineer
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Programming Language :: Python :: 3.7
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Software Development :: Quality Assurance
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+<!--
+This file is part of DataSae and is released under
+the AGPL-3.0-only License: https://opensource.org/license/agpl-v3/
+-->
+
+# DataSae
+
+[![Docs](https://img.shields.io/badge/Docs-blue)](https://jabardigitalservice.github.io/DataSae/)
+[![Coverage](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/jabardigitalservice/DataSae/python-coverage-comment-action-data/endpoint.json&logoColor=black&labelColor=black&color=green)](https://htmlpreview.github.io/?https://github.com/jabardigitalservice/DataSae/blob/python-coverage-comment-action-data/htmlcov/index.html)
+[![License](https://img.shields.io/github/license/jabardigitalservice/DataSae?logoColor=black&label=License&labelColor=black&color=green)](https://github.com/jabardigitalservice/DataSae/blob/main/LICENSE)
+[![CI/CD](https://img.shields.io/github/actions/workflow/status/jabardigitalservice/DataSae/python.yaml?logo=GitHub&logoColor=white&label=CI%2FCD&labelColor=black&color=green)](https://github.com/jabardigitalservice/DataSae/actions/workflows/python.yaml)
+[![PyPI - Version](https://img.shields.io/pypi/v/DataSae?logo=pypi&logoColor=white&label=PyPI&labelColor=blue&color=green)](https://pypi.org/project/DataSae/)
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/DataSae?logo=python&logoColor=white&label=Python&labelColor=blue&color=green)](https://pypi.org/project/DataSae/)
+
+Data Quality Framework provides by Jabar Digital Service.
+
+## Installation
+
+```sh
+pip install DataSae
+```

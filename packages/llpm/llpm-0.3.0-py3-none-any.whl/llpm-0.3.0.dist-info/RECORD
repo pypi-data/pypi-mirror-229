@@ -1,0 +1,8 @@
+llpm/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+llpm/shell.py,sha256=KjyAG3t4rXQg8fbR-Ey8GaRZW3yMWRK_eskSuOFoSAs,7237
+llpm/style.py,sha256=skfhiHX7Gl9Sd-odcOVJ9RZrjtv19u0TZyz1CCR7E_I,233
+llpm/utils.py,sha256=c6W2xf_6kKjcj9xPIq-a-ABWlqOkdGS9Z5rcPn7N49M,9534
+llpm-0.3.0.dist-info/entry_points.txt,sha256=cJgo4oWJjirBy26lk_mNm_kBe6y0We-S1Fre4n4fyiw,39
+llpm-0.3.0.dist-info/METADATA,sha256=ClyMxG_OQEI_O4bHbL9RosPSvESdhlpjcWnI4M3b5f8,879
+llpm-0.3.0.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+llpm-0.3.0.dist-info/RECORD,,

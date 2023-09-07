@@ -1,0 +1,14 @@
+oa/__init__.py,sha256=GW3nKQb-3RICUZmsuf2X2dvmZZsbiNb4ju9XGFsg1To,219
+oa/base.py,sha256=jEyKeWNF9L6Iff5ZDO55TeumpYqWJSpBIZakaAioxYc,2532
+oa/openai_specs.py,sha256=ylcvGolJfUBZTUSJR4JSHvsQOPmoylD9WUEBhDfGEcA,11564
+oa/tools.py,sha256=YqATm-hFvd1j2TXud4pqNmscWSEjTRAT3pB2Ii9uaFw,2446
+oa/util.py,sha256=LCxYIm6qDUdw50omaNNQmA90OWNXDemyyDg_BB5tG8o,2153
+oa/examples/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+oa/examples/aesop_fables.py,sha256=r9fRuZzq0td3hotbfvycoEntRgE8TqHKpK5CH8BcaZc,11693
+oa/examples/illustrate_stories.py,sha256=66Kimtn7hKCRt_xZl0DreirzgXaIGDYAm5bo3dqSJbc,4545
+oa/scrap/__init__.py,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+oa-0.0.10.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+oa-0.0.10.dist-info/METADATA,sha256=a6Y3XaAOcEy2S-yzeC9VEx_Pt8BKJSl-Zk6pk1kK09s,15217
+oa-0.0.10.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+oa-0.0.10.dist-info/top_level.txt,sha256=LTDY5JfoGw_UuTX82GvAd3b95zuktXIcFD0lyqVBHgw,3
+oa-0.0.10.dist-info/RECORD,,

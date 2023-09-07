@@ -1,0 +1,7 @@
+
+[dev]
+pip-tools
+pytest
+tiktoken>=1.0.0
+langchain>=0.0.138
+openai>=1.0.0

@@ -1,0 +1,11 @@
+vimgpt/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+vimgpt/core.py,sha256=eB4EshZJ1sSotuUX7OQo5NwU1TS9ihPfDIIBf8_6Odo,3645
+vimgpt/demo_attached.py,sha256=vStD8pIeDSlie4oHwdeuSt5h5LcsBZzKC79AFb9P7TI,384
+vimgpt/demo_headless.py,sha256=Y-Ji7eNCHuBjQkyLERmobNpIGXLzPKB-AZjO5jDJiSc,406
+vimgpt/examples.py,sha256=qt990D8H0WXd_2CagLmb0zvYUWUva4B1iq9kkqW-Hqw,637
+vimgpt/prompts.py,sha256=4CCdxV4GEHtDB2WZCAPhoXZsgIVfD-SECkKJD04abCk,2041
+vimgpt-0.1.1.dist-info/LICENSE,sha256=NdporSnWhFHEAhoo5HQOe9_hqHpNGyPcsfWi9o9yAW8,1070
+vimgpt-0.1.1.dist-info/METADATA,sha256=FoAIWv2yQCc09tUGxIjaVFA5Xq8EO_9dLA1Q3weFyCo,3059
+vimgpt-0.1.1.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+vimgpt-0.1.1.dist-info/entry_points.txt,sha256=r4XmRzGLObXz12twhAeO8MGvDol04LK04JAhUrqVstg,113
+vimgpt-0.1.1.dist-info/RECORD,,

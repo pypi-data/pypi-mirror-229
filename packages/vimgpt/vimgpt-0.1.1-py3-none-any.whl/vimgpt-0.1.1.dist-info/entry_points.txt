@@ -1,0 +1,4 @@
+[console_scripts]
+vimgpt_demo_attached=vimgpt.demo_attached:main
+vimgpt_demo_headless=vimgpt.demo_headless:main
+

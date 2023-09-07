@@ -1,0 +1,8 @@
+README.md
+setup.py
+deprecated_eolearn_features/__init__.py
+eo_learn_features.egg-info/PKG-INFO
+eo_learn_features.egg-info/SOURCES.txt
+eo_learn_features.egg-info/dependency_links.txt
+eo_learn_features.egg-info/requires.txt
+eo_learn_features.egg-info/top_level.txt

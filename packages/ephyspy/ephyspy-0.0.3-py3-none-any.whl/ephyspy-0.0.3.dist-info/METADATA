@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: ephyspy
+Version: 0.0.3
+Summary: Package to extract summary statistics from electrophysiological data.
+Author: Jonas Beck
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.8
+License-File: LICENSE.txt
+Requires-Dist: pandas (>=1.5.3)
+Requires-Dist: numpy (>=1.23.5)
+Requires-Dist: matplotlib (>=3.4.2)
+Requires-Dist: scipy (>=1.9.1)
+Requires-Dist: scikit-learn (>=1.1.1)
+Provides-Extra: dev
+Requires-Dist: black ; extra == 'dev'
+Requires-Dist: isort ; extra == 'dev'
+Requires-Dist: pyright ; extra == 'dev'
+Requires-Dist: flake8 ; extra == 'dev'
+Requires-Dist: autoflake ; extra == 'dev'
+Requires-Dist: pre-commit ; extra == 'dev'
+
+UNKNOWN
+

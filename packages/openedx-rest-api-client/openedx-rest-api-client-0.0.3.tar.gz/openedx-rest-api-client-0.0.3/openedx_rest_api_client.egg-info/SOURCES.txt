@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.rst
+setup.py
+openedx_rest_api_client/__init__.py
+openedx_rest_api_client/__version__.py
+openedx_rest_api_client/auth.py
+openedx_rest_api_client/cached_token.py
+openedx_rest_api_client/client.py
+openedx_rest_api_client/exceptions.py
+openedx_rest_api_client/session.py
+openedx_rest_api_client.egg-info/PKG-INFO
+openedx_rest_api_client.egg-info/SOURCES.txt
+openedx_rest_api_client.egg-info/dependency_links.txt
+openedx_rest_api_client.egg-info/requires.txt
+openedx_rest_api_client.egg-info/top_level.txt
+requirements/base.in

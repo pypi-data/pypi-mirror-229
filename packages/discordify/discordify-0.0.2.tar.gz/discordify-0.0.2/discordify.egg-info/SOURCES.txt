@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+Readme.md
+setup.py
+discordify/__init__.py
+discordify/spotify.py
+discordify.egg-info/PKG-INFO
+discordify.egg-info/SOURCES.txt
+discordify.egg-info/dependency_links.txt
+discordify.egg-info/requires.txt
+discordify.egg-info/top_level.txt
+discordify/font/spotify.ttf

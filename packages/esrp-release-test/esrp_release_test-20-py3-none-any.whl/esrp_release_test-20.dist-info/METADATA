@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: esrp-release-test
+Version: 20
+Summary: ESRP Release is a pathway to many abilities some consider to be, unnatural.
+Home-page: https://dev.azure.com/arugupta/MS.Ess.Release.VSTS.Extension/_git/esrp-release-test
+Author: Vishal Jaishankar
+Author-email: vijaisha@microsoft.com
+Maintainer: Sheshagiri Rao Mallipedhi
+Maintainer-email: shmallip@microsoft.com
+License: This is a new licemse for 5.0
+Project-URL: Bug Tracker, https://dev.azure.com/arugupta/MS.Ess.Release.VSTS.Extension/_git/esrp-release-test
+Platform: windows
+Platform: linux
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: azure-storage-blob ==12.12.0
+Requires-Dist: requests >=2.23.0
+Provides-Extra: pdf
+Requires-Dist: ReportLab >=1.2 ; extra == 'pdf'
+Requires-Dist: RXP ; extra == 'pdf'
+
+## Project Description
+
+This is a test package used to test the publishing features of esrp release system.
+
+## Requirements
+
+* Python (3.6 or higher)
+* azure-storage-blob
+
+## Installation
+Install using pip
+
+`pip install esrp-release-test`

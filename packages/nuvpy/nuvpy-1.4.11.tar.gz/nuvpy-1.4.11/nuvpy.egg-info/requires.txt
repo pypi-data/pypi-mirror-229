@@ -1,0 +1,11 @@
+jsonschema
+urllib3
+requests
+tqdm
+tzdata
+fpdf
+sendgrid
+certifi
+chardet
+pandas
+sqlalchemy

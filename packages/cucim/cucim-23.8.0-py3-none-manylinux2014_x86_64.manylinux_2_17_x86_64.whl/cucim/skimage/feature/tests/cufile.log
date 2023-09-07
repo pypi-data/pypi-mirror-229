@@ -1,0 +1,15 @@
+ 21-02-2023 15:57:58:756 [pid=195965 tid=195965] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:b3:00.0
+ 21-02-2023 15:57:58:757 [pid=195965 tid=195965] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:b3:00.0
+ 21-02-2023 15:57:58:758 [pid=195965 tid=195965] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:b3:00.0
+ 21-02-2023 15:59:37:62 [pid=196112 tid=196112] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:b3:00.0
+ 21-02-2023 15:59:37:63 [pid=196112 tid=196112] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:b3:00.0
+ 21-02-2023 15:59:37:64 [pid=196112 tid=196112] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:b3:00.0
+ 21-02-2023 16:00:05:660 [pid=196173 tid=196173] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:b3:00.0
+ 21-02-2023 16:00:05:661 [pid=196173 tid=196173] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:b3:00.0
+ 21-02-2023 16:00:05:662 [pid=196173 tid=196173] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:b3:00.0
+ 21-02-2023 16:00:28:164 [pid=196233 tid=196233] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:b3:00.0
+ 21-02-2023 16:00:28:165 [pid=196233 tid=196233] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:b3:00.0
+ 21-02-2023 16:00:28:166 [pid=196233 tid=196233] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:b3:00.0
+ 21-02-2023 16:00:44:187 [pid=196291 tid=196291] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:b3:00.0
+ 21-02-2023 16:00:44:188 [pid=196291 tid=196291] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:b3:00.0
+ 21-02-2023 16:00:44:190 [pid=196291 tid=196291] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:b3:00.0

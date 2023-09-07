@@ -1,0 +1,2 @@
+[console_scripts]
+jupdoc = jupdoc.__main__:main

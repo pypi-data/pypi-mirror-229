@@ -1,0 +1,2 @@
+[console_scripts]
+rvl = redisvl.cli.__init__:main

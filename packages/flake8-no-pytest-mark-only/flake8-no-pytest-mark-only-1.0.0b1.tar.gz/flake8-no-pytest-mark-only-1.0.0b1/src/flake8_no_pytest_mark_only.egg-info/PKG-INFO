@@ -1,0 +1,60 @@
+Metadata-Version: 2.1
+Name: flake8-no-pytest-mark-only
+Version: 1.0.0b1
+Summary: Flake8 plugin to disallow the use of the pytest.mark.only decorator.
+Author-email: František Nesveda <frantisek.nesveda@gmail.com>
+License: Apache Software License
+Project-URL: Homepage, https://www.nesveda/com/projects/flake8-no-pytest-mark-only
+Project-URL: Documentation, https://github.com/fnesveda/flake8-no-pytest-mark-only
+Project-URL: Source, https://github.com/fnesveda/flake8-no-pytest-mark-only
+Project-URL: Issue tracker, https://github.com/fnesveda/flake8-no-pytest-mark-only/issues
+Project-URL: Changelog, https://github.com/fnesveda/flake8-no-pytest-mark-only/blob/master/CHANGELOG.md
+Keywords: flake8,pytest,mark,only
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Software Development :: Libraries
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+License-File: LICENSE
+
+`flake8-no-pytest-mark-only`
+============================
+
+A [Flake8](https://flake8.pycqa.org/) plugin to check for the usage of the `@pytest.mark.only` decorator.
+
+Rationale
+---------
+
+The `@pytest.mark.only` decorator, coming from the [`pytest-only`](https://pypi.org/project/pytest-only/) plugin, is great.
+It's super useful when developing your tests, so that you can run just the test (or set of tests) that you're working on,
+without having to run your whole test suite.
+
+The only problem with it is that when you forget to remove it after you've finished developing your tests,
+and you accidentally commit it to your repository,
+it's hard to notice that only a subset of tests are running in CI instead of the whole test suite.
+
+This Flake8 plugin prevents that, by raising a lint error on usages of the `@pytest.mark.only` decorator,
+so that you notice that you've committed changes with the decorator in them.
+
+Usage
+-----
+
+Just install the `flake8-no-pytest-mark-only` package, and when you run Flake8,
+it will automatically find the plugin and use it.
+
+If you want to override the reporting from this plugin, you can filter for the error code `PNO001`:
+
+```bash
+# Turn on the errors from this plugin
+flake8 --select PNO001 ...
+
+# Turn off the errors from this plugin
+flake8 --extend-ignore PNO001 ...
+```

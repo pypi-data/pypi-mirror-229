@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+src/flake8_no_pytest_mark_only/__init__.py
+src/flake8_no_pytest_mark_only/plugin.py
+src/flake8_no_pytest_mark_only/py.typed
+src/flake8_no_pytest_mark_only.egg-info/PKG-INFO
+src/flake8_no_pytest_mark_only.egg-info/SOURCES.txt
+src/flake8_no_pytest_mark_only.egg-info/dependency_links.txt
+src/flake8_no_pytest_mark_only.egg-info/entry_points.txt
+src/flake8_no_pytest_mark_only.egg-info/requires.txt
+src/flake8_no_pytest_mark_only.egg-info/top_level.txt
+tests/test_PNO001.py

@@ -1,0 +1,2 @@
+[flake8.extension]
+PNO = flake8_no_pytest_mark_only.plugin:Flake8NoPytestMarkOnly

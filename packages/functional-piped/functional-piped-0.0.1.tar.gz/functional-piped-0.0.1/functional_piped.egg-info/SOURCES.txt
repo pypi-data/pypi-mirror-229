@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+funcpipe/__init__.py
+funcpipe/stream.py
+functional_piped.egg-info/PKG-INFO
+functional_piped.egg-info/SOURCES.txt
+functional_piped.egg-info/dependency_links.txt
+functional_piped.egg-info/top_level.txt

@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: SEScore2
+Version: 0.0.5
+Summary: SEScore2: Retrieval Augmented Pretraining for Text Generation Evaluation
+Home-page: https://github.com/xu1998hz/SEScore2_archive
+Author: Wenda Xu, Xian Qian, Mingxuan Wang, Lei Li, William Yang Wang
+Author-email: wendaxu@ucsb.edu
+Maintainer: Wenda Xu, Zihan Ma
+Maintainer-email: zihan_ma@ucsb.edu
+Requires-Python: >=3.8.0,<4.0.0
+License-File: LICENSE
+Requires-Dist: transformers
+Requires-Dist: sentencepiece
+Requires-Dist: protobuf==3.20.*
+Requires-Dist: python-snappy
+Requires-Dist: pandas
+Requires-Dist: nvitop
+Requires-Dist: click
+Requires-Dist: datasets
+Requires-Dist: wandb
+Requires-Dist: scipy
+Requires-Dist: absl-py
+Requires-Dist: torch
+Requires-Dist: torchvision
+Requires-Dist: torchaudio
+
+SESCORE2, is a SSL method to train a metric for general text generation tasks without human ratings. We develop a technique to synthesize candidate sentences with varying levels of mistakes for training. To make these self-constructed samples realistic, we introduce retrieval augmented synthesis on anchor text; It outperforms SEScore in four text generation tasks with three languages (The overall kendall correlation improves 14.3%).

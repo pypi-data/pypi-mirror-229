@@ -1,0 +1,8 @@
+README.md
+setup.py
+pydatagraph/__init__.py
+pydatagraph.egg-info/PKG-INFO
+pydatagraph.egg-info/SOURCES.txt
+pydatagraph.egg-info/dependency_links.txt
+pydatagraph.egg-info/not-zip-safe
+pydatagraph.egg-info/top_level.txt

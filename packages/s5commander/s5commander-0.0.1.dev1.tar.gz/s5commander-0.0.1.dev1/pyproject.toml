@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "s5commander"
+version = "0.0.1.dev1"
+description = ""
+authors = ["Clément POIRET <poiret.clement@outlook.fr>"]
+readme = "README.md"
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

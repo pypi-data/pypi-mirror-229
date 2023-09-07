@@ -1,0 +1,16 @@
+napari_workshop_plugin/__init__.py,sha256=G2gp7op3B9jaaYHpKMXY9rbV-F4cS3misGMVtw56mHo,448
+napari_workshop_plugin/_reader.py,sha256=ZCN21Lzt0pHuzWkRiLtoCugJG9Pftk9BppmVsxMVrwU,2543
+napari_workshop_plugin/_sample_data.py,sha256=MwgAPNrdHKYTevmLOj1SzFEQA3T3iWU1CuFIngboY-E,300
+napari_workshop_plugin/_version.py,sha256=ecxYgYmVW6voOj3t8NqL_62765FAcc-gUSyum7oXnIg,160
+napari_workshop_plugin/_widget.py,sha256=QZm87coXtlEnFXu3GNIxuzsHTkkwypIvpW_9CzDV86M,3143
+napari_workshop_plugin/napari.yaml,sha256=6V4b7jvfBEIs6rPZnlCChoLgA8v_H1KWapiW8NN3Hho,956
+napari_workshop_plugin/_tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+napari_workshop_plugin/_tests/test_reader.py,sha256=solMofhcn7_j6UUhR6TFEIaWfWm3kvBXx2lsFlk83B8,983
+napari_workshop_plugin/_tests/test_widget.py,sha256=LrK-lR1WksrKebRhmXaEk1pZVpi-D5oMEeVPu93hGTI,1242
+napari_workshop_plugin/data/sample.npy,sha256=Fp_WSmJEpq6OvGszFdFGmXv5s_0VSnWhtllRtGnk7So,4911470
+napari_workshop_plugin-0.0.3.dist-info/LICENSE,sha256=qlQ4C1Ja6YQTIV6NXkA5hER1zfCrR4uISQD1__CAnpU,1095
+napari_workshop_plugin-0.0.3.dist-info/METADATA,sha256=r8Ae60TiSr6MoEi5yFMlW0m0SJuzSX3Yl7JIJyHMxFk,2692
+napari_workshop_plugin-0.0.3.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+napari_workshop_plugin-0.0.3.dist-info/entry_points.txt,sha256=xxcEs1YBgwEovQW1ebZFO4dutiqJo6r1Vf3ZiHpciTs,78
+napari_workshop_plugin-0.0.3.dist-info/top_level.txt,sha256=petESwnKbKGIA2dah4R1ANJADX173I9ltnDEziQInyU,23
+napari_workshop_plugin-0.0.3.dist-info/RECORD,,

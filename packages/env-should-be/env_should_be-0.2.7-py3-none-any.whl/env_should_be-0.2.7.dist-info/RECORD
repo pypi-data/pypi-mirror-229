@@ -1,0 +1,11 @@
+env_should_be/__init__.py,sha256=KBQ7XdSWC1sut_8pqAMV7GtPELoQdmRZsJwn6QkHJdc,58
+env_should_be/cli.py,sha256=a7tY9-FSTMW5Xcxdb-HG4F3mU6wYX1O6cCT_Tmwfirg,3003
+env_should_be/description.py,sha256=cd7TjcZ5n4AvqIsvKQMjMgBCM4odos7GuBWj3_wQrFI,6025
+env_should_be/exception.py,sha256=AnJYkFjHyI59Tp2bRKtqB5oh-D03qclUXncssI8gxlQ,446
+env_should_be/utils.py,sha256=E3aDdLMiEfzUAf3E7Wc-B1QsWg8ctvwlnqq9psfjGYQ,4150
+env_should_be-0.2.7.dist-info/LICENSE,sha256=0OBOo3Av_Exq3DxSjgqf44fy88doOgOXSo9GT8j3AVs,1072
+env_should_be-0.2.7.dist-info/METADATA,sha256=XavnNy9mqB3uvjhdpaMXpUOKZVutlGd4dwLEjLJbHFo,3522
+env_should_be-0.2.7.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+env_should_be-0.2.7.dist-info/entry_points.txt,sha256=w1SWiGAWBxMlp4y-Xxff4Jru-KYHFBfA0REbvBpxay4,57
+env_should_be-0.2.7.dist-info/top_level.txt,sha256=21bEq3QsZvwu1JeTJkaspw08trmuAFgdgckDQc9RS6E,14
+env_should_be-0.2.7.dist-info/RECORD,,

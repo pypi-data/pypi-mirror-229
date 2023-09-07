@@ -1,0 +1,9 @@
+fodcm/__init__.py,sha256=pH5i4Fj1tbXLqLtTVIdoojiplZssQn0nnud8-HXodRE,577
+fodcm/dcm.py,sha256=gUQnedVPA_UFjoze9NwHUsWkRHYT6qZ8NR8m9SY-lyo,2047
+fodcm/generator.py,sha256=NsyTzcI9lsXuGwjypISgkweNckxixEoTSJKq1hJfFNM,3206
+fodcm/parser.py,sha256=2p5N6lzXr4hxn6nRwMCIS8B6jiQaaQ44v-5ZLNIiC5I,4850
+fodcm-0.2.0.dist-info/LICENSE.txt,sha256=Ti2K7EpkAz2ha9sq-OJeTcqVDmmeUQidBz8rGHKOvho,1079
+fodcm-0.2.0.dist-info/METADATA,sha256=aYvOdKsV7IWVjkXt8jBt4eWonT_i6cUZAJuGmVUizMI,2664
+fodcm-0.2.0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+fodcm-0.2.0.dist-info/top_level.txt,sha256=ZdFh4xngdXRwBEgq_t3b0xffrc-Jrk6DtHBeFXyCKF0,6
+fodcm-0.2.0.dist-info/RECORD,,

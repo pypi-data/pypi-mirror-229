@@ -1,0 +1,13 @@
+RealtimeTTS/__init__.py,sha256=8ndrvQ-e9bJm6An97OAxLkj_KnjtEqKMAugv8POvV0U,123
+RealtimeTTS/stream_player.py,sha256=JjzZFIEWa-L_ga6WvcT_Pkzt8iK4KNC07a6JHN0AjQM,7996
+RealtimeTTS/text_to_stream.py,sha256=d_a0cfkOmshKy9eHmNRguXgMlOlmqzUr0G2z1xU9zeY,15248
+RealtimeTTS/threadsafe_generators.py,sha256=w1V5zT90AZE8IjNHz0V-3QsjeKkYnCZC_hY28OHpruY,9660
+RealtimeTTS/engines/__init__.py,sha256=sh7TXnOl5awuSzlX48UqRpq9PRL8uGJc5i_KbOt_P50,164
+RealtimeTTS/engines/azure_engine.py,sha256=ngU9uwE7y2rZdwEJJ0HyNIUWaZffGgisL81RNW82ipw,8379
+RealtimeTTS/engines/base_engine.py,sha256=cBZDxl9Q48L7Yt7Ox0u6cbA52eDbCCFjrHOFCmh63oI,3022
+RealtimeTTS/engines/elevenlabs_engine.py,sha256=8KJB0uVOX3ITYYFm9vCYkKara1OYGUlt97l0_KhXcm0,9336
+RealtimeTTS/engines/system_engine.py,sha256=6MBIhtHhZiD_aLbjd1a0DUlWZhsPZwJ5NPpO15tl7io,3924
+RealTimeTTS-0.1.3.dist-info/METADATA,sha256=hW7s2JqE2500_MR4518TGLS_BYPf_65HPeg4wcG4wMk,11655
+RealTimeTTS-0.1.3.dist-info/WHEEL,sha256=5sUXSg9e4bi7lTLOHcm6QEYwO5TIF1TNbTSVFVjcJcc,92
+RealTimeTTS-0.1.3.dist-info/top_level.txt,sha256=6mA-rM2q6RQ0F-BF8NsPDcyFvgPqG4pQqL6drgBYOz4,12
+RealTimeTTS-0.1.3.dist-info/RECORD,,

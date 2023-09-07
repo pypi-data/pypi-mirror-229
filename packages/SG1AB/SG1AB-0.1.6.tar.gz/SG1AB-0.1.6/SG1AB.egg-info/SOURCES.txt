@@ -1,0 +1,6 @@
+setup.py
+SG1AB.egg-info/PKG-INFO
+SG1AB.egg-info/SOURCES.txt
+SG1AB.egg-info/dependency_links.txt
+SG1AB.egg-info/requires.txt
+SG1AB.egg-info/top_level.txt

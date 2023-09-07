@@ -1,0 +1,31 @@
+stages:
+  - deploy
+
+pages:
+  image: python:latest
+  stage: deploy
+  script:
+  - pip install tox sphinx_rtd_theme
+  - tox -e docs
+  - mv docs/_build/html/ public/
+  artifacts:
+    paths:
+    - public
+  only:
+    - /^v\d+\.\d+\.\d+([abc]\d*)?$/  # PEP-440 compliant version (tags)
+
+package:
+  image: python:latest
+  stage: deploy
+  variables:
+    TWINE_USERNAME: $TWINE_USERNAME
+    TWINE_PASSWORD: $TWINE_PASSWORD
+  script:
+    - pip install tox
+    - pip install twine
+    - tox -e build
+    - python -m twine check dist/*
+    - python -m twine upload dist/* --skip-existing --verbose
+
+  only:
+    - /^v\d+\.\d+\.\d+([abc]\d*)?$/  # PEP-440 compliant version (tags)

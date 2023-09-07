@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "flipt-migrate"
+version = "0.1.2"
+description = "A CLI tool to migrate feature flags from one source (e.g. competitor) to Flipt"
+authors = ["Flipt Devs <dev@flipt.io>"]
+license = "Apache-2.0"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+requests = "^2.31.0"
+pyyaml = "^6.0.1"
+pydantic = "^2.3.0"
+pydantic-yaml = "^1.1.1"
+questionary = "^2.0.0"
+
+[tool.poetry.scripts]
+flipt-migrate = "flipt_migrate.cli:main"
+
+[tool.poetry.group.dev.dependencies]
+black = "^23.7.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

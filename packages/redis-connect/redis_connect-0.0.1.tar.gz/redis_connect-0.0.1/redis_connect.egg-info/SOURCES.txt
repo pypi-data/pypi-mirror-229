@@ -1,0 +1,9 @@
+LICENSE
+setup.py
+redis_connect/__init__.py
+redis_connect/connect.py
+redis_connect.egg-info/PKG-INFO
+redis_connect.egg-info/SOURCES.txt
+redis_connect.egg-info/dependency_links.txt
+redis_connect.egg-info/requires.txt
+redis_connect.egg-info/top_level.txt

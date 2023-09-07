@@ -1,0 +1,17 @@
+
+from setuptools import setup, find_packages
+
+# Setting up
+setup(
+      
+        name="test_jmrum", 
+        version=0.2,
+        author="Jessica Rumbelow",
+        author_email="<jessica@leap-labs.com>",
+        description="DESCRIPTION",
+        long_description="LONG_DESCRIPTION",
+        packages=find_packages(),
+        install_requires=['torch'],
+        
+        keywords=["python", "leap"]
+)

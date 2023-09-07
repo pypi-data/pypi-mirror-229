@@ -1,0 +1,11 @@
+README.md
+setup.py
+WeReadScan/WeRead.py
+WeReadScan/__init__.py
+WeReadScan/script/__init__.py
+WeReadScan/script/os_util.py
+WeReadScan_HTML.egg-info/PKG-INFO
+WeReadScan_HTML.egg-info/SOURCES.txt
+WeReadScan_HTML.egg-info/dependency_links.txt
+WeReadScan_HTML.egg-info/requires.txt
+WeReadScan_HTML.egg-info/top_level.txt

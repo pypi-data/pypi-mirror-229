@@ -1,0 +1,8 @@
+setup.py
+appsec_utils.egg-info/PKG-INFO
+appsec_utils.egg-info/SOURCES.txt
+appsec_utils.egg-info/dependency_links.txt
+appsec_utils.egg-info/not-zip-safe
+appsec_utils.egg-info/requires.txt
+appsec_utils.egg-info/top_level.txt
+vmc_reporter/__init__.py

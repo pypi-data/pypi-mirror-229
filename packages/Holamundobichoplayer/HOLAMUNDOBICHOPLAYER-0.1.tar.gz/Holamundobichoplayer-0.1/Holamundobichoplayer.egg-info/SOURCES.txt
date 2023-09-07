@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+Holamundobichoplayer.egg-info/PKG-INFO
+Holamundobichoplayer.egg-info/SOURCES.txt
+Holamundobichoplayer.egg-info/dependency_links.txt
+Holamundobichoplayer.egg-info/top_level.txt

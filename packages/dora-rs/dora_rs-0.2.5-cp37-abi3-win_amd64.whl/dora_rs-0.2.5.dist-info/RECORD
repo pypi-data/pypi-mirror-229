@@ -1,0 +1,5 @@
+dora_rs-0.2.5.dist-info/METADATA,sha256=D6XrFeFsTps3lEOwvoYdwGhG23cISDYxlAqSY-MHLjc,464
+dora_rs-0.2.5.dist-info/WHEEL,sha256=bYxGDNA4IQXchE7gRlJNOD2it4DPWJE9IFvlvNyjw2k,94
+dora/__init__.py,sha256=r6Ac-7HNrOGYR5FRUcKX9DTnNEVXsADVw5MYbKjhC0I,546
+dora/dora.pyd,sha256=NWUzlrxjiCHT3N3Q6BQ76-BwF0KIGxxC1DGReKdLhFY,12058112
+dora_rs-0.2.5.dist-info/RECORD,,

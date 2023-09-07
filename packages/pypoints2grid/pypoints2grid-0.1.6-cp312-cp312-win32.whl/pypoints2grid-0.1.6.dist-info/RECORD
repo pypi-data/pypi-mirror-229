@@ -1,0 +1,10 @@
+_points2grid.cp312-win32.pyd,sha256=BBEmvohfjC2eYguX5m2gdMNsJ7XqAiUboreY-rlCMoU,116224
+include/GridEnum.h,sha256=3ibhmpsly-bJGFXmL7cBzZPBLiKZ0djfgZGBAMzLcT4,163
+include/GridPoint.h,sha256=zGDR53fn7GLZAO_mlJP-Lq_H6OjoZAwvuIDpNZAAs8g,2278
+include/Interpolator.h,sha256=q3cWfRW6Xm0grEJc4QMUk98hm0TfRNLmFtSCXAVvh8c,14242
+pypoints2grid/__init__.py,sha256=DeLxwic_dznqHk3fj6a6zMxT_L3c-vv7genz3R5HO0g,2762
+pypoints2grid-0.1.6.dist-info/LICENSE,sha256=mvOENCiO00_NkxbCvf7aOTUbTUIujAWOcp0A6vem6NU,1089
+pypoints2grid-0.1.6.dist-info/METADATA,sha256=hOI7sUbUufZs8I_U1setfaA2SEXyuB7wS0HrQ4Ydlpg,4482
+pypoints2grid-0.1.6.dist-info/WHEEL,sha256=4N7jptPh4OYjkcvBzbL_SyiQfKWhgnHPSC8E7zx3zFw,98
+pypoints2grid-0.1.6.dist-info/top_level.txt,sha256=MVzwJjfsTQkNaStZ7Q165r9kRd-M4Zpw1jjgk5mCB4o,35
+pypoints2grid-0.1.6.dist-info/RECORD,,

@@ -1,0 +1,8 @@
+voila~=0.5.2
+jupyter-core~=5.3.1
+
+[dev]
+invoke~=2.2
+ipywidgets~=8.1
+pylint~=2.17
+widget-periodictable~=3.1

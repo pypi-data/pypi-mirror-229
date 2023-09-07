@@ -1,0 +1,10 @@
+hashfields/__init__.py,sha256=pMTvXaezfchNdrDq6eTi7YLgpeyGrMjUFtST2Wf11uM,26
+hashfields/csv.py,sha256=5RcxqS3ATgmJ4WYjYs-puXLF5WY1_4VsOHFTevgVw_U,1046
+hashfields/hashing.py,sha256=KdtfnsCUBM094sqEKxaA5Iw2eITbYILcLiLrtTKuJj4,1408
+hashfields/main.py,sha256=x6dU846qKoSep3w_GfS_30IGbXMaFoSvl8HLzkd4uT0,1954
+hashfields-2023.9.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+hashfields-2023.9.1.dist-info/METADATA,sha256=X6OOTLmX9CkLNfFRPRh9Jmr9wj6bIyfkiDFKkX22Akw,14993
+hashfields-2023.9.1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+hashfields-2023.9.1.dist-info/entry_points.txt,sha256=OnMlGkGAWnZvRTEOR70vfS9zqzGXcN6SQJAefgFdsSI,52
+hashfields-2023.9.1.dist-info/top_level.txt,sha256=B9t4WNSQmMUr_ZTnionVkDJQtqTNE4B1FY1cBMcDycE,11
+hashfields-2023.9.1.dist-info/RECORD,,

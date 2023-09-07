@@ -1,0 +1,7 @@
+XlsxWriter
+collective.folderishtypes
+mo-sql-parsing
+setuptools
+
+[test]
+plone.app.testing

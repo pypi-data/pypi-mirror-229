@@ -1,0 +1,10 @@
+README.rst
+setup.cfg
+setup.py
+blazogram/__init__.py
+blazogram/dispatcher.py
+blazogram.egg-info/PKG-INFO
+blazogram.egg-info/SOURCES.txt
+blazogram.egg-info/dependency_links.txt
+blazogram.egg-info/requires.txt
+blazogram.egg-info/top_level.txt

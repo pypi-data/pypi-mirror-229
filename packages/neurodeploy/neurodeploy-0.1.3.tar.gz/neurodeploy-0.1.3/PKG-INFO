@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: neurodeploy
+Version: 0.1.3
+Summary: neurodeploy sdk
+Project-URL: Homepage, https://github.com/neurodeploy/neurodeploy-sdk
+Author-email: neurodeploy <support@neurodeploy.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Requires-Dist: certifi==2023.7.22
+Requires-Dist: charset-normalizer==3.2.0
+Requires-Dist: idna==3.4
+Requires-Dist: requests==2.31.0
+Requires-Dist: urllib3==2.0.4
+Description-Content-Type: text/markdown
+
+# neurodeploy SDK

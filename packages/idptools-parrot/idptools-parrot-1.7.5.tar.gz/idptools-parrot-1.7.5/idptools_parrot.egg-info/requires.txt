@@ -1,0 +1,14 @@
+cython
+torch>=1.8.0
+numpy
+argparse
+more-itertools
+scipy
+scikit-learn
+matplotlib
+seaborn
+pandas
+
+[optimize]
+GPy
+GPyOpt

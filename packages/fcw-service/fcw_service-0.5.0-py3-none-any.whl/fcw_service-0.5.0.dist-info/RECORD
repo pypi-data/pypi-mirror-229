@@ -1,0 +1,7 @@
+fcw_service/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fcw_service/collision_worker.py,sha256=Nzc9UPHI9m_5dO_bMnLwT3BDk3_HyLrzesZ3hMaExGs,5470
+fcw_service/interface.py,sha256=fWpgrjlSpw--cq4sNl0tZ3TXDrYODeRzzEaWUuv1Qto,11518
+fcw_service-0.5.0.dist-info/entry_points.txt,sha256=WAqLJqxnvmDr-aljVxWsO9wJBFzS0RDlY6IAL572oYQ,58
+fcw_service-0.5.0.dist-info/METADATA,sha256=qN1LoaD4YYdxMjDvV9IfmsFyurfPIHUPhXfKpdWlikA,1162
+fcw_service-0.5.0.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+fcw_service-0.5.0.dist-info/RECORD,,

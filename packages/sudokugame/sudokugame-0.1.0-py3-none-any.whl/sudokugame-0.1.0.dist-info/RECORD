@@ -1,0 +1,8 @@
+sudoku/__init__.py,sha256=HWWmOdaSspnLVaV4MD2nr46NubAR3lGT3Y7IDbYE0FI,33
+sudoku/generator.py,sha256=QJ3bYjcqT49VdFukBoZjGp3j3kc-3vnwz8rS4rE-7vg,122
+sudoku/sudokuGenerator.py,sha256=iEvUzpALPd9l0ZnZz3H2CNWFwxOJm952TirzUe972tg,142
+sudokugame-0.1.0.dist-info/LICENSE,sha256=ZCHHjBRWmg2-cyK58KEiQOT9fLEWwL9hiRaVtXmqLTI,1085
+sudokugame-0.1.0.dist-info/METADATA,sha256=lQgRV1e7-vdalZjZrlaYueuP85Hz1sJ4ncW80BknRQ0,476
+sudokugame-0.1.0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+sudokugame-0.1.0.dist-info/top_level.txt,sha256=oesxezkn8Y-hC-ccYuDx18c6qk9Uem2x-ttoOEVggOQ,7
+sudokugame-0.1.0.dist-info/RECORD,,

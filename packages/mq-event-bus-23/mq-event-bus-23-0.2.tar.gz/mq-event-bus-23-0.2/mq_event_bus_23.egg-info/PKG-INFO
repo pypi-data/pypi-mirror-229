@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: mq-event-bus-23
+Version: 0.2
+Summary: A simple async event bus in Python
+Home-page: https://github.com/the-gigi/pathology
+Author: FEFU Analytics sector
+License: MIT

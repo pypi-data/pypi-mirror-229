@@ -1,0 +1,8 @@
+setup.py
+mongodbpython.egg-info/PKG-INFO
+mongodbpython.egg-info/SOURCES.txt
+mongodbpython.egg-info/dependency_links.txt
+mongodbpython.egg-info/requires.txt
+mongodbpython.egg-info/top_level.txt
+prasanthmongo/__init__.py
+prasanthmongo/mongoclient.py

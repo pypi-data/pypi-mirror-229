@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+FastML_With_EDA/AutoML.py
+FastML_With_EDA/EDA_and_preprocessing.py
+FastML_With_EDA/__init__.py
+FastML_With_EDA.egg-info/PKG-INFO
+FastML_With_EDA.egg-info/SOURCES.txt
+FastML_With_EDA.egg-info/dependency_links.txt
+FastML_With_EDA.egg-info/requires.txt
+FastML_With_EDA.egg-info/top_level.txt

@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: FastML-With-EDA
+Version: 0.1.0
+Summary: This package provides a set of functions and tools for machine learning tasks, including data preprocessing, model training, and evaluation. It includes functions for loading data, exploring dataset statistics, handling missing values, detecting outliers, training machine learning models for regression or classification, and evaluating model performance.
+Home-page: https://github.com/Veto2922/Fast-Machine-Learning-With-EDA/tree/main
+Author: Abdelrahman Mohaemd
+Author-email: abdelrahman.m2922@gmail.com
+License-File: LICENSE

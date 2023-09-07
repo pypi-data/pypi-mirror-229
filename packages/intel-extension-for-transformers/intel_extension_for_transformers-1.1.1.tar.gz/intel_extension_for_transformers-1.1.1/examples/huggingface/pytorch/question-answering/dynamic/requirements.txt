@@ -1,0 +1,6 @@
+transformers==4.30.2
+datasets
+torchprofile
+torch
+intel_extension_for_pytorch
+accelerate

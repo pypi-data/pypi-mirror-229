@@ -1,0 +1,11 @@
+seaborn
+matplotlib
+TikTokApi
+requests
+yt_dlp
+
+[test]
+pytest
+pytest-cov
+pytest-html
+pytest-metadata

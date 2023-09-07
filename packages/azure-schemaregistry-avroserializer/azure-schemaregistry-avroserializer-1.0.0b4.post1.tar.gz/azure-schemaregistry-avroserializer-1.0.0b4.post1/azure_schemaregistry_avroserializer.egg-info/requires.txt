@@ -1,0 +1,5 @@
+azure-schemaregistry<2.0.0,>=1.0.0
+avro==1.10.0
+
+[:python_version == "2.7"]
+backports.functools-lru-cache>=1.6.4

@@ -1,0 +1,9 @@
+numba>=0.51.2
+pynndescent
+scipy
+numpy>=1.18
+scikit-learn
+tqdm
+typer
+pandas
+cython

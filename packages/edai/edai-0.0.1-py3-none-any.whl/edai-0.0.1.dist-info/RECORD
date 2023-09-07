@@ -1,0 +1,10 @@
+edai/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+edai/__main__.py,sha256=60CkW8pPTW0ST1zL7kutQRktf5lSSrgkluY_NlwmJK8,48
+edai/cli.py,sha256=oPkdm8rcZx98E-JlICZFukFO3u5_pjO5C8uaK7S0-so,948
+edai/edai.py,sha256=aZU6MvbN92_nQA7KqrS7k2lKDWIyf0FwFF4Y-i6LQNA,5058
+edai/testing.py,sha256=Yi3kXB1MZIuXNlIyos5NZg45mloXi6AC4qgvifkN6P8,701
+edai-0.0.1.dist-info/METADATA,sha256=wG-kwlBJ2fpEuPoZI3bFKXRZfDhw6YUFlbTQNtNp6lk,798
+edai-0.0.1.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+edai-0.0.1.dist-info/entry_points.txt,sha256=0O9J24vA46i-TG-LkQ2Y7McXBlHeUQkqFeo_MlwhRhA,38
+edai-0.0.1.dist-info/licenses/LICENSE,sha256=JI7scmwZKNFl859I8UbdX_vsbdSgzIOdrtgqng_mYF0,1048
+edai-0.0.1.dist-info/RECORD,,

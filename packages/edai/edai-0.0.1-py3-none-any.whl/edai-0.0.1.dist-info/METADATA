@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: edai
+Version: 0.0.1
+Summary: EDA with AI
+Project-URL: Homepage, https://github.com/lostmygithubaccount/edai
+Project-URL: Bug Tracker, https://github.com/lostmygithubaccount/edai/issues
+Author-email: Cody <cody@edai.dev>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.11
+Requires-Dist: ibis-framework[deltalake,duckdb,polars]
+Requires-Dist: marvin
+Requires-Dist: openai
+Requires-Dist: pillow
+Requires-Dist: plotly
+Requires-Dist: python-dotenv
+Requires-Dist: requests
+Requires-Dist: streamlit
+Requires-Dist: toml
+Requires-Dist: typer[all]
+Description-Content-Type: text/markdown
+
+# edai
+
+edai: exploratory data analysis with AI.
+

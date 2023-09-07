@@ -1,0 +1,10 @@
+__pycache__
+*.csv
+!tests/samples/*.csv
+*.egg-info
+*.spec
+.coverage
+.venv
+build
+coverage
+dist

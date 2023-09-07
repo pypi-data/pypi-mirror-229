@@ -1,0 +1,30 @@
+{
+  "name": "cal-itp/hashfields",
+  "dockerComposeFile": ["../compose.yml"],
+  "service": "dev",
+  "runServices": ["dev", "docs"],
+  "workspaceFolder": "/home/calitp/hashfields",
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "terminal.integrated.defaultProfile.linux": "bash",
+        "terminal.integrated.profiles.linux": {
+          "bash": {
+            "path": "/bin/bash"
+          }
+        }
+      },
+      "extensions": [
+        "eamodio.gitlens",
+        "esbenp.prettier-vscode",
+        "mechatroner.rainbow-csv",
+        "mhutchie.git-graph",
+        "ms-python.python",
+        "ms-python.black-formatter",
+        "ms-python.flake8",
+        "tamasfe.even-better-toml"
+      ]
+    }
+  },
+  "shutdownAction": "stopCompose"
+}

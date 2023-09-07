@@ -1,0 +1,2 @@
+[tool.isort]
+known_first_party=['selph_light_lib', '_selph_light_lib']

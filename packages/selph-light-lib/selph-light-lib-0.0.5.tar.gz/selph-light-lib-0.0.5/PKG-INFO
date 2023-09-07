@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: selph-light-lib
+Version: 0.0.5
+Summary: Library for convenient work with interference phenomena
+Home-page: https://github.com/sersoid/selph-light-lib
+Author: sersoid
+License: MIT
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: C
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE

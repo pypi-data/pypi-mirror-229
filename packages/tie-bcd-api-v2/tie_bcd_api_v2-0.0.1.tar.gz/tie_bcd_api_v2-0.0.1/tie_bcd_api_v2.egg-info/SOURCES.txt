@@ -1,0 +1,11 @@
+README.md
+setup.py
+tie_bcd_api_v2/Request.py
+tie_bcd_api_v2/__init__.py
+tie_bcd_api_v2.egg-info/PKG-INFO
+tie_bcd_api_v2.egg-info/SOURCES.txt
+tie_bcd_api_v2.egg-info/dependency_links.txt
+tie_bcd_api_v2.egg-info/requires.txt
+tie_bcd_api_v2.egg-info/top_level.txt
+tie_bcd_api_v2/resources/Company.py
+tie_bcd_api_v2/resources/__init__.py

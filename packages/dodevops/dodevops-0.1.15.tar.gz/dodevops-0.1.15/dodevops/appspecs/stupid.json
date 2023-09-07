@@ -1,0 +1,117 @@
+{
+    "name": "info-teddyscottage-com",
+    "services": [
+        {
+            "name": "cottage-rest",
+            "github": {
+                "repo": "Oakwright/cottage-rest",
+                "branch": "feature/doapp",
+                "deploy_on_push": true
+            },
+            "build_command": "python manage.py makemigrations\npython manage.py makemigrations core\n",
+            "run_command": "python3 manage.py migrate\ngunicorn --worker-tmp-dir /dev/shm cottage.wsgi:application  --bind 0.0.0.0:8000\n",
+            "source_dir": "/",
+            "environment_slug": "python",
+            "envs": [
+                {
+                    "key": "ALLOWED_HOSTS",
+                    "value": "${APP_DOMAIN}",
+                    "scope": "RUN_TIME"
+                },
+                {
+                    "key": "AWS_S3_ENDPOINT_URL",
+                    "value": "https://space-cottage-rest-app8.sfo3.digitaloceanspaces.com",
+                    "scope": "RUN_TIME"
+                },
+                {
+                    "key": "DISABLE_COLLECTSTATIC",
+                    "value": "1",
+                    "scope": "BUILD_TIME"
+                },
+                {
+                    "key": "AWS_STORAGE_BUCKET_NAME",
+                    "value": "cottage-rest-app",
+                    "scope": "RUN_TIME"
+                },
+                {
+                    "key": "OIDC_RSA_PRIVATE_KEY",
+                    "value": "-----BEGIN RSA PRIVATE KEY-----\n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\n-----END RSA PRIVATE KEY-----",
+                    "scope": "RUN_TIME"
+                },
+                {
+                    "key": "AWS_ACCESS_KEY_ID",
+                    "value": "DO00WQVEUCK226Z3VT8D",
+                    "scope": "RUN_TIME"
+                },
+                {
+                    "key": "AWS_LOCATION",
+                    "value": "cottage-rest-app",
+                    "scope": "RUN_TIME"
+                },
+                {
+                    "key": "DEBUG",
+                    "value": "1",
+                    "scope": "RUN_AND_BUILD_TIME"
+                },
+                {
+                    "key": "SECRET_KEY",
+                    "value": "l51ymJ0kVquxSjrxyV9pZezc5dcTm5R1aKFeVKnWRns",
+                    "scope": "RUN_TIME"
+                },
+                {
+                    "key": "AWS_SECRET_ACCESS_KEY",
+                    "value": "5JTNqavZYEfos6hHV/lwje3kFmMnbN7YGwwTfaq+vwM",
+                    "scope": "RUN_TIME"
+                },
+                {
+                    "key": "DATABASE_URL",
+                    "value": "${db-postgresql-sfo3-cottage.cottage-rest-app-pool.DATABASE_URL}",
+                    "scope": "RUN_TIME"
+                }
+            ],
+            "instance_size_slug": "basic-xxs",
+            "instance_count": 1,
+            "http_port": 8000
+        }
+    ],
+    "databases": [
+        {
+            "name": "db-postgresql-sfo3-cottage",
+            "engine": "PG",
+            "version": "15",
+            "production": true,
+            "cluster_name": "db-postgresql-sfo3-cottage",
+            "db_name": "cottage-rest-app",
+            "db_user": "cottage-rest-app-user"
+        }
+    ],
+    "domains": [
+        {
+            "domain": "info.oakwright.cloud",
+            "type": "PRIMARY"
+        }
+    ],
+    "region": "sfo",
+    "alerts": [
+        {
+            "rule": "DEPLOYMENT_FAILED"
+        },
+        {
+            "rule": "DOMAIN_FAILED"
+        }
+    ],
+    "ingress": {
+        "rules": [
+            {
+                "match": {
+                    "path": {
+                        "prefix": "/"
+                    }
+                },
+                "component": {
+                    "name": "cottage-rest"
+                }
+            }
+        ]
+    }
+}

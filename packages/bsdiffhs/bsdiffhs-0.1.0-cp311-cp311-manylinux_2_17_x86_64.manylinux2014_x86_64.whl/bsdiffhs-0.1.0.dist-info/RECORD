@@ -1,0 +1,11 @@
+bsdiffhs-0.1.0.dist-info/entry_points.txt,sha256=0JoTZn3xInfDTf0dsAVyI3V8CdERkWAV-WT3tpTalIM,96
+bsdiffhs-0.1.0.dist-info/LICENSE,sha256=xskhyQOD8cQ761PEmmUtKDCaQQp8OUxyn9iHAnFFHPA,8330
+bsdiffhs-0.1.0.dist-info/RECORD,,
+bsdiffhs-0.1.0.dist-info/top_level.txt,sha256=dPBst4obvgELQE5km1BF85YI8sYwccL6espSUz_rfq8,9
+bsdiffhs-0.1.0.dist-info/METADATA,sha256=usqQuiNsSyGLKfgZFB13HlF2nXr7xEXN2Ca6s45a2v0,2933
+bsdiffhs-0.1.0.dist-info/WHEEL,sha256=zcODeksSPXfEVqloqbuxG5DqZN6qJmVdi0EN9bjsiGQ,152
+bsdiffhs/test_all.py,sha256=_NJvQQelAL30OSN_sPQBTQtj03sG3xGw93ehGfFU-yc,5228
+bsdiffhs/core.cpython-311-x86_64-linux-gnu.so,sha256=P5Tojfwhx7u6ePqKHEgZLbf2NWaB9T42oGQB3tDoDtg,61864
+bsdiffhs/format.py,sha256=qbzNY1CJaZkEiWPXDDsUK0QECsDFnVUO4-mRobdlrkM,3669
+bsdiffhs/cli.py,sha256=H0JDyyFpaACbpAX6VbYWJTRM1K2ExqbgoNTPM0SeSzo,2511
+bsdiffhs/__init__.py,sha256=98UPRcSwp_8_QwtrBlbCWTsixCYBNVUX11-_wib_iFA,268

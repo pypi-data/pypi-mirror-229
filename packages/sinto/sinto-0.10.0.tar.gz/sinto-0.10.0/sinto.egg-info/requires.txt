@@ -1,0 +1,4 @@
+pysam>=0.14
+scipy
+numpy
+umi_tools

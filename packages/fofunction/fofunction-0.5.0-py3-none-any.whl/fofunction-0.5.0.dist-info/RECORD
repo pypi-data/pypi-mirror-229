@@ -1,0 +1,12 @@
+fofunction/__init__.py,sha256=zL_MmJg8eWsiKSBXNzB-qzBmjTcMes7zS4NdKptZ4c8,703
+fofunction/axis.py,sha256=yKOlnUjy1IcXyuPCeGpwHWbdRItERPrfxlTu3t7Dj88,393
+fofunction/curve.py,sha256=fsH6b4wafZfbJisCizbd5yJDCMx9z9a1xhQkQ2IjUg8,1195
+fofunction/function.py,sha256=fi0EHfy9og9B4ILgB9DeQk_BXN_JiF8x4ovhYeCB2wo,3428
+fofunction/log.py,sha256=qJ0otFdyb4OmQkGiCNPD9pbqMHyc_bW_uaAIQ6ZI0B4,335
+fofunction/map.py,sha256=9PFkclwZXs-e9VrFar0K1j2vfs-A4FjH7-6bempzdPI,3083
+fofunction/value.py,sha256=IpM5dsVM2w-QlVC86Ac6YfWNL2fxDmzH1DDWIyl_zg8,145
+fofunction-0.5.0.dist-info/LICENSE.txt,sha256=41J9s_ZeQiitVPhj3RGEcoit4IT1fha0wJ49-5nZSkw,1100
+fofunction-0.5.0.dist-info/METADATA,sha256=cFyBW6Zn-dMDV3FZsdIFh9S7n9Qvy7uE2KFMJFSWlzk,2790
+fofunction-0.5.0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+fofunction-0.5.0.dist-info/top_level.txt,sha256=nPPDO7vynqzb20bhJSIgx747ob0oULaY3cWQjnF5Ov4,11
+fofunction-0.5.0.dist-info/RECORD,,

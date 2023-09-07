@@ -1,0 +1,16 @@
+LICENSE,sha256=re0Owoc5CUktl5olNpN7Gfj2gv8oRlknX9-GmOAiPIM,1088
+README.md,sha256=S6xpBjDlUzY04_hDa4gF_3ul604FIE9_Uke-kFGdftw,3467
+sqlmeshsm/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sqlmeshsm/__main__.py,sha256=G2eVmVzfEk00AwoMOU3DhEpXL7BGZ7qkx7MTEmylMaE,43
+sqlmeshsm/hooks/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sqlmeshsm/hooks/drop_masking_policy.py,sha256=ugbUeif2a5SC0oSPld2d7Sd-tVFvrec79ibBbf3sYW8,2358
+sqlmeshsm/hooks/main.py,sha256=NE8DIJbkuJVIQI2ttu1lnZ-N-lNXkr58Ti3OS5gmz9A,1199
+sqlmeshsm/macros/__init__.py,sha256=ViZkj1lmV4YH5s3aPplUU9qK0Y2Du_tATUP_AfIhDSg,146
+sqlmeshsm/macros/apply_masking_policy.py,sha256=WSztNjkpOcbNfM6qfk4PWg85zWeatMymDrOtt2kDPVs,636
+sqlmeshsm/macros/create_masking_policy.py,sha256=Ad4QH1IX839oVWsES4olKnK6mbIq-CyZZ9pii5bGjQ8,632
+sqlmeshsm/main.py,sha256=5StziKKkaYYdyHopU5Xjl-aNHy3g0Vz3C6MrAVs96eU,105
+sqlmeshsm-0.1.0b3.dist-info/entry_points.txt,sha256=XsMKwOoIaMqG5_dJgMIOO79E94gSuBryCwzM8Vg7Llg,46
+sqlmeshsm-0.1.0b3.dist-info/LICENSE,sha256=re0Owoc5CUktl5olNpN7Gfj2gv8oRlknX9-GmOAiPIM,1088
+sqlmeshsm-0.1.0b3.dist-info/METADATA,sha256=eBWig30SweJJDhC0DgHuyX6UkhL_O94hjLMj32eSPfM,4503
+sqlmeshsm-0.1.0b3.dist-info/WHEEL,sha256=kLuE8m1WYU0Ig0_YEGrXyTtiJvKPpLpDEiChiNyei5Y,88
+sqlmeshsm-0.1.0b3.dist-info/RECORD,,

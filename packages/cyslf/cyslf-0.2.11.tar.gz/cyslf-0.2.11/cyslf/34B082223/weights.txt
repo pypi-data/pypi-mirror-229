@@ -1,0 +1,12 @@
+[weights]
+skill = 10          # balance average team skill
+grade =10           # balance average team grade
+size = 1000          # balance average team size
+first_round = 10    # balance # of top rank players (skill=1)
+top = 10           # balance the # of top tier players (skill=2, 3)
+mid = 1             # balance the # of mid tier players (skill=4, 5, 6)
+bottom = 10          # balance the # of bottom tier players (skill=7, 8, 9, 10)
+goalie = 1        # balance goalie skill
+location = 1        # minimize player distance to practice field
+practice_day = 1    # maximize # of players' practicing on their preferred day
+teammate = 1      # honor player teammate requests

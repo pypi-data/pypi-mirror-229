@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+settings.ini
+setup.py
+dynattr/__init__.py
+dynattr/_modidx.py
+dynattr/core.py
+dynattr.egg-info/PKG-INFO
+dynattr.egg-info/SOURCES.txt
+dynattr.egg-info/dependency_links.txt
+dynattr.egg-info/entry_points.txt
+dynattr.egg-info/not-zip-safe
+dynattr.egg-info/requires.txt
+dynattr.egg-info/top_level.txt

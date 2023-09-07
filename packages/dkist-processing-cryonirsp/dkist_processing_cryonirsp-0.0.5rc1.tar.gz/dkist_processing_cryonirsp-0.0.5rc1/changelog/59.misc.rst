@@ -1,0 +1,1 @@
+Refactor linearity correction to improve memory usage.

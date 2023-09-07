@@ -1,0 +1,5 @@
+Metadata-Version: 2.1
+Name: ld_micro_vm
+Version: 0.7
+Summary: Python vm to run ld micro ladder logic
+Author-email: josh.fuller@clearview-intelligence.com

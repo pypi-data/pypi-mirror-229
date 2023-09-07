@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: ai-models-graphcast
+Version: 0.0.2
+Summary: Run graphcast ai weather models
+Home-page: https://github.com/ecmwf-lab/ai-models-graphcast
+Author: European Centre for Medium-Range Weather Forecasts (ECMWF)
+Author-email: software.support@ecmwf.int
+License: Apache License Version 2.0
+Keywords: tool
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# ai-models-graphcast
+
+`ai-models-graphcast` is an [ai-models](https://github.com/ecmwf-lab/ai-models) plugin to run Google Deepmind's [GraphCast](https://github.com/deepmind/graphcast).
+
+## Jax
+
+Graphcast depends on Jax, which needs special installation instructions for your specific hardware.
+
+Please see the [installation guide](https://github.com/google/jax#installation) to follow the correct instructions.

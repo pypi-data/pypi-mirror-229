@@ -1,0 +1,3 @@
+[console_scripts]
+goldy_bot = GoldyBot.cli.__main__:goldy_bot
+goldybot = GoldyBot.cli.__main__:goldy_bot

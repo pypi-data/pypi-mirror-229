@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: pyramid-hybridauth
+Version: 1.1.1
+Summary: It provides Pyramid authentication in conjunction with external services  using OAuth.
+Home-page: https://github.com/unplus/pyramid_hybridauth
+License: MIT
+Author: Yoshimitsu Kokubo
+Author-email: yoshi@unplus.net
+Requires-Python: >=3.7,<4.0
+Classifier: Framework :: Pylons
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: pyramid (>=1.10,<2.0)
+Requires-Dist: requests_oauthlib (>=1.2,<2.0)
+Project-URL: Repository, https://github.com/unplus/pyramid_hybridauth
+Description-Content-Type: text/x-rst
+
+pyramid_hybridauth README
+=========================
+
+Getting Started
+---------------
+
+- pip install pyramid_hybridauth
+

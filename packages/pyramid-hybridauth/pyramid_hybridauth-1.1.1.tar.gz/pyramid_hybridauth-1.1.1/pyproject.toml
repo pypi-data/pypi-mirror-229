@@ -1,0 +1,48 @@
+[tool.poetry]
+name = "pyramid_hybridauth"
+version = "1.1.1"
+description = "It provides Pyramid authentication in conjunction with external services  using OAuth."
+readme = "README.rst"
+authors = ["Yoshimitsu Kokubo <yoshi@unplus.net>"]
+homepage = "https://github.com/unplus/pyramid_hybridauth"
+repository = "https://github.com/unplus/pyramid_hybridauth"
+license = "MIT"
+classifiers = [
+    "Framework :: Pylons"
+]
+include = ["CHANGELOG.md"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+pyramid = "^1.10"
+requests_oauthlib = "^1.2"
+
+[tool.poetry.dev-dependencies]
+black = "^22.3.0"
+pytest = "^7.1.2"
+isort = "^5.7.0"
+flake8 = "^4.0.1"
+mypy = "^0.961"
+pytest-mock = "^3.5.1"
+tox = "^3.22.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.black]
+line-length = 88
+include = '\.pyi?$'
+exclude = '''
+(
+  \.eggs
+  | \.git
+  | \.mypy_cache
+  | \.tox
+  | \.venv
+  | _build
+  | buck-out
+  | build
+  | dist
+)
+'''

@@ -1,0 +1,14 @@
+speaksynk_flow_processor/AWSSpeakSynkFlowProcesor.py,sha256=UYI_TuQZKeOjyXzQ6ilUj4INwyi12apsdnsjZPFdow4,1340
+speaksynk_flow_processor/SpeakSynkFlowProcessor.py,sha256=PirW3eSeDbgAR09RZTzEkfx7HfiQyaWJXG_Rk7f3w34,1112
+speaksynk_flow_processor/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+speaksynk_flow_processor/constants/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+speaksynk_flow_processor/constants/constants.py,sha256=CWYtHYzWfMlEZxzJR26-TXk6oiYAkgju-ufOYFkbmeY,126
+speaksynk_flow_processor/interfaces/IFlow.py,sha256=__l_ZwcVNS_4pRCbEXAhAFfg3ZxA2Wlbu0_B1lCZZXc,199
+speaksynk_flow_processor/interfaces/IProcessor.py,sha256=aKKYETrs0tNmfmVGY9NnNwS2Qk-LiwX24O00xYlFP78,105
+speaksynk_flow_processor/interfaces/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+speaksynk_flow_processor/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+speaksynk_flow_processor/utils/logger.py,sha256=tk-5jBNt5ezrJ5wVLVxAKpEdXWgH7WeFcQiABLdN2tw,644
+speaksynk_flow_processor/utils/utils.py,sha256=cx3rC_g8v-yNfyv97N8lNIqpJXBnYdQyKV43KCFtxbM,390
+speaksynk_flow_processor-1.0.1.dist-info/METADATA,sha256=gxeMHqMGC_p5XP_1r0S7ar0M1GqyVD59Q9AB4ArA_Ws,1125
+speaksynk_flow_processor-1.0.1.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+speaksynk_flow_processor-1.0.1.dist-info/RECORD,,

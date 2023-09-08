@@ -1,0 +1,15 @@
+ChangeLog.md
+LICENSE
+MANIFEST.in
+README-CN.md
+README.md
+setup.cfg
+setup.py
+alibabacloud_captcha20230305/__init__.py
+alibabacloud_captcha20230305/client.py
+alibabacloud_captcha20230305/models.py
+alibabacloud_captcha20230305.egg-info/PKG-INFO
+alibabacloud_captcha20230305.egg-info/SOURCES.txt
+alibabacloud_captcha20230305.egg-info/dependency_links.txt
+alibabacloud_captcha20230305.egg-info/requires.txt
+alibabacloud_captcha20230305.egg-info/top_level.txt

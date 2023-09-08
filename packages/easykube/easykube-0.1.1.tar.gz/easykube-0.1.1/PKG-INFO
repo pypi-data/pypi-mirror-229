@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: easykube
+Version: 0.1.1
+Summary: Simple, asynchronous Python client for Kubernetes.
+Home-page: https://github.com/stackhpc/easykube
+Author: Matt Pryor
+Author-email: matt@stackhpc.com
+License-File: LICENSE
+Requires-Dist: httpx
+Requires-Dist: pyyaml
+
+# easykube
+
+A simple, asynchronous Python client for Kubernetes.

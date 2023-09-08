@@ -1,0 +1,13 @@
+fief_client/__init__.py,sha256=bqBYDccVJICp2RJmkEZq0IwApJG0tcPV-vebw2NoLho,818
+fief_client/client.py,sha256=NiSca2Q9q_boeDp7B9J7Kb6qDVHvrOtAH87ZStxQYQ0,44972
+fief_client/crypto.py,sha256=-kN5e-BUZaiFsk29Ava2z2EeVcyQ2VbyY38NSaBKyic,789
+fief_client/pkce.py,sha256=zSevGT4KxMuQnIo9QBaH_zCL-ryN9hK1wcGDzjwyUGE,867
+fief_client/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fief_client/integrations/__init__.py,sha256=O6cA3RvXjPi-0ZdYMdkgO8eUhGw2EdTHs_FFa74ItmY,71
+fief_client/integrations/cli.py,sha256=lQS2VMfuKwZZ6HXJZVuuzWaMnQhCDuvTFrRdyU1b-B8,12587
+fief_client/integrations/fastapi.py,sha256=QbPCigqFxwxipzrrShKDiX7hleaLEF84i64uiloqa40,12140
+fief_client/integrations/flask.py,sha256=rNq5xDBEFcikb9taYhPHJ3hpqa7bvM3gqGFWNXBuydQ,10041
+fief_client-0.18.1.dist-info/METADATA,sha256=tE6c3vxC-lxEW_PuTmcc3jD4o1YUr0_AvlVTzEOWGkA,2131
+fief_client-0.18.1.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+fief_client-0.18.1.dist-info/licenses/LICENSE,sha256=7yljrPuIrncC1UoExG4HOnxziegAGklXwY9qhLCp4n0,1072
+fief_client-0.18.1.dist-info/RECORD,,

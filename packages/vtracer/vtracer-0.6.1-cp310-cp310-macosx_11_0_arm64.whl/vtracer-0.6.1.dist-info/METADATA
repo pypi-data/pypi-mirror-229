@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: vtracer
+Version: 0.6.1
+Summary: A cmd app to convert images into vector graphics.
+Keywords: svg,computer-graphics
+Home-Page: http://www.visioncortex.org/vtracer
+Author: Chris Tsang <tyt2y7@gmail.com>
+Author-email: Chris Tsang <tyt2y7@gmail.com>
+License: MIT OR Apache-2.0
+Project-URL: Source Code, https://github.com/visioncortex/vtracer/

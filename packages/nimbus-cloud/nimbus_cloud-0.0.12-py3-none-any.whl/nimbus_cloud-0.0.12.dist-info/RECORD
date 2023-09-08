@@ -1,0 +1,10 @@
+nimbus/__init__.py,sha256=F0HS7pPiYrxRWk-X2QuU4tXS1IcE5m2oTL2yYI81AIE,21
+nimbus/config.txt,sha256=BTdh3Wc_w39CU3xHZ6FRhgf_p_ANSFlygi8y4GM_0KY,20
+nimbus/nimbus.py,sha256=WH7U2eS2fbeOKszCUg6M_BuyKQhwk0mx9gd0zzTd9L0,10755
+nimbus/nimbus_cli.py,sha256=i8YXUBuvT6CleRbvKzbMqNSGM0CnQVA5RKrsYaGQcd0,5017
+nimbus/server_public_key.txt,sha256=LKuXiHUnVm5AnCeG9uFEv4jlIS-7Vfl0PKh2RNiVaWw,426
+nimbus_cloud-0.0.12.dist-info/METADATA,sha256=zwPmVEcrL-KE5N1bl3_Td5MxMHOCCFvy4SL0XEDcl1I,4304
+nimbus_cloud-0.0.12.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+nimbus_cloud-0.0.12.dist-info/entry_points.txt,sha256=5IOV8vQtGYVye4V1jV6oBWeSAIRS9ESbkC1VxiI7Z3w,50
+nimbus_cloud-0.0.12.dist-info/top_level.txt,sha256=teRrpKmbQVCOUOPklpnnL0QwECNgnM1HVjeJGUlA7fA,7
+nimbus_cloud-0.0.12.dist-info/RECORD,,

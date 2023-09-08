@@ -1,0 +1,13 @@
+adafruit_hid/__init__.py,sha256=dRxQJ37QfjqNHXX5sIz59Jc0ZKWdqEy-RGWk8Wbkr8s,1256
+adafruit_hid/consumer_control.py,sha256=dlYiG8Exc2_ry2YBZUGgm3fBXT4-_9Cvc12oioLnmk8,3419
+adafruit_hid/consumer_control_code.py,sha256=2S7D5I_UpOuTaeOA7CilvWAB6cDwVmtmOEaBk7h1m_4,1137
+adafruit_hid/keyboard.py,sha256=rA5y6mtaUdF4ClAJn3-phr39lClEyALWROJG4M3pagM,6904
+adafruit_hid/keyboard_layout_base.py,sha256=MNj2UHlEKg7LwdRCvG0EheVbfgyODilQIZCKpgMZOBI,7227
+adafruit_hid/keyboard_layout_us.py,sha256=8Ez1e9HPgIHZhHSHl-LAwjRsbe4DUmgA3PkyEgBL17Q,5197
+adafruit_hid/keycode.py,sha256=UW49MX7tbQezZZZiM1DzEfnLW8g-IleomZm6KZuKKFc,7803
+adafruit_hid/mouse.py,sha256=o9ZvoXGbl-dD_BN9cVaqDH44y8cUPUJJJLp9kKgpAZs,4720
+adafruit_circuitpython_hid-5.4.0.dist-info/LICENSE,sha256=RcqWxQn6P64Z_WpV7l0MuiJ0a0GssQqyA30-zm9Kky4,1106
+adafruit_circuitpython_hid-5.4.0.dist-info/METADATA,sha256=HE6-t6FTj2-BAPxMy-cj2iYWge_6sQpWN1DunxIW5zY,6188
+adafruit_circuitpython_hid-5.4.0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+adafruit_circuitpython_hid-5.4.0.dist-info/top_level.txt,sha256=BVoaMxiAdoHpBrJzGV6kooGAiGqgf7iMY7JyevTs9aA,13
+adafruit_circuitpython_hid-5.4.0.dist-info/RECORD,,

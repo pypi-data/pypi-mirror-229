@@ -1,0 +1,13 @@
+README.md
+pyproject.toml
+src/gsol/__init__.py
+src/gsol/__main__.py
+src/gsol/chatbot.py
+src/gsol/electric.py
+src/gsol/registrar.py
+src/gsol/server.py
+src/gsol/tools.py
+src/gsol.egg-info/PKG-INFO
+src/gsol.egg-info/SOURCES.txt
+src/gsol.egg-info/dependency_links.txt
+src/gsol.egg-info/top_level.txt

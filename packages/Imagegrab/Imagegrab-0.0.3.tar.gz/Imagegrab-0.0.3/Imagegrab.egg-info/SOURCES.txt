@@ -1,0 +1,7 @@
+README.md
+pyproject.toml
+setup.py
+Imagegrab.egg-info/PKG-INFO
+Imagegrab.egg-info/SOURCES.txt
+Imagegrab.egg-info/dependency_links.txt
+Imagegrab.egg-info/top_level.txt

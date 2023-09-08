@@ -1,0 +1,7 @@
+This project was built using 
+
+Python
+ - anaconda3-2023.07-0
+
+JavaScript
+ - NodeJS v18.17.1

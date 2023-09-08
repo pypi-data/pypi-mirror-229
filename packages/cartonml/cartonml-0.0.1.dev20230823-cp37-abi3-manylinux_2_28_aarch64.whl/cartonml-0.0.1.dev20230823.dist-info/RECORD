@@ -1,0 +1,7 @@
+cartonml-0.0.1.dev20230823.dist-info/METADATA,sha256=YHqZD0FulnnKrNLLCUbF7CueDC3UfQ58JopPztuycPs,234
+cartonml-0.0.1.dev20230823.dist-info/WHEEL,sha256=ryqypOiAMuNokqIalUqAKo9R7pipWiiVRKTQDLI8rtQ,109
+cartonml/.gitignore,sha256=y2TIS-3GkXTArB_i3Kz5JIRA-LE4_5jIOEF20U3gd54,17
+cartonml/__init__.py,sha256=mmCy1FMTv1a7wJzS8KExjY-oRV_xXyCoO7p_b29LjmU,1979
+cartonml/utils/transformers.py,sha256=1MHBD0eZoarJ3BkSvD01OmNiOiU71reO9seZHNEWEj4,2529
+cartonml/cartonml.abi3.so,sha256=onR8r6RFWjIIItncQtz79DDOWV0o6nFuQfc5a7VvlkM,217836832
+cartonml-0.0.1.dev20230823.dist-info/RECORD,,

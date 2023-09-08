@@ -1,0 +1,3 @@
+[console_scripts]
+abla_train = tutils.trainer.ablation_exec:execute
+trans_build = tutils.tutils.build_proj:main

@@ -1,0 +1,14 @@
+cardscan/__init__.py,sha256=E8i8AM28tHlujW3xJx8_txub2DyarMZFq_QFz0fwm2M,42
+cardscan/image_processing/__init__.py,sha256=7oQtlngfHqrFIewvDzMw3zHYecXTgmrJNPWEB63puR4,77
+cardscan/image_processing/colors.py,sha256=wuTACZYyQPJsrw_SRZrOPv7ITwQXW3KSA_k_4GAL3n0,782
+cardscan/image_processing/frame_contour.py,sha256=ByJ-pePE9lDlyd8q8QKR5IRdQ4czLoG9yLCQC8SWRYI,2125
+cardscan/image_processing/transforms.py,sha256=GcIcK598b8u5rgI-dZDn1chbdfU3tJbY_p-iJUwh7js,2754
+cardscan/pipeline/__init__.py,sha256=MT8vmS-9PCMCZc0GmsjGP_GkNEhzMq-bQd0ls9Ju778,24
+cardscan/pipeline/pipeline.py,sha256=u9UGr78GXbbKSOOYuzIWBy6hITZQFpPruHYCQl88SYs,2990
+cardscan/pipeline_instances/__init__.py,sha256=rw5ZQtsBA8K5MpjhGluibnf62BQ9n7_Vwj9mivaVzHo,41
+cardscan/pipeline_instances/rect_perspective_pipeline.py,sha256=e6oTNeT78-z3F2TBod-22lQ4uC_7Mhnp0u27Zyep6O4,2929
+cardscan/visualize_pipeline_app/__init__.py,sha256=V3D1RwLJOWHtA29Pxx6d0MyVxA4dZTYth9fbF3-XCwE,44
+cardscan/visualize_pipeline_app/visualize_pipeline_app.py,sha256=BgZENzweKSqWFKj8ljeT_D-0FGvvJQ32RNyxc95d1g4,4579
+cardscan-0.2.0.dist-info/METADATA,sha256=yoqMWT8tAVm4lUHra7YvoAEVL2VvUjvGjMu64GnwUV0,1393
+cardscan-0.2.0.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+cardscan-0.2.0.dist-info/RECORD,,

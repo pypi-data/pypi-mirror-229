@@ -1,0 +1,8 @@
+[project]
+name = "mars_uartCmd"
+version = "0.0.4"
+dependencies = [
+    "numpy",
+    "pyserial",
+    "tqdm",
+]

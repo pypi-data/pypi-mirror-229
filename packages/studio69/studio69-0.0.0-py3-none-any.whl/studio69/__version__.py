@@ -1,0 +1,5 @@
+__title__ = "studio69"
+__description__ = "Studio 69"
+__version__ = "0.0.0"
+__author__ = "Trevor Hobenshield"
+__license__ = "MIT"

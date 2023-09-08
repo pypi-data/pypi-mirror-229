@@ -1,0 +1,17 @@
+LICENSE
+README.md
+pyproject.toml
+django_tidb/__init__.py
+django_tidb/base.py
+django_tidb/features.py
+django_tidb/functions.py
+django_tidb/introspection.py
+django_tidb/operations.py
+django_tidb/schema.py
+django_tidb/version.py
+django_tidb.egg-info/PKG-INFO
+django_tidb.egg-info/SOURCES.txt
+django_tidb.egg-info/dependency_links.txt
+django_tidb.egg-info/top_level.txt
+tests/test_tidb_ddl.py
+tests/test_tidb_explain.py

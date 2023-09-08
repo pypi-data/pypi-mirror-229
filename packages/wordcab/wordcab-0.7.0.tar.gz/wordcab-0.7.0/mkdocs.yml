@@ -1,0 +1,85 @@
+site_name: Wordcab
+site_url: https://github.com/Wordcab/wordcab-python
+site_author: Wordcab
+site_description: 📖 Transcribe and Summarize any business communication at scale with Wordcab's API
+
+repo_name: Wordcab/wordcab-python
+repo_url: https://github.com/Wordcab/wordcab-python
+
+copyright: Copyright (c) 2022-present Wordcab <info@wordcab.com>
+
+theme:
+  name: material
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: amber
+      toggle:
+        icon: material/lightbulb
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: amber
+      toggle:
+        icon: material/lightbulb-outline
+        name: Switch to light mode
+  font:
+    text: Roboto
+    code: Roboto Mono
+  icon:
+    logo: material/microphone-message
+  features:
+    - content.tabs.link
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true 
+  - pymdownx.tasklist:
+      custom_checkbox: true
+
+plugins:
+  - search:
+  - git-revision-date-localized:
+      type: timeago
+      enable_creation_date: true
+  - mkdocstrings:
+      handlers:
+        python:
+          options:
+            docstring_style: numpy
+            show_root_full_path: false
+            show_root_heading: false
+            show_root_toc_entry: false
+            show_symbol_type_toc: true
+
+extra:
+  social:
+    - icon: fontawesome/brands/python
+      link: https://pypi.org/project/wordcab
+    - icon: fontawesome/brands/github
+      link: https://github.com/Wordcab
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/company/wordcab
+
+nav:
+  - 🤝 Getting Started: index.md
+  - 📖 Usage: usage.md
+  - 🔎 API Reference:
+    - Client: reference/client.md
+    - Core Objects:
+      - Job: reference/core_objects/job.md
+      - Source: reference/core_objects/source.md
+      - Stats: reference/core_objects/stats.md
+      - Summary: reference/core_objects/summary.md
+      - Transcript: reference/core_objects/transcript.md
+    - Simple functions: reference/simple_functions.md
+  - 🚀 Contributing: contributing.md
+  - 📝 License: license.md
+  - 📚 Code of Conduct: codeofconduct.md

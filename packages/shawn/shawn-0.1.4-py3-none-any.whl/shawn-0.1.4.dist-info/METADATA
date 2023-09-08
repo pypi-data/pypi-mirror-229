@@ -1,0 +1,81 @@
+Metadata-Version: 2.1
+Name: shawn
+Version: 0.1.4
+Summary: Use ChatGPT from terminal
+Home-page: https://pypi.org/project/shawn
+License: MIT
+Author: William Bonvini
+Author-email: william.bonvini@outlook.com
+Requires-Python: >=3.8,<4.0
+Classifier: Development Status :: 1 - Planning
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: halo (>=0.0.31,<0.0.32)
+Requires-Dist: minilog
+Requires-Dist: openai (>=0.27.6,<0.28.0)
+Requires-Dist: rich (>=13.3.5,<14.0.0)
+Requires-Dist: typer[all] (>=0.9.0,<0.10.0)
+Project-URL: Documentation, https://shawn.readthedocs.io
+Project-URL: Repository, https://github.com/WilliamBonvini/shawn
+Description-Content-Type: text/markdown
+
+# Shawn
+[![PyPI License](https://img.shields.io/pypi/l/shawn.svg)](https://pypi.org/project/shawn)
+[![PyPI Version](https://img.shields.io/pypi/v/shawn.svg)](https://pypi.org/project/shawn)
+[![PyPI Downloads](https://img.shields.io/pypi/dm/shawn.svg?color=orange)](https://pypistats.org/packages/shawn)
+<div style="text-align: center;">
+  <img src="docs/imgs/shawn.png" style="width: 20%; height: auto;">
+</div>
+
+Shawn is a dog.  
+Shawn is a software engineer.   
+Shawn is, most importantly, a command line chatbot that provides you with well formatted answers to you code related questions. 
+
+![Alt Text](docs/demo.gif)
+
+## Setup
+
+### Requirements
+
+* Python 3.8+
+
+### Installation
+
+Install it with pip
+
+```text
+$ pip install shawn
+```
+
+or add it to your [Poetry](https://poetry.eustace.io/) project:
+
+```text
+$ poetry add shawn
+```
+
+## Usage
+
+After installation, you can start chatting with the following command:
+
+```bash
+$ shawn chat
+
+```
+or ask Shawn to explain your source code in natural language
+
+```bash
+$ shawn dig path/to/file.c
+```
+
+```bash
+$ shawn dig path/to/folder
+```
+
+

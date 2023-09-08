@@ -1,0 +1,11 @@
+biobb_godmd/__init__.py,sha256=JhbUxt2Ve_4InpJWJP9SeaFN9RIwFqYBmSTdDU3ZZc8,63
+biobb_godmd/godmd/__init__.py,sha256=C0RoEDjfpfHT45IPh6C1vRr513IGWXAK02WiGUrDCUQ,53
+biobb_godmd/godmd/common.py,sha256=xgag7Asb7x3kJlXIPZSrkVaXggtOlNI9Fqp-w3I9UZg,2281
+biobb_godmd/godmd/godmd_prep.py,sha256=WSN-jUe8BSmDqRdcwp-1vWcz3zeyb28eP4BcmimYlzY,16841
+biobb_godmd/godmd/godmd_run.py,sha256=W5RMKDQ-EUzckXUl5vlWtxtovlPmD3oPUlAVNStIxng,16003
+biobb_godmd-4.1.0.dist-info/LICENSE,sha256=WNHhf_5RCaeuKWyq_K39vmp9F28LxKsB4SpomwSZ2L0,11357
+biobb_godmd-4.1.0.dist-info/METADATA,sha256=MHwm5kL3bbx_5WpN9obOwQkP0R8--Iz31-wcchqvaRU,1044
+biobb_godmd-4.1.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+biobb_godmd-4.1.0.dist-info/entry_points.txt,sha256=fUaITPIpSKHv6JpsSIm0yY7Wf2WobM7dV3AoR1RRexo,110
+biobb_godmd-4.1.0.dist-info/top_level.txt,sha256=-kCayq2_rEev9qSUv3YLzgH6c8IKedKy6SkeIFhao0g,12
+biobb_godmd-4.1.0.dist-info/RECORD,,

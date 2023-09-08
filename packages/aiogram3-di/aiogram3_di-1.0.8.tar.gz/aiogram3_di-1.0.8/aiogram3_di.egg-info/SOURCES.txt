@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.py
+aiogram3_di/__init__.py
+aiogram3_di/_version.py
+aiogram3_di/depends.py
+aiogram3_di/middleware.py
+aiogram3_di/resolver.py
+aiogram3_di/utils.py
+aiogram3_di.egg-info/PKG-INFO
+aiogram3_di.egg-info/SOURCES.txt
+aiogram3_di.egg-info/dependency_links.txt
+aiogram3_di.egg-info/requires.txt
+aiogram3_di.egg-info/top_level.txt

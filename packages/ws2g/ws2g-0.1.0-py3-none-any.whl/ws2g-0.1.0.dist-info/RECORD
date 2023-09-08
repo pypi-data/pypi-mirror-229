@@ -1,0 +1,13 @@
+ws2g/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ws2g/custom_content_parser/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ws2g/custom_content_parser/custom_content_parser.py,sha256=TI4_qGDJ2yFu092fne-AlUnoaGL-1bM0OGT4HP7sNHU,4995
+ws2g/main.py,sha256=gvnG-B6PcTQN5ua2eu9cIMh0gDjr_raCseRzcB_ftzg,2124
+ws2g/repository/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ws2g/repository/repository.py,sha256=tWI0fQBoJH-grEOZrwfWVOByBXGZL2vSuKvS-YY6hVk,1118
+ws2g/repository/sqlrepository.py,sha256=zeWUEf2vQqL7gyZXAwdVZeXnfN55p7-DgwQZduWcjpQ,3872
+ws2g/views/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ws2g/views/views.py,sha256=pqda410Mw6FQlDb1Dq-xeRCJg4NN6mLBIK1wxJJ6SOs,4086
+ws2g-0.1.0.dist-info/LICENSE,sha256=jEgjdD8BvH1uBU96fFHavtLypd_W0T7-uenxNZsdqkU,1087
+ws2g-0.1.0.dist-info/METADATA,sha256=UXmEW7uxifMsLfN9qHLjoYVTQ838IucQtk_GckuB0MU,4499
+ws2g-0.1.0.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+ws2g-0.1.0.dist-info/RECORD,,

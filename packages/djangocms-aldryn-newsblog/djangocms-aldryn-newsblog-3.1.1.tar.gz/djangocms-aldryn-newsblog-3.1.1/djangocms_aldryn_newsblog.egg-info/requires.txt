@@ -1,0 +1,13 @@
+aldryn-apphooks-config
+djangocms-aldryn-categories
+djangocms-aldryn-common
+djangocms-aldryn-people
+djangocms-aldryn-translation-tools
+backport-collections
+djangocms-text-ckeditor
+django-taggit
+python-dateutil
+lxml
+
+[test]
+pytz

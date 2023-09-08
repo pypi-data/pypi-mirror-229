@@ -1,0 +1,12 @@
+lib_sys/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+lib_sys/auth_manager.py,sha256=jM-pT8ZAKr22guMYGFwnwQiUwXI1PBlurgXQ0yQSFuc,1170
+lib_sys/lib_manager.py,sha256=W2AwCGhVUbr2wMKQFX7fYoREJ4K54cWEGU4Mn3K7kqA,1797
+lib_sys/library.py,sha256=OfE5uev3cgKGbhBqKYx9bmhAnXZHxQP2fLZCc9MoD1M,5064
+lib_sys/qr_code.py,sha256=18NNMBQ3Z0Bg9kaGYNqmRNvcTnQ9KXiJuIJszu82YHk,1082
+lib_sys/student.py,sha256=5skJIBBS0Xm00Lq4TWP6gKPzVBx0GDocrqx05nXP5j8,5386
+lib_sys/test.py,sha256=vead9NGTYu5Klxd1bO1EJkqiM-MSm3wRh_TnYV8Y_o8,5734
+BookWise-1.2.2.dist-info/METADATA,sha256=sj0pRiDoPnB7Gil-PpMely0j1fGx14di_ZEpNDid0jE,656
+BookWise-1.2.2.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+BookWise-1.2.2.dist-info/entry_points.txt,sha256=pWy0S6u1J3PrGCGOtLze0cx8ZfwOURO3t_j3iIKNfsY,46
+BookWise-1.2.2.dist-info/top_level.txt,sha256=Yu_kPDFxVUppKXpTdkYPUMzEf8dlJ42cogFtlY31HIo,8
+BookWise-1.2.2.dist-info/RECORD,,

@@ -1,0 +1,10 @@
+foreqast/__init__.py,sha256=R88XmgnTR5xfvLM7OLVttpUSsmIYEAqhW_s6Zd6OAl0,35
+foreqast/client.py,sha256=I1y_ZzUCj2y3QeHT2H77h-6B9m0ZW4ALvyMvNUjuU6c,2278
+foreqast/vrp/__init__.py,sha256=Rq6_FK_ama1OLazJPkmyFLRseTzDTpbL4se-TK9rJ9Q,146
+foreqast/vrp/data_types.py,sha256=kzGYltt23_naGZFldKFp4UFA3xiiTdp8Y5XdFKQEo8c,3106
+foreqast/vrp/utils.py,sha256=BVCiL4_W-uA2QAaN_gJ5jhDENCVjCrss-uuB-Rc-C_k,2937
+foreqast/vrp/vrp.py,sha256=UsKC1fPTtlaKIRJAf3Ojp62efZKMM0HkkWiDzYrLTDY,5222
+foreqast_client-0.1.0.dist-info/METADATA,sha256=xKbVTHMrsgvKlmFpP1r6LJNEswCepzQsSOXY8RwlSmA,215
+foreqast_client-0.1.0.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+foreqast_client-0.1.0.dist-info/top_level.txt,sha256=VsYDVxdiTHlVokh4cL9AEZufdjPK5JQrenQ8xR5lIIA,9
+foreqast_client-0.1.0.dist-info/RECORD,,

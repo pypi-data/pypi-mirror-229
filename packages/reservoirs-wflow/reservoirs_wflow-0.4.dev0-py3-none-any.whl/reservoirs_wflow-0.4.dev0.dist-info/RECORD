@@ -1,0 +1,9 @@
+reservoirs_wflow/__init__.py,sha256=le2WB1ol2dAxQYjcRe-jTeNLkyL1l4AwfW60uTTClbc,128
+reservoirs_wflow/reservoirs.py,sha256=j8gzTzkHNwikrLqHfYWCmzC3NNVjowpRkBJeIfCWe_s,6191
+reservoirs_wflow/rules.py,sha256=3UnYeUIcU6W5zk9YDHSTJ_OUEEETE9vtlFXepswR_4g,5394
+reservoirs_wflow-0.4.dev0.dist-info/LICENSE,sha256=dSfZv6MEXxfaZdhqfHx90ccyDdew9IIuZYKNhBN_L30,1108
+reservoirs_wflow-0.4.dev0.dist-info/METADATA,sha256=7o7VmW-VD-2Ujph8g3LbbFcpvWiYilz2EANLYJ3Q6wE,2085
+reservoirs_wflow-0.4.dev0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+reservoirs_wflow-0.4.dev0.dist-info/entry_points.txt,sha256=j4KgHXbVGbGyfTySc1ypBdERpfihO4WNjppvCdE9HjE,52
+reservoirs_wflow-0.4.dev0.dist-info/top_level.txt,sha256=u3x0M-LsvhOUqV6woHwtCfW_4ri1b3LglBPU52CQtOw,17
+reservoirs_wflow-0.4.dev0.dist-info/RECORD,,

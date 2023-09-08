@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+fileaccess/__init__.py
+fileaccess.egg-info/PKG-INFO
+fileaccess.egg-info/SOURCES.txt
+fileaccess.egg-info/dependency_links.txt
+fileaccess.egg-info/top_level.txt

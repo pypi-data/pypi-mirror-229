@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+princurve/__init__.py
+princurve/glob.py
+princurve/local.py
+princurve.egg-info/PKG-INFO
+princurve.egg-info/SOURCES.txt
+princurve.egg-info/dependency_links.txt
+princurve.egg-info/requires.txt
+princurve.egg-info/top_level.txt

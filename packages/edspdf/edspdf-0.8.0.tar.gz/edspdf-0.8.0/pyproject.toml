@@ -1,0 +1,195 @@
+[project]
+name = "edspdf"
+description = "Smart text extraction from PDF documents"
+authors = [
+    { name = "Perceval Wajsburt", email = "perceval.wajsburt-ext@aphp.fr" },
+    { name = "Alice Calliger", email = "alice.calliger-ext@aphp.fr" },
+    { name = "Basile Dura", email = "basile.dura-ext@aphp.fr" },
+]
+license = { file = "LICENSE" }
+readme = "README.md"
+urls.homepage = "https://github.com/aphp/edspdf/"
+urls.repository = "https://github.com/aphp/edspdf/"
+urls.documentation = "https://aphp.github.io/edspdf/"
+dynamic = ["version"]
+requires-python = ">3.7.6,<4.0,!=3.8.1"
+
+dependencies = [
+    "anyascii>=0.3.2",
+    "scikit-learn>=1.0.2,<2.0.0",
+    "pydantic>=1.2,<2.0.0",
+    "catalogue~=2.0",
+    "networkx~=2.6",
+    "confit>=0.4.3,<1.0.0",
+    "foldedtensor>=0.3.1,<1.0.0",
+    "torch>1.0.0",
+    "accelerate>=0.12.0,<1.0.0",
+    "tqdm~=4.64.1",
+    "regex",
+    "pdfminer.six>=20220319",
+    "pypdfium2~=2.7",
+    "rich-logger>=0.3.0,<1.0.0",
+    "safetensors~=0.3.1",
+    "anyascii>=0.3.2",
+    "attrs~=23.1",
+    "build>=0.10.0",
+    "loguru",
+]
+
+
+[tool.hatch.envs.default]
+dependencies = [
+    "pip",
+    "poetry",
+    "pandas>=1.2,<2.0.0",
+    "black==22.6.0",
+    "flake8>=3.0",
+    "pre-commit>=2.18",
+    "pytest==7.1.1",
+    "pytest-cov==3.0.0",
+    "mypy>=1.0.0",
+    "streamlit>=1.19",
+    "coverage>=6.5.0",
+    "datasets~=2.10",
+    "huggingface_hub>=0.8.1",
+    "transformers~=4.30",
+]
+
+[tool.hatch.envs.default.scripts]
+tests = "pytest --cov=edspdf --cov-report=term-missing --cov-report=xml"
+
+[tool.hatch.envs.docs]
+dependencies = [
+    "mike~=1.1.2",
+    "mkdocs@git+https://github.com/mkdocs/mkdocs.git@5af8bd30538ff8f0cfb698c8b90c3020da319f92",
+    "mkdocstrings~=0.20",
+    "mkdocstrings-python~=1.1",
+    "mkdocs-autorefs@git+https://github.com/percevalw/mkdocs-autorefs.git@0.4.1.post0",
+    "mkdocs-autolinks-plugin~=0.7.1",
+    "mkdocs-gen-files~=0.4.0",
+    "mkdocs-literate-nav~=0.6.0",
+    "mkdocs-material~=9.1.0",
+    "mkdocs-glightbox~=0.3.1",
+    "pybtex~=0.24.0",
+]
+
+[tool.hatch.envs.docs.scripts]
+build = "mkdocs build --site-dir public --clean"
+serve = "mkdocs serve"
+
+[tool.hatch.version]
+path = "edspdf/__init__.py"
+
+[project.entry-points."edspdf_factories"]
+# Extractors
+"pdfminer-extractor" = "edspdf.pipes.extractors.pdfminer:PdfMinerExtractor"
+
+# Misc
+"box-preprocessor" = "edspdf.pipes.embeddings.box_layout_preprocessor:BoxLayoutPreprocessor"
+
+# Embeddings
+"huggingface-embedding" = "edspdf.pipes.embeddings.huggingface_embedding:HuggingfaceEmbedding"
+"simple-text-embedding" = "edspdf.pipes.embeddings.simple_text_embedding:SimpleTextEmbedding"
+"sub-box-cnn-pooler" = "edspdf.pipes.embeddings.sub_box_cnn_pooler:SubBoxCNNPooler"
+"embedding-combiner" = "edspdf.pipes.embeddings.embedding_combiner:EmbeddingCombiner"
+"box-layout-embedding" = "edspdf.pipes.embeddings.box_layout_embedding:BoxLayoutEmbedding"
+"box-transformer" = "edspdf.pipes.embeddings.box_transformer:BoxTransformer"
+
+# Classifiers
+"mask-classifier" = "edspdf.pipes.classifiers.mask:simple_mask_classifier_factory"
+"multi-mask-classifier" = "edspdf.pipes.classifiers.mask:mask_classifier_factory"
+"trainable-classifier" = "edspdf.pipes.classifiers.trainable:TrainableClassifier"
+"random-classifier" = "edspdf.pipes.classifiers.random:RandomClassifier"
+"dummy-classifier" = "edspdf.pipes.classifiers.dummy:DummyClassifier"
+# "harmonized-classifier    " = "edspdf.pipes.classifiers.harmonized_classifier:HarmonizedClassifier"
+
+# Aggregators
+"simple-aggregator" = "edspdf.pipes.aggregators.simple:SimpleAggregator"
+
+[project.entry-points."edspdf_accelerator"]
+"simple" = "edspdf.accelerators.simple:SimpleAccelerator"
+"multiprocessing" = "edspdf.accelerators.multiprocessing:MultiprocessingAccelerator"
+
+[project.entry-points."mkdocs.plugins"]
+
+"bibtex" = "docs.scripts.bibtex:BibTexPlugin"
+
+[tool.interrogate]
+ignore-init-method = true
+ignore-init-module = true
+ignore-magic = false
+ignore-semiprivate = false
+ignore-private = false
+ignore-property-decorators = false
+ignore-module = true
+ignore-nested-functions = false
+ignore-nested-classes = true
+ignore-setters = false
+fail-under = 10
+exclude = ["docs", "build", "tests"]
+verbose = 0
+quiet = false
+whitelist-regex = []
+color = true
+omit-covered-files = false
+
+[tool.coverage.run]
+concurrency = ["multiprocessing"]
+
+[tool.coverage.report]
+omit = [
+    "tests/*",
+]
+# omit = [
+#     "edspdf/accelerators/multiprocessing.py",
+# ]
+exclude_also = [
+    "def __repr__",
+    "if __name__ == .__main__.:",
+    "@overload",
+    "pragma: no cover",
+    "raise .*Error",
+    "raise .*Exception",
+    "if __name__ == .__main__.:",
+    "if (self[.])?name in exclude:",
+    "if TYPE_CHECKING:",
+    "class .*\\bProtocol\\):",
+    "@(abc\\.)?abstractmethod",
+]
+
+[tool.pytest.ini_options]
+testpaths = [
+    "tests",
+]
+
+[tool.mypy]
+plugins = "pydantic.mypy"
+
+[tool.ruff]
+fix = true
+exclude = [
+    ".git",
+    "__pycache__",
+    "__init__.py",
+    ".mypy_cache",
+    ".pytest_cache",
+    ".venv",
+    "build",
+]
+ignore = []
+line-length = 88
+select = [
+    "E",
+    "F",
+    "W",
+    "I001"
+]
+fixable = ["E", "F", "W", "I"]
+
+[tool.ruff.isort]
+    known-first-party = ["edspdf"]
+    known-third-party = ["build"]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"

@@ -1,0 +1,69 @@
+# This workflow will upload a Python Package using Twine when a release is created
+# For more information see: https://help.github.com/en/actions/language-and-framework-guides/using-python-with-github-actions#publishing-to-package-registries
+
+# This workflow uses actions that are not certified by GitHub.
+# They are provided by a third-party and are governed by
+# separate terms of service, privacy policy, and support
+# documentation.
+
+name: Release
+
+on:
+  workflow_dispatch:
+  release:
+    types: [published]
+
+jobs:
+  build:
+    name: Build package
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Build sdist
+        run: pipx run build --sdist --wheel
+
+      - uses: actions/upload-artifact@v3
+        with:
+          path: |
+            dist/*.tar.gz
+            dist/*.whl
+
+  pypi:
+    name: Upload to PyPI
+    needs: [ build ]
+    runs-on: ubuntu-latest
+    permissions:
+      id-token: write
+
+    steps:
+      - uses: actions/download-artifact@v3
+        with:
+          name: artifact
+          path: dist
+      - name: Publish package
+        uses: pypa/gh-action-pypi-publish@release/v1
+
+  documentation:
+    name: Build documentation
+
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-python@v2
+
+      - name: Set PY variable
+        run: echo "PY=$(python -VV | sha256sum | cut -d' ' -f1)" >> $GITHUB_ENV
+
+      - name: Install hatch
+        run: pip install hatch
+
+      - name: Set up Git
+        run: |
+          git config user.name ${{ github.actor }}
+          git config user.email ${{ github.actor }}@users.noreply.github.com
+
+      - name: Build documentation
+        run: |
+          git fetch origin gh-pages
+          hatch -e docs run mike deploy --push --no-redirect --update-aliases $GITHUB_REF_NAME latest

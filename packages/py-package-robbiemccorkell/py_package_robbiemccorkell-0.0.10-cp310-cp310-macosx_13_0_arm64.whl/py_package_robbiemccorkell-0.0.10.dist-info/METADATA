@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: py-package-robbiemccorkell
+Version: 0.0.10
+Summary: Leap Labs Universal Interpretability Engine
+Home-page: https://www.leap-labs.com/
+Author: Jessica Rumbelow
+Author-email: jessica@leap-labs.com
+License: Closed-source
+License-File: LICENSE
+Requires-Dist: tensorflow
+Requires-Dist: ipython
+Requires-Dist: pandas
+Requires-Dist: tqdm
+Requires-Dist: wandb
+

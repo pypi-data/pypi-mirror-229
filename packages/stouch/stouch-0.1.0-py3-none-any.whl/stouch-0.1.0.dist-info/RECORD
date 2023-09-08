@@ -1,0 +1,8 @@
+stouch/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+stouch/base.py,sha256=MLwG_jxtt79_t3FnIO5cDoo0ZLFo3betWpRGcXkjy9A,893
+stouch/cli.py,sha256=tLDCstmzeY1sDPylsM682e2CEjQ1iSDQdgLznuPZWiI,1406
+stouch-0.1.0.dist-info/LICENSE,sha256=1LoZyrxj_B6tolwxpcl9MjAREJ-dcBFkWQJHeYBQKd0,1105
+stouch-0.1.0.dist-info/METADATA,sha256=bK057WswhQ9VT_W5j_9mXLscB6VJyWwQMW0eadFHgy4,1979
+stouch-0.1.0.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+stouch-0.1.0.dist-info/entry_points.txt,sha256=McOIAuq12zwvvAdpq5Lo9QgEYvAaKVUfKMDEM3pPNUg,56
+stouch-0.1.0.dist-info/RECORD,,

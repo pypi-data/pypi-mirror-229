@@ -1,0 +1,3 @@
+[stouch.plugins]
+slugify=plugins.slugify:SlugifyPlugin
+

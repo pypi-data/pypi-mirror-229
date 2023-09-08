@@ -1,0 +1,2 @@
+[nbdev]
+idfunc = idfunc._modidx:d

@@ -1,0 +1,23 @@
+{% load static %}
+{% if reactpy_failure %}
+{% if reactpy_debug_mode %}
+<b>{% firstof reactpy_error "UnknownError" %}:</b> "{% firstof reactpy_dotted_path "UnknownPath" %}"
+{% endif %}
+{% else %}
+<div id="{{ reactpy_uuid }}" class="{{ reactpy_class }}"></div>
+<script type="module" crossorigin="anonymous">
+  import { mountComponent } from "{% static 'reactpy_django/client.js' %}";
+  const mountElement = document.getElementById("{{ reactpy_uuid }}");
+  mountComponent(
+    mountElement,
+    "{{ reactpy_host }}",
+    "{{ reactpy_url_prefix }}",
+    "{{ reactpy_component_path }}",
+    "{{ reactpy_resolved_web_modules_path }}",
+    Number("{{ reactpy_reconnect_interval }}"),
+    Number("{{ reactpy_reconnect_max_interval }}"),
+    Number("{{ reactpy_reconnect_max_retries }}"),
+    Number("{{ reactpy_reconnect_backoff_multiplier }}"),
+  );
+</script>
+{% endif %}

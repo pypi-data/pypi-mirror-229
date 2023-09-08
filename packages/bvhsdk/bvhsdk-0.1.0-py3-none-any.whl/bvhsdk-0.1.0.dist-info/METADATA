@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: bvhsdk
+Version: 0.1.0
+Summary: A package that handles bvh files in python. You can read, write, and modify your bvh files among other useful tools.
+Author-email: Rodolfo Luis Tonoli <rltonoli@gmail.com>
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Dist: matplotlib >= 3.5.3
+Requires-Dist: numpy >= 1.21.6
+Requires-Dist: sphinx >= 7 ; extra == "doc"
+Requires-Dist: furo ; extra == "doc"
+Requires-Dist: sphinx-rtd-theme ; extra == "doc"
+Project-URL: Bug Tracker, https://github.com/rltonoli/bvhsdk/issues
+Project-URL: Homepage, https://github.com/rltonoli/bvhsdk
+Provides-Extra: doc
+
+# bvhsdk

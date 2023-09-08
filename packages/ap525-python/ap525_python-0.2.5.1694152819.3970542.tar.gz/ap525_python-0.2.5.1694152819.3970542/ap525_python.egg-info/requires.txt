@@ -1,0 +1,6 @@
+pythonnet
+pyserial
+PyVISA
+pandas
+psutil
+wheel

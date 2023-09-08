@@ -1,0 +1,6 @@
+[console_scripts]
+composite = rlcms.cli.composite:main
+generate_LC = rlcms.cli.generate_LC:main
+primitives = rlcms.cli.RFprimitives:main
+sample_pts = rlcms.cli.sample_pts:main
+train_test = rlcms.cli.train_test:main

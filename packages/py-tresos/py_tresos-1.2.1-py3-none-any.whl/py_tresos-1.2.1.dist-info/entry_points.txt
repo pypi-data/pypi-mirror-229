@@ -1,0 +1,5 @@
+[console_scripts]
+eb-guide = py_tresos.cli.eb_guide_cli:main
+eb-plugin = py_tresos.cli.eb_plugin_cli:main
+eb-xpath = py_tresos.cli.eb_xpath_cli:main
+

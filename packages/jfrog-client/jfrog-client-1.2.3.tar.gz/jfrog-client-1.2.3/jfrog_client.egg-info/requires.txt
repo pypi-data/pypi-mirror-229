@@ -1,0 +1,5 @@
+requests
+tabulate
+logging
+packaging
+tqdm

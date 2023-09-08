@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: spew
+Version: 1.0.2
+Summary: Spew - A generator for Python. It uses Python to generate valid Python code.
+Author: Anthony Shaw
+Requires-Python: >=3.10
+Classifier: License :: OSI Approved :: MIT License
+Requires-Dist: rich
+Requires-Dist: pytest ; extra == "test"
+Requires-Dist: pytest-repeat ; extra == "test"
+Provides-Extra: test

@@ -1,0 +1,10 @@
+README.md
+setup.py
+src/argscalculator/__init__.py
+src/argscalculator/index.py
+src/argscalculator.egg-info/PKG-INFO
+src/argscalculator.egg-info/SOURCES.txt
+src/argscalculator.egg-info/dependency_links.txt
+src/argscalculator.egg-info/entry_points.txt
+src/argscalculator.egg-info/requires.txt
+src/argscalculator.egg-info/top_level.txt

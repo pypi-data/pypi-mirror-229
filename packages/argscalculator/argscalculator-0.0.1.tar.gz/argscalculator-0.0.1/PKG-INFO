@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: argscalculator
+Version: 0.0.1
+Summary: Django project initialize
+Author: Salman Latif
+Author-email: salu33956@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+#Instruction how to use xyzcalculator
+##Section telling how to install the module
+<p>Just write pip install argscalculator</p>
+##Section telling how to use the module
+<p>Open terminal and go to directory of which you are using this module. Now  pass the arrguments --x (any float value) --y (any float value) --o (any mathematical function ,eg add , sub , mul , div)
+</p>

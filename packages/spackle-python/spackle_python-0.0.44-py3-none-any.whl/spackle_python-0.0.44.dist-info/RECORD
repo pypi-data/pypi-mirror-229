@@ -1,0 +1,16 @@
+spackle/__init__.py,sha256=HmbX-usMfYmC37xrKY7KaeQ_g63ZZTsAd_-oANfyHgE,631
+spackle/constants.py,sha256=w0Y-7akyJpbfQZHAfBiW_bgMvqXrSDG9mEYrdev89rM,44
+spackle/customer.py,sha256=_G_Fvk1u7grenZMloGen2NOWAjd2biKePzTcaM1SmyQ,1755
+spackle/exceptions.py,sha256=IKkq71sxuuY2R9H34Q-L7WY_W-NSmy0IqGF-qYIj16I,44
+spackle/log.py,sha256=Eb74vTYHll0GEEBFZ3CIqAqvWZnY8Qh5ityRbM7N5L0,1871
+spackle/pricing_table.py,sha256=Yu5KJdCjH1kPK3epXssIzER5pDAj2QzxzQQFDbvpdX0,814
+spackle/stores/__init__.py,sha256=ersV6iCno_zLwncRitEg4Q1V2rQmo6v-7yfmigBWFuI,87
+spackle/stores/base.py,sha256=KuYp6vjed8NF6gPjmbRApfNzW-1E-NZZ2x7ndueTXl4,528
+spackle/stores/edge.py,sha256=E6ng1-xav62UUuPqR08ozfFoxx_WaWDnFkeFE2kefOc,1795
+spackle/stores/file.py,sha256=U9tt9SI93Ee4UNZg6zOaRAye2RHSUO_mPtPJ-JdVno4,1702
+spackle/stores/memory.py,sha256=UUE6BlhGglpM_zrecdR-UaLQr3Mt8XpTq2wmKDBrXUw,1197
+spackle/waiters.py,sha256=GzYJhoAgGF4Z--TuIhosmuWa5Wns_sdHcIP8dGY6Kxk,1065
+spackle_python-0.0.44.dist-info/LICENSE,sha256=WRlAIGV7ZNU85dKU9KfCK49Kf8syLeqgvmqMT_Un_Lo,1077
+spackle_python-0.0.44.dist-info/WHEEL,sha256=bbU3AyvhQ312rVm7zzRQjs6axI1UYWC3nmFA2E6FFSI,88
+spackle_python-0.0.44.dist-info/METADATA,sha256=vv6b_r0kTd2e4K7npgMnoWOwLfM0ItjXnYJpcKke1AI,5415
+spackle_python-0.0.44.dist-info/RECORD,,

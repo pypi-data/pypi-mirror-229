@@ -1,0 +1,11 @@
+pyyaml
+rich
+mip>=1.13
+
+[jax]
+jax[cuda11_pip]
+flax
+
+[torch]
+torch
+torchvision

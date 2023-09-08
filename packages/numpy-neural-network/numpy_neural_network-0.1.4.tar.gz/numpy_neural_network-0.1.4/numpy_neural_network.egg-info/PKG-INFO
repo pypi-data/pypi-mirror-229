@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: numpy-neural-network
+Version: 0.1.4
+Summary: A custom neural network implementation in numpy.
+Home-page: https://github.com/AsimWattoo/Numpy_NN_Package.git
+Author: Muhammad Asim
+Author-email: asimwattoo6@gmail.com
+License: BSD 2-clause
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: Freeware
+Classifier: Natural Language :: English

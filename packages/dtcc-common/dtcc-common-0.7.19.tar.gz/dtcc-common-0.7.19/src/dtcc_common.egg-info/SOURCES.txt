@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+src/dtcc_common/__init__.py
+src/dtcc_common/dtcc_logging.py
+src/dtcc_common.egg-info/PKG-INFO
+src/dtcc_common.egg-info/SOURCES.txt
+src/dtcc_common.egg-info/dependency_links.txt
+src/dtcc_common.egg-info/requires.txt
+src/dtcc_common.egg-info/top_level.txt

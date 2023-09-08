@@ -1,0 +1,9 @@
+TAT.cp38-win_amd64.pyd,sha256=IF01_N_vLmvKBJICEaD8x07s8iK9aHxH-ME8QT3f7p4,49084416
+PyTAT-0.3.8.data/platlib/.load-order-PyTAT-0.3.8,sha256=sO9ELg8hP1o664L0r95rVRzStvf1aIbErPy0-PKOxPw,95
+PyTAT-0.3.8.data/platlib/libopenblas-d54d17f357bdff8f5b0b4326a8b4b0a6.dll,sha256=x_UhtQdobdwlvudTioDDdB139be2wSvd9miU5nLuvgs,48536473
+PyTAT-0.3.8.data/platlib/msvcp140-c563956230ad256844020e35ffb2aa5c.dll,sha256=7FK3VWFW3K6unFY4IOM-PV5H1NFinMeJpX1YtxDYoPw,621960
+PyTAT-0.3.8.dist-info/DELVEWHEEL,sha256=ItvzDWO7A6YWlGuEGMbSObCuHbv1KPPeGyJaNqv98B4,446
+PyTAT-0.3.8.dist-info/METADATA,sha256=s1q_eG69nJFvAsBB-f7jQRZFpJ2BCHSJ7FgCnORThrs,23975
+PyTAT-0.3.8.dist-info/RECORD,,
+PyTAT-0.3.8.dist-info/top_level.txt,sha256=NEy1NX8IzL0WkAHS2iFfEQwvqjO69-_nlAY7pqdmyWs,6
+PyTAT-0.3.8.dist-info/WHEEL,sha256=ubKCG5XSDI8ZG5iAwgsAU4yUktRq9BG9Pse4izScbq0,100

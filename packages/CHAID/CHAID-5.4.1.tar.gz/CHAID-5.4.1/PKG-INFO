@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: CHAID
+Version: 5.4.1
+Summary: A CHAID tree building algorithm
+Home-page: https://github.com/Rambatino/CHAID
+Author: Mark Ramotowski, Richard Fitzgerald
+Author-email: mark.tint.ramotowski@gmail.com
+License: Apache License 2.0
+Keywords: CHAID pandas numpy scipy statistics statistical analysis
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Provides-Extra: spss
+Provides-Extra: graph
+Provides-Extra: test
+License-File: LICENSE.txt
+
+This package provides a python implementation of the Chi-Squared Automatic Inference Detection (CHAID) decision tree

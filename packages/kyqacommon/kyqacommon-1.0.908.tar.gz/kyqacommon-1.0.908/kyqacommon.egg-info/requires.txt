@@ -1,0 +1,4 @@
+minio==7.1.13
+pymysql==1.0.3
+progress==1.6
+paramiko==3.2.0

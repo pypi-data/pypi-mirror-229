@@ -1,0 +1,10 @@
+*.py[cod]
+__pycache__/
+*.egg
+*.egg-info/
+.ropeproject
+*.swp
+dist/
+build/
+.idea/
+.cache/

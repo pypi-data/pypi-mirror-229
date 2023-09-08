@@ -1,0 +1,1 @@
+versionFromGradle='3.42.0',projectVersion='3.42.0.3',branch='rel-3.42.0',lastCommitHash='450cdb01c73822dd5ff22b5edc3ab7582fe19807',gitDescribe='jenkins-3.42.0.2-11-g450cdb0',compiledOn='2023-08-22 16:21:36',compiledBy='jenkins'

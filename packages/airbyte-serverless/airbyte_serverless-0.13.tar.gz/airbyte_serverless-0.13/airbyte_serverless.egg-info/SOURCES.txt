@@ -1,0 +1,14 @@
+.gitignore
+LICENSE
+README.md
+logo_and_name.png
+setup.py
+airbyte_serverless/__init__.py
+airbyte_serverless/airbyte_utils.py
+airbyte_serverless/destinations.py
+airbyte_serverless/sources.py
+airbyte_serverless.egg-info/PKG-INFO
+airbyte_serverless.egg-info/SOURCES.txt
+airbyte_serverless.egg-info/dependency_links.txt
+airbyte_serverless.egg-info/requires.txt
+airbyte_serverless.egg-info/top_level.txt

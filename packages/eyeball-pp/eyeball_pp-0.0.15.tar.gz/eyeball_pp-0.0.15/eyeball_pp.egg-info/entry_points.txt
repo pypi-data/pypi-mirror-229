@@ -1,0 +1,3 @@
+[console_scripts]
+evaluate_system = eyeball_pp:evaluate_system_cmd
+rate_recorded_examples = eyeball_pp:rate_recorded_examples_cmd

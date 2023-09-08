@@ -1,0 +1,10 @@
+discord/ext/i18n/__init__.py,sha256=wi4B1gx3qWt424LTeX-UUtElQFCtWePKmOJW4dyDuaw,121
+discord/ext/i18n/agent.py,sha256=28D1VnVO9XVprjmi8CEylejTklrNxZZ-FdC4Ooid4fg,16254
+discord/ext/i18n/cache.py,sha256=J7uUY4gX6uxrRhaU8om0H08rYlPtDgMI06V7xs0FoEI,2496
+discord/ext/i18n/language.py,sha256=kgIf66GHC4rfNZo9Fpov6QjAFGW-FrYpA1cN2yyTlLo,13517
+discord/ext/i18n/preprocess.py,sha256=Btbxh1rGgoCiqHzMVig5cyToRC3HDMf_Tp1SW-SFcbY,14342
+discord_ext_i18n-0.0.8.dist-info/LICENSE,sha256=Re642_hFTyciUT064SvG9pnAXrUVQt7rAWGJSclkO4M,1085
+discord_ext_i18n-0.0.8.dist-info/METADATA,sha256=ElLLHOnonMVqVywtJkDEwnAMxIzBzrehZP-Z4FM31jA,9875
+discord_ext_i18n-0.0.8.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+discord_ext_i18n-0.0.8.dist-info/top_level.txt,sha256=fJkrNbR-_8ubMBUcDEJBcfkpECrvSEmMrNKgvLlQFoM,8
+discord_ext_i18n-0.0.8.dist-info/RECORD,,

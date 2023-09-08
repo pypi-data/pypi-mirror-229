@@ -1,0 +1,6 @@
+atyp
+regsyn
+ispec
+pstr
+
+[dev]

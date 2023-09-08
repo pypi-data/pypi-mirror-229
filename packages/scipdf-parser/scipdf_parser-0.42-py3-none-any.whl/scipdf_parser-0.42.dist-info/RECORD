@@ -1,0 +1,11 @@
+scipdf/__init__.py,sha256=9xcBnQsLUedtWmJrjemwrVTfJYpus-2wGzpeGuIf9KI,131
+scipdf/features/__init__.py,sha256=J5SaJCPXyoDzWlVkf0ghUQomolCq2qQE5rITJe_8bxo,176
+scipdf/features/text_utils.py,sha256=bhKO9D35I0Gq2UHehqQGZmzZ4Cx-XiZu7lwiZcjDIBw,7381
+scipdf/pdf/__init__.py,sha256=qV1lJFLOWQHwY6RRXof5wuKd1fcVdFRAED-9ysQ8NlY,161
+scipdf/pdf/parse_pdf.py,sha256=tfAcqvdu6wQSNeNpMp2lpf7R4ypal6lBB12ShbBUdGE,15700
+scipdf_parser-0.42.data/scripts/serve_grobid.sh,sha256=JZbqNod0OOIZSnAUFz5UdYCz_oDWVO4b4Q5yTQMV0Bk,375
+scipdf_parser-0.42.dist-info/LICENSE.txt,sha256=0_J7InCGnsFgiTuyHlQ6JU1odXgHjO7dD6t58SWWzPQ,1075
+scipdf_parser-0.42.dist-info/METADATA,sha256=jE1_at3c3nPM8UH50hi6rWlGsxsp07uULfxPpxTI8VA,2795
+scipdf_parser-0.42.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+scipdf_parser-0.42.dist-info/top_level.txt,sha256=hdtQPfDhOUFIgiKmU-c4XLNpG_bu-r6AhvvCQfFxAwM,7
+scipdf_parser-0.42.dist-info/RECORD,,

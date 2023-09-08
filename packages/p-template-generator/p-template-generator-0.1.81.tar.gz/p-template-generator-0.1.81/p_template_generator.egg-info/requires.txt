@@ -1,0 +1,6 @@
+requests
+Image
+protobuf
+imagesize
+urlparser
+Pillow

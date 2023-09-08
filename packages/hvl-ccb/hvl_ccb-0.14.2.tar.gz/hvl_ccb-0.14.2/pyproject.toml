@@ -1,0 +1,170 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+authors = [
+    {name = "Mikołaj Rybiński, David Graber, Henrik Menne, Alise Chachereau, Henning Janssen, David Taylor, Joseph Engelbrecht, Chi-Ching Hsu"},
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Education",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+    "Natural Language :: English",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+]
+dependencies = [
+    "pyserial>=3.5",
+    "pymodbus>=3.1.1",
+    "bitstring>=3.1.9",
+    "pyvisa>=1.12.0",
+    "pyvisa-py>=0.5.3",
+    "typeguard>=3.0.0",
+    "aenum>=3.1.11",
+    "asyncua>=1.0.1",
+    "numpy>=1.23.4"
+]
+
+description = "Python common code base to control devices high voltage research devices, in particular, as used in Christian Franck's High Voltage Lab (HVL), D-ITET, ETH"
+dynamic = ["version", "readme"]
+entry-points = {}
+keywords = ["hvl_ccb"]
+license = {text = "GNU General Public License v3"}
+maintainers = [
+    {name = "Chi-Ching Hsu", email = "contact-project+ethz-hvl-hvl-ccb-15975897-issue-@incoming.gitlab.com"},
+    {name = "Henning Janssen", email = "contact-project+ethz-hvl-hvl-ccb-15975897-issue-@incoming.gitlab.com"},
+]
+name = "hvl_ccb"
+requires-python = ">=3.9, <3.11"
+
+[project.optional-dependencies]
+tiepie = ["python-libtiepie-bi"]
+labjack = ["labjack-ljm>=1.21.0"]
+picotech = ["PicoSDK==1.0"]
+all = ["hvl_ccb[tiepie, labjack, picotech]"]
+dev = ["pip>=21.0", "bumpver>=2023.1126", "wheel>=0.36.2","watchdog>=1.0.2","flake8>=3.8.4","flake8-pyproject>=1.2.3","tox>=4.0.15","coverage>=5.4","Sphinx>=3.4.3","sphinx_rtd_theme>=0.5.1","twine>=3.3.0","black>=23.7.0","pre-commit>=2.17","mypy>=0.800","ipython>=7.19.0","ipdb>=0.13.4","pytest>=6.2.2","pytest-cov>=2.11.1","pytest-mock>=3.5.1","pytest-profiling>=1.7.0","pytest-xdist>=2.2.0","isort>=5.12.0"]
+
+[tool.setuptools.dynamic]
+version = {file = ["VERSION"]}
+readme = {file = ["README.rst", "INSTALLATION.rst", "HISTORY.rst"]}
+
+[tool.setuptools.package-data]
+hvl_ccb = ["py.typed"]
+
+[tool.setuptools.packages]
+find = {}
+
+
+[project.urls]
+Homepage = "https://gitlab.com/ethz_hvl/hvl_ccb/"
+Documentation = "https://hvl-ccb.readthedocs.io/en/latest/"
+Repository = "https://gitlab.com/ethz_hvl/hvl_ccb/"
+Changelog = "https://pypi.org/project/hvl-ccb/#history"
+
+[tool.bumpver]
+current_version = "0.14.2"
+version_pattern = "MAJOR.MINOR.PATCH"
+commit_message = "Bump version: {old_version} → {new_version}"
+tag_message = "v{new_version}"
+commit = true
+tag = true
+
+[tool.bumpver.file_patterns]
+"hvl_ccb/__init__.py" = [
+    '^__version__ = "{version}"$',
+]
+"VERSION" = [
+    '{version}$',
+]
+
+[tool.flake8]
+exclude = "docs"
+max-line-length = 88
+extend-ignore = "E203"
+
+[tool.isort]
+profile = "black"
+src_paths = ["hvl_ccb", "examples", "test"]
+extend_skip_glob = ".venv*"
+balanced_wrapping = true
+
+[tool.coverage.report]
+precision = 2
+
+[tool.pytest]
+collect_ignore = ["setup.py"]
+
+[tool.pytest.ini_options]
+filterwarnings = ["ignore::UserWarning"]
+#;    ignore::DeprecationWarning
+
+[tool.mypy]
+plugins = ["numpy.typing.mypy_plugin"]
+
+[[tool.mypy.overrides]]
+module = [
+    "aenum.*",
+    "bitstring.*",
+    "labjack.*",
+    "asyncua.*",
+    "pymodbus.*",
+    "pyvisa.*",
+    "serial.*",
+    "visa.*",
+    "libtiepie.*"
+]
+ignore_missing_imports = true
+
+[tool.aliases]
+test = "pytest"
+
+[tool.bdist_wheel]
+universal = 1
+
+[tool.tox]
+legacy_tox_ini = """
+[tox]
+envlist = py39, py310, flake8, black, mypy, isort
+
+[testenv]
+extras = all, dev
+setenv =
+	PYTHONPATH = {toxinidir}
+deps =
+	PicoSDK@git+https://github.com/trybik/picosdk-python-wrappers.git@fix_lib_load_linux#egg=PicoSDK-1.0
+commands =
+	py.test --cov hvl_ccb --cov-report term --cov-report xml --basetemp={envtmpdir} tests/
+
+[testenv:flake8]
+basepython = python3
+deps = flake8-pyproject
+skip_install = True
+skipsdist = True
+commands = flake8 hvl_ccb tests
+
+[testenv:black]
+basepython = python3
+deps = black
+skip_install = True
+skipsdist = True
+commands = black --check --preview hvl_ccb/ tests/ examples/
+
+[testenv:isort]
+basepython = python3
+deps = isort
+skip_install = True
+skipsdist = True
+commands = isort --check hvl_ccb/ tests/ examples/
+
+[testenv:mypy]
+basepython = python3
+deps =
+	mypy
+	numpy
+skip_install = True
+skipsdist = True
+commands = mypy --show-error-codes hvl_ccb
+"""

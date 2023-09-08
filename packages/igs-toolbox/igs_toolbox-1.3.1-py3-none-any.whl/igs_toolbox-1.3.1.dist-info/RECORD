@@ -1,0 +1,11 @@
+converters/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+converters/convertAnswerSets.py,sha256=SRCpIY4HyV81WBg9-QRbeQFduSyoHiNXl16ZiUprVk4,2117
+converters/convertSeqMetadata.py,sha256=V7gPMjGgZ3kw49Pghqh-6nwvzlWXVFzjzFY9HB4Tpg4,1808
+formatChecker/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+formatChecker/jsonChecker.py,sha256=TIvQQEu45LE8M9QXtIId4r3KY6bfpkCq4L2Irc7LgVw,21892
+igs_toolbox-1.3.1.dist-info/LICENSE,sha256=AUV_Ofuh99YmMzCz5N7_b1V9ju5_VSb4Sql016ESw7I,1068
+igs_toolbox-1.3.1.dist-info/METADATA,sha256=cKCMYkAJPUqloH8bZNtXCGQNGy-xLgVoOIXsYguldq4,2424
+igs_toolbox-1.3.1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+igs_toolbox-1.3.1.dist-info/entry_points.txt,sha256=cOrmZNsyLMUaen2FQ_oXXz8p4AZUVuvUgfwJ7do0Yz8,172
+igs_toolbox-1.3.1.dist-info/top_level.txt,sha256=on1XP_wfc_ccrSZWAoRf0b0_wkZiMX0aoYhoDXNxcTs,25
+igs_toolbox-1.3.1.dist-info/RECORD,,

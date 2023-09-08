@@ -1,0 +1,4 @@
+[console_scripts]
+convertAnswerSet = converters.convertAnswerSets:main
+convertSeqMetadata = converters.convertSeqMetadata:main
+jsonChecker = formatChecker.jsonChecker:main

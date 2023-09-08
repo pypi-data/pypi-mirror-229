@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- Copyright 2023 OpenSynergy Indonesia
+     Copyright 2023 PT. Simetri Sinergi Indonesia
+     License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl). -->
+<odoo>
+<!-- Configurator -->
+<record id="server_type_group" model="res.groups">
+    <field name="name">Server Type</field>
+    <field name="category_id" ref="ssi_infrastructure.infrastructure_module_category" />
+    <field
+            name="users"
+            eval="[(4, ref('base.user_root')), (4, ref('base.user_admin'))]"
+        />
+</record>
+
+<!-- Server: Workflow -->
+<record id="server_viewer_group" model="res.groups">
+    <field name="name">Viewer</field>
+    <field name="category_id" ref="server_module_category" />
+</record>
+
+<record id="server_user_group" model="res.groups">
+    <field name="name">User</field>
+    <field name="category_id" ref="server_module_category" />
+    <field name="implied_ids" eval="[(4, ref('server_viewer_group'))]" />
+</record>
+
+<record id="server_validator_group" model="res.groups">
+    <field name="name">Validator</field>
+    <field name="category_id" ref="server_module_category" />
+    <field name="implied_ids" eval="[(4, ref('server_user_group'))]" />
+    <field
+            name="users"
+            eval="[(4, ref('base.user_root')), (4, ref('base.user_admin'))]"
+        />
+</record>
+
+<!-- Server: Data Ownership -->
+<record id="server_company_group" model="res.groups">
+    <field name="name">Company</field>
+    <field name="category_id" ref="server_data_ownership_module_category" />
+</record>
+
+<record id="server_company_child_group" model="res.groups">
+    <field name="name">Company and All Child Companies</field>
+    <field name="category_id" ref="server_data_ownership_module_category" />
+    <field name="implied_ids" eval="[(4, ref('server_company_group'))]" />
+</record>
+
+<record id="server_all_group" model="res.groups">
+    <field name="name">All</field>
+    <field name="category_id" ref="server_data_ownership_module_category" />
+    <field name="implied_ids" eval="[(4, ref('server_company_child_group'))]" />
+</record>
+
+</odoo>

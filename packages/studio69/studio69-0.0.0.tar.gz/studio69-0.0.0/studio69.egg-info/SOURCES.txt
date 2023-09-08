@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+studio69/__init__.py
+studio69/__version__.py
+studio69.egg-info/PKG-INFO
+studio69.egg-info/SOURCES.txt
+studio69.egg-info/dependency_links.txt
+studio69.egg-info/top_level.txt

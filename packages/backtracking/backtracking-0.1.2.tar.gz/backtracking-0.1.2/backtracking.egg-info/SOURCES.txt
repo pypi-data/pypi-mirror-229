@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+backtracking/__init__.py
+backtracking.egg-info/PKG-INFO
+backtracking.egg-info/SOURCES.txt
+backtracking.egg-info/dependency_links.txt
+backtracking.egg-info/top_level.txt
+backtracking/src/__init__.py
+backtracking/src/core.py
+examples/n_queens.py

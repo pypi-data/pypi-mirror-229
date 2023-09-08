@@ -1,0 +1,65 @@
+Metadata-Version: 2.1
+Name: Skylark-Grid
+Version: 0.2
+Summary: An image grid maker tool
+Author: Prem Varma
+Author-email: prem.varma@skylarklabs.ai
+License: UNKNOWN
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: opencv-python
+Requires-Dist: numpy
+
+# Image Grid Maker
+The Image Grid is a Python script that merges a set of images into a grid and generates YOLO-style annotations for the merged images. This can be useful for creating custom datasets for object detection tasks.
+
+## Prerequisites
+Before running the script, make sure you have the following dependencies installed:
+
+- Python 3.x
+- OpenCV (cv2)
+- NumPy
+
+You can install the required packages using `pip`:
+
+```bash
+pip install opencv-python
+pip install Numpy
+```
+## Usage
+
+Import the ImageMerger class in your Python script:
+
+```bash
+from ImageMerger import ImageMerger
+```
+
+Create an instance of the ImageMerger class by providing the input directory, output directory, and other optional parameters:
+python
+
+```bash
+input_dir = "input_images/"
+output_dir = "output_images/"
+merger = ImageMerger(input_dir, output_dir, group_size=4, image_shape=(320, 320))
+```
+
+Run the process_images() method to merge the images and generate YOLO annotations:
+```bash
+merger.process_images()
+```
+
+The merged images and corresponding YOLO annotations will be saved in the specified output directory.
+Parameters
+```bash
+input_dir (str): Path to the directory containing input images and their corresponding YOLO annotation files.
+
+output_dir (str): Path to the directory where the merged images and YOLO annotations will be saved.
+
+group_size (int): Number of images to be merged into a single grid. Must have a specific square root value.
+
+image_shape (tuple): Desired shape (height, width) for the output merged images.
+```
+
+Customization
+You can customize the script by modifying the ImageMerger class to fit your specific requirements. For example, you can adjust the image size, grid size, or annotation format.
+

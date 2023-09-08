@@ -1,0 +1,10 @@
+porkbun_ddns/__init__.py,sha256=4E9knps0KH0NhbKGNNEeixpexHTNnxHbfUvhJD7rOUU,82
+porkbun_ddns/cli.py,sha256=7SAmv56F2LsK-YwE78Y0NuXUgrVVEVzNiNWS1Y6LoSk,2708
+porkbun_ddns/helpers.py,sha256=MusBTTX8LddzOQXhvJ1JLTdszO78aHunRCPJnkQYOMs,1734
+porkbun_ddns/porkbun_ddns.py,sha256=g7wDKGUW7miWsrWhtTFQeDKXXxMOtIqi5iuskAtfGDk,8058
+porkbun_ddns-0.2.0.dist-info/LICENSE,sha256=WbmjIVUkxwQ1vDNiEe2eMKL3-6nYRBN1qUv7rdvvSvY,1061
+porkbun_ddns-0.2.0.dist-info/METADATA,sha256=9VLSYs4MMZl-6ytFXaYcuabwuiL9dT1o21DQLeaVGTI,4493
+porkbun_ddns-0.2.0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+porkbun_ddns-0.2.0.dist-info/entry_points.txt,sha256=Ux4_6ekA_PZiOxw-7MbJOvQVo_7IJQzaYS24EzSjwbg,55
+porkbun_ddns-0.2.0.dist-info/top_level.txt,sha256=8hi5L7CGOlYLIOlnnPPToRxZqnZ1UkpUmCYbgYZO2JA,13
+porkbun_ddns-0.2.0.dist-info/RECORD,,

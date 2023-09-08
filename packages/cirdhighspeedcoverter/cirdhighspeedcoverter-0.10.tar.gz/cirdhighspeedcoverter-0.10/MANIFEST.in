@@ -1,0 +1,3 @@
+include cirdhighspeedcoverter/requirements.txt
+include cirdhighspeedcoverter/thirdparty.json
+include cirdhighspeedcoverter/README.MD

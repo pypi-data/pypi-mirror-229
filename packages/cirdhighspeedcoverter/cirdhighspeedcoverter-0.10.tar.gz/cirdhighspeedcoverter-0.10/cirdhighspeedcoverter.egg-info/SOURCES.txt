@@ -1,0 +1,14 @@
+LICENSE.rst
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+cirdhighspeedcoverter/README.MD
+cirdhighspeedcoverter/__init__.py
+cirdhighspeedcoverter/requirements.txt
+cirdhighspeedcoverter/thirdparty.json
+cirdhighspeedcoverter.egg-info/PKG-INFO
+cirdhighspeedcoverter.egg-info/SOURCES.txt
+cirdhighspeedcoverter.egg-info/dependency_links.txt
+cirdhighspeedcoverter.egg-info/requires.txt
+cirdhighspeedcoverter.egg-info/top_level.txt

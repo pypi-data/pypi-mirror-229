@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: robotframework-wiremock
+Version: 1.1.0
+Summary: Robot framework library for WireMock
+Home-page: https://github.com/tyrjola/robotframework-wiremock
+Download-URL: https://github.com/tyrjola/robotframework-wiremock/archive/1.1.0.tar.gz
+Author: Timo Yrjola
+Author-email: timo.yrjola@gmail.com
+Keywords: testing robotframework wiremock
+License-File: LICENSE.txt

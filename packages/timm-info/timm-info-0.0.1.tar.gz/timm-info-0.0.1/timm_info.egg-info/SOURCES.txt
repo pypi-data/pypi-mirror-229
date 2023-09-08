@@ -1,0 +1,12 @@
+pyproject.toml
+requirements.txt
+setup.cfg
+setup.py
+timminfo.py
+timm_info.egg-info/PKG-INFO
+timm_info.egg-info/SOURCES.txt
+timm_info.egg-info/dependency_links.txt
+timm_info.egg-info/entry_points.txt
+timm_info.egg-info/not-zip-safe
+timm_info.egg-info/requires.txt
+timm_info.egg-info/top_level.txt

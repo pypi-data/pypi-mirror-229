@@ -1,0 +1,11 @@
+gsol/__init__.py,sha256=eKu0wbD68NH0eVRBksHC4EHYhj3BwFaNooD-_i7XuW8,47
+gsol/__main__.py,sha256=i9yeDiRLuY3SsT_kbZDvNRdIOcLt-qjXnbjdU3_JIts,152
+gsol/chatbot.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gsol/electric.py,sha256=j-ajmEJszL-aQlafqGzU8yQ23XBYRA8eHRX1-KN0hwE,3050
+gsol/registrar.py,sha256=cYgc_vFZJeSP7xEIIbwlx4uuWnaWziw8GG2Gg7aXlFg,1084
+gsol/server.py,sha256=N8OcAoNZZFpBrgidjc1Mkd7m9cYwmFKjSu2pi-NzjoQ,4286
+gsol/tools.py,sha256=OVl4WUyFXzZheS64VaACKX6ybOPhg2yydcd8WW6cRkk,936
+gsol-0.0.0.dist-info/METADATA,sha256=BUCXvCLSsMbP547qj0ZNbUPhYhgBrCh11WC-m-0gGj8,53
+gsol-0.0.0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+gsol-0.0.0.dist-info/top_level.txt,sha256=ZXePWyROPEBRU-FcAJLAabeQMde1UZHKYUdqiKc8nss,5
+gsol-0.0.0.dist-info/RECORD,,

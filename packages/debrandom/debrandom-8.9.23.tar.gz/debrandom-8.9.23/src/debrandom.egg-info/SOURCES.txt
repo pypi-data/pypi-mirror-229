@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+src/debrandom/__init__.py
+src/debrandom.egg-info/PKG-INFO
+src/debrandom.egg-info/SOURCES.txt
+src/debrandom.egg-info/dependency_links.txt
+src/debrandom.egg-info/entry_points.txt
+src/debrandom.egg-info/requires.txt
+src/debrandom.egg-info/top_level.txt

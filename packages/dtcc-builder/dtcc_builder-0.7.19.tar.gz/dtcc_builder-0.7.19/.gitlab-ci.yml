@@ -1,0 +1,39 @@
+image:
+  name: registry.gitlab.com/dtcc-platform/dtcc-builder
+  entrypoint: [""]
+
+stages:
+  - build
+  - test
+
+before_script:
+    - echo "Skipping since we are using Gitlab's Docker image registry"
+
+build:
+  stage: build
+  script:
+    #- sudo apt-get install lftp -y # add extra (outside of registered Docker file) dependencies here
+    - pwd && mkdir build && cd build && cmake -DCMAKE_BUILD_TYPE=Debug .. && make all && make install
+  artifacts:
+    paths:
+      - build/
+      - unittests/
+variables:
+  GIT_SUBMODULE_STRATEGY: recursive
+
+test:
+  stage: test
+  script:
+    # - pwd && ls -alt && cd unittests/ && ls
+    #- pwd && ls -alt && cd ../data && ls -alt && bash dtcc-download-data-unittests
+    #- cd unittests/ && wget ftps://cloud.dtcc.chalmers.se/Unittests/Unittests.zip --no-check-certificate && unzip -f Unittests.zip
+    # Fix below in order to work on Docker and CI
+    #- ls -altR
+    - sudo mkdir -p /home/dtcc/dtcc-builder/
+    #- cd /builds/
+    #- %ls -altR
+    - sudo cp -R /builds/dtcc-platform/dtcc-builder/unittests/ /home/dtcc/dtcc-builder/unittests/
+    - sudo chmod -R a+rw /home/dtcc/dtcc-builder/unittests/data/*
+    - pwd && ls -alt && cd build/ && ./unittests/run-unittests
+  dependencies:
+    - build

@@ -1,0 +1,10 @@
+clearskies_slack/__init__.py,sha256=I-ZnqRIhb_RwSJIqJpNfDaUWPh_ytkPRbw3CvcyqQfg,31
+clearskies_slack/backends/__init__.py,sha256=G5yfivFDzWWs9qqeUjsool_uG7C5o-DeL3GWWf8qfow,40
+clearskies_slack/backends/slack_backend.py,sha256=vAQgKMuR0WIgr93vhD8rXMYXRu3v9L5H65A8_FIPCtM,2637
+clearskies_slack/models/__init__.py,sha256=StJzbmrx3_jjK0GJqgkvKMw70C0fcPASQpMsX_BoBJk,29
+clearskies_slack/models/channel.py,sha256=3o05RtQvlzDN10BaD4Ux4JH0ilqiNyWt6OsHwD5AIZA,499
+clearskies_slack/models/message.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+clear_skies_slack-0.9.0.dist-info/LICENSE,sha256=3Ehd0g3YOpCj8sqj0Xjq5qbOtjjgk9qzhhD9YjRQgOA,1053
+clear_skies_slack-0.9.0.dist-info/METADATA,sha256=jMJFZiCtWrdhqXfjBWgCDPD8cZ6WLg47W0FICNpCQ7Y,760
+clear_skies_slack-0.9.0.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+clear_skies_slack-0.9.0.dist-info/RECORD,,

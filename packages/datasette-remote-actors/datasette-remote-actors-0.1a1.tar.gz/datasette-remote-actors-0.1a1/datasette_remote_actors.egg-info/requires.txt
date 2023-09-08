@@ -1,0 +1,8 @@
+datasette>=1.0a6
+cachetools
+httpx
+
+[test]
+pytest
+pytest-httpx
+pytest-asyncio

@@ -1,0 +1,7 @@
+pyqt5
+PyOpenGL
+numpy-stl
+
+[dev]
+
+[profile]

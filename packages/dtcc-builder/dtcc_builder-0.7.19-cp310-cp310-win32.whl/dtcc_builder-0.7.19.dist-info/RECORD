@@ -1,0 +1,16 @@
+dtcc_builder/__init__.py,sha256=MFolKW2xy50ZjdUPVvClStM3gIcY_k5-czY-aiRh3GY,543
+dtcc_builder/_dtcc_builder.cp310-win32.pyd,sha256=S2EwXxjNrFtv2JnvpwgJa0vc4KbPSTaZ8LUjJ6yYL_E,484352
+dtcc_builder/_PointCloud.py,sha256=N9xltw6dDZb9ag2A73SmIf8rA83ZTopZTMXYmtAGwJg,6035
+dtcc_builder/builders.py,sha256=322gre4eUIRKdRxlx3bLT1gGg7hXmLuQGTgb_CqVauU,13855
+dtcc_builder/city_methods.py,sha256=yDV7FUA1HLIToGhTx0jnDRUBdk8PQeREdLhXh5p0G3c,6028
+dtcc_builder/logging.py,sha256=hM_jRwBKl3P3k35dAisub7mGOxNlywxzu-yEtS0y6gU,179
+dtcc_builder/meshing.py,sha256=GDsAogW_psesxlFxwgsvb8-3MSycdzJr-OL2Hic2w8M,960
+dtcc_builder/model.py,sha256=yH6OBVyvx54_XR--d8m6IDRnYJ4sFUPYgaACuCP-FHc,4450
+dtcc_builder/parameters.py,sha256=YZphbKWmAEj-pMb4g1rX8pynZwMtQINz5AKb7QlazrM,1874
+dtcc_builder/scripts/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dtcc_builder/scripts/dtcc_build.py,sha256=8eoF1H6eIT9_UzqhBN65e0MKVZ2Q-Bm_GTRtnrZJ1_k,4924
+dtcc_builder-0.7.19.dist-info/METADATA,sha256=TmMxqsjIptlc-Lv7qZ_qUfutmM9D2pACQEsF1uVjHBQ,2209
+dtcc_builder-0.7.19.dist-info/WHEEL,sha256=B6UQpUS1VAB2wxhnsTytuQ2iM-K6Xa14Z8ZBZxVYEfE,101
+dtcc_builder-0.7.19.dist-info/entry_points.txt,sha256=yAJfYIRucidgRbU_9mMW2tVnj4Lcw1rL4r6Ee9ly0lw,69
+dtcc_builder-0.7.19.dist-info/licenses/LICENSE,sha256=mXN8YoomPqR0EC0jCrJlcALm-iKypgFG3tuepk3M4hw,1115
+dtcc_builder-0.7.19.dist-info/RECORD,,

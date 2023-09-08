@@ -1,0 +1,3 @@
+[console_scripts]
+monoformat=monoformat.__main__:__main__
+

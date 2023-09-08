@@ -1,0 +1,12 @@
+pytorch_gan_metrics/__init__.py,sha256=RhQkclNs8-ZYsK7RtYBLWkyfRRWITYOdeZ8acFGQh2M,542
+pytorch_gan_metrics/calc_fid_stats.py,sha256=UrAKaatiGExml1H6FiX1h6MRYqeABRAovj9lujUvufk,1237
+pytorch_gan_metrics/calc_metrics.py,sha256=ULawjNyut_Mz_OP9Ld_-MM9rjywuDBJFOmzj35TgNsg,1250
+pytorch_gan_metrics/core.py,sha256=aR4Y9T-8SeghSdk53NMJt4FqfUAciZpbz_U0e3-r7Ew,9953
+pytorch_gan_metrics/inception.py,sha256=wPFi6uBnM8ieyX2HeU3TiCNXygDEof4dXemAJMKOv-E,13147
+pytorch_gan_metrics/utils.py,sha256=zCmqMw6jzstb9aRpt_JulUDoAeuIeATmMd3OW9UB8dM,9809
+pytorch_gan_metrics/version.py,sha256=qPn1JgZNqUldZPdJqsCPOmahYvb-kWyiK7QTU5aaav4,74
+pytorch_gan_metrics-0.5.3.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+pytorch_gan_metrics-0.5.3.dist-info/METADATA,sha256=geMe2YvscwYN6xUGH-hQXsGDKy2a98w8nNnBd61MbqU,7429
+pytorch_gan_metrics-0.5.3.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pytorch_gan_metrics-0.5.3.dist-info/top_level.txt,sha256=HdBsYSUEWEEqxW8boNDZ2hYD_H-V5MSS7Dzp0xubr7o,20
+pytorch_gan_metrics-0.5.3.dist-info/RECORD,,

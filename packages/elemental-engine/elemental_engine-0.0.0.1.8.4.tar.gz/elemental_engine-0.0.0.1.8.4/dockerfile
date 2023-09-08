@@ -1,0 +1,17 @@
+# Use an official Ubuntu image as the base image
+FROM ubuntu:20.04
+
+# Set the working directory
+WORKDIR /var/task
+
+# Copy your source code into the container
+COPY ./elemental_engine/handlers/binaries /var/task/elemental_engine/handlers/binaries
+
+# Install GCC and any other required dependencies
+RUN apt-get update && apt-get install -y gcc && apt-get install clang -y
+
+
+# Specify the entry point for the container
+CMD ["/bin/bash"]
+
+

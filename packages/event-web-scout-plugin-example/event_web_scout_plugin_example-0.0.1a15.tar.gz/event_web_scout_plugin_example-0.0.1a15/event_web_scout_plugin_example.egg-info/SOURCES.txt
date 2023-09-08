@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+event_web_scout_plugin_example/__init__.py
+event_web_scout_plugin_example/plugin.py
+event_web_scout_plugin_example.egg-info/PKG-INFO
+event_web_scout_plugin_example.egg-info/SOURCES.txt
+event_web_scout_plugin_example.egg-info/dependency_links.txt
+event_web_scout_plugin_example.egg-info/entry_points.txt
+event_web_scout_plugin_example.egg-info/top_level.txt

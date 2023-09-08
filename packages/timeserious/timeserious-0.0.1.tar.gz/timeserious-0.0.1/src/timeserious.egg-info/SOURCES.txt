@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+src/timeserious/__init__.py
+src/timeserious/transform.py
+src/timeserious.egg-info/PKG-INFO
+src/timeserious.egg-info/SOURCES.txt
+src/timeserious.egg-info/dependency_links.txt
+src/timeserious.egg-info/top_level.txt

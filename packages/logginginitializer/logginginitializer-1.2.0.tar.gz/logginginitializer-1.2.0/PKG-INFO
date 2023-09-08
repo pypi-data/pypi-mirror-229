@@ -1,0 +1,199 @@
+Metadata-Version: 2.1
+Name: logginginitializer
+Version: 1.2.0
+Summary: Initialize Python logging with RWS Datalab defaults
+Author-email: RWS Datalab <datalab.codebase@rws.nl>
+Project-URL: homepage, https://gitlab.com/rwsdatalab/codebase/utils/logging-initializer
+Project-URL: documentation, https://rwsdatalab.gitlab.io/codebase/utils/logging-initializer
+Project-URL: repository, https://gitlab.com/rwsdatalab/codebase/utils/logging-initializer
+Project-URL: changelog, https://gitlab.com/rwsdatalab/codebase/utils/logging-initializer/blob/main/CHANGELOG.rst
+Keywords: logginginitializer
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.10
+Description-Content-Type: text/x-rst
+License-File: LICENSE
+Requires-Dist: pydantic>=2
+Provides-Extra: dev
+Requires-Dist: bandit; extra == "dev"
+Requires-Dist: black; extra == "dev"
+Requires-Dist: flake8; extra == "dev"
+Requires-Dist: flake8-bugbear; extra == "dev"
+Requires-Dist: flake8-comprehensions; extra == "dev"
+Requires-Dist: flake8-docstrings; extra == "dev"
+Requires-Dist: flake8-polyfill; extra == "dev"
+Requires-Dist: isort; extra == "dev"
+Requires-Dist: mypy; extra == "dev"
+Requires-Dist: pre-commit; extra == "dev"
+Requires-Dist: pylint; extra == "dev"
+Requires-Dist: pytest; extra == "dev"
+Requires-Dist: pytest-cov; extra == "dev"
+Requires-Dist: radon; extra == "dev"
+Requires-Dist: safety; extra == "dev"
+Provides-Extra: doc
+Requires-Dist: pydata-sphinx-theme; extra == "doc"
+Requires-Dist: sphinx; extra == "doc"
+Requires-Dist: sphinx-autodoc-typehints; extra == "doc"
+
+###################
+logging initializer
+###################
+
+.. begin-inclusion-intro-marker-do-not-remove
+
+Initialize Python logging with RWS Datalab defaults.
+A tiny module to make it easy to define your logger settings!
+
+.. end-inclusion-intro-marker-do-not-remove
+
+
+.. begin-inclusion-usage-marker-do-not-remove
+
+How to log in Python applications
+---------------------------------
+
+If you already know how to log and just want to use the LoggingInitializer, see :ref: `using-LI`.
+
+At the start of each module, import the Logging library and generate a logger:
+
+.. code-block::
+
+  import logging
+  logger = logging.getLogger(__name__)
+
+This generates an object which knows from which module you're logging. It will reference the module in the log.
+
+In your code, tell the logger to generate log messages where needed:
+
+.. code-block::
+
+  logger.debug("Going to do something important now.")
+  try:
+    something_important()
+  except:
+    logger.error("Something important didn't work!!!")
+  logger.info("Something important is done.")
+
+The methods ``debug()``, ``info()`` and ``error()`` (we also have ``warning()`` and ``critical()``) generate log messages at different `log levels`.
+Log levels are used to communicate the importance of a log line, to keep logs relevant, and as small as possible (but not smaller).
+
+
+You will probably choose different log levels on different environments: on a production server, most teams will only log
+"WARNING", "ERROR" and "CRITICAL"; on a testing server usually also "INFO" so it's easier to follow what's going on,
+and when debugging... "DEBUG". When writing log messages, choose your log levels with this in mind.
+
+The default setting for LoggingInitializer is INFO, which means that statements logged with logger.debug() will `not` be logged by default.
+
+For more information on how to use the Python logger and info on the different log levels, see `this helpful tutorial in the Python docs <https://docs.python.org/3/howto/logging.html>`_.
+
+
+.. _using-LI:
+
+Using LoggingInitializer
+------------------------
+
+Include the LoggingInitializer in your application to quickly set parameters for the Python logger.
+
+At the start of your program, populate a LoggingConfig object with the required parameters.
+
+
+.. table:: parameters for the LoggingConfig object
+
+
+ ================= ============================================================================= ============ ======================================================
+  Name              Description                                                                   Required?    Default value
+ ================= ============================================================================= ============ ======================================================
+  identifier        Identifying the program being logged, will be used in file name of the log    Yes
+  directory         Directory for the log file                                                    No           None
+  log_level         Default log level for log lines without a specified level                     No           "INFO"
+  log_format        Format for log messages                                                       No           "%(levelname)s:%(asctime)s - %(name)s - %(message)s"
+  date_format       Format for log timestamps                                                     No           "%Y/%m/%d %H:%M:%S %p"
+  backup_count      Number of log files to be kept before a file is re-used                       No           50
+ ================= ============================================================================= ============ ======================================================
+
+
+Below an example of a logger that writes to StdOut and to a file is portrayed.
+The user executing the program should have write rights on the specified directory!
+
+.. code-block::
+
+  config = {
+            "identifier": "my_lovely_program",
+            "directory": "/var/logs",
+        }
+
+  logging_config = LoggingConfig(**config)
+
+Then create the LoggingInitializer object:
+
+.. code-block::
+
+  logging_initializer = LoggingInitializer(logging_config)
+
+If you want to suppress the logging to StdOut (only log to a file), use Quiet Mode:
+
+
+.. code-block::
+
+  logging_initializer = LoggingInitializer(logging_config, quiet=True)
+
+If you want to suppress the logging to a file (only log to StdOut), simply
+don't specify a directory in the ``LoggingConfig``.
+
+.. code-block::
+
+  logging_config = LoggingConfig(identifier="your-package-name")
+  logging_initializer = LoggingInitializer(logging_config)
+
+
+For more info on setting the log format and date format, see `the Python docs <https://docs.python.org/3/howto/logging.html#formatters>`_.
+If another application is ingesting the logs, do not change the format unannounced.
+
+.. end-inclusion-usage-marker-do-not-remove
+
+
+.. begin-inclusion-installation-marker-do-not-remove
+
+Installation
+------------
+
+To install logging-initializer, do:
+
+.. code-block:: console
+
+  git clone https://gitlab.com/rwsdatalab/projects/logging-initializer.git
+  cd logging-initializer
+  pip install .
+
+Run tests (including coverage) with:
+
+.. code-block:: console
+
+  pip install -r requirements-dev.txt
+  python setup.py test
+
+.. end-inclusion-installation-marker-do-not-remove
+
+
+Documentation
+-------------
+
+Find the full documentation `here <https://rwsdatalab.gitlab.io/codebase/utils/logging-initializer/>`_.
+
+.. begin-inclusion-license-marker-do-not-remove
+
+License
+-------
+
+Copyright (c) 2022-2023, Rijkswaterstaat
+
+
+
+.. end-inclusion-license-marker-do-not-remove

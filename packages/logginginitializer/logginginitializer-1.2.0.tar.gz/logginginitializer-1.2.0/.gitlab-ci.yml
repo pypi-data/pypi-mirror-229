@@ -1,0 +1,212 @@
+image: ubuntu:22.04
+
+# define global variables
+variables:
+  LC_ALL: "en_US.UTF-8"
+  LANG: "en_US.UTF-8"
+  DEBIAN_FRONTEND: "noninteractive"
+  PYPI_USERNAME: $PYPI_USERNAME
+  PYPI_PASSWORD: $PYPI_PASSWORD
+
+
+# define aliases
+.setup_build_environment: &setup_build_environment
+  - apt-get update -qq && apt-get install -y -qq locales git && locale-gen en_US.UTF-8
+  - apt-get install -y -qq python3-venv python3-dev build-essential
+  - python3 -m venv /build_venv && source /build_venv/bin/activate
+  - python3 -m pip install --upgrade pip setuptools
+  - python3 -m pip install wheel
+
+.setup_doc_environment: &setup_doc_environment
+  - *setup_build_environment
+  - apt-get update -qq && apt-get install -y -qq fonts-freefont-otf latexmk texlive-xetex xindy
+
+.install_dev_requirements: &install_dev_requirements
+  - python3 -m pip install -r requirements-dev.txt
+  - python3 -m pip install anybadge
+
+.create_doc_badge: &create_doc_badge
+  - anybadge --overwrite --label=docs --value=$CI_JOB_STATUS --file=documentation.svg success=green failed=red canceled=grey
+
+.install_runtime_requirements: &install_runtime_requirements
+  - python3 -m pip install -r requirements.txt
+
+.create_bandit_badge: &create_bandit_badge
+  - anybadge --overwrite --label=security --value=bandit --file=bandit.svg bandit=yellow
+
+.create_safety_badge: &create_safety_badge
+  - anybadge --overwrite --label=security --value=safety --file=safety.svg safety=yellow
+
+.create_pylint_badge: &create_pylint_badge
+  - anybadge --overwrite --label="code quality" --file=pylint.svg --value=$PYLINT_SCORE 2=red 4=orange 8=yellow 10=green
+
+.create_mypy_badge: &create_mypy_badge
+  - anybadge --overwrite --label="type checker" --value=mypy --file=mypy.svg mypy=teal
+
+.build_all_documentation: &build_all_documentation
+  - pip install .
+  - (cd doc && make html && make latexpdf)
+  - cp -r doc/_build/html public
+  - (cp doc/_build/latex/logginginitializer.pdf public)
+
+# base templates for dev/doc/runtime
+.template_development:
+  before_script:
+    - *setup_build_environment
+    - *install_dev_requirements
+
+.template_runtime:
+  before_script:
+    - *setup_build_environment
+    - *install_dev_requirements
+    - *install_runtime_requirements
+    - pip install --upgrade pydantic
+
+.template_documentation:
+  before_script:
+    - *setup_doc_environment
+    - *install_dev_requirements
+    - *install_runtime_requirements
+  after_script:
+    - source /build_venv/bin/activate
+    - *create_doc_badge
+
+# define ci/cd stages
+stages:
+  - static analysis
+  - test
+  - deploy
+
+# static analysis stage
+flake8:
+  stage: static analysis
+  extends: .template_development
+  rules:
+    - if: $CI_COMMIT_BRANCH
+  script:
+    - flake8 logginginitializer
+
+bandit:
+  stage: static analysis
+  extends: .template_development
+  rules:
+    - if: $CI_COMMIT_BRANCH
+  script:
+    - bandit -l -r -x tests logginginitializer
+    - *create_bandit_badge
+  artifacts:
+    paths:
+    - bandit.svg
+
+safety:
+  stage: static analysis
+  extends: .template_runtime
+  rules:
+    - if: $CI_COMMIT_BRANCH
+  script:
+    - safety check
+    - *create_safety_badge
+  artifacts:
+    paths:
+    - safety.svg
+
+isort:
+  stage: static analysis
+  extends: .template_development
+  rules:
+    - if: $CI_COMMIT_BRANCH
+  script:
+    - isort --profile black --check-only .
+
+pylint:
+  stage: static analysis
+  extends: .template_runtime
+  rules:
+    - if: $CI_COMMIT_BRANCH
+  script:
+    - pylint --exit-zero --output-format=text logginginitializer | tee pylint.log
+    - PYLINT_SCORE=$(sed -n 's/^Your code has been rated at \([-0-9.]*\)\/.*/\1/p' pylint.log)
+    - *create_pylint_badge
+    - cat pylint.log
+    - echo "pylint score is $PYLINT_SCORE"
+  artifacts:
+    paths:
+    - pylint.svg
+
+radon:
+  stage: static analysis
+  extends: .template_development
+  rules:
+    - if: $CI_COMMIT_BRANCH
+  script:
+    - radon cc -s -a logginginitializer
+    - radon mi -s logginginitializer
+
+mypy:
+  extends: .template_runtime
+  stage: static analysis
+  rules:
+    - if: $CI_COMMIT_BRANCH
+  script:
+    - mypy logginginitializer
+    - *create_mypy_badge
+  artifacts:
+    paths:
+    - mypy.svg
+
+rstcheck:
+  stage: static analysis
+  extends: .template_development
+  script:
+    - rstcheck --ignore-messages "Duplicate (implicit|explicit) target name" CHANGELOG.rst
+    - rstcheck --ignore-messages "Duplicate (implicit|explicit) target name" CONTRIBUTING.rst
+    - rstcheck --ignore-messages "Duplicate (implicit|explicit) target name" README.rst
+    - rstcheck --ignore-messages "Duplicate (implicit|explicit) target name" -r tests
+
+# test stage
+documentation:
+  stage: test
+  extends: .template_documentation
+  rules:
+    - if: $CI_COMMIT_BRANCH && $CI_COMMIT_BRANCH != "main"
+  script:
+    - *build_all_documentation
+
+pytest:
+  stage: test
+  extends: .template_runtime
+  rules:
+    - if: $CI_COMMIT_BRANCH
+  script:
+    - pytest
+  coverage: '/TOTAL.*\s+(\d+%)$/'
+
+build_pypi_package:
+  stage: test
+  extends: .template_runtime
+  script:
+    - python3 -m pip install -U twine build
+    - PIP_INDEX_URL="https://pypi.python.org/simple" python3 -m build
+
+# deploy stage
+pages:
+  stage: deploy
+  extends: .template_documentation
+  rules:
+    - if: $CI_COMMIT_BRANCH == "main"
+  script:
+    - *build_all_documentation
+  artifacts:
+    paths:
+    - documentation.svg
+    - public
+
+pypy:
+  stage: deploy
+  extends: .template_runtime
+  rules:
+    - if: $CI_COMMIT_BRANCH == "main"
+  script:
+    - python3 -m pip install -U twine build
+    - PIP_INDEX_URL="https://pypi.python.org/simple" python3 -m build
+    - TWINE_PASSWORD=${PYPI_PASSWORD} TWINE_USERNAME=${PYPI_USERNAME} python -m twine upload dist/*

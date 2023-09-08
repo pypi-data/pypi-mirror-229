@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+environs_os_getter_class/__init__.py
+environs_os_getter_class/main.py
+environs_os_getter_class.egg-info/PKG-INFO
+environs_os_getter_class.egg-info/SOURCES.txt
+environs_os_getter_class.egg-info/dependency_links.txt
+environs_os_getter_class.egg-info/top_level.txt

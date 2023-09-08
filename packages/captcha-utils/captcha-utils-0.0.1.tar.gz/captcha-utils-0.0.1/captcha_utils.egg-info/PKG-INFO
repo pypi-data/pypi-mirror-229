@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: captcha-utils
+Version: 0.0.1
+Summary: A package to solve captcha
+Home-page: https://github.com/Junie-PP/captcha-utils
+Author: Junie-PP
+Author-email: 2604868278@qq.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# captcha
+
+缺口验证码和旋转验证码解决方案
+

@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: blockcerts-merkletools
+Version: 1.0.1
+Summary: Merkle Tools
+Home-page: https://github.com/blockchain-certificates/blockcerts-pymerkletools
+Author: Blockcerts
+Author-email: info@blockcerts.org
+License: MIT
+Keywords: merkle tree,blockchain
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+
+UNKNOWN
+
+

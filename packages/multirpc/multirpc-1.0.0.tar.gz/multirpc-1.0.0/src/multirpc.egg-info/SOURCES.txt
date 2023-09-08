@@ -1,0 +1,12 @@
+LICENCE
+README.md
+pyproject.toml
+setup.cfg
+src/multirpc/__init__.py
+src/multirpc/exceptions.py
+src/multirpc/multi_rpc_interface.py
+src/multirpc/utils.py
+src/multirpc.egg-info/PKG-INFO
+src/multirpc.egg-info/SOURCES.txt
+src/multirpc.egg-info/dependency_links.txt
+src/multirpc.egg-info/top_level.txt

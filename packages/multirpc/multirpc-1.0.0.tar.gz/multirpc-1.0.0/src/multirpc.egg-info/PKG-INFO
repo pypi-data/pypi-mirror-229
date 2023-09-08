@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: multirpc
+Version: 1.0.0
+Summary: Use multiple rpc for assurance
+Home-page: https://github.com/deusfinance/multirpc
+Author: Navid Farokhi
+Author-email: navid.fkh99@gmail.com
+Project-URL: Bug Tracker, https://github.com/deusfinance/multirpc/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.7.2
+Description-Content-Type: text/markdown
+License-File: LICENCE
+
+# MultiRPC

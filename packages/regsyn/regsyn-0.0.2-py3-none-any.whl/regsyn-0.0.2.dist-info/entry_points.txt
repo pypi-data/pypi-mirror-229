@@ -1,0 +1,2 @@
+[nbdev]
+regsyn = regsyn._modidx:d

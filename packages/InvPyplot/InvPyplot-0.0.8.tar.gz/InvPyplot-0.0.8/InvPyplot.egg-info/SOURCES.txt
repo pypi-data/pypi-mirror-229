@@ -1,0 +1,10 @@
+LICENSE
+README.md
+invplot.py
+pyproject.toml
+setup.py
+InvPyplot.egg-info/PKG-INFO
+InvPyplot.egg-info/SOURCES.txt
+InvPyplot.egg-info/dependency_links.txt
+InvPyplot.egg-info/requires.txt
+InvPyplot.egg-info/top_level.txt

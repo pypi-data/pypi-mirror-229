@@ -1,0 +1,12 @@
+sotrans_fastapi_keycloak/__init__.py,sha256=Lh1zexCekeV7hV_aCWwQs-rse9YdLn_Px0RUdNRQzMI,927
+sotrans_fastapi_keycloak/api.py,sha256=sYMoZXpealZTNNfNrBzBXJh2c6mfvIdcqGey7FceQVs,47302
+sotrans_fastapi_keycloak/exceptions.py,sha256=7xsi2ecTD57yxft3fuqVDC7AU-IoOqhmTqX_GVgdeVY,2656
+sotrans_fastapi_keycloak/model.py,sha256=m92ZA9fxHbGsHPzAYPcFN5_6oUHGb4OvBNwbyda6wmE,8840
+sotrans_fastapi_keycloak/role.py,sha256=yjaLPjXqsT8J9xMVwE3T6WwF2505JyZt0S9x3koYeFw,1714
+sotrans_fastapi_keycloak/sotrans_model.py,sha256=OPUb5GDZhGRn4oEGdNbT4f2-N1tpYRr2GRBPu93AurI,3194
+sotrans_fastapi_keycloak/sotrans_role.py,sha256=mXkSO-mYMUNwfPHJNzfuDfSCYuhdl_HiMbW-zPWjh0o,902
+sotrans_fastapi_keycloak-0.0.13.dist-info/LICENSE,sha256=zPMqPGrh3ZCiogFOn_l6Uu5dyIly0mHQOPISCqqODro,11363
+sotrans_fastapi_keycloak-0.0.13.dist-info/METADATA,sha256=HGO1mha_hkMz9_jt4VgtVlu7LHLlM_4YAf_hPAVWELM,1534
+sotrans_fastapi_keycloak-0.0.13.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+sotrans_fastapi_keycloak-0.0.13.dist-info/top_level.txt,sha256=VKksEaaBSCTdmhr5JsDyXpMEq5vB8t3Q0zJnguX0Z9g,25
+sotrans_fastapi_keycloak-0.0.13.dist-info/RECORD,,

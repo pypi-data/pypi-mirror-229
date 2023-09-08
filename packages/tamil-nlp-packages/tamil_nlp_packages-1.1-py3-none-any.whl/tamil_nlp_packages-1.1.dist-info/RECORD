@@ -1,0 +1,8 @@
+tamil_nlp_packages/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tamil_nlp_packages/logger.py,sha256=qbrZB9Yv_nhZ4mNco_P8DXB_A_8yEOTkotsLavsmTNg,206
+tamil_nlp_packages/tam.acr,sha256=vT1EYSJssjr0RxN1loWGy4tiWRY3uj07OU5sVxv2uNI,7256
+tamil_nlp_packages/tamil_tokenizer.py,sha256=MzfAl0fB_L8qENbqhd_jPV6IaSgKO1LT87AwOr1o1dA,6776
+tamil_nlp_packages-1.1.dist-info/LICENSE,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+tamil_nlp_packages-1.1.dist-info/METADATA,sha256=7mbsndEokQOkeH_GDsCT20vl_dC7hzbL193q0cSTPnM,3180
+tamil_nlp_packages-1.1.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+tamil_nlp_packages-1.1.dist-info/RECORD,,

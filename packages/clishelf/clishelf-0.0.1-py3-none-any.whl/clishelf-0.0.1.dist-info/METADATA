@@ -1,0 +1,89 @@
+Metadata-Version: 2.1
+Name: clishelf
+Version: 0.0.1
+Summary: Utility CLI Tools that reuseable for develop any Python Package
+Project-URL: Homepage, https://github.com/korawica/clishelf/
+Project-URL: Source Code, https://github.com/korawica/clishelf/
+Author-email: korawica <korawich.anu@gmail.com>
+License-Expression: MIT
+License-File: LICENSE
+Keywords: cli,utility
+Classifier: Development Status :: 4 - Beta
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Utilities
+Requires-Python: >=3.8.10
+Requires-Dist: click>=8.1.7
+Requires-Dist: tomli>=2.0.1
+Provides-Extra: dev
+Requires-Dist: bump2version>=1.0.1; extra == 'dev'
+Requires-Dist: clishelf[test]; extra == 'dev'
+Requires-Dist: pre-commit>=3.4.0; extra == 'dev'
+Provides-Extra: test
+Requires-Dist: coverage[toml]>=7.0.0; extra == 'test'
+Requires-Dist: mypy>=0.982; extra == 'test'
+Requires-Dist: pytest>=7.4.2; extra == 'test'
+Requires-Dist: types-python-dateutil; extra == 'test'
+Description-Content-Type: text/markdown
+
+# Utility Package: *CLI*
+
+**Table of Contents**:
+
+- [Feature](#feature)
+  - [Extended Git](#extended-git)
+  - [Version](#version)
+
+This is CLI Utility Package.
+
+## Feature
+
+This Utility Package provide some CLI tools for handler development process.
+
+### Extended Git
+
+```text
+Usage: utils.exe git [OPTIONS] COMMAND [ARGS]...
+
+  Extended Git commands
+
+Options:
+  --help  Show this message and exit.
+
+Commands:
+  bn               Show the Current Branch
+  cl               Show the Commit Logs from the latest Tag to HEAD
+  clear-branch     Clear Local Branches that sync from the Remote
+  cm               Show the latest Commit message
+  commit-previous  Commit changes to the Previous Commit with same message
+  commit-revert    Revert the latest Commit on this Local
+  tl               Show the Latest Tag
+```
+
+### Version
+
+```text
+Usage: utils.exe vs [OPTIONS] COMMAND [ARGS]...
+
+  Version commands
+
+Options:
+  --help  Show this message and exit.
+
+Commands:
+  bump       Bump Version
+  changelog  Make Changelogs file
+  conf       Return Configuration for Bump version
+  current    Return Current Version
+
+```
+
+## License
+
+This project was licensed under the terms of the [MIT license](LICENSE).

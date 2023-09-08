@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: polyflin
+Version: 2.0.0
+Summary: A Powerful Pyhton Module for Multiconfiguration Polymer Structure Generation
+Author-email: "Abd. Kakhar Umar" <abdulkaharumar@gmail.com>
+Project-URL: Homepage, https://etflin.com/software/PolyFlin
+Project-URL: Bug Tracker, https://etflin.com/software/PolyFlin
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+#PolyFlin: A Powerful Pyhton Module for Multiconfiguration Polymer Structure Generation
+
+PolyFlin can generate polymer structure in any shape for molecular modeling and simulations. It is only limited to your imagination.
+
+Visit our homepage here: [https://etflin.com/software/PolyFlin](https://etflin.com/software/PolyFlin)

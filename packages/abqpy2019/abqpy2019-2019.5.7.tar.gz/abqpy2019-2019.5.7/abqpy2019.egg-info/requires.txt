@@ -1,0 +1,5 @@
+abqpy==2019.5.7
+
+[jupyter]
+ipynbname
+nbconvert

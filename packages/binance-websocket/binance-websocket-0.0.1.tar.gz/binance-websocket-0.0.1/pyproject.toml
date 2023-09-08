@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "binance-websocket"
+version = "0.0.1"
+authors = [{name = "James Peterson", email = "jpeterson@github.com"}]
+description = "binance websocket streams"
+requires-python = ">=3.9"
+keywords = ["bla", "bla2"]
+classifiers = [
+        "Programming Language :: Python :: 3",
+        "License :: OSI Approved :: MIT License",
+        "Operating System :: OS Independent",
+    ]
+#dependencies = [
+#    "requests",
+#]
+
+#[tool.setuptools]
+#packages = ["binance_websocket"]

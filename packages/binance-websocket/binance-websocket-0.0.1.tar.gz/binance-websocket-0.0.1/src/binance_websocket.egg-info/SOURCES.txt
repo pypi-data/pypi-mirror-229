@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+src/binance_websocket/__init__.py
+src/binance_websocket/websocket.py
+src/binance_websocket.egg-info/PKG-INFO
+src/binance_websocket.egg-info/SOURCES.txt
+src/binance_websocket.egg-info/dependency_links.txt
+src/binance_websocket.egg-info/top_level.txt

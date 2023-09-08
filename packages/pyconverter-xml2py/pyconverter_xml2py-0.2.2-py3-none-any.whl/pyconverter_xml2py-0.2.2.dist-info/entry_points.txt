@@ -1,0 +1,3 @@
+[console_scripts]
+pyconverter-xml2py=pyconverter.xml2py.cli:main
+

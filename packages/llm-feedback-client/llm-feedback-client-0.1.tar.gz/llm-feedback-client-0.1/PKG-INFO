@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: llm-feedback-client
+Version: 0.1
+Summary: A Python client for the LLM Feedback API.
+Home-page: https://github.com/scy0208/llm-feedback-client-py
+Author: Chunyang Shen
+Author-email: scy0208@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE

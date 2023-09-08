@@ -1,0 +1,78 @@
+Metadata-Version: 2.1
+Name: chrome-version
+Version: 0.1.0
+Summary: Detect the version of Chrome installed on Windows, Linux, Mac. Cross-platform using Python, native OS detection.
+License: MIT
+Keywords: google chrome version,chrome,google,version
+Author: hasansezertasan
+Author-email: hasansezertasan@gmail.com
+Maintainer: hasansezertasan
+Maintainer-email: hasansezertasan@gmail.com
+Requires-Python: >=3,<4
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Dist: typer
+Description-Content-Type: text/markdown
+
+# Chrome Version
+
+## Usage
+
+Module:
+
+```python
+>>> import chrome_version
+>>> print(chrome_version.get_chrome_version())
+>>> '103.0.5060.114'
+```
+
+CLI:
+
+```bash
+chrome-version
+103.0.5060.114
+```
+
+## Why?
+
+At first,
+
+I needed to get the Chrome version for a project I was working on, which was using [Undetected Chromedriver](https://github.com/ultrafunkamsterdam/undetected-chromedriver). I found the gist below.
+
+When I used it in a variaty of projects, I decided to turn it into a module so I'll be free of copy/paste. It only have one functionality: getting the chrome version.
+
+Then,
+
+I decided to use it to learn more about:
+
+- Using [Poetry](https://python-poetry.org/) for packaging and dependency management.
+- Using typer for CLI.
+- Versioning.
+- LICENSE.
+- Publishing a module on PyPI.
+- Using GitHub Actions to automate the publishing process.
+- ...
+
+Finally,
+
+Now it's kind of a playground for me to learn more...
+
+## Motivation
+
+- It might be useful for someone.
+- It's easier to pip install a module than copy/paste a gist.
+- Educational Purposes: A simple module is a good practice for me to learn how to build modules and publish them on PyPI and show others how easy it is.
+
+## Disclaimer
+
+This module based on [Detect the version of Chrome installed on Windows, Linux, Mac. Cross-platform using Python, native OS detection, does not require Selenium.](https://gist.github.com/primaryobjects/d5346bf7a173dbded1a70375ff7461b4) gist. I'm not the author of the gist, I just made it into a module and coded a CLI wrapping it. All credits to the author of the gist.
+

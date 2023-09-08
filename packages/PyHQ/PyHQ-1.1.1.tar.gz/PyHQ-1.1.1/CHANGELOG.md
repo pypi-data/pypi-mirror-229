@@ -1,0 +1,20 @@
+# PyHQ (Changelog)
+
+This is the changelog file of PyHQ.
+
+## <i>Version - 1.1.1 (7/9/2023)</i>
+
+1. Edited the following files: "README.md"
+2. Updated the package's "__init__.py" file.
+3. Created a directory called "Media" containing PyHQ's media files.
+
+## <i>Version - 1.1.0 (7/9/2023)</i>
+
+1. Added the following sub-packages: System
+2. Added the following files: "CREDITS.md"
+3. Edited the following files: "CHANGELOG.md", "README.md", and "MANIFEST.in"
+4. Added the following dependencies to "setup.py": screen-brightness-control, pyperclip, and PyAutoGUI
+
+## <i>Version - 1.0.0 (7/9/2023)</i>
+
+1. Uploaded "PyHQ" to GitHub and Pypi.org for the first time.

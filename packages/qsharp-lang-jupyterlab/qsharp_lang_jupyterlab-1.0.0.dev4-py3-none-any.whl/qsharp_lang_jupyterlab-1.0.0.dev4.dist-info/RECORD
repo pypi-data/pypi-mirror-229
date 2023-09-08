@@ -1,0 +1,12 @@
+setup.py,sha256=wemxTobZ39ajO7IlospqgSkebOTG2oZG4pPzQxr3YcI,33
+qsharp-jupyterlab/__init__.py,sha256=bgSJBXrB38scWb4CPf9WrAsERIG7tIffU4VasZKvk5M,160
+qsharp-jupyterlab/_version.py,sha256=ub0a5kTgY6iL1VqpKVLqLIpuxpc5HHbptDyWW1Y6So8,180
+qsharp_lang_jupyterlab-1.0.0.dev4.data/data/share/jupyter/labextensions/qsharp-jupyterlab/package.json,sha256=RlhOlyK5jFOh6OUuX0a66Ba8eHYzPfa7WRxI6GC6_vg,1470
+qsharp_lang_jupyterlab-1.0.0.dev4.data/data/share/jupyter/labextensions/qsharp-jupyterlab/static/362.5a7a353f7f1ec5843e3a.js,sha256=Wno1P38exYQ-OvkfhKsqOFgtqsYPnJfiN11LVP3Sy3Q,4429
+qsharp_lang_jupyterlab-1.0.0.dev4.data/data/share/jupyter/labextensions/qsharp-jupyterlab/static/remoteEntry.6653fe1fb8b6c06d9faa.js,sha256=ZlP-H7i2wG2fqqZ-q0uE0bPz5lHp8bpObpPeeYl_tDg,6322
+qsharp_lang_jupyterlab-1.0.0.dev4.data/data/share/jupyter/labextensions/qsharp-jupyterlab/static/style.js,sha256=-CQt0ZTPaCTvrRiLcznxflAbfvIKlOVzjOos-muaXQ8,118
+qsharp_lang_jupyterlab-1.0.0.dev4.data/data/share/jupyter/labextensions/qsharp-jupyterlab/static/third-party-licenses.json,sha256=XFJ7K-RsjbmcZ7plOTH9ztLIePgc7gYB3fLZMgCD8Lw,1302
+qsharp_lang_jupyterlab-1.0.0.dev4.data/data/share/jupyter/labextensions/qsharp-jupyterlab/install.json,sha256=onu8UN-iDWJ-D24xvxMB8f_XJHW5XNbaC92Dd9X4usw,205
+qsharp_lang_jupyterlab-1.0.0.dev4.dist-info/METADATA,sha256=udPYyfUVBrVCi_mvrX6KmDVKyg8c27fGxoH_GjwXXeY,2571
+qsharp_lang_jupyterlab-1.0.0.dev4.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+qsharp_lang_jupyterlab-1.0.0.dev4.dist-info/RECORD,,

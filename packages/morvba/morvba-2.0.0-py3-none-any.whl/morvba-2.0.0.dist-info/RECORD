@@ -1,0 +1,9 @@
+morvba/__init__.py,sha256=VXD7svM3fMfyoLA-t-yf7krv37G0j3tIwwOMrEqAiHw,38
+morvba/cC.py,sha256=5F-1m9QdS2j0j4PmWRL9QQ_W0N-n43BgzCremXslF7M,22714
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_file.py,sha256=FQGIJnWKc_00W9xofE9OAUAgSUJZ0EUUZPURwzGFopY,760
+morvba-2.0.0.dist-info/LICENSE,sha256=JRZtPh7E625t8bcixt3gEdCkJtTPbMFOa14_yFXCgsA,1092
+morvba-2.0.0.dist-info/METADATA,sha256=Kf-WSjMXL5CjXGqtM7_CJr7rYC4UAY6D_wARhwijKBs,9506
+morvba-2.0.0.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+morvba-2.0.0.dist-info/top_level.txt,sha256=UGWf0OOcXGOSggQCNeiRvInXFvrKzuNMKDp6zv-fL8o,13
+morvba-2.0.0.dist-info/RECORD,,

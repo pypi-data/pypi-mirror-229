@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+src/zamzar/__init__.py
+src/zamzar/example.py
+src/zamzar/zamzar.py
+src/zamzar.egg-info/PKG-INFO
+src/zamzar.egg-info/SOURCES.txt
+src/zamzar.egg-info/dependency_links.txt
+src/zamzar.egg-info/top_level.txt

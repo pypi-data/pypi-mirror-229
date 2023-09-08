@@ -1,0 +1,3 @@
+[console_scripts]
+azpype_post_install = azpype.setup_actions:main
+

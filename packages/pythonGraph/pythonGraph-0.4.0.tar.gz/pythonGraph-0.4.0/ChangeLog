@@ -1,0 +1,74 @@
+CHANGES
+=======
+
+0.4.0
+-----
+
+* Correct typo: sepcifies => specifies
+* Add border parameter to draw\_text (#75)
+* Add padding parameter to draw\_text (#74)
+* Add background parameter to draw\_text (#73)
+* Add centered parameter to draw\_text (#71)
+* Correct test case for draw\_text
+* Correct typo: happenning -> happening
+* Add enhancements for drawing images (#65)
+* Use lower case to identify keyboard keys (#67)
+* Remove colors (#64)
+* Add docs job to Python workflow (#61)
+* Specify English as language for Sphinx
+* Update deprecated pytest CLI option
+* Test against Python 3.11 with GitHub Actions
+* Remove support for Python 3.7
+* Add Python 3.8, 3.9, 3.10, and 3.11 to tox
+* Remove tests for unmaintained Python versions
+* Fix Flake8 issues
+* Add GitHub Actions configuration (#54)
+
+0.3.4
+-----
+
+* Update pythonGraph.py
+
+0.2.1
+-----
+
+* Add ORANGE as predefined color
+* Allow clear\_window to use string as parameter (#45)
+* Add docstrings for documentation (#41)
+
+0.2.0
+-----
+
+* Allow mouse buttons to be specified as strings
+* Allow colors to be specified as strings
+* Enable Flake8 checks for tests directory
+* Add get\_color (#25)
+* Add demo of bouncing balls (#21)
+* Add unit tests for draw operations (#31)
+* Ignore OS metadata, temporary, and backup files
+* Cast first argument of write\_text to string
+* Add support for transparent images (#24)
+* Test against Python 3.7
+* Add wait\_for\_close function
+* Correct typo: It's -> Its
+* Use pbr post-version to determine version
+* Fix close\_window bug (#20)
+
+0.1.0
+-----
+
+* Update version number and development status
+* Add sound support (#15)
+* Add support for mouse and keyboard events (#14)
+* Print version information when importing package (#13)
+* Add support for basic drawing commands (#11)
+* Ignore development and packaging files
+* Update setup configuration (#10)
+* Update author information
+* Add README (#6)
+* Delete LICENSE
+* Add "unlicense" to indicate work in public domain (#4)
+* Add Travis CI configuration (#3)
+* Use tox to manage automated testing (#2)
+* Add Setuptools configuration to package project
+* Initial commit

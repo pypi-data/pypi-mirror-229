@@ -1,0 +1,2 @@
+pbr  # Apache-2.0
+pygame>=2.0  # LGPL

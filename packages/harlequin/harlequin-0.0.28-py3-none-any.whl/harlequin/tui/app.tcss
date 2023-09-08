@@ -1,0 +1,377 @@
+/* VARIABLES */
+$border-color-nofocus: $panel;
+$border-title-color-nofocus: $panel;
+$border-color-focus: $primary;
+$border-title-color-focus: $primary;
+
+/* ALL WIDGETS */
+SchemaViewer, EditorCollection, ResultsViewer {
+    border: round $border-color-nofocus;
+    border-title-color: $border-title-color-nofocus;
+    background: $background;
+}
+SchemaViewer:focus, EditorCollection:focus-within, ResultsViewer:focus-within {
+    border: round $border-color-focus;
+    border-title-color: $border-title-color-focus;
+}
+
+SchemaViewer, EditorCollection, TextContainer, ResultsTable, VerticalScroll {
+    scrollbar-background: $background-lighten-1;
+    scrollbar-background-hover: $background-lighten-1;
+    scrollbar-background-active: $background-lighten-1;
+    scrollbar-corner-color: $background-lighten-1;
+    
+    scrollbar-color: $panel;
+    scrollbar-color-hover: $primary;
+    scrollbar-color-active: $secondary;
+}
+
+SchemaViewer:disabled, EditorCollection:disabled, CodeEditor:disabled, ResultsTable:disabled, RunQueryBar:disabled, ContentSwitcher:disabled, Footer:disabled, Vertical:disabled, Container:disabled {
+    width: 0;
+    height: 0;
+    padding: 0 0;
+    border: none;
+}
+
+/* SCHEMA VIEWER */
+SchemaViewer {
+    height: 1fr;
+    width: 1fr;
+    padding: 0 1;
+}
+SchemaViewer .tree--guides {
+    color: $primary;
+}
+SchemaViewer .tree--guides-hover {
+    color: $primary;
+}
+SchemaViewer .tree--guides-selected {
+    color: $secondary;
+}
+
+/* RIGHT HAND CONTAINER */
+#main_panel {
+    width: 3fr;
+}
+
+
+EditorCollection, CodeEditor {
+    height: 1fr;
+    width: 100%;
+}
+/* RUN QUERY BAR */
+RunQueryBar {
+    height: 1;
+    width: 100%;
+    align-horizontal: right;
+    padding: 0 2 0 0;
+    background: $background;
+}
+RunQueryBar Input {
+    border: none;
+    padding: 0;
+    width: 6;
+    background: $background;
+}
+RunQueryBar Input.-invalid {
+    border: none;
+    color: $error
+}
+Tooltip {
+    border: round $border-color-focus;
+    background: $background;
+}
+RunQueryBar Button {
+    background: $primary;
+    border: none;
+    height: 1;
+    margin: 0 0 0 4;
+}
+RunQueryBar Button:hover {
+    background: $secondary;
+}
+RunQueryBar Button:focus {
+    text-style: reverse;
+}
+RunQueryBar Checkbox {
+    border: none;
+    padding: 0;
+    background: $background;
+}
+RunQueryBar Checkbox:focus > .toggle--label {
+    text-style: none;
+}
+RunQueryBar Checkbox > .toggle--button {
+    background: $panel
+}
+RunQueryBar Checkbox:hover {
+    background: $background-lighten-1;
+}
+RunQueryBar Checkbox:hover > .toggle--button {
+    background: $secondary;
+}
+RunQueryBar Checkbox.-on > .toggle--button {    
+    color: $accent;
+    background: $background-lighten-1
+}
+RunQueryBar Checkbox.-on:hover > .toggle--button {
+    background: $secondary;
+}
+RunQueryBar Input:hover, RunQueryBar Input:focus {
+    background: $background-lighten-1;
+}
+RunQueryBar Input {
+    background: $background;
+}
+
+RunQueryBar Checkbox.non-responsive, RunQueryBar Button.non-responsive, RunQueryBar Input.non-responsive{
+    text-style: italic;
+    background: $background;
+}
+
+/* RESULTS VIEWER */
+
+ContentSwitcher, TabPane {
+    height: 1fr;
+    width: 100%;
+}
+.hide-tabs Tabs {
+    height: 0;
+}
+TabPane {
+    padding: 0;
+}
+ResultsViewer.non-responsive {
+    border: round $panel-lighten-1;
+}
+ResultsTable > .datatable--header {
+    text-style: none;
+    background: $background;
+    color: $primary;
+}
+ResultsTable > .datatable--cursor {
+    background: $secondary;
+    color: auto;
+}
+ResultsTable > .datatable--header-hover {
+    text-style: none;
+    background: $background;
+    color: $primary;
+}
+ResultsTable > .datatable--hover {
+    color: $text;
+    background: $boost;
+}
+
+/* ERROR MODAL */
+ErrorModal {
+    align: center middle;
+    padding: 0;
+}
+#error_outer {
+    border: round $error;
+    background: $background;
+    margin: 5 10;
+    padding: 1 2;
+    max-width: 88;
+}
+
+#error_header {
+    dock: top;
+    color: $text-muted;
+    margin: 0 0 1 0;
+    padding: 0 1;
+}
+
+#error_inner {
+    border: round $border-color-nofocus ;
+    padding: 1 1 1 2;
+}
+
+#error_info {
+    padding: 0 3 0 0;
+}
+
+#error_footer {
+    dock: bottom;
+    color: $text-muted;
+    margin: 1 0 0 0;
+    padding: 0 1;
+}
+
+/* HELP SCREEN */
+HelpScreen {
+    align: center middle;
+    padding: 0;
+}
+#help_outer {
+    border: round $border-color-focus;
+    background: $background;
+    margin: 2 4;
+    padding: 1 2;
+    max-width: 88;
+}
+
+#help_header {
+    dock: top;
+    margin: 0 0 1 0;
+    padding: 0 1;
+}
+
+#help_inner {
+    border: round $border-color-nofocus;
+    padding: 0 0 0 0;
+}
+
+#help_info {
+    padding: 0 0 0 0;
+}
+
+#help_footer {
+    dock: bottom;
+    color: $text-muted;
+    margin: 1 0 0 0;
+    padding: 0 1;
+}
+
+/* Export Screen */
+ExportScreen {
+    align: center middle;
+    padding: 0;
+}
+#export_outer {
+    border: round $border-color-focus;
+    background: $background;
+    margin: 2 4;
+    padding: 1 2;
+    max-width: 88;
+}
+
+#export_header {
+    padding: 0 1;
+}
+
+#path_input {
+    margin: 1 0 0 0;
+}
+
+#validation_label {
+    height: 1;
+    color: $error;
+    text-style: italic;
+    margin: 0 0 0 3;
+}
+
+ExportScreen .option_row {
+    height: 3;
+    margin: 1 1 0 0;
+}
+
+ExportScreen Horizontal Label {
+    height: 1;
+    text-align: right;
+    width: 20;
+}
+
+.select_label, .switch_label, .input_label {
+    margin: 1 2 0 1;
+}
+
+ExportScreen Horizontal Select {
+    width: 41; /* off by one!? */
+    padding: 0;
+    margin: 0;
+}
+
+ExportScreen Horizontal Select > SelectCurrent {
+    width: 40;
+    background: transparent;
+    border: round $border-color-nofocus;
+    margin: 0 0 0 0;
+}
+
+ExportScreen Horizontal Select:focus-within > SelectCurrent {
+    border: round $border-color-focus;
+}
+
+ExportScreen Horizontal Select > SelectOverlay {
+    width: 40;
+    border: round $border-color-focus;
+    background: transparent;
+}
+
+ExportScreen Input {
+    border: round $border-color-nofocus;
+    background: transparent;
+}
+
+ExportScreen Input:focus {
+    border: round $border-color-focus;
+}
+
+ExportScreen Horizontal Input {
+    width: 40;
+}
+
+ExportScreen Switch:hover {
+    border: tall transparent;
+}
+
+ExportScreen Switch:focus:hover {
+    border: tall $border-color-focus;
+}
+
+ExportScreen Switch.-on > .switch--slider {
+    color: $primary;
+    border: tall transparent;
+}
+
+CSVOptionsMenu, ParquetOptionsMenu, JSONOptionsMenu {
+    height: auto;
+}
+
+#export_button_row {
+    height: auto;
+    align: center bottom;
+    margin: 1 0 0 0;
+}
+
+ExportScreen Button {
+    background: $primary;
+    height: 3;
+    margin: 0 6;
+    border: none;
+}
+ExportScreen Button:hover, #cancel:hover {
+    background: $secondary;
+}
+ExportScreen Button:focus {
+    text-style: reverse;
+}
+#cancel{
+    background: $panel;
+}
+
+/* FOOTER */
+Footer {
+    background: $background;
+    color: $secondary;
+    dock: bottom;
+    height: 1;
+}
+Footer > .footer--highlight {
+    background: $boost;
+    color: $secondary;
+}
+
+Footer > .footer--highlight-key {
+    background: $boost;
+    color: $primary;
+    text-style: none;
+}
+
+Footer > .footer--key {
+    text-style: none;
+    background: $background;
+    color: $primary;
+}

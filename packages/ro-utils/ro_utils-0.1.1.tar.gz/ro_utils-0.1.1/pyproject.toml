@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "ro-utils"
+version = "0.1.1"
+description = ""
+authors = ["rogerogers <rogers@rogerogers.com>"]
+readme = "readme.md"
+packages = [{ include = "ro_utils", from = "src" }]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

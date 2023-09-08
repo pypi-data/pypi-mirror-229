@@ -1,0 +1,11 @@
+License
+README.md
+setup.py
+src/GPT2LM/__init__.py
+src/GPT2LM/bigram.py
+src/GPT2LM/bigram_v1.py
+src/GPT2LM.egg-info/PKG-INFO
+src/GPT2LM.egg-info/SOURCES.txt
+src/GPT2LM.egg-info/dependency_links.txt
+src/GPT2LM.egg-info/requires.txt
+src/GPT2LM.egg-info/top_level.txt

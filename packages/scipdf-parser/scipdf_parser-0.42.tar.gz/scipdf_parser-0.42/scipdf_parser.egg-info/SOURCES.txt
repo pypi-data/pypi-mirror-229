@@ -1,0 +1,14 @@
+LICENSE.txt
+README.md
+serve_grobid.sh
+setup.py
+scipdf/__init__.py
+scipdf/features/__init__.py
+scipdf/features/text_utils.py
+scipdf/pdf/__init__.py
+scipdf/pdf/parse_pdf.py
+scipdf_parser.egg-info/PKG-INFO
+scipdf_parser.egg-info/SOURCES.txt
+scipdf_parser.egg-info/dependency_links.txt
+scipdf_parser.egg-info/requires.txt
+scipdf_parser.egg-info/top_level.txt

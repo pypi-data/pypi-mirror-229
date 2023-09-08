@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: upload_component
+Version: 0.0.3
+Summary: Project Description
+Author: Ujwala <ujwalaguttikonda@gmail.com>
+License: MIT
+Classifier: Framework :: Dash
+License-File: LICENSE

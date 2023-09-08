@@ -1,0 +1,16 @@
+Algometrix/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+Algometrix/algometrix.py,sha256=rz5zFFzm43IL40UimtZilcqONJH1uzW2MoHbfXjrdGk,896
+Algometrix/classification_models.py,sha256=gpH31mZzr_EyIHg4_hmHp8qdeeUWEBZj4bSgtbGcPQM,1079
+Algometrix/cross_validation.py,sha256=q132Jbx229ThY77S3YiN-Cj5AVm7k1VlJcMYIbZUHUY,3
+Algometrix/evaluation_metrics.py,sha256=oAw7WdXp4titeOKSWOE7XPSAeRnrtaUjwZno2hzakbk,4
+Algometrix/problem_types.py,sha256=Q2KDWuaTIb3aJwcROyGYvso4ah3N5xPiHCRRH5jvcPE,276
+Algometrix/processing_classification.py,sha256=w7gNDcSI0iZwEWRXLAyPQN7F_A0rhUuYTXTPnSQfeHA,7581
+Algometrix/processing_regression.py,sha256=moa9aZ-kKBSbq0e5F1LXfaxFSO1h6Ha1Szq5BAkFNlY,5993
+Algometrix/regression_models.py,sha256=-Be2ICgYaG-Bzk-OSC3Ie_ezwNoyzkZS_Rx7y1-h3uA,693
+Algometrix/validation_classification.py,sha256=jSg1fTuj626P643RHuYoVA_1Gq01FHrHSV5-4fmpyqY,1106
+Algometrix/validation_regression.py,sha256=Slw6BfYmuPuKQNdWgPXyoDS6EjtqCHnw174A543KiYg,719
+Algometrix-0.0.1.dist-info/LICENSE,sha256=l6qRnVs3x_eTn3QVcg7O_rzR0Ix6CijsbuMo5kcTtpQ,1070
+Algometrix-0.0.1.dist-info/METADATA,sha256=lTmkfFv9g7yD2AHWL13-kjYxlOXPspGeVXNtBpeh4LE,14796
+Algometrix-0.0.1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+Algometrix-0.0.1.dist-info/top_level.txt,sha256=Jke6rRVTal1d9sRplG0yBBMCcNa-EYT0kBj6WtH5HKw,11
+Algometrix-0.0.1.dist-info/RECORD,,

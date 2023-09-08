@@ -1,0 +1,2 @@
+[console_scripts]
+onediffusion = onediffusion.cli:cli

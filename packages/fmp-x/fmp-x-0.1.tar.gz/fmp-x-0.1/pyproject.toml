@@ -1,0 +1,18 @@
+[tool.black]
+# 默认的行宽是 88，如果超过这个长度，Black 就会把它缩进
+line-length = 79
+
+# 是否应用 black 的自动导入，默认是 true
+apply-to-imports = true
+
+# 是否只对 python 文件应用 black，不在 .pyi 和 .inc 等类型文件上应用，默认是 false
+skip-string-normalization = true
+
+# 是否删除空白行来节省空间，默认是 true
+delete-empty-lines = true
+
+# 是否删除空白符以使得每个行只包含空白符，默认是 false
+strip-trailing-whitespace = false
+
+# 是否添加空白符来对齐行，默认是 true
+add-blank-lines-between-statements = true

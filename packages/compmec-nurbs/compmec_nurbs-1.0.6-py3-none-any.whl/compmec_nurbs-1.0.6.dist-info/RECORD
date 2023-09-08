@@ -1,0 +1,12 @@
+compmec/nurbs/__classes__.py,sha256=btB66JDwWFhz32sIB_GX7SwrxP4zoxOQNkrbykupjIw,2997
+compmec/nurbs/__init__.py,sha256=c2wCJ9cZ1BTN1g5lkoVubHTpbhB1RH1RlWqN5S6rLSw,316
+compmec/nurbs/advanced.py,sha256=7PhnEcr8ocRF7402TmtZw8dkFEc1xS8g_ZjXj3yMAtw,11168
+compmec/nurbs/calculus.py,sha256=O0QoAGl246ADiXVPYFpZnH5RYbhzlEP8hOqK1dP8K9I,3849
+compmec/nurbs/curves.py,sha256=-tvBR6VuXx7FO0uPiyWpD2GYOQiWA_TBpfo8yOymgL8,40777
+compmec/nurbs/functions.py,sha256=ohA3by11JAtQ54WVSwECkzErgVu3MupGgDhPrd2L3Cw,11179
+compmec/nurbs/heavy.py,sha256=_kkXwIJP4qjBaJgoFIqpoMmtgQ8Vj7aXmQzXX_iIjI8,56774
+compmec/nurbs/knotspace.py,sha256=Z_bjyOP_1xIjrZ2ezGm2-QqpaV5GPZSLOy-evA8J3QQ,26314
+compmec_nurbs-1.0.6.dist-info/LICENSE.md,sha256=hkZVnIZll7e_KNEQzeY94Y9tlzVL8iVZBTMBvDykksU,35142
+compmec_nurbs-1.0.6.dist-info/METADATA,sha256=d0gw327z2rocc3kWA5CrSixU6VapEBbiFQsWWYpMDws,3051
+compmec_nurbs-1.0.6.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+compmec_nurbs-1.0.6.dist-info/RECORD,,

@@ -1,0 +1,9 @@
+atyp
+regsyn
+indoc
+ispec
+pstr
+fuzstr
+dynattr
+
+[dev]

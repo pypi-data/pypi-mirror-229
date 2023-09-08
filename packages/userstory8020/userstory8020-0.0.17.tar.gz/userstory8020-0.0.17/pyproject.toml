@@ -1,0 +1,22 @@
+# pyproject.toml
+
+[build-system]
+requires = ["setuptools>=64.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "userstory8020"
+version = "0.0.17"
+description = "My awesome Hello CLI application"
+readme = "README.md"
+authors = [{ name = "Real Python", email = "info@realpython.com" }]
+
+dependencies = [
+    "pyspark == 3.4.1"
+]
+
+[project.scripts]
+userstory8020 = "userstory8020.__main__:main"
+
+[tool.setuptools.packages.find]
+include = ["userstory8020"]

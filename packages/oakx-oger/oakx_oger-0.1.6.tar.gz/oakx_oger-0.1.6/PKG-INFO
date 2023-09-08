@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: oakx-oger
+Version: 0.1.6
+Summary: OGER plugin for oaklib
+Author: Harshad Hegde
+Author-email: hhegde@lbl.gov
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Provides-Extra: docs
+Requires-Dist: OGER (>=1.5,<2.0)
+Requires-Dist: click (>=8.1.7,<9.0.0)
+Requires-Dist: importlib (>=1.0.4,<2.0.0)
+Requires-Dist: oaklib (>=0.5.19)
+Description-Content-Type: text/markdown
+
+# oakx-oger
+
+This is an [OGER](https://github.com/OntoGene/OGER) plugin for [`oaklib`](https://github.com/INCATools/ontology-access-kit).
+
+**ALPHA**
+
+## Usage
+
+```
+pip install oakx-oger
+runoak -i oger:sqlite:obo:envo annotate cultured organisms polar ecosystems atmospheric gas exchange
+```
+
+## How it works
+
+There are two possible inputs to this plugin:
+1. A `.txt` file [`runoak -i oger:sqlite:obo:envo annotate --text-file text.txt`]
+2. Words that need to be annotated.[`runoak -i oger:sqlite:obo:envo annotate cultured organisms polar ecosystems atmospheric gas exchange`]
+
+Input ontologies generally used `oaklib` can be used with an `oger:` prefix.
+Note: This has been tested only with `oger:sqlite:obo:*` for now.
+
+
+## Acknowledgements
+
+This [cookiecutter](https://cookiecutter.readthedocs.io/en/stable/README.html) project was developed from the [oakx-plugin-cookiecutter](https://github.com/INCATools/oakx-plugin-cookiecutter) template and will be kept up-to-date using [cruft](https://cruft.github.io/cruft/).
+

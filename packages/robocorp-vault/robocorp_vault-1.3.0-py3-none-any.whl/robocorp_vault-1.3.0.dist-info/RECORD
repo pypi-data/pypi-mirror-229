@@ -1,0 +1,11 @@
+robocorp/vault/__init__.py,sha256=5DnZSckKFSMApYOgRC0xk8zruLqqGWsg1JQaftAZoBc,4051
+robocorp/vault/_adapters.py,sha256=QyEEASZGmB5__nvYhIhO0Y6BXzUyVQVEs51A-R6rWx8,12926
+robocorp/vault/_errors.py,sha256=07vLL-vz5Gl1wVO5_RO4tVgHJJBh6B0MfH61TXmgp20,112
+robocorp/vault/_requests.py,sha256=6_4j6SJERoRnKWzCVZIS9DTHWq04tKgsPFgHYYOBdO4,6503
+robocorp/vault/_secrets.py,sha256=65Id6esI0lD0HrFn0A30IAdph1-8n-qFKW_LQvp0OxU,1587
+robocorp/vault/_utils.py,sha256=qmo0Z_-lmShYakgVciKEViJ37nZEKc96Whf-5C0b9Ds,1858
+robocorp/vault/_vault.py,sha256=UCDD-nqkfApKaTsb7RweyjUivVLGcnFclIub5VvkfcQ,2945
+robocorp/vault/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+robocorp_vault-1.3.0.dist-info/METADATA,sha256=dhnynIWu62oFBvdAk-bpmX-AwR6U6LY4q7IjZW5oa-g,2362
+robocorp_vault-1.3.0.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+robocorp_vault-1.3.0.dist-info/RECORD,,

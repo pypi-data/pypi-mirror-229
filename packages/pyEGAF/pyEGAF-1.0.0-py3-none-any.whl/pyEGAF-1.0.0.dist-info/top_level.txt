@@ -1,0 +1,3 @@
+dist
+pyEGAF
+tests

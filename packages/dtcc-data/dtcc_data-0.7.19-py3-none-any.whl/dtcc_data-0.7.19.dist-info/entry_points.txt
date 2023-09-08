@@ -1,0 +1,3 @@
+[console_scripts]
+dtcc-download-demo-data = dtcc_data.scripts:dtcc_download_demo_data.main
+dtcc-import-elevation-data = dtcc_data.scripts:las_to_elevation_data.main

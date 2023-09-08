@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+src/pyhgf.egg-info/PKG-INFO
+src/pyhgf.egg-info/SOURCES.txt
+src/pyhgf.egg-info/dependency_links.txt
+src/pyhgf.egg-info/requires.txt
+src/pyhgf.egg-info/top_level.txt
+tests/test_binary.py
+tests/test_categorical.py
+tests/test_continuous.py
+tests/test_distribution.py
+tests/test_model.py
+tests/test_plots.py
+tests/test_responses.py
+tests/test_structure.py

@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: rastervision-pytorch-learner
+Version: 0.21.1
+Summary: A rastervision plugin that adds PyTorch training pipelines
+Home-page: https://github.com/azavea/raster-vision
+Author: Azavea
+Author-email: info@azavea.com
+License: Apache License 2.0
+Keywords: raster deep-learning ml computer-vision earth-observation geospatial geospatial-processing
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Requires-Dist: rastervision-pipeline ==0.21.1
+Requires-Dist: rastervision-core ==0.21.1
+Requires-Dist: numpy ==1.25.0
+Requires-Dist: pillow ==9.3.0
+Requires-Dist: torch ==2.0.1
+Requires-Dist: torchvision ==0.15.2
+Requires-Dist: tensorboard ==2.13.0
+Requires-Dist: albumentations ==1.3.0
+Requires-Dist: cython ==0.29.35
+Requires-Dist: pycocotools ==2.0.7
+Requires-Dist: psutil ==5.9.3
+Requires-Dist: triangle ==20220202
+Requires-Dist: opencv-python-headless ==4.6.0.66
+Requires-Dist: matplotlib ==3.7.1
+Requires-Dist: tqdm ==4.65.0
+Requires-Dist: onnx ==1.14.0
+Requires-Dist: onnxruntime-gpu ==1.15.0
+

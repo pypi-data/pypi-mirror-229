@@ -1,0 +1,13 @@
+timeforge/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+timeforge/__main__.py,sha256=DkyjtcC7x8GBAUdudidhcqGqPqPmW1ZnW1g8Tb50Li8,5548
+timeforge/config.py,sha256=wL5Im-DWb9f7PiOb_UbxMDnMXwI3HSnS2UAO-gJbcy0,317
+timeforge/core.py,sha256=moSFjMt8qsmzxVEEzs-p8NTuq_yYkbIYC_yNoitOW1k,12061
+timeforge/gui.py,sha256=2XAmUmt9AMGX9yMha1Ys52EHXtpXPD5hLvq2hvZFVAY,15366
+timeforge/helpers.py,sha256=BLSxi6KN3XWsBRVrfBjVk4Ii1hGG0dlxblK1jcy7s90,5046
+timeforge/text_input.py,sha256=-WIsEMNViCIlMKhlvl2TOfTZD6YhuLAY7E8pQnZaBk8,18189
+TimeForge-1.1.0.dist-info/LICENSE.md,sha256=M7wm1EmMGDtwPRdg7kW4d00h1uAXjKOT3HFScYQMeiE,34916
+TimeForge-1.1.0.dist-info/METADATA,sha256=C7IJQH1jV_yDehNGigLx8gFhB-IiUhDqVkTR4wuz81w,2256
+TimeForge-1.1.0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+TimeForge-1.1.0.dist-info/entry_points.txt,sha256=1UmmbA8t3Ie_Lk8tMNc72LmndK4_MkwF_BiYCTyQlsY,89
+TimeForge-1.1.0.dist-info/top_level.txt,sha256=G-xAhORLh2qUgmDXWpGRzCUxj0gdiRzUEZv1cUsYrsY,10
+TimeForge-1.1.0.dist-info/RECORD,,

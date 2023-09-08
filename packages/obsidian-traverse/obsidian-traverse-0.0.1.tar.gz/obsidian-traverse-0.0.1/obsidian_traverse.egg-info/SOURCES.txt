@@ -1,0 +1,8 @@
+README.md
+obsidian_traverse.py
+setup.py
+obsidian_traverse.egg-info/PKG-INFO
+obsidian_traverse.egg-info/SOURCES.txt
+obsidian_traverse.egg-info/dependency_links.txt
+obsidian_traverse.egg-info/entry_points.txt
+obsidian_traverse.egg-info/top_level.txt

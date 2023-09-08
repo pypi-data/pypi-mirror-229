@@ -1,0 +1,2 @@
+[console_scripts]
+obsidian-traverse = obsidian_traverse:main

@@ -1,0 +1,13 @@
+jupdoc/__init__.py,sha256=fFYq0KCgWnOd8jCaeRgaj0Vn3a8aDoVhamwkTBrYRMM,83
+jupdoc/__main__.py,sha256=Vj-JlNH34vmGXHAXGIuK-nJ1HCx5_9cXCRnKZTLNoeM,501
+jupdoc/convert.py,sha256=x_IfJg1EbKdlIKAkUiDYPNggC8f7EpA52Hy5svASaFE,8923
+jupdoc/main.py,sha256=NxdRqrNQxuSEMGzeBFtuPuET4phRpD0K17Y25plObYc,242
+jupdoc/upload.py,sha256=P-hBZrquzHPPk_KoZQEWOffSHRXzbx08lXkEsg_bqZA,2426
+jupdoc-0.1.1.data/scripts/convert.py,sha256=x_IfJg1EbKdlIKAkUiDYPNggC8f7EpA52Hy5svASaFE,8923
+jupdoc-0.1.1.data/scripts/main.py,sha256=NxdRqrNQxuSEMGzeBFtuPuET4phRpD0K17Y25plObYc,242
+jupdoc-0.1.1.dist-info/LICENSE,sha256=7hIpQWS05zrfZU6031yzLCQQdIuA3tMQDepCgoeYy9Y,1063
+jupdoc-0.1.1.dist-info/METADATA,sha256=JRvYyLUlEQbpSYhTxQURa7oifa_P2RrxmR8UM3IFAvY,6409
+jupdoc-0.1.1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+jupdoc-0.1.1.dist-info/entry_points.txt,sha256=pWl0SyopOYrFtc4g7ObRUwPakl-FUKBoIAmVcMzS1bw,48
+jupdoc-0.1.1.dist-info/top_level.txt,sha256=YwBECfygIWWDXTMrQHg0mzfsOvbMNX0SQD_COvjjzbo,7
+jupdoc-0.1.1.dist-info/RECORD,,

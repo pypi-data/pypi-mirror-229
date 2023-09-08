@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: userstory8020
+Version: 0.0.17
+Summary: My awesome Hello CLI application
+Author-email: Real Python <info@realpython.com>
+Description-Content-Type: text/markdown
+Requires-Dist: pyspark ==3.4.1
+

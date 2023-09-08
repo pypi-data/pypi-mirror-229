@@ -1,0 +1,10 @@
+README.md,sha256=FkUAzTf_teT6ZXBAzGU-1jCsVRG0whdAfqUawBsQnlE,927
+prairie/__init__.py,sha256=J5ZPwh2iqEWDgxMIsJH2afQhdaXa-eNN5PfiBMVoJpo,190
+prairie/__version__.py,sha256=Lyzs86pP5239V3BdizKGZvM-qN9WXe4yTfu7RpqV8so,106
+prairie/docker.py,sha256=YPTQZPzVHpbxG0AN0uu-8mvaDeZR9JcHWyM7dG9yPXk,1118
+prairie/main.py,sha256=n7acXTuJuVSzm-ElcQeX6v_sbNvLou8afgPt4ndvRfU,735
+prairie-0.0.1.dist-info/LICENSE,sha256=46mU2C5kSwOnkqkw9XQAJlhBL2JAf1_uCD8lVcXyMRg,7652
+prairie-0.0.1.dist-info/METADATA,sha256=TaBUK9YvtUlh3x1DGlHs6hLVMMpG8ulwEYX8ykc05ww,2380
+prairie-0.0.1.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+prairie-0.0.1.dist-info/entry_points.txt,sha256=LMFwOrRhrib6RplvaUefwMAT4RoDmCQYPQPdoAsVCHU,44
+prairie-0.0.1.dist-info/RECORD,,

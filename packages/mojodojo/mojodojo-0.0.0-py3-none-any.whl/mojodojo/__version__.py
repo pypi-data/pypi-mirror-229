@@ -1,0 +1,5 @@
+__title__ = "mojodojo"
+__description__ = "The Mojo Dojo"
+__version__ = "0.0.0"
+__author__ = "Trevor Hobenshield"
+__license__ = "MIT"

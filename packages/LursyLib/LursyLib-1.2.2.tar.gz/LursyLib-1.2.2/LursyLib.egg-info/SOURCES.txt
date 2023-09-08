@@ -1,0 +1,9 @@
+setup.py
+LursyLib.egg-info/PKG-INFO
+LursyLib.egg-info/SOURCES.txt
+LursyLib.egg-info/dependency_links.txt
+LursyLib.egg-info/requires.txt
+LursyLib.egg-info/top_level.txt
+infoFlib/Functions.py
+infoFlib/Lib.py
+infoFlib/__init__.py

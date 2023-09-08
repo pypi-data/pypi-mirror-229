@@ -1,0 +1,16 @@
+LICENSE
+README.md
+setup.py
+agentlabs/__init__.py
+agentlabs/agent.py
+agentlabs/registry.py
+agentlabs/service_registry.py
+agentlabs.egg-info/PKG-INFO
+agentlabs.egg-info/SOURCES.txt
+agentlabs.egg-info/dependency_links.txt
+agentlabs.egg-info/requires.txt
+agentlabs.egg-info/top_level.txt
+agentlabs/models/service.py
+agentlabs/models/task.py
+agentlabs/utils/logger.py
+agentlabs/utils/utils.py

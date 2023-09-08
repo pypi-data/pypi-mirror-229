@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: confighammer
+Version: 0.0.1
+Summary: Common Config Reader
+Home-page: https://github.com/friendlyblackwell/confighammer
+Author: Blackwell
+Author-email: friendlyblackwell@example.com
+Description-Content-Type: text/markdown
+Requires-Dist: PyYAML
+
+# configsaver
+
+
+### YAML
+
+```python
+
+from confighammer import yml
+
+y = yml.YAML('/path/to/a-yaml-file')
+y.load()
+y.config
+
+```
+### INI
+
+```python
+
+
+```
+

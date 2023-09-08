@@ -1,0 +1,5 @@
+taos_ws_py-0.2.9.dist-info/METADATA,sha256=UGfojMZMCHcVlZXBzi1NVl_eSR-TOlHhnE5hKthe8PE,54
+taos_ws_py-0.2.9.dist-info/WHEEL,sha256=bYxGDNA4IQXchE7gRlJNOD2it4DPWJE9IFvlvNyjw2k,94
+taosws/__init__.py,sha256=xgu5HBMtSDuhWFKY5u3q2AhZAnfgSIl4Xpvt2QKJ-Q0,107
+taosws/taosws.pyd,sha256=kzWiee-2SvxiLaSHajWMygq4-KyUaaZqd2iJOv-c9qM,6966272
+taos_ws_py-0.2.9.dist-info/RECORD,,

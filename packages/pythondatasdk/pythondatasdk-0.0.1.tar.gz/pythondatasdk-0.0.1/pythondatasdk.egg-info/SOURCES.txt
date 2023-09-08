@@ -1,0 +1,8 @@
+setup.py
+pythondatasdk/__init__.py
+pythondatasdk/dbclient.py
+pythondatasdk.egg-info/PKG-INFO
+pythondatasdk.egg-info/SOURCES.txt
+pythondatasdk.egg-info/dependency_links.txt
+pythondatasdk.egg-info/requires.txt
+pythondatasdk.egg-info/top_level.txt

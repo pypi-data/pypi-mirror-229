@@ -1,0 +1,15 @@
+#! /usr/bin/env python
+
+# Copyright (C) 2022 Mohammad Bagheri
+# A python tools for analyzing dimensionality of materials structure with force constants matrix
+
+
+import os
+import sys
+
+
+from fcdimen.functions.runner import run
+
+
+if(__name__ == '__main__'):
+   run()

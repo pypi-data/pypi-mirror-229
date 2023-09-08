@@ -1,0 +1,20 @@
+Metadata-Version: 1.1
+Name: fcdimen
+Version: 0.2.4
+Summary: Python tools for analyzing dimensionality of materials structure using force constants.
+Home-page: https://github.com/FCDimen/
+Author: Mohammad Bagheri, Ethan Berger, Hannu-Pekka Komsa
+Author-email: Mohammad.Bagheri@oulu.fi
+License: UNKNOWN
+Description: Visit https://github.com/FCDimen/FCDimen
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Intended Audience :: Science/Research
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Scientific/Engineering :: Physics
+Classifier: Topic :: Scientific/Engineering :: Chemistry

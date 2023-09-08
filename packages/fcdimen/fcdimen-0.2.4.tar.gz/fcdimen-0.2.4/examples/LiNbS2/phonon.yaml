@@ -1,0 +1,97 @@
+name:      phonon
+type:      phonon
+id:        2598
+status:    done
+directory: phonon
+traverse:  restart
+tasks:
+- name:      equilibrium
+  type:      structopt
+  id:        2599
+  status:    done
+  directory: equilibrium
+  traverse:  restart
+- name:      disp-001
+  type:      electronic_structure
+  id:        8962
+  status:    done
+  directory: disp-001
+  traverse:  restart
+- name:      disp-002
+  type:      electronic_structure
+  id:        8963
+  status:    done
+  directory: disp-002
+  traverse:  restart
+- name:      disp-003
+  type:      electronic_structure
+  id:        8964
+  status:    done
+  directory: disp-003
+  traverse:  restart
+- name:      disp-004
+  type:      electronic_structure
+  id:        8965
+  status:    done
+  directory: disp-004
+  traverse:  restart
+- name:      disp-005
+  type:      electronic_structure
+  id:        8966
+  status:    done
+  directory: disp-005
+  traverse:  restart
+- name:      disp-006
+  type:      electronic_structure
+  id:        8967
+  status:    done
+  directory: disp-006
+  traverse:  restart
+- name:      disp-007
+  type:      electronic_structure
+  id:        8968
+  status:    done
+  directory: disp-007
+  traverse:  restart
+lattice_tolerance: 0.100000
+stress_tolerance: 10.000000
+pressure_target: 0.000000
+force_tolerance: 0.001000
+max_increase: unset
+max_iteration: 10
+min_iteration: 1
+supercell_matrix:
+- [   4,   0,   0 ]
+- [   0,   4,   0 ]
+- [   0,   0,   1 ]
+distance: 0.010000
+lattice:
+- [     3.3409127000000001,     0.0000000000000000,     0.0000000000000000 ] # a
+- [    -1.6704563500000000,     2.8933152700000000,     0.0000000000000000 ] # b
+- [     0.0000000000000000,     0.0000000000000000,    12.8059319699999996 ] # c
+points:
+- symbol: Li # 1
+  coordinates: [  0.0000000000000000,  0.0000000000000000,  0.0000000000000000 ]
+  mass: 6.941000
+- symbol: Li # 2
+  coordinates: [  0.0000000000000000,  0.0000000000000000,  0.5000000000000000 ]
+  mass: 6.941000
+- symbol: S  # 3
+  coordinates: [  0.3333333300000000,  0.6666666700000000,  0.8726880400000000 ]
+  mass: 32.065000
+- symbol: S  # 4
+  coordinates: [  0.3333333300000000,  0.6666666700000000,  0.6273119600000000 ]
+  mass: 32.065000
+- symbol: S  # 5
+  coordinates: [  0.6666666700000000,  0.3333333300000000,  0.3726880400000000 ]
+  mass: 32.065000
+- symbol: S  # 6
+  coordinates: [  0.6666666700000000,  0.3333333300000000,  0.1273119600000000 ]
+  mass: 32.065000
+- symbol: Nb # 7
+  coordinates: [  0.0000000000000000,  0.0000000000000000,  0.7500000000000000 ]
+  mass: 92.906380
+- symbol: Nb # 8
+  coordinates: [  0.0000000000000000,  0.0000000000000000,  0.2500000000000000 ]
+  mass: 92.906380
+electric_total_energy:       -54.2260469900

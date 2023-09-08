@@ -1,0 +1,3 @@
+[console_scripts]
+summarize=pseudocode_summarizer.cli:cli
+

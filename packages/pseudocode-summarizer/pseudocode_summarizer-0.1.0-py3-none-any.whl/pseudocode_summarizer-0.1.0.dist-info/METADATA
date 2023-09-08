@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: pseudocode-summarizer
+Version: 0.1.0
+Summary: 
+Author: Christopher Carroll Smith
+Author-email: 75859865+chriscarrollsmith@users.noreply.github.com
+Requires-Python: >=3.11,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: click (>=8.1.7,<9.0.0)
+Requires-Dist: langchain (>=0.0.272,<0.0.273)
+Requires-Dist: openai (>=0.28.0,<0.29.0)
+Requires-Dist: pathspec (>=0.11.2,<0.12.0)
+Requires-Dist: pydantic (>=2.3.0,<3.0.0)
+Requires-Dist: python-dotenv (>=1.0.0,<2.0.0)
+Description-Content-Type: text/markdown
+
+# pseudocode_summarizer
+
+## Description
+
+
+
+## To-do
+
+- [ ] Write README
+- [ ] Create a Github Action to run this on every commit
+- [ ] Add tech stack summarization
+- [ ] Add usage summarization
+- [ ] Add support for LLMs other than OpenAI's
+
+## Ideas
+
+Instead of having separate `ProjectFile` and `FileClassification` data types, have a single class with `modified` and `role` both as optional fields. And instead of a `FileClassificationList` class, I could simplify in the pydantic parser as `[FileClassification]` and convert the `to_json` method to a function that takes a list of `FileClassification` objects. This would require removing the `files` attribute in the list comprehension in `classify_files`. However, this might still cause `modified` to show up in our JSON serialization, filling our LLM context with useless tokens.
+
+Do I want to experiment with YAML instead of JSON to keep context length down?

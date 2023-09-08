@@ -1,0 +1,11 @@
+MANIFEST.in
+requirements.txt
+setup.py
+vialink/utils/discovery/__init__.py
+vialink/utils/discovery/discovery.py
+vialink/utils/discovery/settings.py
+vialink_utils_discovery.egg-info/PKG-INFO
+vialink_utils_discovery.egg-info/SOURCES.txt
+vialink_utils_discovery.egg-info/dependency_links.txt
+vialink_utils_discovery.egg-info/requires.txt
+vialink_utils_discovery.egg-info/top_level.txt

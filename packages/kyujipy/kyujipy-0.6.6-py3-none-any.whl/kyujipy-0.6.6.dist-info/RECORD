@@ -1,0 +1,13 @@
+LICENSE,sha256=DPxRAT6EMU2JMPHxg8aK2a0j9TKuynpx0iRbmuXfvdY,1077
+kyujipy/__init__.py,sha256=kHvHL4xGliLQhd6vj-ZcsNRYtADGl1pvsd9qZFaDIk8,108
+kyujipy/basic_converter.py,sha256=AJlxJALPTsYZ9xUSEzioYCfzDb-o9u7DbGjObqoTi3Q,2682
+kyujipy/data/kakikae_simplified.cson,sha256=384j8NOBU8aqYCDR_ucDE1dNvJFppGHw1wvjBJPC8_g,16318
+kyujipy/data/kakikae_variants.cson,sha256=f_HeQEScB3wtelAzYTtptAhh88rj1uwq-Y89JScGX0Y,25174
+kyujipy/data/kyujitai_simplified.cson,sha256=znpFp0OcPYWG9xp8NUHWCv-03dRZf7-UwIa8FCe4vZI,9700
+kyujipy/data/kyujitai_variants.cson,sha256=aVHTS9SX6G44h31C8dCyDbK0NWJwtuXGDLXpV7pr5_8,542
+kyujipy/export_to_json.py,sha256=7KbjzzjgO6m0KF8QnYrTXzCs3exk8KJeuJotTasCPvg,907
+kyujipy/kyujitai_converter.py,sha256=5sQyW_qVKwlAa9x776JFT85JsElFfv-5ydBvaUsPdg0,6980
+kyujipy-0.6.6.dist-info/LICENSE,sha256=DPxRAT6EMU2JMPHxg8aK2a0j9TKuynpx0iRbmuXfvdY,1077
+kyujipy-0.6.6.dist-info/METADATA,sha256=Y1CYs6gwW9_psMZTl8x6_ZYrjVbu1BR68a14Lq-DGR4,2096
+kyujipy-0.6.6.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+kyujipy-0.6.6.dist-info/RECORD,,

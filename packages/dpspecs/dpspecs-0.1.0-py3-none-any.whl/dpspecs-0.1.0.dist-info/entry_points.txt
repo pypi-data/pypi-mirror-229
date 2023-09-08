@@ -1,0 +1,2 @@
+[console_scripts]
+dpspecs = dpspecs.__main__:console

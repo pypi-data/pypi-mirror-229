@@ -1,0 +1,5 @@
+[console_scripts]
+dball = debrandom:dball
+debrandom = debrandom:app
+dprint = debrandom:dprint
+drandom = debrandom:drandom

@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+src/ocsh.py
+src/ocsh.egg-info/PKG-INFO
+src/ocsh.egg-info/SOURCES.txt
+src/ocsh.egg-info/dependency_links.txt
+src/ocsh.egg-info/entry_points.txt
+src/ocsh.egg-info/requires.txt
+src/ocsh.egg-info/top_level.txt

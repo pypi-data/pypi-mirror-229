@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+settings.ini
+setup.py
+regsyn/__init__.py
+regsyn/_modidx.py
+regsyn/core.py
+regsyn.egg-info/PKG-INFO
+regsyn.egg-info/SOURCES.txt
+regsyn.egg-info/dependency_links.txt
+regsyn.egg-info/entry_points.txt
+regsyn.egg-info/not-zip-safe
+regsyn.egg-info/requires.txt
+regsyn.egg-info/top_level.txt

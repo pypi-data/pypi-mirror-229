@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: modelmarket
+Version: 0.1.2
+Summary: The official client for the ModelMarket API
+Home-page: https://github.com/modelmarket-io/modelmarket-sdk
+License: MIT
+Author: modelmarket
+Author-email: info@modelmarket.io
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: pandas (>=1.2)
+Requires-Dist: requests (>=2)
+Description-Content-Type: text/markdown
+
+
+# ModelMarket SDK
+

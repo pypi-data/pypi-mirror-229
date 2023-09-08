@@ -1,0 +1,12 @@
+vecscan/__init__.py,sha256=lU1Xwd5ngcg6BWOa-DHHouNqitHWePlnEL-hIP6l6yw,195
+vecscan/scanner.py,sha256=42dyChSVtoh9VMCJgyUCkhaAwZMZNoom8aBpVEgfUtg,10165
+vecscan/vector_loader/__init__.py,sha256=s-L4W-c-dhBbEddhXSPe9Mw-5M0UUFKwLNpNr_upxtk,7902
+vecscan/vector_loader/__main__.py,sha256=EC6VC_0iowZY6TwTo123Uzpm_pDAcvuvTsPsu_D66l0,2151
+vecscan/vectorizer/__init__.py,sha256=amRXAJZ77alMThQLUfYjkgY6E4Y8Fc9U-jv4k7UA_vM,8583
+vecscan/vectorizer/__main__.py,sha256=PsVl7qosyqqw0lScVvgXd2oWUQSlJ2BHae4fk87k7c8,3068
+vecscan-2.0.1.dist-info/LICENSE,sha256=1ufePaUFxa5ffQ-SVo79sd5COXVCMedhgjefEQxYJ1Y,1069
+vecscan-2.0.1.dist-info/METADATA,sha256=cL2vTzU3s33VMWmAvTLwubhY-E_jFOf3A2ZG4cGR-hA,403
+vecscan-2.0.1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+vecscan-2.0.1.dist-info/entry_points.txt,sha256=z6DmxLCBTvbNZNTabbP6_SaDNdCH1VUn8S5AdyNemM0,124
+vecscan-2.0.1.dist-info/top_level.txt,sha256=sL-OkjqWxf7aUvfavm48-a_0LBarhCGXcvdnuShbhwc,49
+vecscan-2.0.1.dist-info/RECORD,,

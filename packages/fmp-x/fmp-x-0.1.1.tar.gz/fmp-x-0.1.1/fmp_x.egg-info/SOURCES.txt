@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+setup.py
+fmp_x.egg-info/PKG-INFO
+fmp_x.egg-info/SOURCES.txt
+fmp_x.egg-info/dependency_links.txt
+fmp_x.egg-info/entry_points.txt
+fmp_x.egg-info/requires.txt
+fmp_x.egg-info/top_level.txt

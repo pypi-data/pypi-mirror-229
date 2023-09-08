@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: plugins4all-IcemasterEric
+Version: 0.0.1
+Summary: Bringing chatgpt plugins to local llms
+Home-page: https://github.com/Icemaster-Eric/plugins4all
+Author: Eric Li
+Author-email: icemastereric@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# plugins4all
+Bringing chatgpt plugins to all local LLMs

@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+plugins/__init__.py
+plugins/plugins.py
+plugins4all_IcemasterEric.egg-info/PKG-INFO
+plugins4all_IcemasterEric.egg-info/SOURCES.txt
+plugins4all_IcemasterEric.egg-info/dependency_links.txt
+plugins4all_IcemasterEric.egg-info/top_level.txt

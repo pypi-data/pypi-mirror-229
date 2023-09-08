@@ -1,0 +1,6 @@
+[bodhilib]
+bodhilib.cohere=bodhilib.cohere
+bodhilib.file_loader=bodhilib.data_loader.file
+bodhilib.openai=bodhilib.openai
+bodhilib.sentence_transformers=bodhilib.sentence_transformers
+

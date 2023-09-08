@@ -1,0 +1,12 @@
+mathstropy/TextDisplay.py,sha256=bMmb0enzMKpeD2a8Wk0CeblRacR-ACgcBCU4RwFR4pI,631
+mathstropy/TextInput.py,sha256=GZFxQnIy5GKYcEC2LNLmUbqzLsAt3dkQ7ipMVPuhkMU,8391
+mathstropy/__init__.py,sha256=4Wm1NQ0Zm0nsj64zSGqHKBbWBtRo1gfx0zC1x026F1c,144
+mathstropy/miscellaneous_functions.py,sha256=sh3N4z3kenfOXjuWswcxnrhIEeWKVf6iJ-9z6Bf6k2I,3974
+mathstropy/words.py,sha256=zdP_NvXRLgtBWn_Z0rBHz3CQGIqBmmeOcfbRY9liTto,17221
+mathstropy/pgzero/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mathstropy/pgzero/pgzero.py,sha256=0vfE_DuKiGs2MmisCXqbel9SYwDl9IKwqWVcq1JIpgc,219
+mathstropy-3.0.0.dist-info/LICENSE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+mathstropy-3.0.0.dist-info/METADATA,sha256=UNrxaytyfUkpebAbpCgW6s85UqEoGFAQQH37RypyjB4,964
+mathstropy-3.0.0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+mathstropy-3.0.0.dist-info/top_level.txt,sha256=rGGNKTEKbymFRM3ax7bidtegYFOEPhWaZ4vkKRWHzII,11
+mathstropy-3.0.0.dist-info/RECORD,,

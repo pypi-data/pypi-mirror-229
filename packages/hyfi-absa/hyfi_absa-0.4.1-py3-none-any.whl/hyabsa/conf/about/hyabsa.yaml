@@ -1,0 +1,5 @@
+name: "HyFI-ABSA"
+authors: "Young Joon Lee <entelecheia@hotmail.com>"
+description: "HyFI-ABSA is a Python package developed as a plugin for the Hydra Fast Interface (HyFI)."
+homepage: "https://hyfi-absa.entelecheia.ai"
+license: "MIT"

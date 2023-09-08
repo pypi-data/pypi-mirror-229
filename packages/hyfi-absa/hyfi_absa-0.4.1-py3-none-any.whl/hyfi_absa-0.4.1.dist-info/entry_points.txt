@@ -1,0 +1,3 @@
+[console_scripts]
+hyabsa=hyabsa.__cli__:main
+

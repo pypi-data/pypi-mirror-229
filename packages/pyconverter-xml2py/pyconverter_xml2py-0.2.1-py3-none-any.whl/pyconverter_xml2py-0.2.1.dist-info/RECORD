@@ -1,0 +1,14 @@
+pyconverter/xml2py/__init__.py,sha256=RI5ssHmZk2KdW0HuSads7VOEEBkmPQYtl8ddH2cdegQ,302
+pyconverter/xml2py/ast_tree.py,sha256=1ngqZYwm4yA60ZV_QwkIkmfBA6IAVADdRoeqRmrQyJQ,75680
+pyconverter/xml2py/cli.py,sha256=1xkLaxnp9LXkhMJNLhyvV-yORaOFPWMU2xH6yt91bbo,3873
+pyconverter/xml2py/custom_functions.py,sha256=CfusIvwE1KlUW0BSoJGdsXQ8BcknfdyD4M0xRzGX1Rs,5289
+pyconverter/xml2py/directory_format.py,sha256=ib1HCOZdslUFQro6OqZxAr-nqswu2ZsyAqnKcIUC2lw,4719
+pyconverter/xml2py/download.py,sha256=tlqjRTw2aoNx3YGYtd-O-nMJ-CIDVomkZ42WD0RiufQ,1269
+pyconverter/xml2py/load_xml_doc.py,sha256=bUy-QHjL-xFrQFO9dqBkssyeXKcfFGz2s4I7eEy-U74,10318
+pyconverter/xml2py/version_variables.py,sha256=NiWhEBOz8YmMRX4PJBYMOxkqAX5MRcgu-YlNkaquAbo,1731
+pyconverter/xml2py/writer.py,sha256=b0rahlGFU5LRsWAW-ei5tN27hh4KF8UM1JrEkmJRFsw,11911
+pyconverter_xml2py-0.2.1.dist-info/entry_points.txt,sha256=xP9Pl4rFKImk2ISoNXUYL2PzEWemm9LCvsA06ae1VBM,66
+pyconverter_xml2py-0.2.1.dist-info/LICENSE,sha256=qQWivZ12ETN5l3QxvTARY-QI5eoRRlyHdwLlAj0Bg5I,1089
+pyconverter_xml2py-0.2.1.dist-info/WHEEL,sha256=EZbGkh7Ie4PoZfRQ8I0ZuP9VklN_TvcZ6DSE5Uar4z4,81
+pyconverter_xml2py-0.2.1.dist-info/METADATA,sha256=VLU_4wRyBoHjJq-zLby7udY-5LgVAiZ8ZRPl7lI1LIo,5777
+pyconverter_xml2py-0.2.1.dist-info/RECORD,,

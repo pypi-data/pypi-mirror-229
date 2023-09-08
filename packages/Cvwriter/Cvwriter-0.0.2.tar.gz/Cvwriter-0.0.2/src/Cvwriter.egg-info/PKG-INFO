@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: Cvwriter
+Version: 0.0.2
+Summary: The Video Writer Package is a Python library designed to simplify the process of capturing frames and saving them as video files. It provides an easy-to-use interface for creating video files from sequences of frames using the OpenCV library.
+Author-email: Prince kumar <pk8840230@gmail.com>
+Project-URL: Homepage, https://github.com/prince0310/Cvwriter
+Project-URL: Bug Tracker, https://github.com/prince0310/Cvwriter/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Video Writer Package
+
+The Video Writer Package is a simple Python library that provides a wrapper around OpenCV's VideoWriter functionality, allowing you to easily capture frames and save them as video files.
+
+## Installation
+
+To install the Video Writer Package, you can use `pip`:
+
+```bash
+pip install videowriter
+```
+
+## Parameters
+
+* filename: The name of the output video file.
+* fps: Frames per second for the output video.
+* frame_size: Tuple representing the dimensions (width, height) of the frames.
+
+## Supported Codecs (FourCC)
+
+* 'XVID': Xvid codec
+* 'H264' or 'H265': H.264 (AVC) or H.265 (HEVC) codecs for MP4 videos
+* 'MP4': Motion JPEG codec
+  
+## Uses
+```bash
+
+from videowriter.video_writer import VideoWriterWrapper
+
+video_writer = VideoWriterWrapper('output.avi/output.mp4..', fps, size)
+
+video_writer.write_frame(frame)
+video_writer.save_image(frame, name)
+```

@@ -1,0 +1,11 @@
+oomnitza_ssrf_protection/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+oomnitza_ssrf_protection/ssrf_protection.py,sha256=Qi4W8f1INk-YrH3utBV5avuFtN0ekJSLn6BBkcL6VhI,1133
+oomnitza_ssrf_protection/oom_async/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+oomnitza_ssrf_protection/oom_async/ssrf_protection.py,sha256=m6XO8lArq5QzHl8O70uXFK64pIsfNHY3Xa17xzIVx1s,1953
+oomnitza_ssrf_protection/oom_sync/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+oomnitza_ssrf_protection/oom_sync/ssrf_protection.py,sha256=DEMBFErRYpxMmXgcY0jn466fv2JrvbtlStlbM-RKL64,1494
+oomnitza_ssrf_protection-0.1.5.dist-info/LICENSE,sha256=RoH6rJ_kG_1TpJg7TBqUc8xqD1MpfkRXKyMWQbM4S4I,1074
+oomnitza_ssrf_protection-0.1.5.dist-info/METADATA,sha256=WLf_lzYpGgosfhyCc_uq47-cWeQz54nzrmcO58kNykQ,3293
+oomnitza_ssrf_protection-0.1.5.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+oomnitza_ssrf_protection-0.1.5.dist-info/top_level.txt,sha256=mt4d5j0gXcCJZQz2-OwcEbv-mc2uK3KmjZ-71aKlSNs,25
+oomnitza_ssrf_protection-0.1.5.dist-info/RECORD,,

@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: soft7
+Version: 0.0.6
+Summary: SOFT7 semantic interoperability framework.
+Keywords: interoperability,semantic
+Author-email: Thomas Fjæstad Hagelien <thomas.f.hagelien@sintef.no>, Casper Welzel Andersen <casper.w.andersen@sintef.no>
+Requires-Python: ~=3.9
+Description-Content-Type: text/markdown
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Requires-Dist: graphviz
+Requires-Dist: Jinja2
+Requires-Dist: oteapi-core
+Requires-Dist: otelib
+Requires-Dist: pydantic
+Requires-Dist: pymongo
+Requires-Dist: pyyaml
+Requires-Dist: rdflib
+Requires-Dist: pre-commit ~=2.18 ; extra == "dev"
+Requires-Dist: pylint ~=2.13 ; extra == "dev"
+Project-URL: Documentation, https://SINTEF.github.io/soft7
+Project-URL: Home, https://github.com/SINTEF/soft7
+Project-URL: Issue Tracker, https://github.com/SINTEF/soft7/issues
+Project-URL: Package, https://pypi.org/project/soft7
+Project-URL: Source, https://github.com/SINTEF/soft7
+Provides-Extra: dev
+
+# SOFT7
+

@@ -1,0 +1,10 @@
+numpy<2.0.0,>=1.20.0
+h5py
+Flask
+pyproj
+psycopg
+tqdm
+dtcc-io>=0.7.16
+
+[test]
+pytest

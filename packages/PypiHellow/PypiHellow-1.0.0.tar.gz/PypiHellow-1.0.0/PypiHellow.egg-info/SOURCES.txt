@@ -1,0 +1,8 @@
+setup.py
+PypiHellow/TestPypiHellow.py
+PypiHellow/__init__.py
+PypiHellow.egg-info/PKG-INFO
+PypiHellow.egg-info/SOURCES.txt
+PypiHellow.egg-info/dependency_links.txt
+PypiHellow.egg-info/requires.txt
+PypiHellow.egg-info/top_level.txt

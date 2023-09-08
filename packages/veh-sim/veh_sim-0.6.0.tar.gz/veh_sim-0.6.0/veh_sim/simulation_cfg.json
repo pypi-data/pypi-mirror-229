@@ -1,0 +1,84 @@
+{
+  "screen": {
+    "FPS": 30,
+    "CAPTION": "Mathstronauts Autonomous Vehicle veh_sim"
+  },
+  "scenario": {
+    "two_lane_highway": {
+      "lane_width": 135
+    }
+  },
+  "vehicle": {
+    "images": {
+      "car_0": "veh_sim/images/car_0.png",
+      "car_1": "veh_sim/images/car_1.png",
+      "car_2": "veh_sim/images/car_2.png",
+      "car_3": "veh_sim/images/car_3.png",
+      "car_4": "veh_sim/images/car_4.png",
+      "car_5": "veh_sim/images/car_5.png",
+      "car_6": "veh_sim/images/car_6.png",
+      "car_7": "veh_sim/images/car_7.png",
+      "motorcycle_0": "veh_sim/images/motor_0.png"
+    }
+  },
+  "HOST_VEHICLE": {
+    "image": "veh_sim/images/host_0.png"
+  },
+  "road": {
+    "laneWidth": 200,
+    "whiteLaneWidth": 3,
+    "whiteLaneHeight": 160,
+    "whiteLaneGap": 100,
+    "horizontalLaneGap": 350,
+    "horizontalLaneWidth": 150,
+    "horizontalLaneThickness": 8,
+    "horizontalLaneStartY": -200,
+    "GRASS_AREA_RATIO": 1,
+    "SIDEWALK_AREA_RATIO": 0.5
+  },
+  "env_objects": {
+    "TREES_WIDTH": 200,
+    "TREES_GAP": 200,
+    "TREES_START_POINT": -200,
+    "house_width": 200,
+    "house_gap": 100,
+    "HOUSE_START_POINT": -400,
+    "sidewalk_object_width": 30,
+    "sidewalk_object_gap_min": 100,
+    "sidewalk_object_gap_max": 200,
+    "sidewalk_object_start_point": -100,
+    "PEDESTRIAN_SPEED": 0.5,
+    "BIKE_SPEED": 0.5,
+    "images": {
+      "tree_0": "veh_sim/images/tree_0.png",
+      "tree_1": "veh_sim/images/tree_1.png",
+      "tree_2": "veh_sim/images/tree_2.png",
+      "tree_3": "veh_sim/images/tree_3.png",
+      "house_0": "veh_sim/images/house_0.png",
+      "house_1": "veh_sim/images/house_1.png",
+      "house_2": "veh_sim/images/house_2.png",
+      "house_3": "veh_sim/images/house_3.png",
+      "sidewalk_object_0": "veh_sim/images/ped_0.png",
+      "sidewalk_object_1": "veh_sim/images/ped_1.png",
+      "sidewalk_object_2": "veh_sim/images/ped_2.png",
+      "sidewalk_object_3": "veh_sim/images/ped_3.png",
+      "sidewalk_object_4": "veh_sim/images/bike_0.png",
+      "sidewalk_object_5": "veh_sim/images/bike_1.png",
+      "sidewalk_object_6": "veh_sim/images/bike_2.png",
+      "sidewalk_object_7": "veh_sim/images/bike_3.png"
+    }
+  },
+  "parallel_parking": {
+    "check_image": "veh_sim/images/check.png",
+    "x_image": "veh_sim/images/x.png",
+    "step_images": [
+      "veh_sim/images/step_1.png",
+      "veh_sim/images/step_2.png",
+      "veh_sim/images/step_3.png",
+      "veh_sim/images/step_4.png",
+      "veh_sim/images/step_5.png",
+      "veh_sim/images/step_6.png",
+      "veh_sim/images/step_7.png"
+    ]
+  }
+}

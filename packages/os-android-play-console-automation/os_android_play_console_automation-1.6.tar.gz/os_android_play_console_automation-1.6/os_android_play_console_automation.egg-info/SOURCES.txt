@@ -1,0 +1,16 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+os_android_play_console_automation/publisher.py
+os_android_play_console_automation.egg-info/PKG-INFO
+os_android_play_console_automation.egg-info/SOURCES.txt
+os_android_play_console_automation.egg-info/dependency_links.txt
+os_android_play_console_automation.egg-info/requires.txt
+os_android_play_console_automation.egg-info/top_level.txt
+os_android_play_console_automation/bp/_binaries_bp.py
+os_android_play_console_automation/bp/_images_bp.py
+os_android_play_console_automation/bp/_shared_tools.py
+os_android_play_console_automation/bp/sample_tools.py
+os_android_play_console_automation/types/BinaryType.py
+os_android_play_console_automation/types/ImageType.py

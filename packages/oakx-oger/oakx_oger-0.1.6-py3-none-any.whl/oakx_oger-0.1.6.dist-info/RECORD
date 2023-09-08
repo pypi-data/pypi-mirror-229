@@ -1,0 +1,11 @@
+oakx_oger/__init__.py,sha256=GRz60GDhp8628huCR_wCGcFY8rm5W8lxvmTwk5Yvbbg,328
+oakx_oger/cli.py,sha256=S_GItIydiWPwXrnLpbjQhQVoaBxxHN-38ZeOukKKTvE,939
+oakx_oger/input/README.md,sha256=fd6csNaLKn-QKtlAofhn1NkvUFgaOubgQpOkfdy3QPs,40
+oakx_oger/input/tmp/README.md,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+oakx_oger/oger_implementation.py,sha256=SzsJiZRIGGVw0oWvr7n4R0CZN65H-1s3Z3roSW9JwJU,11464
+oakx_oger/stopwords/stopwords.txt,sha256=7Zdd9ameVgA6tN_zuXROvHXD4hkWeELVywPhb7FJEkw,6343
+oakx_oger-0.1.6.dist-info/LICENSE,sha256=gvJN6i0gGxYF2VNrSo4ajtgVOEebb82u5TOQiW29QJY,1515
+oakx_oger-0.1.6.dist-info/METADATA,sha256=xCKOpkRgxeNs5bYNFtLzjkXg3PQPEbWBnYdj-13zi88,1593
+oakx_oger-0.1.6.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+oakx_oger-0.1.6.dist-info/entry_points.txt,sha256=oco4bZfSLsnP1X1Of_G1ttnhy955-j4XvX7g7b9PKC8,116
+oakx_oger-0.1.6.dist-info/RECORD,,

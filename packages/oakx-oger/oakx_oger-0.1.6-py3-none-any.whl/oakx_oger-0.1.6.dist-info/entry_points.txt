@@ -1,0 +1,6 @@
+[console_scripts]
+oaker=oakx_oger.cli:main
+
+[oaklib.plugins]
+oger=oakx_oger.oger_implementation:OGERImplementation
+

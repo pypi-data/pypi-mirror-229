@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: detf
+Version: 0.0.2
+Summary: Copyright Wenyi Tang 2023
+Author-email: Wenyi Tang <wenyitang@outlook.com>
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Classifier: License :: OSI Approved :: MIT License
+Requires-Dist: scipy
+Requires-Dist: numpy
+Requires-Dist: black ; extra == "test"
+Requires-Dist: flake8 ; extra == "test"
+Requires-Dist: isort ; extra == "test"
+Requires-Dist: pytest ; extra == "test"
+Project-URL: Home, https://github.com/LoSealL/detection-filter
+Provides-Extra: test
+
+# DetF - Detection Filter
+A mathematical toolbox to smooth the raw output from deep-learning detectors.
+
+### Spatial Filter
+
+### Temporal Filter
+
+## Installation
+
+```
+pip install detf
+```
+

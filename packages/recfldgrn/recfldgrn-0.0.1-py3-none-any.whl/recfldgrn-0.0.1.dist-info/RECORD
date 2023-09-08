@@ -1,0 +1,9 @@
+recfldgrn/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+recfldgrn/datapoint.py,sha256=-Bf7TtSV9WXfCfLxD8F2NIphNpB3nBXdDXT9bJILMzo,4602
+recfldgrn/filtertools.py,sha256=UteT6j4y3Aye0UcuXYiw3Dde459buq-hdbjeeMBP6Yk,2312
+recfldgrn/graintools.py,sha256=jgR-vuPf5vnJMtwx3BDUFES8sOQ0javqm3BEEbh43XY,5563
+recfldgrn/loadtools.py,sha256=Ka917O6NXRZ0J3jnkcpWE5IzYWL9CPah7O3SPepHQbM,10314
+recfldgrn-0.0.1.dist-info/METADATA,sha256=uVlMeXOGDQxFdMAet1friqICOu_oc1GDLnWHLm4hQtc,145
+recfldgrn-0.0.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+recfldgrn-0.0.1.dist-info/top_level.txt,sha256=NQAg-EDI9YlakhxX9R-cD-NHTXWmRspS7HoTCkYuGF0,10
+recfldgrn-0.0.1.dist-info/RECORD,,

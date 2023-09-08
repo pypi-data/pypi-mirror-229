@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: jobman
+Version: 0.1.0
+Summary: A command line job manager with flexible support for retries, timeouts, logging, notifications, and more
+Home-page: https://ryancswallace.github.io/jobman
+License: MIT
+Keywords: python,cli,command-line,background-jobs,supervisor,retry,cli-app,command-line-tool,nohup
+Author: Ryan Wallace
+Author-email: ryancswallace@gmail.com
+Maintainer: Ryan Wallace
+Maintainer-email: ryancswallace@gmail.com
+Requires-Python: >=3.11,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Utilities
+Requires-Dist: click (>=8.1.7,<9.0.0)
+Requires-Dist: psutil (>=5.9.5,<6.0.0)
+Project-URL: Bug Tracker, https://github.com/ryancswallace/jobman/issues
+Project-URL: Documentation, https://ryancswallace.github.io/jobman
+Project-URL: Repository, https://github.com/ryancswallace/jobman
+Description-Content-Type: text/markdown
+
+## Development Prerequisites
+* Install `pyenv`
+* Install `poetry`

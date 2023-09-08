@@ -1,0 +1,16 @@
+jupyterlab_telemetry_router/__init__.py,sha256=e34a-qX01RfA2mU5GodAdGi2P1J2u0eetY3X7v6-9Q0,913
+jupyterlab_telemetry_router/_version.py,sha256=WJtoLwDct7WlKOU9Ieo-Cn8Ug6t5NS8_G4ophARrgvc,172
+jupyterlab_telemetry_router/application.py,sha256=GcUB3UmUPWOEmgNwZLveCaP8N3fqG4qbkSJCnFjABso,1635
+jupyterlab_telemetry_router/handlers.py,sha256=--B0JhRKEV9_Sa6wErFrMti2485W-7qWGNM0K1KmzhQ,3514
+jupyterlab_telemetry_router-0.1.26.data/data/etc/jupyter/jupyter_server_config.d/jupyterlab_telemetry_router.json,sha256=ZgSaoEbCI3yuWgo7bs4DYp4nv4_kQKpigaDcIbvnOhU,102
+jupyterlab_telemetry_router-0.1.26.data/data/share/jupyter/labextensions/jupyterlab-telemetry-router/package.json,sha256=ZL5NSS0fMUMT_BRNv8LS9m4-AMnltzqiAjt3NjceooQ,5824
+jupyterlab_telemetry_router-0.1.26.data/data/share/jupyter/labextensions/jupyterlab-telemetry-router/static/747.418af017b1ad995a1e39.js,sha256=QYrwF7GtmVoeOVq3PGuMgZwZkG7SkObpddtPBArtgXY,4034
+jupyterlab_telemetry_router-0.1.26.data/data/share/jupyter/labextensions/jupyterlab-telemetry-router/static/763.e72ae0171e81b8ca7fc2.js,sha256=5yrgFx6BuMp_whAXIP0-sv7ju67sXUvIJ7Gam1dLWdA,1629
+jupyterlab_telemetry_router-0.1.26.data/data/share/jupyter/labextensions/jupyterlab-telemetry-router/static/remoteEntry.2eded830c22029638805.js,sha256=Lt7YMMIgKWOIBS-q9SuCHGhBrtfboJhdGRQu1sBvdSU,6566
+jupyterlab_telemetry_router-0.1.26.data/data/share/jupyter/labextensions/jupyterlab-telemetry-router/static/style.js,sha256=Ytbd_PKQV7SP_ZFj9lkl7Y3fPcLHIzMQ9E8LcA-ahBk,170
+jupyterlab_telemetry_router-0.1.26.data/data/share/jupyter/labextensions/jupyterlab-telemetry-router/static/third-party-licenses.json,sha256=5z5gY0sStbT_P2WqbrAlmEtTHDPn0-v6dtp4O8CCBTs,2452
+jupyterlab_telemetry_router-0.1.26.data/data/share/jupyter/labextensions/jupyterlab-telemetry-router/install.json,sha256=WFMLTvoB0mx6fI5AJz6LekBH7qWNWwYahHe9bGV-38Y,215
+jupyterlab_telemetry_router-0.1.26.dist-info/METADATA,sha256=e8Q7ppnmSqdTh8bnp39fMsmcpSeSU0dS3WFWP9X383g,10484
+jupyterlab_telemetry_router-0.1.26.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+jupyterlab_telemetry_router-0.1.26.dist-info/licenses/LICENSE,sha256=i6Km9qspP7mhRC-BOq24QutrmKbne_aZVETpw0aR9YI,1516
+jupyterlab_telemetry_router-0.1.26.dist-info/RECORD,,

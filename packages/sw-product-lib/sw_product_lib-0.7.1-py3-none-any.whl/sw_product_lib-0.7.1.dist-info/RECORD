@@ -1,0 +1,15 @@
+sw_product_lib/__init__.py,sha256=u0iklMaOU6vgW3v-lOQUxThfgJ3xAT_EBzzhIEMDmVY,87
+sw_product_lib/client/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sw_product_lib/client/backend.py,sha256=-8xrYtRBtyBsl7RxDld3sJUkXuG5n07gg_W9ZPrJ7C0,10691
+sw_product_lib/client/billing.py,sha256=2Os-gucPF_LPV5KSCply7BR-uQwlUSDO711TfGy3Vag,3885
+sw_product_lib/client/job.py,sha256=DqnQwUN3KNMtwR1ai_yozxwi5hL0uwGzAv-t_S3AToA,7180
+sw_product_lib/client/resource.py,sha256=1glPXFHHeTUlHpsXs91KlQCO80uyQrVdVpwxSmSwWOw,2186
+sw_product_lib/platform/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sw_product_lib/platform/gql.py,sha256=CJio8QpjlCBSTrFn0Dx0kO-GzzGItQ9q-5PFzCPWQf8,331
+sw_product_lib/service.py,sha256=xpi4cPZCG5v5GY_qURXy71sMeUSuOP8lwASYiM2SwXc,27939
+sw_product_lib/types/batch_job.py,sha256=s3KDu6mfWwFuqeTqt2cfcV3FYQQgKTVPietyUXKZbA8,2416
+sw_product_lib/types/job.py,sha256=iEGKNW1e5MGUZHUdmnxSCvXcQw7ssPICG5M9-CENRdw,23323
+sw_product_lib/types/resource.py,sha256=vQ85Uc83GVLVKs8WlD9zv1J0zUe7zPtJuZjqfY-HDeY,8702
+sw_product_lib-0.7.1.dist-info/METADATA,sha256=HNWegKhNKUKSkhe3ep5rKQpVgZduYn2qXm27GKRkYA4,757
+sw_product_lib-0.7.1.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+sw_product_lib-0.7.1.dist-info/RECORD,,

@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: gtop_sprokkel78
+Version: 1.1.1
+Summary: A graphical user interface in pygtk for Process and Network overview on Mac mini.
+Author-email: Sprokkel78 <sprokkel78.bart@gmail.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: MacOS
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+
+# gtop
+
+A graphical user interface in pygtk for Process and Network overview on Mac mini.
+It requires Homebrew, Python3.11 and PyGObject.
+

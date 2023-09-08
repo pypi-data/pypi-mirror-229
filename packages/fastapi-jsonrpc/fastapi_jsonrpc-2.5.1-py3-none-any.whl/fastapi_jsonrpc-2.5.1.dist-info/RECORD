@@ -1,0 +1,5 @@
+fastapi_jsonrpc/__init__.py,sha256=md_vaXFp8FFfsCBWIsL_Bbo0XxvR18WD2D8n7IrqPN8,44396
+fastapi_jsonrpc-2.5.1.dist-info/LICENSE,sha256=ktMOuKT-BZ4OMLuLhpAVU2AqePd0T-mZxPVmNG58L3w,1082
+fastapi_jsonrpc-2.5.1.dist-info/METADATA,sha256=4EggphFokY1l6HET2vFiTupt5fpcnalY_dAerKRTpms,8189
+fastapi_jsonrpc-2.5.1.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+fastapi_jsonrpc-2.5.1.dist-info/RECORD,,

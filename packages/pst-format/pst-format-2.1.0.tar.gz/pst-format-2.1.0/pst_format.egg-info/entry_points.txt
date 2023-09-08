@@ -1,0 +1,3 @@
+[console_scripts]
+pst = pst.bin.pst:main
+pstf = pst.bin.pstf:main

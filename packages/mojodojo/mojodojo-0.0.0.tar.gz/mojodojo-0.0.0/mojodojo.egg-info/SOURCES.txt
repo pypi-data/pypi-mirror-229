@@ -1,0 +1,8 @@
+README.md
+setup.py
+mojodojo/__init__.py
+mojodojo/__version__.py
+mojodojo.egg-info/PKG-INFO
+mojodojo.egg-info/SOURCES.txt
+mojodojo.egg-info/dependency_links.txt
+mojodojo.egg-info/top_level.txt

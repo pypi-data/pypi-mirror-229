@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+src/__init__.py
+src/dump.py
+src/load.py
+src/number.py
+src/string.py
+src/validate.py
+src/pyjschema.egg-info/PKG-INFO
+src/pyjschema.egg-info/SOURCES.txt
+src/pyjschema.egg-info/dependency_links.txt
+src/pyjschema.egg-info/requires.txt
+src/pyjschema.egg-info/top_level.txt

@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.py
+converters/__init__.py
+converters/convertAnswerSets.py
+converters/convertSeqMetadata.py
+formatChecker/__init__.py
+formatChecker/jsonChecker.py
+igs_toolbox.egg-info/PKG-INFO
+igs_toolbox.egg-info/SOURCES.txt
+igs_toolbox.egg-info/dependency_links.txt
+igs_toolbox.egg-info/entry_points.txt
+igs_toolbox.egg-info/requires.txt
+igs_toolbox.egg-info/top_level.txt

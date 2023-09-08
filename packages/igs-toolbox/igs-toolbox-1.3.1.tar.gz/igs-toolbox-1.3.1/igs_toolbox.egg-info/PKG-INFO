@@ -1,0 +1,77 @@
+Metadata-Version: 2.1
+Name: igs-toolbox
+Version: 1.3.1
+Summary: A toolbox to check whether files follow a predefined schema.
+Home-page: https://www.rki.de/DE/Content/Infekt/IGS/IGS_node.html
+Author: IMS Developers
+Author-email: IMS-Developers@rki.de
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: jsonschema>=4.16.0
+Requires-Dist: pandas
+
+# igs-toolbox
+
+## Description
+This repository contains tools to convert files and check whether files follow a predefined schema.
+Currently there is only one converter and formatChecker for one use case is implemented, but the idea is that it can be extended to more applications.
+
+## Installation 
+
+igs-toolbox is pip installable.
+
+```bash
+pip install igs-toolbox
+```
+
+## Usage
+
+All tools can be used as a command line tools.
+
+```bash
+usage: jsonChecker.py [-h] -i INPUT -s {seqMetadata}
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -i INPUT, --input INPUT
+                        Filepath to json file.
+  -s {seqMetadata}, --schema {seqMetadata}
+                        Schema to test against.
+```
+
+
+```bash
+usage: convertSeqMetadata.py [-h] -i INPUT -o OUTPUT [-e ERROR_LOG]
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -i INPUT, --input INPUT
+                        Filepath to xlsx file.
+  -o OUTPUT, --output OUTPUT
+                        Filepath to output folder for json files.
+  -e ERROR_LOG, --error_log ERROR_LOG
+                        Filepath to log file.
+```
+
+```bash
+usage: convertAnswerSets.py [-h] -i INPUT -o OUTPUT [-s SPECIES [SPECIES ...]]
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -i INPUT, --input INPUT
+                        Filepath to folder with answerset json files.
+  -o OUTPUT, --output OUTPUT
+                        Filepath to output folder for answerset txt files.
+  -s SPECIES [SPECIES ...], --species SPECIES [SPECIES ...]
+                        List of species for which to convert answersets.
+```
+                        

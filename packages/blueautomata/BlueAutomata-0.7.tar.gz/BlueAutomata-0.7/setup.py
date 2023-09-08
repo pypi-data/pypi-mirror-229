@@ -1,0 +1,27 @@
+from distutils.core import setup
+from setuptools import find_packages, setup
+
+with open("README.rst") as readme_file:
+    readme = readme_file.read()
+
+setup(
+  name = 'BlueAutomata',         # How you named your package folder (MyLib)
+  packages = ['BlueAutomata'],   # Chose the same as "name"
+  version = '0.7',      # Start with a small number and increase it with every change you make
+  license='MIT',        # Chose a license from here: https://help.github.com/articles/licensing-a-repository
+  description = 'A package to ease the workflow for reporting in a company',   # Give a short description about your library
+  long_description= readme,
+  author = 'keanteng',                   # Type in your name
+  author_email = 'u2004763@siswa.um.edu.my',      # Type in your E-Mail
+  url = 'https://github.com/keanteng/blueautomata',   # Provide either the link to your github or to your website
+  download_url = 'https://github.com/keanteng/blueautomata/archive/refs/tags/v_0.7.tar.gz',    # I explain this later on
+  keywords = ['automation', 'vba', 'reporting', 'automate'],   # Keywords that define your package best
+  install_requires=['pandas','pywin32','fuzzywuzzy','python-Levenshtein'],
+  classifiers=[
+    'Development Status :: 5 - Production/Stable',      # Chose either "3 - Alpha", "4 - Beta" or "5 - Production/Stable" as the current state of your package
+    'Intended Audience :: Developers',      # Define that your audience are developers
+    'Topic :: Software Development :: Build Tools',
+    'License :: OSI Approved :: MIT License',   # Again, pick a license
+    'Programming Language :: Python :: 3.11',      #Specify which pyhton versions that you want to support
+  ],
+)

@@ -1,0 +1,10 @@
+hpgeom/__init__.py,sha256=j8Yr6qFXbnP0ZDPSgZ3a5yAAUM7VX3mW9PNS1BR1Uzc,311
+hpgeom/hpgeom.py,sha256=CYdxepjm3fygmHffeIlmzE4CyTXLl9NkOSWCeBMLH1A,13196
+hpgeom/_hpgeom.cpython-39-x86_64-linux-gnu.so,sha256=oAOTHlvQ3skO_rmfIts_8Cc8tMorSeUmKY0VmP4su6Y,376320
+hpgeom/healpy_compat.py,sha256=fpqb8r7YCQhTEZgQPxLAxSYcwClugdVV7AqJTer4Ggw,16088
+hpgeom-1.0.0.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+hpgeom-1.0.0.dist-info/RECORD,,
+hpgeom-1.0.0.dist-info/WHEEL,sha256=F5roh9FZBzAiZEIyFvf23O8Dn6PviGvNCUkcCLQ0N-Q,217
+hpgeom-1.0.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+hpgeom-1.0.0.dist-info/METADATA,sha256=E_uhET_TnKcnuGIbpKzft41dFpMYbLy-Q2iUlrOvpeE,3441
+hpgeom-1.0.0.dist-info/top_level.txt,sha256=KMXgOieeXkh2CMZb9GBcMP-Sn52Bqn74mF8QfuVfjc0,7

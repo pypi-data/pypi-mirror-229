@@ -1,0 +1,13 @@
+-c requirements.txt
+
+black
+pytest
+pytest-cov
+mypy
+flake8
+flake8-docstrings
+pylint
+tox
+twine
+pre-commit
+pytest-asyncio

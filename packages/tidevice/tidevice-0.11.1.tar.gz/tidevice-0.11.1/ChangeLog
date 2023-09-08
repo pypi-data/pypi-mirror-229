@@ -1,0 +1,10 @@
+CHANGES
+=======
+
+0.11.1
+------
+
+* add coverage code
+* update coverage steps
+* try to fix "Invalid version. The only valid version for X509Req is 0."
+* Update README.md

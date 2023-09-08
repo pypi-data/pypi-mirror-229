@@ -1,0 +1,5 @@
+setup.py
+scanx1.egg-info/PKG-INFO
+scanx1.egg-info/SOURCES.txt
+scanx1.egg-info/dependency_links.txt
+scanx1.egg-info/top_level.txt

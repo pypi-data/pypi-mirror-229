@@ -1,0 +1,14 @@
+LICENSE.TXT
+README.rst
+setup.py
+galaxyxmlfubar/__init__.py
+galaxyxmlfubar.egg-info/PKG-INFO
+galaxyxmlfubar.egg-info/SOURCES.txt
+galaxyxmlfubar.egg-info/dependency_links.txt
+galaxyxmlfubar.egg-info/requires.txt
+galaxyxmlfubar.egg-info/top_level.txt
+galaxyxmlfubar/tool/__init__.py
+galaxyxmlfubar/tool/import_xml.py
+galaxyxmlfubar/tool/parameters/__init__.py
+test/test_import_xml.py
+test/testimport.py

@@ -1,0 +1,9 @@
+typedframe/__init__.py,sha256=gtIKkhLhkIbhf_VarFdqf28hy2ySCJ6bIB5zzZV3mp0,302
+typedframe/base.py,sha256=R7lapfDZ6m0CQZsZwbsszm6AQ6AVfC-_73E4AEsy4pE,3004
+typedframe/pandas_.py,sha256=6iXLn2vPDwKcP_iZUmg2IdJhxloGia5pIK0ptCO-xcY,4876
+typedframe/polars_.py,sha256=nUT9A_ZmZNCLwwVaYxeCObqu0cI0upcaeA4vViw3xvI,1400
+typedframe-0.11.0.dist-info/LICENSE,sha256=70E0ya3ufJjU59JMa9aD7lus-FWrEvv08GbsnmGEFlk,1075
+typedframe-0.11.0.dist-info/METADATA,sha256=LmDGEaqeCgJdTAG1S-2wkGJk5vuD1wD9ZSywIGMGoS8,4667
+typedframe-0.11.0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+typedframe-0.11.0.dist-info/top_level.txt,sha256=aVXSwZp5ezhsbClf024rwPs-_XHzpVDhS-Ghj7lHV5E,11
+typedframe-0.11.0.dist-info/RECORD,,

@@ -1,0 +1,17 @@
+svelte2jupyter/.gitignore,sha256=zURsxWUneBdmwxo75-FIycRyf1rn88EFY4K8KcAiszg,31
+svelte2jupyter/__init__.py,sha256=GX4Voemw2AXZsungJCDXyBOcu_ybxueiKYNyLt3J0a8,621
+svelte2jupyter/buildComponents.js,sha256=XKGC04vJENpS6wcC4C-NyNaOGpbSzgW4moRZgIxhI2E,1816
+svelte2jupyter/component_utils.py,sha256=6EYddDXqVoKTCnEY3eSkkjlhAxPbdLmfsyzBrXNPL7A,4161
+svelte2jupyter/constants.py,sha256=5XkGVa6QxH-RP-STw6u2OnAXrarchfEikaTDZKZfras,359
+svelte2jupyter/npm_utils.py,sha256=iqVknN42GvO0dg5YnbjQmLpZ-70b0YGAk5J1Uo2pljM,1212
+svelte2jupyter/package.json,sha256=7IexywsK6UdmkOg6-Sc9EfA-iEtasovUBVVjo7obDDA,474
+svelte2jupyter/package.py,sha256=Ot52sHD2dzU42KxpiPFZhOdsMw0MpBv7ERdqwg5AaAc,809
+svelte2jupyter/packaged_component.py,sha256=_qhHcZc1Ot-9bZInvYQeciFXYx49EwdBhgfm-dU70ls,5506
+svelte2jupyter/randomize_hash_id.py,sha256=iuTiPwv7YE4Fsj3IRXsuli-RJTVJUoaMpBqymzO84IA,425
+svelte2jupyter/render_component.py,sha256=xYPCt89f8Q-v2Usaok5CAFCusXIuvYsLHH8DRmIgtDI,736
+svelte2jupyter/svelte_jupyter_widget.py,sha256=ugGp1hXkGepCUWzJ9W9seFKQ0dfowWxzmyh4Y8WSpxo,1592
+svelte2jupyter/vite.config.js,sha256=jtkJAhg8pOgLaMRcj-qJEmjEtP1aK9blsHNwBtScIGg,180
+svelte2jupyter-0.1.0.dist-info/LICENSE,sha256=mB_E42L7-ESl-7RsBI0s9LL70nmsj0_uiukKQ0bf7h4,1074
+svelte2jupyter-0.1.0.dist-info/METADATA,sha256=BZe1UEup8LTbRKIw4MeD_N_Rodw-vbSrgAnC2aXHxTM,5638
+svelte2jupyter-0.1.0.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+svelte2jupyter-0.1.0.dist-info/RECORD,,

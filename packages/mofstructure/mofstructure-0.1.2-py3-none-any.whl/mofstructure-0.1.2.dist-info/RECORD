@@ -1,0 +1,11 @@
+mofstructure/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mofstructure/buildingunits.py,sha256=7ydpZcsZtWxpnvC3eryMjboQy2vbGXeB9O9xmaZQEnk,4384
+mofstructure/collect_data.py,sha256=b0B9vziEsXUNJdcKO0TJMsNPsFX4q2BsyARBVM5znxE,9365
+mofstructure/filetyper.py,sha256=2qwJa0_D4Ue80_Pm-hqsKimevtqvzxqOlMwGYrG2OFc,5065
+mofstructure/mofdeconstructor.py,sha256=psBh0wKGQZWSDG25_XM7Yrdxb8hHOX5EMWyTNDcb3j8,46834
+mofstructure/porosity.py,sha256=GyYKHZhcM4GV-mjwjbry4n7uDRfGRYfxnmHeF6DVo_M,4586
+mofstructure-0.1.2.dist-info/LICENSE,sha256=ank1Sm_lRSY8oRCHSh9FvMo0duQzdI6ECQVYA4DmGO4,12430
+mofstructure-0.1.2.dist-info/METADATA,sha256=bfelhY6ksnt2JMx1CIgqwwqyrcFhJ4ccB4IPBHqfJx4,6687
+mofstructure-0.1.2.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+mofstructure-0.1.2.dist-info/entry_points.txt,sha256=0FO7KxART20blmvtcsCl4IzIp6kqpSyeAqTh-4L8YBY,117
+mofstructure-0.1.2.dist-info/RECORD,,

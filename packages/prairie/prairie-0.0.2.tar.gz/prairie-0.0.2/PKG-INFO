@@ -1,0 +1,84 @@
+Metadata-Version: 2.1
+Name: prairie
+Version: 0.0.2
+Summary: `prairie`: the PrairieLearn command line client
+Home-page: https://github.com/jlumbroso/prairie
+License: LGPL-3.0-or-later
+Keywords: PrairieLearn,cli
+Author: Jérémie Lumbroso
+Author-email: lumbroso@cis.upenn.edu
+Requires-Python: >=3.11,<4.0
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 or later (LGPLv3+)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Dist: MarkupSafe (==2.0.1)
+Requires-Dist: backoff (>=1.10.0,<2.0.0)
+Requires-Dist: click (>=7.1.2,<8.0.0)
+Requires-Dist: click-option-group (>=0.5.1,<0.6.0)
+Requires-Dist: click_help_colors (>=0.8,<0.9)
+Requires-Dist: click_spinner (>=0.1.10,<0.2.0)
+Requires-Dist: comma (>=0.5.3,<0.6.0)
+Requires-Dist: docker (>=6.1.3,<7.0.0)
+Requires-Dist: ipython[ipython] (>=7.19.0,<8.0.0)
+Requires-Dist: jinja2 (>=2.11.2,<3.0.0)
+Requires-Dist: loguru (>=0.5.3,<0.6.0)
+Requires-Dist: python-dotenv (>=0.14.0,<0.15.0)
+Requires-Dist: pyyaml (>=6.0.1,<7.0.0)
+Requires-Dist: requests (>=2.24.0,<3.0.0)
+Requires-Dist: tqdm (>=4.49.0,<5.0.0)
+Requires-Dist: urllib3 (>=1.26.5,<2.0.0)
+Project-URL: Repository, https://github.com/jlumbroso/prairie
+Description-Content-Type: text/markdown
+
+# Prairie CLI
+
+Prairie CLI is a command-line interface designed to streamline your PrairieLearn experience. Whether you're a course instructor, a content developer, or just someone looking to explore PrairieLearn, this tool offers utilities to make your journey smoother.
+
+## Features
+
+* Docker Integration: Easily manage PrairieLearn containers with built-in Docker commands.
+* Local Course Development: Test and develop your course content locally without the need for external setups.
+* Easy Updates: Keep your local PrairieLearn version up-to-date with simple commands.
+
+## Installation
+
+1. Dependencies: Ensure you have [Docker Desktop](https://www.docker.com/products/docker-desktop/) installed.
+2. (Windows Users): It's recommended to use WSL 2 for optimal performance. Follow the [installation guide](https://learn.microsoft.com/en-us/windows/wsl/install) for WSL 2 and integrate it with Docker as described [here](https://docs.docker.com/desktop/windows/wsl/).
+3. Install Prairie CLI: (Installation steps for Prairie CLI would go here)
+
+## Usage
+
+Once installed, you can use the `prairie` command to access all features. Here are some common commands:
+
+* Launch PrairieLearn: `prairie docker launch --course-dir YOUR_COURSE_DIRECTORY`
+* Update PrairieLearn: `prairie docker update`
+* Check PrairieLearn Status: `prairie docker status`
+
+For a full list of commands and options, use `prairie --help`.
+
+## Contributing
+
+If you'd like to contribute to Prairie CLI, just make a pull request.
+
+## License
+
+This project is licensed [under the LGPLv3 license](https://www.gnu.org/licenses/lgpl-3.0.en.html),
+with the understanding that importing a Python modular is similar in spirit to dynamically linking
+against it.
+
+- You can use the library/CLI `prairie` in any project, for any purpose,
+  as long as you provide some acknowledgement to this original project for
+  use of the library (for open source software, just explicitly including
+  `prairie` in the dependency such as a `pyproject.toml` or `Pipfile`
+  is acknowledgement enough for me!).
+
+- If you make improvements to `prairie`, you are required to make those
+  changes publicly available.
+
+This license is compatible with the license of all the dependencies as
+documented in [this project's own `pyproject.toml`](https://github.com/jlumbroso/prairie/blob/master/pyproject.toml#L29-L49).
+

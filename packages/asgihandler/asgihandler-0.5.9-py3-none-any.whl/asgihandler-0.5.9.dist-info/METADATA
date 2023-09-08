@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: asgihandler
+Version: 0.5.9
+Summary: ASGIHandler
+Home-page: https://github.com/GreaterWMS/GreaterWMS
+Author: Singosgu
+Author-email: singosgu@gmail.com
+License: MIT
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.6.0
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+
+
+# 4.1、可以先升级打包工具
+pip install --upgrade setuptools wheel twine
+
+# 4.2、打包
+python setup.py sdist bdist_wheel
+
+# 4.3、可以先检查一下包
+twine check dist/*
+
+# 4.4、上传包到pypi（需输入用户名、密码）
+twine upload dist/*

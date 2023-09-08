@@ -1,0 +1,13 @@
+jfrog/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+jfrog/artifactory.py,sha256=S_r9AJ2SWqCE0jF1OyO4W-u4M9T2W0zUGy8zSTPtxCo,11445
+jfrog/migration.py,sha256=3y6cN7mrhJYLsYsp2frG1FIo2SZG4RXwO7X_G193UyM,23816
+jfrog/missioncontrol.py,sha256=8i2GHPuKKw2AnOwgai2cXKXgMbNkhVIk435-FQNhNaw,1335
+jfrog/platform.py,sha256=mp5MFqjdIaXuLZRHP4DtyXQ8n2feXfXLuTO87oDq2jg,8388
+jfrog/support.py,sha256=UBoYX-zR3WlerVK2DP-5fDO4WWXxi-ghlBzqMX25ZiE,6188
+jfrog/utilities.py,sha256=CK3pLgmQJhpsad-Cd9qhBErjHPXoW_s9pC-DsAo5NbA,4118
+jfrog/xray.py,sha256=-GJcAZHUNLM7QXNX0ft73th06eUw6VHoI0-QFkPzLIc,2240
+jfrog_client-1.2.3.dist-info/LICENSE,sha256=CJuqL-lexlMHnUWFrePKEF_KRQvy5zMaPNFLOmvZW3k,1068
+jfrog_client-1.2.3.dist-info/METADATA,sha256=U3EcxLt19ncJN9bykcuth8mEQ671_0GzZiGlwtpvDI4,9248
+jfrog_client-1.2.3.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+jfrog_client-1.2.3.dist-info/top_level.txt,sha256=FRxQdT_OuNKoppQ8HLOC_xhfuR6I5bw_MfAN35-CwVM,6
+jfrog_client-1.2.3.dist-info/RECORD,,

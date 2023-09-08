@@ -1,0 +1,2 @@
+[console_scripts]
+deploy_test_ec2 = aviatrix_testlibs.bin.deploy_test_ec2:main

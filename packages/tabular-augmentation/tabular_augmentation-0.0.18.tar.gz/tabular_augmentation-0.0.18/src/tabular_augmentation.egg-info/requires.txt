@@ -1,0 +1,17 @@
+ctgan>=0.7.4
+torchvision
+sdv>=1.3.0
+tensorboard>=2.13.0
+imbalanced-learn>=0.11.0
+scikit-learn>=1.0.2
+ema-pytorch
+xgboost==1.7.6
+category-encoders
+icecream
+catboost
+libzero==0.0.8
+tomli==1.2.2
+tomli-w==0.4.0
+optuna==2.10.1
+tqdm
+rtdl

@@ -1,0 +1,12 @@
+Changelog
+===================
+
+v1.0.0 (31/08/2023)
+-------------------
+First release
+Basic functionalities
+Only vertical parsing
+
+v1.0.1 (07/09/2023)
+-------------------
+Remove awkward print statement

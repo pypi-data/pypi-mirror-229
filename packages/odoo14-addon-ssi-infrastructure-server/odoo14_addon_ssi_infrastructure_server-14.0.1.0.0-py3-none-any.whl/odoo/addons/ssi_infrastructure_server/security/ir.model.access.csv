@@ -1,0 +1,6 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_server_type_configurator,server_type - configurator,model_server_type,server_type_group,1,1,1,1
+access_server_type_all,server_type - all,model_server_type,,1,0,0,0
+access_server_all,server - all,model_server,,1,0,0,0
+access_server_viewer,server - viewer,model_server,server_viewer_group,1,0,0,0
+access_server_user,server - user,model_server,server_user_group,1,1,1,1

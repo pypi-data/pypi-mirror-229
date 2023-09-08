@@ -1,0 +1,11 @@
+elementy/__init__.py,sha256=Fmo1eJ061Y85oGb2E0y1FovhubEiDhem4jj9UabvglU,237
+elementy/_version.py,sha256=PQrZlbB1YtOPR2V5TYg8qZ-GoH2eShwmqcnG_WCovC4,162
+elementy/element.py,sha256=wHMKfRTchLrcAdZ-ZVRS_0l5oRUYoANDFjHZObT5_hg,6603
+elementy/elements.py,sha256=TKDBRdvuBAP_jx4d9N4ycvj9fjPcdMauVx6wsp0452k,172749
+elementy/periodictable.py,sha256=WBPZ-xzSWlZJcz4Z9feFF82BghBWLxS9yyuSUwIKxbA,1159
+elementy/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+elementy-0.0.18.dist-info/LICENSE,sha256=30JX_lxHe6nRlugeSNNm_crhLnwsndludCKuQVlYGEI,1522
+elementy-0.0.18.dist-info/METADATA,sha256=2CmFN1gaTugytd3LjRdCFBYt4_qLv8PKKOs5VRFdTFs,2742
+elementy-0.0.18.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+elementy-0.0.18.dist-info/top_level.txt,sha256=mfKbTrMm76urXi3pQ4O3eFQREAsQmC422I97EdQagjk,9
+elementy-0.0.18.dist-info/RECORD,,

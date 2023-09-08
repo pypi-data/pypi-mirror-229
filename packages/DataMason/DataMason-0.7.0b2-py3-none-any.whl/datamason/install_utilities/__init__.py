@@ -1,0 +1,1 @@
+from .install_polyglot import install_polyglot_func

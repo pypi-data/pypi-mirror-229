@@ -1,0 +1,6 @@
+vtracer-0.6.0.dist-info/METADATA,sha256=k7dkSJpTG9M_yzKCp_u7szK5ymZRZo2yMWO7Y_GzTGU,367
+vtracer-0.6.0.dist-info/WHEEL,sha256=uvd3ScVls1wLDcU5SpAwWXIX8uxeDNvSrQJGdWD-rDE,104
+vtracer/__init__.py,sha256=EaX0gCXuzMDLEGXFxe2OMQegz5Rytcn34is1-gWczAM,44
+vtracer/vtracer.pyi,sha256=EN_-iMRINOVisW7SvgrCzHcIw8R7s9e4yrEwW0b3dMY,1122
+vtracer/vtracer.cpython-310-darwin.so,sha256=y2Gxez6yF6pysCNhFhlWIqGngNZQvBf8haQ3cl2L3tE,1501626
+vtracer-0.6.0.dist-info/RECORD,,

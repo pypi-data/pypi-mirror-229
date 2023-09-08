@@ -1,0 +1,13 @@
+pymsaviz/__init__.py,sha256=5tpKxf8FKc2umoxK3ZOO8Nb8bQJB0DGgn4p6JN0YO58,765
+pymsaviz/config/__init__.py,sha256=Afg8bag_L_wSOv6Ecmvabv3RUuHMvnqC1V_QNlyyOLk,2222
+pymsaviz/config/color_schemes.tsv,sha256=HMsACXvTQGz_9JL1_3k_a9F4SjfSOtvDtcDn68GZsjw,3689
+pymsaviz/config/testdata/HIGD2A.fa,sha256=AQJ8WDM-odk7h59mRNJ-lnnx0yXGw4GeWNAtLWbptzM,811
+pymsaviz/config/testdata/MRGPRG.fa,sha256=w6yVsiqM6KxeEIF24XI33CMvYJwXWdOnvtj11Av7Ojs,1855
+pymsaviz/msaviz.py,sha256=PY84tO3vC5Bmh970iuuBueR2nGcZ_0tKTmeZ-qiBiBg,29251
+pymsaviz/scripts/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pymsaviz/scripts/cli.py,sha256=dmLfG4DUAgGk-qjkY-vAIgU3p4hMbhHT0-ezWhxQ7Co,5411
+pymsaviz-0.4.1.dist-info/LICENSE,sha256=ebwK7vt1O9oD_jSE4ryVhBmx5CEw8MmeMbJDwXP6bNQ,1062
+pymsaviz-0.4.1.dist-info/METADATA,sha256=L7-jY2gBOO2VoFGUAza-lrdIwLaQwJeg7J70tAg2HMw,7119
+pymsaviz-0.4.1.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+pymsaviz-0.4.1.dist-info/entry_points.txt,sha256=G30CUGsykjDgHjQACXT1kRqazo_XOg7-jEf3MZODCYI,54
+pymsaviz-0.4.1.dist-info/RECORD,,

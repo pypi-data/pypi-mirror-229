@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: KabuEpidemic
+Version: 0.0.0
+Summary: New methodology to identify waves, peaks, and valleys from epidemic curve
+Home-page: https://github.com/LinaMRuizG/EpidemicKabu
+Author: Lina M. Ruiz G. and Anderson A. Ruales B.
+Author-email: <lina.ruiz2@udea.edu.co>
+License: MIT
+Keywords: epidemic curve,waves,peaks,valleys,gaussian filter
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: pandas (==1.5.3)
+Requires-Dist: scipy (==1.10.1)
+Requires-Dist: matplotlib (==3.7.1)
+Requires-Dist: numpy (==1.25.2)
+
+Kabu is a methodology that uses Gaussian kernel to smooth the epidemic curve and estimate its waves, peaks, and valley. It could be used in any curve.
+

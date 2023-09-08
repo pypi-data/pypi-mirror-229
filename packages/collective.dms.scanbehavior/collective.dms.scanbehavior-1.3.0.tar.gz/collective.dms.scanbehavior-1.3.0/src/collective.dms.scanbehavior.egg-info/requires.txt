@@ -1,0 +1,13 @@
+plone.api
+plone.app.dexterity
+plone.behavior
+plone.directives.form
+rwproperty
+setuptools
+zope.component
+zope.interface
+zope.schema
+
+[test]
+plone.app.robotframework[debug]
+plone.app.testing

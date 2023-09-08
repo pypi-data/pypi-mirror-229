@@ -1,0 +1,12 @@
+feigen/__init__.py,sha256=aMiENGemSZhoFGewZdI1hANivzQ_LwT-PdmiiMJw66w,288
+feigen/_base.py,sha256=3bMLN28sbTheAPBtDl1oQK7lqXmPJrXCK0C9Zdebuac,512
+feigen/_version.py,sha256=sXLh7g3KC4QCFxcZGBTpG2scR7hmmBsMjq6LqRptkRg,22
+feigen/bspline.py,sha256=uRe2vlqFUHlr08Xui73VAUDhj5JZ1lh_ygu6FmBjRCQ,22666
+feigen/comm.py,sha256=FBP4BoEG6Sre_Mbz37JXzOOn4DwRa1WSNPeUyW6OH6k,10102
+feigen/log.py,sha256=3pTtAoW_xq6uzG-NA4CpbutxesNZ0aRCou2fJZiylXU,2385
+feigen/poisson2d.py,sha256=DyCcl6KDF5CPbUJtPCqjrBIHklEBVpHV7Pz-1Pgfpn8,24131
+feigen-0.0.1.dist-info/LICENSE,sha256=HyVuytGSiAUQ6ErWBHTqt1iSGHhLmlC8fO7jTCuR8dU,16725
+feigen-0.0.1.dist-info/METADATA,sha256=6pELtxnrSxzNT2mdmSZi1433522CTI8U-iBjR_f3czM,1746
+feigen-0.0.1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+feigen-0.0.1.dist-info/top_level.txt,sha256=VL-jrp0hjV4LsEo1LaQafD6HldHVxg7XRtR0ae2m9Ow,7
+feigen-0.0.1.dist-info/RECORD,,

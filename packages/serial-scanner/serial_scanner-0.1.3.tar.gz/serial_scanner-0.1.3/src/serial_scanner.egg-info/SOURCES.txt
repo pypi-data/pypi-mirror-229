@@ -1,0 +1,11 @@
+LICENSE.txt
+README.md
+pyproject.toml
+src/serial_scanner/__init__.py
+src/serial_scanner/scanner.py
+src/serial_scanner.egg-info/PKG-INFO
+src/serial_scanner.egg-info/SOURCES.txt
+src/serial_scanner.egg-info/dependency_links.txt
+src/serial_scanner.egg-info/requires.txt
+src/serial_scanner.egg-info/top_level.txt
+tests/test_scan.py

@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "serial_scanner"
+version = "0.1.3"
+authors = [
+  { name="jttaufa", email="jonathon.taufatofua@uqconnect.edu.au" },
+]
+description = "Serial port device scanner"
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+    "pyserial",
+]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/jttaufa/serialport_scanner"

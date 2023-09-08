@@ -1,0 +1,11 @@
+minddatapack/__init__.py,sha256=Zjb-t0cteEAB85HUHaoT3jMPoH8AjOpJB7-QAFDVD_k,2598
+minddatapack/arweaveconnector.py,sha256=TkXt9Jrj6GGnuUNRccl3JkvnOAw1tyFni3POaosdJzg,3756
+minddatapack/ipfsconnector.py,sha256=69CPwjUXMbyHUc2Jlz87MzloEMUfXeFyDEI3XRyU2v8,4426
+minddatapack/localfileconnector.py,sha256=H4JQ_OSGjW3phsp_q-1W6QEcutw_q5hri_GEhjVcGVQ,12141
+minddatapack/mindlakeconnector.py,sha256=_urAyHVyEDJFu2l0f7s4GBDkHX7Pj-a2-zrtcd6j-a8,3062
+minddatapack/utils.py,sha256=Z1jJpYUq9AE4RMxS74SDTBbPe_qxbf1bDKYlA4V4CjM,931
+minddatapack/web3storageconnector.py,sha256=YOlEv-tbL46ehZteVz0fumdMWkHO9ulCkGzEqBmUvpU,3845
+minddatapack-1.0.2.dist-info/METADATA,sha256=VWe9DMGzZJgvatve-ooyGROnZN0wK3t-g46sU_L6RKk,2625
+minddatapack-1.0.2.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+minddatapack-1.0.2.dist-info/licenses/LICENSE,sha256=8zSzdReCfnvpSTKsm2b-g3ol6AHi2gIyc20lC888qH8,1069
+minddatapack-1.0.2.dist-info/RECORD,,

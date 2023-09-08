@@ -1,0 +1,9 @@
+tally_counter/__init__.py,sha256=iPTdhVtxlsiq6ckI9w3IFznM2gZt9voAFqVUs-BJ4_Q,159
+tally_counter/counter.py,sha256=7FPD8wVn50mLyuP_ZXRHbSWmCso78AeqJxAKUMPm-n8,2340
+tally_counter/data_point.py,sha256=qbEl87pRyZ_70iuV8iZB3cdrqn0moC0kF_u58NOWnKU,951
+tally_counter/data_series.py,sha256=w1KL2e1H21sslar1u7JMn2wpi9v0Hns_OHi0zp9tsTU,5910
+tally_counter-0.0.8.dist-info/LICENSE,sha256=yWgqx9Zw_gaabGNp1OFJg5DomAnn1McAeLOFh0hDs3g,1071
+tally_counter-0.0.8.dist-info/METADATA,sha256=EWdm-_GRJrmQPk7USyWKeY8LLvVw6AJB4qRVjZk853E,7649
+tally_counter-0.0.8.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+tally_counter-0.0.8.dist-info/top_level.txt,sha256=xMX4vJzRS8zr90bn-2pcR906E9kXYYvlMCCP_vp4YpI,14
+tally_counter-0.0.8.dist-info/RECORD,,

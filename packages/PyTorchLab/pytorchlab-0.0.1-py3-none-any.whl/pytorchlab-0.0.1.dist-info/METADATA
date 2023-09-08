@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: PyTorchLab
+Version: 0.0.1
+Summary: Do experiments using PyTorch and Lightning.
+Author-Email: TaoChenyue <chenyue.Tao@qq.com>
+License: GPLv3
+Requires-Python: >=3.10
+Requires-Dist: torch>=2.0.1
+Requires-Dist: torchvision>=0.15.2
+Requires-Dist: torchmetrics>=1.0.1
+Requires-Dist: tensorboard>=2.13.0
+Requires-Dist: tensorboardX>=2.6.1
+Requires-Dist: lightning>=2.0.5
+Requires-Dist: jsonargparse[signatures]>=4.24.0
+Description-Content-Type: text/markdown
+
+# PyTorchLab
+Do experiments using PyTorch and Lightning.
+
+
+### Installing
+```pip install pytorchlab```
+
+## Usage <a name = "usage"></a>
+```python main.py fit ...```
+
+## [Reference](docs/references.md) <a name = "reference"></a>

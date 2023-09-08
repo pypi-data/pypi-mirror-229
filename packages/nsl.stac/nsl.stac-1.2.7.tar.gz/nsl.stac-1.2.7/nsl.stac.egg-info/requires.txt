@@ -1,0 +1,9 @@
+epl.protobuf.v1
+epl.geometry
+boto3
+google-cloud-storage
+grpcio-tools==1.33.*
+protobuf~=3.19.0
+requests
+shapely
+tenacity

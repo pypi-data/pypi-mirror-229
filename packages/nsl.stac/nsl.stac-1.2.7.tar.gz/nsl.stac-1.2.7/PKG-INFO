@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: nsl.stac
+Version: 1.2.7
+Summary: gRPC Spatio Temporal Asset Catalog library
+Home-page: https://github.com/nearspacelabs/stac-client-python
+Author: David Raleigh
+Author-email: david@nearspacelabs.com
+License: Apache 2.0
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >3.6.0
+License-File: LICENSE
+
+gRPC Spatio Temporal Asset Catalog library provided by Near Space Labs

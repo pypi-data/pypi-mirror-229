@@ -1,0 +1,6 @@
+datasette
+
+[test]
+pytest
+pytest-httpx
+pytest-asyncio

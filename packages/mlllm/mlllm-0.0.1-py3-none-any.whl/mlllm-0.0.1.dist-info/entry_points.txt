@@ -1,0 +1,2 @@
+[console_scripts]
+mlllm = mlllm.cli:app

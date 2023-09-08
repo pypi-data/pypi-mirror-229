@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+settings.ini
+setup.py
+idfunc/__init__.py
+idfunc/_modidx.py
+idfunc/core.py
+idfunc.egg-info/PKG-INFO
+idfunc.egg-info/SOURCES.txt
+idfunc.egg-info/dependency_links.txt
+idfunc.egg-info/entry_points.txt
+idfunc.egg-info/not-zip-safe
+idfunc.egg-info/requires.txt
+idfunc.egg-info/top_level.txt

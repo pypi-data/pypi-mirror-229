@@ -1,0 +1,11 @@
+sunpeek_exampledata/FHW__array_ArcS__2017-01-01__2017-12-31__1m__UTC.csv,sha256=AsOzavnUByeNqDPBz7yE8k_f3RPEXMB3g73Q5611kP4,113871469
+sunpeek_exampledata/FHW__array_ArcS__2017-05-01__2017-05-02__1m__UTC.csv,sha256=aBH0pk56CeQuPJvHIgyPGdj2QkAGfV87rpU1pdPO41Q,684537
+sunpeek_exampledata/FHW__array_ArcS__2017-05-01__2017-05-31__1m__UTC.csv,sha256=gvx4KEKGkolqdBVKt3U9g8onbpru5FoNOeGLzqIrpAE,10054343
+"sunpeek_exampledata/Pekasolar, pdf export, density.csv",sha256=ZYl0nS6erP8Gn2GlsmOjaA3l_3xo3nvt7WVU0Nk2leI,88
+"sunpeek_exampledata/Pekasolar, pdf export, heat capacity.csv",sha256=uVb9p15EsbH1Ule1VAoQfT_C1du8NP0q1YhmOMGB-lM,241
+sunpeek_exampledata/__init__.py,sha256=hdx5IzC6278cIt25RkejhM3XpT3LIWF1rv1pwkyrK1M,598
+sunpeek_exampledata/plant_config_FHW_Arcon_South.json,sha256=zi1a_rLF-reFcfA59Gqg5Di8bLB4rM2yLo0qwa44n38,2741
+sunpeek_exampledata-0.1.1.dist-info/LICENSE,sha256=qTrHDaUXFiRHJaCmtQtXUSiMZkWar3BnnpyPTuO4dKY,728
+sunpeek_exampledata-0.1.1.dist-info/METADATA,sha256=ycImtLBCuXMr0J1sc7D3UAtXeYzAAFrle-T4jYEj-lk,1579
+sunpeek_exampledata-0.1.1.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+sunpeek_exampledata-0.1.1.dist-info/RECORD,,

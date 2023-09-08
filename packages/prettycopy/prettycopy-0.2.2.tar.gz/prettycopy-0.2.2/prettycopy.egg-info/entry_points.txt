@@ -1,0 +1,2 @@
+[console_scripts]
+prettycopy = prettycopy.command_line:app

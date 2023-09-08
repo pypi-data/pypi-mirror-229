@@ -1,0 +1,11 @@
+statsbombpy_local/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+statsbombpy_local/_api.py,sha256=8DKdebvEtBv8J4-DSl6FrcJ_0iWsLrydMwSxmAMg-Wc,3583
+statsbombpy_local/_config.py,sha256=kfiqyYsYzjGB6_YWGZRbw0kMBwnlbJuBpHRqxtlMNoU,190
+statsbombpy_local/_public.py,sha256=LK_q4tTCF6TDKMmMPLAWQEAVk4ZIQPGFDDSdqPj6Jf4,126
+statsbombpy_local/_utils.py,sha256=Orur-omqW_Li7YFuZrgILXmNl8ioQ4U1aWd-mX7eF7Q,676
+statsbombpy_local/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+statsbombpy_local/sb.py,sha256=R_b52m3HLDWW_jwnqWizPymUMScgzxoKhwaw3v9HeqE,434
+statsbombpy_local-0.2.0.dist-info/LICENSE,sha256=WwuAmHv4cUznvl3IYkjLa2weonb96Ewm-qycD-2-dBQ,1067
+statsbombpy_local-0.2.0.dist-info/METADATA,sha256=kAfj6ZqW0s7jZWnzE8PsfQ2d2SRFmtT_-RWy4xTSfv4,1593
+statsbombpy_local-0.2.0.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+statsbombpy_local-0.2.0.dist-info/RECORD,,

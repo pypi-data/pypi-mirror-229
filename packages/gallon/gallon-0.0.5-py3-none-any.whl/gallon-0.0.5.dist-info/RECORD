@@ -1,0 +1,10 @@
+gallon/__init__.py,sha256=HSBivK_iRpIM2dIkQwXjpN9RxvCiVPMqago8NE84Qmc,264
+gallon/client.py,sha256=RX6pVF6djYz8oqUPkO85JB1mJNIqARW8ZpQ-Nnsb6MY,4747
+gallon/data.py,sha256=pqAQ69K0rpkvLwNXCNO8wW5dJREOgJMh0q8NesPLfbI,9279
+gallon/decorators.py,sha256=zSH0ndf1UwC77QC3hOHuKLVlJgWp2C6JWG4_y6Acs10,1630
+gallon/helpers.py,sha256=hlX-gcxythw_4Pb85--uWhVkBqANLwHZIXXAZ8LPdkU,2322
+gallon/objects.py,sha256=JLcUce7cQwvFDH9vjHVOlGg_waEcV_4Tlratjcsa8K0,4006
+gallon/server.py,sha256=URoUW6_4uK-n7j84xQwvXXYM1-Py2soKaBiaLkHxCEI,8992
+gallon-0.0.5.dist-info/METADATA,sha256=RoVrIjuzxKwitf4PXTCCFpwuvwrwk8Swlkvek-qBzug,497
+gallon-0.0.5.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+gallon-0.0.5.dist-info/RECORD,,

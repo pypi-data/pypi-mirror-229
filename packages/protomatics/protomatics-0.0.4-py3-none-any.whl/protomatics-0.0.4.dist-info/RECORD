@@ -1,0 +1,12 @@
+protomatics/__init__.py,sha256=Sk1iyi8XWdbQ29LsA-pzmLrgYK1NkSF5UDxcSIXxX4M,117
+protomatics/analysis.py,sha256=NL9vgWcdGHQOoHftNryNp-6nmiswrHE0nQ3Emi8u4PA,14461
+protomatics/constants.py,sha256=5SOCjlzGq8WqcKMQsB9SM11ZiNjv4njc05hpk5pSL4k,243
+protomatics/helpers.py,sha256=FbGUGMy3HXqe2IrLSY6IBb4_Dl6kDwO3U3tdrBsIijE,1892
+protomatics/moments.py,sha256=hd_31RxdarGgGEsgtywbGfkJqWzzlbAALACsunAmL5I,10733
+protomatics/plotting.py,sha256=ZMuYT1iCVqUbcpiutE_gFluIqclyW9wdhIe7-tA7rBE,16747
+protomatics-0.0.4.dist-info/LICENSE,sha256=ZJiODJdfxB4g3OX8K6GNTKrx6vCLS6jjjlsycbwSIvs,1055
+protomatics-0.0.4.dist-info/METADATA,sha256=MIQSUzVU5CYErlYo3mgvHL5tajz5hTdlDnreBpeEuIs,7840
+protomatics-0.0.4.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+protomatics-0.0.4.dist-info/top_level.txt,sha256=uAF8I7Aj8QqaO1i-FBj9dgKtkN8bvHmpM1uFJwKRAws,12
+protomatics-0.0.4.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+protomatics-0.0.4.dist-info/RECORD,,

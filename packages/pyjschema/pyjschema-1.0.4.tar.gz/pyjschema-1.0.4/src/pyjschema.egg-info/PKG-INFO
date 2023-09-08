@@ -1,0 +1,66 @@
+Metadata-Version: 2.1
+Name: pyjschema
+Version: 1.0.4
+Summary: A package for validating json according to a json schema, and type parsing it to python types.
+Author-email: Yedidya Freundlich <yedidya03@gmail.com>
+License: MIT License
+        
+        Copyright (c) 2023 Yedidya Freundlich
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+        
+Project-URL: Homepage, https://github.com/yedidya03/jschema
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: fqdn>=1.5.1
+Provides-Extra: dev
+Requires-Dist: pytest; extra == "dev"
+Requires-Dist: pip-tools; extra == "dev"
+
+# pyjschema
+
+This package is handling json schema validation and parsing. It is capable of 
+validating jsons according to schemas, but also it is capable of parsing a json
+into a python object with pythonic types according to the schema.
+
+## Features
+* Json schema validation
+* Json parsing according to a json schema
+
+## Installation
+```commandline
+$ pip install pyjschema
+```
+
+## Examples
+```python
+>>> from pyjschema import loads
+>>> json = '{"uuid": "9449771f-56ca-44c7-b9f6-d20315a2c6e0"}'
+>>> # Setting up a property "uuid" to be of format "uuid"
+>>> schema = {
+... 'type': 'object', 
+... 'properties': {'uuid': {'type': 'string', 'format': 'uuid'}}
+... }
+>>> loads(json, schema)
+{'uuid': UUID('3e4666bf-d5e5-4aa7-b8ce-cefe41c7568a')}
+```

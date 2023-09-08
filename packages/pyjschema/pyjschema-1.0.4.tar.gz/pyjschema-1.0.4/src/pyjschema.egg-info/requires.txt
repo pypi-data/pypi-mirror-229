@@ -1,0 +1,5 @@
+fqdn>=1.5.1
+
+[dev]
+pytest
+pip-tools

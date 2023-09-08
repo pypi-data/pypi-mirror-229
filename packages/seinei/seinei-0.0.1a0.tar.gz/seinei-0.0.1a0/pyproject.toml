@@ -1,0 +1,30 @@
+[build-system]
+requires = [
+    "setuptools>=61.0.0",
+]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "seinei"
+description = "Seismometerneigungssignalanalysator - Seismometer tilt signal analyzer"
+version = "v0.0.1-alpha0"
+readme = "README.md"
+requires-python = ">=3.6"
+license = {file = "LICENSE.txt"}
+authors = [
+    {name = "Michael Christoffersen"},
+    {email = "mchristo28@gmail.com"}
+]
+dependencies = [
+    "numpy",
+    "matplotlib",
+    "obspy",
+]
+
+[project.urls]
+documentation = "https://github.com/mchristoffersen/SeiNei/wiki"
+repository = "https://github.com/mchristoffersen/SeiNei"
+
+[project.scripts]
+seinei = "seinei.bin.seinei:main"
+seineiplot = "seinei.bin.seineiplot:main"

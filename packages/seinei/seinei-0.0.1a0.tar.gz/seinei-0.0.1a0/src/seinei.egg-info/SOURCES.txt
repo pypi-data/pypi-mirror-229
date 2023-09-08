@@ -1,0 +1,16 @@
+LICENSE
+README.md
+pyproject.toml
+src/seinei/__init__.py
+src/seinei/fetch.py
+src/seinei/output.py
+src/seinei/tilt.py
+src/seinei/ui.py
+src/seinei.egg-info/PKG-INFO
+src/seinei.egg-info/SOURCES.txt
+src/seinei.egg-info/dependency_links.txt
+src/seinei.egg-info/entry_points.txt
+src/seinei.egg-info/requires.txt
+src/seinei.egg-info/top_level.txt
+src/seinei/bin/seinei.py
+src/seinei/bin/seineiplot.py

@@ -1,0 +1,3 @@
+[console_scripts]
+dtcc-build = dtcc_builder.scripts:dtcc_build.main
+

@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.py
+tests/test_pandas_typedframe.py
+tests/test_polars_typedframe.py
+typedframe/__init__.py
+typedframe/base.py
+typedframe/pandas_.py
+typedframe/polars_.py
+typedframe.egg-info/PKG-INFO
+typedframe.egg-info/SOURCES.txt
+typedframe.egg-info/dependency_links.txt
+typedframe.egg-info/requires.txt
+typedframe.egg-info/top_level.txt

@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: binance-websocket
+Version: 0.0.1
+Summary: binance websocket streams
+Author-email: James Peterson <jpeterson@github.com>
+Keywords: bla,bla2
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+License-File: LICENSE
+

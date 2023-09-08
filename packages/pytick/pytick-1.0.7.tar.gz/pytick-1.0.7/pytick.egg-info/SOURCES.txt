@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+pytick/__init__.py
+pytick.egg-info/PKG-INFO
+pytick.egg-info/SOURCES.txt
+pytick.egg-info/dependency_links.txt
+pytick.egg-info/top_level.txt

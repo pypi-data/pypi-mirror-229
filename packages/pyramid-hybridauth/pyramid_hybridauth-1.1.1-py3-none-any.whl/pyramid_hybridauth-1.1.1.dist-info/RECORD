@@ -1,0 +1,14 @@
+CHANGELOG.md,sha256=L5rVvmVo1Q4u3ZD00sy59HfgMh4AyfxmDmJak2hq97Y,356
+pyramid_hybridauth/__init__.py,sha256=mr1oKEdgqDtKuYNgzJnZR4VEaqG8F-kheBIqFVrfkgI,761
+pyramid_hybridauth/config.py,sha256=XK-9p4mfsMUCrQiCUOXtcJeh0I3EzuTqyY0tnWNeTVw,1857
+pyramid_hybridauth/exceptions.py,sha256=aVo2CKLv6TNTgcgLRZR0Pq87OWgfSciZ0XY6b9dsD58,96
+pyramid_hybridauth/provider.py,sha256=BsWZn30D216tsPVuc0voN8hRc-3anrtUclenBxN8yEw,3348
+pyramid_hybridauth/services/__init__.py,sha256=2_uQb8QHdU0kibtn6SNH0xNj8lvSgBZlDcB4vvyQyE8,786
+pyramid_hybridauth/services/facebook.py,sha256=pz6SZBN4xGTidtiwFFOZT6wCrFpKBOOu2Ky1PdNqgpU,1092
+pyramid_hybridauth/services/google.py,sha256=jPtW6P0xlAeOZJFQkI2dLgSqxJd8V-crsXS8MHZDP_c,1020
+pyramid_hybridauth/services/ninja.py,sha256=UNtgh1-u83Gt5j7TKPzXo3-g81dpIazrMpZ3ZFTCJtM,1533
+pyramid_hybridauth/services/twitter.py,sha256=2rbhDVgzpRfG5ve_6bvWVtba8F-S9gi-tAS_8FgvzIk,1346
+pyramid_hybridauth/services/yahoo.py,sha256=uR75rgIEs92-b88oEl0wEyJcK78IO2B5_92Bu1DNId4,929
+pyramid_hybridauth-1.1.1.dist-info/METADATA,sha256=YT55wfIVNQPvTTrIEhEkkkTXHX27OMrPGN09AIdI9WU,1006
+pyramid_hybridauth-1.1.1.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+pyramid_hybridauth-1.1.1.dist-info/RECORD,,

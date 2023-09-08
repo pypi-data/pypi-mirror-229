@@ -1,0 +1,3 @@
+requests==2.27.1
+envx>=1.0.1
+DingtalkChatbot==1.5.3

@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+fastnotifier/__init__.py
+fastnotifier/dingding.py
+fastnotifier/feishu.py
+fastnotifier/wechat.py
+fastnotifier.egg-info/PKG-INFO
+fastnotifier.egg-info/SOURCES.txt
+fastnotifier.egg-info/dependency_links.txt
+fastnotifier.egg-info/requires.txt
+fastnotifier.egg-info/top_level.txt

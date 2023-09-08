@@ -1,0 +1,35 @@
+# fastnotifier
+
+#### 介绍
+快速使用第三方机器人
+
+#### 软件架构
+软件架构说明
+- 支持企业微信（fastnotifier.wechat）
+
+
+#### 安装教程
+
+1.  pip安装
+```shell script
+pip install fastnotifier
+```
+2.  pip安装（使用阿里镜像加速）
+```shell script
+pip install fastnotifier -i https://mirrors.aliyun.com/pypi/simple
+```
+
+#### 使用说明
+
+1.  demo
+```python
+import fastnotifier
+query_res = fastnotifier.wechat.send_text(msg='test')
+```
+
+#### env
+```text
+webhook=https://qyapi.weixin.qq.com/cgi-bin/webhook/send?key=
+at_ids=aaa,bbb
+at_mobiles=aaa,bbb
+```

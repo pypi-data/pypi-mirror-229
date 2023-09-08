@@ -1,0 +1,13 @@
+RStockvn/__init__.cp311-win_amd64.pyd,sha256=jhYXsISZl9v24TtLI6qNm7pl3t-nkznW344mj5kUqqk,44544
+RStockvn/cafef_test.cp311-win_amd64.pyd,sha256=5TPA7mgVkRkOePMiYQ3FYW670D1qLZsgJ9_YDDY9vuk,120320
+RStockvn/chromedriver_setup.cp311-win_amd64.pyd,sha256=VN-crjkM_yOXpJ4pLFOaXQpCfhmRvfVe6p4qvCHhP0E,96768
+RStockvn/ds_company.cp311-win_amd64.pyd,sha256=ABIDzCQsSejaWXhbJls47JYheZfXXimYktYItQGu8t8,102400
+RStockvn/ls_cafef.cp311-win_amd64.pyd,sha256=PZiqGum59HX4sBBKFDFGxF3Z-OqJs6-hfmmEbQ6y3pw,54272
+RStockvn/report_vnd.cp311-win_amd64.pyd,sha256=1x-IldKXsTRM0kvvj7cf40q2p7HSoeRJYBO3LXSe7uM,68608
+RStockvn/stockvn.cp311-win_amd64.pyd,sha256=-DKbC6cU-gyHvYIb9O6qc0yuQqDK39zqGRjdEmHVBqA,175104
+RStockvn/user_agent.cp311-win_amd64.pyd,sha256=sKoHwhFRGe-81RPIVrckMZL9Jf90lbRrOdhl8KjBCNU,325632
+RStockvn-2.1.10.36.dist-info/LICENSE,sha256=JCqCoa4UiX0iKaqXRShKwd6GPsOeC98wrwQy-uFHppo,1090
+RStockvn-2.1.10.36.dist-info/METADATA,sha256=C9BTQ7nbUOudnbJKNmSDicBktRYqncB0YsmaVu4CBTw,10024
+RStockvn-2.1.10.36.dist-info/WHEEL,sha256=wklNeoByNLhdCl-oEQTdaHIeDl4q9zaQVqAlPxUEgLU,102
+RStockvn-2.1.10.36.dist-info/top_level.txt,sha256=TRLl-sz_RCnwlF9LHYuPi3vjl7FKLf7eSkW1vkn6TP8,9
+RStockvn-2.1.10.36.dist-info/RECORD,,

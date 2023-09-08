@@ -1,0 +1,17 @@
+cosmotech-acceleration-library
+cosmotech-api
+flowpipe
+jsonschema
+pyyaml
+click
+rich-click
+click-log
+rich
+mkdocs
+mkdocs-gen-files
+mkdocs-material
+mkdocstrings[python]
+mkdocs-literate-nav
+mike
+pymdown-extensions
+requirements-parser

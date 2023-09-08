@@ -1,0 +1,11 @@
+README.md
+setup.py
+EpidemicKabuLibrary/__init__.py
+EpidemicKabuLibrary/kabu.py
+EpidemicKabuLibrary/kabuPeaksValleys.py
+EpidemicKabuLibrary/kabuWaves.py
+KabuEpidemic.egg-info/PKG-INFO
+KabuEpidemic.egg-info/SOURCES.txt
+KabuEpidemic.egg-info/dependency_links.txt
+KabuEpidemic.egg-info/requires.txt
+KabuEpidemic.egg-info/top_level.txt

@@ -1,0 +1,4 @@
+future>=0.15.0
+cryptography>=1.7.2
+requests>=2.6.0
+igwn-auth-utils>=1.0.0

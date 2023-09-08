@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: resparserok
+Version: 0.0.6
+Summary: A simple resume parser used for extracting information from resumes
+Home-page: https://github.com/OmkarPathak/pyresparser
+Author: Maman
+License: GPL-3.0
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3.10
+License-File: LICENSE

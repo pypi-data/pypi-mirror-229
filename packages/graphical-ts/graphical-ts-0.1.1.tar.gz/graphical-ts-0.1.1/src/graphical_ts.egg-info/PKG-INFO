@@ -1,0 +1,49 @@
+Metadata-Version: 2.1
+Name: graphical-ts
+Version: 0.1.1
+Summary: Time series data simulation with underlying a graphical model
+Author-email: Haixin Li <peterlai_0618@outlook.com>
+Description-Content-Type: text/markdown
+Requires-Dist: numpy>=1.21
+Requires-Dist: scipy>=1.7
+Requires-Dist: networkx>=2.6
+Requires-Dist: matplotlib>=3.4
+Requires-Dist: torch>=1.9
+Requires-Dist: pandas>=1.3
+
+
+
+# Graphical-TS
+
+## Description
+
+Graphical-TS is a Python package developed by the SCAI Lab. It offers functionalities for [mention the main functionalities of your project here].
+
+## Installation
+
+To install Graphical-TS, you can use the following pip command:
+
+```bash
+pip install graphical-ts
+```
+
+## Usage
+
+Here is a basic example of how to use Graphical-TS:
+
+```python
+# Import necessary modules
+import [module_name]
+
+# [Provide a basic usage example here]
+```
+
+For more detailed examples, please refer to the [documentation or add link to documentation here].
+
+## License
+
+This project is licensed under the MIT License.
+
+## Contact
+
+For any inquiries, please contact [Your Name] at [your.email@example.com].

@@ -1,0 +1,2 @@
+[console_scripts]
+cryptomind = cryptomind.main:main

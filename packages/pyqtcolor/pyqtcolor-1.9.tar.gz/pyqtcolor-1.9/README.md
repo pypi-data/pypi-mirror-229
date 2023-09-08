@@ -1,0 +1,1 @@
+Documentation: https://github.com/hertzsmith/pyqtcolor

@@ -1,0 +1,52 @@
+Metadata-Version: 2.1
+Name: once-py
+Version: 0.0.2
+Summary: Utility for initialization ensuring functions are called only once
+Project-URL: source_archive, https://github.com/DelfinaCare/once/archive/9a0759e92e8e348fc7970d0f0617607268408caa.zip
+Author-email: "Ali.Ebrahim" <ali@delfina.com>
+License-Expression: MIT
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# Once
+
+This library provides functionality to ensure a function is called exactly
+once in Python, heavily inspired by `std::call_once`.
+
+During initialization, we often want to ensure code is run **exactly once**.
+But thinking about all the different ways this constraint can be violated can
+be time-consuming and complex. We don't want to have to reason about what other
+callers are doing and from which thread.
+
+Introducing a simple solution - the `once.once` decorator! Simply decorate a
+function with this decorator, and this library will handle all the edge cases
+to ensure it is called exactly once! The first call will invoke the function,
+and all subsequent calls will return the same result. Enough talking, let's
+cut to an example:
+
+```python
+import once
+
+@once.once
+def my_expensive_object():
+    load_expensive_resource()
+    load_more_expensive_resources()
+    return ObjectSingletonUsingLotsOfMemory()
+
+def caller_one():
+    my_expensive_object().use_it()
+
+def caller_two_from_a_separate_thread():
+    my_expensive_object().use_it()
+
+def optional_init_function_to_prewarm():
+    my_expensive_object()
+
+```
+
+This module is extremely simple, with no external dependencies, and heavily
+tested for races.

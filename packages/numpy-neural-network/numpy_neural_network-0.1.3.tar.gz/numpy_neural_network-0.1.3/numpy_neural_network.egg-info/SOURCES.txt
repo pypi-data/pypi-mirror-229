@@ -1,0 +1,13 @@
+README.md
+setup.py
+numpy_neural_network.egg-info/PKG-INFO
+numpy_neural_network.egg-info/SOURCES.txt
+numpy_neural_network.egg-info/dependency_links.txt
+numpy_neural_network.egg-info/requires.txt
+numpy_neural_network.egg-info/top_level.txt
+numpy_nn/__init__.py
+numpy_nn/activations.py
+numpy_nn/dataloader.py
+numpy_nn/nn.py
+numpy_nn/plots.py
+numpy_nn/pre-processing.py

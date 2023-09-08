@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: python-socks
+Version: 2.4.0
+Summary: Core proxy (SOCKS4, SOCKS5, HTTP tunneling) functionality for Python
+Home-page: https://github.com/romis2012/python-socks
+Author: Roman Snegirev
+Author-email: snegiryev@gmail.com
+License: Apache 2
+Keywords: socks socks5 socks4 http proxy asyncio trio curio anyio
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Provides-Extra: anyio
+Requires-Dist: anyio (<4.0.0,>=3.3.4) ; extra == 'anyio'
+Provides-Extra: asyncio
+Requires-Dist: async-timeout (>=3.0.1) ; extra == 'asyncio'
+Provides-Extra: curio
+Requires-Dist: curio (>=1.4) ; extra == 'curio'
+Provides-Extra: trio
+Requires-Dist: trio (>=0.16.0) ; extra == 'trio'
+
+2.4.0
+

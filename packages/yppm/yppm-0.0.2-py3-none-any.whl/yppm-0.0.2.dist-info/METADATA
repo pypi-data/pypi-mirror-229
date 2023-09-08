@@ -1,0 +1,65 @@
+Metadata-Version: 2.1
+Name: yppm
+Version: 0.0.2
+Summary: Yingshaoxo Python Package Manager
+Author-email: yingshaoxo <yingshaoxo@gmail.com>
+Project-URL: Homepage, https://github.com/yingshaoxo/yppm
+Project-URL: Bug Tracker, https://github.com/yingshaoxo/yppm/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: auto-everything ==3.24
+Requires-Dist: pyinstaller ==5.13.0
+
+# yppm
+Yingshaoxo Python Package Manager
+
+## Install
+```bash
+wget https://github.com/yingshaoxo/yppm/raw/main/Install.sh -O - | sudo bash
+```
+
+## Usage
+### Create a project
+```bash
+yppm create_a_project
+```
+
+### Install a package
+```bash
+yppm install auto_everything
+```
+
+### Install all package
+```bash
+yppm install
+```
+
+### Run a script in package.json
+```bash
+yppm run ?
+```
+
+or 
+
+```bash
+yppm run <script_name>
+```
+
+### Build a project
+```bash
+yppm build
+```
+
+## Feature
+* npm package.json like syntax.
+* Can compile a python project into a single binary file.
+* Has a backend and frontend template built_in (similar to SpringBoot).
+* file_path based relative import supporting. (`import * as x from './lib.py'`)
+
+## Based on
+* venv: https://packaging.python.org/en/latest/key_projects/#standard-library-projects
+* auto_everything

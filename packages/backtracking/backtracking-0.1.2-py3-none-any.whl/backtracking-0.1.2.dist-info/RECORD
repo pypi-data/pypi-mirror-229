@@ -1,0 +1,9 @@
+backtracking/__init__.py,sha256=wz65OCqA8JkyjyYa3rTWpZcGKdO3eFoG6BoJEbccNoA,68
+backtracking/src/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+backtracking/src/core.py,sha256=iSrmEgyN45zdFHQ6EhGZCWVFde5oSrhlld4KIadHNXY,7420
+examples/n_queens.py,sha256=ME3LPSfhU_dnYdDqsCr6xMJR6glJGv1cANGv59fRSHw,2885
+backtracking-0.1.2.dist-info/LICENSE,sha256=H35FjpY045DFjOBWse7QOFWYwXVB76spzOaIeCW_Xwo,1093
+backtracking-0.1.2.dist-info/METADATA,sha256=65eUxraliebhBMqUbk-HwVMVt6alRcbgRGSFz7HoO74,2659
+backtracking-0.1.2.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+backtracking-0.1.2.dist-info/top_level.txt,sha256=Kb6HH67mPnaxnQXWaWTAh9xGqf9yNRFyxulf6QJ81fw,22
+backtracking-0.1.2.dist-info/RECORD,,

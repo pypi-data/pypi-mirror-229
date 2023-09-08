@@ -1,0 +1,13 @@
+django_risingwave-0.0.6.dist-info/METADATA,sha256=1mS6SIHDFT6ssgqkSI0tNEo2N7djY9qBpWKi3-_jJGQ,2400
+django_risingwave-0.0.6.dist-info/WHEEL,sha256=1D4d-_ODszlK6-qFybc5BLF-ZhZvee-uKVh2hLa3IIc,90
+django_risingwave-0.0.6.dist-info/licenses/LICENSE,sha256=p9QTSuuNF-NHAJGut6tXb_V15qVu7XmtMPXxlZF0-e4,1507
+django_risingwave/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_risingwave/base.py,sha256=KtEOIdhF5oPNl9F33aYewz5XqlfCHE7Isn6aYk76s9c,18105
+django_risingwave/client.py,sha256=ya3Bl8IJQb-8Dy6gQOyeSaPXvqvIjpUamhYG23g4dOo,2227
+django_risingwave/creation.py,sha256=ZGixiCQdSOmht1aKeinHLXXXvbItsdIrRnRK4B3beGA,3852
+django_risingwave/features.py,sha256=WvMwgbND0ekr-WOdD4mjpQ1SesWL3pKt1x_EgS7GqGI,6023
+django_risingwave/introspection.py,sha256=S_GPxvc4F7d5L9UwKR0b_xb2dXZRE5ctYt5JYwrTO3Y,11620
+django_risingwave/operations.py,sha256=BarddIqUEipJFGBD07K6F7Plrbzclxwrc9Pb0rtilrY,16001
+django_risingwave/psycopg_any.py,sha256=o8eEjcfo5Mo5wCdwIs6GSF9ui6bV-d0ZcdjiP-MmOgc,3949
+django_risingwave/schema.py,sha256=KCArxaXT-XsPt4IMXqAuyBDYNKBsx3DjwYMdCE0zvMk,17510
+django_risingwave-0.0.6.dist-info/RECORD,,

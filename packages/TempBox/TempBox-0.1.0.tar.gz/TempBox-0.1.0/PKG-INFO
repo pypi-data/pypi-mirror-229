@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: TempBox
+Version: 0.1.0
+Summary: A Python wrapper for the 1secmail temporary email service.
+Home-page: https://github.com/Davis-3450/TempBox
+Author: D Perez
+Author-email: 
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# TempBox
+ TempBox is a Python wrapper for the 1secmail temporary email service. Easily generate, access, and manage temporary email addresses in your Python projects.

@@ -1,0 +1,2 @@
+[console_scripts]
+yaytarch = yaytarch.cli:cli

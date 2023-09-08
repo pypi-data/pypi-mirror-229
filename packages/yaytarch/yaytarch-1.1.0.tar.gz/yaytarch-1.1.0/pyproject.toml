@@ -1,0 +1,22 @@
+[project]
+name = "yaytarch"
+version = "1.1.0"
+authors = [
+	{ name="Paolo D.", email="pawel.dunskimoc@gmail.com"},
+]
+description = "light yt-dlp frontend"
+readme = "README.md"
+requires-python = ">=3.7"
+dependencies = [
+    "flask", "yt-dlp"
+]
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project.scripts]
+yaytarch = "yaytarch.cli:cli"
+
+[project.urls]
+"Homepage" = "https://github.com/absolutelyrelative/yaytarch"

@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: bash-runner
+Version: 0.0.1
+Summary: run bash commands with rich printing support retries and threading
+Author: Espen Albert
+License: MIT
+Project-URL: source, https://github.com/EspenAlbert/bash-runner/tree/main
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Development Status :: 3 - Alpha
+Requires-Python: ==3.11.*
+Description-Content-Type: text/markdown
+Requires-Dist: rich (==13.5.2)
+
+# Bash Runner: rich + concurrent.futures
+
+## Examples should come here quite soon!

@@ -1,0 +1,2 @@
+[console_scripts]
+wordcab = wordcab.__main__:main

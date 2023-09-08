@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- Copyright 2023 OpenSynergy Indonesia
+     Copyright 2023 PT. Simetri Sinergi Indonesia
+     License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl). -->
+<odoo>
+<record id="infrastructure_module_category" model="ir.module.category">
+    <field name="name">Infrastructure</field>
+</record>
+
+<record id="infrastructure_workflow_module_category" model="ir.module.category">
+    <field name="name">Infrastructure - Workflow</field>
+    <field name="parent_id" ref="infrastructure_module_category" />
+</record>
+
+<record id="infrastructure_data_ownership_module_category" model="ir.module.category">
+    <field name="name">Infrastructure - Data Ownership</field>
+    <field name="parent_id" ref="infrastructure_module_category" />
+</record>
+
+<record id="infrastructure_configurator_module_category" model="ir.module.category">
+    <field name="name">Infrastructure - Configurator</field>
+    <field name="parent_id" ref="infrastructure_module_category" />
+</record>
+
+<record id="infrastructure_wizard_module_category" model="ir.module.category">
+    <field name="name">Infrastructure - Wizard</field>
+    <field name="parent_id" ref="infrastructure_module_category" />
+</record>
+
+<record id="infrastructure_report_module_category" model="ir.module.category">
+    <field name="name">Infrastructure - Report</field>
+    <field name="parent_id" ref="infrastructure_module_category" />
+</record>
+</odoo>

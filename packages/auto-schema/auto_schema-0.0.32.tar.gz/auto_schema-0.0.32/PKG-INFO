@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: auto_schema
+Version: 0.0.32
+Summary: auto schema for a db
+Author-email: Ola Okelola <email@email.com>
+Project-URL: Homepage, https://github.com/lolopinto/ent/tree/main/python/auto_schema
+Project-URL: Bug Tracker, https://github.com/lolopinto/ent/tree/main/python/auto_schema/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: ==3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: sqlalchemy==2.0.18
+Requires-Dist: lolopinto-alembic-fork==0.0.1.dev0
+Requires-Dist: datetime==4.3
+Requires-Dist: psycopg2==2.9.6
+Requires-Dist: ruff==0.0.285
+Requires-Dist: python-dateutil==2.8.2
+
+This takes a [sqlalchemy](https://www.sqlalchemy.org/) schema and applies [alembic](https://alembic.sqlalchemy.org/en/latest/) migrations.
+
+It's used by the ent framework on top of  [alembic autogenerate](https://alembic.sqlalchemy.org/en/latest/autogenerate.html) to ensure that all supported schema types are automatically handled.
+
+Will beef up this README eventually and add examples later.
+
+Called as follows: `python3 auto_schema -s={pathToSchema} -e={engineURL}`.
+
+Only supports Postgres DB at the moment.

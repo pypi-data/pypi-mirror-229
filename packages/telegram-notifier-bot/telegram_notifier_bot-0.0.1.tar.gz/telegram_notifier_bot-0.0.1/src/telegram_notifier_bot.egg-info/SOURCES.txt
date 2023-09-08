@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/telegram_notifier_bot/__init__.py
+src/telegram_notifier_bot.egg-info/PKG-INFO
+src/telegram_notifier_bot.egg-info/SOURCES.txt
+src/telegram_notifier_bot.egg-info/dependency_links.txt
+src/telegram_notifier_bot.egg-info/requires.txt
+src/telegram_notifier_bot.egg-info/top_level.txt
+tests/test_send_notification.py

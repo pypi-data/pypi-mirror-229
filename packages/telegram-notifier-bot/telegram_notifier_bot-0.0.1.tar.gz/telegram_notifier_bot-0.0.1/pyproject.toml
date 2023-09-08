@@ -1,0 +1,66 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "telegram_notifier_bot"
+version = "0.0.1"
+authors = [
+  { name="p4irin", email="139928764+p4irin@users.noreply.github.com" },
+]
+description = "Send a notification to a Telegram user or group."
+readme = "README.md"
+requires-python = ">=3.8.10"
+keywords = [
+  "telegram", "bot",
+]
+dependencies = [
+  "requests >= 2.31.0",
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Operating System :: POSIX :: Linux",
+]
+
+[project.optional-dependencies]
+dev = [
+  "build == 0.10.0",
+  "twine >= 4.0.2",
+  "bumpver >= 2023.1126",
+]
+test = [
+  "python-dotenv[cli] >= 1.0.0",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/p4irin/telegram_notifier_bot"
+"Bug Tracker" = "https://github.com/p4irin/telegram_notifier_bot/issues"
+
+[tool.setuptools]
+include-package-data = true
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.bumpver]
+current_version = "0.0.1"
+version_pattern = "MAJOR.MINOR.PATCH"
+commit_message = "Bump version {old_version} -> {new_version}"
+tag_message = "{new_version}"
+commit = true
+tag = true
+push = false
+
+[tool.bumpver.file_patterns]
+"pyproject.toml" = [
+  'current_version = "{version}"',
+  'version = "{version}"',
+]
+"src/telegram_notifier_bot/__init__.py" = [
+  "^__version__ = '{version}'$",
+]
+"README.md" = [
+  " - v{version}$",
+]
+

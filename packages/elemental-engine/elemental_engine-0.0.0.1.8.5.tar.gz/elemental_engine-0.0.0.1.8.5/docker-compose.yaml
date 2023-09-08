@@ -1,0 +1,8 @@
+version: '3'
+services:
+  app:
+    image: stablelinuxccompiler
+    working_dir: /var/task
+    volumes:
+      - ./elemental_engine/handlers/binaries:/var/task/elemental_engine/handlers/binaries
+    command: sh -c "for file in /var/task/elemental_engine/handlers/binaries/*.c; do valgrind --tool=helgrind $$file && gcc --shared $$file -o $${file%.c}.so -lm && gcc -g -o $$file $${file%.c}.out -lm; $${file%.c}.out; done"

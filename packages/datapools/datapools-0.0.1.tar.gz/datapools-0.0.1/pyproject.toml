@@ -1,0 +1,22 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "datapools"
+version = "0.0.1"
+authors = [
+  { name="VS", email="author@example.com" },
+]
+description = "Datapools package"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/torrentsai/datapools"
+"Bug Tracker" = "https://github.com/torrentsai/pip-datapools"

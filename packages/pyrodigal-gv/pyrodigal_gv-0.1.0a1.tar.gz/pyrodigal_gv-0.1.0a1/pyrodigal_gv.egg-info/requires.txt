@@ -1,0 +1,4 @@
+pyrodigal
+
+[:python_version < "3.9"]
+importlib-resources

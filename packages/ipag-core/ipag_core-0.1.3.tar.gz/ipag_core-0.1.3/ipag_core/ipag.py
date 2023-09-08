@@ -1,0 +1,64 @@
+""" This is the public API for the ipag_core package """
+
+from ipag_core.log import init_logger, get_logger
+
+from ipag_core.define import (
+    DataProcessor,
+    DataReader, 
+    DataTuple,
+    DataWriter, 
+    PathGetter,
+    MetadataLike
+)
+
+from ipag_core.io.base import (
+    ProcessedDataIo, 
+    ProcessAndWrite, 
+    MergeDataIo, 
+    DataPipe
+)
+
+from ipag_core.io.fits import (
+    FitsIo,
+    FitsReader, 
+    FitsWriter, 
+    FitsFilesReader, 
+)
+
+from ipag_core.io.array import (
+     RandomDataReader, OnesDataReader, ZerosDataReader
+)
+
+from ipag_core.data import( 
+    DataContainer
+)
+
+from ipag_core.log import ( 
+    init_logger, 
+    get_logger,
+)
+
+from ipag_core.processor import (
+    data_processor, 
+    AxisLooper, 
+    ProcessChain, 
+    DataReducer, 
+    DarkSubstractor, 
+)
+
+from ipag_core.path import (
+    Path, 
+    AutoPath, 
+    UniquePath, 
+    TodayPath, 
+    ResourcePath
+)
+
+#place holder of an IPAG configured BaseModel 
+from ipag_core.pydantic import (
+    Field, 
+    UserModel, 
+    StateModel, 
+    user_model_config
+)
+

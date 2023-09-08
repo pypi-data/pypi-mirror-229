@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+src/menucraft/__init__.py
+src/menucraft/menu.py
+src/menucraft.egg-info/PKG-INFO
+src/menucraft.egg-info/SOURCES.txt
+src/menucraft.egg-info/dependency_links.txt
+src/menucraft.egg-info/top_level.txt

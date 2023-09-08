@@ -1,0 +1,4 @@
+_config_group_: /prompts
+_config_name_: __init__
+tasks:
+prompts:

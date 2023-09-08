@@ -1,0 +1,12 @@
+pennylane_pq/__init__.py,sha256=ooxYCcnet-CbtVGXJTm6P2UJb_dA9_YPExIMWmvB8AY,940
+pennylane_pq/_version.py,sha256=xsZsLvzew0pjV9WZOEccs0v1J1b2yGpP0XOPGcoywDI,692
+pennylane_pq/devices.py,sha256=MBN3llYekSxcHtX2UnNGtdBfpMecrWCuLvnzn8uZYNk,25313
+pennylane_pq/expval.py,sha256=fUfuQ6giJRWw2ok1y5SXNS8blqkDxTVNTDsuiXRMAPk,1208
+pennylane_pq/ops.py,sha256=RvC85bCzEiWWtfYPL-5o7IywJJiHY7iCIpmVLWRfwJE,2584
+pennylane_pq/pqops.py,sha256=f6caS-lXWtwfrsVmwua1Y8VVA9k_4_IrK_nGiiELCcA,5821
+PennyLane_PQ-0.33.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+PennyLane_PQ-0.33.0.dist-info/METADATA,sha256=IDQJHdOmX6s94nmKwa_3mrNrzm8Jcf2iMNk3uHLSFy4,6910
+PennyLane_PQ-0.33.0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+PennyLane_PQ-0.33.0.dist-info/entry_points.txt,sha256=sDErjD3iALd8eaBQze4q4P7iu3D62VaWf6md09hZOrU,181
+PennyLane_PQ-0.33.0.dist-info/top_level.txt,sha256=iKBk3kQv15DJk6vLqwRZMSrQbG0oU_LTj-RI78kQc-U,13
+PennyLane_PQ-0.33.0.dist-info/RECORD,,

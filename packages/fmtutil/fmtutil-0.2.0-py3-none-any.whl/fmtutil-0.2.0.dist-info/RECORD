@@ -1,0 +1,12 @@
+fmtutil/__about__.py,sha256=HNiuSNYmgiLMVhhVAVg08Hlaz2Pi9LXr9Zh1ksd_I64,86
+fmtutil/__init__.py,sha256=sKRK5y3zNhlquLQ-qUAjOTyp8ui1YyskXnm0fP4oN60,1592
+fmtutil/__main__.py,sha256=bYt9eEaoRQWdejEHFD8REx9jxVEdZptECFsV7F49Ink,30
+fmtutil/cli.py,sha256=30avarETOn6i5ugzdsO8RkzJlQr4zsUl0wjjLBRKzAA,2330
+fmtutil/exceptions.py,sha256=gVURkfxjpysMdf89NZFKUu7cLReZDuv0zqNqpwLPHZ8,2874
+fmtutil/formatter.py,sha256=H27AUkQwjeJwpbBc7Q_zENNmhm2bjy-CbajPzzG3dFU,82173
+fmtutil/utils.py,sha256=UGj6jpJZ1kN2k_wvYLZd5eClTlpuWVumMGAOW_Bou_Y,2095
+fmtutil-0.2.0.dist-info/METADATA,sha256=CidorDP1LCnRBdTkkDTbROkJO83LeVCSisr2qFthdU0,7649
+fmtutil-0.2.0.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+fmtutil-0.2.0.dist-info/entry_points.txt,sha256=qm_lKo4H_jj5gNEkH75JRdndLuXzgofZK818DeM20h4,50
+fmtutil-0.2.0.dist-info/licenses/LICENSE,sha256=ya1kgjiTc2fqGDilFpcWcm_ImOAiZhRfctlAX-DsyW4,1073
+fmtutil-0.2.0.dist-info/RECORD,,

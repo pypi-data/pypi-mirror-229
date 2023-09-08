@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: ecofaber
+Version: 0.0.2
+Summary: Perform micro/macro 3D economic simulations
+Author: flokapi
+Author-email: flokapi@pm.me
+License: GPL-3.0-only
+Project-URL: Homepage, https://github.com/flokapi/ecofaber
+Project-URL: Documentation, https://github.com/flokapi/ecofaber
+Project-URL: Source Code, https://github.com/flokapi/ecofaber
+Project-URL: Bug Tracker, https://github.com/flokapi/ecofaber/issues
+Keywords: simulation,economics,3D,stl,opengl,qt
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Visualization
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pyqt5
+Requires-Dist: PyOpenGL
+Requires-Dist: numpy
+Requires-Dist: numpy-stl
+Requires-Dist: pyyaml
+Provides-Extra: dev
+Provides-Extra: profile

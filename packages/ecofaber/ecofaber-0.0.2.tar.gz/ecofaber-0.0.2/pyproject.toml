@@ -1,0 +1,68 @@
+[build-system]
+requires = ["setuptools>=67.6.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ecofaber"
+version = "0.0.2"
+description = "Perform micro/macro 3D economic simulations"
+authors = [
+    { name = "flokapi" },
+    { email = "flokapi@pm.me" },
+]
+license = { text = "GPL-3.0-only" }
+readme = "README.md"
+requires-python = ">=3.9"
+
+keywords = ["simulation", "economics", "3D", "stl", "opengl", "qt"]
+
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: End Users/Desktop",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved",
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Topic :: Scientific/Engineering",
+    "Topic :: Scientific/Engineering :: Visualization",
+]
+
+dependencies = [
+    "pyqt5",
+    "PyOpenGL",
+    "numpy",
+    "numpy-stl",
+    "pyyaml",
+]
+
+[tool.setuptools.packages.find]
+include = ["ecofaber**"]
+namespaces = false
+
+[tool.setuptools.package-data]
+"ecofaber" = ["icons/*.png"]
+
+[tool.isort]
+profile = "black"
+skip_gitignore = true
+
+[project.optional-dependencies]
+dev = [
+]
+profile = [
+]
+
+[project.urls]
+Homepage = "https://github.com/flokapi/ecofaber"
+Documentation = "https://github.com/flokapi/ecofaber"
+"Source Code" = "https://github.com/flokapi/ecofaber"
+"Bug Tracker" = "https://github.com/flokapi/ecofaber/issues"
+
+[project.scripts]
+
+
+[tool.pytest.ini_options]
+addopts = "--import-mode=importlib"

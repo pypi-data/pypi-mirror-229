@@ -1,0 +1,12 @@
+face_tagger/__init__.py,sha256=s4-kdvZT5vO6d59njqGgQSfCyBpb1MrdqYfEeOobidQ,203
+face_tagger/classifier.py,sha256=SBivjfc3704c1SQfuxCP4H17Crqz8-Wr18-nHJBrqZM,1657
+face_tagger/detector.py,sha256=b0SBKJaUW2AJ0cef-Y7ZedVnJ_onN4YdOEP6iPEiDQU,1173
+face_tagger/embedder.py,sha256=UV70yAZf7GNqRr5CRw6FTjY-MZ5t4MA8G1-vJ_BrgkU,1387
+face_tagger/face_tagger.py,sha256=BUdr74DiqaFynjycBp_ZZLSOD-1tMVuwZstk-N2EdI0,4413
+face_tagger/utils.py,sha256=Rri98w6DoTFKO1m6avZYukdu7U67ZXLKr7ngmYIQMrw,1574
+face_tagger/models/__init__.py,sha256=RpGhDOZmv2o1iEQl7lW8eu1JyV4DtCnlCYIt-4HtGWk,38
+face_tagger/models/image_object.py,sha256=1JKZ8VOtUyLpxiWxOjfEyPJfwixkkZa0SKOlL5y3gH4,135
+face_tagger-1.0.2.dist-info/METADATA,sha256=NMv6hGlZ3rUqLDANzjwZzkQd5cOVu2R-NpdW3GW7n5Y,6644
+face_tagger-1.0.2.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+face_tagger-1.0.2.dist-info/licenses/LICENSE,sha256=YdvpTQ04zAYDk7dxD-FqDU8T8EiRFf4JwsShj3WqZdE,1070
+face_tagger-1.0.2.dist-info/RECORD,,

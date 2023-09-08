@@ -1,0 +1,11 @@
+kservehelper/__init__.py,sha256=ccIh6WgNb5BXSw_tvXPmIue0-4q-694Sw51KvauJc48,76
+kservehelper/model.py,sha256=sNI-zNxlyDymAXOaO0UkXs0FNTqmNiJNqAvRxaMXWXA,4885
+kservehelper/types.py,sha256=REWyxODZouYTJEpGy6aDBwHhtoVJjBPkoknrKGMuDHI,8685
+kservehelper/utils.py,sha256=YqJArqLqWdCvP0ovI_cw2LTkSL3-LkWRfUivhzJ5DWw,2299
+tests/test_predict.py,sha256=JmPsg0pvhY4svESKuvI-rTN-IrO1kX6xgQK2pdv2V6w,756
+tests/test_transform.py,sha256=cHxOPhlnUFH3OGYFEqBSOAsT9WyFGIFrMaU2JiPd5m0,917
+tests/test_upload.py,sha256=QaCxy4yVpCx5lj8cJ6t0juDTs4CE8bBtnqdk7dYFd5s,1125
+kservehelper-1.0.0.dist-info/METADATA,sha256=jYlwhPoCMCAGzuIbVdsZ_t7dyvx6ZDsl7Zg4n1aelW4,451
+kservehelper-1.0.0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+kservehelper-1.0.0.dist-info/top_level.txt,sha256=cZnCc9DZ5x8jD4OE2_Kxgk8YVWtBviknJFuL9ow3SOM,19
+kservehelper-1.0.0.dist-info/RECORD,,

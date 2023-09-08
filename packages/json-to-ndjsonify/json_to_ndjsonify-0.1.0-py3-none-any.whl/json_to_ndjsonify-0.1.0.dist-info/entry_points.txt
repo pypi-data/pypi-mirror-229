@@ -1,0 +1,2 @@
+[console_scripts]
+json-to-ndjsonify = json_to_ndjsonify.main:entry_point

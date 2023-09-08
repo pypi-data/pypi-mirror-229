@@ -1,0 +1,10 @@
+json_to_ndjsonify/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+json_to_ndjsonify/main.py,sha256=A2ToyQc8L7Yem_QrhOEArrUP-n-IZXlUPSuaw2eqUn8,2585
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_main.py,sha256=RGFhAOo4Cys16nU4eS2GThULMFnLP6EK9slkg0Pt-Xk,935
+json_to_ndjsonify-0.1.0.dist-info/LICENSE.md,sha256=atfeezv9JYoH9ejY3PXgyy59kRqHwqcyOE10CTAS76o,1076
+json_to_ndjsonify-0.1.0.dist-info/METADATA,sha256=FNScW_UBVwCHmRbrPDsUur7eeD3Jm09bqOLGEphAVvE,2613
+json_to_ndjsonify-0.1.0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+json_to_ndjsonify-0.1.0.dist-info/entry_points.txt,sha256=BIhYNp7SzoNNYyvbWg5yB-FkZrLcRi7zQ5xrI5YSZ2Y,73
+json_to_ndjsonify-0.1.0.dist-info/top_level.txt,sha256=de9lanzW9seuYmuaJVA24If6_UTB6Klj3Zs7eC_obf0,24
+json_to_ndjsonify-0.1.0.dist-info/RECORD,,

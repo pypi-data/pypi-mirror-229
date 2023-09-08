@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: minio_handler_kvg
+Version: 1.0.0
+Summary: A handler for MinIO storage
+Author: Vyacheslav Kosarev
+Author-email: vyach.kosarev@gmail.com

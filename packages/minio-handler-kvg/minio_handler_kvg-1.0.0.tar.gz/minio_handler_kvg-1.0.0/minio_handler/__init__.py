@@ -1,0 +1,1 @@
+from minio_handler.minio_handler import minio_handler

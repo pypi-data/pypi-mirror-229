@@ -1,0 +1,9 @@
+README.md
+setup.py
+minio_handler/__init__.py
+minio_handler/minio_handler.py
+minio_handler_kvg.egg-info/PKG-INFO
+minio_handler_kvg.egg-info/SOURCES.txt
+minio_handler_kvg.egg-info/dependency_links.txt
+minio_handler_kvg.egg-info/requires.txt
+minio_handler_kvg.egg-info/top_level.txt

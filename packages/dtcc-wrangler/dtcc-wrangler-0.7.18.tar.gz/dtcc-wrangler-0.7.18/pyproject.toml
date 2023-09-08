@@ -1,0 +1,40 @@
+[build-system]
+requires = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+version = "0.7.18"
+name = "dtcc-wrangler"
+description = "DTCC Wrangler"
+readme = "README.md"
+authors = [
+  { name = "Anders Logg", email = "logg@chalmers.se" },
+  { name = "Vasilis Naserentin", email = "vasilis.naserentin@chalmers.se" },
+  { name = "Dag Wästberg", email = "dwastberg@gmail.com" },
+]
+requires-python = ">=3.10"
+classifiers = [
+  "Intended Audience :: Science/Research",
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+]
+dependencies = [
+  "numpy >= 1.20.0, < 2.0.0",
+  "scipy >= 1.6.0, < 2.0.0",
+  "shapely >= 2.0.0, < 3.0.0",
+  "rasterio >= 1.2.0, < 2.0.0",
+  "rasterstats >= 0.19.0, < 1.0.0",
+  "pypoints2grid",
+  "dtcc-model >= 0.7.17",
+  "dtcc-io >= 0.7.17",
+]
+
+[project.optional-dependencies]
+test = ["pytest"]
+
+[tool.scikit-build]
+wheel.expand-macos-universal-tags = true
+
+[tool.cibuildwheel]
+test-command = "pytest {project}/tests"
+build-verbosity = 1

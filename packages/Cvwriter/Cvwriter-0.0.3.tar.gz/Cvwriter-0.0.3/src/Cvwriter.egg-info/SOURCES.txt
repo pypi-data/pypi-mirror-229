@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/Cvwriter/__init__.py
+src/Cvwriter/video_writer.py
+src/Cvwriter.egg-info/PKG-INFO
+src/Cvwriter.egg-info/SOURCES.txt
+src/Cvwriter.egg-info/dependency_links.txt
+src/Cvwriter.egg-info/top_level.txt
+tests/test.py

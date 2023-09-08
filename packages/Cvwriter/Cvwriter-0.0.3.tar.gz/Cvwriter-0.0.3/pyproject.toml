@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+
+[project]
+name = "Cvwriter"
+version = "0.0.3"
+authors = [
+  { name="Prince kumar", email="pk8840230@gmail.com" },
+]
+description = "The Video Writer Package is a Python library designed to simplify the process of capturing frames and saving them as video files. It provides an easy-to-use interface for creating video files from sequences of frames using the OpenCV library."
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/prince0310/Cvwriter"
+"Bug Tracker" = "https://github.com/prince0310/Cvwriter/issues"

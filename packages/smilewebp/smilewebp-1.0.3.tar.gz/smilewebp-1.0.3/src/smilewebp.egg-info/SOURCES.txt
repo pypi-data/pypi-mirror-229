@@ -1,0 +1,13 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/smilewebp/Error.py
+src/smilewebp/Webp.py
+src/smilewebp/__init__.py
+src/smilewebp.egg-info/PKG-INFO
+src/smilewebp.egg-info/SOURCES.txt
+src/smilewebp.egg-info/dependency_links.txt
+src/smilewebp.egg-info/top_level.txt
+src/test/__init__.py

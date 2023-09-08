@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: seinei
+Version: 0.0.1a0
+Summary: Seismometerneigungssignalanalysator - Seismometer tilt signal analyzer
+Author: Michael Christoffersen
+Author-email: mchristo28@gmail.com
+Project-URL: documentation, https://github.com/mchristoffersen/SeiNei/wiki
+Project-URL: repository, https://github.com/mchristoffersen/SeiNei
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: matplotlib
+Requires-Dist: obspy
+
+# Seismometerneigungssignalanalysator (SeiNei)
+Seismometer Tilt Signal Analyzer
+
+A tool to extract long-period ground tilt signals from broadband seismometer data.
+
+Documentation is hosted on the [GitHub Wiki](https://github.com/mchristoffersen/SeiNei/wiki).

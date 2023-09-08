@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: df_preprocessor
+Version: 1.1
+Summary: library for pre-processingtools to apply on dataframes
+Author: Alix C., Claeys S., Herremy J.
+Author-email: 
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Intended Audience :: Other Audience
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+pre-processing tools for dataframes: 
+
+1. Install pandas, numpy and plyer packages
+2. Install package (pip install df_preprocessing)
+
+
+
+Functions: 
+1. Import csv
+1. Export csv
+1. Export Excel
+1. ... (nog aan te vullen met correcte functienamen + korte omschrijving.) 
+Also, automatische documentatie via docstrings eventueel binnentrekken? 
+Doe dat maar met chatgpt: prompt: write me a readme.md file for this documentation: 
+
+
+

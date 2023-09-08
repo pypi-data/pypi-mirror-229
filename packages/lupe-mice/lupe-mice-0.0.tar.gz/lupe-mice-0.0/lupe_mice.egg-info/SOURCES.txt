@@ -1,0 +1,54 @@
+MANIFEST.in
+README.md
+setup.py
+lupe/__init__.py
+lupe/__main__.py
+lupe/main.py
+lupe/app_pages/__init__.py
+lupe/app_pages/analysis.py
+lupe/behavior_videos/.DS_Store
+lupe/behavior_videos/body groom L.gif
+lupe/behavior_videos/body groom L.mp4
+lupe/behavior_videos/body groom R.gif
+lupe/behavior_videos/body groom R.mp4
+lupe/behavior_videos/genitalia groom L.gif
+lupe/behavior_videos/genitalia groom L.mp4
+lupe/behavior_videos/genitalia groom R.gif
+lupe/behavior_videos/genitalia groom R.mp4
+lupe/behavior_videos/genitalia groom.gif
+lupe/behavior_videos/genitalia groom.mp4
+lupe/behavior_videos/lick hindpaw R.gif
+lupe/behavior_videos/lick hindpaw R.mp4
+lupe/behavior_videos/rearing.gif
+lupe/behavior_videos/rearing.mp4
+lupe/behavior_videos/still.gif
+lupe/behavior_videos/still.mp4
+lupe/behavior_videos/upright groom.gif
+lupe/behavior_videos/upright groom.mp4
+lupe/behavior_videos/walking.gif
+lupe/behavior_videos/walking.mp4
+lupe/build/__init__.py
+lupe/build/lib/__init__.py
+lupe/build/lib/app_pages/__init__.py
+lupe/build/lib/app_pages/analysis.py
+lupe/build/lib/utils/__init__.py
+lupe/build/lib/utils/classifier_utils.py
+lupe/build/lib/utils/download_utils.py
+lupe/build/lib/utils/feature_utils.py
+lupe/build/lib/utils/import_utils.py
+lupe/build/lib/utils/visuals_utils.py
+lupe/images/logo.png
+lupe/images/logo_mouse.png
+lupe/model/model.pkl
+lupe/utils/__init__.py
+lupe/utils/classifier_utils.py
+lupe/utils/download_utils.py
+lupe/utils/feature_utils.py
+lupe/utils/import_utils.py
+lupe/utils/visuals_utils.py
+lupe_mice.egg-info/PKG-INFO
+lupe_mice.egg-info/SOURCES.txt
+lupe_mice.egg-info/dependency_links.txt
+lupe_mice.egg-info/entry_points.txt
+lupe_mice.egg-info/requires.txt
+lupe_mice.egg-info/top_level.txt

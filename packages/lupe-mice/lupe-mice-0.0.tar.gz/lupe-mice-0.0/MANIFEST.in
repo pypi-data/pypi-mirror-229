@@ -1,0 +1,3 @@
+include lupe/model/*
+include lupe/images/*
+include lupe/behavior_videos/*

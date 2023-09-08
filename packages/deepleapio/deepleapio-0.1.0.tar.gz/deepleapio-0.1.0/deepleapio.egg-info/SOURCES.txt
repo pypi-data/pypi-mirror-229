@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+deepleapio/__init__.py
+deepleapio.egg-info/PKG-INFO
+deepleapio.egg-info/SOURCES.txt
+deepleapio.egg-info/dependency_links.txt
+deepleapio.egg-info/requires.txt
+deepleapio.egg-info/top_level.txt

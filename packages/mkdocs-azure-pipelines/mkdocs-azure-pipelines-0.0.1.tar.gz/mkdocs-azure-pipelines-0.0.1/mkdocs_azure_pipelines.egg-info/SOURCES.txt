@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+mkdocs_azure_pipelines.egg-info/PKG-INFO
+mkdocs_azure_pipelines.egg-info/SOURCES.txt
+mkdocs_azure_pipelines.egg-info/dependency_links.txt
+mkdocs_azure_pipelines.egg-info/requires.txt
+mkdocs_azure_pipelines.egg-info/top_level.txt

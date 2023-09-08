@@ -1,0 +1,139 @@
+Metadata-Version: 2.1
+Name: biolearn
+Version: 0.1.1
+Summary: Machine learning for biomarkers computing
+Author: Biolearn developers
+Maintainer-email: Martin Perez-Guevara <mperezguevara@gmail.com>
+License: new BSD
+License-File: AUTHORS.rst
+License-File: LICENSE
+Keywords: biomarker
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: C
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Software Development
+Requires-Python: >=3.10
+Requires-Dist: appdirs
+Requires-Dist: numpy>=1.19.0
+Requires-Dist: pandas
+Requires-Dist: requests
+Requires-Dist: scipy
+Provides-Extra: dev
+Requires-Dist: biolearn[doc,examples,plotting,test]; extra == 'dev'
+Requires-Dist: jupyterlab; extra == 'dev'
+Provides-Extra: doc
+Requires-Dist: biolearn[examples,plotting]; extra == 'doc'
+Requires-Dist: black; extra == 'doc'
+Requires-Dist: coverage; extra == 'doc'
+Requires-Dist: flake8; extra == 'doc'
+Requires-Dist: flake8-docstrings; extra == 'doc'
+Requires-Dist: furo; extra == 'doc'
+Requires-Dist: memory-profiler; extra == 'doc'
+Requires-Dist: mkl; extra == 'doc'
+Requires-Dist: myst-parser; extra == 'doc'
+Requires-Dist: numpydoc; extra == 'doc'
+Requires-Dist: sphinx; extra == 'doc'
+Requires-Dist: sphinx-copybutton; extra == 'doc'
+Requires-Dist: sphinx-design; extra == 'doc'
+Requires-Dist: sphinx-gallery; extra == 'doc'
+Requires-Dist: sphinxcontrib-bibtex; extra == 'doc'
+Requires-Dist: sphinxext-opengraph; extra == 'doc'
+Provides-Extra: examples
+Requires-Dist: lifelines; extra == 'examples'
+Provides-Extra: plotting
+Requires-Dist: matplotlib>=3.3.0; extra == 'plotting'
+Requires-Dist: seaborn; extra == 'plotting'
+Provides-Extra: test
+Requires-Dist: coverage; extra == 'test'
+Requires-Dist: pytest-cov; extra == 'test'
+Requires-Dist: pytest>=6.0.0; extra == 'test'
+Description-Content-Type: text/x-rst
+
+Biolearn
+========
+
+Biolearn enables easy and versatile analyses of biomarkers of aging data. It provides statistics and machine-learning tools, with instructive documentation and an open science approach.
+
+
+.. warning::
+
+    At the moment we do not have a stable release, only a **unstable developer version**.
+    So you have to download the repo from github and install locally with **"pip install .[dev]"**
+
+
+Important links
+===============
+
+- Official source code repo: https://github.com/bio-learn/biolearn/
+- HTML documentation (**only development release for the moment**): https://bio-learn.github.io/
+
+Install
+=======
+
+
+Latest release
+--------------
+**0. Install the right Python version**
+
+Biolearn supports Python 3.10, please verify that you have the right Python 3 version before proceeding with the developer setup.
+
+**1. Setup a virtual environment**
+
+At the moment we do not have a stable release, only a unstable developer version.
+This means that you should not install the package directly from pypi but always get the source code from github and do a local pip install.
+
+In the following steps we show an installation path we have tested with venv and pip. Other package managers have not been tested and are not supported at the moment.
+
+In linux from inside the repo directory run the following to setup a virtual environment and install dependencies
+
+.. code-block:: bash
+
+    python3.10 -m venv .venv
+    make install
+
+
+Remember we do not support a pypi version at the moment, as in (pip install biolearn), the command will work but you will just get a dummy package.
+
+Check installation
+------------------
+
+You can verify that your setup is working by running the tests
+
+.. code-block:: bash
+
+    make test
+
+If no error is raised, you have installed biolearn correctly.
+
+You can also run the following to start jupyter lab with the library available
+
+.. code-block:: bash
+
+    make jupyter
+
+.. code-block:: python
+
+    import biolearn
+
+Discord server
+==============
+
+The biolearn team has a discord server to answer questions,
+discuss feature requests, or have any biolearn related discussions.
+
+Dependencies
+============
+
+The required dependencies to use the software are listed in the file `pyproject.toml <https://github.com/bio-learn/biolearn/blob/master/pyproject.toml>`_.
+
+
+Development
+===========
+
+Detailed instructions on developer setup and how to contribute are available `in the repo <https://github.com/bio-learn/biolearn/blob/master/DEVELOPMENT.md>`_

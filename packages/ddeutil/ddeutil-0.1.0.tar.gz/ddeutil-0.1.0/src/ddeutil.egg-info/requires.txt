@@ -1,0 +1,22 @@
+ujson<6.0.0,==5.8.0
+tzdata>=2023.3
+python-dateutil
+click>=8.1.3
+tomli>=2.0.1
+
+[:python_version == "3.8"]
+backports.zoneinfo>=0.2.1
+
+[dev]
+ddeutil[test]
+ruff>=0.0.138
+pre-commit>=3.3.3
+bump2version>=1.0.1
+
+[test]
+pytest>=7.3.2
+coverage[toml]>=7.0.0
+mypy>=0.982
+types-python-dateutil
+memory_profiler>=0.61.0
+perfplot>=0.10.2

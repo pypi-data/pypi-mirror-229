@@ -1,0 +1,13 @@
+Termicolor/All.py,sha256=Sasb8xtqLJjXKcJA12-i33z8smGf--rsztCIXsz6eS4,2125
+Termicolor/Ansi.py,sha256=_yjZVme7selUFs2p88U-Wqrz_TX9hVmj6q0UzjJv0yI,215
+Termicolor/Attributes.py,sha256=LF7YxzcXhb55jrfUE8JrUulB4R3KJg8nk3ptylfzDyY,735
+Termicolor/Background.py,sha256=_ycNiLbCgasbnhNJr0TpxHhQMUNyMgzzCRSy7UGNA0E,813
+Termicolor/Color.py,sha256=WClKKXtsN9mgne9YFyBC7pVXiA2Wb963rmXVIR6baVE,4970
+Termicolor/Foreground.py,sha256=cytBfIAgNse_f-aTdzg0gRTAxyAML5kGEm3_9k8V-kA,784
+Termicolor/Styles.py,sha256=14mUKRWKFXIX_5hqvyPoQxDRVvk8rthSb30pe1vfhwY,758
+Termicolor/__init__.py,sha256=8LKwTEqcJwDQihFN68JZmPSbROe25WOxCfcuXyhxa2k,199
+Termicolor-1.0.0.dist-info/LICENSE,sha256=-SBkHYcZvXFR73tiq_s96e1VCaOnJSvfLDNDDumvGRs,1086
+Termicolor-1.0.0.dist-info/METADATA,sha256=KZzRBU2UfqM7we2r4GPzshwHz97xgxs_1F3RQMiCl28,6792
+Termicolor-1.0.0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+Termicolor-1.0.0.dist-info/top_level.txt,sha256=dqmH0Z-8CZDAvXubmQtnV7g5z-8TIdzUGqj8G672eXA,11
+Termicolor-1.0.0.dist-info/RECORD,,

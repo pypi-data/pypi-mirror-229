@@ -1,0 +1,5 @@
+[console_scripts]
+autolamella_ui = autolamella.ui.AutoLamellaUI:main
+
+[napari.manifest]
+napari-autolamella = autolamella:napari.yaml

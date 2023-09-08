@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: agromet
+Version: 0.0.1
+Summary: Cálculos agrometeorológicos
+Author: Rafael Lima
+Author-email: rf.lima@unesp.br
+License: MIT License
+Keywords: agromet
+Description-Content-Type: text/markdown
+License-File: LICENCE
+Requires-Dist: numpy
+
+# Uma biblioteca com equaÃ§oes agrometeorolÃ³gicas

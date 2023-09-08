@@ -1,0 +1,17 @@
+LICENSE
+NOTICE
+README.md
+setup.cfg
+setup.py
+uniconnapps/connector_proto/actions/v1/main_pb2.py
+uniconnapps/connector_proto/actions/v1/main_pb2_grpc.py
+uniconnapps/connector_proto/common/messages_pb2.py
+uniconnapps/connector_proto/common/messages_pb2_grpc.py
+uniconnapps/connector_proto/events/v1/main_pb2.py
+uniconnapps/connector_proto/events/v1/main_pb2_grpc.py
+uniconnapps_connector_proto.egg-info/PKG-INFO
+uniconnapps_connector_proto.egg-info/SOURCES.txt
+uniconnapps_connector_proto.egg-info/dependency_links.txt
+uniconnapps_connector_proto.egg-info/not-zip-safe
+uniconnapps_connector_proto.egg-info/requires.txt
+uniconnapps_connector_proto.egg-info/top_level.txt

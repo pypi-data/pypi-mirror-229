@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=61.0","Jinja2==3.1.2","openai==0.27.8","pydantic==2.2.1","requests==2.31.0"]
+build-backend = "setuptools.build_meta"
+[project]
+name = "mimesis-ai"
+version = "0.1"
+authors = [
+  { name="Nico", email="nico@getworkwise.ai" },
+]
+description = "Agents"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/pypa/sampleproject"
+"Bug Tracker" = "https://github.com/pypa/sampleproject/issues"

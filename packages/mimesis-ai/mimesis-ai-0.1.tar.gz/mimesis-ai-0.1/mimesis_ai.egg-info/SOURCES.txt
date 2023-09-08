@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+mimesis/__init__.py
+mimesis/model.py
+mimesis/reflect.py
+mimesis/thought.py
+mimesis/tools.py
+mimesis_ai.egg-info/PKG-INFO
+mimesis_ai.egg-info/SOURCES.txt
+mimesis_ai.egg-info/dependency_links.txt
+mimesis_ai.egg-info/top_level.txt

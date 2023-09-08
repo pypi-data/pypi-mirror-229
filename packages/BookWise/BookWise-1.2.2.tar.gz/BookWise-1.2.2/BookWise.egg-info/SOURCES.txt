@@ -1,0 +1,13 @@
+setup.py
+BookWise.egg-info/PKG-INFO
+BookWise.egg-info/SOURCES.txt
+BookWise.egg-info/dependency_links.txt
+BookWise.egg-info/entry_points.txt
+BookWise.egg-info/top_level.txt
+lib_sys/__init__.py
+lib_sys/auth_manager.py
+lib_sys/lib_manager.py
+lib_sys/library.py
+lib_sys/qr_code.py
+lib_sys/student.py
+lib_sys/test.py

@@ -1,0 +1,3 @@
+from test_is_prime_simple import is_prime
+from test_nth_prime import nth_prime
+from test_prime_factorization import prime_factorization

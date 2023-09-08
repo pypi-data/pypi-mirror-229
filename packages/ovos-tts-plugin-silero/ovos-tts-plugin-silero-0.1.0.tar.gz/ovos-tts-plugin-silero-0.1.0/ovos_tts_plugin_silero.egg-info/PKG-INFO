@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: ovos-tts-plugin-silero
+Version: 0.1.0
+Summary: Silero TTS plugin for OpenVoiceOS
+Home-page: https://github.com/putnik/ovos-tts-plugin-silero
+Author: putnik
+Author-email: mail@putnik.tech
+License: Apache-2.0
+Keywords: mycroft plugin tts OVOS OpenVoiceOS
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Text Processing :: Linguistic
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+License-File: LICENSE
+Requires-Dist: torch>=2.0
+Requires-Dist: ovos-plugin-manager

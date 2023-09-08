@@ -1,0 +1,16 @@
+my_tool_package.tools.my_tool_2.MyTool.my_tool:
+  class_name: MyTool
+  function: my_tool
+  inputs:
+    connection:
+      type:
+      - CustomConnection
+    input_text:
+      type:
+      - string
+  module: my_tool_package.tools.my_tool_2
+  name: My Second Tool
+  structure: test/test/my_second_tool
+  icon: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACOElEQVR4nHWTz29MURTHP+fd+968mXZ+aCvCpA0iWhqJlXQjNjZdoUoiIrYSf4KllS0LC4lFFxYskAoRS5sGG600JIQGi9JmTE2n7837cSzedMyont3NPd/v/Z7v+V6p1WrKNqUKBU9otrIWka09zv+AqUKagm9h7msL1wieEVIFbd+rbkOQpJC3gmuFvO9w69U6lx/VCBOl3xOsQL8n+FZQwP77cjEnfFtLeP4x5PabJgvLEfxOeLscc2+qwp6i4dtqTMkVhssG2fQgURj0hZn5Da7O1mmsRtBnqA5axnda9lUMI2XD7IeAuc8h00cLPLgwkClIFIqe8OxTyJUndc6M+RwbLrF/h2F30bC3bBgasMwvhVx7WkcU+lwBbY+QpoqXc3j8PkQEZs5WSFMwDrQSaEZKYy2m0VKMJyShkrZN7PHAGnAkc7geKEh7dQqeERzJ1PZgug9RAkGsWCPkrHZWFivE6VZwh8ARIYmUiarLux8eX2oJjgO+gZwVCq5QKDhUctncQqa0Q2AcWAuV8+M+04d9Lj38xevvEeO7LMMlQ7XoMDpkWWmmOAbSFqxHGVNnBAGCJAvRzckyJ+7+5MXCRha9zfIFHMHkhMkDPlGkvUm0kjk+UjFcP1ni+KjPjVNlDo545MsGFHwX7kxVuHgkTyPQv0HqVqJk61tciZioeqxHysulkPuLAafHfM4d8qkFiiNsJeguzwhhnDXmrOC7QhApzUh7TdyuwliRzPgsTK0M6HR96z/T0ufn6+WbjwAAAABJRU5ErkJggg==
+  description: This is my second tool
+  type: python

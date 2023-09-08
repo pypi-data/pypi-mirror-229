@@ -1,0 +1,14 @@
+galaxyxml/__init__.py,sha256=QvjE83lRp48kwOPuaKdMueaSi2tk38KpDujejTzC8JI,2020
+galaxyxml/tool/__init__.py,sha256=CD68OQJn8bMiQknoc5X4_8jVzam9Ep_Z2Q9B3CItm9I,8644
+galaxyxml/tool/import_xml.py,sha256=8fnF_Vwh3uikozGvt48JWuNhGjt9Ep1VOpjkPY5mITE,29726
+galaxyxml/tool/parameters/__init__.py,sha256=aOUW9ljE0uoLxf7d5wj09wkEs5vLDVEuOEYwiz8OTPs,29710
+galaxyxmlfubar/__init__.py,sha256=QvjE83lRp48kwOPuaKdMueaSi2tk38KpDujejTzC8JI,2020
+galaxyxmlfubar/tool/__init__.py,sha256=CD68OQJn8bMiQknoc5X4_8jVzam9Ep_Z2Q9B3CItm9I,8644
+galaxyxmlfubar/tool/import_xml.py,sha256=8fnF_Vwh3uikozGvt48JWuNhGjt9Ep1VOpjkPY5mITE,29726
+galaxyxmlfubar/tool/parameters/__init__.py,sha256=aOUW9ljE0uoLxf7d5wj09wkEs5vLDVEuOEYwiz8OTPs,29710
+galaxyxmlfubar-0.4.15.data/data/LICENSE.TXT,sha256=tAkwu8-AdEyGxGoSvJ2gVmQdcicWw3j1ZZueVV74M-E,11357
+galaxyxmlfubar-0.4.15.dist-info/LICENSE.TXT,sha256=tAkwu8-AdEyGxGoSvJ2gVmQdcicWw3j1ZZueVV74M-E,11357
+galaxyxmlfubar-0.4.15.dist-info/METADATA,sha256=9sWMz-NQPgwgSf6KQLdbqwRE-mrRM44MApodG9rx1pw,3276
+galaxyxmlfubar-0.4.15.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+galaxyxmlfubar-0.4.15.dist-info/top_level.txt,sha256=D7i7f_fKSIAGL7TbYrsolJnZEmxLSSkoSbiRXgRyyrc,15
+galaxyxmlfubar-0.4.15.dist-info/RECORD,,

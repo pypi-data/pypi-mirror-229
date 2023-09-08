@@ -1,0 +1,9 @@
+ws_ignore_alerts/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ws_ignore_alerts/_version.py,sha256=ZJ20eLNBFmHBV0GzMinmaifSYl_EiO6Uuf_XlLfrODs,94
+ws_ignore_alerts/ignore_alerts.py,sha256=eeNMbzKfSWG4WLtIa9V0r52adRWoJBWv5L-h143d-4E,14389
+ws_ignore_alerts-23.9.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+ws_ignore_alerts-23.9.1.dist-info/METADATA,sha256=f9tOIWUxc3kMcEUVzwXC5ltHoJRIOHnHYjcejZyH0ew,7394
+ws_ignore_alerts-23.9.1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+ws_ignore_alerts-23.9.1.dist-info/entry_points.txt,sha256=Qrd3D84NOLTnGGD1W8MIHkTnCZG7itgnpYo9ES3FnyA,74
+ws_ignore_alerts-23.9.1.dist-info/top_level.txt,sha256=S8Hwsn-oRTFS7WvB9J2o5oGKEjor9S3USZGCM72LpW8,17
+ws_ignore_alerts-23.9.1.dist-info/RECORD,,

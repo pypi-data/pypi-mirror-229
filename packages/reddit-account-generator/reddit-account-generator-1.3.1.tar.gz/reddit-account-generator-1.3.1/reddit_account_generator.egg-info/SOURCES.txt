@@ -1,0 +1,16 @@
+LICENSE
+README.md
+setup.py
+reddit_account_generator/__init__.py
+reddit_account_generator/_maker.py
+reddit_account_generator/_verifier.py
+reddit_account_generator/_version.py
+reddit_account_generator/config.py
+reddit_account_generator/exceptions.py
+reddit_account_generator/proxies.py
+reddit_account_generator/utils.py
+reddit_account_generator.egg-info/PKG-INFO
+reddit_account_generator.egg-info/SOURCES.txt
+reddit_account_generator.egg-info/dependency_links.txt
+reddit_account_generator.egg-info/requires.txt
+reddit_account_generator.egg-info/top_level.txt

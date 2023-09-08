@@ -1,0 +1,8 @@
+selenium<=4.9.1,>=4.7.0
+selenium-recaptcha-solver<=1.9.0,>=1.4.0
+random-username<=1.0.2,>=1.0.0
+webdriverdownloader<=1.1.0.3,>=1.0.0
+stem<=1.8.2,>=1.8.0
+static-ffmpeg<=2.5,>=2.3
+tempmail-python==2.3.0
+beautifulsoup4~=4.12.0

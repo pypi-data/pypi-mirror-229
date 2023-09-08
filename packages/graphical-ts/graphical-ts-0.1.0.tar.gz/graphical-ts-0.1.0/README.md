@@ -1,0 +1,36 @@
+
+
+# Graphical-TS
+
+## Description
+
+Graphical-TS is a Python package developed by the SCAI Lab. It offers functionalities for [mention the main functionalities of your project here].
+
+## Installation
+
+To install Graphical-TS, you can use the following pip command:
+
+```bash
+pip install graphical-ts
+```
+
+## Usage
+
+Here is a basic example of how to use Graphical-TS:
+
+```python
+# Import necessary modules
+import [module_name]
+
+# [Provide a basic usage example here]
+```
+
+For more detailed examples, please refer to the [documentation or add link to documentation here].
+
+## License
+
+This project is licensed under the MIT License.
+
+## Contact
+
+For any inquiries, please contact [Your Name] at [your.email@example.com].

@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: gnordvpn_sprokkel78
+Version: 1.1.4
+Summary: A graphical user interface in pygtk for using the nordvpn client binary on ubuntu and other linux distro's.
+Author-email: Sprokkel78 <sprokkel78.bart@gmail.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+
+# gnordvpn
+
+A graphical user interface in pygtk for using the nordvpn client binary on ubuntu and other linux distro's. 
+It requires Python3.10 and PyGObject.
+

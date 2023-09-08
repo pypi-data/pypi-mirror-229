@@ -1,0 +1,5 @@
+chardet
+colorama
+configparser
+python-dateutil
+tiktoken

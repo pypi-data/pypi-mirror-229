@@ -1,0 +1,53 @@
+Metadata-Version: 2.1
+Name: firepoint
+Version: 0.1.0
+Summary: prepares your images for laser engraving
+Home-page: https://github.com/fdev31/firepoint
+License: GPL
+Author: fdev31
+Author-email: fdev31@gmail.com
+Requires-Python: >3.8
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: numpy (>=1.25.2,<2.0.0)
+Requires-Dist: opencv-python (>=4.8.0.76,<5.0.0.0)
+Description-Content-Type: text/markdown
+
+# FirePoint prepares your images for laser engraving
+
+Command line program to convert an image to a more "engraver ready" image.
+Default values should provide decent results, many different effects can be achieved my using the numerous parameters.
+
+# Syntax
+
+```
+firepoint [arguments] <source image> <output image>
+```
+
+# Examples
+
+![image](https://raw.githubusercontent.com/fdev31/firedot/main/images/ref.png)
+
+this color image is the input which have been used to generate the following images:
+
+![image](https://raw.githubusercontent.com/fdev31/firedot/main/images/img1.png)
+![image](https://raw.githubusercontent.com/fdev31/firedot/main/images/img2.png)
+![image](https://raw.githubusercontent.com/fdev31/firedot/main/images/img3.png)
+
+# Basic arguments
+
+- `--use_squares` draws squares instead of circles, sometimes provides better results
+- `--width` forces a specific width (in pixels) for the output image
+- `--multiply` makes the image more dark (<1) or brighter (>1)
+- `--normalize` performs a normalization of the colors, `0` to disable up to `1` (100% normalized)
+- `--sharpen` sharpens the image, `0` to disable up to `1` (100% sharper)
+- `--hypersample` When > 1, will work on a higher definition image and will re-scale it down at the end. Generally increasing the quality drastically, but can lead to weird effects with some values `3` and `5` can provide spectacular results but `1` leads to more consistent output across laser settings (outputs a pure black & white image).
+
+# Advanced parameters
+
+Check `firepoint --help`
+
+

@@ -1,0 +1,51 @@
+Metadata-Version: 2.1
+Name: Skylark-Grid
+Version: 0.3
+Summary: An image grid maker tool
+Author: Prem Varma
+Author-email: prem.varma@skylarklabs.ai
+License: UNKNOWN
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+
+# Image Grid Maker
+The Image Grid is a Python script that merges a set of images into a grid and generates YOLO-style annotations for the merged images. This can be useful for creating custom datasets for object detection tasks.
+
+## Prerequisites
+Before running the script, make sure you have the following dependencies installed:
+
+- Python 3.x
+- OpenCV (cv2)
+- NumPy
+
+You can install the required packages using `pip`:
+
+```bash
+pip install opencv-python
+pip install Numpy
+```
+## Usage
+
+Import the ImageMerger class in your Python script:
+
+```bash
+from Skylark_Grid import ImageMerger
+```
+
+Create an instance of the ImageMerger class by providing the input directory, output directory, and other optional parameters:
+python
+
+```bash
+input_image_label_dir = "E:/Grid_Txt/Images"
+output_dir = "E:/Grid_Txt/Output"
+image_shape = (320, 320)  # Specify the desired image shape here
+group_size = 9
+try:
+    merger = ImageMerger(input_image_label_dir, output_dir, group_size=group_size, image_shape=image_shape)
+    merger.process_images()
+except ValueError as e:
+    print(f"Error: {str(e)}")
+```
+## Customization
+You can customize the script by modifying the ImageMerger class to fit your specific requirements. For example, you can adjust the image size, grid size, or annotation format.
+

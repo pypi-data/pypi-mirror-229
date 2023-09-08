@@ -1,0 +1,9 @@
+gender_detection_local/UpdateModel.py,sha256=XidO1fpgenNZV3LnTJV2pRAYfs81OgTLO02ujcGF4YU,393
+gender_detection_local/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gender_detection_local/extract_data.py,sha256=El5UWTIDFk-1yHTsS4w_eTNXrUt90pRq65oCy3HZI3g,4057
+gender_detection_local/gender_detection.py,sha256=T-nEjtAGg_PAHAgO7-kNqvxvP8SfqjWzsXdqsD0Sfvw,11084
+gender_detection_local/image_manipulation.py,sha256=9uIishv-MXL5pGtpgcqnBhFm6ZMNdVY_CxHHzRKR5lw,1453
+gender_detection_local-0.2.18.dist-info/METADATA,sha256=Iw96fAXoeCagi_xUGEIXSrIw0H934K3c5ae5ldEQv5Y,922
+gender_detection_local-0.2.18.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+gender_detection_local-0.2.18.dist-info/top_level.txt,sha256=15hbaWB90Iqp9p7MEZiX9aaeHrg2FHARYcrsBXSwHxU,23
+gender_detection_local-0.2.18.dist-info/RECORD,,

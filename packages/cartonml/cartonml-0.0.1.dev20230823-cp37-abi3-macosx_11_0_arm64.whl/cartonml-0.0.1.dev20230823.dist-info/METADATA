@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: cartonml
+Version: 0.0.1.dev20230823
+Description-Content-Type: text/markdown; charset=UTF-8; variant=GFM
+
+Python bindings for Carton.
+
+The `python` subfolder contains the python code and `src` contains rust

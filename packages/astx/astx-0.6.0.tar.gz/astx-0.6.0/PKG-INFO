@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: astx
+Version: 0.6.0
+Summary: ASTx is an agnostic expression structure for AST.
+License: BSD 3 Clause
+Author: Ivan Ogasawara
+Author-email: ivan.ogasawara@gmail.com
+Requires-Python: >=3.8.1,<4
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: atpublic (>=4.0,<5.0)
+Requires-Dist: graphviz (>=0.20.1,<0.21.0)
+Requires-Dist: ipython (<8)
+Requires-Dist: typing-extensions (>=4,<5) ; python_version < "3.9"

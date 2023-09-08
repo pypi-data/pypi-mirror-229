@@ -1,0 +1,6 @@
+datasette>=1.0a5
+python-ulid
+
+[test]
+pytest
+pytest-asyncio

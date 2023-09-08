@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+importurl/__init__.py
+importurl/__init__.pyi
+importurl/module.py
+importurl/module.pyi
+importurl.egg-info/PKG-INFO
+importurl.egg-info/SOURCES.txt
+importurl.egg-info/dependency_links.txt
+importurl.egg-info/top_level.txt

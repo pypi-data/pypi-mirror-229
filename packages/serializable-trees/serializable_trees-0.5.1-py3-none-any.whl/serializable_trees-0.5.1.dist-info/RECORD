@@ -1,0 +1,11 @@
+serializable_trees/__init__.py,sha256=VjJxQQWJTSZ2U1tydT_AQbRL9WaaTsdt3Qq64WM87sA,648
+serializable_trees/__main__.py,sha256=fO-zcEMhuSmqnAw9yPEJKKCiumAyVe0jcfrGLRHgAdE,804
+serializable_trees/basics.py,sha256=HaxsYxZEop3VNh4Xzzcb72E9NTfRL8iNBGITpEoqFEQ,9034
+serializable_trees/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+serializable_trees/trees.py,sha256=di-OgjcF9zOb5ISEuA9pZ56H_1Yc7OrvaCsyx8a-s-g,12352
+serializable_trees-0.5.1.dist-info/LICENSE,sha256=LaZU96gqeh5MfXqjTs-AL_uWhoaQS8RaLexLx9pfJKc,1075
+serializable_trees-0.5.1.dist-info/METADATA,sha256=x9XqZU4Sv5xYu9BHHmSlcK_Uwobcu4cEaNuu5muakNo,7293
+serializable_trees-0.5.1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+serializable_trees-0.5.1.dist-info/entry_points.txt,sha256=lert154cueR2JsWrG3CEuEtpvlg_nFsP893c8hlyrrc,72
+serializable_trees-0.5.1.dist-info/top_level.txt,sha256=YqB9IXBLv2wWxa_rFDdMpztbsbQTqTz0tl1XZcJLjIU,19
+serializable_trees-0.5.1.dist-info/RECORD,,

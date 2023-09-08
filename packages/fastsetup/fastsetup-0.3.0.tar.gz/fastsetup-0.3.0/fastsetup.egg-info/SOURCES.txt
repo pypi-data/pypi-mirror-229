@@ -1,0 +1,9 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+FastSetup/__init__.py
+fastsetup.egg-info/PKG-INFO
+fastsetup.egg-info/SOURCES.txt
+fastsetup.egg-info/dependency_links.txt
+fastsetup.egg-info/top_level.txt

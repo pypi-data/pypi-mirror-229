@@ -1,0 +1,9 @@
+gdshop_proto/auth_provider/auth_pb2.py,sha256=MFVZDvZJYo7ucR-sOy_4fVwd0Ip3MPoo88mDyR2a9zY,2181
+gdshop_proto/auth_provider/auth_pb2_grpc.py,sha256=kejOuDdFnvnjmKtqV1Rkzeo_78-20DgP2hPawaJJ09U,6073
+gdshop_proto/auth_provider/profile_pb2.py,sha256=RQvduWNY1CyhGb8DSk0Dpi8JnnliQZ8lzN8laLwP_9I,3528
+gdshop_proto/auth_provider/profile_pb2_grpc.py,sha256=rBLCF5tf0R2R1-X9Ls2pYO_4a-75E_b4RC7eSxUv1f0,10936
+gdshop_proto/sms_provider/sms_pb2.py,sha256=BzmCZo4KluHQyUqhOiqrbhzHSq_sNbmYRoHk55hK_3g,2310
+gdshop_proto/sms_provider/sms_pb2_grpc.py,sha256=K6DFL74Tm74o99FX2qEIzp90qFfvQRcjtqdQbBQtHhE,5959
+gdshop_proto-0.0.6.dist-info/METADATA,sha256=cibJAm9xQnfMn11rqG8frhmV3xTIm7Tf41dNZa9D5wE,794
+gdshop_proto-0.0.6.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+gdshop_proto-0.0.6.dist-info/RECORD,,

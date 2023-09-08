@@ -1,0 +1,8 @@
+Django
+Django-Rest-Framework
+django-otp
+django-otp-twilio
+djangorestframework-simplejwt
+twilio
+social-auth-app-django
+django-phonenumber-field

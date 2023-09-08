@@ -1,0 +1,10 @@
+README.md
+setup.py
+LogicHW0/__init__.py
+LogicHW0/is_prime.py
+LogicHW0/nth_prime.py
+LogicHW0/prime_factorization.py
+LogicHW0_CianeeS.egg-info/PKG-INFO
+LogicHW0_CianeeS.egg-info/SOURCES.txt
+LogicHW0_CianeeS.egg-info/dependency_links.txt
+LogicHW0_CianeeS.egg-info/top_level.txt

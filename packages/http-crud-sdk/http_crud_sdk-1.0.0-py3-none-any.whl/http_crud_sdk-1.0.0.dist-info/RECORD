@@ -1,0 +1,9 @@
+httpCRUDUtils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+httpCRUDUtils/client.py,sha256=GzqU2-PWjMyIUfmSqNWduMzJqNuoZhQNSRqqCYolzW8,2704
+httpCRUDUtils/utils.py,sha256=xTAsN0TSgoSgwrF8DrjVI4n2-VO6h93YCgzxJxjYSJc,244
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test.py,sha256=FmRovy4FOvv_WF0_WJQF_xvtPbrxLi3Eg10AFgR6fc0,568
+http_crud_sdk-1.0.0.dist-info/METADATA,sha256=U4LeUPniHQ5_BgzqUzcw6are5LrOoxMEcq4huO0oBkk,636
+http_crud_sdk-1.0.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+http_crud_sdk-1.0.0.dist-info/top_level.txt,sha256=rINr6GLasNQBuXu6sEQfGktmP69dchLK9P8bWm4rAH8,20
+http_crud_sdk-1.0.0.dist-info/RECORD,,

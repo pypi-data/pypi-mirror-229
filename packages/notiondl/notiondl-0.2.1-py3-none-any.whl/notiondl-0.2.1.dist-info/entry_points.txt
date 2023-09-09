@@ -1,0 +1,3 @@
+[console_scripts]
+notiondl=notiondl.cli:run_from_cli
+

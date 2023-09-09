@@ -1,0 +1,123 @@
+<head>
+<meta charset="utf-8">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/modaal@0.4.4/dist/js/modaal.min.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modaal@0.4.4/dist/css/modaal.min.css">
+
+<link rel="stylesheet" href="style.css">
+
+<style>
+
+.tile{
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.modaal-inner-wrapper {
+  height: 100%;
+  padding: 25px 25px;
+}
+
+.modaal-gallery-item img {
+  max-height: calc(100vh - 60px);
+}
+
+</style>
+
+</head>
+
+
+<body>
+
+<header id='filepath' style="padding: 0 4; font-size: 11;"></header>
+<header>
+  <div style="display: flex; margin-right: auto;">
+    <a class="buttonlike item" href=./index.html>home</a>
+    &nbsp;/
+    <label class='buttonlike'><input id='list' class=buttonlike type='checkbox' onchange='draw()'>list</label>
+  </div>
+
+  <div style="margin: auto; padding: 0px 25px;">
+    <span id='title'></span>
+  </div>
+
+  <div style="margin-right: 20px; margin-left: auto;">
+    <input type="range" id="cols" min="1" max="7" step="1" oninput="draw()">
+  </div>
+</header>
+
+<main>
+  <center><span id='media'></span></center>
+</main>
+
+<script src="index.js"></script>
+<script>
+const contentId = location.search.split("?")[1];
+const dir = `../contents/${contentId}`
+const media_table = table[contentId]['media'];
+const home = location.href.split('file:///')[1].split('/site/')[0];
+const filepath = `${home}/contents/${contentId}`;
+
+document.title = `Album ${table[contentId]['title']}`
+
+document.getElementById('title').innerHTML = `<a href='https://girls2-fc.jp/page/${table[contentId]['board']}/${contentId}' target='blank'>${table[contentId]['title']}</a>`;
+
+document.getElementById('filepath').innerHTML = `<a href=${filepath}>${filepath}</a>`
+  + '&ensp;'
+  + `<button class='buttonlike item' id='copy_path' onclick='navigator.clipboard.writeText("${filepath}");' style='padding: 0 1; font-size: 11;'>copy</button>`;
+
+const cols = document.getElementById('cols');
+cols.value = Math.min(
+  Math.ceil(Math.sqrt(media_table.length * window.innerWidth/window.innerHeight)),
+  media_table.length
+);
+
+
+function list(size){
+  const min = 250;
+  return `<div class="tile" style="width:${Math.max(min, size)}; margin-top:20px; margin-bottom:20px;">`
+  + '<div style="width:fit-content; padding:20px; background: pink;">'
+  + media_table.map(i=>`<div style='font-size: 16; width:fit-content;'>${i}</div>`).join('')
+  + '</div></div>'
+  + ((size<min)?'<br>':'');
+}
+
+const media = document.getElementById('media');
+function draw(){
+  const size = (window.innerWidth-100)/cols.value;
+
+  media.innerHTML = (document.getElementById('list').checked?list(size):'')
+    + media_table.map(function(e){
+      const src = `${dir}/${e}`;
+      const ext = src.slice(src.lastIndexOf('.'));
+
+      if([".jpeg", ".png"].indexOf(ext) > -1){
+        return `<a class="image tile" data-group="gallery" href=${src}>`
+          + `<img src="${src}" width=${size}></img>`
+          + `</a>`;
+      }
+      else if([".mp4"].indexOf(ext) > -1){
+        return `<a class="iframe tile" href=${src}>`
+          + `<video controls autoplay muted loop src="${src}" width=${size}></video>`
+          + `</a>`;
+      }
+      else if([".mov"].indexOf(ext) > -1){
+        return `<video controls autoplay muted loop src="${src}" class="tile" width=${size}></video>`;
+      }
+    }).join('');
+
+  $('.image').modaal({
+    type: 'image',
+    hide_close: true,
+  })
+  $('.iframe').modaal({
+    type: 'iframe',
+    hide_close: true,
+  });
+}
+
+draw();
+
+</script>
+
+</body>

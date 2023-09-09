@@ -1,0 +1,7 @@
+setup.py
+quantexa/__init__.py
+quantexa/main.py
+quantexa.egg-info/PKG-INFO
+quantexa.egg-info/SOURCES.txt
+quantexa.egg-info/dependency_links.txt
+quantexa.egg-info/top_level.txt

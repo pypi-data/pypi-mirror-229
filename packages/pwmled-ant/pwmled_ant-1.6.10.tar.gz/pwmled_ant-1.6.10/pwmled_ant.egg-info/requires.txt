@@ -1,0 +1,4 @@
+python>=3.6
+adafruit-blinka<8.0,>=5.5.1
+adafruit-circuitpython-pca9685<4.0,>=3.3.2
+pigpio<2.0,>=1.78

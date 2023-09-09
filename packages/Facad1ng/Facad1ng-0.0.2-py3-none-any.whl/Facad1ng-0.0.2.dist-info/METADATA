@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: Facad1ng
+Version: 0.0.2
+Summary: The Ultimate URL Masking Tool
+Home-page: UNKNOWN
+Author: Spyboy
+Author-email: <spyboyblog@gmail.com>
+License: UNKNOWN
+Keywords: masking,phishing,url-shortener,mask-phishing-url,hide-phishing-link,url-phishing
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pyshorteners
+Requires-Dist: argparse
+
+Facad1ng is an open-source URL masking tool designed to help you Hide Phishing URLs and make them look legit using social engineering techniques.
+

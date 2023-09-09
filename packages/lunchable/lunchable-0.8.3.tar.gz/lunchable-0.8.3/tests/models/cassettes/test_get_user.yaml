@@ -1,0 +1,46 @@
+interactions:
+-   request:
+        body:
+        headers:
+            Accept:
+            -   '*/*'
+            Accept-Encoding:
+            -   gzip, deflate
+            Connection:
+            -   keep-alive
+            Content-Type:
+            -   application/json
+            User-Agent:
+            -   python-requests/2.28.1
+            authorization:
+            -   XXXXXXXXXX
+        method: GET
+        uri: https://dev.lunchmoney.app/v1/me
+    response:
+        body:
+            string: '{"user_name":"Justin Flannery","user_email":"juftin@gmail.com","user_id":12126,"account_id":18286,"budget_name":"🤖 Juftin - Sandbox","api_key_label":"Lunchable"}'
+        headers:
+            Access-Control-Allow-Credentials:
+            -   'true'
+            Connection:
+            -   keep-alive
+            Content-Length:
+            -   '164'
+            Content-Type:
+            -   application/json; charset=utf-8
+            Date:
+            -   Thu, 13 Oct 2022 05:05:37 GMT
+            Etag:
+            -   W/"a4-M9AgMOS8/DALNuYYUdWJdJyoQWA"
+            Server:
+            -   Cowboy
+            Vary:
+            -   Origin, Accept-Encoding
+            Via:
+            -   1.1 vegur
+            X-Powered-By:
+            -   Express
+        status:
+            code: 200
+            message: OK
+version: 1

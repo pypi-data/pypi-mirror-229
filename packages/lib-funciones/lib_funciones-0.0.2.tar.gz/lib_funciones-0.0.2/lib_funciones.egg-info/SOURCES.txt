@@ -1,0 +1,9 @@
+README.md
+setup.py
+lib_funciones/__init__.py
+lib_funciones/funciones.py
+lib_funciones.egg-info/PKG-INFO
+lib_funciones.egg-info/SOURCES.txt
+lib_funciones.egg-info/dependency_links.txt
+lib_funciones.egg-info/requires.txt
+lib_funciones.egg-info/top_level.txt

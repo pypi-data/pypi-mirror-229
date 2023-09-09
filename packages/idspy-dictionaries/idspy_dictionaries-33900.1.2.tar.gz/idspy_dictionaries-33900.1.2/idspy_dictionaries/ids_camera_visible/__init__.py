@@ -1,0 +1,53 @@
+# __version__= "033900.1.2"
+# __version_data_dictionary__= "3.39.0"
+# __git_version_hash__= "f981ec5408e8702b7bdc5f2f37a0c2ac56df9d9a"
+# 
+from idspy_dictionaries.ids_camera_visible.idspy_camera_visible import (
+    CameraVisible,
+    CameraVisibleChannel,
+    CameraVisibleDetector,
+    CameraVisibleFrame,
+    CameraVisibleGeometryMatrix,
+    CameraVisibleGeometryMatrixInterpolated,
+    CameraVisibleGeometryMatrixStep2,
+    Code,
+    CurvedSurface,
+    DetectorAperture,
+    FibreBundle,
+    GeometryMatrixEmission,
+    IdentifierStatic,
+    IdsProperties,
+    IdsProvenance,
+    IdsProvenanceNode,
+    Library,
+    OpticalElement,
+    OpticalElementMaterial,
+    Rzphi0DStatic,
+    X1X21DStatic,
+    Xyz0DStatic,
+)
+
+__all__ = [
+    "CameraVisible",
+    "CameraVisibleChannel",
+    "CameraVisibleDetector",
+    "CameraVisibleFrame",
+    "CameraVisibleGeometryMatrix",
+    "CameraVisibleGeometryMatrixInterpolated",
+    "CameraVisibleGeometryMatrixStep2",
+    "Code",
+    "CurvedSurface",
+    "DetectorAperture",
+    "FibreBundle",
+    "GeometryMatrixEmission",
+    "IdentifierStatic",
+    "IdsProperties",
+    "IdsProvenance",
+    "IdsProvenanceNode",
+    "Library",
+    "OpticalElement",
+    "OpticalElementMaterial",
+    "Rzphi0DStatic",
+    "X1X21DStatic",
+    "Xyz0DStatic",
+]

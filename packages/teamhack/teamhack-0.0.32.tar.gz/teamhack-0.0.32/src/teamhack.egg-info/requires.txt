@@ -1,0 +1,9 @@
+dnslib
+psycopg2
+
+[rel]
+twine
+
+[test]
+coverage
+pytest

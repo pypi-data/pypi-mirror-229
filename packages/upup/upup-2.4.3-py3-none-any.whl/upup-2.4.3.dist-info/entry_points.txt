@@ -1,0 +1,3 @@
+[console_scripts]
+upup = upup.main:main
+za = upup.main:main

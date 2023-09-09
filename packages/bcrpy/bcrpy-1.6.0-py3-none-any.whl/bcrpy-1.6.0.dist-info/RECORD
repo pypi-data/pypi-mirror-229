@@ -1,0 +1,9 @@
+bcrpy/__init__.py,sha256=71RuvzF7211qHp6QDwxXeCgCDXYn435_pPgP49YnhHM,103
+bcrpy/anexo.py,sha256=Dbv5014ac3fHC72seUUgPDukVbVbDGnw4GYqKSpvCzY,3242
+bcrpy/hacha.py,sha256=gvQRCjMPCQpBlr3YRvDXY91FCdeCF4aqf6wWEizOI1w,1802
+bcrpy/lang.py,sha256=_pTiC7Iq5JthikCAOGEwIScwLMGZ1uxwmksZmjXgp1I,1143
+bcrpy/main.py,sha256=28s8VkI_KuAeJjdLsEYmV5Ib51hqhvBopgVuBavOKOo,17402
+bcrpy-1.6.0.dist-info/LICENSE,sha256=uO2monGX4VByI3e1AcqvYW2lRGQ5dRw-qciuiTRIi0k,1080
+bcrpy-1.6.0.dist-info/METADATA,sha256=_AT1_OzIdHGsi-vsWv4ca_1XTjROKlrPMy99xcdXSbk,2586
+bcrpy-1.6.0.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+bcrpy-1.6.0.dist-info/RECORD,,

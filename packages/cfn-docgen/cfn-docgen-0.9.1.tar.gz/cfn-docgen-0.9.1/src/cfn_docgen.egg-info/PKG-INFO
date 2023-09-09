@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: cfn-docgen
+Version: 0.9.1
+Summary: Document generator from cfn template files.
+Home-page: https://github.com/horietakehiro/cfn-docgen
+Author: Takehiro Horie
+Author-email: horie.takehiro@outlook.jp
+License: MIT License
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# cfn-docgen
+
+***We have made breaking changes from [v0.7](https://github.com/horietakehiro/cfn-docgen/tree/v0.7) to current versions.***
+

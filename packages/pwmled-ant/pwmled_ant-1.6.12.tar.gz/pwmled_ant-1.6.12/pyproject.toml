@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pwmled_ant"
+version = "1.6.12"
+authors = [
+  { name="Anton Verburg", email="info@tec-v.nl" },
+]
+description = "Control LEDs connected to a micro controller using pwm."
+readme = "README.md"
+requires-python = ">=3.6"
+license = { text = "MIT" }
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+]
+dependencies = [
+    "adafruit-blinka>=5.5.1,<8.0",
+    "adafruit-circuitpython-pca9685>=3.3.2,<4.0",
+    "pigpio>=1.78,<2.0"
+]
+
+
+[project.urls]
+"Homepage" = "https://github.com/soldag/python-pwmled"
+"Repository" = "https://github.com/soldag/python-pwmled"
+"Bug Tracker" = "https://github.com/soldag/python-pwmled/issues"

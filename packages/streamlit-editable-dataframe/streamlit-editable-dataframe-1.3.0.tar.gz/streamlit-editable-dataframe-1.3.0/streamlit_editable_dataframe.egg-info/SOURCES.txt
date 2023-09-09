@@ -1,0 +1,8 @@
+MANIFEST.in
+setup.py
+custom_dataframe/__init__.py
+streamlit_editable_dataframe.egg-info/PKG-INFO
+streamlit_editable_dataframe.egg-info/SOURCES.txt
+streamlit_editable_dataframe.egg-info/dependency_links.txt
+streamlit_editable_dataframe.egg-info/requires.txt
+streamlit_editable_dataframe.egg-info/top_level.txt

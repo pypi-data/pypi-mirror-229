@@ -1,0 +1,15 @@
+starlette_session/middleware/__init__.py,sha256=0tfzMevycab5iA6nFFBgPD1wWakWIJmrItsemK_UN-U,2139
+starlette_session/middleware/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+starlette_session/middleware/authorizationbackends/__init__.py,sha256=zZkBMxQvF5AU3f0-B779GfaLQu8g3FMOkvlRNsHT45E,430
+starlette_session/middleware/authorizationbackends/authorizationheader.py,sha256=AACR0g8SALUWIdSdR5dKwPo2zXc4T7WtBQq-eGhnArU,694
+starlette_session/middleware/authorizationbackends/cookie.py,sha256=jebwEK2QiuQFfroV_1acKaxmnr9ZDZAiB8KuNvN3smk,556
+starlette_session/middleware/codecbackends/__init__.py,sha256=ejZBFE1V9zlfstBAPLUGRDXEe7TpNgKtiTuN0qc_5KA,1302
+starlette_session/middleware/codecbackends/jwt.py,sha256=r4XOBqKKGm_y-WtjB2PSOND2H3gp4lYhrHHJ65Aj0rg,1927
+starlette_session/middleware/codecbackends/signer.py,sha256=e2Dmi7FtUXHXNAmDCvKEXTr1wdKxO1FwWxjVsIUSa3w,2182
+starlette_session/middleware/storagebackends/__init__.py,sha256=z_iQwGSaTvnSU8Sx6NXj1ZZvnAUCOBfMQaZf58cJJpk,636
+starlette_session/middleware/storagebackends/cookie.py,sha256=iAFwljy9N7gal1t6pZcTHT7xvbPJ8dn5xK4NInYfuRU,1832
+starlette_session_middleware-0.0.0a12.dist-info/LICENSE,sha256=fv1suIy_LvXT-FEZp_5F7vdjfQexkNifIsvLPEyHo74,1073
+starlette_session_middleware-0.0.0a12.dist-info/METADATA,sha256=FikQUnXl5L0_o_iWuH-11LaL9ph1DYFirF88TY0lnS0,1651
+starlette_session_middleware-0.0.0a12.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+starlette_session_middleware-0.0.0a12.dist-info/top_level.txt,sha256=KmQzQcxmG2pxqUxc_t3fRqD01EUUn9y2BrxzWHLhKmk,18
+starlette_session_middleware-0.0.0a12.dist-info/RECORD,,

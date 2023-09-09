@@ -1,0 +1,8 @@
+requests
+typing
+functools
+json
+builtins
+
+[:python_version == "3.x"]
+importlib-metadata

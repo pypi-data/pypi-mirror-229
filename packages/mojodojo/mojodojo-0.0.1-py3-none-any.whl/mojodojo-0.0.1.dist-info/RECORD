@@ -1,0 +1,10 @@
+mojodojo/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mojodojo/__version__.py,sha256=rAcdIpKzzvodacS0ldZPgTSwAEbnen6Khfikvz1GFZ4,132
+mojodojo/examples/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mojodojo/examples/pymatmul.py,sha256=DuD0M6f5LPrYzbbQcFVuBjA3E3-WQRX5Qd_Dy_G1jWg,1917
+mojodojo/examples/simple_interop.py,sha256=ftzw_AoSz1WsCq7WDooSIuSsdgvUrHTKNzURBXtK5eU,1150
+mojodojo-0.0.1.dist-info/LICENSE,sha256=zMv1kDTd1gn8Z2n4Hzth1QqFONgNSJlziT7FbrbbPpE,15193
+mojodojo-0.0.1.dist-info/METADATA,sha256=K3nuAEbSCaZrwCaQ2kTGbc3QOK1oBmT2C1NWeVyCnB0,986
+mojodojo-0.0.1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+mojodojo-0.0.1.dist-info/top_level.txt,sha256=-l9ZsFuD1xG9TU7L-kvJLctWL6ggDmdSSDMGvxb9yjU,9
+mojodojo-0.0.1.dist-info/RECORD,,

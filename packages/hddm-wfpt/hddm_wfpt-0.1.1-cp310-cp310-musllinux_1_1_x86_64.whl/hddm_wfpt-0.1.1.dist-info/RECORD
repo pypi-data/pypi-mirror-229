@@ -1,0 +1,10 @@
+cdfdif_wrapper.cpython-310-x86_64-linux-gnu.so,sha256=yjBM0s9zFBOM9cjL-IZN7YIWqsnqcvihzM6fPXauTLM,488272
+wfpt.cpython-310-x86_64-linux-gnu.so,sha256=Kk32ruu2ggSE9xzMgMgD-8qRdJgBaHoPlFBnm1idshQ,2330632
+hddm_wfpt-0.1.1.dist-info/RECORD,,
+hddm_wfpt-0.1.1.dist-info/WHEEL,sha256=Qybn9f_9c7ImWsQIXNA7u-F9d7QLLBwD346Igm-60cw,113
+hddm_wfpt-0.1.1.dist-info/LICENSE,sha256=xnJBfJD923LoIGezsbxM_tucXyaBy9STVRfUxNQB4FM,1207
+hddm_wfpt-0.1.1.dist-info/METADATA,sha256=rhQnX_PW3ooa5Fe4s5WDo7zbgFCTM4vaI8P4s31AVYI,2002
+hddm_wfpt-0.1.1.dist-info/top_level.txt,sha256=sPzR9PL0Otzw7vq26PlHocRDLMXp_JaQwwCoOMkN8b8,30
+hddm_wfpt/__init__.py,sha256=x1737iPk7Au3IyeoPJbz-LvKGTKgzbTIYX3BblVM5qk,11
+hddm_wfpt/cdfdif.c,sha256=r2ePM7Cn6TP26ZGhDkSaJ_IO6R3sL9h5jKTjYO6me1o,9328
+hddm_wfpt/cdfdif.h,sha256=KDU6mVPF_uEQXgP9xrQDXMopPSyJxS64w-EMK5AmFNE,59

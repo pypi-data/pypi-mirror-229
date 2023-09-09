@@ -1,0 +1,28 @@
+[build-system]
+requires = [
+    "hatchling",
+    "requests",
+    "numpy",
+    "matplotlib",
+    "pytest",
+    "sphinx",
+    "sphinx-rtd-theme",
+    "sphinx-tabs",
+]
+build-backend = "hatchling.build"
+
+[project]
+name = "rpl_pack"
+version = "0.1.6"
+authors = [
+    { name="Joe McNease", email="joemcnease11@gmail.com" },
+]
+description = "The Official Rock Physics Lab Web Service API."
+readme = "README.md"
+license = { file="LICENSE" }
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",    
+]

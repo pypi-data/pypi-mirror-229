@@ -1,0 +1,14 @@
+teamhack_db/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+teamhack_db/__main__.py,sha256=9Gjm4y6w6kO5kz30S8cGMqjl-gKxurDi-hfkIC6clOE,297
+teamhack_db/cli.py,sha256=kJI9GezjoAu5zlFeEUumgaZUaEkFV7tL_uTKIrXoeuA,1965
+teamhack_db/conf.py,sha256=ur8h9gf_mvGLvBE6eC8NaSsl4BNfALmiBT2JQRCAho4,547
+teamhack_db/sql.py,sha256=TCwIwMprHZiutKPxojftX6Kd4mD6LYfp6-z8kH5JQCg,2224
+teamhack_dns/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+teamhack_dns/__main__.py,sha256=icj33WSBGQSEpAeK8NKC1xoh3iti4zGdL9p9BfnNk3g,310
+teamhack_dns/server.py,sha256=UONpIRlbwNbb0X53Rd66Q4rqZ41jPfkCn5-Yxu-b1lo,2276
+teamhack_rest/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+teamhack_rest/__main__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+teamhack-0.0.39.dist-info/METADATA,sha256=Ptb2RNQ0tios1j_cokXcsPtwxPX9dDqSngXEVsyXOUQ,305
+teamhack-0.0.39.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+teamhack-0.0.39.dist-info/top_level.txt,sha256=GiX0NrGwFvTP-jGFxRDkOBvSCfNN4ILpjWUKnzjAacY,39
+teamhack-0.0.39.dist-info/RECORD,,

@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+html2pdf_bookdown/__init__.py
+html2pdf_bookdown/__main__.py
+html2pdf_bookdown/convert.py
+html2pdf_bookdown/fetch.py
+html2pdf_bookdown.egg-info/PKG-INFO
+html2pdf_bookdown.egg-info/SOURCES.txt
+html2pdf_bookdown.egg-info/dependency_links.txt
+html2pdf_bookdown.egg-info/entry_points.txt
+html2pdf_bookdown.egg-info/requires.txt
+html2pdf_bookdown.egg-info/top_level.txt

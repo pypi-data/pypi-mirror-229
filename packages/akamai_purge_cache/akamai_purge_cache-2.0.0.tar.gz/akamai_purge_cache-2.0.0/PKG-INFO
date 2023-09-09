@@ -1,0 +1,91 @@
+Metadata-Version: 2.1
+Name: akamai_purge_cache
+Version: 2.0.0
+Summary: Marriott CDN Team Fastpurge POC script
+Author: Alan Janis
+Author-email: alan.janis@marriott.com
+Requires-Python: >=3.10
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: awslambdaric (>=2.0.4,<3.0.0)
+Requires-Dist: certifi (>=2023.7.22,<2024.0.0)
+Requires-Dist: click (>=8.1.6,<9.0.0)
+Requires-Dist: edgegrid-python (>=1.3.1,<2.0.0)
+Requires-Dist: fastpurge (>=1.0.4,<2.0.0)
+Requires-Dist: monotonic (>=1.6,<2.0)
+Requires-Dist: more-executors (>=2.11.4,<3.0.0)
+Requires-Dist: urllib3 (>=2.0.4,<3.0.0)
+Requires-Dist: validators (>=0.20.0,<0.21.0)
+Description-Content-Type: text/markdown
+
+# Akamai-Purge-Cache : Interactive Script
+
+## Current Python Script
+
+```python
+"""Module to invoke Akamai Fastpurge via simple CLI utility."""
+import os
+import click
+from fastpurge import FastPurgeClient
+
+
+@click.command()
+@click.option(
+    "paths",
+    "--path",
+    "-p",
+    multiple=True,
+    help="A single URL to Purge (This option is repeatable for additional URLs)",
+)
+@click.option(
+    "--dryrun",
+    "-d",
+    is_flag=True,
+    help="Just print the command and args that will be run and exit",
+)
+def mgpurge(paths: list[str], dryrun: bool) -> None:
+    """
+    Module to invoke Akamai Fastpurge via simple CLI utility.
+    :param list[str] paths: List of paths to purge from Akamai cache.
+    :param bool dryrun: Just print the command and args that will be run and exit
+    """
+    # Default: Credentials are read from ~/.edgerc
+    # client = FastPurgeClient()
+
+    # Environment: Credentials are read from environment variables
+    client = FastPurgeClient(
+        auth={
+            "client_secret": os.environ["AKAMAI_DEFAULT_CLIENT_SECRET"],
+            "host": os.environ["AKAMAI_DEFAULT_HOST"],
+            "access_token": os.environ["AKAMAI_DEFAULT_ACCESS_TOKEN"],
+            "client_token": os.environ["AKAMAI_DEFAULT_CLIENT_TOKEN"],
+        }
+    )
+    if dryrun:
+        print("These paths will be purged:")
+        for path in paths:
+            click.echo(message=path)
+        return
+        # Start purge of some URLs
+    # purge is a Future, if we want to ensure purge completed
+    # we can block on the result:
+    purge_cmd = client.purge_by_url(urls=paths)
+    # purge is a Future, if we want to ensure purge completed
+    # we can block on the result:
+    result = purge_cmd.result()
+    print("Purge completed:", result)
+
+
+if __name__ == "__main__":
+    # pylint: disable=no-value-for-parameter
+    mgpurge()
+
+```
+
+## TO-DO
+- Document local installation
+- Document local run
+- Document building
+- Document publishing to PY-Pi
+- Document remote installation and usage

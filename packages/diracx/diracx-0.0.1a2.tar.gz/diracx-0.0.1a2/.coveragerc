@@ -1,0 +1,15 @@
+[run]
+omit =
+    tests/*
+    src/diracx/client/*
+    */site-packages/diracx/client/*
+
+[report]
+exclude_lines =
+    # Have to re-enable the standard pragma
+    pragma: no cover
+
+    # Don't complain if tests don't hit defensive assertion code:
+    raise NotImplementedError
+
+    if TYPE_CHECKING:

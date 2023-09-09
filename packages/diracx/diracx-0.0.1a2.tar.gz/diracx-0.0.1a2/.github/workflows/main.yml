@@ -1,0 +1,54 @@
+name: Basic Tests
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+
+defaults:
+  run:
+    shell: bash -el {0}
+
+jobs:
+  pytest:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+      - uses: mamba-org/setup-micromamba@v1
+        with:
+          environment-file: environment.yml
+          init-shell: bash
+          post-cleanup: 'all'
+      - name: Set up environment
+        run: |
+          pip install pytest-github-actions-annotate-failures
+          pip install git+https://github.com/DIRACGrid/DIRAC.git@integration
+          pip install .
+      - name: Run pytest
+        run: |
+          pytest . --cov-report=xml:coverage.xml --junitxml=report.xml
+      - name: Upload coverage report
+        uses: codecov/codecov-action@v3.1.4
+
+  mypy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+      - uses: mamba-org/setup-micromamba@v1
+        with:
+          environment-file: environment.yml
+          init-shell: bash
+          post-cleanup: 'all'
+      - name: Set up environment
+        run: |
+          pip install git+https://github.com/DIRACGrid/DIRAC.git@integration
+          pip install .
+      - name: Run mypy
+        run: |
+          mypy .

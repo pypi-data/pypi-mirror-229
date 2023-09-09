@@ -1,0 +1,60 @@
+Metadata-Version: 2.1
+Name: diracx
+Version: 0.0.1a2
+Summary: DiracX is the nextGen implementation of DIRAC (https://github.com/DIRACGrid/DIRAC/)
+Home-page: https://github.com/DIRACGrid/diracx
+Author: DIRAC consortium
+License: GPL-3.0-only
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: System :: Distributed Computing
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: authlib
+Requires-Dist: aiohttp
+Requires-Dist: aiomysql
+Requires-Dist: aiosqlite
+Requires-Dist: azure-core
+Requires-Dist: cachetools
+Requires-Dist: m2crypto>=0.38.0
+Requires-Dist: importlib_resources
+Requires-Dist: email-validator
+Requires-Dist: fastapi
+Requires-Dist: gitpython
+Requires-Dist: httpx
+Requires-Dist: isodate
+Requires-Dist: mypy
+Requires-Dist: pydantic==1.10.10
+Requires-Dist: python-dotenv
+Requires-Dist: python-jose
+Requires-Dist: python-multipart
+Requires-Dist: pyyaml
+Requires-Dist: requests
+Requires-Dist: rich
+Requires-Dist: sqlalchemy
+Requires-Dist: typer
+Requires-Dist: types-cachetools
+Requires-Dist: types-PyYAML
+Requires-Dist: types-requests
+Requires-Dist: uvicorn
+Provides-Extra: testing
+Requires-Dist: pytest>=6; extra == "testing"
+Provides-Extra: testing-integration
+Requires-Dist: pytest; extra == "testing-integration"
+Provides-Extra: docs
+Requires-Dist: sphinx>=3.5; extra == "docs"
+
+![Basic tests](https://github.com/DIRACGrid/diracx/actions/workflows/main.yml/badge.svg?branch=main)
+![Basic tests](https://github.com/DIRACGrid/diracx/actions/workflows/containerised.yml/badge.svg?branch=main)
+
+
+# DiracX Prototype
+
+This repository contains the proof-of-concept code for DiracX.
+It is still extremely incomplete and lacking in documentation.
+Feel free to look around however try not to draw any conclusions as the code is still rapidly evolving.

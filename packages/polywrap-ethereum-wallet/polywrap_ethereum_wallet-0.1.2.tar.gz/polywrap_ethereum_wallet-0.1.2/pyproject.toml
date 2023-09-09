@@ -1,0 +1,59 @@
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+name = "polywrap-ethereum-wallet"
+version = "0.1.2"
+description = "Ethereum wallet plugin for Polywrap Python Client"
+authors = ["Cesar <cesar@polywrap.io>", "Niraj <niraj@polywrap.io>"]
+readme = "README.rst"
+packages = [{include = "polywrap_ethereum_wallet"}]
+include = ["polywrap_ethereum_wallet/wrap/**/*"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+web3 = "6.1.0"
+eth_account = "0.8.0"
+polywrap-plugin = "0.1.2"
+polywrap-core = "0.1.2"
+polywrap-msgpack = "0.1.2"
+polywrap-manifest = "0.1.2"
+
+[tool.bandit]
+exclude_dirs = ["tests"]
+
+[tool.black]
+target-version = ["py310"]
+exclude = "polywrap_ethereum_wallet/wrap/*"
+
+[tool.pyright]
+typeCheckingMode = "strict"
+reportShadowedImports = false
+exclude = [
+    "**/wrap/"
+]
+
+[tool.pytest.ini_options]
+testpaths = [
+    "tests",
+]
+
+[tool.pylint]
+disable = [
+    "too-many-return-statements",
+    "invalid-name",
+    "unused-argument",
+    "unused-variable",
+]
+ignore-paths = [
+    "polywrap_ethereum_wallet/wrap"
+]
+
+[tool.isort]
+profile = "black"
+multi_line_output = 3
+skip = ["polywrap_ethereum_wallet/wrap"]
+
+[tool.pydocstyle]
+# default

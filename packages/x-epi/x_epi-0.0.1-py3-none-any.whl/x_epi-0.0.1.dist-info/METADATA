@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: x-epi
+Version: 0.0.1
+Summary: A package for creating EPI sequences for X-Nuclues imaging
+Author-email: Tyler Blazey <blazey@wustl.edu>
+Project-URL: Homepage, https://github.com/tblazey/x_epi
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: matplotlib
+Requires-Dist: nibabel
+Requires-Dist: numpy
+Requires-Dist: pypulseq
+Requires-Dist: PyQt5
+Requires-Dist: PyQt5-sip
+Requires-Dist: scipy
+
+<p align="center">
+      <img src="docs/source/static/x_epi_logo.png" alt="drawing" width="250"/>
+</p>
+
+**x_epi** is a Python package for creating EPI sequences for X-nucleus imaging. It uses the [PyPulseq](github.com/imr-framework/pypulseq) package to create vendor neutral sequences in the [Pulseq](pulseq.github.io) format. 
+
+Users can create a custom EPI sequence using python functions, a command line program, or a simple graphical user interface. Please see the [documentation](https://x-epi.readthedocs.io) for more details.
+
+[![Documentation Status](https://readthedocs.org/projects/x-epi/badge/?version=latest)](https://x-epi.readthedocs.io/en/latest/?badge=latest)
+      

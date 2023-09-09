@@ -1,0 +1,74 @@
+# The Crawler
+[![Poetry](https://img.shields.io/endpoint?url=https://python-poetry.org/badge/v0.json)](https://python-poetry.org/) [![psf/black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black) [![pre-commit](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white)](https://github.com/pre-commit/pre-commit)
+
+Web crawling utility for downloading files from web pages.
+
+# Installation
+
+## From PyPI
+
+This assumes you have [Python 3.10+](https://www.python.org/downloads/) installed and `pip3` is on
+your path:
+
+```bash
+~$ pip3 install the-crawler
+...
+~$ the-crawler -h
+usage: the-crawler [-h] [--recurse] [--output-directory OUTPUT_DIRECTORY] [--extensions EXTENSIONS [EXTENSIONS ...]] [--max-workers MAX_WORKERS] base_url
+
+Crawls given url for content
+
+positional arguments:
+  base_url
+
+options:
+  -h, --help            show this help message and exit
+  --recurse, -r
+  --output-directory OUTPUT_DIRECTORY, -o OUTPUT_DIRECTORY
+  --extensions EXTENSIONS [EXTENSIONS ...], -e EXTENSIONS [EXTENSIONS ...]
+  --max-workers MAX_WORKERS
+```
+
+## From Source
+
+This assumes you have [git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git), [Python
+3.10+](https://www.python.org/downloads/), and
+[poetry](https://python-poetry.org/docs/#osx--linux--bashonwindows-install-instructions) installed
+already.
+
+```bash
+~$ git clone git@gitlab.com:woodforsheep/the-crawler.git
+...
+~$ cd the-crawler
+the-crawler$ poetry install
+...
+the-crawler$ poetry run the-crawler -h
+usage: the-crawler [-h] [--quiet] [--verbose] [--collect-only] [--force-collection] [--recurse]
+                   [--output-directory OUTPUT_DIRECTORY] [--extensions [EXTENSIONS]]
+                   [--max-workers MAX_WORKERS]
+                   base_url
+
+Crawls given url for content
+
+positional arguments:
+  base_url
+
+options:
+  -h, --help            show this help message and exit
+  --quiet               Changes the console log level from INFO to WARNING; defers to --verbose
+  --verbose             Changes the console log level from INFO to DEBUG; takes precedence over
+                        --quiet
+  --collect-only        Stops after collecting links to be downloaded; useful for checking the
+                        cache before continuing
+  --force-collection    Forces recollection of links, even if the cache file is present
+  --recurse, -r         If specified, will follow links to child pages and search them for
+                        content
+  --output-directory OUTPUT_DIRECTORY, -o OUTPUT_DIRECTORY
+                        The location to store the downloaded content; must already exist
+  --extensions [EXTENSIONS], -e [EXTENSIONS]
+                        If specified, will restrict the types of files downloaded to those
+                        matching the extensions provided; case-insensitive
+  --max-workers MAX_WORKERS
+                        The maximum number of parallel downloads to support; defaults to
+                        os.cpu_count()
+```

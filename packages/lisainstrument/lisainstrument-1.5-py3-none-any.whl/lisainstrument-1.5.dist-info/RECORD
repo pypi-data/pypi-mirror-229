@@ -1,0 +1,12 @@
+lisainstrument/__init__.py,sha256=n4v3jaGEpoQGpeNeGyxphpz9UjIwSFjZ8B2-j7X74WM,440
+lisainstrument/containers.py,sha256=yr_9aKv82AOWhoCMY8Iu0htAeJ2MRbLKapXEMQWFRuU,12189
+lisainstrument/dsp.py,sha256=PXJuHBlxApKNFJtIr9t6qFR4pj7Oriwvu6eDTiQgwHw,3867
+lisainstrument/hexagon.py,sha256=nWseaenEzARcMwq7tQsTeOAGydR8v45rSL5wAUemaFk,7043
+lisainstrument/instrument.py,sha256=brDX1RqEThuaYXu7xBr6v7prWiaZjxYC7CFE9kcH6bk,123699
+lisainstrument/noises.py,sha256=lkWpY9cEhsxM5ggOqKD9EsxdrpvJYntElwI8HJ9Uy0A,11800
+lisainstrument/pyplnoise/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+lisainstrument/pyplnoise/pyplnoise.py,sha256=NSz7xIaCH_jondqbXRcC5W8Jl1hpw8w_6mEQR1JyWfE,11706
+lisainstrument-1.5.dist-info/METADATA,sha256=2zGK7ZejtD1FyKmcxgVfDB2OWCRT8rwq7RyMDhpsSKs,7264
+lisainstrument-1.5.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+lisainstrument-1.5.dist-info/top_level.txt,sha256=05n8xIihaJSLx6vYJME7AjOrZ2kZe5Q_f9SZiFQ_GBI,15
+lisainstrument-1.5.dist-info/RECORD,,

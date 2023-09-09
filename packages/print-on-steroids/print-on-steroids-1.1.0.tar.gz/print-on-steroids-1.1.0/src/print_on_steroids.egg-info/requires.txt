@@ -1,0 +1,7 @@
+rich
+tqdm
+better-exceptions
+
+[dev]
+black
+ruff

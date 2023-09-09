@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "revel"
+version = "0.1.0"
+description = "Web apps made simple"
+authors = ["Jakob Pinterits <jakob.pinterits@gmail.com>"]
+license = "GPL"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = "^0.103.1"
+pandas = "^2.1.0"
+plotly = "^5.16.1"
+uvicorn = {extras = ["standard"], version = "^0.23.2"}
+typing-extensions = "^4.7.1"
+
+
+[tool.poetry.group.dev.dependencies]
+black = "^23.9.0"
+isort = "^5.12.0"
+pytest = "^7.4.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

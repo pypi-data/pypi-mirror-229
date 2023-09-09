@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.py
+proxytoolkit/Checker.py
+proxytoolkit/Exceptions.py
+proxytoolkit/ProxyToolKitGUI.py
+proxytoolkit/Scraper.py
+proxytoolkit/__init__.py
+proxytoolkit/agents.py
+proxytoolkit.egg-info/PKG-INFO
+proxytoolkit.egg-info/SOURCES.txt
+proxytoolkit.egg-info/dependency_links.txt
+proxytoolkit.egg-info/entry_points.txt
+proxytoolkit.egg-info/requires.txt
+proxytoolkit.egg-info/top_level.txt

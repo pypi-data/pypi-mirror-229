@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: listo
+Version: 0.1.0
+Summary: An improved version of the List type
+Author-email: Daniel Roy Greenfeld <daniel@feldroy.com>
+Maintainer-email: Daniel Roy Greenfeld <daniel@feldroy.com>
+License: MIT
+Project-URL: homepage, https://github.com/pydanny/listo
+Project-URL: repository, https://github.com/pydanny/listo.git
+Project-URL: changelog, https://github.com/pydanny/listo/blob/master/CHANGELOG.md
+Project-URL: bugs, https://github.com/pydanny/listo/issues
+Description-Content-Type: text/markdown
+License-File: LICENSE.md
+
+# listo
+
+Description and usage coming soon
+
+## Code quality stuff
+
+```bash 
+black .
+ruff check .
+```
+
+
+## Building the project
+
+Go to the project root
+
+```bash
+pip install --upgrade build
+python -m build
+```
+
+Test the project, forcing reinstall if necessary
+
+```bash
+pip install dist/listo-0.1.0-py3-none-any.whl --force-reinstall
+```
+
+## Uploading releases to PyPI
+
+```bash
+pip install --upgrade twine
+python -m twine upload  dist/*
+```

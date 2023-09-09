@@ -1,0 +1,13 @@
+BetterADBSync/SAOLogging.py,sha256=nU6coVtx3zok_Xm9Ob7jSQSL0Rul1Zx6Jdc90lSRSk8,4525
+BetterADBSync/__init__.py,sha256=rZlGb7mTbMZQAKOJE9Qc8PSna2GDo0qRNaY8cWVthGs,22512
+BetterADBSync/argparsing.py,sha256=L9sO0rFBZVky2J5mP_CUt0Fx5tEfpiHlknkJrIiKJjE,6360
+BetterADBSync/FileSystems/Android.py,sha256=3BwDYix31ANnQDEis2lRFWWptoDYFEzYyXMMYmL7JVE,7917
+BetterADBSync/FileSystems/Base.py,sha256=04ut9XJN66ZFHaAKp3n7xIjcbMtkFO75Et8BM4oHM6A,5829
+BetterADBSync/FileSystems/Local.py,sha256=3KX2knc9wyOHX2y8oWlpk3B837BZEuXX2g1-shT0DBE,1614
+BetterADBSync/FileSystems/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+BetterADBSync-1.4.0.dist-info/LICENSE,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+BetterADBSync-1.4.0.dist-info/METADATA,sha256=LNdnKD0dHpclXCjtajALKdc7M-uRFqJBvF8WZ-sjKj4,19184
+BetterADBSync-1.4.0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+BetterADBSync-1.4.0.dist-info/entry_points.txt,sha256=2q2USzxYMAblUromqGEPE4NWBaWzFOa2OLPDJnEXbZc,47
+BetterADBSync-1.4.0.dist-info/top_level.txt,sha256=nHII89-ZdSnUwscrWdWes71gV-iVxVbdcM11H_6ZxCw,14
+BetterADBSync-1.4.0.dist-info/RECORD,,

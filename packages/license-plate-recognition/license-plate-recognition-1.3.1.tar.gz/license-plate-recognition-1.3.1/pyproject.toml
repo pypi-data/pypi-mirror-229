@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = 'license-plate-recognition'
+version = '1.3.1'
+description = 'A module powered by Machine-Learning algorithms designed to detect, recognize and read license plates from car pictures. The module is flexible and equipped with objects and functions to make the process_thresh of LPR easy and fast. The program creates an artificial k nearest neighbour model that detects and reads licensee plate from a car image.'
+classifiers = [
+	'Intended Audience :: Developers',
+	'License :: OSI Approved :: MIT License',
+	'Programming Language :: Python',
+	'Programming Language :: Python :: 3',
+	'Programming Language :: Python :: 3.8',
+	'Programming Language :: Python :: 3.9',
+	'Programming Language :: Python :: 3.10',
+	'Programming Language :: Python :: 3.11',
+	'Operating System :: OS Independent'
+]

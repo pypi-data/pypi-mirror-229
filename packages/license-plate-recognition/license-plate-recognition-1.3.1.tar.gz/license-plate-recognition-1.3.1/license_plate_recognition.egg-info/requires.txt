@@ -1,0 +1,8 @@
+opencv-python==4.8.0.76
+attrs
+pyrepresent
+
+[dev]
+pytest
+pdoc3
+twine

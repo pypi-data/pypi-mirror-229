@@ -1,0 +1,629 @@
+# `pytzen`
+----
+
+## Disclaimer:
+This library is offered 'as-is' with **no official support, maintenance, or warranty**. Primarily, PYTZEN is an experimentation and learning platform, which may not be apt for production settings. Users are encouraged to delve into the library but should note that the developers won't actively address arising issues.
+
+## Code Access:
+The associated GitHub repository is private. Direct access to the source code's versioning or issue tracking is restricted. However, the source code is available on this page and in the **Download files** section:
+- **Source Distribution**: `pytzen-*.tar.gz`
+- **Built Distribution**: `pytzen-*-py3-none-any.whl`
+
+## Usage Caution:
+We are not liable for issues stemming from the library's usage in production environments. Users should extensively test and vet the library in a safe space before expansive implementation.
+
+----
+
+# `ZenGenerator`
+Tailored for data scientists, the ZenGenerator addresses the specific demands of dynamic model applications within the Jupyter Notebook ecosystem. Here's what it offers:
+
+- **Dynamic Class Creation**: With just a dictionary input detailing attributes, effortlessly generate and instantiate Python classes.
+- **Auto-Documentation**: Each dynamically formed class comes with automated documentation, ensuring clarity and coherence.
+- **Rapid Prototyping**: Experience unrestricted class definition, immediate model testing, and tweaks—all in real-time.
+- **Config-Driven Design**: It caters to classes birthed from configuration details or external datasets.
+- **System Extensions**: It's a boon for enriching prevailing systems via new class plugins or extensions.
+- **Jupyter Export**: Seamlessly export your Jupyter Notebook with the newly created class as both source code and markdown, facilitating a smooth transition between coding and documentation.
+
+In summary, ZenGenerator molds a wholly functional, auto-documented Python class within Jupyter Notebook, primed for swift deployment and dissemination.
+
+
+```python
+import sys
+from pprint import pprint
+import inspect
+sys.path.append('/home/pytzen/lab/pytzen/src')
+from pytzen.generator import ZenGenerator
+from pytzen.zen.class_generator import ClassPattern
+from pytzen.zen.docstring_composer import DocumentationGenerator
+from pytzen.zen.notebook_exporter import NotebookConverter
+
+zen = ZenGenerator()
+GeneratedClass = zen.cls
+```
+
+
+```python
+zen.__doc__
+```
+
+
+
+
+    'TODO: ZenGenerator docstring'
+
+
+
+
+```python
+zen.class_name
+```
+
+
+
+
+    'generator_doc'
+
+
+
+
+```python
+pprint(zen.dict_class)
+```
+
+    {'description': 'Docstring explaining the class.',
+     'inputs': {'another_input': 'Docstring explaining another input.',
+                'some_input': 'Docstring explaining the input.'},
+     'methods': {'another_method': 'Docstring explaining another method.',
+                 'some_method': 'Docstring explaining the method.'},
+     'outputs': {'another_output': 'Docstring explaining another output.',
+                 'some_output': 'Docstring explaining the output.'}}
+
+
+
+```python
+zen.cls
+```
+
+
+
+
+    pytzen.zen.class_generator.ClassPattern.generate_class.<locals>.ClassDesign
+
+
+
+
+```python
+zen.cls.__doc__
+```
+
+
+
+
+    'TODO: ClassDesign docstring before instantiation'
+
+
+
+
+```python
+zen.cls.out
+```
+
+
+
+
+    pytzen.generator.subclass
+
+
+
+
+```python
+zen.cls.met
+```
+
+
+
+
+    pytzen.generator.subclass
+
+
+
+
+```python
+@zen.create_method('some_method')
+def _(GeneratedClass):
+    GeneratedClass.out.some_output = 'I was produced inside the decorated function for some_method.'
+    return 'Some_method was created by the decorator.'
+```
+
+
+```python
+try:
+    gen_class = GeneratedClass(some_input='arg needed')
+except Exception as err:
+    print(err)
+```
+
+    These inputs are missed: {'another_input'}.
+
+
+
+```python
+try:
+    gen_class = GeneratedClass(some_input='arg needed',
+                               non_expected='out of the box')
+except Exception as err:
+    print(err)
+```
+
+    Invalid attribute 'non_expected' for this class.
+
+
+
+```python
+try:
+    gen_class = GeneratedClass(some_input='arg needed', 
+                               another_input='another arg needed')
+except Exception as err:
+    print(err)
+```
+
+    These methods are missed: {'another_method'}.
+
+
+
+```python
+@zen.create_method('another_method')
+def _(GeneratedClass):
+    GeneratedClass.out.another_output = 'I was produced inside the decorated function for another_method.'
+    GeneratedClass.attribute = 'I was created dynamically to be used in the class.'
+    return 'Another_method was created by the decorator.'
+```
+
+
+```python
+gen_class = GeneratedClass(some_input='arg needed', 
+                           another_input='another arg needed')
+print(gen_class.__doc__)
+```
+
+    {
+      "description": "Docstring explaining the class.",
+      "inputs": {
+        "some_input": "Docstring explaining the input.",
+        "another_input": "Docstring explaining another input."
+      },
+      "outputs": {
+        "some_output": "Docstring explaining the output.",
+        "another_output": "Docstring explaining another output."
+      },
+      "methods": {
+        "some_method": "Docstring explaining the method.",
+        "another_method": "Docstring explaining another method."
+      }
+    }
+
+
+
+```python
+gen_class.some_method()
+```
+
+
+
+
+    'Some_method was created by the decorator.'
+
+
+
+
+```python
+gen_class.another_method()
+```
+
+
+
+
+    'Another_method was created by the decorator.'
+
+
+
+
+```python
+gen_class.out.some_output
+```
+
+
+
+
+    'I was produced inside the decorated function for some_method.'
+
+
+
+
+```python
+gen_class.out.another_output
+```
+
+
+
+
+    'I was produced inside the decorated function for another_method.'
+
+
+
+
+```python
+gen_class.attribute
+```
+
+
+
+
+    'I was created dynamically to be used in the class.'
+
+
+
+
+```python
+gen_class.out.__doc__
+```
+
+
+
+
+    'TODO: subclasses docstring'
+
+
+
+
+```python
+gen_class.met.__doc__
+```
+
+
+
+
+    'TODO: subclasses docstring'
+
+
+
+
+```python
+print(inspect.getsource(ZenGenerator))
+```
+
+    class ZenGenerator:
+        """TODO: ZenGenerator docstring"""
+        
+        def __init__(self, json_path=None) -> None:
+            
+            # Find the name of the Jupyter notebook currently in use.
+            self.class_name = self.find_class_name()
+    
+            # Use the provided JSON path to extract new class pattern details.
+            dict_gen = DocumentationGenerator(json_path=json_path)
+            self.dict_class = dict_gen.json_obj
+            
+            # Store class attributes (outputs) and methods separately.
+            self.outputs = self.dict_class['outputs']
+            self.methods = self.dict_class['methods']
+            
+            # Dynamically generate the structure of the class.
+            cls_gen = ClassPattern(dict_class=self.dict_class)
+            self.cls = cls_gen.ClassDesign
+            
+            # Populate the class with attribute and method blueprints.
+            self.cls.out = self.generate_subclass(subclass='outputs')
+            self.cls.met = self.generate_subclass(subclass='methods')
+    
+        def find_class_name(self, directory='.'):
+            
+            # Get a list of all Jupyter notebook files in the current directory.
+            nb_files = [f for f in os.listdir(directory) if f.endswith('.ipynb')]
+    
+            # Expecting a single notebook, so return its name (without the file extension).
+            if len(nb_files) == 1:
+                return nb_files[0].split('.')[0]
+            else:
+                # If not exactly one, raise an error.
+                raise ValueError("Please save the notebook first.")
+    
+        def generate_subclass(self, subclass):
+            
+            # Placeholder for collecting subclass details.
+            dict_subclass = {}
+            # Choose the subclass type, if ouputs or methods.
+            subclass_objects = (self.methods if subclass == 'methods' 
+                                else self.outputs)
+            
+            for name, desc in subclass_objects.items():
+                # Create documentation for each subclass item.
+                subclass_items = DocumentationGenerator(json_obj=desc)
+                desc = subclass_items.docstring
+                
+                # Represent each method as a type, with its documentation.
+                dict_subclass[name] = type(name, (object,), {'__doc__': desc})
+                
+            # Create a dynamic class 'methods' with the defined methods.
+            generated_cubclass = type('subclass', (object,), dict_subclass)
+            
+            # Assign documentation to the subclass.
+            generated_cubclass.__doc__ = """TODO: subclasses docstring"""
+    
+            return generated_cubclass
+    
+        def create_method(self, method_name):
+            
+            # Define the primary decorator to link blueprint methods.
+            def decorator(func):
+                
+                # A runtime wrapper to validate and possibly modify method behavior.
+                def wrapper(*args, **kwargs):
+                    
+                    # Keep track of original attributes to detect unauthorized changes later.
+                    backup_attributes = set(self.cls.out.__dict__.keys())
+                    
+                    # Call the original function.
+                    result = func(self.cls, *args, **kwargs)
+                    
+                    # Identify any unauthorized new attributes added by the function.
+                    added_attributes = (set(self.cls.out.__dict__.keys()) - backup_attributes)
+                    
+                    # Validate the new attributes against the blueprint.
+                    for attr in added_attributes:
+                        if attr not in self.cls.outputs:
+                            e = f"Attribute '{attr}' is not allowed in {self.cls.__name__}.att"
+                            delattr(self.cls.out, attr)
+                            raise AttributeError(e)
+        
+                    return result
+    
+                # Connect the wrapper to the actual method in the blueprint.
+                nested_method = getattr(self.cls.met, method_name, None)
+                if nested_method:
+                    nested_method.exec = wrapper
+                else:
+                    error = f"'{method_name}' not found in methods of {self.cls.__name__}."
+                    raise AttributeError(error)
+    
+                return wrapper
+    
+            return decorator
+        
+        def export(self, path_md=None, path_py=None, conversions=None):
+            
+            # Convert the notebook to both Markdown and Python formats.
+            converter = NotebookConverter(
+                notebook_name=self.class_name, 
+                path_md=path_md, 
+                path_py=path_py,
+                conversions=conversions
+            )
+            # Remove export function from exported python script
+            if 'py' in converter.conversions:
+                with open(converter.path_py, 'r') as file:
+                    file_contents = file.read()
+                    file_contents = file_contents.replace('zen.export()', '')
+                with open(converter.path_py, 'w') as file:
+                    file.write(file_contents)
+    
+
+
+
+```python
+print(inspect.getsource(ClassPattern))
+```
+
+    class ClassPattern:
+        """TODO: ClassPattern docstring"""
+    
+        def __init__(self, dict_class):
+            # Store the dictionary that describes the desired class structure.
+            self.dict_class = dict_class
+    
+            # Generate the class blueprint based on the given class structure.
+            self.ClassDesign = self.generate_class()
+    
+        def generate_class(self):
+    
+            dict_class = self.dict_class
+    
+            # Inner class representing the dynamic blueprint of our target class.
+            class ClassDesign:
+                """TODO: ClassDesign docstring before instantiation"""
+    
+                def __init__(self, **kwargs):
+                    # Use the DocumentationGenerator to create a docstring 
+                    # for the class from the JSON description.
+                    gen_doc = DocumentationGenerator(json_obj=dict_class)
+                    self.__doc__ = gen_doc.docstring
+    
+                    # Extract the expected inputs for the class from the class dictionary.
+                    class_inputs = dict_class['inputs']
+    
+                    # Initialize all class attributes to None by default.
+                    for k, v in class_inputs.items():
+                        setattr(self, k, None)
+    
+                    # Override default attribute values with those provided during instantiation.
+                    for k, v in kwargs.items():
+                        # Check if the attribute is allowed in this class.
+                        if k in class_inputs:
+                            setattr(self, k, v)
+                        else:
+                            # Raise an error if an unexpected attribute is provided.
+                            error = f"Invalid attribute '{k}' for this class."
+                            raise ValueError(error)
+                        
+                    # Check if all inputs were given
+                    missed = set(class_inputs.keys()) - set(kwargs.keys())
+                    if not set(class_inputs.keys()) == set(kwargs.keys()):
+                        error = f'These inputs are missed: {missed}.'
+                        raise ValueError(error)
+    
+                    # Dynamically attach methods to the class based on the 'methods' in the class dictionary.
+                    methods_defined = []
+                    for method_name in dict_class['methods']:
+                        met_class = getattr(self.met, method_name, None)
+                        if met_class and hasattr(met_class, 'exec'):
+                            # Get the method implementation.
+                            method = getattr(met_class, 'exec')
+                            # Assign the method's documentation.
+                            method.__doc__ = dict_class['methods'][method_name]
+                            # Attach the method to our class.
+                            setattr(self, method_name, method)
+                            methods_defined.append(method_name)
+    
+                        else:
+                            missed = set(dict_class['methods']) - set(methods_defined)
+                            error = f'These methods are missed: {missed}.'
+                            raise ValueError(error)
+    
+            return ClassDesign
+    
+
+
+
+```python
+print(inspect.getsource(DocumentationGenerator))
+```
+
+    class DocumentationGenerator:
+        """TODO: DocumentationGenerator docstring"""
+        
+        def __init__(self, json_obj=None, json_path=None, width=68, indentation=2):
+            
+            # If a json_obj (Python dictionary) isn't provided, 
+            # it'll be loaded from the json_path later.
+            self.json_obj = json_obj
+            
+            # Path to the JSON file from which data might be loaded.
+            self.json_path = json_path
+            
+            # Setting the width for formatting the documentation's text.
+            self.width = width
+            
+            # Indentation level for formatting the JSON representation.
+            self.indentation = indentation
+            
+            # If no direct json_obj is provided, load it from a file.
+            if not json_obj:
+                if not json_path:
+                    # If no path is provided, try to find the JSON file automatically.
+                    self.json_path = self.find_json_path()
+                
+                # Read the JSON content from the provided or found path.
+                self.json_obj = self.open_json()
+            
+            # Convert the JSON object to a formatted docstring.
+            self.docstring = self.generate()
+    
+        def find_json_path(self, directory='.') -> str:
+            
+            # Find all JSON files in the given directory.
+            json_files = [f for f in os.listdir(directory) if f.endswith('.json')]
+    
+            # If only one JSON file is found, return its path.
+            if len(json_files) == 1:
+                return os.path.join(directory, json_files[0])
+            else:
+                # Raise an error if no specific path is provided and multiple JSON files exist.
+                raise ValueError("Please declare a path in the class instance.")
+            
+        def open_json(self) -> dict:
+    
+            # Open and read the JSON file.
+            with open(self.json_path, 'r') as json_file:
+                # Parse the JSON content to a Python dictionary.
+                json_obj = json.load(json_file)
+    
+            return json_obj
+        
+        def generate(self) -> str:
+            
+            # Convert the Python dictionary (JSON object) to a string representation.
+            doc = json.dumps(self.json_obj, indent=self.indentation)
+            
+            # Ensure each line of the docstring doesn't exceed the set width.
+            doc = [textwrap.fill(line, width=self.width) for line in doc.splitlines()]
+            
+            # Apply the format function to finalize the docstring's appearance.
+            return '\n'.join(doc)
+    
+
+
+
+```python
+print(inspect.getsource(NotebookConverter))
+```
+
+    class NotebookConverter:
+        """TODO: NotebookConverter docstring"""
+    
+        def __init__(self, conversions=['md', 'py'], notebook_name=None, path_md=None, path_py=None):
+            
+            # If the provided notebook_name doesn't have a '.ipynb' extension, add it.
+            if not notebook_name.endswith('.ipynb'):
+                notebook_name += '.ipynb'
+            
+            # Check if the notebook exists in the current directory.
+            if not os.path.exists(notebook_name):
+                raise FileNotFoundError(
+                    f"The notebook {notebook_name} does not exist.")
+                
+            # Store the notebook's name, Markdown, and Python paths for later conversion.
+            self.notebook_name = notebook_name
+            self.path_md = path_md
+            self.path_py = path_py
+            self.conversions = conversions
+            
+            # Automatically convert the notebook to Markdown and Python formats.
+            if 'md' in self.conversions:
+                self.to_markdown()
+            if 'py' in self.conversions:
+                self.to_python()
+    
+        def _export_to_format(self, exporter, output_path):
+            
+            # Read the notebook's content and convert it to the desired format.
+            body, _ = exporter.from_notebook_node(
+                nbformat.read(self.notebook_name, as_version=4))
+            
+            # Write the converted content to the specified output path.
+            with open(output_path, "w") as f:
+                f.write(body)
+    
+        def to_markdown(self):
+    
+            # If no Markdown path is provided, set a default path as 'README.md' in the current directory.
+            if not self.path_md:
+                self.path_md = os.path.join(os.getcwd(), 'README.md')
+                
+            # Use the MarkdownExporter to convert the notebook to Markdown format.
+            exporter = MarkdownExporter()
+            self._export_to_format(exporter, self.path_md)
+            
+            print(f"Exported to markdown at {self.path_md}")
+    
+        def to_python(self):
+    
+            # If no Python script path is provided, derive it from the notebook's name.
+            if not self.path_py:
+                notebook_basename = os.path.splitext(self.notebook_name)[0]
+                self.path_py = os.path.join(os.getcwd(), f'{notebook_basename}.py')
+                
+            # Use the PythonExporter to convert the notebook to a Python script format.
+            exporter = PythonExporter()
+            self._export_to_format(exporter, self.path_py)
+            
+            print(f"Exported to python script at {self.path_py}")
+    
+
+
+
+```python
+zen.export(conversions=['md'], path_md='/home/pytzen/lab/pytzen/README.md')
+```
+
+    Exported to markdown at /home/pytzen/lab/pytzen/README.md
+

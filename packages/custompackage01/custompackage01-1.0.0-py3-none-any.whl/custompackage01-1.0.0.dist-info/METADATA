@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: custompackage01
+Version: 1.0.0
+Summary: Custom python module
+Author: Ananth S S
+
+This is a sample custom module developed by Ananth.

@@ -1,0 +1,4 @@
+[console_scripts]
+qq=qibocal:command
+qq-upload=qibocal:upload
+

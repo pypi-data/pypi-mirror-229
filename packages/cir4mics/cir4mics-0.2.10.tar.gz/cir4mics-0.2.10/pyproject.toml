@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "cir4mics"
+version = "0.2.10"
+description = "Simulating structurally variable NPCs or other ring-like structures for Microscopy"
+authors = ["MariaTheiss <theiss@ebi.ac.uk>"]
+license = "MIT"
+readme = "READMEpypi.md"
+packages = [{include = "cir4mics"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+numpy = "^1.19.2, <= 1.23"
+circle-fit = "^0.2.0"
+pyyaml = "^6.0"
+scikit-learn = "^1.2.2"
+numba = "^0.56.4"
+seaborn = "^0.12.2"
+sympy = "^1.11.1"
+ipympl = "^0.9.3"
+gemmi = "^0.6.0"
+ipykernel = "6.2.0"
+
+
+[tool.poetry.group.dev.dependencies]
+black = "^23.3.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: cir4mics
+Version: 0.2.10
+Summary: Simulating structurally variable NPCs or other ring-like structures for Microscopy
+License: MIT
+Author: MariaTheiss
+Author-email: theiss@ebi.ac.uk
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: circle-fit (>=0.2.0,<0.3.0)
+Requires-Dist: gemmi (>=0.6.0,<0.7.0)
+Requires-Dist: ipykernel (==6.2.0)
+Requires-Dist: ipympl (>=0.9.3,<0.10.0)
+Requires-Dist: numba (>=0.56.4,<0.57.0)
+Requires-Dist: numpy (>=1.19.2,<=1.23)
+Requires-Dist: pyyaml (>=6.0,<7.0)
+Requires-Dist: scikit-learn (>=1.2.2,<2.0.0)
+Requires-Dist: seaborn (>=0.12.2,<0.13.0)
+Requires-Dist: sympy (>=1.11.1,<2.0.0)
+Description-Content-Type: text/markdown
+
+# CIR4MICS 
+
+Simulating structurally variable NPCs for microscopy 
+
+Documentation can be found at: https://github.com/uhlmanngroup/cir4mics

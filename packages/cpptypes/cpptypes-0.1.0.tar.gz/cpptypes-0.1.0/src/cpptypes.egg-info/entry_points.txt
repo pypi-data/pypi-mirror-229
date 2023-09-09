@@ -1,0 +1,2 @@
+[console_scripts]
+cpptypes = cpptypes.__main__:main

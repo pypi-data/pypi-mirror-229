@@ -1,0 +1,2 @@
+[nbdev]
+comandos = comandos._modidx:d

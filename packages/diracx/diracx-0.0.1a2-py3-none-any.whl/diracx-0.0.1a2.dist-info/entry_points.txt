@@ -1,0 +1,16 @@
+[console_scripts]
+dirac = diracx.cli:app
+
+[diracx]
+properties_module = diracx.core:properties
+
+[diracx.dbs]
+AuthDB = diracx.db:AuthDB
+JobDB = diracx.db:JobDB
+SandboxMetadataDB = diracx.db:SandboxMetadataDB
+
+[diracx.services]
+.well-known = diracx.routers.well_known:router
+auth = diracx.routers.auth:router
+config = diracx.routers.configuration:router
+jobs = diracx.routers.job_manager:router

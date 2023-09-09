@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: dash-tools-reflejar
+Version: 0.1.1
+Summary: Herramientas de Dash construidas sobre el ecosistema de desarrollo de reflejar para crear fácilmente componentes de visualización y geolocalización.
+Home-page: https://github.com/reflejar/dash_tools_reflejar/
+License: MIT
+Author: tecquipo
+Author-email: hola@reflej.ar
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: dash-bootstrap-components (>=1.5.0,<2.0.0)
+Requires-Dist: dash-loading-spinners (>=1.0.0,<2.0.0)
+Requires-Dist: pandas (>=2.1.0,<3.0.0)
+Requires-Dist: plotly (>=5.16.1,<6.0.0)
+Description-Content-Type: text/markdown
+
+# dash tools reflejar
+
+Herramientas de Dash construidas sobre el ecosistema de desarrollo de reflejar para crear fácilmente componentes de visualización y geolocalización.

@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: quant1x-qmt
+Version: 1.0.2
+Summary: Quant1X程序化交易系统
+Home-page: https://gitee.com/quant1x/qmt
+Author: WangFeng
+Author-email: wangfengxy@sina.cn
+License: MIT license
+Keywords: qmt
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: beautifulsoup4 ==4.12.2
+Requires-Dist: bs4 ==0.0.1
+Requires-Dist: certifi ==2023.7.22
+Requires-Dist: charset-normalizer ==3.2.0
+Requires-Dist: idna ==3.4
+Requires-Dist: markdown-it-py ==3.0.0
+Requires-Dist: mdurl ==0.1.2
+Requires-Dist: numpy ==1.25.2
+Requires-Dist: pandas ==2.0.3
+Requires-Dist: pip-search ==0.0.12
+Requires-Dist: Pygments ==2.16.1
+Requires-Dist: python-dateutil ==2.8.2
+Requires-Dist: pytz ==2023.3
+Requires-Dist: PyYAML ==6.0.1
+Requires-Dist: requests ==2.31.0
+Requires-Dist: rich ==13.5.2
+Requires-Dist: six ==1.16.0
+Requires-Dist: soupsieve ==2.4.1
+Requires-Dist: tzdata ==2023.3
+Requires-Dist: urllib3 ==2.0.4
+

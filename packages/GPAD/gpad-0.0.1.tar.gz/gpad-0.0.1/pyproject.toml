@@ -1,0 +1,22 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "GPAD"
+version = "0.0.1"
+authors = [
+  { name="zetmus", email="renaud.poncelet@gmail.com" },
+]
+description = "GPAD for CARLA PythonAPI"
+readme = "GPAD/README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/renaudponcelet/GPAD"
+"Bug Tracker" = "https://github.com/renaudponcelet/GPAD/issues"

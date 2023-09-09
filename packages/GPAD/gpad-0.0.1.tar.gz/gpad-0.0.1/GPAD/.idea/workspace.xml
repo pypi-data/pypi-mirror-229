@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="bbc333ba-01ee-4eb8-9f12-35843e053ab7" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Approaches/Common/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Approaches/Common/occupancy_mapper/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Approaches/MMRIS/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Approaches/SGSPA/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Common/Utils/OccupancyViewer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Common/Utils/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Common/Utils/agents/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Common/Utils/agents/navigation/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Common/Utils/agents/navigation/global_route_planner.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Common/Utils/agents/navigation/local_planner.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Common/Utils/agents/tools/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Common/Utils/agents/tools/misc.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Common/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Approaches/Common/dijkstra.py" beforeDir="false" afterPath="$PROJECT_DIR$/Approaches/Common/dijkstra.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Approaches/Common/visibility_dubins_onepass.py" beforeDir="false" afterPath="$PROJECT_DIR$/Approaches/Common/visibility_dubins_onepass.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Approaches/ris_path/RIS.py" beforeDir="false" afterPath="$PROJECT_DIR$/Approaches/MMRIS/MMRIS.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Approaches/ris_path/RISLauncher.py" beforeDir="false" afterPath="$PROJECT_DIR$/Approaches/MMRIS/MMRISLauncher.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Approaches/vis_speed/VISLauncher.py" beforeDir="false" afterPath="$PROJECT_DIR$/Approaches/SGSPA/SGSPALauncher.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Approaches/vis_speed/VisSpeed.py" beforeDir="false" afterPath="$PROJECT_DIR$/Approaches/SGSPA/SGSPA.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Common/Planner.py" beforeDir="false" afterPath="$PROJECT_DIR$/Common/Planner.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Common/Utils/ControlLauncher.py" beforeDir="false" afterPath="$PROJECT_DIR$/Common/Utils/ControlLauncher.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Common/Utils/carla_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/Common/Utils/carla_utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Common/Utils/controller.py" beforeDir="false" afterPath="$PROJECT_DIR$/Common/Utils/controller.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Common/Utils/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/Common/Utils/utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Common/World.py" beforeDir="false" afterPath="$PROJECT_DIR$/Common/World.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Common/occupancy_mapper/OccupancyMapper.py" beforeDir="false" afterPath="$PROJECT_DIR$/Approaches/Common/occupancy_mapper/OccupancyMapper.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Common/occupancy_mapper/ReachableSetGenerator.py" beforeDir="false" afterPath="$PROJECT_DIR$/Approaches/Common/occupancy_mapper/ReachableSetGenerator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Common/occupancy_mapper/ReachableSetPredictor.py" beforeDir="false" afterPath="$PROJECT_DIR$/Approaches/Common/occupancy_mapper/ReachableSetPredictor.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Common/occupancy_mapper/Recorder.py" beforeDir="false" afterPath="$PROJECT_DIR$/Approaches/Common/occupancy_mapper/Recorder.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Common/occupancy_mapper/SemanticClassifier.py" beforeDir="false" afterPath="$PROJECT_DIR$/Approaches/Common/occupancy_mapper/SemanticClassifier.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Common/occupancy_mapper/Tracker.py" beforeDir="false" afterPath="$PROJECT_DIR$/Approaches/Common/occupancy_mapper/Tracker.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Common/occupancy_mapper/VirtualVehicleGenerator.py" beforeDir="false" afterPath="$PROJECT_DIR$/Approaches/Common/occupancy_mapper/VirtualVehicleGenerator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FlaskConsoleOptions" custom-start-script="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))">
+    <envs>
+      <env key="FLASK_APP" value="app" />
+    </envs>
+    <option name="myCustomStartScript" value="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))" />
+    <option name="myEnvs">
+      <map>
+        <entry key="FLASK_APP" value="app" />
+      </map>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="2V3icvWvTfydlG4bvB7K5yXFcc0" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "D:/Work/GPAD/Common/Utils/utils.py",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Work\GPAD\Approaches\Common" />
+      <recent name="D:\Work\GPAD\Common\Utils\agents\tools" />
+      <recent name="D:\Work\GPAD\Common\Utils\agents\navigation" />
+      <recent name="D:\Work\GPAD\Common\Utils" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="GPAD" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="SDK_NAME" value="Python 3.8.10 WSL (Ubuntu): (/usr/bin/python3)" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <EXTENSION ID="net.ashald.envfile">
+        <option name="IS_ENABLED" value="false" />
+        <option name="IS_SUBST" value="false" />
+        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
+        <option name="IS_IGNORE_MISSING_FILES" value="false" />
+        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
+        <ENTRIES>
+          <ENTRY IS_ENABLED="true" PARSER="runconfig" IS_EXECUTABLE="false" />
+        </ENTRIES>
+      </EXTENSION>
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bbc333ba-01ee-4eb8-9f12-35843e053ab7" name="Changes" comment="" />
+      <created>1694071247815</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1694071247815</updated>
+      <workItem from="1694071249273" duration="72000" />
+      <workItem from="1694071339488" duration="15037000" />
+      <workItem from="1694094815534" duration="1741000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

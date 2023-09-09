@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: git-heatmap
+Version: 0.0.1
+Summary: A tool to generate a heatmap of your git commits
+Author-email: Omar Abou Mrad <omar.aboumrad@gmail.com>
+Project-URL: Homepage, https://github.com/omaraboumrad/git-heatmap
+Project-URL: Bug Tracker, https://github.com/omaraboumrad/git-heatmap/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: click >=8.1.7
+Requires-Dist: GitPython >=3.1.35
+
+# git-heatmap
+
+Git cli heatmap
+
+TODO: add more

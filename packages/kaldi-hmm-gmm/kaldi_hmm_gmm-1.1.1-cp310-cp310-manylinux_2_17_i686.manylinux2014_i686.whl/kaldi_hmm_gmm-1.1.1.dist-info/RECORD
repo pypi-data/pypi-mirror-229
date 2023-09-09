@@ -1,0 +1,14 @@
+_kaldi_hmm_gmm.cpython-310-i386-linux-gnu.so,sha256=tzaTZ0h9AsoMWZRZ2BTsxjECa-omxJyQzGdm4-ulZGM,838284
+kaldi_hmm_gmm/cluster_utils.py,sha256=6ZswvSlY4rD29f4jS3bmSJlXDxwPXwxxzKVTAs1_qc0,818
+kaldi_hmm_gmm/__init__.py,sha256=GbeaWiYrz7VaNye_r8wnTlc5qfrJW9inajNJMK_6P3s,1352
+kaldi_hmm_gmm/hmm_topo_utils.py,sha256=yUazw4ntP_wCH0Y8iAwyRHdmQ1DgnGLUtVZT6vZMTAU,1824
+kaldi_hmm_gmm/lib/libkaldi-hmm-gmm-kaldi-fst-core.so,sha256=fsKaRatV6CtQhPsGjn1EZ4z_dVGBEpVowpHeW97SxIU,362792
+kaldi_hmm_gmm/lib/libkaldi-hgmm-gmm-kaldi-native-io-core.so,sha256=XSh_dLo8qjuoYY1rn1FQAc6YpI4Ze6Di06XnpYxS-eY,739940
+kaldi_hmm_gmm/lib/libkaldi-hmm-gmm-core.so,sha256=mgPH2T-jAoXEIebsf1awRI6D0wE8aWzBxaoTmZcYV50,2364308
+kaldi_hmm_gmm/lib/libkaldi-hmm-gmm-fst.so,sha256=8hAKHvx1dpyPHBqf_AwdfZRhejAPVThEZWJ0NyvSNGs,1580816
+kaldi_hmm_gmm/lib/libkaldi-hmm-gmm-fst.so.6,sha256=8hAKHvx1dpyPHBqf_AwdfZRhejAPVThEZWJ0NyvSNGs,1580816
+kaldi_hmm_gmm-1.1.1.dist-info/RECORD,,
+kaldi_hmm_gmm-1.1.1.dist-info/WHEEL,sha256=7vMrcBs9SRwpPfzg5H9UcovPTS3118nDeaa76ztbbbk,148
+kaldi_hmm_gmm-1.1.1.dist-info/LICENSE,sha256=poLW79HuXe4IqOQFwjPCwZjqcK4HGBKdqoOrWM_jHF0,11728
+kaldi_hmm_gmm-1.1.1.dist-info/METADATA,sha256=g_9gtTMb1Lct7T7TxVyxICEXBVLza_fCGsBcm8dLEng,776
+kaldi_hmm_gmm-1.1.1.dist-info/top_level.txt,sha256=lQo-UoCbzqqekUnmlg41aMvbEl5LxGL2SlB7tWZss0k,29

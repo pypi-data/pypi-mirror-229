@@ -1,0 +1,7 @@
+django_request_hook/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_request_hook/middleware.py,sha256=hZqRi37M-w1G06JVu0PBtdpVM0WRzBOTIpc2ClqzOfI,2068
+django_request_hook-0.0.3.dist-info/LICENSE,sha256=Ewrs4RikkiZt5fsC1owdLHp8BLaM93rSIkgfrHeBv1I,1063
+django_request_hook-0.0.3.dist-info/METADATA,sha256=eM37nSPy4evf2beZ-652jaeMHBnT6KjEguyyhj8JipA,2418
+django_request_hook-0.0.3.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+django_request_hook-0.0.3.dist-info/top_level.txt,sha256=1aaz22Dq3D87J1oWa7XIa-H3cmXadQR4NazNNd6DFPI,20
+django_request_hook-0.0.3.dist-info/RECORD,,

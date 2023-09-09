@@ -1,0 +1,74 @@
+Metadata-Version: 2.1
+Name: django-request-hook
+Version: 0.0.3
+Summary: Django middlewares to track request logs
+Author-email: joneai <mxjoneai@gmail.com>
+License: MIT License
+        
+        Copyright (c) 2023 Joneai
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+        
+Project-URL: Homepage, https://github.com/tacnaci/django-request-hook
+Keywords: django,request log,hook,api log track,middleware
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: Django >=2.0.0
+Requires-Dist: requests
+Provides-Extra: dev
+Requires-Dist: pytest ; extra == 'dev'
+
+# Django Request Hook
+
+Django middlewares to track request/response logs. Catch the logs and send it to anywhere you want through HTTP.
+
+## Installation
+
+You can install the Django Request Hook from [PyPI](https://pypi.org/project/django-request-hook/)
+
+## How to use
+
+1. PyPI
+
+```
+pip install django-request-hook
+```
+
+2. Add in MIDDLEWARE
+
+```
+MIDDLEWARE = [
+    ...,
+    'django_request_hook.middleware.LogTracker'
+]
+```
+
+3. Settings
+
+```
+REQUEST_HOOK_EXCLUDES = []
+
+REQUEST_HOOK_LOG_URL = 'https://xxx/api/log'
+
+REQUEST_HOOK_LOG_TOKEN = 'mytoken'
+```

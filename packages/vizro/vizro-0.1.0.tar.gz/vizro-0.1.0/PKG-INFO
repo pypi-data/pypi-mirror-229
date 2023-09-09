@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: vizro
+Version: 0.1.0
+Summary: Vizro is a package to facilitate visual analytics.
+Project-URL: Documentation, https://github.com/mckinsey/vizro#readme
+Project-URL: Issues, https://github.com/mckinsey/vizro/issues
+Project-URL: Source, https://github.com/mckinsey/vizro
+Author: Vizro Team
+License-File: LICENSE.txt
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.8
+Requires-Dist: dash-bootstrap-components
+Requires-Dist: dash-daq
+Requires-Dist: dash>=2.11
+Requires-Dist: ipython>=8.10.0
+Requires-Dist: markupsafe
+Requires-Dist: numpy>=1.22.2
+Requires-Dist: pandas
+Requires-Dist: pydantic<2.0.0
+Requires-Dist: setuptools>=65.5.1
+Requires-Dist: tornado>=6.3.2
+Provides-Extra: kedro
+Requires-Dist: kedro>=0.17.3; extra == 'kedro'
+Requires-Dist: wheel>=0.38.0; extra == 'kedro'
+Description-Content-Type: text/markdown
+
+# Vizro
+
+[![Python version](https://img.shields.io/badge/python-3.8%20%7C%203.9%20%7C%203.10%20%7C%203.11-blue.svg)]()
+[![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)]()
+
+Vizro is a toolkit for creating modular data visualisation applications
+
+## Documentation
+
+See the [`docs`](https://vizro.readthedocs.io/en/latest/) for more details
+
+## Contributors
+
+See the [authors](https://github.com/mckinsey/vizro/blob/main/vizro-core/docs/pages/development/authors.md) file for more details
+
+## License
+
+`vizro` is distributed under the terms of the [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0)

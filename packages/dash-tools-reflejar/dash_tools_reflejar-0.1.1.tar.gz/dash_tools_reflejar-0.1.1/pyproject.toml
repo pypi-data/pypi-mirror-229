@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "dash-tools-reflejar"
+version = "0.1.1"
+description = "Herramientas de Dash construidas sobre el ecosistema de desarrollo de reflejar para crear fácilmente componentes de visualización y geolocalización."
+authors = ["tecquipo <hola@reflej.ar>"]
+readme = "README.md"
+packages = [{include = "src"}]
+license = "MIT"
+homepage = "https://github.com/reflejar/dash_tools_reflejar/"
+
+
+[tool.poetry.dependencies]
+python = "^3.10"
+plotly = "^5.16.1"
+dash-bootstrap-components = "^1.5.0"
+dash-loading-spinners = "^1.0.0"
+pandas = "^2.1.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

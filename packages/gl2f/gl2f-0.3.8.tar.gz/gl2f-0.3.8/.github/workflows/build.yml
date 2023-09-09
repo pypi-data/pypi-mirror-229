@@ -1,0 +1,72 @@
+name: build
+
+on:
+  push:
+    tags:
+      - 'v*'
+    branches:
+      - 'build'
+
+jobs:
+  build:
+    strategy:
+      matrix:
+        target:
+          - windows
+          - macos
+        include:
+          - target: windows
+            os: windows-latest
+          - target: macos
+            os: macos-latest
+
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: actions/checkout@v3
+      - run: git submodule update --init
+
+      - uses: actions/setup-python@v4
+        with:
+          python-version: 3.x
+      - run: pip install . pyinstaller
+
+      - run: pyinstaller bin/_gl2f.py --onefile --name gl2f --collect-data gl2f
+
+      - uses: actions/upload-artifact@v3
+        with:
+          name: ${{ matrix.target }}
+          path: dist/*
+
+  release:
+    if: github.ref_name != 'build'
+    needs: [build]
+
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      # windows
+      - uses: actions/download-artifact@v1
+        with:
+          name: windows
+      - run: zip windows.zip windows/*
+
+      # mac
+      - uses: actions/download-artifact@v1
+        with:
+          name: macos
+      - run: zip macos.zip macos/*
+
+      # source
+      - run: git submodule update --init --recursive
+      - run: zip -r source.zip gl2f/* setup.py
+
+      - name: Release
+        id: create_release
+        uses: softprops/action-gh-release@v1
+        with:
+          generate_release_notes: true
+          files: |
+            windows.zip
+            macos.zip
+            source.zip

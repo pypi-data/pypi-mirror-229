@@ -1,0 +1,31 @@
+html{
+  font-family: arial;
+}
+
+body {
+  margin: 0;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  display: flex;
+  padding: 10px;
+  background: linear-gradient(to right, #F486BA, #FFCE5D);
+  font-size: 18px;
+}
+
+main {
+  margin-top: 10px;
+  padding: 0 10px 10px 10px;
+  overflow: auto;
+}
+
+label, .buttonlike{
+  display: inline-block;
+  cursor: pointer;
+  user-select: none;
+  white-space: nowrap;
+  height: fit-content;
+}

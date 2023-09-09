@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: gl2f
+Version: 0.3.8
+Summary: CLI tools for GL2 family
+Requires-Dist: requests
+Requires-Dist: libsixel-python
+Requires-Dist: Pillow
+Requires-Dist: webdriver_manager
+Requires-Dist: selenium

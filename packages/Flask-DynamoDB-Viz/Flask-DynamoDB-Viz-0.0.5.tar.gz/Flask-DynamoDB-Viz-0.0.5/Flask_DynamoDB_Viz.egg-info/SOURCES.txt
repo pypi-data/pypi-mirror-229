@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+Flask_DynamoDB_Viz.egg-info/PKG-INFO
+Flask_DynamoDB_Viz.egg-info/SOURCES.txt
+Flask_DynamoDB_Viz.egg-info/dependency_links.txt
+Flask_DynamoDB_Viz.egg-info/not-zip-safe
+Flask_DynamoDB_Viz.egg-info/requires.txt
+Flask_DynamoDB_Viz.egg-info/top_level.txt
+flask_dynamodb_viz/__init__.py
+flask_dynamodb_viz/flask_ddb_viz.py

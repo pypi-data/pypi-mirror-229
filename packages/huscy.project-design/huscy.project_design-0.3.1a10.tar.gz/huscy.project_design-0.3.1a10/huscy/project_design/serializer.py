@@ -1,0 +1,76 @@
+from rest_framework import serializers
+
+from huscy.project_design import models, services
+
+
+class DataAcquisitionMethodSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = models.DataAcquisitionMethod
+        fields = (
+            'id',
+            'location',
+            'order',
+            'session',
+            'stimulus',
+            'type',
+        )
+        read_only_fields = 'id', 'order', 'session'
+
+    def get_fields(self):
+        fields = super().get_fields()
+        request = self.context.get('request')
+        if request and request.method == 'PUT':
+            fields['type'].read_only = True
+        return fields
+
+    def create(self, validated_data):
+        return services.create_data_acquisition_method(**validated_data)
+
+    def update(self, data_acquisition_method, validated_data):
+        return services.update_data_acquisition_method(data_acquisition_method, **validated_data)
+
+
+class SessionSerializer(serializers.ModelSerializer):
+    data_acquisition_methods = DataAcquisitionMethodSerializer(many=True, read_only=True)
+    title = serializers.CharField(required=False)
+
+    class Meta:
+        model = models.Session
+        fields = (
+            'id',
+            'data_acquisition_methods',
+            'duration',
+            'experiment',
+            'order',
+            'title',
+        )
+        read_only_fields = 'id', 'experiment', 'order'
+
+    def create(self, validated_data):
+        return services.create_session(**validated_data)
+
+    def update(self, session, validated_data):
+        return services.update_session(session, **validated_data)
+
+
+class ExperimentSerializer(serializers.ModelSerializer):
+    sessions = SessionSerializer(many=True, read_only=True)
+    title = serializers.CharField(required=False)
+
+    class Meta:
+        model = models.Experiment
+        fields = (
+            'id',
+            'description',
+            'order',
+            'project',
+            'sessions',
+            'title',
+        )
+        read_only_fields = 'id', 'order', 'project',
+
+    def create(self, validated_data):
+        return services.create_experiment(**validated_data)
+
+    def update(self, experiment, validated_data):
+        return services.update_experiment(experiment, **validated_data)

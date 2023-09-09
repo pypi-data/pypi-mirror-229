@@ -1,0 +1,3 @@
+[buildarr.plugins]
+jellyseerr=buildarr_jellyseerr.plugin:JellyseerrPlugin
+

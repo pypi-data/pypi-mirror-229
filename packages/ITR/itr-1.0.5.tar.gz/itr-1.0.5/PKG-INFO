@@ -1,0 +1,144 @@
+Metadata-Version: 2.1
+Name: ITR
+Version: 1.0.5
+Summary: Assess the temperature alignment of current targets, commitments, and investment and lending portfolios.
+Keywords: Climate ITR Finance
+Author-Email: Ortec Finance <joris.cramwinckel@ortec-finance.com>
+License: Apache-2.0
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: Unix
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Office/Business :: Financial
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Software Development
+Project-URL: Homepage, https://github.com/os-climate/ITR
+Project-URL: Downloads, https://github.com/os-climate/ITR/releases
+Project-URL: Bug tracker, https://github.com/os-climate/ITR/issues
+Project-URL: Documentation, https://github.com/os-climate/ITR/tree/main/docs
+Project-URL: Source code, https://github.com/os-climate/ITR
+Requires-Python: >=3.9
+Requires-Dist: autoapi>=2.0.1
+Requires-Dist: dash==2.11.1
+Requires-Dist: dash-bootstrap-components==1.4.2
+Requires-Dist: diskcache==5.6.1
+Requires-Dist: flask==2.2.5
+Requires-Dist: iam-units==2022.10.27
+Requires-Dist: jupyterlab==4.0.4
+Requires-Dist: matplotlib==3.7.2
+Requires-Dist: multiprocess==0.70.14
+Requires-Dist: numpy==1.24.3
+Requires-Dist: openpyxl==3.0.10
+Requires-Dist: openscm-units==0.5.2
+Requires-Dist: orca==1.8
+Requires-Dist: osc-ingest-tools>=0.4.3
+Requires-Dist: pandas>=2.0.3
+Requires-Dist: Pint>=0.22
+Requires-Dist: Pint-Pandas>=0.5
+Requires-Dist: psutil==5.9.5
+Requires-Dist: pydantic==1.10.8
+Requires-Dist: pygithub==1.55
+Requires-Dist: pytest==7.3.2
+Requires-Dist: python-dotenv==1.0.0
+Requires-Dist: setuptools>=68.1.2
+Requires-Dist: sphinx<8,>=6
+Requires-Dist: sphinx-autoapi>=2.0.1
+Requires-Dist: sphinx-autodoc-typehints
+Requires-Dist: sphinx-rtd-theme==1.3.0
+Requires-Dist: SQLAlchemy==1.4.48
+Requires-Dist: trino==0.326.0
+Requires-Dist: xlrd==2.0.1
+Requires-Dist: setuptools>=65.5.1
+Requires-Dist: wheel>=0.41.0
+Requires-Dist: nose2; extra == "dev"
+Provides-Extra: dev
+Description-Content-Type: text/markdown
+
+# ITR
+This Python module implements the ITR methodology, elaborated in this [Functional Overview](https://github.com/os-climate/ITR/blob/main/docs/FunctionalOverview.rst).  [A graphical representation](https://github.com/os-climate/ITR/blob/main/docs/Calculation.md) of the fundamental calculations is also available in the [docs](https://github.com/os-climate/ITR/tree/main/docs) directory.
+
+## Getting started with the user interface:
+If you use Anaconda environments, open an Anaconda prompt window, navigate to the root of the ITR release (ITR-develop) and run:
+```
+conda env create -f environment.yml
+conda activate itr_ui
+```
+
+For virtual environments, open a command prompt/terminal window, navigate to the root of the ITR release and run
+```
+python3 -m venv itr_ui
+```
+On Unix or MacOS, activate the environment with
+```
+source itr_ui/bin/activate
+```
+On Windows, activate the environment with
+```
+itr_ui\Scripts\activate
+```
+Next, run:
+```
+python3 -m pip install --upgrade pip
+pip install -r requirements.txt
+pip install -e .
+```
+
+Now you are ready to change to the examples directory and run the tool:
+```
+cd examples
+python3 ITR_UI.py
+python3 ITR_UI.py "data/20230106 ITR V2 Sample Data.xlsx"
+```
+
+Note the python commands are ```python``` for windows and ``python3`` for linux/mac.  If no file is specified, the tool uses a default, small ITR dataset.  With a filename given, the ITR tool will load data from that dataset.  The 20230106 data template has over 120 companies across nearly a dozen sectors.
+
+Finally, open a browser window and navigate to `http://127.0.0.1:8050/` to access the user interface.
+
+## Jupyter notebooks
+To work with notebooks from the 'examples' directory please register the kernel from your virtual environment
+such that it is available in Jupyter. Kernels from Anaconda environments will be available by default. Replace
+`<env_name>` in the following command by your environment name (`itr_ui` or `itr_env`) and run it in your environment.
+```
+python -m ipykernel install --user --name=<env_name>
+```
+Start Jupyter by activating your environment and running
+```
+jupyter-notebook
+```
+
+## Getting started for Contributors/Developers:
+If you use Anaconda environments, open an Anaconda prompt window, navigate to the project directory and run:
+```
+conda env create -f environment.yml
+conda activate itr_env
+```
+
+For virtual environments, open a command prompt/terminal window, navigate to the project directory and run:
+```
+python3 -m venv itr_env
+```
+On Unix or MacOS, activate the environment with
+```
+source itr_env/bin/activate
+```
+On Windows, activate the environment with
+```
+itr_env\Scripts\activate
+```
+Next, run:
+```
+python3 -m pip install --upgrade pip
+pip install -r requirements.txt
+pip install -e .[dev]
+```
+
+## User Interface
+![](ITR_demo.gif)

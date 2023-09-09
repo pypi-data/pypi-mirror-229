@@ -1,0 +1,14 @@
+AUTHORS
+LICENSE
+README.md
+pyproject.toml
+Clamming.egg-info/PKG-INFO
+Clamming.egg-info/SOURCES.txt
+Clamming.egg-info/dependency_links.txt
+Clamming.egg-info/top_level.txt
+clamming/__init__.py
+clamming/claminfo.py
+clamming/claminfomd.py
+clamming/clamsclass.py
+clamming/classparser.py
+tests/test_claminfos.py

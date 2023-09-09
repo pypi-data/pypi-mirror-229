@@ -1,0 +1,35 @@
+# Tom's Obvious Minimal Language - for Clamming library
+# https://toml.io/en/
+# Allows to create the Clamming distribution with:
+# python -m build
+# ---------------------------------------------------------------------------
+
+[project]
+name = "Clamming"
+version = "1.1b0"
+authors = [
+  { name="Brigitte Bigi", email="develop@sppas.org" },
+]
+description = "Light Python-API Documentation in markdown and html"
+readme = "README.md"
+requires-python = ">=3.6"
+license = {file = "LICENSE"}
+keywords = ["python", "class", "doc", "docstring", "markdown", "html", "reST"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)",
+    "Operating System :: OS Independent",
+    "Topic :: Documentation",
+    "Topic :: Software Development :: Documentation",
+    "Intended Audience :: Developers",
+    "Development Status :: 4 - Beta"
+]
+
+[project.urls]
+"Homepage" = "https://src.koda.cnrs.fr/brigitte.bigi/clamming"
+
+[build-system]
+requires = ["setuptools", "pygments", "markdown2"]
+
+[tool.setuptools]
+packages = ["clamming"]

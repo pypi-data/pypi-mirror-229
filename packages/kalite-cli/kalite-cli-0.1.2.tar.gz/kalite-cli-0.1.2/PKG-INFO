@@ -1,0 +1,5 @@
+Metadata-Version: 2.1
+Name: kalite-cli
+Version: 0.1.2
+Author-email: Chew Boon Aik <boon.aik.chew@f-secure.com>
+Requires-Python: >=3.9

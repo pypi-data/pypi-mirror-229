@@ -1,0 +1,11 @@
+pyproject.toml
+src/kalite/__init__.py
+src/kalite/__main__.py
+src/kalite/cli/__init__.py
+src/kalite/cli/app.py
+src/kalite/cli/cli.py
+src/kalite_cli.egg-info/PKG-INFO
+src/kalite_cli.egg-info/SOURCES.txt
+src/kalite_cli.egg-info/dependency_links.txt
+src/kalite_cli.egg-info/entry_points.txt
+src/kalite_cli.egg-info/top_level.txt

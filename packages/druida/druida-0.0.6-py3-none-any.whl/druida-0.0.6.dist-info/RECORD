@@ -1,0 +1,12 @@
+druida/Stack.py,sha256=gwbYUtnJa4ApBvEwj0PdG5PnX9SJhboXraIGaXoAUMg,1433
+druida/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+druida/DataManager/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+druida/DataManager/datamanager.py,sha256=jCTxQ2OTJjJ_c5tdB0lF__ucQg6Mf1Q3-xfVjm_wdZE,213
+druida/atom/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+druida/atom/builder.py,sha256=STlCIoRaMwAhjuYA8ZUv8MsEvUPvVSgraqta3F0sL6M,421
+druida/atom/notes.txt,sha256=ZO_V_mQrbQmNN1Dnc4VHJlCPkZNJXEEba3vgGRb8nj0,204
+druida/surface/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+druida/surface/metasurface.py,sha256=PQv0niNrSBowlXH0Dsi1SmgiHIbeJtYllMM79KbAaX0,345
+druida-0.0.6.dist-info/METADATA,sha256=bjrK8Xb8R7d2BHaExtSGorEHKb0drm19rTBGYXHXW6Q,6560
+druida-0.0.6.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+druida-0.0.6.dist-info/RECORD,,

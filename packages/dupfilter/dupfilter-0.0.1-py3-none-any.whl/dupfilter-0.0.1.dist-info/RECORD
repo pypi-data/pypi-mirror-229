@@ -1,0 +1,14 @@
+dupfilter/__init__.py,sha256=zyK0ZDLkdcunFBNowLKfF0JOMxmulunbV_HJCgazmHU,697
+dupfilter/filters/__init__.py,sha256=pRwzxg1aOsiF_iX4VmHI106q3nhzmGdwnaLpTWbYsFE,918
+dupfilter/filters/file/__init__.py,sha256=3te4clXT9OZqNSIpKAgK3-EaoOt9dPO-AFF8NGA3ROQ,1372
+dupfilter/filters/memory/__init__.py,sha256=J4FVxgUB-l7xQIt79OGpOEzadgnDCxwCkO1j3IWoAAI,1083
+dupfilter/filters/redis/__init__.py,sha256=qh-9Hx2S0TofGFOihETJ4UeUViC-gVkXekFDEiopXnM,295
+dupfilter/filters/redis/bloomfilter.py,sha256=pAQSmc0afxlz_4Jen-D4168dgNwAfDMhEirkbXH1a0A,7906
+dupfilter/filters/redis/setfilter.py,sha256=9uHWGT2D2Q7WqspnxoalW1ZWiYCx2D0R5uw93LlqbO8,5730
+dupfilter/filters/redis/stringfilter.py,sha256=zk3nMD3B-RxqirPPB63ZZqawedePxX6h34lp-V2oUuk,2677
+dupfilter/utils/__init__.py,sha256=GWi2AIWPyRQC7dCc5aT42nLkjw0VSdrEoWgJFopo8V8,1172
+dupfilter-0.0.1.dist-info/LICENSE,sha256=UhKZm0YxmzxZlTTV09zxHg5MmpaADKJm3A6XSU_WZKM,1083
+dupfilter-0.0.1.dist-info/METADATA,sha256=-w_vLoXVt_rMzfDLUaj1h7Il1YKPRMdSRlpOucAlOvo,3485
+dupfilter-0.0.1.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+dupfilter-0.0.1.dist-info/top_level.txt,sha256=aFO_EvUTxzL4A3IH1vMKlbA4_HzzjID3eLnJO5nreLk,10
+dupfilter-0.0.1.dist-info/RECORD,,

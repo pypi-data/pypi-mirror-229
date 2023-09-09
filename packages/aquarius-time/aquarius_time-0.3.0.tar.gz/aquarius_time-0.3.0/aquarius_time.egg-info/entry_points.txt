@@ -1,0 +1,2 @@
+[console_scripts]
+aq = aquarius_time.bin.aq:main

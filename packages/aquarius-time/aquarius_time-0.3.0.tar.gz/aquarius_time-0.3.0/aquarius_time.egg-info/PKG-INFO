@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: aquarius-time
+Version: 0.3.0
+Summary: Scientific time library for Python
+Home-page: https://github.com/peterkuma/aquarius-time
+Author: Peter Kuma
+Author-email: peter@peterkuma.net
+License: MIT
+Keywords: time,date,julian-date,datetime,utc,tai,iso-8601
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Scientific/Engineering
+License-File: LICENSE.md

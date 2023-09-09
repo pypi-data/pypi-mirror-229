@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+climage/__init__.py
+climage/__main__.py
+climage/climage.py
+climage.egg-info/PKG-INFO
+climage.egg-info/SOURCES.txt
+climage.egg-info/dependency_links.txt
+climage.egg-info/entry_points.txt
+climage.egg-info/not-zip-safe
+climage.egg-info/requires.txt
+climage.egg-info/top_level.txt

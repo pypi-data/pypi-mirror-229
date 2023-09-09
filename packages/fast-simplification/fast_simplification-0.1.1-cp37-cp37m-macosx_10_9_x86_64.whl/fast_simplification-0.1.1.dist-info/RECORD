@@ -1,0 +1,10 @@
+fast_simplification-0.1.1.dist-info/RECORD,,
+fast_simplification-0.1.1.dist-info/LICENSE,sha256=hYWXjd9OHOOaW_5n9SXcCqAAjBB_4sbeTQOrc57NWoQ,1088
+fast_simplification-0.1.1.dist-info/WHEEL,sha256=4t-pBRd6YCyaVED7zSv5apHXx88xTUgb7rzrz0GO1Rk,110
+fast_simplification-0.1.1.dist-info/top_level.txt,sha256=mOYWsXJnx7nticQc3052sz-Gwz_iZqn0v8yPy_vkiCM,20
+fast_simplification-0.1.1.dist-info/METADATA,sha256=RoyW2BV0fw6MsvwU458RUGupBlEZ7_aNssxInIaYK1E,5505
+fast_simplification/simplify.py,sha256=0zK1wj57Gkd-_w0bBeBJPVPpal9zhiL3-WkOoKIBzJs,7706
+fast_simplification/_version.py,sha256=oV0frjEYP4gA5aFVI-RT_Qp0fVPqzDbAtfuLF-Sc_VY,218
+fast_simplification/__init__.py,sha256=fvdMvNSJf0-VancBbZHvy-KatyLsyrOt4svWev6iQ9U,80
+fast_simplification/_simplify.cpython-37m-darwin.so,sha256=KtPIrvbrzC-jjcsmiq7N5jaoX3VpdLvBnKTna41T_fY,322432
+fast_simplification/fast_simplification.py,sha256=FRgO8YYMf6HFdGGFQvVWmFlPtxldJdJwcXX9MwyQ7bE,25

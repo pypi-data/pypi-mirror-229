@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: tacrpy
+Version: 0.1.0
+Summary: Analytická knihovna pro potřeby TA ČR
+Author: RozumDoKapsy
+Author-email: david.sulc@tacr.cz
+
+Knihovna, která slouží pro vypracování různých typů datových analýz v rámci TA ČR.

@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "notiondl"
+version = "0.1.0"
+description = "Export and download Notion pages asynchronously"
+repository = "https://github.com/0x7d4/notiondl"
+urls = {"Bug Tracker" = "https://github.com/0x7d4/notiondl/issues" }
+authors = ["Mohammad Momeni <lo3me@pm.me>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+urllib3 = "1.26.15"
+requests = "^2.31.0"
+tqdm = "^4.66.1"
+
+[tool.poetry.scripts]
+notiondl = "notiondl.cli:run_from_cli"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

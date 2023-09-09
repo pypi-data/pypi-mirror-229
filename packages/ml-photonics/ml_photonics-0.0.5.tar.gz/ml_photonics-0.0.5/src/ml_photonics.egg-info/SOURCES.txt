@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+src/ml_photonics.egg-info/PKG-INFO
+src/ml_photonics.egg-info/SOURCES.txt
+src/ml_photonics.egg-info/dependency_links.txt
+src/ml_photonics.egg-info/requires.txt
+src/ml_photonics.egg-info/top_level.txt

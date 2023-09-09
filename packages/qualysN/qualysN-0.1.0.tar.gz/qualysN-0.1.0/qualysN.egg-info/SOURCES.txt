@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+setup.py
+qualysN/__init__.py
+qualysN/functions.py
+qualysN.egg-info/PKG-INFO
+qualysN.egg-info/SOURCES.txt
+qualysN.egg-info/dependency_links.txt
+qualysN.egg-info/top_level.txt

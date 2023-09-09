@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: autromartrizar
+Version: 2023.9.9.2
+Summary: Uma interface devops para aws
+License: MIT
+Keywords: aws,serverless,devops,cicd
+Author: Tarcisio F Sassara
+Author-email: sassara.tarcisio+python@gmail.com
+Maintainer: Tarcisio F Sassara
+Maintainer-email: sassara.tarcisio+python@gmail.com
+Requires-Python: >=3.11,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: Topic :: Software Development :: Code Generators
+Classifier: Topic :: Software Development :: User Interfaces
+Requires-Dist: boto3 (>=1.28.44,<2.0.0)
+Project-URL: Changelog, https://github.com/tarcisio/autromartrizar/blob/master/CHANGELOG.md
+Project-URL: Documentation, https://github.com/tarcisio/autromartrizar/
+Project-URL: Homepage, https://github.com/tarcisio/autromartrizar/
+Project-URL: Repository, https://github.com/tarcisio/autromartrizar.git
+Description-Content-Type: text/markdown
+
+# autromartrizar
+aws automatiza
+

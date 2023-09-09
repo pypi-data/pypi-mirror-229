@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.rst
+setup.py
+PySeoHtml/__init__.py
+PySeoHtml/lib.py
+PySeoHtml/test.py
+py_seo_html.egg-info/PKG-INFO
+py_seo_html.egg-info/SOURCES.txt
+py_seo_html.egg-info/dependency_links.txt
+py_seo_html.egg-info/requires.txt
+py_seo_html.egg-info/top_level.txt

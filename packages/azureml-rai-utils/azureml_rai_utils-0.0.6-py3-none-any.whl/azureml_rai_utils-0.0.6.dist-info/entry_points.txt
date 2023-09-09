@@ -1,0 +1,2 @@
+[console_scripts]
+rai-benchmark = azureml.rai.utils.llm_eval_benchmark.e2e:main

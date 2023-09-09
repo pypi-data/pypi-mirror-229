@@ -1,0 +1,7 @@
+matplotlib
+nibabel
+numpy==1.19.5
+pypulseq
+PyQt5
+PyQt5_sip
+scipy

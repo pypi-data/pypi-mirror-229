@@ -1,0 +1,4 @@
+sqlite3>=3.43.0
+sqlite3-Error
+datetime-datetime>=5.2
+calendar-monthrange>=3.11.5

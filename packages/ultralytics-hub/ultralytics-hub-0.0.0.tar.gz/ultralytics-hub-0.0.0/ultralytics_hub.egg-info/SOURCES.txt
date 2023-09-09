@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+plugin/__init__.py
+plugin/main.py
+plugin/utils.py
+ultralytics_hub.egg-info/PKG-INFO
+ultralytics_hub.egg-info/SOURCES.txt
+ultralytics_hub.egg-info/dependency_links.txt
+ultralytics_hub.egg-info/entry_points.txt
+ultralytics_hub.egg-info/requires.txt
+ultralytics_hub.egg-info/top_level.txt

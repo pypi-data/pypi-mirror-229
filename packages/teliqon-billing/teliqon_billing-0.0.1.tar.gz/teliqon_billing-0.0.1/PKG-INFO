@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: teliqon_billing
+Version: 0.0.1
+Summary: Teliqon Billing API Python SDK
+Author-email: Sidq <abba.dmytro@teliqon.io>
+Project-URL: Homepage, https://teliqon.io
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+[project]
+name = "example_package_YOUR_USERNAME_HERE"
+version = "0.0.1"
+authors = [
+  { name="Example Author", email="author@example.com" },
+]
+description = "A small example package"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/pypa/sampleproject"
+"Bug Tracker" = "https://github.com/pypa/sampleproject/issues"

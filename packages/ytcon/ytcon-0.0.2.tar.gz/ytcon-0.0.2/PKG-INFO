@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: ytcon
+Version: 0.0.2
+Summary: A small example package
+Author-email: NikitaBeloglazov <nnikita.beloglazov@gmail.com>
+Project-URL: Homepage, https://github.com/NikitaBeloglazov/ytcon
+Project-URL: Bug Tracker, https://github.com/NikitaBeloglazov/ytcon/issues
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: urwid
+Requires-Dist: pyperclip
+Requires-Dist: ffmpeg-python
+Requires-Dist: yt_dlp
+
+# ytcon (yt-dlp_console_gui)
+Just pseudo-graphical GUI for yt-dlp LOL
+# 🚧 Currently in the ALPHA stage of development

@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: jbang
+Version: 0.1.0
+Summary: Python for JBang - Java Script in your Python
+Home-page: http://jbang.dev
+Author: JBang Developers
+Author-email: team@jbang.dev
+License: MIT

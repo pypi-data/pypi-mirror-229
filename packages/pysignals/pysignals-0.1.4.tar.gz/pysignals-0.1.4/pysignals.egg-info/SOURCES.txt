@@ -1,0 +1,12 @@
+LICENSE.txt
+README.rst
+setup.py
+pysignals/__init__.py
+pysignals/dispatcher.py
+pysignals/inspect.py
+pysignals/saferef.py
+pysignals/weakref_backports.py
+pysignals.egg-info/PKG-INFO
+pysignals.egg-info/SOURCES.txt
+pysignals.egg-info/dependency_links.txt
+pysignals.egg-info/top_level.txt

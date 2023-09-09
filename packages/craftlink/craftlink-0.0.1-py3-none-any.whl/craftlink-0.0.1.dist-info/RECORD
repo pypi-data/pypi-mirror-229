@@ -1,0 +1,9 @@
+craftlink/__init__.py,sha256=ry5O5SW74ugwOUMKSV2_LbWjYa8B0IEvUm7S-lHPA2c,23
+craftlink/bot.py,sha256=t4NCGOvQNgwBwt3kZLkuWlsvoazE_VrQg9Ju7u0rxVE,3886
+craftlink/command.py,sha256=BrMImbvxkhyf6T3brOUFvK6VTieZ0gQ7YLj8Nylv5aM,9482
+craftlink/console.py,sha256=aIcFgRJguhRpqSkTzHZEmkJjUJuVGvOsfvCJM0tBZKA,1421
+craftlink/constants.py,sha256=wQeNK1_RrnQlClyKwdsKT4_QDU-feKsGERdTS0yHglU,2812
+craftlink-0.0.1.dist-info/entry_points.txt,sha256=dVjGK1uZ2Nw-YBh-wPFdq3DTtdXqOBh36vT41YZP0B0,52
+craftlink-0.0.1.dist-info/METADATA,sha256=P53QD3cG6TmTxgY7Z1lKE_DAIqd1YSHWS9qpSCv_BkU,2689
+craftlink-0.0.1.dist-info/WHEEL,sha256=kLuE8m1WYU0Ig0_YEGrXyTtiJvKPpLpDEiChiNyei5Y,88
+craftlink-0.0.1.dist-info/RECORD,,

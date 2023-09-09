@@ -1,0 +1,14 @@
+numpy
+coloredlogs
+openbabel-wheel
+
+[:python_version < "3.8"]
+importlib_metadata>=1.4
+
+[mpi]
+mpi4py
+
+[test]
+pytest-sugar
+pytest-cov
+fakegaussian>=0.0.2

@@ -1,0 +1,7 @@
+gpt3/__init__.py,sha256=1DjZlNcAhr9hd0tmkgLWLF1eBn1Kc4L_yfS8KO4_ImE,55
+gpt3/gpt3.py,sha256=x8uNr8J54KXtnQ7TEjSnDao9ydGlL1gT3QYuF9DTt58,844
+gpt3/train.py,sha256=fbDfRPHpEAw9RQj779IQDptRjwMz2h8ib4pO-nY2kjw,24465
+gpt3_torch-0.0.4.dist-info/LICENSE,sha256=GHYD0Vn7cqu6O1FibXB1ix_cx8js09uZI1rKjCjW5sY,1074
+gpt3_torch-0.0.4.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+gpt3_torch-0.0.4.dist-info/METADATA,sha256=ImY6sQJiwSyu1aNbD3q1DxweoB8LkSHmFpS2Kt5HJOM,5062
+gpt3_torch-0.0.4.dist-info/RECORD,,

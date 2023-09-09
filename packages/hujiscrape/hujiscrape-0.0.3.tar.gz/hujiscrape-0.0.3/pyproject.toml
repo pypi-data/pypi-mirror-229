@@ -1,0 +1,33 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "hujiscrape"
+dynamic = ["version"]
+authors = [
+    { name = "Yotam Rosenmann", email = "yotam.pub@gmail.com" },
+]
+description = "A scraping tool for HUJI sites."
+readme = "README.md"
+requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+license = { file = "LICENSE" }
+dependencies = [
+    "aiohttp~=3.8.5",
+    "beautifulsoup4~=4.12.2"
+]
+
+[project.urls]
+Homepage = "https://github.com/yotamgod/hujiscrape"
+Source = "https://github.com/yotamgod/hujiscrape"
+
+[tool.hatch.version]
+path = "hujiscrape/__version__.py"
+
+[tool.hatch.build]
+exclude = ["dev", ".idea", "venv"]

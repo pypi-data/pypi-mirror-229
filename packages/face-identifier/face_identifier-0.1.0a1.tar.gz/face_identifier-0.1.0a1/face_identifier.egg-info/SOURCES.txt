@@ -1,0 +1,14 @@
+README.md
+setup.py
+face_identifier/__init__.py
+face_identifier/face_comparation.py
+face_identifier/face_detection.py
+face_identifier/face_extraction.py
+face_identifier/face_matching.py
+face_identifier/face_vector_embedding.py
+face_identifier.egg-info/PKG-INFO
+face_identifier.egg-info/SOURCES.txt
+face_identifier.egg-info/dependency_links.txt
+face_identifier.egg-info/not-zip-safe
+face_identifier.egg-info/requires.txt
+face_identifier.egg-info/top_level.txt

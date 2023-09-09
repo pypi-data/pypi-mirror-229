@@ -1,0 +1,2 @@
+[console_scripts]
+mkwhl = mkwhl.main:main

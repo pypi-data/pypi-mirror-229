@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+qcinfo/__init__.py
+qcinfo/cli.py
+qcinfo.egg-info/PKG-INFO
+qcinfo.egg-info/SOURCES.txt
+qcinfo.egg-info/dependency_links.txt
+qcinfo.egg-info/entry_points.txt
+qcinfo.egg-info/requires.txt
+qcinfo.egg-info/top_level.txt

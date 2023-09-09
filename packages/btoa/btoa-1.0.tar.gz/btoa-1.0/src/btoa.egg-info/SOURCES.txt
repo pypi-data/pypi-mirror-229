@@ -1,0 +1,7 @@
+pyproject.toml
+src/btoa/__init__.py
+src/btoa/main.py
+src/btoa.egg-info/PKG-INFO
+src/btoa.egg-info/SOURCES.txt
+src/btoa.egg-info/dependency_links.txt
+src/btoa.egg-info/top_level.txt

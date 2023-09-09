@@ -1,0 +1,6 @@
+ebbe<2,>=1.9.0
+pyllist
+networkx<3,>=2
+
+[fast]
+llist

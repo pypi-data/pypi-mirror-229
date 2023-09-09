@@ -1,0 +1,13 @@
+WaterScenes/Config.py,sha256=RxcLIkFh_R10wZCpPH5Uaz0SA1gIeJIEA1YSmFgixxU,335
+WaterScenes/DataLoader.py,sha256=tN0Akt2Zl3kpsWwvf_xOd2yX3ZbJcGq_svoKZFLvkwQ,2544
+WaterScenes/Transformation.py,sha256=rmjz2NRodJRCdpJPWLsih9GGEdr2eJij7yBaEaOzdjo,1799
+WaterScenes/WaterScenes.py,sha256=1yPNcxt4ZJEY4lZ6RrgaLJ9uxv-ORVheqxxCo4ujBJM,5776
+WaterScenes/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+WaterScenes/api.py,sha256=zid1W6x041VevS5qcz7JmH8BMM_-XechBaIV5VFe5r0,1969
+WaterScenes/image/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+WaterScenes/image/blank.jpg,sha256=86jfbg7UrHZIJrUcU4r_Dcf16G2JYkL0eeyFCmJyISM,12998
+WaterScenes/image/purple.jpg,sha256=GLoTQfFbEzNDbAAe5kjR2QfOtIMS_TmZb3q2usG6tuY,16446
+WaterScenes-1.0.6.dist-info/METADATA,sha256=CsB2fA5cAzW8uOVrK1_rVYubn7hyoQlUflGGEYgbbhY,252
+WaterScenes-1.0.6.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+WaterScenes-1.0.6.dist-info/top_level.txt,sha256=UjGidk_0yDLqoZcOtcNU8rxGBSxMJSqN69J-ZHqiAMA,12
+WaterScenes-1.0.6.dist-info/RECORD,,

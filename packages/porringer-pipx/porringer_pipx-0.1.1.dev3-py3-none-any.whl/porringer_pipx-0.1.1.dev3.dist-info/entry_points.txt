@@ -1,0 +1,3 @@
+[porringer.environment]
+mock = porringer_pipx.plugin:PipxEnvironment
+

@@ -1,0 +1,6 @@
+[console_scripts]
+git-config=project_phoenix.git:config
+git-pull=project_phoenix.git:pull
+git-update=project_phoenix.git:update
+pip-update=project_phoenix.py3:update
+

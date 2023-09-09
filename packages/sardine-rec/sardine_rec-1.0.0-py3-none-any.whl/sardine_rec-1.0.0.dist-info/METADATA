@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: sardine-rec
+Version: 1.0.0
+Summary: A Simulator for Automated Recommendation in Dynamic and Interactive Environments
+Author: Romain Deffayet
+Author-email: romain.deffayet@naverlabs.com
+Requires-Python: >=3.10,<3.11
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: gymnasium (>=0.28.0,<0.29.0)
+Description-Content-Type: text/markdown
+
+# 🐟 SARDINE: a Simulator for Automated Recommendation in Dynamic and INteractive Environments
+
+## Installation instructions
+
+1. Make sure you have installed Python 3.10 on your system
+2. Install [poetry](https://python-poetry.org/): `curl -sSL https://install.python-poetry.org | python3 -`
+3. Clone the repository and move inside it
+4. Install the requirements: `poetry install`
+5. Try the example script to get accustomed with the simulator: `poetry run python example.py`
+

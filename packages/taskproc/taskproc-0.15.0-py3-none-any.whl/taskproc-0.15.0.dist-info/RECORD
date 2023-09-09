@@ -1,0 +1,8 @@
+taskproc-0.15.0.dist-info/METADATA,sha256=scJWS8Io-igJo6n0WQsYczctdUorT58zWRlqtmuJMrw,10050
+taskproc-0.15.0.dist-info/WHEEL,sha256=1D4d-_ODszlK6-qFybc5BLF-ZhZvee-uKVh2hLa3IIc,90
+taskproc/__init__.py,sha256=EBzkb8fybzetatyuP05o6AoZi8Rrdkdgjr40iOlox20,620
+taskproc/database.py,sha256=NCP6SJXwhUACN8-wNtuNqywb0ns3joKzxd8MMqynfmI,6105
+taskproc/graph.py,sha256=Mna4A22ayWdYuO84UFaV4IbrVEUNpuI1bx3YcggluIE,10504
+taskproc/task.py,sha256=rMrZF1DdU2GT7-yCh4lTgA7Ds668tbBD9pRQwzgHzbI,22677
+taskproc/types.py,sha256=vle5cuhKyU7d5eM9206iDXwHA1sAbugWYu8TjUGa1sw,130
+taskproc-0.15.0.dist-info/RECORD,,

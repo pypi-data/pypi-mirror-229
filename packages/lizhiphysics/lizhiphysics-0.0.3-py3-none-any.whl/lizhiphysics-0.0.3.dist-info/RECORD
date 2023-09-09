@@ -1,0 +1,9 @@
+physics/Units.py,sha256=Y2t8z9-PwZxlHk9RRxy0LQKiTdHD8MgpnUY5DhAPFBo,3828
+physics/__init__.py,sha256=7JmNJAKJ1oktgoMezYXiGFjubUx4OpwrB5BJJXvdBIU,92
+physics/density.py,sha256=KfqIl88N2tmFm3OxQJYJAaCR4XRitgJfiAYFQY2P0Ig,490
+physics/pressure.py,sha256=qfMLnjoB2WDdqBPaMEdrqKXHic2tcc5tqNL34zOGxik,9941
+physics/velocity.py,sha256=jSZGhI5ZzkGXsUV9qgPQD9jWhmjoVk1pVAhucUNcI2E,5734
+lizhiphysics-0.0.3.dist-info/METADATA,sha256=V_rjJ_XvC39psxP3Z3zAqtJk-m4E47RbUg-NQ7vfTjE,832
+lizhiphysics-0.0.3.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+lizhiphysics-0.0.3.dist-info/top_level.txt,sha256=aws060Zz-1h0Kx76JzcE1gLA_AfS1lrRtTCsyUYwDvM,8
+lizhiphysics-0.0.3.dist-info/RECORD,,

@@ -1,0 +1,7 @@
+include idvpackagenew/*.jpg
+include idvpackagenew/*.jpeg
+include idvpackagenew/*.png
+include idvpackagenew/*.xml
+include idvpackagenew/*.h5
+include idvpackagenew/*.json
+include idvpackagenew/haarcascades/*.xml

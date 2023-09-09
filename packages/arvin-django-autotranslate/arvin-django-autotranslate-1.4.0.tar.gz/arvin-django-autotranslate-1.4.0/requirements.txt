@@ -1,0 +1,5 @@
+wheel
+django
+goslate
+polib
+six

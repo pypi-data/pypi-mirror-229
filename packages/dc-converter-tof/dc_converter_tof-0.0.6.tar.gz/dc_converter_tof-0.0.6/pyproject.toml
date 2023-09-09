@@ -1,0 +1,20 @@
+[build-system]
+requires = ["maturin>=0.15,<0.16"]
+build-backend = "maturin"
+
+[project]
+name = "dc_converter_tof"
+version = "0.0.6"
+description = "Converter"
+readme = "Readme.md"
+license = { file = "LICENSE.txt" }
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Rust",
+    "Programming Language :: Python :: Implementation :: CPython",
+    "Programming Language :: Python :: Implementation :: PyPy",
+]
+
+[tool.maturin]
+features = ["pyo3/extension-module"]
+exclude = [".env/", "venv/", ".idea/"]

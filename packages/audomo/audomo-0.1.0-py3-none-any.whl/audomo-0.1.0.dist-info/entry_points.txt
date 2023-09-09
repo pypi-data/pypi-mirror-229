@@ -1,0 +1,3 @@
+[console_scripts]
+audomo=audomo.__main__:app
+

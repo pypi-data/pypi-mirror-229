@@ -1,0 +1,52 @@
+Metadata-Version: 2.1
+Name: audomo
+Version: 0.1.0
+Summary: Audomo: Automatic Document Modifier is a tool for template based document modification.
+License: MIT
+Keywords: jinja,jinja2,template,templating,automation,document,modify,modifier,bulk
+Author: hasansezertasan
+Author-email: hasansezertasan@gmail.com
+Maintainer: hasansezertasan
+Maintainer-email: hasansezertasan@gmail.com
+Requires-Python: >=3,<4
+Classifier: Environment :: Console
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Dist: Jinja2
+Requires-Dist: docxtpl
+Requires-Dist: pandas[excel]
+Requires-Dist: typer
+Description-Content-Type: text/markdown
+
+<h1 align="center">
+    <strong>Audomo</strong>
+</h1>
+<p align="center">
+    <a href="https://github.com/hasansezertasan/audomo" target="_blank">
+        <img src="https://img.shields.io/github/last-commit/hasansezertasan/audomo" alt="Latest Commit">
+    </a>
+        <img src="https://img.shields.io/github/workflow/status/hasansezertasan/audomo/Test">
+        <img src="https://img.shields.io/codecov/c/github/hasansezertasan/audomo">
+    <br />
+    <a href="https://pypi.org/project/audomo" target="_blank">
+        <img src="https://img.shields.io/pypi/v/audomo" alt="Package version">
+    </a>
+    <img src="https://img.shields.io/pypi/pyversions/audomo">
+    <img src="https://img.shields.io/github/license/hasansezertasan/audomo">
+</p>
+
+## Installation
+
+``` bash
+pip install audomo
+```
+

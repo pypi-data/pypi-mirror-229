@@ -1,0 +1,11 @@
+odoo/addons/payment_mode_report_invoice/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+odoo/addons/payment_mode_report_invoice/__manifest__.py,sha256=5mT0mhZ_827v_fLnbvdBfngnpMUuemcrSoS6rDhkVZU,522
+odoo/addons/payment_mode_report_invoice/i18n/ca_ES.po,sha256=IReFEZ7j6C13y0LCp_KaaJk3vjVZWai2oyBKsW3aUX8,1122
+odoo/addons/payment_mode_report_invoice/i18n/es.po,sha256=2WTGnskQi34LHwJowwfhrU6dCLGBZjj0kk1WMF6emp0,1109
+odoo/addons/payment_mode_report_invoice/i18n/eu_ES.po,sha256=RHuUPIdHi7PktaoEKUA3LbHC2sQKM3G0ixz8tLRfKwA,1094
+odoo/addons/payment_mode_report_invoice/i18n/fr.po,sha256=k7Z5D4T4_YEUQP-9CFK1gzQb8nXoeulncafwC6dYirE,1104
+odoo/addons/payment_mode_report_invoice/views/report_invoice.xml,sha256=lZYWRrNiYGZy_VdrfgxDKbe2SfzS2ijgYbldR2ESPzI,889
+odoo14_addon_payment_mode_report_invoice-14.0.1.0.0.dist-info/METADATA,sha256=Sbq8uOdv4Tx3W9O8MzHgnsVILVvw2yxcnkRy7lb7k4c,497
+odoo14_addon_payment_mode_report_invoice-14.0.1.0.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+odoo14_addon_payment_mode_report_invoice-14.0.1.0.0.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
+odoo14_addon_payment_mode_report_invoice-14.0.1.0.0.dist-info/RECORD,,

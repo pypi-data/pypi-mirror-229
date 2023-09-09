@@ -1,0 +1,14 @@
+cowsay/__init__.py,sha256=8Vp53KAFMgvd_w8Bh-jGzSPl2xryuQNrQcvhy1vYJhQ,450
+cowsay/__main__.py,sha256=KCAYvXo4iZolyPKnG5h9xBOiookoIguWITdl50lFld0,655
+cowsay/characters.py,sha256=SgA3F9HhmXxW70Eo9U65LHKDHkTNpOPUnpOjKuDMkiI,12259
+cowsay/main.py,sha256=JISERaxnrwi99lWRswb_5Og0yQh1mdpf8D2bzhT-ptc,1949
+cowsay/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cowsay/tests/solutions.py,sha256=TdLCxGUInzdiVXDGISKIb3Ieo4YvAeuIXgzzQ5EWk4M,38065
+cowsay/tests/test_api.py,sha256=cDuDUv--nrGlupfsCOrSbbECysiWL1pzfzaPa85f5Zg,795
+cowsay/tests/test_output.py,sha256=gmag5R2mvQUBUSIqgM7spNVSRxwIUGo_iZT5SPuMUwM,1118
+cowsay-6.0.dist-info/LICENSE.txt,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+cowsay-6.0.dist-info/METADATA,sha256=K5rzOHcPv2LeAXDZ_JrQZb92XuLAHhle9ADHvS8asQY,5280
+cowsay-6.0.dist-info/WHEEL,sha256=bb2Ot9scclHKMOLDEHY6B2sicWOgugjFKaJsT7vwMQo,110
+cowsay-6.0.dist-info/entry_points.txt,sha256=eA4lDJ_wo3_jLsgyh0peu2yWkpFbr4malOVJtMGVJiw,47
+cowsay-6.0.dist-info/top_level.txt,sha256=45zxJRiJFquDz8AIvNLxZWersc80tEFX0iKLKG868Ck,7
+cowsay-6.0.dist-info/RECORD,,

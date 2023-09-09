@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: revel
+Version: 0.1.0
+Summary: Web apps made simple
+License: GPL
+Author: Jakob Pinterits
+Author-email: jakob.pinterits@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: fastapi (>=0.103.1,<0.104.0)
+Requires-Dist: pandas (>=2.1.0,<3.0.0)
+Requires-Dist: plotly (>=5.16.1,<6.0.0)
+Requires-Dist: typing-extensions (>=4.7.1,<5.0.0)
+Requires-Dist: uvicorn[standard] (>=0.23.2,<0.24.0)
+Description-Content-Type: text/markdown
+
+# Revel - Web Apps Made Easy
+
+WIP: Simple to use UI framework for Python
+

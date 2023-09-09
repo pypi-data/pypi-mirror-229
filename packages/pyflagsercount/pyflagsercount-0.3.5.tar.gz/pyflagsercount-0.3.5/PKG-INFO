@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: pyflagsercount
+Version: 0.3.5
+Summary: A package for counting directed cliques in directed graphs
+Home-page: https://github.com/JasonPSmith/flagser-count
+Author: Jason P. Smith
+Author-email: jasonsmith.bath@gmail.com
+
+A program for counting directed cliques in directed graphs, adapted from https://github.com/luetge/flagser
+
+Official source code repo: https://github.com/JasonPSmith/flagser-count
+
+Requirements: numpy ≥ 1.17.0 and cmake version ≥ 3.9.

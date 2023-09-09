@@ -1,0 +1,10 @@
+fastcore
+jupyterlab
+black
+scanpy
+seaborn
+plotly
+sam-algorithm
+samap
+
+[dev]

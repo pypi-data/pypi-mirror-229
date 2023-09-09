@@ -1,0 +1,9 @@
+click
+jinja2
+nbformat
+nbconvert
+pandas
+pyyaml
+ipython
+requests
+datapeach_wrapper

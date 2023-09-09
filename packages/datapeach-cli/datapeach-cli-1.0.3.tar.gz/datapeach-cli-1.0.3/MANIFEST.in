@@ -1,0 +1,4 @@
+recursive-include templates *.j2
+recursive-include templates *.txt
+recursive-include templates *.md
+recursive-include templates *

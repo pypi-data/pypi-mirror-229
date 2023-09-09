@@ -1,0 +1,11 @@
+hatch_kicad/__init__.py,sha256=7m7Ap7A7jzLNft5VifwnB3kIztlV9Dn_9i-Ne9dwSMk,113
+hatch_kicad/_version.py,sha256=jP37PbzC7u30hqoKJZ41NW3TgoVzxjYdLU5M0drm_y4,160
+hatch_kicad/build.py,sha256=6g5m4x1pyd98-lbLoOwxWTKz5pkFplAUq6kYcTvMmnQ,4922
+hatch_kicad/config.py,sha256=Q-_K6hYqWTfy-XW2sg-EjaXbhBvgO7YIxCbiCso3lKA,16922
+hatch_kicad/hooks.py,sha256=lWeyZgg84tEMse_esw_y9huKvUfWBnqy22JWFq79N4A,261
+hatch_kicad/licenses/supported.py,sha256=9zVhyGRpZDpN-EDq3oBcOFPwj8ltNIh-VhT21hFgdxk,1695
+hatch_kicad-0.3.0.dist-info/METADATA,sha256=68aXAemeS6PN9rtDHFM7W61jTHEBBFovOftpIuLza_c,22838
+hatch_kicad-0.3.0.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+hatch_kicad-0.3.0.dist-info/entry_points.txt,sha256=jwd6PxFWQwuIETudUntunqNJvCXYesfLttcinRn8NDU,34
+hatch_kicad-0.3.0.dist-info/licenses/LICENSE.txt,sha256=U8F4uwsu8C_JgfgomSMpNTloyQziTnvmfwRmiXlOxgI,1105
+hatch_kicad-0.3.0.dist-info/RECORD,,

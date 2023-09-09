@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+datasette_short_links/__init__.py
+datasette_short_links.egg-info/PKG-INFO
+datasette_short_links.egg-info/SOURCES.txt
+datasette_short_links.egg-info/dependency_links.txt
+datasette_short_links.egg-info/entry_points.txt
+datasette_short_links.egg-info/requires.txt
+datasette_short_links.egg-info/top_level.txt
+datasette_short_links/static/index.js
+datasette_short_links/templates/datasette-short-links-admin.html
+tests/test_short_links.py

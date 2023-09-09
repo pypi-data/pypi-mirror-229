@@ -1,0 +1,52 @@
+Metadata-Version: 2.1
+Name: khmer_latin_name_transformer
+Version: 0.0.2
+Summary: Transform Khmer Personal Name into Latin and vice-versa.
+Home-page: https://github.com/seanghay/khmer_latin_name_transformer
+Author: Seanghay Yath
+Author-email: seanghay.dev@gmail.com
+License: Apache License 2.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Requires-Python: >3.5
+Description-Content-Type: text/markdown
+Requires-Dist: pynini
+
+# Khmer Latin Name Transformer
+
+Transform **Khmer Personal Name** into Latin and vice-versa.
+
+**Important!**
+
+Make sure you have `pynini` installed on your current environment before install this library. To install `pynini`, use this
+
+```shell
+conda install -c conda-forge pynini
+```
+
+Install khmer_latin_name_transformer from PyPI
+
+```python
+pip install khmer_latin_name_transformer
+```
+
+## Usage
+
+```python
+from khmer_latin_name_transformer import to_khmer, to_latin
+
+to_khmer("DARA VISAL")
+# => "តារា វិសាល"
+
+to_khmer("linda sokha")
+# => "លីនដា សុខា"
+
+to_latin("តារា វិសាល")
+# => "DARA VISAL"
+```
+
+## License
+
+Apache 2.0

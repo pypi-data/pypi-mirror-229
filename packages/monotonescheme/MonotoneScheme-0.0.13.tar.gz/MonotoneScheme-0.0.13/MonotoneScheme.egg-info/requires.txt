@@ -1,0 +1,9 @@
+numpy
+scipy
+scikit-learn
+matplotlib
+tqdm
+plotly
+ipython
+ipykernel
+nbformat>=5

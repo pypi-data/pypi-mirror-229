@@ -1,0 +1,4 @@
+asgiref
+psutil<6,>=5
+urllib3<2
+wrapt<2.0,>=1.10

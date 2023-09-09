@@ -1,0 +1,14 @@
+htagweb/__init__.py,sha256=jzTYoj1X1q05hyjJLliaNcCoZycY-qr6ucn7l9bOY90,537
+htagweb/__main__.py,sha256=b6k4-jNbxxQxGcBt26-_KtbVRVSntDrhMGCsqm6Avn4,679
+htagweb/appserver.py,sha256=j6Ve_09NpC9jeqPsaRyWGqJkK8vIpio-73ajd3Q3qNg,11493
+htagweb/crypto.py,sha256=yldGmS1UnlG3xaHwdP43XxXDvjk8vfehvR-HIduc8vg,2521
+htagweb/htagserver.py,sha256=S952-UpThVJlp4C9DDxz1wuqmpfYiTPHvarm2VrqtLk,2666
+htagweb/sessions/__init__.py,sha256=UCeI4GUyVsEDH5aU-sYBDs5sTYjuNEQwhquB470YkqY,758
+htagweb/sessions/file.py,sha256=2vK8bQLmNvNkHQ3eEdMlxrZRAQ7OQKxqomqgV_E0ZkU,1398
+htagweb/sessions/memory.py,sha256=XMrvC4v6tzgbtmheV8qP0wL4NE-muMbGUsGbd45Finc,1591
+htagweb/sessions/shm.py,sha256=vfxeAILuMxzlLGPF5PyrW9EDVdn6sNIHyBIozcDmyLE,485
+htagweb/usot.py,sha256=yMYqfTqGKX1fX1Gt7cDDq_PnDzQM8YzkE2xB6DBr41k,7979
+htagweb-0.8.0.dist-info/LICENSE,sha256=3UHJs7Jn8o60WsDhLxgSKwwgK5MfQ05L9nEKTOA7uGQ,1065
+htagweb-0.8.0.dist-info/METADATA,sha256=WhuiodepiWOhZjWsQRMkk8des572rZCONE_wg4o4HJE,4423
+htagweb-0.8.0.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+htagweb-0.8.0.dist-info/RECORD,,

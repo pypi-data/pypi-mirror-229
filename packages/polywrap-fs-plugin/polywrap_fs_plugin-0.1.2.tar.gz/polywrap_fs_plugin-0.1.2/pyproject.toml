@@ -1,0 +1,56 @@
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+name = "polywrap-fs-plugin"
+version = "0.1.2"
+description = "File-system plugin for Polywrap Python Client"
+authors = ["Niraj <niraj@polywrap.io>"]
+readme = "README.rst"
+packages = [{include = "polywrap_fs_plugin"}]
+include = ["polywrap_fs_plugin/wrap/**/*"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+polywrap-plugin = "0.1.2"
+polywrap-core = "0.1.2"
+polywrap-msgpack = "0.1.2"
+polywrap-manifest = "0.1.2"
+
+[tool.bandit]
+exclude_dirs = ["tests"]
+
+[tool.black]
+target-version = ["py310"]
+exclude = "polywrap_fs_plugin/wrap/*"
+
+[tool.pyright]
+typeCheckingMode = "strict"
+reportShadowedImports = false
+exclude = [
+    "**/wrap/"
+]
+
+[tool.pytest.ini_options]
+testpaths = [
+    "tests",
+]
+
+[tool.pylint]
+disable = [
+    "too-many-return-statements",
+    "unused-argument",
+    "invalid-name"
+]
+ignore-paths = [
+    "polywrap_fs_plugin/wrap"
+]
+
+[tool.isort]
+profile = "black"
+multi_line_output = 3
+skip = ["polywrap_fs_plugin/wrap"]
+
+[tool.pydocstyle]
+# default config

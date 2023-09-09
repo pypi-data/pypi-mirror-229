@@ -1,0 +1,1 @@
+Support assigning a resource queue to a node in a workflow when adding it to the workflow.

@@ -1,0 +1,8 @@
+porringer_winget-0.1.1.dev3.dist-info/METADATA,sha256=__5CfFkyh-UfVxyjfwn_80Ou2mG8-g22oD4hYVLIdTo,505
+porringer_winget-0.1.1.dev3.dist-info/WHEEL,sha256=1D4d-_ODszlK6-qFybc5BLF-ZhZvee-uKVh2hLa3IIc,90
+porringer_winget-0.1.1.dev3.dist-info/entry_points.txt,sha256=kcN5r7WjurNuvCdV4EVpJdrlb4kk7zjjwqOfYqijzR0,74
+porringer_winget-0.1.1.dev3.dist-info/licenses/LICENSE.md,sha256=wUELBJ0UKnpv6gI6lccpfQn9LyXZRT0vaLfW-pZDIuc,1073
+porringer_winget/__init__.py,sha256=8ZRc1sGeVrPBx4lD717BgRaQekyh78QKV9SKsdt638U,3
+porringer_winget/plugin.py,sha256=IqiOhxqNSvpSxx31qR_Oe46EGrZS6WJ4oJWIHmLjaZM,1788
+porringer_winget/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+porringer_winget-0.1.1.dev3.dist-info/RECORD,,

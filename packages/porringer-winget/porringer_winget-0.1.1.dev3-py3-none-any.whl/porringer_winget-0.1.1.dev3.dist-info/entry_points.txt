@@ -1,0 +1,3 @@
+[porringer.environment]
+mock = porringer_winget.plugin:WingetEnvironment
+

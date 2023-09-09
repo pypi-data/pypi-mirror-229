@@ -1,0 +1,11 @@
+wxc/__init__.py,sha256=zIzbwEoxy_UNPmdnMPe971pcUgSvFUdIdpzjze_iKYI,22
+wxc/__main__.py,sha256=72rKklHrWf5IDmTd8KFppmSUwpNSUXPl5Q_ExkmHDf0,108
+wxc/api.py,sha256=trToHAvgVTPDv1lF6pDVbJYpm8pL6YEJV2kPqxIQrwQ,5696
+wxc/cli.py,sha256=VC4EPKk2R6nGv08BZrXOcmJUCwHj-OXVUhikG8zlc04,4893
+wxc/levenshtein.py,sha256=msnu8ybF_QhdBR4e3xZ-LS6vyqwJI64zQaClbkokHTE,2076
+wxc-7.1.1.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+wxc-7.1.1.dist-info/METADATA,sha256=ZhAE9zj3MqjvnK0H_ZenuaAZSxo4yrd-5dI2JxlMTdw,3165
+wxc-7.1.1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+wxc-7.1.1.dist-info/entry_points.txt,sha256=6o4Rp3fkSjFI3_vnIdIDHM63HUHUjOjc-Gv9Uody_ss,37
+wxc-7.1.1.dist-info/top_level.txt,sha256=jyuPudYHVn5XNI16ybcg7ASvtBkQIK6y9OXE-FDKLGg,4
+wxc-7.1.1.dist-info/RECORD,,

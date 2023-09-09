@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+karanraiproject1/__init__.py
+karanraiproject1/pdf2text.py
+karanraiproject1.egg-info/PKG-INFO
+karanraiproject1.egg-info/SOURCES.txt
+karanraiproject1.egg-info/dependency_links.txt
+karanraiproject1.egg-info/top_level.txt

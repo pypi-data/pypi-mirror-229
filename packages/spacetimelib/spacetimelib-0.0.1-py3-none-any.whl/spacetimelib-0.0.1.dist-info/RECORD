@@ -1,0 +1,10 @@
+spacetime/__init__.py,sha256=O5D5ye8-pq_Bswwd8MJuTBqznVuhC5NB-o9RRa1Ktys,319
+spacetime/basic_ops.py,sha256=dQjwDH_ig6WYErMmAX5WTS3ZHMqvW-rsBzQHhrRknHs,15487
+spacetime/error_checking.py,sha256=nJt2Klr4YTXRgS5TV1VQSFM_FqxaeiLI7d_GmBsnqEU,2173
+spacetime/frame.py,sha256=mfWuYzhzR0Bois_KM5iI05dB95MQQlfENSHdbPSahgQ,15465
+spacetime/worldline.py,sha256=n1FYa1KUvSPdlbQjgRGuBGKK6OLcVRQXQNBEOIpORVI,26962
+spacetimelib-0.0.1.dist-info/LICENSE,sha256=jmVkx2AHLW2dkZiy7egThG51crRcQJtRS1DcR49yhIQ,1068
+spacetimelib-0.0.1.dist-info/METADATA,sha256=FFtgm4pn0MPGSv3-ymbG5HiPnbhTMVJdfE41iPGVNJc,1639
+spacetimelib-0.0.1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+spacetimelib-0.0.1.dist-info/top_level.txt,sha256=kZu8ToqNqQdrhcqdvDquGrwGL3YDflyDqygoWhUMG2M,10
+spacetimelib-0.0.1.dist-info/RECORD,,

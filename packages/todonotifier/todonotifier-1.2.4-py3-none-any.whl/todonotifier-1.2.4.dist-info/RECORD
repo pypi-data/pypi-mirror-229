@@ -1,0 +1,14 @@
+todonotifier/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+todonotifier/config.py,sha256=m8qvrIewyE7aeftg-UFsTSMYHpS_YJZvMZCflnKstzU,8036
+todonotifier/connect.py,sha256=w9HZPGiFOpgaeFyRcz0vD2soL05zOUT9kwovHndB5FE,5898
+todonotifier/constants.py,sha256=JAn1317CoFWOvRqkWXZytN4z3liRvt2lPsexj32ziLs,3629
+todonotifier/driver.py,sha256=xnKwhoTgluQUAPJ1eRw1PahmCGgxuaTCbc1YVFg_QUo,2632
+todonotifier/models.py,sha256=15v1l_IRBqW6wsBEY_3KJCVaWoOHiOYVn6Wpfz4aXa0,4397
+todonotifier/notifier.py,sha256=9UyUGdbO3dH-cpOqytd-cGqkinqRe8AL4ddwN64hzmo,3354
+todonotifier/summary_generators.py,sha256=dhFHnrvVzNf1nvdMYHXqsb2EHepfQ3eirU_NXPA6vrc,12431
+todonotifier/todo_notifier.py,sha256=xSDfmGxNPh3Gq-Wn-OZ_cgy5nVFulPQev4sYC9Geack,3593
+todonotifier/utils.py,sha256=fUZwBkZNL5M0ETt3X8ONIvBlX7pkfMLv-4lhiLN4yCY,7764
+todonotifier-1.2.4.dist-info/METADATA,sha256=M8plzBtQsdz76STMM7xIe5mJzcD8hoAUztKp7s0Nxv8,9556
+todonotifier-1.2.4.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+todonotifier-1.2.4.dist-info/top_level.txt,sha256=bsx8Iz5L9NsVZNHhvZs8nQPgrvqEdtq9CkRkUcodVmI,13
+todonotifier-1.2.4.dist-info/RECORD,,

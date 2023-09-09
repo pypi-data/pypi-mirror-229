@@ -1,0 +1,6 @@
+README.md
+setup.py
+src/vic_data_science.egg-info/PKG-INFO
+src/vic_data_science.egg-info/SOURCES.txt
+src/vic_data_science.egg-info/dependency_links.txt
+src/vic_data_science.egg-info/top_level.txt

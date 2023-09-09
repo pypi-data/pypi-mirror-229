@@ -1,0 +1,1 @@
+LIKES_API = 'https://twitter.com/i/api/graphql/lI07N6Otwv1PhnEgXILM7A/FavoriteTweet'

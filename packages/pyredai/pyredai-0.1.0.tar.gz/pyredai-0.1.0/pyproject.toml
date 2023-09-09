@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "pyredai"
+version = "0.1.0"
+description = "PyRedAI is a python library to interact with LLMs using LangChain as a core of this library"
+authors = ["Cecep Aprilianto <cecepaprilianto@gmail.com>"]
+readme = "README.md"
+license = "Apache-2.0"
+repository = "https://github.com/Redcomm-Shared-Dev/pyredai"
+packages = [{include = "pyredai"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[tool.poetry.group.test.dependencies]
+pytest = "^7.4.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

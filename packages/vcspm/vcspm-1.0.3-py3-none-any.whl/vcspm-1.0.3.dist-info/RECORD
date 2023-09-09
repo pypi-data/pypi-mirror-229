@@ -1,0 +1,13 @@
+vcspm/HelpFormatter.py,sha256=jDxTy49Q81Xs2buOkSew5BxqmCG5WATNg3H5DSrchXs,516
+vcspm/__init__.py,sha256=QyM9wgvT8jb3i2UAvaklCjVlo1Bl7l3ZTiKy5SBUqxc,984
+vcspm/__main__.py,sha256=hBwZpImSJVhWbD8da9BZKFBHm323qkSv7L6eP8ouBHs,1034
+vcspm/decompress.py,sha256=Iy3BiNsiyam2Fwy2Ffis-b0Fi1UCvhsUDE3HCHvvrpg,3401
+vcspm/vcspm.py,sha256=QmlN1BguCk3MsK6RThsJMM0flJUFDf54_EF0tlTS-UI,36130
+vcspm/vcspm_packages_template.json,sha256=FlqrfNcFDrl2q2SC1XQx4wxOjaFIQJ_B-rpiJN18eY4,2361
+vcspm/version.py,sha256=jESq7ftlDB8Kg0mmAcsPtQSIA_t3PZO7335uh0WruS4,23
+vcspm-1.0.3.dist-info/LICENSE,sha256=Hn5rrlpb3jLxrlp8N6CC0asDz4k1T3-TasQL6eOaZTE,27032
+vcspm-1.0.3.dist-info/METADATA,sha256=_ZhECFVDmeDAwtJo0_Uezulj2K0RaIMuTeHvkK8Eqhs,5666
+vcspm-1.0.3.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+vcspm-1.0.3.dist-info/entry_points.txt,sha256=MXRoz6PyhQ98s8ApzR7Jm4nVcct5D42OKS2Kz7F0vac,43
+vcspm-1.0.3.dist-info/top_level.txt,sha256=Romw6dVNmwI7xDp9oNsqnMlW1szV455ruSBlcTkipaQ,6
+vcspm-1.0.3.dist-info/RECORD,,

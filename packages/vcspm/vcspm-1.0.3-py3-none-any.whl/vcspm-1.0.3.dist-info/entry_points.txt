@@ -1,0 +1,2 @@
+[console_scripts]
+vcspm = vcspm.vcspm:main

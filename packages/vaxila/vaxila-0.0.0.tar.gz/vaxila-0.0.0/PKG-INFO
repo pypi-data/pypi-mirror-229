@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: vaxila
+Version: 0.0.0
+Summary: OpenTelemetry Python distribution for Vaxila
+Project-URL: Homepage, https://github.com/vaxila-labs/vaxila-python
+Project-URL: Bug Tracker, https://github.com/vaxila-labs/vaxila-python/issues
+Author-email: Vaxila Labs <hello@vaxila-labs.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# OpenTelemetry Python distribution for Vaxila

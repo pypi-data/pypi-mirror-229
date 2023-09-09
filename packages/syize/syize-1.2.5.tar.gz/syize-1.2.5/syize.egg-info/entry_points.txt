@@ -1,0 +1,4 @@
+[console_scripts]
+picture = syize.picture_run:run
+pydiff = syize.diff_run:run
+string = syize.string_run:run

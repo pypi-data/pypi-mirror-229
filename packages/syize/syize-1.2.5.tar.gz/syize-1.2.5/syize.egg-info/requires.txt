@@ -1,0 +1,8 @@
+Pillow
+pytesseract
+pdf2image
+rich
+matplotlib
+Cartopy
+haversine
+cnmaps

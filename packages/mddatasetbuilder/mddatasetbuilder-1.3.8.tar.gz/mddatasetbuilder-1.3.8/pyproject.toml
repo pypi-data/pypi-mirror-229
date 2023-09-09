@@ -1,0 +1,103 @@
+[build-system]
+requires = ["setuptools>=61", "setuptools_scm[toml]>=6.2", "cython>=3.0.1", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mddatasetbuilder"
+dynamic = ["version"]
+description = "A script to generate molecular dynamics (MD) datasets for machine learning from given LAMMPS trajectories automatically."
+authors = [
+  {name = "Jinzhe Zeng", email = "jinzhe.zeng@rutgers.edu"},
+]
+license = {file = "LICENSE"}
+classifiers = [
+    "Natural Language :: English",
+    "Operating System :: POSIX :: Linux",
+    "Operating System :: Microsoft :: Windows",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Topic :: Scientific/Engineering :: Chemistry",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: Software Development :: Version Control :: Git",
+]
+dependencies = [
+    'numpy',
+    'scikit-learn',
+    'ase',
+    'gaussianrunner>=1.0.20',
+    'tqdm>=4.9.0',
+    'coloredlogs',
+    'lz4',
+    'dpdata>=0.1.2',
+    'openbabel-wheel>=3.1.0.0',
+]
+requires-python = ">=3.7"
+readme = "docs/README.md"
+keywords = ["dataset", "molecular dynamics"]
+
+[project.urls]
+homepage = "https://github.com/tongzhugroup/mddatasetbuilder"
+documentation = "https://mddatasetbuilder.njzjz.win/"
+repository = "https://github.com/tongzhugroup/mddatasetbuilder"
+
+[project.entry-points.console_scripts]
+datasetbuilder = "mddatasetbuilder.datasetbuilder:_commandline"
+qmcalc = "mddatasetbuilder.qmcalc:_commandline"
+preparedeepmd = "mddatasetbuilder.deepmd:_commandline"
+
+[project.optional-dependencies]
+test = [
+    'requests',
+    'pytest-sugar',
+    'pytest-cov<4',
+    'cython',
+    'fakegaussian>=0.0.3',
+]
+
+[tool.setuptools.packages.find]
+include = ["mddatasetbuilder*"]
+
+[tool.setuptools_scm]
+write_to = "mddatasetbuilder/_version.py"
+fallback_version = "Unknown"
+
+[tool.cibuildwheel]
+test-command = "datasetbuilder -h"
+build = ["cp37-*", "cp38-*", "cp39-*", "cp310-*", "cp311-*"]
+skip = ["*-win32", "*-manylinux_i686", "*-musllinux*"]
+test-skip = "*-win_amd64 cp311-*"
+
+[tool.cibuildwheel.linux]
+environment-pass = ["CIBW_BUILD"]
+# Use abi3audit to catch issues with Limited API wheels
+repair-wheel-command = [
+  "auditwheel repair -w {dest_dir} {wheel}",
+  "pipx run abi3audit --strict --report {wheel}",
+]
+
+[tool.cibuildwheel.macos]
+repair-wheel-command = [
+  "delocate-wheel --require-archs {delocate_archs} -w {dest_dir} -v {wheel}",
+  "pipx run abi3audit --strict --report {wheel}",
+]
+
+[tool.ruff]
+select = [
+    "E", # errors
+    "F", # pyflakes
+    "D", # pydocstyle
+    "I", # isort
+    "UP", # pyupgrade
+    "C4", # flake8-comprehensions
+]
+ignore = [
+    "E501", # line too long
+    "E741", # ambiguous variable name
+    "E402", # module level import not at top of file
+]
+
+[tool.ruff.pydocstyle]
+convention = "numpy"

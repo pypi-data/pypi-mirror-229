@@ -1,0 +1,16 @@
+numpy
+scikit-learn
+ase
+gaussianrunner>=1.0.20
+tqdm>=4.9.0
+coloredlogs
+lz4
+dpdata>=0.1.2
+openbabel-wheel>=3.1.0.0
+
+[test]
+requests
+pytest-sugar
+pytest-cov<4
+cython
+fakegaussian>=0.0.3

@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: interfolio-api
+Version: 0.1
+Summary: A Python client for Interfolio
+Home-page: https://github.com/Rice-University-Academic-Affairs/Interfolio-API
+Author: Rice University Office of the Vice Provost of Academic Affairs
+Author-email: vpaa@rice.edu
+Requires-Dist: requests

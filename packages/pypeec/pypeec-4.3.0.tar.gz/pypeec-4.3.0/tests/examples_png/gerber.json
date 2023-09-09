@@ -1,0 +1,19 @@
+{
+    "metadata": {
+        "folder": "examples_png",
+        "name": "gerber",
+        "timestamp": "2023-06-27 14:28:17.328374"
+    },
+    "mesher": {
+        "n_total": 479682,
+        "n_used": 46442
+    },
+    "solver": {
+        "sim_default": {
+            "freq": 1000000.0,
+            "has_converged": true,
+            "P_tot": 0.04955584703842523,
+            "W_tot": 3.4521439807618817e-09
+        }
+    }
+}

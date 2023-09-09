@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/django_template_parser.egg-info/PKG-INFO
+src/django_template_parser.egg-info/SOURCES.txt
+src/django_template_parser.egg-info/dependency_links.txt
+src/django_template_parser.egg-info/top_level.txt

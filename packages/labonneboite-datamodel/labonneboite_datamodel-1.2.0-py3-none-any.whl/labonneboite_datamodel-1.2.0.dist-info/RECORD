@@ -1,0 +1,15 @@
+labonneboite_datamodel/__init__.py,sha256=4LxJ9Bkxgoylq7Wp677RiC0za0WUYxmzd6p6wZCi3M4,337
+labonneboite_datamodel/base.py,sha256=FWH_KrQWW16xae66-7PVPELcmpu2brSHoD_aRgmDc2A,941
+labonneboite_datamodel/job.py,sha256=W0yXzV4NmTUcPbJJt4-RMldtKEqVtpvPlm2fzLEifUk,2945
+labonneboite_datamodel/office.py,sha256=OQTmbnF-2cTYbP5Q9kdqMB6vD1JJsLseOnWZ8BsdIro,7602
+labonneboite_datamodel/rome.py,sha256=36R0RRQQ9kbi259LIgHk4LhiQ7tsH0pTiW_Wql-nsw8,1328
+labonneboite_datamodel/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+labonneboite_datamodel/tests/data/test.csv,sha256=L0InNKGEGYhUEiYbXuMYrAwpqPSG7mveK0z3M84mwlU,3589
+labonneboite_datamodel/tests/test_base.py,sha256=sTcbTCIblEh23bxbJX7bSaUwq6KjfVEd8Q9qeYoAusU,449
+labonneboite_datamodel/tests/test_job.py,sha256=iMERHsL6XS4itXzof1UOzgyYRv0tSG7I85-AK4gToJQ,1271
+labonneboite_datamodel/tests/test_office.py,sha256=JTbJL8oUGYelrn6OhODjqiRcnzKSOUXSspREu-P0GTo,4814
+labonneboite_datamodel/tests/test_office_metadata.py,sha256=tkzq9K2Jo4B7sRuUIa8UUy6Ox3AuZYdKw9p9RqXDWOU,1211
+labonneboite_datamodel/tests/test_rome.py,sha256=o14diE6S3d_4fNS3WlNPMlE1-WKOnsGfoE9VB7ASzQI,1343
+labonneboite_datamodel-1.2.0.dist-info/METADATA,sha256=aITG2lG0sxJL-ren7wWvyIgxIME-7PW8T2PaZ1YeWH8,489
+labonneboite_datamodel-1.2.0.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+labonneboite_datamodel-1.2.0.dist-info/RECORD,,

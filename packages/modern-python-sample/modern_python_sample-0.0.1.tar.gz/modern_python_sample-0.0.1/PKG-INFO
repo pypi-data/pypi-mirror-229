@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: modern-python-sample
+Version: 0.0.1
+Summary: Sample python project
+Home-page: https://github.com/veeravignesh1/modern-python-sample
+License: MIT
+Keywords: hypermodern,sample
+Author: Veera Vignesh
+Author-email: kveeravignesh2@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: click (>=8.1.7,<9.0.0)
+Requires-Dist: requests (>=2.31.0,<3.0.0)
+Project-URL: Repository, https://github.com/veeravignesh1/modern-python-sample
+Description-Content-Type: text/markdown
+
+# modern-python-sample
+Sample python package created by following hypermodern-python blog
+

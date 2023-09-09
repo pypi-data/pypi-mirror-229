@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "modern-python-sample"
+version = "0.0.1"
+description = "Sample python project"
+authors = ["Veera Vignesh <kveeravignesh2@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/veeravignesh1/modern-python-sample"
+repository = "https://github.com/veeravignesh1/modern-python-sample"
+keywords = ["hypermodern","sample"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+click = "^8.1.7"
+requests = "^2.31.0"
+
+[tool.poetry.scripts]
+modern-python-sample = "modern_python_sample.console:main"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

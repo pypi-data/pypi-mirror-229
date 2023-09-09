@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+test/test.py
+trustauthx/__init__.py
+trustauthx/authlite.py
+trustauthx.egg-info/PKG-INFO
+trustauthx.egg-info/SOURCES.txt
+trustauthx.egg-info/dependency_links.txt
+trustauthx.egg-info/requires.txt
+trustauthx.egg-info/top_level.txt

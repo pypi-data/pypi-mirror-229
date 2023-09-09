@@ -1,0 +1,16 @@
+# Python virtual environment
+venv/
+# Compiled Python files
+*.pyc
+# PyCharm IDE files
+.idea/
+# Sandbox module
+sandbox.py
+# Locally built and installed module
+build/
+dbdreader.egg-info/
+dist/
+# auto generated files:
+MANIFEST
+# emacs backup files
+*~

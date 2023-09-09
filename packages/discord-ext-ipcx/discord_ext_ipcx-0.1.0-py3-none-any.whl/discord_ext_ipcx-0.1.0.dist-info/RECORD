@@ -1,0 +1,9 @@
+LICENSE,sha256=6t3nD7gk0dHgnFZfFwmuN_UE9swRnOT8lFdCb5OcMdk,11342
+discord/ext/ipcx/__init__.py,sha256=eyMNDl0Z7wQC0IH5plC42bspmfyZ8HcW10aLtrOFRAA,726
+discord/ext/ipcx/client.py,sha256=fK24Vb8p3Stn56Y03HuVGT0oRFL6zWP6j4AGBOcrqk8,4383
+discord/ext/ipcx/errors.py,sha256=rplNZliShysJ5I67MGI6k6PI53Vp6x7magRZ1CCNabI,502
+discord/ext/ipcx/server.py,sha256=7ZkqL-cFVgIy5X3BjC_g1wFul6ReNTvW9cmlEZXHs2Q,8984
+discord_ext_ipcx-0.1.0.dist-info/LICENSE,sha256=6t3nD7gk0dHgnFZfFwmuN_UE9swRnOT8lFdCb5OcMdk,11342
+discord_ext_ipcx-0.1.0.dist-info/METADATA,sha256=Evmiwm1akcQhYiAUmfhTtSSkPNqppp2TuytsMUcq5sc,1642
+discord_ext_ipcx-0.1.0.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+discord_ext_ipcx-0.1.0.dist-info/RECORD,,

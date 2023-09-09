@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: antgrid_server
+Version: 0.0.2
+Summary: A package for registering servers in Antgrid.
+Project-URL: Homepage, https://github.com/pypa/sampleproject
+Project-URL: Bug Tracker, https://github.com/pypa/sampleproject/issues
+Author: antgrid
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: ==3.8.*
+Requires-Dist: accelerate
+Requires-Dist: colorama
+Requires-Dist: cpm-kernels
+Requires-Dist: diffusers==0.14
+Requires-Dist: numpy
+Requires-Dist: nvidia-pytriton
+Requires-Dist: pillow
+Requires-Dist: sentencepiece
+Requires-Dist: streamlit
+Requires-Dist: torch
+Requires-Dist: transformers
+Requires-Dist: transformers-stream-generator
+Requires-Dist: websocket-client
+Description-Content-Type: text/markdown
+
+# antgrid
+antgrid pypi
+
+# Interface
+server_start: server注册
+
+baichuan_start: 启动Baichuan模型
+
+chatglm_start: 启动chatglm模型
+
+llama2_start: 启动llama2模型
+
+sd_start: 启动stable diffusion模型

@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: ninetydf
+Version: 0.1
+Summary: 90 Day Fiancé dataframes
+Author: 90df
+License: MIT
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: pandas
+Requires-Dist: importlib-resources; python_version < "3.9"
+
+# ninetydf

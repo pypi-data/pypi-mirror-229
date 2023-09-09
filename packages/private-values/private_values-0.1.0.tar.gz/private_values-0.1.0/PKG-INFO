@@ -1,0 +1,74 @@
+Metadata-Version: 2.1
+Name: private_values
+Version: 0.1.0
+Summary: Update class attributes from OsEnvironment or RcFile
+Author: Andrei Starichenko
+Author-email: centroid@mail.ru
+Project-URL: Source, https://github.com/centroid457/private_values
+Keywords: environs environment rc private
+Classifier: Topic :: Security
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: System :: Logging
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Operating System :: OS Independent
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Typing :: Typed
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# private_values
+
+
+## Inspiration
+Designed to use private data like username/pwd kept in OsEnvironment (or RcFile or even both variants) and not open it in public projects.  
+Main goals: short implementation and OOP usage.  
+
+So for your projects it helps you to share it in public and keep private data in secure.
+
+
+## Features
+
+1. Create classes with special attributes, which will be updated from OsEnvirons or RcFile.  
+By default it must startswith PREFIX PV___.  
+In case of OsEnvirons - it is very simple.  
+For RcFile it gives you much more flexibility with ini-sections.
+
+2. Ability to set default values.  
+By this way you can share for example open username/pwd data, end user must create private data in the OS.
+
+3. If finally no value withing any special attributes - raise Exception.  
+You can disable this behaviour.
+
+
+## License
+
+See the [LICENSE](LICENSE) file for license rights and limitations (MIT).
+
+
+## Release history
+
+See the [HISTORY.md](HISTORY.md) file for release history.
+
+
+## Help
+
+See the [GUIDE.md](GUIDE.md) file for get started.
+
+
+## Installation
+
+```commandline
+python pip install environs_os_getter_class
+```
+
+## Import
+
+```python
+from private_values import PrivateValues
+```

@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: yamlconf-kei
+Version: 0.0.1
+Summary: Reading settings written in yaml
+Home-page: https://github.com/keika/yamlconf
+Author: keika
+Author-email: keika076@gmail.com
+License: MIT
+Keywords: キーワード
+Classifier: Topic :: Utilities
+Requires-Python: >=3.9

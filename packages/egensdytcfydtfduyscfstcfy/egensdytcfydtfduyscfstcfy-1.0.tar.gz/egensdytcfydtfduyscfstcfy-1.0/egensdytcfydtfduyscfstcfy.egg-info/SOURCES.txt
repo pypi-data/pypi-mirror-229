@@ -1,0 +1,6 @@
+setup.py
+egensdytcfydtfduyscfstcfy.egg-info/PKG-INFO
+egensdytcfydtfduyscfstcfy.egg-info/SOURCES.txt
+egensdytcfydtfduyscfstcfy.egg-info/dependency_links.txt
+egensdytcfydtfduyscfstcfy.egg-info/top_level.txt
+project/models.py

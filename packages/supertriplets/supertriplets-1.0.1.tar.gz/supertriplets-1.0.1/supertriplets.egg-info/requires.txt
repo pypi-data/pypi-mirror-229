@@ -1,0 +1,17 @@
+pandas
+numpy
+Pillow
+torch
+timm
+torchvision
+transformers
+sentence-transformers
+scikit-learn
+faiss-gpu
+
+[dev]
+pre-commit
+ruff
+black
+pytest
+pytest-cov

@@ -1,0 +1,5 @@
+pigpio>=1.78
+adafruit-blinka>=8.21
+adafruit-circuitpython-pca9685>=3.4.10
+python-singleton>=0.1.2
+RPi.GPIO==0.7.1

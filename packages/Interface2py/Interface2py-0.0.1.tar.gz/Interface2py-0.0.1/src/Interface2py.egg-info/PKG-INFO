@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: Interface2py
+Version: 0.0.1
+Requires-Dist: requests
+Requires-Dist: importlib-metadata; python_version == "3.10"
+Requires-Dist: typing
+Requires-Dist: functools
+Requires-Dist: json
+Requires-Dist: builtins

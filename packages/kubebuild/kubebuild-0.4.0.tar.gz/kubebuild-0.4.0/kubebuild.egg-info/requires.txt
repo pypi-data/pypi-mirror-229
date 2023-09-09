@@ -1,0 +1,7 @@
+click
+PyInquirer
+PyYAML
+regex
+rich
+setuptools
+typer

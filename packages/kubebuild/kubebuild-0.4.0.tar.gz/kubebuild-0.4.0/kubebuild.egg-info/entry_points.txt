@@ -1,0 +1,3 @@
+[console_scripts]
+KubeBuild = kubebuild:__init__
+

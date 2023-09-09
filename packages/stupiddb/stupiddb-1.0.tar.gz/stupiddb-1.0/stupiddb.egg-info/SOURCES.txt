@@ -1,0 +1,7 @@
+README.md
+setup.py
+stupiddb/__init__.py
+stupiddb.egg-info/PKG-INFO
+stupiddb.egg-info/SOURCES.txt
+stupiddb.egg-info/dependency_links.txt
+stupiddb.egg-info/top_level.txt

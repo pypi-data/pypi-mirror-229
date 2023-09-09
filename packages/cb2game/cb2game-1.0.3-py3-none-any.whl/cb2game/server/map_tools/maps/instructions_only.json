@@ -1,0 +1,30 @@
+{
+  "scenario_id": "robin-black",
+  "turn_state": {
+    "turn": 1,
+    "moves_remaining": 10000000,
+    "turns_left": 6,
+    "turn_end": "2023-02-14T21:45:19.704158",
+    "game_start": "2023-02-14T21:44:49.686508",
+    "sets_collected": 0,
+    "score": 0,
+    "game_over": false,
+    "turn_number": 0
+  },
+  "objectives": [
+    {
+      "sender": 2,
+      "text": "This scenario should not touch the map or props.",
+      "uuid": "1c76254543bd477a9205a081306e9000",
+      "completed": false,
+      "cancelled": false
+    },
+    {
+      "sender": 2,
+      "text": "Incomplete scenario update, just replaces instructions.",
+      "uuid": "lc76254543bd477a9205a081306e9001",
+      "completed": false,
+      "cancelled": false
+    }
+  ]
+}

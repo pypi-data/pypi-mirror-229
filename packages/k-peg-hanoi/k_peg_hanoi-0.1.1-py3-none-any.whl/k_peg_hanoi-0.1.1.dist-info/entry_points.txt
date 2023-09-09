@@ -1,0 +1,3 @@
+[console_scripts]
+hanoi=k_peg_hanoi:main
+

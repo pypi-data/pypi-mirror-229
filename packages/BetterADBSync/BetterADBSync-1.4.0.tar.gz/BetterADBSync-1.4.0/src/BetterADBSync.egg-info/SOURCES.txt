@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+src/BetterADBSync/SAOLogging.py
+src/BetterADBSync/__init__.py
+src/BetterADBSync/argparsing.py
+src/BetterADBSync.egg-info/PKG-INFO
+src/BetterADBSync.egg-info/SOURCES.txt
+src/BetterADBSync.egg-info/dependency_links.txt
+src/BetterADBSync.egg-info/entry_points.txt
+src/BetterADBSync.egg-info/top_level.txt
+src/BetterADBSync/FileSystems/Android.py
+src/BetterADBSync/FileSystems/Base.py
+src/BetterADBSync/FileSystems/Local.py
+src/BetterADBSync/FileSystems/__init__.py

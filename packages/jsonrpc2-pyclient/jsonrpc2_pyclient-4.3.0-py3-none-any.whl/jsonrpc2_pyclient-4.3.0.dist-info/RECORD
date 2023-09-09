@@ -1,0 +1,10 @@
+jsonrpc2pyclient/__init__.py,sha256=V4Y_H64JqUlbRwG5jeBdNJJLpZQFb-3jqv4pOQtihx4,68
+jsonrpc2pyclient/_irpcclient.py,sha256=wtsf9xNr4Lb2rsit-I0kDC0FTIW0S59Qe5hBCiZ0Qq8,3255
+jsonrpc2pyclient/decorator.py,sha256=tLLsTvWexcJG1ls_cHQkY7JuzZx5mRyMvNTcu6xFHb4,4019
+jsonrpc2pyclient/httpclient.py,sha256=uB_PsoeFK87Fq-RUaEeH41vQ8W6EHOOqqnKx2gkUbkA,2126
+jsonrpc2pyclient/rpcclient.py,sha256=f1s0j9QtPp91xNcBYizXFHIV9uc_1bZDK8GMd0ewGls,1957
+jsonrpc2pyclient/wsclient.py,sha256=hHdA8MNTcc7gXVzr7m7bgngzrWRZsSs6BYL9uAt2DO4,2842
+jsonrpc2_pyclient-4.3.0.dist-info/LICENSE,sha256=LE0v66Gjr80JGPRxB-7kuzntjBMPTk_lk5s5iIc8-tg,34470
+jsonrpc2_pyclient-4.3.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+jsonrpc2_pyclient-4.3.0.dist-info/METADATA,sha256=j578cDfqfV8eg9yjkMTlIckEF6HDsvQOO1Dd99OtrFc,4329
+jsonrpc2_pyclient-4.3.0.dist-info/RECORD,,

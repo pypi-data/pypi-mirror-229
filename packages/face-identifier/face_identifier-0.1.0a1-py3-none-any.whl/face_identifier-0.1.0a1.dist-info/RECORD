@@ -1,0 +1,10 @@
+face_identifier/__init__.py,sha256=JO4O2oQVbS8AZ3b_ghQMNc-nGOlYnXCfv-zlAgEfCjY,58
+face_identifier/face_comparation.py,sha256=iKrt5xAQfCR_w5bRh0ur6NTl5PFfrcpXK-HYpjsl8dM,167
+face_identifier/face_detection.py,sha256=LLfLx9lwA_r-m9qGtvzmzcuTyFHj9-29frZ_vBWjCwE,136
+face_identifier/face_extraction.py,sha256=jO7F_ZJbaRUdmMYXoI04zeR4wtSgXwL-jxmGm0r0OAo,315
+face_identifier/face_matching.py,sha256=IhYIMiwu-Z2Qc3eUMnMk5Z-8IGwV7ORlErU_Vo_hkkQ,747
+face_identifier/face_vector_embedding.py,sha256=YtPZaRSc4ib2LUNYx1Yv-2bc2p_8Apxq8-vmjyx5Tzs,379
+face_identifier-0.1.0a1.dist-info/METADATA,sha256=MT4emWHWfgxBNVRFdFFM-vGVpSYYxVM_65w4ZLovntc,549
+face_identifier-0.1.0a1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+face_identifier-0.1.0a1.dist-info/top_level.txt,sha256=4A2l6-ecqqKYMMcb_b0yoyb0-Sgh1ciip_yjrZ_Ehwk,16
+face_identifier-0.1.0a1.dist-info/RECORD,,

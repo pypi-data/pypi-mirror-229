@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: face-identifier
+Version: 0.1.0a1
+Summary: Recognition implement with MTCNN and VGGFace
+Home-page: https://github.com/Uysim/face-identifier
+Author: Uysim Ty
+Author-email: uysimty@gmail.com
+License: MIT
+Keywords: face detection,face match,mtcnn,tensorflow,keras,vggface,deeplearning
+Requires-Dist: tensorflow <2.13.0
+Requires-Dist: mtcnn >=0.1.0
+Requires-Dist: keras-applications >=1.0.8
+Provides-Extra: tf
+Requires-Dist: tensorflow ; extra == 'tf'
+Provides-Extra: tf_gpu
+Requires-Dist: tensorflow-gpu ; extra == 'tf_gpu'
+

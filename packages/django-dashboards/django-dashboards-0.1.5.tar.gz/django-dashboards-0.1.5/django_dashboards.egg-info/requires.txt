@@ -1,0 +1,7 @@
+Django>=3.2
+django-cors-headers
+django-asset-definitions
+pandas
+plotly
+plotly_express
+typing_extensions

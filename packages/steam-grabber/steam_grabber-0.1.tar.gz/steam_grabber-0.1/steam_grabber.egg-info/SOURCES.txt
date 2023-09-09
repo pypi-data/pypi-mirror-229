@@ -1,0 +1,8 @@
+setup.py
+steam_grabber/__init__.py
+steam_grabber/steam_grabber.py
+steam_grabber.egg-info/PKG-INFO
+steam_grabber.egg-info/SOURCES.txt
+steam_grabber.egg-info/dependency_links.txt
+steam_grabber.egg-info/requires.txt
+steam_grabber.egg-info/top_level.txt

@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: steam_grabber
+Version: 0.1
+Summary: Async lib to grab a lot of useful info about an account. 2FA must be turned off. Supports proxy.
+Author: Y0natari
+Author-email: nickxon015@gmail.com
+License: MIT

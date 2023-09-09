@@ -1,0 +1,7 @@
+check_syncrepl_extended/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+check_syncrepl_extended/check_syncrepl_extended.py,sha256=WkfW8MugLLRf_PX1NBEzhqqrhRaX4xsPxhTVnvTT8is,28338
+check_syncrepl_extended-2020.13.1.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+check_syncrepl_extended-2020.13.1.dist-info/METADATA,sha256=9FIhtPaXHbA0UYpo2KSe8eA_eE1tWM93PaVF9MVPgPg,6896
+check_syncrepl_extended-2020.13.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+check_syncrepl_extended-2020.13.1.dist-info/top_level.txt,sha256=RUTEGVlw6IQXYlqGoC7-5hKLAUltwR8j4LVh3q94P50,24
+check_syncrepl_extended-2020.13.1.dist-info/RECORD,,

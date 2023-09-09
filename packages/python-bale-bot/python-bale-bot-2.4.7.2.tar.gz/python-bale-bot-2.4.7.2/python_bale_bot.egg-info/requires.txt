@@ -1,0 +1,9 @@
+aiohttp<3.8.6,>=3.6.0
+asyncio~=3.4.3
+setuptools<68.3,>=60.2
+
+[docs]
+sphinx==7.2.5
+sphinxcontrib_trio==1.1.2
+sphinxcontrib-websupport
+typing-extensions<5,>=4.3

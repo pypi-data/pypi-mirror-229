@@ -1,0 +1,19 @@
+{
+    "metadata": {
+        "folder": "examples_png",
+        "name": "shield",
+        "timestamp": "2023-06-27 10:59:41.118266"
+    },
+    "mesher": {
+        "n_total": 20808,
+        "n_used": 3210
+    },
+    "solver": {
+        "sim_default": {
+            "freq": 0.0,
+            "has_converged": true,
+            "P_tot": 0.0003718957776140125,
+            "W_tot": 7.911194900997029e-09
+        }
+    }
+}

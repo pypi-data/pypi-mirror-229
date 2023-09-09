@@ -1,0 +1,32 @@
+# List of files to ignore for Git.
+#
+# Thomas Guillod - Dartmouth College
+# Mozilla Public License Version 2.0
+
+# remove Python object
+*.pyc
+*.pyo
+**/__pycache__
+
+# remove Jupyter data
+**/.ipynb_checkpoints
+
+# exclude Pickle file
+*.pck
+
+# remove packinging files
+html/*
+dist/*
+build/*
+pypeec.egg-info/*
+pypeec/version.py
+
+# exclude virtual environments
+venv/*
+cenv/*
+
+# exclude scratch directory
+scratch/*
+
+# exclude the PyCharm project
+.idea/*

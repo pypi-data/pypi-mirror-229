@@ -1,0 +1,68 @@
+Metadata-Version: 2.1
+Name: openbuckets
+Version: 1.0.3
+Summary: OpenBuckets API
+Home-page: https://github.com/openbuckets/sdk-python
+Author: Openbuckets
+Author-email: support@openbuckets.io
+Project-URL: Bug Tracker, https://github.com/openbuckets/sdk-python/issues
+Project-URL: Changes, https://github.com/openbuckets/sdk-python/blob/master/CHANGELOG.md
+Project-URL: Documentation, https://openbuckets.io/docs/api/?lang=python
+Project-URL: Source Code, https://github.com/openbuckets/sdk-python
+Keywords: openbuckets,misconfigured buckets,OpenBuckets API,bounty hunters,cybersecurity,openbuckets api cloud storage security
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Security
+Classifier: Topic :: Internet
+Description-Content-Type: text/x-rst
+License-File: LICENSE
+Requires-Dist: urllib3<2.1.0,>=1.25.3
+Requires-Dist: python-dateutil
+Requires-Dist: pydantic<2,>=1.10.5
+Requires-Dist: aenum
+
+Official OpenBuckets Bindings for Python
+========================================
+
+A Python library for OpenBuckets's API.
+
+
+Setup
+-----
+
+You can install this package by using the pip tool and installing:
+
+    $ pip install openbuckets
+
+Or:
+
+    $ easy_install openbuckets
+
+
+Setting up a OpenBuckets Account
+--------------------------------
+
+Sign up for OpenBuckets at https://openbuckets.io/auth/register.
+
+Using the OpenBuckets API
+-------------------------
+
+Documentation for the python bindings can be found alongside Openbuckets's other bindings here:
+
+- https://openbuckets.io/docs
+- https://openbuckets.io/docs/api/?lang=python
+
+In the standard documentation (the first link), most of the reference pages will have examples in OpenBuckets's official bindings (including Python). Just click on the Python tab to get the relevant documentation.
+
+In the full API reference for python (the second link), the right half of the page will provide example requests and responses for various API calls.

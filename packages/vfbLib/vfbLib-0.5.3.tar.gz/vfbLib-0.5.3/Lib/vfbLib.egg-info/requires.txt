@@ -1,0 +1,5 @@
+defcon>=0.10.3
+fonttools[ufo]>=4.42.1
+typing_extensions>=4.7.1
+ufonormalizer>=0.6.1
+ufoLib2>=0.16.0

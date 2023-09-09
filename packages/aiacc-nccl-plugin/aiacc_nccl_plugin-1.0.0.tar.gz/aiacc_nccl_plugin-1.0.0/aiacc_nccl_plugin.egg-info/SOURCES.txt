@@ -1,0 +1,7 @@
+README.md
+setup.py
+aiacc_nccl_plugin/__init__.py
+aiacc_nccl_plugin.egg-info/PKG-INFO
+aiacc_nccl_plugin.egg-info/SOURCES.txt
+aiacc_nccl_plugin.egg-info/dependency_links.txt
+aiacc_nccl_plugin.egg-info/top_level.txt

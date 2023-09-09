@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- Copyright 2022 OpenSynergy Indonesia
+     Copyright 2022 PT. Simetri Sinergi Indonesia
+     License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl). -->
+<odoo>
+<record id="odoo_deployment_view_form" model="ir.ui.view">
+    <field name="name">odoo_deployment.form</field>
+    <field name="model">odoo_deployment</field>
+    <field name="inherit_id" ref="ssi_odoo_implementation.odoo_deployment_view_form" />
+    <field name="arch" type="xml">
+        <data>
+            <xpath expr="//field[@name='install_extra_module']" position="after">
+                <separator string="Task" />
+                <field name="auto_create_task" />
+                <field name="task_id" />
+                <field name="project_id" invisible="1" />
+                <field name="task_stage_id" />
+                <field name="task_state" />
+                <field name="create_task_ok" invisible="1" />
+                <field name="delete_task_ok" invisible="1" />
+                <button
+                        name="action_create_task"
+                        type="object"
+                        string="Create Task"
+                        icon="fa-gear"
+                        class="oe_highlight"
+                        attrs="{'invisible': [('create_task_ok','!=',True)]}"
+                    />
+                <button
+                        name="action_delete_task"
+                        type="object"
+                        string="Delete Task"
+                        icon="fa-gear"
+                        class="oe_highlight"
+                        attrs="{'invisible': [('delete_task_ok','!=',True)]}"
+                    />
+            </xpath>
+        </data>
+    </field>
+</record>
+</odoo>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- Copyright 2022 OpenSynergy Indonesia
+     Copyright 2022 PT. Simetri Sinergi Indonesia
+     License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl). -->
+<odoo>
+<record id="odoo_feature_view_tree" model="ir.ui.view">
+    <field name="name">odoo_feature - tree</field>
+    <field name="model">odoo_feature</field>
+    <field name="inherit_id" ref="ssi_odoo_implementation.odoo_feature_view_tree" />
+    <field name="arch" type="xml">
+        <data>
+            <xpath expr="//field[@name='category_id']" position="after">
+                <field name="num_draft_task" />
+                <field name="num_open_task" />
+            </xpath>
+        </data>
+    </field>
+</record>
+
+<record id="odoo_feature_view_form" model="ir.ui.view">
+    <field name="name">odoo_feature - form</field>
+    <field name="model">odoo_feature</field>
+    <field name="inherit_id" ref="ssi_odoo_implementation.odoo_feature_view_form" />
+    <field name="arch" type="xml">
+        <data>
+            <xpath expr="//page[1]" position="before">
+                <page name="task" string="Direct Tasks">
+                    <group name="task_1" colspan="4" col="2">
+                        <field name="project_id" />
+                    </group>
+                    <group
+                            name="task_1"
+                            colspan="4"
+                            col="2"
+                            string="Num. of Direct Task"
+                        >
+                        <field name="num_task" string="Total" />
+                        <field name="num_draft_task" string="Draft" />
+                        <field name="num_open_task" string="In Progress" />
+                        <field name="num_done_task" string="Done" />
+                        <field name="num_pending_task" string="Pending" />
+                        <field name="num_cancel_task" string="Cancel" />
+                    </group>
+                    <field name="task_ids" domain="[('project_id','=',project_id)]" />
+                </page>
+            </xpath>
+        </data>
+    </field>
+</record>
+
+</odoo>

@@ -1,0 +1,10 @@
+docdb_import_export/.env.example,sha256=grYIxIjPuCO_Lm6LuDJX41Xs_gWOGG1WWWRvjoPV_vk,397
+docdb_import_export/__init__.py,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+docdb_import_export/__main__.py,sha256=vO87lzX7pLQXfzBWaM5Md8JINPD3AtoxVU9nEaYVKLU,5893
+docdb_import_export/docdb_client.py,sha256=Qd_2g-aenu5EkDDrCuEez9oNQ0iSqqnek3hniKiZOIg,3457
+docdb_import_export/docdb_json_importer.py,sha256=YIJB5TX2Lr5yBptGGHiQukCcFFTh-pQ8G9qIrWxn_OM,3465
+docdb_import_export/utils.py,sha256=ttoxsiDnFHwvW5pUAHBdfdAgQQNjvOphDZvLbucvOfc,857
+docdb_import_export-0.1.0.dist-info/METADATA,sha256=3rVXSRRW6U9EoEudw9Kmj7tGVBu2bwKuiVE-Mmp162o,5789
+docdb_import_export-0.1.0.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+docdb_import_export-0.1.0.dist-info/licenses/LICENSE,sha256=7EI8xVBu6h_7_JlVw-yPhhOZlpY9hP8wal7kHtqKT_E,1074
+docdb_import_export-0.1.0.dist-info/RECORD,,

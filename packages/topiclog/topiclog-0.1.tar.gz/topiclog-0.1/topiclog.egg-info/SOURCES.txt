@@ -1,0 +1,6 @@
+setup.py
+topiclog/__init__.py
+topiclog.egg-info/PKG-INFO
+topiclog.egg-info/SOURCES.txt
+topiclog.egg-info/dependency_links.txt
+topiclog.egg-info/top_level.txt

@@ -1,0 +1,6 @@
+flask_oidc/__init__.py,sha256=cABkRJhozz9mtsT1WMeL648NjcKxiV6yNKbgJ1fiiFs,12497
+flask_oidc/views.py,sha256=FDfCzTNUENvzHtDe31USNO9a9NM75qFFxppmL2j9MRM,4228
+flask_oidc-2.0.3.dist-info/LICENSE.txt,sha256=xBUPG5JKB9hShzUxWC8U3-TwnwIEw5T77IuG45jZn40,1365
+flask_oidc-2.0.3.dist-info/METADATA,sha256=ljxO18RYd0uzMU6JlHuzEmJBp3LHo9AcFqVRRXMh4Sg,2387
+flask_oidc-2.0.3.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+flask_oidc-2.0.3.dist-info/RECORD,,

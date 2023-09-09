@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.cfg
+pypeec/gerber_png.py
+pypeec.egg-info/PKG-INFO
+pypeec.egg-info/SOURCES.txt
+pypeec.egg-info/dependency_links.txt
+pypeec.egg-info/requires.txt
+pypeec.egg-info/top_level.txt

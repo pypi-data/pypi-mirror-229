@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+src/pycps/__init__.py
+src/pycps/get_data.py
+src/pycps/py.typed
+src/pycpsdata.egg-info/PKG-INFO
+src/pycpsdata.egg-info/SOURCES.txt
+src/pycpsdata.egg-info/dependency_links.txt
+src/pycpsdata.egg-info/requires.txt
+src/pycpsdata.egg-info/top_level.txt
+tests/test_get_data.py

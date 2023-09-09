@@ -1,0 +1,17 @@
+name: poincare
+channels:
+  - conda-forge
+dependencies:
+  - typing_extensions
+  - pre-commit
+  - pytest
+  - tox-conda
+  - numpy
+  - pandas
+  - scipy
+  - matplotlib
+  - pint
+  - pint-pandas
+  - pip
+  - pip:
+    - symbolite

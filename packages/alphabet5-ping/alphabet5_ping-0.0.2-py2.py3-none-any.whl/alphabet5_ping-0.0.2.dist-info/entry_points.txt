@@ -1,0 +1,2 @@
+[console_scripts]
+png = ping.ping:main

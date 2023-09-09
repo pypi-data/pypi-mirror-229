@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: alphabet5-ping
+Version: 0.0.2
+Summary: Copy credentials.
+Home-page: https://github.com/alphabet5/bwc
+Author: alphabet5
+Author-email: johnburt.jab@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3
+Description-Content-Type: text/markdown
+License-File: LICENSE.md
+Requires-Dist: rich
+
+copy credentials

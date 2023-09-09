@@ -1,0 +1,16 @@
+qianfan/__init__.py,sha256=SiMC3fteEE0wCd-nLF2p_Zkrf_HECyl7oNj6Vorq4Kc,844
+qianfan/errors.py,sha256=7akH2-YjZyiLsWZM_6m707GS-zYIca_cmrVZ1Pm60yc,958
+qianfan/version.py,sha256=cIo22pGKqU2zBRsnmMKNqbjNSc_eCGk-_msd187vBpg,648
+qianfan/resources/__init__.py,sha256=B2vtEW-zf82FFt_p4q-9S9sznSoy2e2ygCQKP8NZc3E,848
+qianfan/resources/base.py,sha256=sejboD4qzM_p7YTKYz-16KzKNh03rO3Q9TeLpDzb1so,3559
+qianfan/resources/chat_completion.py,sha256=N4G4Al1orWKdgZI4GrVBNFs24STRhwsfeLQ-F-mWWs4,5942
+qianfan/resources/completion.py,sha256=LE4YlylBuk_sHGeNBnYH8BLsu9EQO9Th0MsDO1ynH-8,8824
+qianfan/resources/embedding.py,sha256=0U0_orEcwYt0dQhyswz0aKj1rcys05dlHsPxrSvzWYQ,4990
+qianfan/utils/__init__.py,sha256=nJ6OJNRqROFYC8CYn9DF3iUrGiUpI7JOKeNtW8q8bf8,864
+qianfan/utils/logging.py,sha256=jJBBbr35jHAvOKrWdlZnLpXmwg6AvZlpvdoTAvPkPqY,3339
+qianfan/utils/utils.py,sha256=bqriOpeqCEmry_N4DhmETIw7dNrt4aOJJjNs5RvjTjc,1690
+qianfan-0.0.1.dist-info/LICENSE,sha256=VEHBKN6FhnU4K5uNycc7935l-atBYc_GbeT1BcDc-gs,11366
+qianfan-0.0.1.dist-info/METADATA,sha256=xQyQXFdQb7R1_vj4UJ2UDxZ3tStyQeilGXJB_Hs4DYo,4494
+qianfan-0.0.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+qianfan-0.0.1.dist-info/top_level.txt,sha256=E_KtSzdl6a8CK3jzbfToFYob6dGC6x4GNb_PE5rOFEs,8
+qianfan-0.0.1.dist-info/RECORD,,

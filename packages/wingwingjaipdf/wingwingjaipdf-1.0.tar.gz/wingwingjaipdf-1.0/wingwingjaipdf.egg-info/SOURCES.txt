@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+wingwingjaipdf/__init__.py
+wingwingjaipdf/pdf2image.py
+wingwingjaipdf/pdf2text.py
+wingwingjaipdf.egg-info/PKG-INFO
+wingwingjaipdf.egg-info/SOURCES.txt
+wingwingjaipdf.egg-info/dependency_links.txt
+wingwingjaipdf.egg-info/top_level.txt

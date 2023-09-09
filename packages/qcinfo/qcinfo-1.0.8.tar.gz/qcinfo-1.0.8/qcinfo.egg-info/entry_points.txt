@@ -1,0 +1,2 @@
+[console_scripts]
+qcinfo = qcinfo.cli:main

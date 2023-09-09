@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: qcinfo
+Version: 1.0.8
+Summary: A Python package for getting insights from quantum chemical calculation data.
+Home-page: https://github.com/neelravi/qcinfo
+Author: Dr. Ravindra Shinde
+Author-email: r.l.shinde@utwente.nl
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: resultsFile
+
+[![Upload Python Package](https://github.com/neelravi/qcinfo/actions/workflows/python-publish.yml/badge.svg)](https://github.com/neelravi/qcinfo/actions/workflows/python-publish.yml)

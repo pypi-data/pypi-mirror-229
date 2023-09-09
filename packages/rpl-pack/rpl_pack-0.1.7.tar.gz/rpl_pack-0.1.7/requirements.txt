@@ -1,0 +1,16 @@
+# HTTP Requests
+requests
+
+# Numerical
+numpy
+
+# Plotting
+matplotlib
+
+# Testing
+pytest
+
+# Documentation
+sphinx
+sphinx-rtd-theme
+sphinx-tabs

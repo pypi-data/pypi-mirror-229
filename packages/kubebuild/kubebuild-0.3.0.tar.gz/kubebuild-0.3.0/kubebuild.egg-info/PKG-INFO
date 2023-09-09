@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: kubebuild
+Version: 0.3.0
+Summary: KubeBuild - Kubernetes YAML Generator and Deployment Tool
+Home-page: UNKNOWN
+Author: Ahmed K. Madani
+Author-email: ahmedk.madani@outlook.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+
+UNKNOWN
+

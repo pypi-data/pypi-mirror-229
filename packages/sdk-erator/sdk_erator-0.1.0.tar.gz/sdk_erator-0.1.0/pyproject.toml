@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "sdk-erator"
+version = "0.1.0"
+description = ""
+authors = ["Peter <peterHoburg@users.noreply.github.com>"]
+readme = "README.md"
+packages = [{include = "sdk_erator", from = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pydantic = "^2.3.0"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.4.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

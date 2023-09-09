@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+nlppackage/Class_NLP.py
+nlppackage/__init__.py
+nlppackage.egg-info/PKG-INFO
+nlppackage.egg-info/SOURCES.txt
+nlppackage.egg-info/dependency_links.txt
+nlppackage.egg-info/requires.txt
+nlppackage.egg-info/top_level.txt
+nlppackage/data/stopWords_spacy_en.csv
+nlppackage/data/stopWords_spacy_fr.csv
+tests/tests.py

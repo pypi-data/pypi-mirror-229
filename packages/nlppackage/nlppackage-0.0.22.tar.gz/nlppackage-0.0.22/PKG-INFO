@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: nlppackage
+Version: 0.0.22
+Summary: A package for NLP
+Download-URL: https://gitlab.com/business-decision-data-science/packagenlp/-/package_files/82622627/download
+Author: Business & Décision
+Keywords: NLP,Français,Langues,Traitements
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+License-File: LICENSE

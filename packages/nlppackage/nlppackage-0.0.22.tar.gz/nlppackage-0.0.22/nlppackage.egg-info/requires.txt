@@ -1,0 +1,6 @@
+pandas
+nltk
+spacy
+unidecode
+treetaggerwrapper
+fr_core_news_sm

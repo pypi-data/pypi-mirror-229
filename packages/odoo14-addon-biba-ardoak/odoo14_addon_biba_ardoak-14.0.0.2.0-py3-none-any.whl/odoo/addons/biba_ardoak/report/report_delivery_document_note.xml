@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <template id="report_test" inherit_id="stock.report_delivery_document">
+        <xpath expr="//div[@t-esc='partner']" position="after">
+            <div name="delivery_notes">
+                <span>Notas de entrega:</span>
+                <p t-field="o.partner_id.comment" />
+            </div>
+        </xpath>
+        <xpath expr="//div[@name='signature']" position="before">
+            <div name="internal_notes" class="col-6">
+                <p t-field="o.note" />
+            </div>
+        </xpath>
+    </template>
+</odoo>

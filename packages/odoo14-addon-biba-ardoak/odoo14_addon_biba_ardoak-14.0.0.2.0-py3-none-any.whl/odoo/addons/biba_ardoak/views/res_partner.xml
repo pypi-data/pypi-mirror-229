@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <record model="ir.ui.view" id="partner_custom_info">
+        <field name="name">partner.custom.info</field>
+        <field name="model">res.partner</field>
+        <field name="inherit_id" ref="base.view_partner_form" />
+        <field name="arch" type="xml">
+            <xpath expr="//notebook[1]" position="inside">
+                <page name="custom_data" string="Custom Information">
+                    <group>
+                        <field
+              name="partner_tier"
+              options='{"no_quick_create": True}'
+            />
+                        <field
+              name="partner_type"
+              options='{"no_quick_create": True}'
+            />
+                        <field
+              name="partner_zone"
+              options='{"no_quick_create": True}'
+            />
+                    </group>
+                </page>
+            </xpath>
+        </field>
+    </record>
+</odoo>

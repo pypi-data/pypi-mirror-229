@@ -1,0 +1,30 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* biba_ardoak
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-09-08 08:28+0000\n"
+"PO-Revision-Date: 2023-09-08 08:28+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: biba_ardoak
+#: model_terms:ir.ui.view,arch_db:biba_ardoak.report_invoice_document
+msgid "Please use the following communication for your payment :"
+msgstr "Merci d'utiliser la communication suivante pour votre paiement:"
+
+#. module: biba_ardoak
+#: model_terms:ir.ui.view,arch_db:biba_ardoak.report_invoice_document
+msgid ""
+"The payment method for this invoice is set to Direct Debit. Your bank "
+"account will be debited shortly."
+msgstr ""
+"Le mode de paiement de cette facture est le prélèvement automatique. Votre compte"
+"la banque sera débitée sous peu."

@@ -1,0 +1,9 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+partner_zone_admin,access_partner_zone_admin,model_partner_zone,,1,1,1,1
+partner_type_admin,access_partner_type_admin,model_partner_type,,1,1,1,1
+partner_tier_admin,access_partner_tier_admin,model_partner_tier,,1,1,1,1
+product_color_admin,access_product_color_admin,model_product_color,,1,1,1,1
+product_tier_admin,access_product_tier_admin,model_product_tier,,1,1,1,1
+product_type_admin,access_product_type_admin,model_product_type,,1,1,1,1
+product_zone_admin,access_product_zone_admin,model_product_zone,,1,1,1,1
+product_climate_admin,access_product_climate_admin,model_product_climate,,1,1,1,1

@@ -1,0 +1,6 @@
+valueparser/__init__.py,sha256=hxcGNLGPSol5LYBwT-1a2RDrS3kbejduTSu5X0v7Id8,212
+valueparser/engine.py,sha256=XBQU79UUwYAiytlaf7lREdUzeWPxNrvm0gylNurQpKQ,8240
+valueparser/parsers.py,sha256=KF3ZCtldkeoD-LQrii1wTg_5crzy6tMTy20P_GtERcY,5476
+valueparser-0.2a3.dist-info/METADATA,sha256=alP-p0Muq2VlsnHo83TP6Mm7G2aTehZnv41EsET5-kg,5190
+valueparser-0.2a3.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+valueparser-0.2a3.dist-info/RECORD,,

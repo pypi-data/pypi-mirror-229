@@ -1,0 +1,7 @@
+README.md
+setup.py
+custompackage01/src/custom.py
+custompackage01/src/custompackage01.egg-info/PKG-INFO
+custompackage01/src/custompackage01.egg-info/SOURCES.txt
+custompackage01/src/custompackage01.egg-info/dependency_links.txt
+custompackage01/src/custompackage01.egg-info/top_level.txt

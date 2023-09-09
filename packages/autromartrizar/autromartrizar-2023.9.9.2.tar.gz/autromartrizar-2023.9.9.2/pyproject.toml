@@ -1,0 +1,30 @@
+[tool.poetry]
+authors = ["Tarcisio F Sassara <sassara.tarcisio+python@gmail.com>"]
+classifiers = [
+    "Topic :: Software Development :: Build Tools",
+    "Topic :: Software Development :: Code Generators",
+    "Topic :: Software Development :: User Interfaces"
+]
+description = "Uma interface devops para aws"
+keywords = ["aws", "serverless", "devops", "cicd"]
+license = "MIT"
+maintainers = ["Tarcisio F Sassara <sassara.tarcisio+python@gmail.com>"]
+name = "autromartrizar"
+readme = "README.md"
+version = "2023.9.9.2"
+[tool.poetry.urls]
+Homepage = "https://github.com/tarcisio/autromartrizar/"
+Documentation = "https://github.com/tarcisio/autromartrizar/"
+Repository = "https://github.com/tarcisio/autromartrizar.git"
+Changelog = "https://github.com/tarcisio/autromartrizar/blob/master/CHANGELOG.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+boto3 = "^1.28.44"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.4.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

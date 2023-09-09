@@ -1,0 +1,97 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "canty"
+dynamic = ["version"]
+description = "The little ASGI library that shines."
+readme = "README.md"
+license = "BSD-3-Clause"
+requires-python = ">=3.10"
+authors = [
+    { name = "Ahmad Hosseini", email = "hi@ahmad.tel" },
+]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Environment :: Web Environment",
+    "Framework :: AnyIO",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: BSD License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Internet :: WWW/HTTP",
+]
+dependencies = [
+    "starlette",
+    "uvicorn"
+]
+
+[project.optional-dependencies]
+full = [
+    "itsdangerous",
+    "jinja2",
+    "python-multipart",
+    "pyyaml",
+    "httpx>=0.22.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/ahmadly/canty"
+Documentation = "https://github.com/ahmadly/canty"
+Changelog = "https://github.com/ahmadly/canty"
+Funding = "https://github.com/ahmadly/canty"
+Source = "https://github.com/ahmadly/canty"
+
+[tool.hatch.version]
+path = "canty/__init__.py"
+
+[tool.ruff]
+select = ["E", "F", "I"]
+
+[tool.ruff.isort]
+combine-as-imports = true
+
+[tool.mypy]
+strict = true
+ignore_missing_imports = true
+python_version = "3.10"
+
+[[tool.mypy.overrides]]
+module = "canty.testclient.*"
+implicit_optional = true
+
+# TODO: Uncomment the following configuration when
+# https://github.com/python/mypy/issues/10045 is solved. In the meantime,
+# we are calling `mypy tests` directly. Check `scripts/check` for more info.
+# [[tool.mypy.overrides]]
+# module = "tests.*"
+# disallow_untyped_defs = false
+# check_untyped_defs = true
+
+[tool.pytest.ini_options]
+addopts = "-rxXs --strict-config --strict-markers"
+xfail_strict = true
+filterwarnings = [
+    # Turn warnings that aren't filtered into exceptions
+    "error",
+]
+
+[tool.coverage.run]
+source_pkgs = [
+    "canty",
+    "tests",
+]
+
+[tool.coverage.report]
+exclude_lines = [
+    "pragma: no cover",
+    "pragma: nocover",
+    "if typing.TYPE_CHECKING:",
+    "@typing.overload",
+]

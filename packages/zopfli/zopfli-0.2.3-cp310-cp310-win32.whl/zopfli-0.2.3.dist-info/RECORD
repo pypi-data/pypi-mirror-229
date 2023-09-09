@@ -1,0 +1,12 @@
+zopfli/__init__.py,sha256=hwYxiYSpxDU5HccRHsAdQlsF5PiGb9V1FpAGF-R6L-8,1178
+zopfli/_version.py,sha256=SojUi016nIzhtO4dJCia-H3hDsJw4Uv30qFAlEEnGmA,164
+zopfli/gzip.py,sha256=hljGJGkyJBxgAFMKfmI6Z8f59NVtxvStNOhIIikJeiQ,323
+zopfli/png.py,sha256=gp5DDgAZvGcExDMn5PmEaJT8ZxJEuljwpwVqiX25n5M,5327
+zopfli/zlib.py,sha256=OOUoChBPvV47dUJZ2v-pKo8DF3Hgxb05EtgkCk-WwLs,309
+zopfli/zopfli.cp310-win32.pyd,sha256=3dYNM5Cp_GaXqco5F0g0ck61clD-QyH0OHvlZ5IqSmw,137216
+zopfli-0.2.3.dist-info/COPYING,sha256=Z1_BwlrSPV4UJVFSJiWYtZGm4_xl8IcWVfX2WF8SCs0,11542
+zopfli-0.2.3.dist-info/METADATA,sha256=2FwkAlFQdkREiF7gCFxbsCirVNtfm2upI3hdylt6h-c,3013
+zopfli-0.2.3.dist-info/WHEEL,sha256=ctSO3Ng3VQXwM0FMF_gy60e4VosCkFDNxiZjJ18ulgA,98
+zopfli-0.2.3.dist-info/top_level.txt,sha256=8YLCDfhyb5xGrhwj1iQPEqZp7N4B4bA2qj6u2hwTF5s,7
+zopfli-0.2.3.dist-info/zip-safe,sha256=frcCV1k9oG9oKj3dpUqdJg1PxRT2RSN_XKdLCPjaYaY,2
+zopfli-0.2.3.dist-info/RECORD,,

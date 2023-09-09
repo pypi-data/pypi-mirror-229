@@ -1,0 +1,5 @@
+setup.py
+whopper.egg-info/PKG-INFO
+whopper.egg-info/SOURCES.txt
+whopper.egg-info/dependency_links.txt
+whopper.egg-info/top_level.txt

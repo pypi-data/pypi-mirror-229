@@ -1,0 +1,17 @@
+conda_forge_metadata/__init__.py,sha256=pcX7PuOBlAdiLwrb16zJmPeab4Xn9uDvNepHO_OG8Cc,42
+conda_forge_metadata/_version.py,sha256=TFkACo7SKbVpSQl32OCSCNmy1zVX-jsQX6dAXMbWmkU,22
+conda_forge_metadata/feedstock_outputs.py,sha256=JTbNe8eHTITywSZTuuQk2lYOUOwBQkR5ghvNzaFz5nA,2376
+conda_forge_metadata/libcfgraph.py,sha256=YyFgN8WLWN-W5tY6_NrIxKCyYlRJO8AEh-_0W2eP0Vg,5399
+conda_forge_metadata/oci.py,sha256=Pg5YiAeg63gh8jO_3sTxMFHrpfpoGqX1b6KqHf-jRqE,4696
+conda_forge_metadata/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+conda_forge_metadata/types.py,sha256=iL3ckBn93wQmj79SkoPB_2TQYVmNrOm43UloYdLcYoM,1257
+conda_forge_metadata/artifact_info/__init__.py,sha256=PFmfAM_SsJp5upNIAISq_grRmUmBrP1toV3SssPQ0a8,57
+conda_forge_metadata/artifact_info/info_json.py,sha256=cohjM3wSyLAz2CKG5Eej8ltWYflxWGQa2r9E-UxuaHw,1968
+conda_forge_metadata/autotick_bot/__init__.py,sha256=pflB6H9SIrG99U7z10CkQCPVCcmHhi56pNkEB6aZHkY,133
+conda_forge_metadata/autotick_bot/import_to_pkg.py,sha256=hAyWvgRAQE4mRFm2iTkKLN-jM8NCUeutcoWWX0rFSs0,1181
+conda_forge_metadata/autotick_bot/pypi_to_conda.py,sha256=B7U8KQWaIaM9X72JdEo3zPHEm_TX1rcXDNAvDMzTj7w,1287
+conda_forge_metadata-0.5.3.dist-info/LICENSE,sha256=HQaqDfKGwU3TJc8DGlFv7b625aKWlUUIsOZ3j5VkcV0,1505
+conda_forge_metadata-0.5.3.dist-info/METADATA,sha256=gC9g-xqkKBrhPmSgZdZt-joO40ZjZun8XjPZq7LjiM0,2628
+conda_forge_metadata-0.5.3.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+conda_forge_metadata-0.5.3.dist-info/top_level.txt,sha256=Ii8oRydpag3ReCU4XqVTckNoZIR2YpPvDILgyWruLgM,21
+conda_forge_metadata-0.5.3.dist-info/RECORD,,

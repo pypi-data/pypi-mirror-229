@@ -1,0 +1,9 @@
+README.md
+setup.py
+rabbit_handler_kvg/__init__.py
+rabbit_handler_kvg/rabbit_handler_kvg.py
+rabbit_handler_kvg.egg-info/PKG-INFO
+rabbit_handler_kvg.egg-info/SOURCES.txt
+rabbit_handler_kvg.egg-info/dependency_links.txt
+rabbit_handler_kvg.egg-info/requires.txt
+rabbit_handler_kvg.egg-info/top_level.txt

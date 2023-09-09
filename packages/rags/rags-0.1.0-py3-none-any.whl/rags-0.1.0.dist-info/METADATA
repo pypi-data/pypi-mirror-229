@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: rags
+Version: 0.1.0
+Summary: retrieval-augmented generation made simple
+License: MIT
+Author: Grayson Chao
+Author-email: grayson.chao@gmail.com
+Requires-Python: >=3.11,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Description-Content-Type: text/markdown
+
+# rags
+a retrieval-augmented generation framework
+

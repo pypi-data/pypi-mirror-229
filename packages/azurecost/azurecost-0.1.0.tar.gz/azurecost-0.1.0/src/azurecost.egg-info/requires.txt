@@ -1,0 +1,7 @@
+tabulate
+boto3
+click>=7.0
+retrying
+
+[test]
+tox

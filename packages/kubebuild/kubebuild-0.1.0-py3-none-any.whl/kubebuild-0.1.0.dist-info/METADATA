@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: kubebuild
+Version: 0.1.0
+Summary: KubeBuild - Kubernetes YAML Generator and Deployment Tool
+Home-page: UNKNOWN
+Author: Ahmed K. Madani
+Author-email: ahmedk.madani@outlook.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Dist: black (==23.7.0)
+Requires-Dist: click (==8.1.7)
+Requires-Dist: colorama (==0.4.6)
+Requires-Dist: markdown-it-py (==3.0.0)
+Requires-Dist: mdurl (==0.1.2)
+Requires-Dist: mypy-extensions (==1.0.0)
+Requires-Dist: packaging (==23.1)
+Requires-Dist: pathspec (==0.11.2)
+Requires-Dist: pip (==21.2.4)
+Requires-Dist: platformdirs (==3.10.0)
+Requires-Dist: prompt-toolkit (==1.0.14)
+Requires-Dist: Pygments (==2.16.1)
+Requires-Dist: PyInquirer (==1.0.3)
+Requires-Dist: PyYAML (==6.0.1)
+Requires-Dist: regex (==2023.8.8)
+Requires-Dist: rich (==13.5.2)
+Requires-Dist: setuptools (==58.0.4)
+Requires-Dist: shellingham (==1.5.3)
+Requires-Dist: six (==1.16.0)
+Requires-Dist: tomli (==2.0.1)
+Requires-Dist: typer (==0.9.0)
+Requires-Dist: typing-extensions (==4.7.1)
+Requires-Dist: wcwidth (==0.2.6)
+
+UNKNOWN
+

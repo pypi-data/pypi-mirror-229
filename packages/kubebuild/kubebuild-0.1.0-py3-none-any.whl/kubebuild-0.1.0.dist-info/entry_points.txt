@@ -1,0 +1,3 @@
+[console_scripts]
+KubeBuild = KubeBuild:app
+

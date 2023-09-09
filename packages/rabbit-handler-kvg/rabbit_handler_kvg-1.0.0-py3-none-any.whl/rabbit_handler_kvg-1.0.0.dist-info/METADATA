@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: rabbit-handler-kvg
+Version: 1.0.0
+Summary: A handler for rabbitMQ
+Author: Vyacheslav Kosarev
+Author-email: vyach.kosarev@gmail.com
+Requires-Dist: pika
+Requires-Dist: python-dotenv
+Requires-Dist: requests
+

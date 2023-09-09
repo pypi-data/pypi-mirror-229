@@ -1,0 +1,2 @@
+[console_scripts]
+qmt = qmt.__main__:main

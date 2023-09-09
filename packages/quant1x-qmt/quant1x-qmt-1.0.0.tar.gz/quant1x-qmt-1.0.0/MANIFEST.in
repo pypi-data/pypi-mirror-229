@@ -1,0 +1,2 @@
+#recursive-include *.dll, *.pyd, *.ini, *.log4cxx
+#include xtquant/*.dll, xtquant/*.pyd, xtquant/*.ini, xtquant/*.log4cxx

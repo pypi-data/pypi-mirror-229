@@ -1,0 +1,93 @@
+Metadata-Version: 2.1
+Name: scd4x
+Version: 0.0.2
+Summary: Driver for the SCD4X CO2 sensor
+Project-URL: GitHub, https://www.github.com/pimoroni/scd4x-python
+Project-URL: Homepage, https://www.pimoroni.com
+Author-email: Philip Howard <phil@pimoroni.com>
+Maintainer-email: Philip Howard <phil@pimoroni.com>
+License: MIT License
+        
+        Copyright (c) 2018 Pimoroni Ltd.
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+License-File: LICENSE
+Keywords: Pi,Raspberry
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: System :: Hardware
+Requires-Python: >=3.7
+Requires-Dist: smbus2
+Description-Content-Type: text/markdown
+
+# SCD4X C02 Sensor
+
+[![Build Status](https://img.shields.io/github/actions/workflow/status/pimoroni/scd4x-python/test.yml?branch=main)](https://github.com/pimoroni/scd4x-python/actions/workflows/test.yml)
+[![Coverage Status](https://coveralls.io/repos/github/pimoroni/scd4x-python/badge.svg?branch=master)](https://coveralls.io/github/pimoroni/scd4x-python?branch=master)
+[![PyPi Package](https://img.shields.io/pypi/v/scd4x.svg)](https://pypi.python.org/pypi/scd4x)
+[![Python Versions](https://img.shields.io/pypi/pyversions/scd4x.svg)](https://pypi.python.org/pypi/scd4x)
+
+# Pre-requisites
+
+You must enable:
+
+* i2c: `sudo raspi-config nonint do_i2c 0`
+
+You can optionally run `sudo raspi-config` or the graphical Raspberry Pi Configuration UI to enable interfaces.
+
+# Installing
+
+Stable library from PyPi:
+
+* Just run `pip3 install scd4x`
+
+In some cases you may need to use `sudo` or install pip with: `sudo apt install python3-pip`
+
+Latest/development library from GitHub:
+
+* `git clone https://github.com/pimoroni/scd4x-python`
+* `cd scd4x-python`
+* `sudo ./install.sh`
+
+
+0.0.2
+-----
+
+* Fix byte packing when sending data (unsigned char instead of signed char).
+* Fix condition in set_temperature_offset.
+* Fix reading data in get_temperature_offset.
+* Add get/set_automatic_self_calibration_enabled.
+* Add persist_settings.
+* Repackage to latest boilerplate.
+
+0.0.1
+-----
+
+* Initial Release

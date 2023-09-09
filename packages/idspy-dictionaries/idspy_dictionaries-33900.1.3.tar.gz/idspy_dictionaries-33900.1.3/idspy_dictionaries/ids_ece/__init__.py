@@ -1,0 +1,51 @@
+# __version__= "033900.1.2"
+# __version_data_dictionary__= "3.39.0"
+# __git_version_hash__= "f981ec5408e8702b7bdc5f2f37a0c2ac56df9d9a"
+# 
+from idspy_dictionaries.ids_ece.idspy_ece import (
+    Code,
+    Ece,
+    EceChannel,
+    EceChannelBeam,
+    EceChannelBeamPhase,
+    EceChannelBeamSpot,
+    IdsProperties,
+    IdsProvenance,
+    IdsProvenanceNode,
+    Library,
+    LineOfSight2Points,
+    PhysicalQuantityFlt1DTime1,
+    Polarizer,
+    PsiNormalization,
+    Rzphi0DStatic,
+    Rzphirhopsitheta1DDynamicAos1CommonTime1,
+    SignalFlt1D,
+    SignalFlt1DValidity,
+    SignalFlt1DValidityPosition,
+    SignalFlt2D,
+    Xyz0DStatic,
+)
+
+__all__ = [
+    "Code",
+    "Ece",
+    "EceChannel",
+    "EceChannelBeam",
+    "EceChannelBeamPhase",
+    "EceChannelBeamSpot",
+    "IdsProperties",
+    "IdsProvenance",
+    "IdsProvenanceNode",
+    "Library",
+    "LineOfSight2Points",
+    "PhysicalQuantityFlt1DTime1",
+    "Polarizer",
+    "PsiNormalization",
+    "Rzphi0DStatic",
+    "Rzphirhopsitheta1DDynamicAos1CommonTime1",
+    "SignalFlt1D",
+    "SignalFlt1DValidity",
+    "SignalFlt1DValidityPosition",
+    "SignalFlt2D",
+    "Xyz0DStatic",
+]

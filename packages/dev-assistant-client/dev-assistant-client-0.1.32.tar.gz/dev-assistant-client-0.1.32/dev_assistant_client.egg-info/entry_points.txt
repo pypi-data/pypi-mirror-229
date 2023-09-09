@@ -1,0 +1,4 @@
+[console_scripts]
+dev-assistant = devassistant.main:run
+dev-assistant-client = devassistant.main:run
+devassistant = devassistant.main:run

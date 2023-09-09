@@ -1,0 +1,69 @@
+Metadata-Version: 2.1
+Name: agentlabs
+Version: 0.1.0
+Summary: agentlabs: A Python library for implementing agents on Weavel
+Keywords: weavel,agent,llm,tools,agentlabs,llm agent
+Requires-Python: >=3.7.1
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Agentlabs
+
+> Python library for implementing agents on [Weavel](https://weavel.vercel.app)
+
+## Installation
+
+```bash
+pip install agentlabs
+```
+
+## Example Usage
+
+```python
+from agentlabs import Agent, InputType
+
+agent = Agent()
+
+
+@agent.service(
+    id=3,
+    name="blog_post",
+    description="Given a keyword as input, this service generates a SEO-optimized blog post",
+)
+@agent.service_input(
+    name="keyword",
+    display_name="키워드",
+    description="The keyword for which the blog post should be generated",
+    type=InputType.TEXT,
+    options=[
+        "아로니아",
+        "아로니아 농장",
+    ],
+)
+@agent.service_input(
+    name="post_length",
+    display_name="글 길이",
+    description="Desired length of the blog post",
+    type=InputType.TEXT,
+    placeholder="Medium",
+    options=[
+        "Short",
+        "Medium",
+        "Long",
+    ],
+)
+async def generate_blog(keyword: str):
+    await agent.aupdate_status("Generating blog outline...")
+    await agent.aupdate_status("Writing post...")
+    await agent.aupdate_status("Searching for images...")
+    await agent.aupdate_status("Adding images to post...")
+    await agent.aupdate_status("Generating title...")
+    return {
+        "blog": "블로그",
+    }
+
+
+if __name__ == "__main__":
+    agent.run(token="5f2593e7-1a10-492e-a9c1-e7521d400e2b")
+
+```

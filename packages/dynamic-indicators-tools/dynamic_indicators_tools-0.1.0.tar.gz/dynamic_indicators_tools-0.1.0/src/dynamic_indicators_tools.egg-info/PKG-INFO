@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: dynamic-indicators-tools
+Version: 0.1.0
+Summary: Repositorio que recoge herramientas para el análisis de sistemas dinámicos
+Home-page: https://github.com/santhiperbolico/dynamic_indicators_tools
+Author: Santiago Arranz Sanz
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Dynamic Indicators Tools
+
+Conjunto de funciones asociadas al análisis de sistemas dinámicos. Concretamente, enfocado al análisis de estructuras 
+invariantes o indicadores dinámicos como los campos FTLE, Lagrangian Descriptors o determinación de 
+Lagrangian Structure Coehrents (LCS).    
+
+## Cómo comenzar
+Las funciones que contiene este paquete están desarroladas utilizando `Python 3.8`.
+
+### Requirements
+Los paquetes que utiliza estas funciones son: 
+```
+numpy>=1.22.4,<1.22.5
+scipy>=1.10.1,<1.10.2
+matplotlib>=3.7.1,<3.7.2
+attrs>=23.1.0,<23.1.1
+tqdm>=4.65.0,<4.65.1
+pyqt5>=5.15.9,<5.15.10
+```
+
+### Instalación
+```
+pip install dynamic-indicators-tools
+```
+## Autor
+
+  - **Santiago Arran Sanz**
+    ([santhiperbolico](https://github.com/santhiperbolico/))

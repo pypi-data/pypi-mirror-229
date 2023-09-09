@@ -1,0 +1,10 @@
+vcspm/__init__.py,sha256=QyM9wgvT8jb3i2UAvaklCjVlo1Bl7l3ZTiKy5SBUqxc,984
+vcspm/decompress.py,sha256=Iy3BiNsiyam2Fwy2Ffis-b0Fi1UCvhsUDE3HCHvvrpg,3401
+vcspm/vcspm.py,sha256=SjwMPukxx-sf5t-QnqbnlMDJHRt-mtilxxof11CYnU4,36262
+vcspm/version.py,sha256=kwEyWwKLIIqYSnkf5eXgPtRgw9Bz51riSupwtvDpJMA,23
+vcspm-1.0.4.dist-info/LICENSE,sha256=Hn5rrlpb3jLxrlp8N6CC0asDz4k1T3-TasQL6eOaZTE,27032
+vcspm-1.0.4.dist-info/METADATA,sha256=-5V2FWsKK96Spkpp_3MOqdlltLcTfR8EB8O26aFuWac,5666
+vcspm-1.0.4.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+vcspm-1.0.4.dist-info/entry_points.txt,sha256=MXRoz6PyhQ98s8ApzR7Jm4nVcct5D42OKS2Kz7F0vac,43
+vcspm-1.0.4.dist-info/top_level.txt,sha256=Romw6dVNmwI7xDp9oNsqnMlW1szV455ruSBlcTkipaQ,6
+vcspm-1.0.4.dist-info/RECORD,,

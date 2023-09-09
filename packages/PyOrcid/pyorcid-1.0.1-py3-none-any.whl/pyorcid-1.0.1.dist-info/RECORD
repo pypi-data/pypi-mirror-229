@@ -1,0 +1,7 @@
+pyorcid/__init__.py,sha256=rVKL3G7jmxw6h8e1j-J93xtKlPV_ib86K37tm0Y3qfo,79
+pyorcid/orcid.py,sha256=0Ieapfk0JaMDlflSkWScMgyleWcPJR2kPTmzYJToH-k,24295
+pyorcid/orcid_authentication.py,sha256=M04Y82e877wZseOViXXHerwlPiZlvnxY3G1SKkL0oUE,4636
+pyorcid-1.0.1.dist-info/LICENSE,sha256=qaWjqSH_eI7_XrSw1om2xngYox5tsT8NvwbC9Bldj5E,1095
+pyorcid-1.0.1.dist-info/METADATA,sha256=JMjwkIwiQxOiBzy5M7KYCJTr934k7mN-pbscqVCd7jk,5716
+pyorcid-1.0.1.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+pyorcid-1.0.1.dist-info/RECORD,,

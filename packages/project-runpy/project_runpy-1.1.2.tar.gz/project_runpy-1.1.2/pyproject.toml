@@ -1,0 +1,38 @@
+[build-system]
+requires = ["flit"]
+build-backend = "flit.buildapi"
+
+[tool.flit.metadata]
+module = "project_runpy"
+author = "Chris Chang"
+author-email = "c@crccheck.com"
+home-page = "https://github.com/crccheck/project_runpy"
+requires-python = ">=3"
+description-file = "README.rst"
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Intended Audience :: Developers",
+  "License :: OSI Approved :: Apache Software License",
+  "Operating System :: OS Independent",
+  "Programming Language :: Python :: 3.7",
+  "Programming Language :: Python :: 3.8",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Topic :: Software Development :: Libraries :: Python Modules",
+]
+
+[tool.coverage.run]
+branch = true
+source = ["project_runpy"]
+
+[tool.coverage.report]
+show_missing = true
+skip_covered = true
+
+[tool.ruff]
+line-length = 100
+
+[tool.semantic_release]
+version_variables = ["project_runpy/__init__.py:__version__"]
+build_command = "pip install flit && flit build"

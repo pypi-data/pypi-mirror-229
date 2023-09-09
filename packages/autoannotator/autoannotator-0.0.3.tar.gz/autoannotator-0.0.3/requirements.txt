@@ -1,0 +1,8 @@
+loguru
+onnx
+onnxruntime-gpu
+pydantic
+scikit-image
+scikit-learn
+opencv-python
+pytest

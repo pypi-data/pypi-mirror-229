@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+casbin_pony_adapter/__init__.py
+casbin_pony_adapter/adapter.py
+casbin_pony_adapter/filter.py
+casbin_pony_adapter.egg-info/PKG-INFO
+casbin_pony_adapter.egg-info/SOURCES.txt
+casbin_pony_adapter.egg-info/dependency_links.txt
+casbin_pony_adapter.egg-info/requires.txt
+casbin_pony_adapter.egg-info/top_level.txt

@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+mysqltop/__init__.py
+mysqltop.egg-info/PKG-INFO
+mysqltop.egg-info/SOURCES.txt
+mysqltop.egg-info/dependency_links.txt
+mysqltop.egg-info/entry_points.txt
+mysqltop.egg-info/requires.txt
+mysqltop.egg-info/top_level.txt

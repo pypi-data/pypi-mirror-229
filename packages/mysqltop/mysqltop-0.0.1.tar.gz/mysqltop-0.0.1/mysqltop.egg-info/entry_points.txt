@@ -1,0 +1,2 @@
+[console_scripts]
+mysqltop = mysqltop.cli.main:cli

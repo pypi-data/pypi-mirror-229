@@ -1,0 +1,2 @@
+[console_scripts]
+dataci = dataci.command:cli

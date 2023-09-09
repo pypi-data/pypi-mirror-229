@@ -1,0 +1,10 @@
+notiondl/__init__.py,sha256=0YW0rPQ0mp-2RwNCfUNAqtfiRLdD_ZSP_eOQgtA7mXE,60
+notiondl/__main__.py,sha256=9loX-fegjZh4W2QMXWI-zeGi5HkOsDQZ6Wwj1Q-3IVw,77
+notiondl/cli.py,sha256=V61VUYGYe7KUeCIwaMgaxRJs33Nj7cJUJ2g7cJ3xhUw,2921
+notiondl/main.py,sha256=THMXeqHsQh-VF_lcR64RWGWjip3LdF8gLgVIjEOxMrc,8064
+notiondl/utils.py,sha256=b1dRtjStsxvXlVlqtkXjZI0KWB39J2WUKWsiAs4T1nk,2783
+notiondl-0.1.1.dist-info/LICENSE,sha256=5kXSxb5LsT88wGCXzHKXmUqNJaSf2uJ5tJ2nB_1Hui4,1072
+notiondl-0.1.1.dist-info/METADATA,sha256=bVRLSJxbg7kUvTPHr2XCPXyw9KVfpVKKDbOVQf1FMr4,4298
+notiondl-0.1.1.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+notiondl-0.1.1.dist-info/entry_points.txt,sha256=3ryHfmnfP8jtby1p43lhxsT1DsrImE-5avMDIEtY_-g,54
+notiondl-0.1.1.dist-info/RECORD,,

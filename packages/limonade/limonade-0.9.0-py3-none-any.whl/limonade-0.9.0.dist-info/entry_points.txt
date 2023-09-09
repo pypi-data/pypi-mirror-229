@@ -1,0 +1,5 @@
+[console_scripts]
+add-limonade-detector = limonade.utils:_add_detector
+get-limonade-config = limonade.utils:get_limonade_config
+set-limonade-config = limonade.utils:_set_limonade_config
+set-limonade-data = limonade.utils:_set_limonade_data

@@ -1,0 +1,47 @@
+# UFalcon (Ultra Fast Lightcone)
+[![pipeline](https://cosmo-gitlab.phys.ethz.ch/cosmo_public/ufalcon-published/badges/master/pipeline.svg)](https://cosmo-gitlab.phys.ethz.ch/cosmo_public/ufalcon-published)
+[![arXiv](http://img.shields.io/badge/arXiv-1801.05745-orange.svg?style=flat)](https://arxiv.org/abs/1801.05745)
+[![arXiv](http://img.shields.io/badge/arXiv-1801.05745-orange.svg?style=flat)](https://arxiv.org/abs/2309.03258)
+
+
+Package for constructing signal maps for multiple cosmological probes given N-Body code output. Written in Python3.
+
+[Source](https://cosmo-gitlab.phys.ethz.ch/cosmo_public/ufalcon-published)
+
+[Documentation](https://cosmo-docs.phys.ethz.ch/UFalcon/)
+
+
+## Why use UFalcon?
+
+UFalcon is a tool for rapidly post-processing N-body code output into signal maps for many different cosmological probes. The package is able to produce maps of weak-lensing convergence, linear-bias galaxy overdenisty, cosmic micowave background (CMB) lensing convergence and the integrated Sachs-Wolfe temperature perturbation given a set of N-body lightcones. The output of the code for the above signals has been tested against analytical theoretical predictions to a high degree of accuracy in [Reeves et al. 2023](https://arxiv.org/abs/2309.03258). The package offers a high flexibility for the lightcone construction, such as user-specific survey- redshift ranges, redshift distributions and single-source redshifts. UFalcon also offers the possibility to compute the galaxy intrinsic alignment signal, which can be treated as an additive component to the cosmological signal.
+
+## Features
+
+* Fast construction of probe maps for user-specific redshift distributions and single-source redshifts including weak lensing convergence, galaxy clustering (linear bias model), CMB lensing and CMB ISW signals computed on the lightcone used in [Reeves et al. 2023](https://arxiv.org/abs/2309.03258)
+* Computation of galaxy intrinsic alignment (IA) signal (additive to the cosmological signal) based on the nonlinear intrinsic alignment model (NLA) ([Bridle et al. 2007](https://arxiv.org/abs/0705.0166), [Hirata et al. 2004](https://journals.aps.org/prd/abstract/10.1103/PhysRevD.70.063526) and [Joachimi et al. 2011](https://www.aanda.org/articles/aa/abs/2011/03/aa15621-10/aa15621-10.html)) and applied in [Zürcher et al. 2020](https://arxiv.org/abs/2006.12506).
+
+## Basic usage
+
+* See the example demo_notebook (found in the `notebooks` folder of the repo or the `Usage` section of the docs) which demonstrates using UFalcon on a small test set of lightcone output.
+
+## N-Body Simulations
+
+UFalcon is able to post-process any set of lightcone shells produced by an N-body code into cosmological signal maps, though we recommend the cosmogrid suite of simualtions ([Kacprzak et al. 2022](https://arxiv.org/abs/2209.04662)) available [here](http://www.cosmogrid.ai/), which can be easily interfaced with UFalcon. Note that UFalcon currently only supports post-processing of simulation output generated in lightcone mode.
+
+## Development
+If you are working on this repo, follow these recommendations:
+- Clone the repo, cd into the directory, and install the package with `python -m pip install -e .`. The `e` flag allows you to make changes to the code and have such changes reflected in your `import` of UFalcon, without the need to reinstall the package every time.
+- To test any updates in documentation using Sphinx, follow these steps:
+	- Install the package with the `e` flag, per above
+	- Install `sphinx_rtd_theme` via `pip install sphinx_rtd_theme`
+	- Run `make docs`
+	- Check the output HTML files in `docs/_build/` folder
+
+
+## Credits
+Introduced in [Sgier et al. 2019](https://iopscience.iop.org/article/10.1088/1475-7516/2019/01/044), [Sgier et al. 2020](https://arxiv.org/abs/2007.05735) and extended in [Reeves et al. 2023](https://arxiv.org/abs/2309.03258).
+
+- If you use UFalcon for your research please cite [Reeves et al. 2023](https://arxiv.org/abs/2309.03258), [Sgier et al. 2019](https://iopscience.iop.org/article/10.1088/1475-7516/2019/01/044) and [Sgier et al. 2020](https://arxiv.org/abs/2007.05735).
+- Copyright (C) 2023 ETH Zurich, Institute for Particle Physics and Astrophysics, [Cosmology Group](https://cosmology.ethz.ch/)
+- Contact: Alexander Reeves areeves@phys.ethz.ch.
+

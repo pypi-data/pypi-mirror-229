@@ -1,0 +1,2 @@
+[console_scripts]
+ansible-workspace = ansible_workspace.__main__:main

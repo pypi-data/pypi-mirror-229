@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>rpl_pack.flag.Brine &mdash; rpl-pack 0.0.1 documentation</title>
+      <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/tabs.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/_sphinx_javascript_frameworks_compat.js"></script>
+        <script src="../_static/doctools.js"></script>
+    <script src="../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="rpl_pack.flag.FLAG" href="rpl_pack.flag.FLAG.html" />
+    <link rel="prev" title="rpl_pack.flag" href="rpl_pack.flag.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="../index.html" class="icon icon-home"> rpl-pack
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../index.html">Home Page</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../quick_start.html">Quick Start</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../tutorials.html">Tutorials</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="rpl_pack.html">API Reference</a><ul class="current">
+<li class="toctree-l2 current"><a class="reference internal" href="rpl_pack.flag.html">rpl_pack.flag</a><ul class="current">
+<li class="toctree-l3 current"><a class="current reference internal" href="#">rpl_pack.flag.Brine</a></li>
+<li class="toctree-l3"><a class="reference internal" href="rpl_pack.flag.FLAG.html">rpl_pack.flag.FLAG</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="rpl_pack.plotting.html">rpl_pack.plotting</a></li>
+<li class="toctree-l2"><a class="reference internal" href="rpl_pack.rpl.html">rpl_pack.rpl</a></li>
+<li class="toctree-l2"><a class="reference internal" href="rpl_pack.rpl_exceptions.html">rpl_pack.rpl_exceptions</a></li>
+<li class="toctree-l2"><a class="reference internal" href="rpl_pack.rpl_types.html">rpl_pack.rpl_types</a></li>
+<li class="toctree-l2"><a class="reference internal" href="rpl_pack.test.html">rpl_pack.test</a></li>
+<li class="toctree-l2"><a class="reference internal" href="rpl_pack.utils.html">rpl_pack.utils</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../contact_us.html">Contact Us</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../faq.html">FAQ</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">rpl-pack</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
+          <li><a href="rpl_pack.html">rpl_pack</a> &raquo;</li>
+          <li><a href="rpl_pack.flag.html">rpl_pack.flag</a> &raquo;</li>
+      <li>rpl_pack.flag.Brine</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../_sources/_autosummary/rpl_pack.flag.Brine.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="rpl-pack-flag-brine">
+<h1>rpl_pack.flag.Brine<a class="headerlink" href="#rpl-pack-flag-brine" title="Permalink to this heading"></a></h1>
+<dl class="py class">
+<dt class="sig sig-object py" id="rpl_pack.flag.Brine">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">rpl_pack.flag.</span></span><span class="sig-name descname"><span class="pre">Brine</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">username</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">password</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#rpl_pack.flag.Brine" title="Permalink to this definition"></a></dt>
+<dd><p>Bases: <a class="reference internal" href="rpl_pack.flag.FLAG.html#rpl_pack.flag.FLAG" title="rpl_pack.flag.FLAG"><code class="xref py py-class docutils literal notranslate"><span class="pre">FLAG</span></code></a></p>
+<p>Returns Brine application object upon authentication of ‘username’ and
+‘password’ inputs through which all brine/water property calculations are
+performed, otherwise RPLUserCredentialsDeniedException is raised.</p>
+<p>As long as the Brine application object exists it can be used to call functions
+on the RPL server, checking authentication and permissions to each function
+called.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>username</strong> (<em>str</em>) – RPL server login username.</p></li>
+<li><p><strong>password</strong> (<em>str</em>) – RPL server login password.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Raises</dt>
+<dd class="field-even"><p><a class="reference internal" href="rpl_pack.rpl_exceptions.RPLUserCredentialsDeniedException.html#rpl_pack.rpl_exceptions.RPLUserCredentialsDeniedException" title="rpl_pack.rpl_exceptions.RPLUserCredentialsDeniedException"><strong>rpl_exceptions.RPLUserCredentialsDeniedException</strong></a> – If either username/password is invalid.</p>
+</dd>
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>Brine application instance.</p>
+</dd>
+<dt class="field-even">Return type</dt>
+<dd class="field-even"><p>object</p>
+</dd>
+</dl>
+<p class="rubric">Methods</p>
+<table class="autosummary longtable docutils align-default">
+<colgroup>
+<col style="width: 10%" />
+<col style="width: 90%" />
+</colgroup>
+<tbody>
+<tr class="row-odd"><td><p><a class="reference internal" href="#rpl_pack.flag.Brine.density_brine" title="rpl_pack.flag.Brine.density_brine"><code class="xref py py-obj docutils literal notranslate"><span class="pre">density_brine</span></code></a></p></td>
+<td><p>Calculate density of brine at given temperature (C), pressure (MPa), salinity (ppm), NaCl (weight %), KCl (weight %), and CaCl2 (weight %).</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#rpl_pack.flag.Brine.density_water" title="rpl_pack.flag.Brine.density_water"><code class="xref py py-obj docutils literal notranslate"><span class="pre">density_water</span></code></a></p></td>
+<td><p>Calculate density of pure water at given temperature (C) and pressure (MPa).</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#rpl_pack.flag.Brine.density_water_CO2" title="rpl_pack.flag.Brine.density_water_CO2"><code class="xref py py-obj docutils literal notranslate"><span class="pre">density_water_CO2</span></code></a></p></td>
+<td><p>Calculate density of water+CO2 at given temperature (C), pressure (MPa), gwr (L/L).</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#rpl_pack.flag.Brine.modulus_brine" title="rpl_pack.flag.Brine.modulus_brine"><code class="xref py py-obj docutils literal notranslate"><span class="pre">modulus_brine</span></code></a></p></td>
+<td><p>Calculate modulus of brine at given temperature (C), pressure (MPa), salinity (ppm), NaCl (weight %), KCl (weight %), and CaCl2 (weight %).</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#rpl_pack.flag.Brine.modulus_water" title="rpl_pack.flag.Brine.modulus_water"><code class="xref py py-obj docutils literal notranslate"><span class="pre">modulus_water</span></code></a></p></td>
+<td><p>Calculate modulus of pure water at given temperature (C) and pressure (MPa).</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#rpl_pack.flag.Brine.resistivity_brine" title="rpl_pack.flag.Brine.resistivity_brine"><code class="xref py py-obj docutils literal notranslate"><span class="pre">resistivity_brine</span></code></a></p></td>
+<td><p>Calculate resistivity of brine at given temperature (C) and salinity (ppm).</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#rpl_pack.flag.Brine.saturated_vapor_pressure" title="rpl_pack.flag.Brine.saturated_vapor_pressure"><code class="xref py py-obj docutils literal notranslate"><span class="pre">saturated_vapor_pressure</span></code></a></p></td>
+<td><p>Calculate saturated vapor pressure of brine at given temperature (C).</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#rpl_pack.flag.Brine.saturated_vapor_temperature" title="rpl_pack.flag.Brine.saturated_vapor_temperature"><code class="xref py py-obj docutils literal notranslate"><span class="pre">saturated_vapor_temperature</span></code></a></p></td>
+<td><p>Calculate saturated vapor temperature of brine at given pressure (MPa).</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#rpl_pack.flag.Brine.solubility_co2_water" title="rpl_pack.flag.Brine.solubility_co2_water"><code class="xref py py-obj docutils literal notranslate"><span class="pre">solubility_co2_water</span></code></a></p></td>
+<td><p>Calculate solubility of CO2 in H20 at a given temperature (C) and Pressure (MPa).</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#rpl_pack.flag.Brine.solubility_gas_brine" title="rpl_pack.flag.Brine.solubility_gas_brine"><code class="xref py py-obj docutils literal notranslate"><span class="pre">solubility_gas_brine</span></code></a></p></td>
+<td><p>Calculate solubility of gas in brine (gwr) at given temperature (C), pressure (ppm), and salinity (ppm).</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#rpl_pack.flag.Brine.solubility_gas_water" title="rpl_pack.flag.Brine.solubility_gas_water"><code class="xref py py-obj docutils literal notranslate"><span class="pre">solubility_gas_water</span></code></a></p></td>
+<td><p>Calculate solubility of gas in pure water (gwr) at given temperature (C) and pressure (ppm).</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#rpl_pack.flag.Brine.velocity_brine" title="rpl_pack.flag.Brine.velocity_brine"><code class="xref py py-obj docutils literal notranslate"><span class="pre">velocity_brine</span></code></a></p></td>
+<td><p>Calculate velocity of brine at given temperature (C), pressure (MPa), salinity (ppm), NaCl (weight %), KCl (weight %), and CaCl2 (weight %).</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#rpl_pack.flag.Brine.velocity_water" title="rpl_pack.flag.Brine.velocity_water"><code class="xref py py-obj docutils literal notranslate"><span class="pre">velocity_water</span></code></a></p></td>
+<td><p>Calculate velcity of pure water at given temperature (C) and pressure (MPa).</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#rpl_pack.flag.Brine.velocity_water_CO2" title="rpl_pack.flag.Brine.velocity_water_CO2"><code class="xref py py-obj docutils literal notranslate"><span class="pre">velocity_water_CO2</span></code></a></p></td>
+<td><p>Calculate velocity of water+CO2 at given temperature (C), pressure (MPa), gwr (L/L).</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#rpl_pack.flag.Brine.viscosity_brine" title="rpl_pack.flag.Brine.viscosity_brine"><code class="xref py py-obj docutils literal notranslate"><span class="pre">viscosity_brine</span></code></a></p></td>
+<td><p>Calculate viscosity of brine at given temperature (C) and salinity (ppm).</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#rpl_pack.flag.Brine.viscosity_water" title="rpl_pack.flag.Brine.viscosity_water"><code class="xref py py-obj docutils literal notranslate"><span class="pre">viscosity_water</span></code></a></p></td>
+<td><p>Calculate viscosity of water at given temperature (C).</p></td>
+</tr>
+</tbody>
+</table>
+<dl class="py method">
+<dt class="sig sig-object py" id="rpl_pack.flag.Brine.density_brine">
+<span class="sig-name descname"><span class="pre">density_brine</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">temperature</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">pressure</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">salinity</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">NaCl</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">KCl</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">CaCl2</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">float</span></span></span><a class="headerlink" href="#rpl_pack.flag.Brine.density_brine" title="Permalink to this definition"></a></dt>
+<dd><p>Calculate density of brine at given temperature (C),
+pressure (MPa), salinity (ppm), NaCl (weight %), KCl (weight %),
+and CaCl2 (weight %).</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>temperature</strong> (<em>float</em>) – Temperature of brine in C.</p></li>
+<li><p><strong>pressure</strong> (<em>float</em>) – Pressure of brine in MPa.</p></li>
+<li><p><strong>salinity</strong> (<em>float</em>) – Salinity of brine (weight %).</p></li>
+<li><p><strong>NaCl</strong> (<em>float</em>) – Weight % of NaCl in brine.</p></li>
+<li><p><strong>KCl</strong> (<em>float</em>) – Weight % of KCl in brine.</p></li>
+<li><p><strong>CaCl2</strong> (<em>float</em>) – Weight % of CaCl2 in brine.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>Density of brine at given temperature and pressure.</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>float</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="rpl_pack.flag.Brine.density_water">
+<span class="sig-name descname"><span class="pre">density_water</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">temperature</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">pressure</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">float</span></span></span><a class="headerlink" href="#rpl_pack.flag.Brine.density_water" title="Permalink to this definition"></a></dt>
+<dd><p>Calculate density of pure water at given temperature (C) and pressure (MPa).</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>temperature</strong> (<em>float</em>) – Temperature of water in C.</p></li>
+<li><p><strong>pressure</strong> (<em>float</em>) – Pressure of water in MPa.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>Density of pure water at given temperature and pressure.</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>float</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="rpl_pack.flag.Brine.density_water_CO2">
+<span class="sig-name descname"><span class="pre">density_water_CO2</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">temperature</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">pressure</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">gwr</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">float</span></span></span><a class="headerlink" href="#rpl_pack.flag.Brine.density_water_CO2" title="Permalink to this definition"></a></dt>
+<dd><p>Calculate density of water+CO2 at given temperature (C), pressure (MPa), gwr (L/L).</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>temperature</strong> (<em>float</em>) – Temperature of brine in C.</p></li>
+<li><p><strong>pressure</strong> (<em>float</em>) – Pressure of brine in MPa.</p></li>
+<li><p><strong>gwr</strong> (<em>float</em>) – Gas water ratio of CO2 to water.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>Density of water+CO2 at given temperature and pressure and gwr.</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>float</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="rpl_pack.flag.Brine.modulus_brine">
+<span class="sig-name descname"><span class="pre">modulus_brine</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">temperature</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">pressure</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">salinity</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">NaCl</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">KCl</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">CaCl2</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">float</span></span></span><a class="headerlink" href="#rpl_pack.flag.Brine.modulus_brine" title="Permalink to this definition"></a></dt>
+<dd><p>Calculate modulus of brine at given temperature (C),
+pressure (MPa), salinity (ppm), NaCl (weight %), KCl (weight %),
+and CaCl2 (weight %).</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>temperature</strong> (<em>float</em>) – Temperature of brine in C.</p></li>
+<li><p><strong>pressure</strong> (<em>float</em>) – Pressure of brine in MPa.</p></li>
+<li><p><strong>salinity</strong> (<em>float</em>) – Salinity of brine (weight %).</p></li>
+<li><p><strong>NaCl</strong> (<em>float</em>) – Weight % of NaCl in brine.</p></li>
+<li><p><strong>KCl</strong> (<em>float</em>) – Weight % of KCl in brine.</p></li>
+<li><p><strong>CaCl2</strong> (<em>float</em>) – Weight % of CaCl2 in brine.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>Modulus of brine at given temperature and pressure, salinity,
+NaCl, KCl, CaCl2.</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>float</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="rpl_pack.flag.Brine.modulus_water">
+<span class="sig-name descname"><span class="pre">modulus_water</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">temperature</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">pressure</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">float</span></span></span><a class="headerlink" href="#rpl_pack.flag.Brine.modulus_water" title="Permalink to this definition"></a></dt>
+<dd><p>Calculate modulus of pure water at given temperature (C) and pressure (MPa).</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>temperature</strong> (<em>float</em>) – Temperature of water in C.</p></li>
+<li><p><strong>pressure</strong> (<em>float</em>) – Pressure of water in MPa.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>Modulus of pure water at given temperature and pressure.</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>float</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="rpl_pack.flag.Brine.resistivity_brine">
+<span class="sig-name descname"><span class="pre">resistivity_brine</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">temperature</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">salinity</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">float</span></span></span><a class="headerlink" href="#rpl_pack.flag.Brine.resistivity_brine" title="Permalink to this definition"></a></dt>
+<dd><p>Calculate resistivity of brine at given temperature (C) and
+salinity (ppm).</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>temperature</strong> (<em>float</em>) – Temperature of brine in C.</p></li>
+<li><p><strong>salinity</strong> (<em>float</em>) – Salinity of brine in ppm.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>Resistivity of brine at given temperature and salinity.</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>float</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="rpl_pack.flag.Brine.saturated_vapor_pressure">
+<span class="sig-name descname"><span class="pre">saturated_vapor_pressure</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">temperature</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">float</span></span></span><a class="headerlink" href="#rpl_pack.flag.Brine.saturated_vapor_pressure" title="Permalink to this definition"></a></dt>
+<dd><p>Calculate saturated vapor pressure of brine at given temperature (C).</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>temperature</strong> (<em>float</em>) – Temperature of brine in C.</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>Saturated vapor pressure of brine at given temperature.</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>float</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="rpl_pack.flag.Brine.saturated_vapor_temperature">
+<span class="sig-name descname"><span class="pre">saturated_vapor_temperature</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">pressure</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">float</span></span></span><a class="headerlink" href="#rpl_pack.flag.Brine.saturated_vapor_temperature" title="Permalink to this definition"></a></dt>
+<dd><p>Calculate saturated vapor temperature of brine at given pressure (MPa).</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>pressure</strong> (<em>float</em>) – Pressure of brine in MPa.</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>Saturated vapor temperature of brine at given pressure.</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>float</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="rpl_pack.flag.Brine.solubility_co2_water">
+<span class="sig-name descname"><span class="pre">solubility_co2_water</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">temperature</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">pressure</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">float</span></span></span><a class="headerlink" href="#rpl_pack.flag.Brine.solubility_co2_water" title="Permalink to this definition"></a></dt>
+<dd><p>Calculate solubility of CO2 in H20 at a given temperature (C) and Pressure (MPa).</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>temperature</strong> (<em>float</em>) – Temperature of water in C.</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>CO2 solubility in H20 at given temperature.</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>float</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="rpl_pack.flag.Brine.solubility_gas_brine">
+<span class="sig-name descname"><span class="pre">solubility_gas_brine</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">temperature</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">pressure</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">salinity</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">float</span></span></span><a class="headerlink" href="#rpl_pack.flag.Brine.solubility_gas_brine" title="Permalink to this definition"></a></dt>
+<dd><p>Calculate solubility of gas in brine (gwr) at given temperature (C),
+pressure (ppm), and salinity (ppm).</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>temperature</strong> (<em>float</em>) – Temperature of brine in C.</p></li>
+<li><p><strong>pressure</strong> – Pressure of brine in MPa.</p></li>
+<li><p><strong>salinity</strong> (<em>float</em>) – Salinity of brine in ppm.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>Solubility of gas in brine (gwr) at given temperature, pressure,
+and salinity.</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>float</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="rpl_pack.flag.Brine.solubility_gas_water">
+<span class="sig-name descname"><span class="pre">solubility_gas_water</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">temperature</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">pressure</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">float</span></span></span><a class="headerlink" href="#rpl_pack.flag.Brine.solubility_gas_water" title="Permalink to this definition"></a></dt>
+<dd><p>Calculate solubility of gas in pure water (gwr) at given temperature (C)
+and pressure (ppm).</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>temperature</strong> (<em>float</em>) – Temperature of water in C.</p></li>
+<li><p><strong>pressure</strong> – Pressure of water in MPa.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>Solubility of gas in pure water (gwr) at given temperature and pressure.</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>float</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="rpl_pack.flag.Brine.velocity_brine">
+<span class="sig-name descname"><span class="pre">velocity_brine</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">temperature</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">pressure</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">salinity</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">NaCl</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">KCl</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">CaCl2</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">float</span></span></span><a class="headerlink" href="#rpl_pack.flag.Brine.velocity_brine" title="Permalink to this definition"></a></dt>
+<dd><p>Calculate velocity of brine at given temperature (C),
+pressure (MPa), salinity (ppm), NaCl (weight %), KCl (weight %),
+and CaCl2 (weight %).</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>temperature</strong> (<em>float</em>) – Temperature of brine in C.</p></li>
+<li><p><strong>pressure</strong> (<em>float</em>) – Pressure of brine in MPa.</p></li>
+<li><p><strong>salinity</strong> (<em>float</em>) – Salinity of brine (weight %).</p></li>
+<li><p><strong>NaCl</strong> (<em>float</em>) – Weight % of NaCl in brine.</p></li>
+<li><p><strong>KCl</strong> (<em>float</em>) – Weight % of KCl in brine.</p></li>
+<li><p><strong>CaCl2</strong> (<em>float</em>) – Weight % of CaCl2 in brine.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>Velocity of brine at given temperature and pressure.</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>float</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="rpl_pack.flag.Brine.velocity_water">
+<span class="sig-name descname"><span class="pre">velocity_water</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">temperature</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">pressure</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">float</span></span></span><a class="headerlink" href="#rpl_pack.flag.Brine.velocity_water" title="Permalink to this definition"></a></dt>
+<dd><p>Calculate velcity of pure water at given temperature (C) and pressure (MPa).</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>temperature</strong> (<em>float</em>) – Temperature of water in C.</p></li>
+<li><p><strong>pressure</strong> (<em>float</em>) – Pressure of water in MPa.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>Velocity of pure water at given temperature and pressure.</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>float</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="rpl_pack.flag.Brine.velocity_water_CO2">
+<span class="sig-name descname"><span class="pre">velocity_water_CO2</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">temperature</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">pressure</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">gwr</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">float</span></span></span><a class="headerlink" href="#rpl_pack.flag.Brine.velocity_water_CO2" title="Permalink to this definition"></a></dt>
+<dd><p>Calculate velocity of water+CO2 at given temperature (C), pressure (MPa), gwr (L/L).</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>temperature</strong> (<em>float</em>) – Temperature of brine in C.</p></li>
+<li><p><strong>pressure</strong> (<em>float</em>) – Pressure of brine in MPa.</p></li>
+<li><p><strong>gwr</strong> (<em>float</em>) – Gas water ratio of CO2 to water.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>Velocity of water+CO2 at given temperature and pressure and gwr.</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>float</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="rpl_pack.flag.Brine.viscosity_brine">
+<span class="sig-name descname"><span class="pre">viscosity_brine</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">temperature</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">salinity</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">float</span></span></span><a class="headerlink" href="#rpl_pack.flag.Brine.viscosity_brine" title="Permalink to this definition"></a></dt>
+<dd><p>Calculate viscosity of brine at given temperature (C) and salinity (ppm).</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>temperature</strong> (<em>float</em>) – Temperature of brine in C.</p></li>
+<li><p><strong>pressure</strong> – Salinity of brine in ppm.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>Viscosity of brine at given temperature and salinity.</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>float</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="rpl_pack.flag.Brine.viscosity_water">
+<span class="sig-name descname"><span class="pre">viscosity_water</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">temperature</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">float</span></span></span><a class="headerlink" href="#rpl_pack.flag.Brine.viscosity_water" title="Permalink to this definition"></a></dt>
+<dd><p>Calculate viscosity of water at given temperature (C).</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>temperature</strong> (<em>float</em>) – Temperature of water in C.</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>Viscosity of water at given temperature.</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>float</p>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="rpl_pack.flag.html" class="btn btn-neutral float-left" title="rpl_pack.flag" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="rpl_pack.flag.FLAG.html" class="btn btn-neutral float-right" title="rpl_pack.flag.FLAG" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2022, Joe McNease.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

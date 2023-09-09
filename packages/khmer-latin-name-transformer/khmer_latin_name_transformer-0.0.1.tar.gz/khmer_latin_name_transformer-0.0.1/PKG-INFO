@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: khmer_latin_name_transformer
+Version: 0.0.1
+Home-page: https://github.com/seanghay/khmer_latin_name_transformer
+Author: Seanghay Yath
+Author-email: seanghay.dev@gmail.com
+License: Apache License 2.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Requires-Python: >3.5
+Requires-Dist: pynini

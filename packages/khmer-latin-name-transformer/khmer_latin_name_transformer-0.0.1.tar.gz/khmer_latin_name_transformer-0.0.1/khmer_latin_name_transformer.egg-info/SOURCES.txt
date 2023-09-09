@@ -1,0 +1,11 @@
+README.md
+setup.cfg
+setup.py
+khmer_latin_name_transformer/__init__.py
+khmer_latin_name_transformer/km_latin_names.fst
+khmer_latin_name_transformer/latin_km_names.fst
+khmer_latin_name_transformer.egg-info/PKG-INFO
+khmer_latin_name_transformer.egg-info/SOURCES.txt
+khmer_latin_name_transformer.egg-info/dependency_links.txt
+khmer_latin_name_transformer.egg-info/requires.txt
+khmer_latin_name_transformer.egg-info/top_level.txt

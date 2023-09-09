@@ -1,0 +1,1 @@
+This package contains the API classes that the Loadsure company uses to create integration between a specific platform and our data warehouse.

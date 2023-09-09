@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: loadsure-api-classes
+Version: 0.1
+Summary: Api classes to make a data integration
+Home-page: UNKNOWN
+Author: Juan Valencia
+Author-email: juan.valencia@loadsure.net
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: Microsoft
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.9
+License-File: LICENSE.txt
+
+This package contains the API classes that the Loadsure company uses to create integration between a specific platform and our data warehouse.
+
+Change Log
+============
+0.0.1 (Sep 08, 2023)
+ â€” â€” â€” â€” â€” â€” â€” â€” â€”
+ - First Release
+

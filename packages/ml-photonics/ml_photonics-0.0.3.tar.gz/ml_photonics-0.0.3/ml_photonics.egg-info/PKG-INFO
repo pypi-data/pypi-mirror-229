@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: ml-photonics
+Version: 0.0.3
+Summary: package for doing machine learning in photonics
+Author-email: Andrew Salij <andrewsalij@gmail.com>
+Project-URL: Homepage, https://github.com/andrewsalij/ML_Photonics
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: scikit-learn
+Requires-Dist: tidy3d
+Requires-Dist: keras
+Requires-Dist: matplotlib
+
+# ML_Photonics
+Andrew Salij
+
+This is a suite for creating photonic systems, running machine learning algorithms on results from said systems, and using those results for further design and optimization.
+
+Core Dependencies: keras, numpy, tidy3D, scikit-learn, pandas
+
+At present, this repository is designed around a workflow of creating simulations in Tidy3D, using TensorFlow to create neural networks that reproduce spectral results, and then using
+the neural networks to propose additional systems to run. 
+
+For a good overview of the scientific considerations at play here, Ma, W., Liu, Z., Kudyshev, Z. A., Boltasseva, A., Cai, W., & Liu, Y. (2021). Deep learning for the design of photonic structures. Nature Photonics, 15(2), 77-90. is a solid introduction. 

@@ -1,0 +1,12 @@
+tensorflow
+numpy<=1.23.2
+
+[dev]
+wheel
+setuptools
+pytest-cov
+black==22.3.0
+isort==5.10.1
+flake8==4.0.1
+tensorflow-datasets<=4.8.2
+protobuf<=3.20

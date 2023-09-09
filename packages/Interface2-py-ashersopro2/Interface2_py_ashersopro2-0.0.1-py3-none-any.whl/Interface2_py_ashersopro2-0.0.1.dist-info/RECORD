@@ -1,0 +1,17 @@
+IF4.py,sha256=yOPdulq9z1VnF9fcDCE67S_ju16pJXi-fNgsiNAblp0,5082
+jsonGen2.py,sha256=viDoU8z6HmfGXNc8ymvpc_kSfGCtXczXwzgeJt_1pPM,1299
+Examples/basic_example.py,sha256=bHsopszLSoiEYE0CFSRhVlKkOyTqrtW-bHSuFHTV4bE,1080
+Examples/using_decorators.py,sha256=OGijn544F8ZYiIuZqA7-tlPtt2moaXw6itK056FtrQo,3771
+Examples/generating_files/main.py,sha256=vRVVuUFpNO0ihWxzutbzNdZWB-0VliZiq75npIY-gv0,653
+Examples/loading_data/main.py,sha256=_T4tEnVOUDGDjYTE4itIg7zO36NOCq6HOyx8vvcyCFY,1450
+decorators/defaultIF4.py,sha256=FsilzOS-QkyLccnVvyQ1srrvO89QS3opBKkYfWu3nOE,727
+decorators/immutableIF4.py,sha256=F9idJLsOalri8KBq1trB8F3pTlFl8CsxQiRKidi46V0,709
+decorators/manuvalIF4.py,sha256=DpzYf5mgZ72GzAIIqCdaIdrj61Tk9nQh_trpIDOywaY,997
+decorators/multipleIF4.py,sha256=bdaFOdNfh0IiqE8uhbBRpWcuHBd_LRDYWZ146lGxNmY,480
+decorators/optionalIF4.py,sha256=3YAwF2mfpSbjQagrnKkxcAvwnRvNN_qI-7-Xv--4aPE,595
+decorators/restrictedIF4.py,sha256=9hWgl3VKjPwpHC2_Hw1_77gDTZAMjRSoktlcfvAABpo,1054
+Interface2_py_ashersopro2-0.0.1.dist-info/LICENSE,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+Interface2_py_ashersopro2-0.0.1.dist-info/METADATA,sha256=-_G568QwHDabyNBATqV-aBspgZT8DIpdmSfSaTsPuug,1732
+Interface2_py_ashersopro2-0.0.1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+Interface2_py_ashersopro2-0.0.1.dist-info/top_level.txt,sha256=bUlUIJJQIVjwZ5kx1b8WNOx7sdeJzGOO8IEKSzyAGAQ,33
+Interface2_py_ashersopro2-0.0.1.dist-info/RECORD,,

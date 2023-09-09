@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+requirements.txt
+sysnet_pdf/__init__.py
+sysnet_pdf/config.py
+sysnet_pdf/jasper.py
+sysnet_pdf/pdf_utils.py
+sysnet_pdffiller.egg-info/PKG-INFO
+sysnet_pdffiller.egg-info/SOURCES.txt
+sysnet_pdffiller.egg-info/dependency_links.txt
+sysnet_pdffiller.egg-info/requires.txt
+sysnet_pdffiller.egg-info/top_level.txt
+tests/test_suite.py

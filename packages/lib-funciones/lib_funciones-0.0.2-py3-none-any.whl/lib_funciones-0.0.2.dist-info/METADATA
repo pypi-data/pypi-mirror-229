@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: lib-funciones
+Version: 0.0.2
+Summary: Libreria de funciones usadas en física experimental II UNLP
+Home-page: 
+Author: Los pibes del grupo 7
+Author-email: benjamintorracobenito@gmail.com
+License: MIT
+Description-Content-Type: text/markdown
+Requires-Dist: pymupdf
+

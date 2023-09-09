@@ -1,0 +1,14 @@
+syize/__init__.py,sha256=hYMsh79V77x4vwJmGKrOQ8d4i2DwGdSwgmifqogJ9dc,53
+syize/diff.py,sha256=gSMSeLJbpqiPdT1bA8KvB-9stLkvvLrIOzK2vicmSIs,974
+syize/diff_run.py,sha256=r-4elZaS0Fbw69Q8U0VxbZFupfuyqQFQADC2FLWWtBU,2299
+syize/picture.py,sha256=BBYYFA-HNB_Nc_dsJQpScdm7ur6DGO0gQPJCSCXXoLA,1394
+syize/picture_run.py,sha256=zuJTpbXABCtuD8Ul476iJifiBCkHR01ZcKMHqB5TJ2U,3014
+syize/plot.py,sha256=TULQqB4Ye1cbnnJ6i9dG9UVO3WTpRTDF5_t8sl-9pBE,6113
+syize/string.py,sha256=XryWpqdIvMoyvmRDGcYTOFXqqlc6uxjB2F7xksqM6k8,626
+syize/string_run.py,sha256=p_KMiOSdzY74_9vEHwzBLBsC72Zava3okHCfpI7JjIw,1780
+syize/utils.py,sha256=xotFxr5dexgVStQEOB5pigo_hpZmGWmSH8zduD-ON_U,195
+syize-1.2.5.dist-info/METADATA,sha256=Qm9lBqm2kSYN-REiILjXcpX3-SHQUuD2T5av7zoyy7o,2028
+syize-1.2.5.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+syize-1.2.5.dist-info/entry_points.txt,sha256=dQRjBkmhkYt9p84YPVDa_ME-wdp6zNKvy9TzpQnaisQ,108
+syize-1.2.5.dist-info/top_level.txt,sha256=hgPdEHxDalLuj1o4iTJB7b6HKZ5BOtfSifKGDkOzdd0,6
+syize-1.2.5.dist-info/RECORD,,

@@ -1,0 +1,15 @@
+send_sms/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+send_sms/admin.py,sha256=LYlWKofU9OBEHpOnOQV2_WMwjYwku8LWxdpKjLdNqOw,665
+send_sms/apps.py,sha256=vFUaTyVsFLwHCegv2GtNr35iJ5u3ofCfe9eIjAianzg,147
+send_sms/models.py,sha256=P10sq9NWBo2fw3E1e1Jhs36QaqqT2Mg1nXhYYO3Z6m4,1189
+send_sms/tests.py,sha256=Fm1FccbStQOW2ntrSst1uShWgjKNNhFtmKVtbYZiP8M,476
+send_sms/views.py,sha256=qa4qlm0sbvcmkQomi3sfST6z0don_LVDmxecSS9zBu0,3170
+send_sms/migrations/0001_initial.py,sha256=THK1wwJIdQJb7CJxilrbGb0WmwWib5_ymGfK3j2DM2g,1405
+send_sms/migrations/0002_remove_smssettings_static_parameters_smsparameters.py,sha256=YijHCJn94ABWnZTVO-vvkQG3xb1ZCUEDM2Sx4qg64UI,921
+send_sms/migrations/0003_rename_parameter_smsparameters_parameter_and_more.py,sha256=pZAv8UbwE2W-Z_NY-4wsMvO9_s4D6iVn3LuDF6LCkiE,717
+send_sms/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_universal_sms-1.0.6.dist-info/LICENSE.txt,sha256=EoLns04Pa-a5XMktR1CBtYNhMoJX4wsFSk4rXFSLN7A,1536
+django_universal_sms-1.0.6.dist-info/METADATA,sha256=iCRlx0hyA3x6w5gPYKfY1T0geXp8EgotBfInQ8dLzcQ,2608
+django_universal_sms-1.0.6.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+django_universal_sms-1.0.6.dist-info/top_level.txt,sha256=qfo2BM7wcyP6CBQGcJBCDrvbLy5vsiwmOL8J6-Zq9UA,9
+django_universal_sms-1.0.6.dist-info/RECORD,,

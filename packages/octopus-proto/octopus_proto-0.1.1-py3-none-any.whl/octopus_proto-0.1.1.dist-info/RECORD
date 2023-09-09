@@ -1,0 +1,14 @@
+octopus_proto/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+octopus_proto/agent_server_pb2.py,sha256=AVltYKCvRN_glROueJawW66ehHxTqdQ5tZOGwzafvSY,3684
+octopus_proto/agent_server_pb2.pyi,sha256=xZVK78K-It_hKPrbkvHthdlyy9l44defuk7_bS3zmik,3798
+octopus_proto/agent_server_pb2_grpc.py,sha256=Fbf7Wl918koOxf72GObqBy_-Ci9AglgQgR2nJzrNfYA,7098
+octopus_proto/code_pb2.py,sha256=tPgEWbAAgCYz8evvgwD0-b1AemDe2vXPnV8zVITN52k,1529
+octopus_proto/code_pb2.pyi,sha256=7xtAZAjZLTACgSSTz5EyWGT8mjhTI63bjUymdcrPT7k,1194
+octopus_proto/code_pb2_grpc.py,sha256=1oboBPFxaTEXt9Aw7EAj8gXHDCNMhZD2VXqocC9l_gk,159
+octopus_proto/kernel_server_pb2.py,sha256=YqdSJKMM357yBXxZ1dtXpxBlFwgUN3B57deVMvW0ACg,3481
+octopus_proto/kernel_server_pb2.pyi,sha256=9W8PWJrmY8VlNPjVH1UsUiTLUVv4O7497qxhNU4CJuU,3028
+octopus_proto/kernel_server_pb2_grpc.py,sha256=C7zx4OE0NcHsI3WZj4fEZklXhuIyDC3wtgTLT8BxEJc,7194
+octopus_proto-0.1.1.dist-info/METADATA,sha256=4N54REw11e2nBkurczP33eg6FecIeydjeR-ExdtYw6E,290
+octopus_proto-0.1.1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+octopus_proto-0.1.1.dist-info/top_level.txt,sha256=WgO0ij5LCACafh0_f9wpFr4k1XfHYmFIUscnLBtnAv8,14
+octopus_proto-0.1.1.dist-info/RECORD,,

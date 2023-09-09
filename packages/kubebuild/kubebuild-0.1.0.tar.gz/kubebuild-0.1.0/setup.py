@@ -1,0 +1,47 @@
+from setuptools import setup, find_packages
+
+setup(
+    name='kubebuild',
+    version='0.1.0',
+    packages=find_packages(),
+    install_requires=[
+        'black==23.7.0',
+        'click==8.1.7',
+        'colorama==0.4.6',
+        'markdown-it-py==3.0.0',
+        'mdurl==0.1.2',
+        'mypy-extensions==1.0.0',
+        'packaging==23.1',
+        'pathspec==0.11.2',
+        'pip==21.2.4',
+        'platformdirs==3.10.0',
+        'prompt-toolkit==1.0.14',
+        'Pygments==2.16.1',
+        'PyInquirer==1.0.3',
+        'PyYAML==6.0.1',
+        'regex==2023.8.8',
+        'rich==13.5.2',
+        'setuptools==58.0.4',
+        'shellingham==1.5.3',
+        'six==1.16.0',
+        'tomli==2.0.1',
+        'typer==0.9.0',
+        'typing_extensions==4.7.1',
+        'wcwidth==0.2.6',
+        'prompt-toolkit==1.0.14'
+    ],
+    entry_points={
+        'console_scripts': [
+            'KubeBuild = KubeBuild:app',
+        ],
+    },
+    author='Ahmed K. Madani',
+    author_email='ahmedk.madani@outlook.com',
+    description='KubeBuild - Kubernetes YAML Generator and Deployment Tool',
+    url='',
+    classifiers=[
+        'Programming Language :: Python :: 3',
+        'License :: OSI Approved :: MIT License',
+        'Operating System :: OS Independent',
+    ],
+)

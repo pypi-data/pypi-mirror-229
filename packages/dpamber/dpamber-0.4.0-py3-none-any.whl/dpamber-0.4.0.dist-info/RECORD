@@ -1,0 +1,16 @@
+dpamber/__init__.py,sha256=cnD9ihKYmo76ZSvVBkJHFbhNxQ19m2U9XNiiZiavwuY,57
+dpamber/aparam.py,sha256=nisq3tLQpL0IoPOOfZynRl14KzdbGi69EuRca7m3vNQ,219
+dpamber/cli.py,sha256=7NVMtt80vZVv4q77p_uk1ZRYR5Yq2oVT4sBF_JAfsqw,3795
+dpamber/corr.py,sha256=S_OU_ad-fWluExDCoCj65l62_xhz9hN76w2grQy9Hx4,4153
+dpamber/disang.py,sha256=w8_H3y4pfF801UhaLmkeQBSkZMyMJrWp8bqfRYk_iOk,15073
+dpamber/drdq.py,sha256=aBQE-V-5k_O4EhaolSzKH1flPA173SXB3dRO44X-VR0,221
+dpamber/model_devi.py,sha256=pGZXwrZ26jhIMfH0rt7DyNtULanoXJNeGNoqrWuTR0o,1928
+dpamber/qmbuffer.py,sha256=-G0vC5L7FqPF0oBchPEvFgQtdBd_Y0vaheqhYYnem1I,4971
+dpamber/qmwater_corr.py,sha256=gPM5p46ijVYvW1Il2upbZUoVUDCWFGsuSVJLiVVsVTA,1801
+dpamber/read_amber.py,sha256=Lg31s42wPzQXwr_l96z7TeCy7PY6cL-IfYBU81thdgk,8697
+dpamber/utils.py,sha256=D57xY9gHwSLuR-Rc0YBLJFUWwvXNtx8UZf4T4RbpTTs,1738
+dpamber-0.4.0.dist-info/METADATA,sha256=dQoKBvPv0Na-wQ0DbGYqsb5ANH8pTHxRhv8FyfqE8xg,3084
+dpamber-0.4.0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+dpamber-0.4.0.dist-info/entry_points.txt,sha256=hoWh3ihpSJv_jUve18uKm_591asuEaM2TlBnjipjOqg,165
+dpamber-0.4.0.dist-info/top_level.txt,sha256=zkmMCJn15EHJ4TTU4l63Kjd1YukSu8uu0eSmjvoj_SM,8
+dpamber-0.4.0.dist-info/RECORD,,

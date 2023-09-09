@@ -1,0 +1,3 @@
+include stringindexsplit/requirements.txt
+include stringindexsplit/thirdparty.json
+include stringindexsplit/README.MD

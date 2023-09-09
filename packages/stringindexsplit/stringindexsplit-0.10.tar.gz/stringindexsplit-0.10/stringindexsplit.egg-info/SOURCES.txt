@@ -1,0 +1,14 @@
+LICENSE.rst
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+stringindexsplit/README.MD
+stringindexsplit/__init__.py
+stringindexsplit/requirements.txt
+stringindexsplit/thirdparty.json
+stringindexsplit.egg-info/PKG-INFO
+stringindexsplit.egg-info/SOURCES.txt
+stringindexsplit.egg-info/dependency_links.txt
+stringindexsplit.egg-info/requires.txt
+stringindexsplit.egg-info/top_level.txt

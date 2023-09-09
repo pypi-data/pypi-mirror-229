@@ -1,0 +1,204 @@
+Metadata-Version: 2.1
+Name: leap-ie
+Version: 0.0.3
+Summary: Leap Labs Interpretability Engine
+Home-page: https://www.leap-labs.com/
+Author: Jessica Rumbelow
+Author-email: jessica@leap-labs.com
+License: Closed-source
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: tensorflow >=2.13.0
+Requires-Dist: ipython >=8.14.0
+Requires-Dist: pandas >=2.0.3
+Requires-Dist: tqdm >=4.65.0
+Requires-Dist: wandb >=0.15.4
+Requires-Dist: numpy >=1.24.3
+
+# Leap Interpretability Engine
+
+Congratulations on being a _very_ early adopter of our interpretability engine! Not sure what's going on? Check out the [FAQ](#faq) 
+
+## Installation
+
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install leap-ie.
+
+```bash
+pip install leap-ie
+```
+
+Sign in and generate your API key in the [leap app](https://app.leap-labs.com/) - you'll need this to get started.
+
+## Usage
+Using the interpretability engine is really easy! All you need to do is import leap_ie, and wrap your model in our generate function:
+```python
+results = engine.generate(project_name="interpretability", model=your_model, class_list=['hotdog', 'not_hotdog'], config= {"leap_api_key": "YOUR_LEAP_API_KEY"})
+
+```
+
+## Results
+The generate function returns a pandas dictionary. If you're in a jupyter notebook, you can view these inline using engine.display_results(results), but for the best experience we recommend you head to the [leap app](https://app.leap-labs.com/) to view your prototypes and isolations.
+
+## Weights and Biases Integration
+We can also log results directly to your WandB projects! To do this, set project_name to the name of the WandB project where you'd like the results to be logged, and add your WandB API key and entity name to the config dictionary:
+```python
+config = {
+    "wandb_api_key": "YOUR_WANDB_API_KEY",
+    "wandb_entity": "your_wandb_entity",
+    "leap_api_key": "YOUR_LEAP_API_KEY"
+}
+results = engine.generate(project_name="your_wandb_project_name", model=your_model, class_list=['hotdog', 'not_hotdog'], config=config)
+
+```
+
+## Prototype Generation
+
+Given your model, we generate prototypes and entanglements for each class you specify. [What is a prototype?](#what-is-a-prototype?) [What is entanglement?](#what-is-entanglement?) We also isolate entangled features in your prototypes. [What is feature isolation?](#what-is-feature-isolation?)
+
+```python
+from leap_ie import engine
+from leap_ie.models import get_model
+
+config = {"leap_api_key": "YOUR_LEAP_API_KEY"}
+
+# Replace this model with your own, or explore any imagenet classifier from torchvision (https://pytorch.org/vision/stable/models.html).
+model = preprocessing_fn, model, class_list = get_model('torchvision.resnet18')
+
+# indexes of classes to generate prototypes for. In this case, ['tench', 'goldfish', 'great white shark'].
+target_classes = [0, 1, 2]
+
+# generate prototypes
+prototypes = engine.generate(project_name="resnet18", model=model, class_list=class_list, config=config,
+                             target_classes=target_classes, preprocessing=preprocessing_fn, samples=None, device=None, mode="pt")
+
+
+# For the best experience, head to https://app.leap-labs.com/ to explore your prototypes and feature isolations in the browser!
+# Or, if you're in a jupyter notebook, you can display your results inline:
+engine.display_results(prototypes)
+```
+
+## Sample Feature Isolation
+
+Given some input image, we can show you which features your model thinks belong to each class. If you specify target classes, we'll isolate features for those, or if not, we'll isolate features for the three highest probability classes.
+
+```python
+from torchvision import transforms
+from leap_ie import engine
+from leap_ie.models import get_model
+from PIL import Image
+
+config = {"leap_api_key": "YOUR_LEAP_API_KEY"}
+
+# Replace this model with your own, or explore any imagenet classifier from torchvision (https://pytorch.org/vision/stable/models.html).
+model = preprocessing_fn, model, class_list = get_model('torchvision.resnet18')
+
+# load an image
+image_path = "tools.jpeg"
+tt = transforms.ToTensor()
+image = preprocessing_fn[0](tt(Image.open(image_path)).unsqueeze(0))
+
+# to isolate features:
+isolations = engine.generate(project_name="resnet18", model=model, class_list=class_list, config=config,
+                             target_classes=None, preprocessing=preprocessing_fn, samples=image, mode="pt")
+
+# For the best experience, head to https://app.leap-labs.com/ to explore your prototypes and feature isolations in the browser!
+# Or, if you're in a jupyter notebook, you can display your results inline:
+engine.display_results(isolations)
+```
+
+## config
+
+Leap provides a number of configuration options to fine-tune the interpretability engine's performance with your models. You can provide it as a dictionary or a path to a .json file.
+
+Here are the default values - read on for an explanation of each.
+
+```python
+config = {
+            "use_alpha": False,
+            "alpha_mask": False,
+            "alpha_only": False,
+            "baseline_init": 0,
+            "diversity_weight": 0,
+            "isolate_classes": None,
+            "isolation_lr": 0.05,
+            "hf_weight": 1,
+            "isolation_hf_weight": 1,
+            "input_dim": [224, 224, 3] if mode == "tf" else [3, 224, 224],
+            "isolation": True,
+            "logit_scale": 1,
+            "log_freq": 100,
+            "lr": 0.05,
+            "max_isolate_classes": min(3, len(class_list)),
+            "max_steps": 500,
+            "seed": 0,
+            "use_baseline": False,
+            "transform": "xl",
+            "target_classes": [0] if target_classes is None else target_classes,
+            "use_hipe": False,
+            "wandb_api_key": None,
+            "wandb_entity": None,
+        }
+```
+
+use_alpha:  if True, adds an alpha channel to the prototype. This results in the prototype generation process returning semi-transparent prototypes, which allow it to express ambivalence about the values of pixels that don't change the model prediction.
+
+alpha_mask: if True, applies a mask during prototype generation which encourages the resulting prototypes to be minimal, centered and concentrated. Experimental.
+
+alpha_only: if True, during the prototype generation process, only an alpha channel is optimised. This results in generation prototypical shapes and textures only, with no colour information.
+
+baseline_init:
+diversity_weight:
+isolate_classes:
+isolation_lr:
+hf_weight:
+isolation_hf_weight:
+input_dim:
+isolation:
+logit_scale:
+log_freq:
+lr:
+max_isolate_classes:
+max_steps:
+seed:
+use_baseline:
+transform:
+target_classes:
+use_hipe:
+wandb_api_key:
+wandb_entity:
+
+## engine.generate()
+
+The generate function is used for both prototype generation directly from the model, and for feature isolation on your input samples.
+
+
+leap_ie.engine.generate(project_name, model, class_list, config, target_classes=None, preprocessing=None, samples=None, device=None, mode="pt")
+
+project_name:   Name of your project. Used for logging.
+
+model:                      Model for interpretation. Currently we support image classification models only. We expect the model to take a batch of images as input, and return a batch of logits (NOT probabilities). If using pytorch, we expect the model to take images to be in channels first format, e.g. of shape [1, channels, height, width]. If tensorflow, channels last, e.g.[1, height, width, channels].
+
+class_list:                 List of class names corresponding to your model's output classes, e.g. ['hotdog', 'not hotdog', ...].
+
+config:                     Configuration dictionary, or path to a json file containing your configuration. At minimim, this must contain {"leap_api_key": "YOUR_LEAP_API_KEY"}
+
+target_classes  (optional): List of target class indices to generate prototypes or isolations for, e.g. [0,1]. If None, prototypes will be generated for the class at output index 0 only, e.g. 'hotdog', and feature isolations will be generated for the top 3 classes.
+
+preprocessing  (optional):  Preprocessing function to be used for generation. This can be None, but for best results, use the preprocessing function used on inputs for inference.
+
+samples  (optional):        None, or a batch of images to perform feature isolation on. If provided, only feature isolation is performed (not prototype generation). We expect samples to be of shape [num_images, height, width, channels] if using tensorflow, or [1, channels, height, width] if using pytorch. 
+
+device  (optional):         Device to be used for generation. If None, we will try to find a device.
+
+mode (optional):            Framework to use, either 'pt' for pyorch or 'tf' for tensorflow. Default is 'pt'.
+
+returns:                    A pandas dataframe containing the results of the generation process. Also logs more detailed results to the [leap app](https://app.leap-labs.com/).
+
+## FAQ
+
+## What is a prototype?
+
+## What is entanglement?
+
+## What is feature isolation?
+

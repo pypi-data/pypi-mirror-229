@@ -1,0 +1,16 @@
+huscy/subject_notes/__init__.py,sha256=xCfo9LNph7htSBG8N2u8zNGYsu2JK7-6RepRJB2SGq4,101
+huscy/subject_notes/admin.py,sha256=xnYwMNGbkfXeilbGHi0mbVE5i6Tr9JCT87i5tYSNfPo,754
+huscy/subject_notes/apps.py,sha256=y5rRNVFW28ZZTI3-O_5e0UQCIz2UiGbdBjChtTnFVa4,191
+huscy/subject_notes/models.py,sha256=NVoFIy3dpG8Gd247-I3kMmOaRR2Fr4M8UtMOI-VDDlE,1233
+huscy/subject_notes/permissions.py,sha256=PN1USZOo-bZvywW0pxAvz3yitpv91uX-C3dFl-LJnew,739
+huscy/subject_notes/serializer.py,sha256=PPo6BgT9-azP1aamTEUVwHIlZ7oFaxEpo94HAWZ--xk,991
+huscy/subject_notes/services.py,sha256=kIZqbqEnC1NGfWw3mpb8ApuGq2JZvE9Iu4Eq5RfqanQ,703
+huscy/subject_notes/urls.py,sha256=p4korSnYig1EbHu-mzW9PKCfptqtmUTJ6mu-2BIWAGY,512
+huscy/subject_notes/views.py,sha256=Tii1d2q3eN6DZ2Pozao4CaMPkQ22ynP7-uqp0YxwDeI,1238
+huscy/subject_notes/migrations/0001_initial.py,sha256=iCqgMcZIqq3v10JNzS6gjB0wpXSL5J-lBh0-8GZV7E4,1966
+huscy/subject_notes/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+huscy.subject_notes-0.1.0a3.dist-info/LICENSE,sha256=DZak_2itbUtvHzD3E7GNUYSRK6jdOJ-GqncQ2weavLA,34523
+huscy.subject_notes-0.1.0a3.dist-info/METADATA,sha256=z1KwIoEmNPbK_f0sC10lxQMHjHMDbKqj81qPiI3KGiA,1211
+huscy.subject_notes-0.1.0a3.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+huscy.subject_notes-0.1.0a3.dist-info/top_level.txt,sha256=yP1xCBOAxbmweO3NrSrdrgzzsSyrcuj2pA4XvOekNAM,6
+huscy.subject_notes-0.1.0a3.dist-info/RECORD,,

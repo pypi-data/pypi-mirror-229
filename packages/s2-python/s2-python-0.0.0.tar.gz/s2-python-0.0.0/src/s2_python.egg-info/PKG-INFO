@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: s2-python
+Version: 0.0.0
+Summary: S2 Protocol Python Wrapper
+Home-page: https://github.com/flexiblepower/s2-ws-json-python
+Author: Flexiblepower
+Author-email: info@info.nl
+License: APACHE
+Platform: Linux
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Description-Content-Type: text/x-rst; charset=UTF-8
+Requires-Dist: pydantic<=1.10.7
+Requires-Dist: pytz
+Requires-Dist: click
+Provides-Extra: testing
+Requires-Dist: pytest; extra == "testing"
+Requires-Dist: pytest-coverage; extra == "testing"
+Requires-Dist: pytest-timer; extra == "testing"
+Requires-Dist: mypy; extra == "testing"
+Requires-Dist: pylint; extra == "testing"
+Provides-Extra: development
+Requires-Dist: pip-tools; extra == "development"
+Requires-Dist: datamodel-code-generator; extra == "development"
+Requires-Dist: pre-commit; extra == "development"
+Requires-Dist: tox; extra == "development"
+Provides-Extra: docs
+Requires-Dist: sphinx; extra == "docs"
+Requires-Dist: sphinx-rtd-theme>=1.2; extra == "docs"
+Requires-Dist: sphinx-tabs; extra == "docs"
+Requires-Dist: sphinx_copybutton; extra == "docs"
+Requires-Dist: sphinx_fontawesome; extra == "docs"
+Requires-Dist: sphinxcontrib.httpdomain; extra == "docs"
+
+Python Wrapper for S2 Flexibility Protocol
+===========================================
+
+
+Install for development:
+
+    pip install -e .[testing,development]
+
+
+Run tests:
+    pip install -e .[testing,development]
+    tox
+
+Build
+    tox -e build,clean
+    

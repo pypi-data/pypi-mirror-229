@@ -1,0 +1,19 @@
+{
+    "metadata": {
+        "folder": "examples_stl",
+        "name": "inductor_air",
+        "timestamp": "2023-06-27 10:59:50.128036"
+    },
+    "mesher": {
+        "n_total": 94424,
+        "n_used": 25152
+    },
+    "solver": {
+        "sim_default": {
+            "freq": 0.0,
+            "has_converged": true,
+            "P_tot": 0.002200953062671318,
+            "W_tot": 9.034387921764409e-09
+        }
+    }
+}

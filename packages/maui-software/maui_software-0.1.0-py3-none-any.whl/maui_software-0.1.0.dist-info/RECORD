@@ -1,0 +1,10 @@
+maui/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+maui/acoustic_indices.py,sha256=OYiono-doaLrEE_2mUbX83BJ8I3HQJKcb7uBHPbUXQg,17887
+maui/data/letterhead.png,sha256=hTXu7vDK9H_QBdRjMP93ruM15FI2rYV7A8C0Ubn33Xs,435
+maui/data/letterhead_cover.png,sha256=U8SJ0Fn6sbQPWOvdKet2IRNtkd_ZhcAjG3wT-O0odnM,3204
+maui/eda.py,sha256=DnX7mJkh40-ioixuUD8jQlTgY_n5Gn4ub0pvcd67baA,11295
+maui/io.py,sha256=LNf_CLq13zdjx4ZfulyyVvZlZdb2E-jr1P1pOoiA-8E,3205
+maui/visualizations.py,sha256=qqBrvLFXM3ZGRNrTlKx7YYBssnziLvEWRENQxPLvTRQ,24293
+maui_software-0.1.0.dist-info/METADATA,sha256=xIn-OABqEWwN7o2_XO8WCF_FKatTJxIz67WQOzuqi_U,802
+maui_software-0.1.0.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+maui_software-0.1.0.dist-info/RECORD,,

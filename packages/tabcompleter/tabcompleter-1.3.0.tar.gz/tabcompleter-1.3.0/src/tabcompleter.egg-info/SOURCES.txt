@@ -1,0 +1,16 @@
+.gitignore
+CODE_OF_CONDUCT.md
+CONTRIBUTING.md
+LICENSE
+MANIFEST.in
+README.md
+SECURITY.md
+setup.cfg
+setup.py
+src/__init__.py
+src/tabcompleter.py
+src/tabcompleter.egg-info/PKG-INFO
+src/tabcompleter.egg-info/SOURCES.txt
+src/tabcompleter.egg-info/dependency_links.txt
+src/tabcompleter.egg-info/requires.txt
+src/tabcompleter.egg-info/top_level.txt

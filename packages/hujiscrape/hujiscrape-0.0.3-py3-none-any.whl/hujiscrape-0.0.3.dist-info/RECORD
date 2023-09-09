@@ -1,0 +1,11 @@
+hujiscrape/__init__.py,sha256=63X8IFHB4dDNK38-gzAF5T38vt3LSuAWgIjVZwlkjDg,722
+hujiscrape/__version__.py,sha256=Hvq-u8y3v0J_VaxbaGgoqd66VjysYLhfJ_RM30HyDQ8,99
+hujiscrape/collectors.py,sha256=HP2M7CbRd6CSMxEl8TcHbJrzGxh-2nJy9Fj_27OoDDo,3453
+hujiscrape/html_to_object.py,sha256=VdBcyE2VeMAxl2FnnfWkn9Iroft2_LyCXHf5Fr_nkKU,6902
+hujiscrape/huji_objects.py,sha256=C4Ocn1M_IBM1uk5esZQUi0PR6ZaNnHrzRcNEYRSPjrc,1059
+hujiscrape/magics.py,sha256=6JDPHHmPGc-L4zq7TTBQJofqTqCIvnsX92Q5kRejFGo,1607
+hujiscrape/scrapers.py,sha256=07w6O-e9gVc37DgtuuvjtZHX4ct_e-Q8T2SJr7GrAKQ,9102
+hujiscrape-0.0.3.dist-info/METADATA,sha256=QAFjHbpmshb3qQzqPHXNRkB0H7ztcvDbzoW1EKPPjPU,2218
+hujiscrape-0.0.3.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+hujiscrape-0.0.3.dist-info/licenses/LICENSE,sha256=I3lgVomAcB128oLm4Ozfiv1l1BEAJsYXnYNza4aK2AY,1079
+hujiscrape-0.0.3.dist-info/RECORD,,

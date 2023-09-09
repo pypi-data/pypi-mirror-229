@@ -1,0 +1,49 @@
+[build-system]
+requires = ["setuptools>=61.0.0", "wheel", "setuptools_scm[toml]>=6.2"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pynsm"
+dynamic = ["version"]
+description = "A PyTorch implementation of non-negative similarity matching"
+readme = "README.md"
+authors = [
+    { name = "Tiberiu Tesileanu", email = "ttesileanu@gmail.com" },
+    { name = "Shagesh Sridharan", email = "shagesh1996@gmail.com" },
+    { name = "Yanis Bahroun", email = "ybahroun@flatironinstitute.org" },
+]
+license = { file = "LICENSE" }
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Intended Audience :: Science/Research",
+]
+keywords = ["neural network", "biology", "research"]
+dependencies = ["numpy", "torch"]
+requires-python = ">=3.8"
+
+[project.optional-dependencies]
+docs = [
+    "mkdocs",
+    "mkdocstrings[python]",
+    "mkdocs_gen_files",
+    "mkdocs_literate_nav",
+    "mkdocs-jupyter",
+    "black",
+]
+dev = [
+    "pytest",
+    "matplotlib",
+    "seaborn",
+    "ipykernel",
+    "tqdm",
+    "torchvision",
+    "scikit-learn",
+]
+
+[project.urls]
+Source = "https://github.com/Shagesh/pytorch-NSM"
+Docs = "https://pynsm.readthedocs.io"
+
+[tool.setuptools_scm]
+write_to = "src/pynsm/_version.py"

@@ -1,0 +1,109 @@
+site_name: pynsm
+site_description: "Similarity matching in PyTorch"
+repo_url: https://github.com/Shagesh/pytorch-NSM
+
+theme:
+  name: material
+  logo: img/icon_128px.png
+  favicon: img/icon_black_128px.png
+  palette:
+    primary: "light blue"
+  features:
+    - announce.dismiss
+    - content.action.edit
+    - content.action.view
+    - content.code.annotate
+    - content.code.copy
+    - content.tooltips
+    - navigation.footer
+    - navigation.indexes
+    - navigation.sections
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.top
+    - search.highlight
+    - search.suggest
+    - toc.follow
+    
+plugins:
+    - search                            # make sure the search plugin is still enabled
+    - gen-files:
+        scripts:
+            - scripts/gen_ref_pages.py  # script for generating reference pages
+    - literate-nav:
+          nav_file: SUMMARY.txt         # navigation file for literate navigation
+    - mkdocstrings:                     # generating documentation from docstrings
+        handlers:
+          python:
+            options:
+              docstring_options:
+                ignore_init_summary: true
+              docstring_style: sphinx
+              merge_init_into_class: true
+              docstring_section_style: list
+              heading_level: 1
+              separate_signature: true
+              show_root_heading: true
+              show_root_full_path: false
+              show_signature_annotations: true
+              show_symbol_type_heading: true
+              show_symbol_type_toc: true
+              signature_crossrefs: true
+              summary: true
+    - mkdocs-jupyter
+        
+markdown_extensions:
+  - attr_list
+  - admonition
+  - footnotes
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.details
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.magiclink
+  - pymdownx.snippets:
+      check_paths: true
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+      slugify: !!python/object/apply:pymdownx.slugs.slugify
+        kwds:
+          case: lower
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+      
+extra_javascript:
+  - javascript/mathjax.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+
+nav:
+    - Home: index.md
+    - Install pynsm:
+      - Installation: install.md
+    - Get started:
+      - Basic usage: basic_usage.md
+    - Background:
+      - Similarity matching: similarity.md
+      - Supervised learning: supervised.md
+    - How-to guides:
+      - Build a classifier: classifier.md
+      - Extend the library: extending.md
+    - Examples:
+      - PCA by similarity matching: examples/demo_pca.ipynb
+      - Clustering using NSM: examples/demo_clustering.ipynb
+      - Convolutional NSM: examples/demo_nsm_conv_mnist.ipynb
+      - Supervised NSM: examples/demo_supervised_mnist.ipynb
+    - API reference:
+      - pynsm: reference/
+
+extra_css:
+  - css/mkdocstrings.css

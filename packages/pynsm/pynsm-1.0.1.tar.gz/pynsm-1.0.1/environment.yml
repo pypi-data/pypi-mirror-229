@@ -1,0 +1,21 @@
+name:
+    pynsm
+
+channels:
+    - pytorch
+    - conda-forge
+
+dependencies:
+    - python=3.9
+    - pip
+    - numpy
+    - tqdm
+    - pytorch
+    - torchvision
+    - scikit-learn
+    - ipykernel
+    - matplotlib
+    - seaborn
+    - pytest
+    - pip:
+        - --editable .

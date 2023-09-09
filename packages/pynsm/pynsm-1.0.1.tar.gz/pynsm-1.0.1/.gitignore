@@ -1,0 +1,17 @@
+.vscode
+
+__pycache__
+
+*egg-info
+
+env
+
+_version.py
+
+dist/*
+
+TODO.txt
+
+build/lib
+
+.DS_Store

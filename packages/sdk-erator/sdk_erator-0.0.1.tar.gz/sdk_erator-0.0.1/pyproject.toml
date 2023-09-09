@@ -1,0 +1,49 @@
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+
+[tool.poetry]
+name = "sdk-erator"
+version = "0.0.1"
+description = "A CLI that will take an OpenAPI spec and generate a Python SDK."
+license = "GPL-3.0-or-later"
+authors = ["Peter Hoburg <peterHoburg@users.noreply.github.com>"]
+maintainers = ["Peter Hoburg <peterHoburg@users.noreply.github.com>"]
+readme = "README.md"
+homepage = "https://peterhoburg.github.io/sdk-erator/"
+repository = "https://github.com/peterHoburg/sdk-erator"
+documentation = "https://peterhoburg.github.io/sdk-erator/"
+keywords = [
+    "build", "tools", "cli", "sdk", "openapi", "openapi3", "openapi3.0", "openapi3.0.0"
+]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Environment :: Console",
+    "Intended Audience :: Developers",
+    "Topic :: Software Development",
+    "Topic :: Software Development :: Build Tools",
+    "Topic :: Utilities",
+    "Typing :: Typed",
+]
+
+packages = [{include = "sdk_erator", from = "src"}]
+
+
+[tool.poetry.scripts]
+sdk_erator = "sdk_erator.main:cli"
+
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pydantic = "^2.3.0"
+datamodel-code-generator = "^0.21.5"
+click = "^8.1.7"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.4.2"
+black = "^23.7.0"
+ruff = "^0.0.287"
+pyright = "^1.1.326"
+

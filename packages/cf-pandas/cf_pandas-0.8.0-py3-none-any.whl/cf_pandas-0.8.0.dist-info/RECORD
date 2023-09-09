@@ -1,0 +1,14 @@
+cf_pandas/__init__.py,sha256=3ej0inOqpC7YNkuRZMCzQo--Am9_lPDzzbQkgzHxaVE,510
+cf_pandas/_version.py,sha256=GO5-jMO9tN8CnIeVgyWYWO1Og938AAqM04cbZPzmyiE,21
+cf_pandas/accessor.py,sha256=V-fyB2sSbSUW72w_SdsoKvMSmjogTASO6lwn642qA-U,16508
+cf_pandas/criteria.py,sha256=KpaNbftIo3kYmTKwnLf2Quzg2OITnmA5p4NbEkBdhKs,3999
+cf_pandas/options.py,sha256=Pt2RbuipbzhxVZaeB9Fh3VDJi_mERHu-8MvhO4o4jaQ,2066
+cf_pandas/reg.py,sha256=1z_WX7KsZoKlcPWWwSkBLGuL2A_9mrICqoxKrdzBG64,8664
+cf_pandas/utils.py,sha256=U0xTIh_BHWvn-F-lxAX4NW83aD8XdSsAYMTz1HDp3T4,5079
+cf_pandas/vocab.py,sha256=JSJ5vQ_uxDQu7wgaZ9xUcCK73H2x-BLmMI4zG8zXXBk,5228
+cf_pandas/widget.py,sha256=ROk20Cs12UfWSzrNt4KoZEdizr3Yy5SSDxKRMAF92kY,5912
+cf_pandas-0.8.0.dist-info/LICENSE.txt,sha256=bolgTtGf6rHq7Sx3-p5jshtO7uB4gCnv31hqFxsbBKw,1086
+cf_pandas-0.8.0.dist-info/METADATA,sha256=3UBmTquUpeLIfuajN8bu03HQbPN74Zvv1WDPVtVwmHA,2703
+cf_pandas-0.8.0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+cf_pandas-0.8.0.dist-info/top_level.txt,sha256=rpxFC_Wx_rD5Q35dktF8-B_9AbkMRBOCzPmLfYgT-l4,10
+cf_pandas-0.8.0.dist-info/RECORD,,

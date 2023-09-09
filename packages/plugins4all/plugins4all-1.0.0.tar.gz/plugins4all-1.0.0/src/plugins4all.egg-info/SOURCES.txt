@@ -1,0 +1,8 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.cfg
+src/plugins4all.egg-info/PKG-INFO
+src/plugins4all.egg-info/SOURCES.txt
+src/plugins4all.egg-info/dependency_links.txt
+src/plugins4all.egg-info/top_level.txt

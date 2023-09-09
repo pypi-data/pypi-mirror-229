@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: pyroplus
+Version: 0.0.7
+Summary: Pyrogram package with some additional handlers
+Home-page: https://github.com/SMEDIA-BUYING-HOLDING/pyrogram-plus/
+Author: Alexander, Egor
+Author-email: alexander-vin0@yandex.ru
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.11
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+UNKNOWN
+

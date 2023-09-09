@@ -1,0 +1,17 @@
+README.md
+setup.py
+huscy.data_protection.egg-info/PKG-INFO
+huscy.data_protection.egg-info/SOURCES.txt
+huscy.data_protection.egg-info/dependency_links.txt
+huscy.data_protection.egg-info/requires.txt
+huscy.data_protection.egg-info/top_level.txt
+huscy/data_protection/__init__.py
+huscy/data_protection/apps.py
+huscy/data_protection/models.py
+huscy/data_protection/serializer.py
+huscy/data_protection/urls.py
+huscy/data_protection/views.py
+huscy/data_protection/migrations/0001_initial.py
+huscy/data_protection/migrations/__init__.py
+tests/test_dataaccessrequest_viewset.py
+tests/test_datarevocationrequest_viewset.py

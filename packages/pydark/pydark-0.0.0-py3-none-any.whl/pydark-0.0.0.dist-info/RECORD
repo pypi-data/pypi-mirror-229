@@ -1,0 +1,12 @@
+pydark/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pydark/date/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pydark/date/dtget.py,sha256=gE25EF-zAq16Q0KCqMS0OOXqiXjtASB28SHIsS80bYM,1095
+pydark/date/dtmath.py,sha256=9GiQKSDzX0nY4AeB07r7AKsBjwiSANi3XW6i4f0itKQ,1378
+pydark/math/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pydark/math/statistic.py,sha256=SHrqjhtXkvB4qMbODmDPsvImX7Ca5_SeuHd4hM5_-Dg,1144
+pydark/text/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pydark/text/number.py,sha256=fy8prI0bnUV6bki6PgYBBYd4B0td7B89T2jvP6JEUyU,287
+pydark-0.0.0.dist-info/METADATA,sha256=Pu9dnbRlKi_pq2U7ST0rXX0B0fMzB48SKPCOIAmrZUo,1832
+pydark-0.0.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pydark-0.0.0.dist-info/top_level.txt,sha256=buOrpI-ShOE1lc6opc-vhwlt6z-gjvcH5tIW1htWs0o,7
+pydark-0.0.0.dist-info/RECORD,,

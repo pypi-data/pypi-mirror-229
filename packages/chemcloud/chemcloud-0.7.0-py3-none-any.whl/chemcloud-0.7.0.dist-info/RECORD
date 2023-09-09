@@ -1,0 +1,10 @@
+chemcloud/__init__.py,sha256=jTkcMysMLrTV-ATzucAaD3LI2jCoyeUQd_RXx9fU7QA,264
+chemcloud/client.py,sha256=LlFxr4nD5oE79YotQtdLU_Q46BSP1WwT9rJgxhylvK4,7154
+chemcloud/config.py,sha256=CajZWKCNuygouqN2KYxVb7vAbZSjXhqnIqt3IoBv_Go,723
+chemcloud/exceptions.py,sha256=K7c-s2Z9Xp-hPxI96_FWH4huUp1VtyK12r1UqJEslK0,141
+chemcloud/http_client.py,sha256=7EZs2GgAWWC0_W4CZttk6fRxea3AornHtJJtDy9y2bU,11398
+chemcloud/models.py,sha256=BSYfYhB3f458lmHSI9A1S_f_6RlBi3W2xgC9_JgFd6g,5417
+chemcloud-0.7.0.dist-info/LICENSE,sha256=2U6Q_LesW51Jy-va7TZUineBanmxGyBUvxMUTMbgbRk,1079
+chemcloud-0.7.0.dist-info/METADATA,sha256=xaMztrJjFsmOVzWX3FHL81dxNT2LX_8nAiHh9tQcZ3c,5956
+chemcloud-0.7.0.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+chemcloud-0.7.0.dist-info/RECORD,,

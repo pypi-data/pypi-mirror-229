@@ -1,0 +1,20 @@
+[build-system]
+requires = ['setuptools', 'setuptools-scm', 'wheel']
+build-backend = 'setuptools.build_meta'
+
+[project]
+name = 'fs-kalite-cli'
+version = '0.1.2'
+requires-python = '>=3.9'
+authors = [
+    {name='Chew Boon Aik', email='boon.aik.chew@f-secure.com'}
+]
+
+[tool.setuptools.packages.find]
+where = ['src']
+
+[tool.setuptools]
+include-package-data = true
+
+[project.scripts]
+kal = 'kalite.cli.cli:cli'

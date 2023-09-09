@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: dream_helpers
+Version: 0.0.333
+Summary: Stubbed package
+Author-email: JLS <j@sutherlandgee.co.uk>
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7

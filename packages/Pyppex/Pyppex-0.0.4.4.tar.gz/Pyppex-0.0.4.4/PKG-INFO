@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: Pyppex
+Version: 0.0.4.4
+Summary: All sorts of utilities designed to ease developers productivity.
+Author: n0t10n
+Author-email: 0ts.notion@gmail.com
+Maintainer: Marcos
+Maintainer-email: 0ts.notion@gmail.com
+License: MIT License
+Requires: multiprocessing
+Requires: numpy

@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: kami-filemanager
+Version: 0.1.0
+Summary: KAMICO Python Library to deal with local files and folders
+License: GNU 3.0
+Author: Maicon de Menezes
+Author-email: maicon@kamico.com.br
+Requires-Python: >=3.10,<4.0
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: Other/Proprietary License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Desktop Environment :: File Managers
+Requires-Dist: kami-logging (>=0.2.1,<0.3.0)
+Project-URL: Bug Tracker, https://github.com/devkami/kami-filemanager/issues
+Project-URL: Source, https://github.com/devkami/kami-filemanager
+Description-Content-Type: text/markdown
+
+# KAMICO Filemanager Python Library
+## KAMICO Python Library to deal with local files and folders

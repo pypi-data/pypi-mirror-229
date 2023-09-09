@@ -1,0 +1,9 @@
+datasette_short_links/__init__.py,sha256=ycnQNEo03NogQhhNLTxTBBjvGBvE3jE8cF-28VIxijk,7989
+datasette_short_links/static/index.js,sha256=gnxiDE6nezmRPVdJ2HK1FHohlSnNj3Xthf1mokDwEqQ,1005
+datasette_short_links/templates/datasette-short-links-admin.html,sha256=aYzrXiTDnbqGJT64ntNJUtWhyQppd-EHq7WjHeTj2oA,3158
+datasette_short_links-0.0.1a4.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+datasette_short_links-0.0.1a4.dist-info/METADATA,sha256=CNzpCmPQkt4wFsaSdu054uyj6F1utbIZk5soz8SksmE,2577
+datasette_short_links-0.0.1a4.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+datasette_short_links-0.0.1a4.dist-info/entry_points.txt,sha256=KMEVsdYU_r1yCHET4V5n7qnRoITQZYZsH5Zjzh6jM98,48
+datasette_short_links-0.0.1a4.dist-info/top_level.txt,sha256=OqpUNR1Q9THrrq1VMezj9oH5R4-aFcs_Ac9JHYvf-Rw,22
+datasette_short_links-0.0.1a4.dist-info/RECORD,,

@@ -1,0 +1,2 @@
+[datasette]
+short_links = datasette_short_links

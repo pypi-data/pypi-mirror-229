@@ -1,0 +1,6 @@
+wpt_interop-0.2.0.dist-info/METADATA,sha256=e9J00EritXSNs1OIXgk0XapauRn5A4XFnMD0Mes46L8,547
+wpt_interop-0.2.0.dist-info/WHEEL,sha256=6aZCzz7m0Ub2lG3_X-P2R5H6JBXOqUVwMMkhTQa-ndM,136
+wpt_interop/__init__.py,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+wpt_interop/score.py,sha256=8aTo0ghHqblYFFTCl6kJ-YvC8SoU347D_HbwqU84Dk8,14657
+wpt_interop/_wpt_interop.pypy39-pp73-aarch64-linux-gnu.so,sha256=qqA64D4t0fosfESR0nuyOv5w3pppTXw3ycOLXYCWGR4,9664136
+wpt_interop-0.2.0.dist-info/RECORD,,

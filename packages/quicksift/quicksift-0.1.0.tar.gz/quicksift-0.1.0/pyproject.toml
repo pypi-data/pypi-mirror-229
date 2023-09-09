@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "quicksift"
+version = "0.1.0"
+description = ""
+authors = ["chrisaddy <chris.william.addy@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "quicksift"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+ray = "^2.6.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

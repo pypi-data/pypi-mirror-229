@@ -1,0 +1,3 @@
+[console_scripts]
+sdk_erator=sdk_erator.main:cli
+

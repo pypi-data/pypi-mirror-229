@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: sdk-erator
+Version: 0.0.1
+Summary: A CLI that will take an OpenAPI spec and generate a Python SDK.
+Home-page: https://peterhoburg.github.io/sdk-erator/
+License: GPL-3.0-or-later
+Keywords: build,tools,cli,sdk,openapi,openapi3,openapi3.0,openapi3.0.0
+Author: Peter Hoburg
+Author-email: peterHoburg@users.noreply.github.com
+Maintainer: Peter Hoburg
+Maintainer-email: peterHoburg@users.noreply.github.com
+Requires-Python: >=3.10,<4.0
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: Topic :: Utilities
+Classifier: Typing :: Typed
+Requires-Dist: click (>=8.1.7,<9.0.0)
+Requires-Dist: datamodel-code-generator (>=0.21.5,<0.22.0)
+Requires-Dist: pydantic (>=2.3.0,<3.0.0)
+Project-URL: Documentation, https://peterhoburg.github.io/sdk-erator/
+Project-URL: Repository, https://github.com/peterHoburg/sdk-erator
+Description-Content-Type: text/markdown
+
+

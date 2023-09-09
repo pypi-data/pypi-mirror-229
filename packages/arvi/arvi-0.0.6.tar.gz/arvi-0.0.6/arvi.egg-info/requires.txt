@@ -1,0 +1,8 @@
+loguru
+mpldatacursor
+tqdm
+pyexoplaneteu
+dace-query
+
+[:python_version < "3.3"]
+mock

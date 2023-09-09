@@ -1,0 +1,15 @@
+ansible_workspace/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ansible_workspace/__main__.py,sha256=ZdwrbUs4KfMxfxhlJAlCsnlow8qHgrxu4yTLyJgJfeg,140
+ansible_workspace/cli.py,sha256=jcIsLLCqay9kgVUGZkMHMCgQQmfCAFrKMWZ9tlaKkto,5009
+ansible_workspace/git.py,sha256=6sy25-wbm8d-jHV9uqRyRjdmiwiszuUDeay5FDn7lr0,2052
+ansible_workspace/misc.py,sha256=IALAbJqdfhsEFXKpr1chTwmaRVNv42omYXPDxTifHqM,3765
+ansible_workspace/models.py,sha256=xi-CUYGe241lPUCjzJjMuPJhU10nZi9U2bHsIeyKlSM,168
+ansible_workspace/output.py,sha256=E-5_FzvMy9T_GiH8Z6FzpeN7F66j1g2tWWoSPQ32Pq8,176
+ansible_workspace/tmuxp.py,sha256=Jyo0efozUfx9g8mnlyfo-VYoCS_7Wl6PzyJmRZ6Y-dY,286
+ansible_workspace/vscode.py,sha256=8_bDzlgR6VMOvXQMzzRq7MUKAeccRJFy4pibUpQzFlE,497
+ansible_workspace-1.0.9.dist-info/LICENSE,sha256=laUVzxP9hiIV7pOO3NmIYiJo1lgOvlXPLjpIwaQXdBg,1062
+ansible_workspace-1.0.9.dist-info/METADATA,sha256=-lnIpEL7Fodqp-qr0JXDvVlyeHG5EFtWfflpL50R4VU,2989
+ansible_workspace-1.0.9.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+ansible_workspace-1.0.9.dist-info/entry_points.txt,sha256=VxfttR5aj7OZvxYOO8Ym3vBTWT_L1BlFLcEgp_wXADw,70
+ansible_workspace-1.0.9.dist-info/top_level.txt,sha256=3X8MmeBI31kMu4O1fQeTxOMdgTf4-siNLbBEk_xlWfw,18
+ansible_workspace-1.0.9.dist-info/RECORD,,

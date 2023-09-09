@@ -1,0 +1,12 @@
+octopus_agent/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+octopus_agent/agent_sdk.py,sha256=RK1C963aV0GPz3R178wO3nmscP_ER6NXTvkJOo7VY3s,5869
+octopus_agent/agent_server.py,sha256=Ume-JcuPj-oOe6ofqhuCMKhzU5EN2ZUzZtZxz94do8c,9289
+octopus_agent/gpt_async_callback.py,sha256=DRUciLZrQtK_pYwS4PdwvDIKbCUoESbRCq73VgwlJ-s,3245
+octopus_agent/gpt_tools.py,sha256=So6lAazeWYlJAROvYAE25orAZtySRoE7drhMKRV8bqM,6558
+octopus_agent/prompt.py,sha256=xGYHWDBn2ep6c1Xjm4P44Cfw3eMKHS9gPBZbo-h410E,2156
+octopus_agent/tools.py,sha256=AX2SN-0U7CQmj9T_tcC5J7GWYo0bg-wMTqQfsI1vMnc,7656
+octopus_agent-0.1.1.dist-info/METADATA,sha256=F4EZZOihA4xXjsMgH0AEcuzHSxumJfIfI3Em5IR9pbI,486
+octopus_agent-0.1.1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+octopus_agent-0.1.1.dist-info/entry_points.txt,sha256=31sYPIXVobLQMxAnYJnaqa7BF1F5DZO98KtjP10kLWE,84
+octopus_agent-0.1.1.dist-info/top_level.txt,sha256=qLst0PYaLMBH-Jzxeo58WxzsUj32jQPZ9NaV9WaadXU,14
+octopus_agent-0.1.1.dist-info/RECORD,,

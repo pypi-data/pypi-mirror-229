@@ -1,0 +1,21 @@
+[build-system]
+requires = ["numpy","scipy","scikit-learn","tidy3d","keras","hatchling"]
+build-backend =  "hatchling.build"
+
+[project]
+name = "ml_photonics"
+version = "0.0.1"
+authors = [
+    {name = "Andrew Salij",email = "andrewsalij@gmail.com"}
+]
+
+description = "package for doing machine learning in photonics"
+readme = "README.md"
+requires-python =">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+[project.urls]
+"Homepage" = "https://github.com/andrewsalij/ML_Photonics"

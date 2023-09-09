@@ -1,0 +1,17 @@
+scrapemed/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+scrapemed/_clean.py,sha256=Nr-4zQ8r4zPyrs2K6m1W8SMCQ6ez8g_RkY8gtigTgkg,8091
+scrapemed/_morehtml.py,sha256=mIh0jejl8CjWv5YFF3cjLmKpdH4Nyq9y3CSOGE0QEnI,2893
+scrapemed/_parse.py,sha256=bwooBq4dj4rHNNU0FA6P_xRXj44ZRAEx142WYTv8IJI,36820
+scrapemed/_text.py,sha256=62Jv_NINITRrvgT4FUQ0P9gwl-Pu1yk41aflMRl8Ttg,11718
+scrapemed/_validate.py,sha256=Jlxk5et1OXcmKhbvOsM4e2ktHH09vf3uwGKjfk3u8lc,1747
+scrapemed/paper.py,sha256=dTykAa0oo_dGaqjD7cDaUWuuEB_l35IFowAlwDTuOqU,19576
+scrapemed/paperSet.py,sha256=ziB9YtTTbYJt2rRWr32q3A33515iS9SDP0Yzgxxo_fI,10319
+scrapemed/scrape.py,sha256=F4brR2V-cBD1hctqMzFttsWLFeBdEX503N0j2kQmC28,4866
+scrapemed/trees.py,sha256=GcU5Io_iRBc3Ft7fTIFu1ZwLv6vG5UZpmV15Lr6jr8I,3851
+scrapemed/utils.py,sha256=HHHH8veKzOeJrJYjnJUq9GmSK9aStRMbs2-qrd-79cI,1674
+scrapemed/data/DTDs/nlm-articleset-2.0.dtd,sha256=v9fADJL8WcHmguxd_fGm3vZJf2Xi6WrwC3CxojIsE0s,35334
+scrapemed-1.0.6.dist-info/LICENSE,sha256=k5vZ3E6wkG-FN3XCw88aJLZUMW0X8NT4mL_LhMVm8HE,1076
+scrapemed-1.0.6.dist-info/METADATA,sha256=dew8Jivdnr-b1KNB8h0D5_wFSn-u6VP0Uts_DHIm77Q,4318
+scrapemed-1.0.6.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+scrapemed-1.0.6.dist-info/top_level.txt,sha256=k5nxtbJ72sevHR-so3rnE2kw34TbswsMyrPDd1WI5E0,10
+scrapemed-1.0.6.dist-info/RECORD,,

@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: mini-abuze
+Version: 1.0.0
+Summary: Python module for writing scripts for project management platform Club House (clubhouse.io API wrapper)
+Home-page: https://github.com/vaddos689/mini-abuze
+Download-URL: https://github.com/vaddos689/mini-abuze/archive/refs/heads/main.zip
+Author: Vaddos
+Author-email: vladomaksb@gmail.com
+License: Apache License, Version 2.0, see LICENSE file
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Programming Language :: Python :: Implementation :: CPython

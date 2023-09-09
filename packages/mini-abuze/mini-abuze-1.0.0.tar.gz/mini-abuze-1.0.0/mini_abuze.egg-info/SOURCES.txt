@@ -1,0 +1,8 @@
+setup.cfg
+setup.py
+mini-abuze/__init__.py
+mini_abuze.egg-info/PKG-INFO
+mini_abuze.egg-info/SOURCES.txt
+mini_abuze.egg-info/dependency_links.txt
+mini_abuze.egg-info/requires.txt
+mini_abuze.egg-info/top_level.txt

@@ -1,0 +1,23 @@
+numpy
+dpdata[amber]>=0.2.16
+tqdm
+ase
+scipy
+
+[:python_version < "3.8"]
+parmed<4
+
+[:python_version >= "3.8"]
+parmed>=4
+
+[dpcpu]
+deepmd-kit[cpu]>=2
+
+[dpgpu]
+deepmd-kit[gpu]>=2
+
+[test]
+pytest
+pytest-cov
+pytest-mock
+deepmd-kit>=2.2.2

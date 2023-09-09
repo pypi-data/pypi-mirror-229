@@ -1,0 +1,80 @@
+[build-system]
+requires = ["setuptools>=61", "setuptools_scm[toml]>=6.2"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dpamber"
+dynamic = ["version"]
+description = "Some useful tools related to Amber and DP."
+classifiers = [
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+]
+dependencies = [
+    "numpy",
+    "dpdata[amber]>=0.2.16",
+    "tqdm",
+    'parmed>=4; python_version >= "3.8"',
+    'parmed<4; python_version < "3.8"',
+    "ase",
+    "scipy",
+]
+requires-python = ">=3.7"
+readme = "README.md"
+
+[project.urls]
+Homepage = "https://github.com/njzjz/dpamber"
+
+[project.entry-points."console_scripts"]
+dpamber = "dpamber.cli:run"
+
+[project.entry-points."dpdata.plugins"]
+amber_md_qmmm = "dpamber.read_amber:AmberMDQMMMFormat"
+aparam = "dpamber.aparam:ep"
+drdq = "dpamber.drdq:ep"
+
+[project.optional-dependencies]
+test = [
+    'pytest',
+    'pytest-cov',
+    'pytest-mock',
+    'deepmd-kit>=2.2.2',
+]
+dpcpu = [
+    'deepmd-kit[cpu]>=2',
+]
+dpgpu = [
+    'deepmd-kit[gpu]>=2',
+]
+
+[tool.setuptools_scm]
+
+[tool.ruff]
+target-version = "py37"
+
+select = [
+    "E", # errors
+    "F", # pyflakes
+    "D", # pydocstyle
+	"I", # isort
+    "UP", # pyupgrade
+]
+ignore = [
+    "E501", # line too long
+    "E741", # ambiguous variable name
+    "E402", # module level import not at top of file
+    "D413", # missing blank line after last section
+    "D416", # section name should end with a colon
+    "D203", # 1 blank line required before class docstring
+    "D100", # missing docstring in public module
+    "D101", # missing docstring in public class
+    "D102", # missing docstring in public method
+    "D103", # missing docstring in public function
+    "D107", # missing docstring in __init__
+    "D213", # multi-line docstring summary should start at the second line
+    "D205", # 1 blank line required between summary line and description
+]
+
+[tool.coverage.report]
+show_missing = true
+omit = ["*test*"]

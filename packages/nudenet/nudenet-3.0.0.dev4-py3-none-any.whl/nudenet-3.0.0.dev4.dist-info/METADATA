@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: nudenet
+Version: 3.0.0.dev4
+Summary: Lightweight Nudity Detection
+Home-page: https://github.com/notAI-tech/nudenet
+Author: BEDAPUDI PRANEETH
+Author-email: praneeth@bpraneeth.com
+License: MIT
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Requires-Python: >=3.6.0
+Description-Content-Type: text/markdown
+License-File: LICENSE.md
+Requires-Dist: numpy
+Requires-Dist: onnxruntime
+Requires-Dist: opencv-python
+
+
+# NudeNet: lightweight Nudity detection
+
+```bash
+pip install --upgrade nudenet
+```
+
+```python
+from nudenet import NudeDetector
+nude_detector = NudeDetector()
+nude_detector.detect('image.jpg') # Returns list of detections
+```

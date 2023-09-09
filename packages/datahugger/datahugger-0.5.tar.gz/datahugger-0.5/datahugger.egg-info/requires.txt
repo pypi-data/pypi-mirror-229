@@ -1,0 +1,17 @@
+jsonpath_ng
+natsort
+requests
+scitree
+tqdm
+
+[all]
+datasets
+
+[docs]
+mkdocs-material
+
+[lint]
+ruff
+
+[test]
+pytest

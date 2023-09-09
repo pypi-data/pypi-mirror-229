@@ -1,0 +1,17 @@
+proj_bolt/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+proj_bolt/bolt_py.py,sha256=ppiDfrHQnP_POP4zMaL2vGlITHgyGWXwvjBrTRq1GXI,4732
+proj_bolt/ide_launcher/__init__.py,sha256=PprMXvHm6aAp-HCee9qzuqcymk6W4btJAdBRWKbeuzU,30
+proj_bolt/ide_launcher/launcher.py,sha256=bWbCXVif3tHvS7dJAfe3PslKIzludsPbHroIxNPGRh0,3445
+proj_bolt/ide_launcher/main.py,sha256=d0-rOq1U32uuyMLAB0T_zymwSnu6KdkVQn-O4hHpcSk,547
+proj_bolt/template/__init__.py,sha256=Vpm93kJW7HGmhYbfnUktdUJziF-o6qm6AuYNd_wU-kY,172
+proj_bolt/template/base_template.py,sha256=CxLIzWHcLoXd15w-1lAu_J_HMXv2dLMwA_-61QsKyD4,1077
+proj_bolt/template/licence_template.py,sha256=8xAfaM0cxo1sBI31O0ZchRAt_aew__tM7h_4tN8DWfo,1402
+proj_bolt/template/readme_template.py,sha256=NP6cf9daMsdZYTtGUI6Rkb6aoQAMwQBSqRxyZib1pww,342
+proj_bolt/template/bolt_py/__init__.py,sha256=0tH1cKvH8yw8QEFl0fRCQsGmv2HGBYYGhnn6-9dwahc,156
+proj_bolt/template/bolt_py/gitignore_template.py,sha256=HZpIwX2TnG7j2OmpDSlBHIrH2RUUI3GWbfY1C-BdpsY,3568
+proj_bolt/template/bolt_py/setuppy_template.py,sha256=h8xDcT0omVpvEfS7RuB-mrxNJYpSZQ1294_vcZFuVQo,986
+proj_bolt-0.0.1.dist-info/METADATA,sha256=1YSGHVuGa9vUn5FtzOTo1g4AEKi5iFL8o4O10jtdA7c,149
+proj_bolt-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+proj_bolt-0.0.1.dist-info/entry_points.txt,sha256=yDMPXIw6gXrY_7rGFGAmKtHrIJJ0bgxCx9DMFLOQI6s,51
+proj_bolt-0.0.1.dist-info/top_level.txt,sha256=Q0dK245GcHWdI3r4ZypAJ8zVRs7mCK3gXuzh2OkbYzg,10
+proj_bolt-0.0.1.dist-info/RECORD,,

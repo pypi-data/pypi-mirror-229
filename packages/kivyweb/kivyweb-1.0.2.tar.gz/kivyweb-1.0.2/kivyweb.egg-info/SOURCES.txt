@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+kivyweb/__init__.py
+kivyweb/version.py
+kivyweb.egg-info/PKG-INFO
+kivyweb.egg-info/SOURCES.txt
+kivyweb.egg-info/dependency_links.txt
+kivyweb.egg-info/requires.txt
+kivyweb.egg-info/top_level.txt
+kivyweb.egg-info/zip-safe

@@ -1,0 +1,10 @@
+html2pdf_bookdown/__init__.py,sha256=_qrcLkgGR_M_r3CLspl2CTV8XqAdB871DCpm7iZJQX0,146
+html2pdf_bookdown/__main__.py,sha256=OE81yL68lyQyyp3Xi7Sp4b5SjP-2qqR55kIzKCq767A,877
+html2pdf_bookdown/convert.py,sha256=ZcL4ZKVSMuiIKuR3JOPuQL26nVF1BpGY-46YoG-l1vc,2289
+html2pdf_bookdown/fetch.py,sha256=xmwdJ6hmVH6eb1TYGrWcoxwzftPIMrkyZ1Zla9UmEnw,1203
+html2pdf_bookdown-0.1.1.dist-info/LICENSE,sha256=iwisIOasLXQ1uG8ttWe67ZVQJ-uIDjYgvxuUg6GV-Mw,1067
+html2pdf_bookdown-0.1.1.dist-info/METADATA,sha256=Z9xbNefp37Fom9Yzts6UUgEL-Qz849S8lxOlYg-BaJg,1460
+html2pdf_bookdown-0.1.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+html2pdf_bookdown-0.1.1.dist-info/entry_points.txt,sha256=Z2UKzcslWYvxHCveo5ATwZLr9is-HPhY-GsOZGTJoy0,70
+html2pdf_bookdown-0.1.1.dist-info/top_level.txt,sha256=x3gHyI13P_GTYbVR0ulZzB5l9agHPJl7ygnMCynlGvM,18
+html2pdf_bookdown-0.1.1.dist-info/RECORD,,

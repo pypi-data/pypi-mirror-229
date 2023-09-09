@@ -1,0 +1,2 @@
+[console_scripts]
+html2pdf_bookdown = html2pdf_bookdown.__main__:main

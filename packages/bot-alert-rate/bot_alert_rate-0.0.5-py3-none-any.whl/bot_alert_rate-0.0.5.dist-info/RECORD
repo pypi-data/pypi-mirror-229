@@ -1,0 +1,8 @@
+bot_alert_rate/__init__.py,sha256=A8vnBoWLCksjiDcFBxo8aGWlV6g8gufOVW3kNzPWcQE,83
+bot_alert_rate/calculate_alert_rate.py,sha256=su4XlYf05jDMMcrk3GTs28Aagfwo59PdRUfLRYN36ag,3772
+bot_alert_rate/constants.py,sha256=hfYhu8w2g7JPZ2VQo-AILMXVA0_dG_gQChPm-u5ZQwI,771
+bot_alert_rate/local_alert_history.py,sha256=QK8ZwnZpovGlTtvw0HuvHLiXWpIqzzL4t2nCTg0XdBk,1792
+bot_alert_rate-0.0.5.dist-info/METADATA,sha256=SjojCvWfWu-IxrM9fMFpM-V5HkPx3HvVhsk5z_5g_4s,804
+bot_alert_rate-0.0.5.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+bot_alert_rate-0.0.5.dist-info/top_level.txt,sha256=raJbWvqMbKKCZHo3F2rA_qozTE4Hv2POMloj_ky7vnM,15
+bot_alert_rate-0.0.5.dist-info/RECORD,,

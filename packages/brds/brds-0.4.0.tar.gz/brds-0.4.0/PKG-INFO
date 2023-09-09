@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: brds
+Version: 0.4.0
+Summary: Awesome brds created by brahle
+Home-page: https://github.com/brahle/brds/
+Author: brahle
+Description-Content-Type: text/markdown
+Provides-Extra: test
+License-File: LICENSE
+
+# brds
+
+[![CI](https://github.com/brahle/brds/actions/workflows/main.yml/badge.svg)](https://github.com/brahle/brds/actions/workflows/main.yml)
+
+Bruno Rahle's Data Science library.
+
+## Install it from PyPI
+
+```bash
+pip install brds
+```
+
+## Usage
+
+```
+Coming soon!
+```
+
+## Development
+
+Read the [CONTRIBUTING.md](CONTRIBUTING.md) file.

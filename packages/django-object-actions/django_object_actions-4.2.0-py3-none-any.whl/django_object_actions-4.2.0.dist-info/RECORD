@@ -1,0 +1,14 @@
+django_object_actions/__init__.py,sha256=DbmeeWaembyTg_6l23_vTvNVEkbVGJA1M5N3L4cjFsM,269
+django_object_actions/models.py,sha256=7SFeJgANPHfEuoQ20VSj9kVTJeoZ_C3_zlq2h3MLV80,166
+django_object_actions/templates/django_object_actions/change_form.html,sha256=DyhFgdDJBCFpKgX0bdZd09yFkS8a4ebC-anHWpVgduU,646
+django_object_actions/templates/django_object_actions/change_list.html,sha256=HmLw5ETGDMsl5jTiFUtVarwBCYoOofTxpvZnzl658YE,633
+django_object_actions/tests/__init__.py,sha256=dic1eqw7thM4wmDsHZDPvYp_bWhRtKMrWUF_qrIRxEA,112
+django_object_actions/tests/test_admin.py,sha256=yDby984-3PQwPFSmpR_joW-7gHlA5s75HLSElt-Np8Q,4831
+django_object_actions/tests/test_urls.py,sha256=lrsBCFEe2qpX8TiOup-viPKL1ARwZoE-dd7Ori4ly2U,430
+django_object_actions/tests/test_utils.py,sha256=QnmedOIAxYtUVcoSR-juEUjhiVilGK-3-yuGB1-aJts,5450
+django_object_actions/tests/tests.py,sha256=eLNoTR_uRiWxmBr09Q-00PKjYNY8KB_YVl98MrlhjOo,3156
+django_object_actions/utils.py,sha256=WE6Az3_oI6ImKqPLxZpr21lfUm9fJLbFf0WgTGEGb_s,12253
+django_object_actions-4.2.0.dist-info/LICENSE,sha256=T-Dy2VZGjFn4DMo72XruVSuTVHbvLtwE7r9bmMQQvjI,10905
+django_object_actions-4.2.0.dist-info/METADATA,sha256=5n0VKQ2gsE3TWQxVHsSt-U8SOwF8ANGfLmnPstNgU1U,9050
+django_object_actions-4.2.0.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+django_object_actions-4.2.0.dist-info/RECORD,,

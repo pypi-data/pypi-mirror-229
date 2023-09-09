@@ -1,0 +1,23 @@
+#root {
+    display: none !important;
+}
+div:first-child:iframe {
+    display: none !important;
+}
+div[data-testid="stVerticalBlock"] > div.element-container:first-child > iframe {
+    display: none !important;
+  }
+
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: red;
+    color: white;
+    text-align: center;
+  }
+
+.cookie_thing {
+    display: none !important;
+}

@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+cookyjar/__init__.py
+cookyjar.egg-info/PKG-INFO
+cookyjar.egg-info/SOURCES.txt
+cookyjar.egg-info/dependency_links.txt
+cookyjar.egg-info/requires.txt
+cookyjar.egg-info/top_level.txt
+cookyjar/frontend/build/app.css
+cookyjar/frontend/build/asset-manifest.json
+cookyjar/frontend/build/index.html
+cookyjar/frontend/build/static/js/main.09573a7c.js
+cookyjar/frontend/build/static/js/main.09573a7c.js.LICENSE.txt
+cookyjar/frontend/build/static/js/main.09573a7c.js.map

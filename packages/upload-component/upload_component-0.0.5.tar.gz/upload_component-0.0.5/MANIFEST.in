@@ -1,0 +1,11 @@
+include upload_component/upload_component.min.js
+include upload_component/upload_component.min.js.map
+include upload_component/async-*.js
+include upload_component/async-*.js.map
+include upload_component/*-shared.js
+include upload_component/*-shared.js.map
+include upload_component/metadata.json
+include upload_component/package-info.json
+include README.md
+include LICENSE
+include package.json

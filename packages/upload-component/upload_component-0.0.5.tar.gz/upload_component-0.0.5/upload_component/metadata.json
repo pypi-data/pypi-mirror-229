@@ -1,0 +1,100 @@
+{
+  "src/lib/components/UploadComponent.react.js": {
+    "description": "",
+    "displayName": "MyFileUploader",
+    "methods": [],
+    "props": {
+      "id": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "",
+        "defaultValue": {
+          "value": "\"my-file-uploader\"",
+          "computed": false
+        }
+      },
+      "uploadComplete": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": "",
+        "defaultValue": {
+          "value": "false",
+          "computed": false
+        }
+      },
+      "statusCode": {
+        "type": {
+          "name": "number"
+        },
+        "required": false,
+        "description": "",
+        "defaultValue": {
+          "value": "200",
+          "computed": false
+        }
+      },
+      "baseurl": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "",
+        "defaultValue": {
+          "value": "'https://athena.rc.ufl.edu/api/v1'",
+          "computed": false
+        }
+      },
+      "girderToken": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "",
+        "defaultValue": {
+          "value": "\"uZ4L8ceMqynhMKsmrPZpen5QUQMu6Uvy4nqlpMRhyilby3YZV79FZlQp9nhAxqd3\"",
+          "computed": false
+        }
+      },
+      "parentId": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "",
+        "defaultValue": {
+          "value": "\"647f32c9435c92704a565d1b\"",
+          "computed": false
+        }
+      },
+      "filetypes": {
+        "type": {
+          "name": "arrayOf",
+          "value": {
+            "name": "string"
+          }
+        },
+        "required": false,
+        "description": "",
+        "defaultValue": {
+          "value": "[\"svs\", \"ndpi\", \"scn\", \"tiff\", \"qptiff\", \"tif\"]",
+          "computed": false
+        }
+      },
+      "fileTypeFlag": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": "",
+        "defaultValue": {
+          "value": "false",
+          "computed": false
+        }
+      }
+    }
+  }
+}

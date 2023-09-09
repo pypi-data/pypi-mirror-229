@@ -1,0 +1,13 @@
+custom_dataframe/__init__.py,sha256=Goqf1QXp1vMNcHPJpgPQgj_rkgcGyfEnJBrgbOvuczY,2303
+custom_dataframe/frontend/build/asset-manifest.json,sha256=JnZRJk51Fv4DQAK6FucsV-hT4kiUTvQTnUyy8ZdX4T8,374
+custom_dataframe/frontend/build/bootstrap.min.css,sha256=hTwg6axJ8dAPmGVJmYTrsQS3JhKWA0skJ-td54UbEOk,197459
+custom_dataframe/frontend/build/index.html,sha256=2mnfI1FlnbKxRBDzgj9FOyH1nv8OeH6zXbwT5LSasak,553
+custom_dataframe/frontend/build/static/css/main.df9cb9ee.css,sha256=LlBw9fbgVlDqyKofpbPutdtcRdB-eispeVCPf6lfwGw,593
+custom_dataframe/frontend/build/static/css/main.df9cb9ee.css.map,sha256=ymjB0dpeu0MHRoNaDAp1ow5HboEAjwVdoI96xVmEX0c,1140
+custom_dataframe/frontend/build/static/js/main.9d680159.js,sha256=q9ID3B3UvNb59WaQ4Di0zXbinh4pRXpTAC4JD9rq22w,381403
+custom_dataframe/frontend/build/static/js/main.9d680159.js.LICENSE.txt,sha256=exOXYutzLwXRW-bBK7BpKHfmRqtlSgP_zSIJF-7epPs,1443
+custom_dataframe/frontend/build/static/js/main.9d680159.js.map,sha256=22jmkP9ZpUmIlijBlTFPb3Klncy6uQAMDSJzM0tLQaE,1359391
+streamlit_editable_dataframe-1.5.0.dist-info/METADATA,sha256=UxNgDbwcHnZip82jyPVauZoF4aMa_o-DCnfzxvj2GzQ,211
+streamlit_editable_dataframe-1.5.0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+streamlit_editable_dataframe-1.5.0.dist-info/top_level.txt,sha256=btJIsFTksKgYBlWPL5rAJiYx5OM-gO4fovY3Bg5af0c,17
+streamlit_editable_dataframe-1.5.0.dist-info/RECORD,,

@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: uscrn
+Version: 0.1.0.dev1
+Summary: Load U.S. CRN data.
+Author-email: zmoon <zachary.moon@noaa.gov>
+Requires-Python: ~=3.9
+Description-Content-Type: text/markdown
+Classifier: License :: OSI Approved :: MIT License
+Requires-Dist: joblib
+Requires-Dist: numpy >=1.21
+Requires-Dist: pandas >=2,<3
+Requires-Dist: PyYAML
+Requires-Dist: requests
+Requires-Dist: xarray
+Requires-Dist: ipython ; extra == "dev"
+Requires-Dist: fastparquet ; extra == "test"
+Requires-Dist: mypy ; extra == "test"
+Requires-Dist: netCDF4 ; extra == "test"
+Requires-Dist: pandas-stubs ; extra == "test"
+Requires-Dist: pytest ; extra == "test"
+Project-URL: Home, https://github.com/zmoon/uscrn
+Project-URL: Source, https://github.com/zmoon/uscrn
+Provides-Extra: dev
+Provides-Extra: test
+
+# uscrn
+
+Easily load [U.S. CRN data](https://www.ncei.noaa.gov/access/crn/).
+
+[![Version on PyPI](https://img.shields.io/pypi/v/uscrn.svg)](https://pypi.org/project/uscrn/)
+[![Project Status: WIP – Initial development is in progress, but there has not yet been a stable, usable release suitable for the public.](https://www.repostatus.org/badges/latest/wip.svg)](https://www.repostatus.org/#wip)
+
+Example:
+
+```python
+import uscrn as crn
+
+df = crn.get_data(2019, "hourly", n_jobs=6)
+
+ds = crn.to_xarray(df)
+```
+
+Mamba install example:
+
+```sh
+mamba create -n crn -c conda-forge python=3.10 joblib numpy pandas pyyaml requests xarray fastparquet netcdf4
+mamba activate crn
+pip install --no-deps uscrn
+```
+

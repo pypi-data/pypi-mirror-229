@@ -1,0 +1,49 @@
+# Definition of the Conda Development Environment.
+#
+# WARNING: Install all the PyPEEC dependencies.
+#          The optional libraries are included.
+#          The packaging/development tools are included.
+#          Jupyter is not included.
+#
+# Thomas Guillod - Dartmouth College
+# Mozilla Public License Version 2.0
+
+name: pypeec
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  # base installation
+  - python=3.10
+  # pip
+  - pip
+  # YAML parsing library
+  - pyyaml
+  # numerical libraries
+  - numpy
+  - scipy
+  - joblib
+  # Qt bindings
+  - pyqt
+  # geometry manipulation and plotting libraries
+  - vtk
+  - pyvista
+  - pyvistaqt
+  - matplotlib
+  # optional HPC libs
+  - mkl-devel
+  - cudatoolkit
+  - cupy
+  - pip:
+     # graphic tools
+    - shapely
+    - rasterio
+    - pillow
+    # HPC binding
+    - pyFFTW
+    - pydiso
+    - scikit-umfpack
+    # dev tools
+    - build
+    - memory-profiler
+    - gprof2dot

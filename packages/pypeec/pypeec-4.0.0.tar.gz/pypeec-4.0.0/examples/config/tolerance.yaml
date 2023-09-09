@@ -1,0 +1,32 @@
+# PyPEEC tolerance data for the solver:
+#   - define the numerical options for discretization
+#   - define the numerical options for matrix condition check
+#   - define the numerical options for the matrix solver
+#
+# Thomas Guillod - Dartmouth College
+# Mozilla Public License Version 2.0
+
+# control where numerical approximations are used for the Green and coupling functions
+#   - if the normalized voxel distance is smaller than the threshold, analytical solutions are used
+#   - if the normalized voxel distance is larger than the threshold, numerical approximations are used
+"green_simplify": 20.0
+"coupling_simplify": 20.0
+
+# iterative solver options
+"solver_options":
+    "check": true                  # check (or not) the solver tolerance
+    "tolerance": 1.0e-6            # tolerance for checking the solution residuum
+    "iter_options":                # options for the iterative solver
+        "solver": "GMRES"          # name of the solver ("GMRES" or "GCROT")
+        "rel_tol": 1.0e-6          # relative preconditioned tolerance for GMRES stopping
+        "abs_tol": 1.0e-12         # absolute preconditioned tolerance for GMRES stopping
+        "n_inner": 20              # maximum number of solver inner iterations
+        "n_outer": 20              # maximum number of solver outer iterations
+
+# matrix condition check options
+"condition_options":
+    "check": true                  # check (or not) the condition number of the matrices
+    "tolerance": 1.0e+15           # maximum allowable condition number for the matrices
+    "norm_options":                # options for computing the one-norm estimate
+        "t_accuracy": 2            # accuracy parameter for the one-norm estimate
+        "n_iter_max": 25           # maximum number of iterations for the one-norm estimate

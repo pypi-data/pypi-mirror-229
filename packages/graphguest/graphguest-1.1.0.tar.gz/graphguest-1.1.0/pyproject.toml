@@ -1,0 +1,55 @@
+# pyproject.toml
+
+[build-system]
+requires      = ["setuptools>=39.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "graphguest"
+version = "1.1.0"
+description = "Graph Universal Embedding Splitting Tool"
+readme = "README.md"
+authors = [{ name = "Jesús de la Fuente Cedeño", email = "jdlfuentec@gmail.com" }]
+license = { file = "LICENSE" }
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    'Programming Language :: Python :: 3.6',
+    'Programming Language :: Python :: 3.7',
+    'Programming Language :: Python :: 3.8',
+    'Programming Language :: Python :: 3.9',
+    'Programming Language :: Python :: 3 :: Only',
+    'Operating System :: OS Independent',
+]
+keywords = ["graph embedding", "pypi", "drug repurposing", "splitting", "graph embedding splitting"]
+dependencies = [
+    "pandas",
+    "scikit-learn",
+    "tqdm",
+]
+requires-python = ">=3"
+
+[project.optional-dependencies]
+dev = ["black", "bumpver", "isort", "pip-tools", "pytest"]
+
+[project.urls]
+Homepage = "https://github.com/ubioinformat/guest"
+
+[tool.pytest.ini_options]
+log_cli = true
+log_cli_level = "INFO"
+log_cli_format = "%(asctime)s [%(levelname)8s] %(message)s (%(filename)s:%(lineno)s)"
+log_cli_date_format = "%Y-%m-%d %H:%M:%S"
+
+
+"setup.py" = [
+    "{version}",
+    "{pep440_version}",
+]
+
+"README.md" = [
+    "{version}",
+    "{pep440_version}",
+]
+

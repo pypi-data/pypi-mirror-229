@@ -1,0 +1,12 @@
+README.md
+setup.py
+httpCRUDUtils/__init__.py
+httpCRUDUtils/client.py
+httpCRUDUtils/utils.py
+http_crud_sdk.egg-info/PKG-INFO
+http_crud_sdk.egg-info/SOURCES.txt
+http_crud_sdk.egg-info/dependency_links.txt
+http_crud_sdk.egg-info/requires.txt
+http_crud_sdk.egg-info/top_level.txt
+tests/__init__.py
+tests/test.py

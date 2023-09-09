@@ -1,0 +1,13 @@
+CHANGELOG.md
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/fastasplit/__init__.py
+src/fastasplit/fastasplit.py
+src/fastasplit/version.py
+src/fastasplit.egg-info/PKG-INFO
+src/fastasplit.egg-info/SOURCES.txt
+src/fastasplit.egg-info/dependency_links.txt
+src/fastasplit.egg-info/entry_points.txt
+src/fastasplit.egg-info/top_level.txt

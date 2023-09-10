@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.rst
+setup.py
+crosslinker/__init__.py
+crosslinker/lib.py
+crosslinker/test.py
+crosslinker.egg-info/PKG-INFO
+crosslinker.egg-info/SOURCES.txt
+crosslinker.egg-info/dependency_links.txt
+crosslinker.egg-info/requires.txt
+crosslinker.egg-info/top_level.txt

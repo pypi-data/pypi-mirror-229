@@ -1,0 +1,11 @@
+nuqql_matrixd_nio/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+nuqql_matrixd_nio/client.py,sha256=ikyAzoUE7gZYjk6J5FpFiC-CcFTqWJMSCV2D0Y7ZbA8,9843
+nuqql_matrixd_nio/main.py,sha256=UmLxz0Tk5q2Pwzt9KpcwxIRygy2nLaELFvGlCTKgfD8,466
+nuqql_matrixd_nio/matrix.py,sha256=bbgn2P6ggXtNLXnnPPyX9KesuP_O7YHHN1aD2E1pl_U,17397
+nuqql_matrixd_nio/server.py,sha256=gUetTCsvbXo7ZJz0bpGx8wj0sRkUoDHqERU_IkxTMIk,7375
+nuqql_matrixd_nio-0.3.3.dist-info/LICENSE,sha256=5ZvM-_V8RTM3I_SQs77_CMLEfU90Q6vhCSni6WNONaY,1062
+nuqql_matrixd_nio-0.3.3.dist-info/METADATA,sha256=gys8d10bpfrpsV63ZqouQQD1JDi75_xXJVRFh2EqwY8,3696
+nuqql_matrixd_nio-0.3.3.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+nuqql_matrixd_nio-0.3.3.dist-info/entry_points.txt,sha256=tsUS6npaIRy8vsbzTqY-MVFt6dlFSHxQjFC49y13Bxc,66
+nuqql_matrixd_nio-0.3.3.dist-info/top_level.txt,sha256=1aMiev91MK2kx12Ydoz53MLff-unBUEpslasbqipLiI,18
+nuqql_matrixd_nio-0.3.3.dist-info/RECORD,,

@@ -1,0 +1,3 @@
+include cglearntemp/*.csv
+include cglearntemp/*.dll
+include cglearntemp/*.so

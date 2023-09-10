@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: cglearn
+Version: 0.0.1
+Summary: cglearn is a Python library that aims to spark probabilistic reasoning and analysis via chain graphs.
+Home-page: https://github.com/majavid/cglearn
+Author: Mohammad Ali Javidian, Shantanu Deore
+Author-email: javidianma@appstate.edu, shantanudeore223@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Provides-Extra: extras
+License-File: LICENSE
+
+# cglearn
+
+"cglearn" is a Python library that aims to spark probabilistic reasoning and analysis via chain graphs.
+
+Developers: Mohammad Ali Javidian, Shantanu Deore
+
+You can visit https://majavid.github.io/cglearnDOCs/ for details of the documentation.

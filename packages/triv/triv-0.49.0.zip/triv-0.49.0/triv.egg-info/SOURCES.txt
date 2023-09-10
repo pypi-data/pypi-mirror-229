@@ -1,0 +1,12 @@
+LICENSE.txt
+README.md
+setup.py
+triv/diff_function.py
+triv/document_tests.py
+triv/element_tests.py
+triv/triv.py
+triv.egg-info/PKG-INFO
+triv.egg-info/SOURCES.txt
+triv.egg-info/dependency_links.txt
+triv.egg-info/entry_points.txt
+triv.egg-info/top_level.txt

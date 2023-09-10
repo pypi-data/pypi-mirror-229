@@ -1,0 +1,44 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "search-helper"
+dynamic = ["version"]
+description = "Cross-platform (Tk) GUI for opening predefined search URLs in a web browser"
+readme = "README.md"
+requires-python = ">=3.8"
+license = {file = "LICENSE"}
+keywords = ["gui", "search", "web"]
+authors = [
+  {name = "Rainer Schwarzbach", email = "undisclosed@example.com"},
+]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.8",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Programming Language :: Python :: 3 :: Only",
+]
+
+dependencies = [
+  "serializable-trees>=0.5.1",
+]
+
+[project.urls]
+Homepage = "https://gitlab.com/blackstream-x/search-helper"
+Documentation = "https://blackstream-x.gitlab.io/search-helper"
+CI = "https://gitlab.com/blackstream-x/search-helper/-/pipelines"
+"Bug Tracker" = "https://gitlab.com/blackstream-x/search-helper/-/issues"
+"Source Code" = "https://gitlab.com/blackstream-x/search-helper.git"
+
+[project.scripts]
+search_helper = "search_helper.__main__:main"
+
+[tool.setuptools.dynamic]
+version = {attr = "search_helper.__version__"}

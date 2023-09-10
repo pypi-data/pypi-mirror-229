@@ -1,0 +1,4 @@
+[console_scripts]
+hw-bas-report=net_operations.scripts.reports:hw_bas_report
+hw-nat-report=net_operations.scripts.reports:hw_nat_report
+

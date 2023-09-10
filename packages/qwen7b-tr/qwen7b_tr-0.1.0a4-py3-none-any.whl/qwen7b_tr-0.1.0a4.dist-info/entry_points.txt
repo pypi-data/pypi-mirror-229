@@ -1,0 +1,3 @@
+[console_scripts]
+qwen7b-tr=qwen7b_tr.__main__:app
+

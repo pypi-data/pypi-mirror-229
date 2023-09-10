@@ -1,0 +1,8 @@
+data_source_local/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+data_source_local/src/SourceData.py,sha256=bp9HBnE_E5e6fuuzvQXqH-j2Nccc5j3OR-YYwa1Xvd4,2005
+data_source_local/src/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+data_source_local/src/data_source_enum.py,sha256=smJqesuF3WsMomFCBBSWYlz8NmvgMqLWpzJ4JMpD128,72
+source_data_local-0.0.5.dist-info/METADATA,sha256=ab2p7b0U33Vzv5u-IVT11CSK3QZljfT7iyAQpqUZZqU,482
+source_data_local-0.0.5.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+source_data_local-0.0.5.dist-info/top_level.txt,sha256=dSexjTDvb-aI-yiepg2pWbWPH04daa4QmlgQZpvyvxQ,18
+source_data_local-0.0.5.dist-info/RECORD,,

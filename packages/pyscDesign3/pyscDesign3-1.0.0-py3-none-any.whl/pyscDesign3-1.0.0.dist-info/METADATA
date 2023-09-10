@@ -1,0 +1,74 @@
+Metadata-Version: 2.1
+Name: pyscDesign3
+Version: 1.0.0
+Summary: The python interface for scDesign3 R package.
+Author-email: Di Liu <liudi654@gmail.com>
+License: MIT License
+        
+        Copyright (c) 2023 pyscDesign3
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+        
+Project-URL: Homepage, https://github.com/DILIU899/pyscDesign3/
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: rpy2
+Requires-Dist: anndata
+Requires-Dist: matplotlib
+Requires-Dist: seaborn
+
+# **pyscDesign3**: python interface for **scDesign3** **R** package
+
+## About
+
+**pyscDesign3** is a python interface developed for the **scDesign3** **R** package based on `rpy2`, enabling python users to easily use the **scDesign3** functions and share almost the same usage as the **R** version.
+
+- For detailed tutorial of this package, please visit the [document website](https://diliu899.github.io/pyscDesign3/).
+
+- To find out more details about **scDesign3**, you can check out manuscript on Nature Biotechnology:
+
+[Song, D., Wang, Q., Yan, G. et al. scDesign3 generates realistic in silico data for multimodal single-cell and spatial omics. Nat Biotechnol (2023).](https://www.nature.com/articles/s41587-023-01772-1)
+
+- For tutorial of **R** package **scDesign3**, you can check the [scDesign3 tutorial website](https://songdongyuan1994.github.io/scDesign3/docs/index.html).
+
+## Installation
+
+You can install the most latest version from [Github](https://github.com/DILIU899/pyscDesign3/) by running the following command
+
+```powershell
+git clone https://github.com/DILIU899/pyscDesign3.git
+cd pyscDesign3
+pip install .
+```
+
+Or quick install from PyPI:
+
+```powershell
+pip install pyscDesign3
+```
+
+## License
+
+This pacakge is licensed under the terms of the **MIT License**.

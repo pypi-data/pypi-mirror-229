@@ -1,0 +1,12 @@
+pyscDesign3/__init__.py,sha256=Grnv4wJ28batHVuFzcy17MUWOcm4CaE8E8eS3JYp0fU,2232
+pyscDesign3/_core.py,sha256=ZQEXzJIZjOe4cMRoZvSXY6DRmi38YoOo6CKM0J2sMFk,64431
+pyscDesign3/_utils/_errors.py,sha256=zvPFWNBGAMRJxhmLwzuVJ6nzCrV3s-9pDduWFy49kE4,201
+pyscDesign3/_utils/_format.py,sha256=hN2O2rHYncl89o97eQjpytgOtMiS8dL1f3UxTAyfNyE,6612
+pyscDesign3/tools/get_bpparam.py,sha256=V3di0ff9z8O2xYW7yYHA07SLS2Bx8pVpKyl8gmBQ38g,2866
+pyscDesign3/tools/lrt.py,sha256=QUioAooB1v67l8dGS-PWsOUHOEOs09usx8PT-OY3wxI,1461
+pyscDesign3/tools/plot.py,sha256=2eAFw-hlVacmpTbk88AKMTkDne8F3h6PFuKKKJ1xFj4,18226
+pyscDesign3-1.0.0.dist-info/LICENSE,sha256=gTyaGH9USaJpL4Fe2lpbAJCCXvaic_uA0FLHciEpBjE,1089
+pyscDesign3-1.0.0.dist-info/METADATA,sha256=xfx9t8vaIfTXgCAa5aAQHQu-tq3ZdBse3s4ZKWu_BQA,3185
+pyscDesign3-1.0.0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+pyscDesign3-1.0.0.dist-info/top_level.txt,sha256=pXyDo-7UvWvEWMDjhTPyke8D4XOr-dsBYqVZ1ACT-ek,12
+pyscDesign3-1.0.0.dist-info/RECORD,,

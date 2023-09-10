@@ -1,0 +1,8 @@
+openapi-client
+
+[dev]
+pytest
+pytest-random-order
+coverage
+black
+pylint

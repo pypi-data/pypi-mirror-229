@@ -1,0 +1,7 @@
+requests
+pyjokes
+randfacts
+pyttsx3
+screen-brightness-control
+pyperclip
+PyAutoGUI

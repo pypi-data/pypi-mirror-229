@@ -1,0 +1,10 @@
+README.md
+setup.py
+Switch-File/__init__.py
+Switch-File/converter.py
+switch_file.egg-info/PKG-INFO
+switch_file.egg-info/SOURCES.txt
+switch_file.egg-info/dependency_links.txt
+switch_file.egg-info/entry_points.txt
+switch_file.egg-info/requires.txt
+switch_file.egg-info/top_level.txt

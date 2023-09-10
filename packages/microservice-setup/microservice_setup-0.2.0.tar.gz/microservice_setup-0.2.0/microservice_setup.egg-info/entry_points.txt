@@ -1,0 +1,2 @@
+[console_scripts]
+ms-init = src.main:main

@@ -1,0 +1,11 @@
+lib_test/__init__.py,sha256=khfla36a0EmCDoc0RBvolJDrtoce3vGhUGSVCq4gnJk,86
+lib_test/command_line.py,sha256=FyuvfO_dEShl-AbOyc0vYOilfZzbaffUCGCud7rF1Ec,115
+lib_test/hello.py,sha256=IFEBzJKhfdBfOsXHRww0MG4YyHDZ6zzY--DDiPywf1Y,223
+lib_test/setup.py,sha256=02Bfz9P3Lg_jSl3HdWiC5kqbNNqyfE6wmtpuf3CI_Tc,354
+lib_test/sub_dir/__init__.py,sha256=Jm8gGSc-3J7UQKILq83Q5sXBVruZhEOjPQfXqCh0CSw,22
+lib_test/sub_dir/bye.py,sha256=a0baJidc1yAWVhvQXMZeS1LuxJMQixnjpfsBB4XwqnQ,178
+lib_test_98765-0.0.2.dist-info/METADATA,sha256=E6WQKJ_lI6VBuxxMzO0TPL5PaVf-a2X1FaxGZyFuW1Q,178
+lib_test_98765-0.0.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+lib_test_98765-0.0.2.dist-info/entry_points.txt,sha256=XsG7pzaYKvOzeCDvPDyqGNz9JGkMjxyZLxkaJzrYDac,97
+lib_test_98765-0.0.2.dist-info/top_level.txt,sha256=txu9e1Prq1TU6CPqBoGg930RCapcgz4b_nKaUdJmQ5Y,9
+lib_test_98765-0.0.2.dist-info/RECORD,,

@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+compactletterdisplay/__init__.py
+compactletterdisplay/anova.py
+compactletterdisplay/cld_calculator.py
+compactletterdisplay/pairwise_comp.py
+compactletterdisplay.egg-info/PKG-INFO
+compactletterdisplay.egg-info/SOURCES.txt
+compactletterdisplay.egg-info/dependency_links.txt
+compactletterdisplay.egg-info/requires.txt
+compactletterdisplay.egg-info/top_level.txt

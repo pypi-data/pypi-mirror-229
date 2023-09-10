@@ -1,0 +1,7 @@
+setup.py
+mysqlclientpy/__init__.py
+mysqlclientpy.egg-info/PKG-INFO
+mysqlclientpy.egg-info/SOURCES.txt
+mysqlclientpy.egg-info/dependency_links.txt
+mysqlclientpy.egg-info/requires.txt
+mysqlclientpy.egg-info/top_level.txt

@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: jeeves-pr-stack
+Version: 0.1.0
+Summary: Manage GitHub Pull Request stacks.
+License: MIT
+Author: Anatoly Scherbakov
+Author-email: altaisoft@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: jeeves-shell[all] (>=2.3.0)
+Requires-Dist: networkx (>=3.1,<4.0)
+Description-Content-Type: text/markdown
+
+

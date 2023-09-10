@@ -1,0 +1,12 @@
+aurum_os_base/__init__.py,sha256=IMjkMO3twhQzluVTo8Z6rE7Eg-9U79_LGKMcsWLKBkY,22
+aurum_os_base/check_aurum_os_version.py,sha256=veykE5kNZ4-fTxYtd1veqx1rs01iy6fyPMOdDGB_HyM,629
+aurum_os_base/crypt.py,sha256=jdX_CSMX1M2zp4zfHLl62SGKhIlj7NGzJdbBdxrzoA0,1897
+aurum_os_base/file_system_operations.py,sha256=vudEwvbL_PYa7ByOoP5ps2zhSfUktWTbLXcMCx8vML0,1794
+aurum_os_base/networking_operations.py,sha256=YHKep8uujN7Ml5j-11QXpmAOeI57LAwDjjkmkYjEiSc,1801
+aurum_os_base/process_management.py,sha256=Y35YBeePKz352i9rdMJo0AMXnmQVqM78ndKixDnIrKk,1155
+aurum_os_base/system_information.py,sha256=VLEe3gb9-HO9WO-9XqiJU8JindKdrD0p0yxh7elGYCI,936
+aurum_os_base/translation.py,sha256=9bNh-Foo_WIscaY5vfoVeIq4pKoHE1KY3J8tgQsvaQo,1185
+aurum_os_base-0.1.0.dist-info/LICENSE,sha256=yQzs3VO7tbAADqoRvZgzac4v6j3wwKU1uaYfdnLbdjA,1069
+aurum_os_base-0.1.0.dist-info/METADATA,sha256=bLhYC5JCXcQDaT8pnskOFjlrfusTNGL-OnA9tZItXq8,2301
+aurum_os_base-0.1.0.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+aurum_os_base-0.1.0.dist-info/RECORD,,

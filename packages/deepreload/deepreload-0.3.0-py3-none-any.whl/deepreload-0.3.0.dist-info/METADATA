@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: deepreload
+Version: 0.3.0
+Summary: 
+Home-page: https://github.com/binh-vu/deepreload
+Author: Binh Vu
+Author-email: binh@toan2.com
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Project-URL: Repository, https://github.com/binh-vu/deepreload
+Description-Content-Type: text/markdown
+
+# deepreload ![PyPI](https://img.shields.io/pypi/v/deepreload) ![Python](https://img.shields.io/badge/python-v3.8+-blue.svg)
+
+Reload a python package recursively. Code ported from IPython.lib.deepreload to avoid loading third-party libraries or packages outside of the target package.
+

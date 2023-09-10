@@ -1,0 +1,8 @@
+pyfim
+igraph
+numpy
+pandas
+matplotlib
+pymysql
+sqlalchemy
+requests

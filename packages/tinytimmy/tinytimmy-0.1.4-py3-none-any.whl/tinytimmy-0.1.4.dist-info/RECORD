@@ -1,0 +1,9 @@
+tinytimmy/202306-divvy-tripdata.csv,sha256=UyfAaDWlT60rBePRh4mOBGABocZ2tWMmp2dEyxwvDf8,120913
+tinytimmy/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tinytimmy/config_parser.py,sha256=hSq5iLQao9UP1t-gipkht3cnmWGuOSdIv0LK5smhWzU,1575
+tinytimmy/data_quality.py,sha256=f_MiYm3BmG7kO1ZdiIztjxUObd-YRZILdJ89kWH2d7o,5529
+tinytimmy/tinytim.py,sha256=PkzvcgaRuT0Z_BXMVWpclYYKvpb1oMFSululyihbzYc,2547
+tinytimmy-0.1.4.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+tinytimmy-0.1.4.dist-info/METADATA,sha256=3SYe_-wJ3uVxkroe60H8RiIfpmDyZ1uI3j6PlIVJ8yo,6460
+tinytimmy-0.1.4.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+tinytimmy-0.1.4.dist-info/RECORD,,

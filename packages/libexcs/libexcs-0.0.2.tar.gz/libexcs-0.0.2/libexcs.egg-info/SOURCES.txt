@@ -1,0 +1,12 @@
+LICENSE
+README.rst
+pyproject.toml
+libexcs/__init__.py
+libexcs/_utils.py
+libexcs/root.py
+libexcs.egg-info/PKG-INFO
+libexcs.egg-info/SOURCES.txt
+libexcs.egg-info/dependency_links.txt
+libexcs.egg-info/top_level.txt
+tests/test_root.py
+tests/test_utils.py

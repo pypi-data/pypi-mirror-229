@@ -1,0 +1,7 @@
+[console_scripts]
+astctl=astoria.astctl:main
+astdiskd=astoria.astdiskd:main
+astmetad=astoria.astmetad:main
+astprocd=astoria.astprocd:main
+astwifid=astoria.astwifid:main
+

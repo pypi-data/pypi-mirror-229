@@ -1,0 +1,6 @@
+* TODO Add the ability to /paint/ the various distributions.
+- Allow the user to place the organisms, food, temperature,
+  etc. Wherever they want.
+**  TODO Make A state for doing this.
+***  TODO Make a function to render a distribution.
+

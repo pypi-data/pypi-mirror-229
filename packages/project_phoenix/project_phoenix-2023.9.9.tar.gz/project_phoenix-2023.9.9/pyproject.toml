@@ -1,0 +1,40 @@
+[tool.poetry]
+name = "project_phoenix"
+version = "2023.09.09"
+description = "Git tools"
+authors = ["walchko <walchko@users.noreply.github.com>"]
+readme = "readme.md"
+license = "MIT"
+homepage = "https://pypi.org/project/project-phoenix/"
+repository = 'http://github.com/walchko/project-phoenix'
+# documentation = "http://..."
+keywords = ["git","git pull","git config","pip","pip update"]
+classifiers = [
+    'Development Status :: 4 - Beta',
+    'Intended Audience :: Developers',
+    'License :: OSI Approved :: MIT License',
+    'Operating System :: OS Independent',
+    'Programming Language :: Python :: 3.9',
+    'Programming Language :: Python :: 3.10',
+    'Programming Language :: Python :: 3.11',
+    'Topic :: Software Development :: Libraries',
+    'Topic :: Software Development :: Libraries :: Python Modules',
+    'Topic :: Software Development :: Libraries :: Application Frameworks'
+]
+
+[tool.poetry.scripts]
+git-update = 'project_phoenix.git:update'
+git-pull = 'project_phoenix.git:pull'
+git-config = 'project_phoenix.git:config'
+pip-update = 'project_phoenix.py3:update'
+
+[tool.poetry.dependencies]
+python = ">=3.9"
+colorama = "*"
+
+[tool.poetry.dev-dependencies]
+pytest = "*"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

@@ -1,0 +1,2 @@
+[nbdev]
+aprep = aprep._modidx:d

@@ -1,0 +1,10 @@
+svelte_web_components/__init__.py,sha256=QtnoAJvvMBRV6gRYPxXilO0uGe8P4xVCoLbzB_RQsJE,176
+svelte_web_components/bundle.py,sha256=xsL7HN9UUSDELCX0yGUI-fJNOJCLIgQkxnbllSKBvuk,4609
+svelte_web_components/paths.py,sha256=D7T_w1hckIjq0DDeoyC5C6QIo94-0JPUGzd5ND9maWI,491
+svelte_web_components/setup_node.py,sha256=JWplAtCzuwpBNWzsNKraP73IMKV-bO3zW8fsHe8Xxa0,861
+svelte_web_components/sveltefiles.py,sha256=n1syebuDdoUaLZJe_6xAmXpzDkYoSTCJTQUwFRI5PgA,3966
+svelte_web_components-0.0.11.dist-info/LICENSE,sha256=MYBEFPZ3IPUllDHM_aIXSRWwQWnxWd3HtXSeJTRId-A,1075
+svelte_web_components-0.0.11.dist-info/METADATA,sha256=xKHHXUts5WxsgKXtW9agz2-h712mSlSp7aOpHp9Tgis,889
+svelte_web_components-0.0.11.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+svelte_web_components-0.0.11.dist-info/top_level.txt,sha256=ve2kLYkV0SRxGQgFsNF7EveWHOhmCULSTt0c1EpVT5U,22
+svelte_web_components-0.0.11.dist-info/RECORD,,

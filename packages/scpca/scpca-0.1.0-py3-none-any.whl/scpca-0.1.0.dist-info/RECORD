@@ -1,0 +1,7 @@
+scpca/__init__.py,sha256=zp7lzzfLUDzYCaj_uR0uqGUzTqtUQahZKJ1CN7EWClo,116
+scpca/generators.py,sha256=bh3IvedPAtu0qfOk3t3MoTRuep98j1oCGihOTdSIZ3w,866
+scpca/time_serie.py,sha256=v5lLojJNi2tkaLJbWNODNM2j-OXTnrXGuKNBWeqSncA,1631
+scpca-0.1.0.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+scpca-0.1.0.dist-info/LICENSE,sha256=JMUHsAE_E4hxkxhot2pB9fxn9gF0wXsNKWye3p--7pw,1074
+scpca-0.1.0.dist-info/METADATA,sha256=EKiSLzNBRMDHc0RYTQC9aHl9Ao85DceElfT3eaIfSpc,966
+scpca-0.1.0.dist-info/RECORD,,

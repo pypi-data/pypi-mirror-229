@@ -1,0 +1,17 @@
+LICENSE
+README.md
+pyproject.toml
+roscribe/__init__.py
+roscribe/generator.py
+roscribe/main.py
+roscribe/model.py
+roscribe/parser.py
+roscribe/prompt.py
+roscribe/ui.py
+roscribe/visualization.py
+roscribe.egg-info/PKG-INFO
+roscribe.egg-info/SOURCES.txt
+roscribe.egg-info/dependency_links.txt
+roscribe.egg-info/entry_points.txt
+roscribe.egg-info/requires.txt
+roscribe.egg-info/top_level.txt

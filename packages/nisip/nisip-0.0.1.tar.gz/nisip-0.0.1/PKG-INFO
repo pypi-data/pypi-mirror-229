@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: nisip
+Version: 0.0.1
+Summary: A Python package for sandpile models.
+Home-page: https://github.com/AndreiZoltan/sandpile
+Author: Andrei Zoltan
+License: GPLv2
+Description-Content-Type: text/markdown
+License-File: LICENSE

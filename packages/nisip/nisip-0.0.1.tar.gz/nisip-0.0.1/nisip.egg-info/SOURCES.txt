@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+nisip.egg-info/PKG-INFO
+nisip.egg-info/SOURCES.txt
+nisip.egg-info/dependency_links.txt
+nisip.egg-info/top_level.txt

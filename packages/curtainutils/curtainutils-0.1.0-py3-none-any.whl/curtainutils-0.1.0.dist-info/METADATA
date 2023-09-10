@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: curtainutils
+Version: 0.1.0
+Summary: 
+Author: Toan Phung
+Author-email: toan.phung@proteo.info
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: click (>=8.1.7,<9.0.0)
+Requires-Dist: pandas (>=2.1.0,<3.0.0)
+Requires-Dist: uniprotparser (>=1.1.0,<2.0.0)
+Description-Content-Type: text/markdown
+
+# CurtainUtils
+A utility package for converting different MS output files into a format usable by Curtain (https://curtain.proteo.info) and CurtainPTM (https://curtainptm.proteo.info)
+
+## Installation
+The package can be installed using the following command.
+`pip install curtainutils`
+
+## Convert MSFragger PTM single site output to CurtainPTM input
+
+```bash
+msf-curtainptm -f <MSFragger PTM single site output file> -i <index column with site information> -o <output file> -p <peptide column> -a <fasta file> 
+```

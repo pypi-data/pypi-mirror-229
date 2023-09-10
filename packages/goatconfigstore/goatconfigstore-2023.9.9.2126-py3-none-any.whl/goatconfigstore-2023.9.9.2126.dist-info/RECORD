@@ -1,0 +1,8 @@
+configstore/__init__.py,sha256=_MrDcgw2uWGHFLpcHkdwO8FKsL1DhbUHqyPFxQjCdNE,80
+configstore/configstore.py,sha256=YTzWR9TkAldV1A55v3cBwnSQv1lb-p6-bqn6i1golLY,12129
+configstore/configstore_ctrl.py,sha256=vEwJPWrAyjiJUNV8fmYbBpRvwBdrCkoBx_ruog8PO9M,5352
+goatconfigstore-2023.9.9.2126.dist-info/METADATA,sha256=BX6XxFV_GfJoUAWK2dt_lQ7C0HMmJTd7agMkqCnrZyI,420
+goatconfigstore-2023.9.9.2126.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+goatconfigstore-2023.9.9.2126.dist-info/entry_points.txt,sha256=wqhaD-3oeRw0PYthzO7xhAO_nWWpYhIuOIyyOSXxHGM,65
+goatconfigstore-2023.9.9.2126.dist-info/top_level.txt,sha256=aTTWA5-dYntmWSPZX3Q8eBC6p8Tmnxr_fABQCHfa8Rc,17
+goatconfigstore-2023.9.9.2126.dist-info/RECORD,,

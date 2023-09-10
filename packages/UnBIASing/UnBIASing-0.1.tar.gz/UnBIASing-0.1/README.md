@@ -1,0 +1,54 @@
+# UnBIASing
+
+UnBIASing is a Python package that classifies, detects, and debiases textual content to promote unbiased information. By leveraging advanced machine learning models, UnBIASing provides users with tools to analyze and correct biases in their texts.
+
+## Features
+
+- **Bias Classification**: Classifies textual content based on its bias using state-of-the-art models.
+  
+- **Named Entity Recognition (NER)**: Detects named entities within the text that might be indicative of bias.
+  
+- **Text Debiasing**: Provides unbiased or debiased versions of the input text using an ensemble of advanced models.
+
+## Installation
+
+```bash
+pip install UnBIASing
+```
+
+## Usage
+
+Here's a basic example of how to use the `BiasPipeline` from UnBIASing:
+
+```python
+from unbias import BiasPipeline
+
+pipeline = BiasPipeline()
+texts = ["Your sample text goes here."]
+classification_results, ner_results, debiaser_results = pipeline.process(texts)
+
+# If you wish to print the results
+pipeline.pretty_print(texts, classification_results, ner_results, debiaser_results)
+
+# Convert results to a Pandas DataFrame
+df = results_to_dataframe(texts, classification_results, ner_results, debiaser_results)
+print(df)
+```
+
+## Dependencies
+
+- Transformers
+- Torch
+- Pandas
+- SentencePiece
+
+## License
+
+[MIT](https://opensource.org/licenses/MIT)
+
+---
+
+We hope `UnBIASing` proves useful in your journey to make the digital world a more inclusive and unbiased space. For any queries or feedback, feel free to Shaina Raza at shaina.raza@utoronto.ca
+
+---
+

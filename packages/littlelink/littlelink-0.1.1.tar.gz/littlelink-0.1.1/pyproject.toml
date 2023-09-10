@@ -1,0 +1,31 @@
+[tool.poetry]
+name = "littlelink"
+version = "0.1.1"
+description = "Littlelink Generator"
+authors = ["Sumanth <sumanthreddystar@gmail.com>"]
+maintainers  = ["Sumanth <sumanthreddystar@gmail.com>"]
+readme = "README.md"
+
+homepage = "https://pypi.org/project/littlelink"
+repository = "https://github.com/insumanth/littlelink"
+documentation = "https://insumanth.github.io/littlelink"
+
+keywords = ["littlelink", "poetry"]
+
+classifiers = [
+    "Operating System :: MacOS",
+    "Operating System :: Microsoft",
+    "Operating System :: Unix",
+    "Operating System :: POSIX"
+]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+littlelink = 'littlelink.cli:main'

@@ -1,0 +1,12 @@
+dmarcparser/__init__.py,sha256=YInuyDIWsFjnws2_PbnIIPiJC9PuoKKavODek_WLLwI,3402
+dmarcparser/collector.py,sha256=W-46sQB6l0W9ZRPOLWGg3jL8uWAn6BjyCmNVQZeEutQ,58
+dmarcparser/exceptions.py,sha256=EFPDxF5OEdauKAkbaCHeio200c9kJ2f3qhr7OJhK9Zw,989
+dmarcparser/logger.py,sha256=yc_Mde56mjy_UYYtC_WHJNrWr-zhMXo9kyQjPfssZ2Q,2477
+dmarcparser/misc.py,sha256=Y1mjefP56A0L2Po-JwfKz9HQjyv8OEoilXKpjbfLkMg,220
+dmarcparser/parser.py,sha256=XpxmUJkeLGav0CXA9KMceLnIgpDBSRiIFWeJJ7d1prE,11553
+dmarcparser/report.py,sha256=uDPYCI-Q1pZn7lFMeCaPi7F7q0UR-PJAU7zOxGwgKew,27418
+dmarcparser-0.1.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+dmarcparser-0.1.dist-info/METADATA,sha256=ndqzsWOhTcmcqT3a4JbCyiuQjw0l3LhcFQE5doyXcCs,2367
+dmarcparser-0.1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+dmarcparser-0.1.dist-info/top_level.txt,sha256=uOIP9xWyuRF_oRH_MAjaIJAae35REDF0_3BUiMqInvs,12
+dmarcparser-0.1.dist-info/RECORD,,

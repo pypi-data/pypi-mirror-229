@@ -1,0 +1,7 @@
+README.md
+pyproject.toml
+wgrd_cons_parsers/wgrd_cons_parsers.egg-info/PKG-INFO
+wgrd_cons_parsers/wgrd_cons_parsers.egg-info/SOURCES.txt
+wgrd_cons_parsers/wgrd_cons_parsers.egg-info/dependency_links.txt
+wgrd_cons_parsers/wgrd_cons_parsers.egg-info/requires.txt
+wgrd_cons_parsers/wgrd_cons_parsers.egg-info/top_level.txt

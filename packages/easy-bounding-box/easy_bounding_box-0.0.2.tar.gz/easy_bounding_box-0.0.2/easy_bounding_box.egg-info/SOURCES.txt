@@ -1,0 +1,15 @@
+LICENCE
+README.md
+pyproject.toml
+setup.cfg
+easy_bounding_box/__init__.py
+easy_bounding_box/box.py
+easy_bounding_box.egg-info/PKG-INFO
+easy_bounding_box.egg-info/SOURCES.txt
+easy_bounding_box.egg-info/dependency_links.txt
+easy_bounding_box.egg-info/top_level.txt
+easy_bounding_box/utils/__init__.py
+easy_bounding_box/utils/box_utils.py
+tests/__init__.py
+tests/test_box.py
+tests/test_box_utils.py

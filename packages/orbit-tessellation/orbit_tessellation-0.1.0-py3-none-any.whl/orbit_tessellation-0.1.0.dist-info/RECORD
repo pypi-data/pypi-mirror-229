@@ -1,0 +1,10 @@
+orbit_tessellation-0.1.0.dist-info/METADATA,sha256=PDnoUJLnTHYdQR-1lE2H2S4bPgTLCBiakwTgYwzDHVU,1333
+orbit_tessellation-0.1.0.dist-info/WHEEL,sha256=1D4d-_ODszlK6-qFybc5BLF-ZhZvee-uKVh2hLa3IIc,90
+tessellation/__init__.py,sha256=TP6fS06RhJstB3yhReEStPVtuZRa1RxyTgoTIw5Yzog,141
+tessellation/base.py,sha256=kEvIq1IhGNhgTs4L4GBE0L-1D6bI2DuMF1ufzjMLxmU,6235
+tessellation/constructor.py,sha256=tNEXDnjhyThFmOfRyEUkVEj2ZhjuYRhbx60SYXdo50E,2368
+tessellation/dim2.py,sha256=ZSqcOj2A3Ky1CD1Yf8UDE3bXc-lp3HLUOQMgd2uqkwg,2207
+tessellation/dim3.py,sha256=ml3q7Hsemyn-qKuCu49ugGYQdFWPbbiTx2ctszeMi-Y,5905
+tessellation/exceptions.py,sha256=sotrswyQLDEbcSOTHDpIP3bj27w92LOjH0OlqO-hOeo,56
+tessellation/generic.py,sha256=BhyegU4tjG3SJimYJL5Cd8qpefBoQ4J_b0_BM9To9xk,1700
+orbit_tessellation-0.1.0.dist-info/RECORD,,

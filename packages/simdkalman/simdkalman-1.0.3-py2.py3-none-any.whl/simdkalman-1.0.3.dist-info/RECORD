@@ -1,0 +1,8 @@
+simdkalman/__init__.py,sha256=U94saRbo_YnhVv0FZ_CsyNBIINrLP76I4-6Z_vqfh6w,142
+simdkalman/kalmanfilter.py,sha256=tK4aVvxO1TXUbwS4_mGDaYwR37gDeep86OFd1qG2ZgQ,26974
+simdkalman/primitives.py,sha256=3LGH6XOcBVWMwGJrHjLCTQr095gNj0trzwyg8uTHIMA,9303
+simdkalman-1.0.3.dist-info/LICENSE.txt,sha256=7lRoO810Sn3P8JzdS58l0rrOXtj_Gndn-GnVOxAk6mU,1070
+simdkalman-1.0.3.dist-info/METADATA,sha256=6adezpTGoHXJsUj6gbyatOLZfsTHVPtJouRoWmbyE8o,1183
+simdkalman-1.0.3.dist-info/WHEEL,sha256=iYlv5fX357PQyRT2o6tw1bN-YcKFFHKqB_LwHO5wP-g,110
+simdkalman-1.0.3.dist-info/top_level.txt,sha256=bsWpgK-kIsZ0lgWMaJZ4bLhp7ONDznAXkzrFrBgGGDQ,11
+simdkalman-1.0.3.dist-info/RECORD,,

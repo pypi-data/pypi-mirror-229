@@ -1,0 +1,11 @@
+logdog/__init__.py,sha256=QmJ0eT9IcrFjfNKaNxNLTCdiCxix4dCl5UodUUphulY,79
+logdog/wrapper/__init__.py,sha256=HvF_DTpPlKk67pNHbdJRNAXd2o92GYq6kUHZ67gU0Ds,256
+logdog/wrapper/base.py,sha256=dWIM3Z1mUToAUe_ilKLhZqqRHCZOtb5xqZpKafUICQg,157
+logdog/wrapper/json_renderer.py,sha256=DDKGOhsOXU8c23UyvFpxbOrefjFxbeg2C-C0tOgsbbc,562
+logdog/wrapper/logfmt_renderer.py,sha256=fbpLLkoqyxqbGFXB9Z18IWaGq9MGMZPYNwG4e98xcnM,1960
+logdog/wrapper/wrapper.py,sha256=4qO7132TQDt-Eu2BQL9aBchfl18ekFFtFC-kR2prFLY,2206
+python_logdog-0.1.2.dist-info/LICENSE,sha256=F_o92Ls1KZMzD2SNsRKYuRcWR9did_Mv9kg_eTUrZS4,1072
+python_logdog-0.1.2.dist-info/METADATA,sha256=oYouXhAHCS18uFICs76ghTWacMhtKjCNdiIXhqYO-kA,2485
+python_logdog-0.1.2.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+python_logdog-0.1.2.dist-info/top_level.txt,sha256=l1Jtyw6E0m9N8OdEn5FLd8akH6LArDxMbpS1fOKs2uw,7
+python_logdog-0.1.2.dist-info/RECORD,,

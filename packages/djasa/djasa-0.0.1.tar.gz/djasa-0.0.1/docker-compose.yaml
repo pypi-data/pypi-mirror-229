@@ -1,0 +1,27 @@
+version: '3.8'
+
+services:
+  rasa:
+    user: "1001:1001"
+    image: rasa/rasa:3.6.8-full
+    ports:
+      - "5005:5005"
+    volumes:
+      - ./djasa/rasa_config:/app
+    command:
+      - run
+      - --enable-api
+    environment:
+      - DJASA_RASA_CONFIG_PATH=/app
+      - PYTHONWARNINGS=ignore::DeprecationWarning
+
+  action_server:
+    build:
+      context: .
+      dockerfile: docker/rasa-sdk.Dockerfile
+    ports:
+      - "5055:5055"
+    volumes:
+      - ./example_project:/app/example_project
+      - ./djasa/rasa_config/actions:/app/actions
+      - ./djasa:/app/djasa

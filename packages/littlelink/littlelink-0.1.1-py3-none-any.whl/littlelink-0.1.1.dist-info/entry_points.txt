@@ -1,0 +1,3 @@
+[console_scripts]
+littlelink=littlelink.cli:main
+

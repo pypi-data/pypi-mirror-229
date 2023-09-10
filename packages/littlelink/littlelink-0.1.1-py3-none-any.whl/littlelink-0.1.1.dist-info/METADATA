@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: littlelink
+Version: 0.1.1
+Summary: Littlelink Generator
+Home-page: https://pypi.org/project/littlelink
+Keywords: littlelink,poetry
+Author: Sumanth
+Author-email: sumanthreddystar@gmail.com
+Maintainer: Sumanth
+Maintainer-email: sumanthreddystar@gmail.com
+Requires-Python: >=3.11,<4.0
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: Microsoft
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Unix
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Project-URL: Documentation, https://insumanth.github.io/littlelink
+Project-URL: Repository, https://github.com/insumanth/littlelink
+Description-Content-Type: text/markdown
+
+# Littlelink Generator
+
+Simple linkpage generator, based on [littlelink](https://littlelink.io).
+

@@ -1,0 +1,2 @@
+[console_scripts]
+imgp = imgp:main

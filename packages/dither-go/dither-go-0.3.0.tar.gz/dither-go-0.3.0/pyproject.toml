@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel", "pybindgen"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dither-go"
+version = "0.3.0"
+authors = [{name = "tfuxu"}]
+description = "A fast and the most correct image dithering library"
+keywords = ["golang", "bindings", "dithering", "processing"]
+readme = "README_PyPI.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)",
+    "Operating System :: OS Independent",
+    "Topic :: Multimedia :: Graphics",
+    "Topic :: Multimedia :: Graphics :: Graphics Conversion",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/tfuxu/dither-go"
+"Bug Tracker" = "https://github.com/tfuxu/dither-go/issues"
+
+[tool.setuptools]
+packages = ["dither_go", "dither_go.bindings", "dither_go.utils"]

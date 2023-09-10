@@ -1,0 +1,8 @@
+mac
+iphone
+ipad
+watch
+keyboard
+pencil
+airpods
+home

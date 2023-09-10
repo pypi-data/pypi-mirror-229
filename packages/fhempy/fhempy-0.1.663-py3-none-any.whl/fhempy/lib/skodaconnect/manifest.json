@@ -1,0 +1,6 @@
+{
+  "requirements": [
+    "pyjwt",
+    "skodaconnect==1.3.6"
+  ]
+}

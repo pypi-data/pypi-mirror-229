@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: shell2-cli
+Version: 0.1
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: shell2
+Requires-Dist: prettyprinter
+Requires-Dist: inquirer
+Requires-Dist: rich
+Requires-Dist: prompt-toolkit
+Requires-Dist: colorama
+Requires-Dist: google-cloud-firestore
+Requires-Dist: google-auth
+Requires-Dist: requests
+Requires-Dist: retry
+Requires-Dist: python-slugify
+Requires-Dist: py7zr
+
+UNKNOWN
+
+

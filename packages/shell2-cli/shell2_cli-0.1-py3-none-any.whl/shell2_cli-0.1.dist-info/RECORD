@@ -1,0 +1,11 @@
+scripts/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+scripts/_shell2_cli_menu.py,sha256=jL-45XmVgPS1GxoeXaAkAzuAIMo_g4704er79B3cCpE,7813
+scripts/shell2_cli.py,sha256=RG1x4zICXKGbYLm5Z8PXOmZLwsl5phHHY6_xopOMEGA,7578
+scripts/shell2_cli_live.py,sha256=21PWOTAxZ0SNIebvTfsUrWOHNccZH7N5KPUscRZV3vo,32103
+scripts/shell2_cli_menu.py,sha256=ojR4_TSiwq0c3OhTMGDmCEURldK91048bTKXfL7VdeM,19285
+scripts/shell2_debug.py,sha256=WuaoFejK6lTFVA8BYMDKeEfkAzYkD5v-p0tgfeqnMxw,35
+shell2_cli-0.1.dist-info/METADATA,sha256=11tGTdcn6In_uuZyRBzvU5UvIr3v6FK6eiP_IQWRx5I,507
+shell2_cli-0.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+shell2_cli-0.1.dist-info/entry_points.txt,sha256=Pwp_vVmYoTevkM9IykLKw6LYoJ-pbc3ulgnGo4jqSv0,146
+shell2_cli-0.1.dist-info/top_level.txt,sha256=rmzd5mewlrJy4sT608KPib7sM7edoY75AeqJeY3SPB4,8
+shell2_cli-0.1.dist-info/RECORD,,

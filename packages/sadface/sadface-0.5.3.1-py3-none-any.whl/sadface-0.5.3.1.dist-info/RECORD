@@ -1,0 +1,17 @@
+sadface/__init__.py,sha256=hHWX-9KZaGwCizmmrq0XHf6ocgde34pdGyVCahafWOY,169
+sadface/__main__.py,sha256=_phEe0hokQp6fkqXHU1RBxd2RFDT11XhjWIB_YKGrO0,30
+sadface/aml.py,sha256=rMKk2Psep7L6FKiR1hiqjAg8aTMuMHjJSMAzZ1HtSAA,2278
+sadface/config.py,sha256=R5JqJhOISnv0dQE6Y0r7n-dkrSzsSkFiuwo0lOMPyRA,1551
+sadface/repl.py,sha256=z-moXuoF5GXf-h6RGy80bqRhPcTIvGe_2-VTq1yYdv0,5350
+sadface/sadface.py,sha256=FmeT5i-xgM2cC9rWsZ0iZ2B7AJMIf_Ha5ocgPdtGQTk,37097
+sadface/validation.py,sha256=8SR_m9Hc3C7hfGNKRtBFkprf0g1QCKmS3YNmApm7kQ8,11764
+sadface/version.py,sha256=h1nUXEX0nPw-4QGrgEfrsskUASvR-EFEcuw35SHdajw,69
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/config_test.py,sha256=ls1YjuKCO2VwkXKRO-_wumzZu34WHr_ZG4aNyht6DMc,5457
+tests/core_test.py,sha256=lwJjifpm4_0gftz83vYbtQzXiycEaywMyIWYv9zGhlM,37784
+tests/validation_test.py,sha256=zfkmmOGPq8k2MIFvvMZqUCyVSGcHn-_StjPwYTYaByk,1833
+sadface-0.5.3.1.dist-info/LICENSE,sha256=WJ7YI-moTFb-uVrFjnzzhGJrnL9P2iqQe8NuED3hutI,35141
+sadface-0.5.3.1.dist-info/METADATA,sha256=bnBMv6IlYgoDz0hHNh-qk0vP1YL3xel7Dcy4LTgBB0E,4017
+sadface-0.5.3.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+sadface-0.5.3.1.dist-info/top_level.txt,sha256=yC7FgEQZHvfKH10NsfEtUXtcIxFG8L4Sj_Ud_YO8N-Y,14
+sadface-0.5.3.1.dist-info/RECORD,,

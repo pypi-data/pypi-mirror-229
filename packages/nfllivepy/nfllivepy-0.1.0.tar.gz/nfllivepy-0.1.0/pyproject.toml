@@ -1,0 +1,29 @@
+# pyproject.toml
+
+[build-system]
+requires      = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "nfllivepy"
+version = "0.1.0"
+description = "Package for obtaining live nfl play by play data"
+readme = "README.md"
+authors = [{ name = "Josh Kazan", email = "jlkazan@gmail.com" }]
+license = { file = "LICENSE" }
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+]
+keywords = ["nfl", "pbp"]
+dependencies = [
+    "json-flatten",
+    "pandas",
+    "pendulum",
+    "requests",
+]
+requires-python = ">=3.8"
+
+[project.urls]
+Homepage = "https://github.com/jlkazan/nfllivepy"

@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+AutoReason.egg-info/PKG-INFO
+AutoReason.egg-info/SOURCES.txt
+AutoReason.egg-info/dependency_links.txt
+AutoReason.egg-info/top_level.txt
+src/__init__.py

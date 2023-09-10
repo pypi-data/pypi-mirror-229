@@ -1,0 +1,38 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "aio_live_task_traces"
+version = "0.0.2"
+description = "Trace python asyncio tasks exceptions live"
+readme.file = "README.md"
+readme.content-type = "text/markdown"
+requires-python = ">=3.8"
+license = { file = "LICENSE" }
+authors = [
+    { email = "matan1008@gmail.com" },
+    { name = "Matan Perelman" },
+]
+classifiers = [
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+]
+dependencies = [
+]
+
+[project.urls]
+Homepage = "https://github.com/matan1008/aio-live-task-traces"
+Source = "https://github.com/matan1008/aio-live-task-traces"
+
+[project.optional-dependencies]
+testing = ["pytest"]
+
+[tool.setuptools.packages]
+find = { }
+
+[tool.distutils.bdist_wheel]
+universal = true

@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: ppcdis-protobuf
+Version: 0.0.1
+Summary: NOTE: this is NOT the upstream ppcdis, this is m8's branch that uses protobuf persistence
+Author: Seeky
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.8
+License-File: LICENSE.md
+Requires-Dist: colorama
+Requires-Dist: capstone ==5.0.1
+Requires-Dist: pyelftools
+Requires-Dist: pylibyaml
+Requires-Dist: protobuf ==4.21.0
+Requires-Dist: PyYAML
+

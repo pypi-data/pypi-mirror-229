@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+src/csch/__init__.py
+src/csch.egg-info/PKG-INFO
+src/csch.egg-info/SOURCES.txt
+src/csch.egg-info/dependency_links.txt
+src/csch.egg-info/top_level.txt

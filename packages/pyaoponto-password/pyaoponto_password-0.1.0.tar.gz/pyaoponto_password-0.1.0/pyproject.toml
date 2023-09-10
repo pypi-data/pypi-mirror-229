@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "pyaoponto-password"
+version = "0.1.0"
+description = "Projeto para criar senhas fortes"
+authors = ["Estevao <estevaopfon@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "strong_password"}]
+
+[tool.poetry.dependencies]
+python = "^3.6"
+
+[tool.poetry.scripts]
+strong-password = 'strong_password:main'
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

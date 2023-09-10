@@ -1,0 +1,32 @@
+LICENSE
+README.md
+pyproject.toml
+src/LittleDog.egg-info/PKG-INFO
+src/LittleDog.egg-info/SOURCES.txt
+src/LittleDog.egg-info/dependency_links.txt
+src/LittleDog.egg-info/top_level.txt
+src/Littledog/__init__.py
+src/Littledog/module.py
+src/Littledog.egg-info/PKG-INFO
+src/Littledog.egg-info/SOURCES.txt
+src/Littledog.egg-info/dependency_links.txt
+src/Littledog.egg-info/top_level.txt
+src/Littledog/Resources/Photos/1bit1.png
+src/Littledog/Resources/Photos/2bit2.png
+src/Littledog/Resources/Photos/apple.jpeg
+src/Littledog/Resources/Photos/cat.jpg
+src/Littledog/Resources/Photos/cat_large.jpg
+src/Littledog/Resources/Photos/cats 2.jpg
+src/Littledog/Resources/Photos/cats.jpg
+src/Littledog/Resources/Photos/color.png
+src/Littledog/Resources/Photos/gfg.png
+src/Littledog/Resources/Photos/group 1.jpg
+src/Littledog/Resources/Photos/group 2.jpg
+src/Littledog/Resources/Photos/lady.jpg
+src/Littledog/Resources/Photos/park.jpg
+src/Littledog/Resources/Videos/dog.mp4
+src/Littledog/Resources/Videos/kitten.mp4
+src/littleDog.egg-info/PKG-INFO
+src/littleDog.egg-info/SOURCES.txt
+src/littleDog.egg-info/dependency_links.txt
+src/littleDog.egg-info/top_level.txt

@@ -1,0 +1,9 @@
+darksorter/__init__.py,sha256=QOqVCrjyKQj9RNILdZY9_CHtJ9j_i1Cf4tEWmWM4ZQ8,42
+darksorter/__main__.py,sha256=G8xkn2Ffu1-S_GUzBJymQAKf65r3Xeb1ERiak5wPnKY,3027
+darksorter/reader.py,sha256=RlJEB3PD7df8SQ8yeFfGMJFSv2bi7Nw8mCbm7BpOmK0,2176
+darksorter/writer.py,sha256=q3fxju0JWmlxEVyqKGX4K3abDBKFkLD_OodcIyq8uXg,949
+darksorter-0.1.0.dist-info/LICENSE,sha256=YpYgG-GPAFSS1kWTjLrFURprbcHaQa49_ebY82FSBng,1063
+darksorter-0.1.0.dist-info/METADATA,sha256=LVsY1zIuGszBil6CtcRVryQAXQQL6p6N62-EQauYIAQ,1775
+darksorter-0.1.0.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+darksorter-0.1.0.dist-info/entry_points.txt,sha256=T5Gwboz0qaFf0Ao4sme96lnvor9lzeG6Qv9bsGUEFR8,62
+darksorter-0.1.0.dist-info/RECORD,,

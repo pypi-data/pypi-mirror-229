@@ -1,0 +1,8 @@
+LICENSE.txt
+README.rst
+setup.py
+m2pytorch.egg-info/PKG-INFO
+m2pytorch.egg-info/SOURCES.txt
+m2pytorch.egg-info/dependency_links.txt
+m2pytorch.egg-info/requires.txt
+m2pytorch.egg-info/top_level.txt

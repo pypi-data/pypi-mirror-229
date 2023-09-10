@@ -1,0 +1,8 @@
+pydantic_mongo_document/__init__.py,sha256=P9zN_anf72jcu1jmRDqT49z6L6x66Fn0aq0vFEp760Q,180
+pydantic_mongo_document/document.py,sha256=5B-XrqzD008Qe3ZbCpsyaFlp3CMaxKBjNKwV5tRSuAg,5106
+pydantic_mongo_document/encoder.py,sha256=MelmQGdeGr88crxspSQw8A-i_vw_zQ1RS0FfUi31iLU,1389
+pydantic_mongo_document/exceptions.py,sha256=oW3wKMZbjJyOoAy9cBErhtkZPArZvjuG4MLl-kmMTa4,168
+pydantic_mongo_document/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pydantic_mongo_document-0.1.4.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+pydantic_mongo_document-0.1.4.dist-info/METADATA,sha256=H7pYbV6dfMjxm8XDh2io0hTGcpI1y6RwgGITUsrbdE0,2396
+pydantic_mongo_document-0.1.4.dist-info/RECORD,,

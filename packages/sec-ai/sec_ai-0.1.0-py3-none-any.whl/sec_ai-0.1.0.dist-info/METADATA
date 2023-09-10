@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: sec-ai
+Version: 0.1.0
+Summary: Leverage AI to analyze and interpret SEC filings data, providing valuable insights for investors, fintech developers, and researchers.
+Author: Alphanome.AI
+Author-email: info@alphanome.ai
+Requires-Python: >=3.11,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Description-Content-Type: text/markdown
+
+

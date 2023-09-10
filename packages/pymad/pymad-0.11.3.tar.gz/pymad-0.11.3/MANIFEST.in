@@ -1,0 +1,3 @@
+include AUTHORS COPYING README.md ChangeLog NEWS THANKS
+recursive-include src *.h
+include test/*.py

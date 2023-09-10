@@ -1,0 +1,15 @@
+quaker/__init__.py,sha256=ngXgX9KNIAamz_YaKE8YmjiNIKV3aJKA4aW-aHdXuJ4,280
+quaker/__main__.py,sha256=wsYpfR4ixNNBXxmh5K5FGbJInREq4djQHLAL1YAYLn4,107
+quaker/cli.py,sha256=6ssCDwV3rctEGmEc01yU8tHCLjAQk88QOxwuRX_FFwE,2416
+quaker/core/__init__.py,sha256=QkrvqYOaXysNCoZAF6NRTssUvgz4St3kVKhsNv3LofE,52
+quaker/core/client.py,sha256=cHq6yUCXA5dMKzxZaxVDr07RoAbNMfMaEfaC_gu9vBc,7294
+quaker/core/parser.py,sha256=u3XA_MV53U28qN3OqxdsUY7FgVm4s-oNmzkYpe7EGag,4412
+quaker/core/query.py,sha256=bxx8RPI0fN32JcFIWQsd9O49JvEQvSIOhtrNzQjM2yk,16028
+quaker/core/record_filter.py,sha256=kKI_ioYkpC6mVdM8FxA3yIoy7QJOa4p0blE6zal4HHU,1485
+quaker/core/writer.py,sha256=3wu3Hbmt5pGgQbAqH_g8aWR10oEzz2Cfd57WI0Xfb7w,2867
+quaker/globals.py,sha256=BnqYBmJIOf1EqU1haRoa5CuS5QIG-Und4l29LZRJRhg,307
+quaker/log.py,sha256=Dk5U1zIGiBc7kRV1CAicRetpPwSZUMND2c9uuhYTtEY,316
+quaker_db-1.0.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+quaker_db-1.0.0.dist-info/METADATA,sha256=ZVl7myiX8UYxVpzu5OeN2aBS9ht6qRigWKwe3VRpgr4,9498
+quaker_db-1.0.0.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+quaker_db-1.0.0.dist-info/RECORD,,

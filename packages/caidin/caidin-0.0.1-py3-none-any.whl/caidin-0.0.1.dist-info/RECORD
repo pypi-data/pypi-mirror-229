@@ -1,0 +1,10 @@
+caidin/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+caidin/caidin.py,sha256=D9RRptaUkjyvdb1AAd7S78pdbtNt6KVoIciX89JaW90,2248
+caidin/algorithms/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+caidin/algorithms/collaborative_filtering.py,sha256=WTP1fLS-uhgKFsD9YjCWkpiWElSrGk_w-k_GWVRuWL4,5855
+caidin/algorithms/content_based.py,sha256=paIetr2uYHROeYLNponCBQfZe3WZg7hMa6Nfskd9DLw,4149
+caidin/algorithms/recommendation_engine.py,sha256=Z9WCyEi82VpohS13qtcw22qS07u3lqSATt7qVN2JE54,261
+caidin-0.0.1.dist-info/METADATA,sha256=eT--2O3zHMlduzgW3borAHD9JhWLSx4SSMjTeILM734,2363
+caidin-0.0.1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+caidin-0.0.1.dist-info/top_level.txt,sha256=iVSuZXh5gZFtDopOOt6q6qmhlwNkaanwYGKxUMBQayw,7
+caidin-0.0.1.dist-info/RECORD,,

@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: auxil
+Version: 7.0.1
+Summary: The library is designed for HIL/SIL automation test
+Author: Mart.Hanks
+Author-email: marthanks@yeah.net
+License: MIT License
+Keywords: simple,test
+Platform: any
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Software Development :: Libraries
+Requires-Python: ==3.11.*
+License-File: LICENSE.txt
+
+xxx

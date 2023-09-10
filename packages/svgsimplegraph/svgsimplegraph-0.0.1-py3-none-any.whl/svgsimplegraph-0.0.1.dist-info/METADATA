@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: svgsimplegraph
+Version: 0.0.1
+Summary: Simple SVG graphing package
+Home-page: UNKNOWN
+Author: Garrett M. Petersen
+Author-email: garrett.m.petersen@gmail.com
+License: MIT
+Keywords: graph,svg,base64,svg simple graph
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Requires-Dist: matplotlib
+Requires-Dist: numpy
+
+Graphing package that generates base64-encoded SVG graphs
+
+

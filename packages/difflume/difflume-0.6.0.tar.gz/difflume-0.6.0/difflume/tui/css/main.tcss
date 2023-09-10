@@ -1,0 +1,80 @@
+Panel {
+    width: 1fr;
+    border: solid darkred;
+}
+
+Panel:focus {
+    border: solid $accent;
+}
+
+Panel.fullscreen {
+    border: none;
+}
+
+.disabled {
+    display: none;
+}
+
+.centered-top {
+    content-align: center top;
+}
+
+.centered-middle {
+    height: 100%;
+    content-align: center middle;
+}
+
+Modal {
+    align: center middle;
+}
+
+#open-file-dialog {
+    padding: 2 4;
+    width: 40%;
+    height: 50%;
+    border: solid darkred;
+    background: $surface;
+}
+
+#open-file-dialog Button {
+    width: 100%;
+}
+
+#open-file-dialog-label {
+    height: 1fr;
+    width: 1fr;
+    content-align: center middle;
+}
+
+#select-file-dialog {
+    padding: 2 4;
+    width: 40%;
+    height: 50%;
+    border: solid darkred;
+    background: $surface;
+}
+
+#select-url-dialog {
+    padding: 2 4;
+    width: 40%;
+    border: solid darkred;
+    background: $surface;
+}
+
+#radio-buttons-dialog {
+    padding: 2 4;
+    width: 40%;
+    height: 50%;
+    border: solid darkred;
+    background: $surface;
+}
+#radio-buttons-dialog RadioSet {
+    margin: 2 2;
+    width: 100%;
+}
+
+#radio-buttons-dialog-label {
+    height: 1fr;
+    width: 1fr;
+    content-align: center middle;
+}

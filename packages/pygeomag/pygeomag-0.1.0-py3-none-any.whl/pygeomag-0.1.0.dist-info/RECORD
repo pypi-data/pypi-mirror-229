@@ -1,0 +1,10 @@
+pygeomag/__init__.py,sha256=-4_dG53x0NxRnplfsWF6_Zy6ljKMf7gIuqFb_sTjopI,439
+pygeomag/format.py,sha256=DPeyGDdZSMZqtvT0ECdL_jEsKp_-6tep0qxWR1DVHXU,4003
+pygeomag/geomag.py,sha256=XKoNT0XDUPLg2UfODziEPyZPUc53KRCxzooC9VPeWKw,13271
+pygeomag/time.py,sha256=o1hz2M_JM2mI0hnke5jih-rH8bDxp6ILDoimnQdvRLA,2208
+pygeomag/wmm/WMM.COF,sha256=5lRTt9LtNK4w9vc2Gq7EA-EDwqv1nuRjk71MT4gMT6g,4557
+pygeomag-0.1.0.dist-info/LICENSE,sha256=aKiqfz0yqKO34vhEmOmD9JbhBsW8-kcbA4ZHZMkKERA,1090
+pygeomag-0.1.0.dist-info/METADATA,sha256=NdGWV_WbvPwMRssiTlUv5gM86dFIQqO-tG1hSqxESi0,5577
+pygeomag-0.1.0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+pygeomag-0.1.0.dist-info/top_level.txt,sha256=g6J6uZ1flYQMgJIogxeFQhZiIriFaKCP3KP0E1vx0Wg,9
+pygeomag-0.1.0.dist-info/RECORD,,

@@ -1,0 +1,12 @@
+easy_bounding_box/__init__.py,sha256=aK6Q395ZOtSbYnjgRbiOPZw1Dqy_n6TAwXTZ3HouGY0,28
+easy_bounding_box/box.py,sha256=oi3IL119n1S6VF5WBzBEaIMAIqxM53JMuHf79Qe1_NU,8692
+easy_bounding_box/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+easy_bounding_box/utils/box_utils.py,sha256=JbsA2X-TNH02hvxPS8yzcxHcvK9L6eqzB-OmTAE3i_k,3047
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_box.py,sha256=X1HrqntJA-CsesIc2NVbF5iLmbZ06GlqUmJoNRJ6JDg,674
+tests/test_box_utils.py,sha256=L1cGkvbvhxJSolYqtgepSo7TAzAkMPHQOGyYA-Vsx1Q,552
+easy_bounding_box-0.0.4.dist-info/LICENCE,sha256=TxkJOM2IYrqnn3eTLda_pPM1r207Ie6yuID0Fzffi3s,1084
+easy_bounding_box-0.0.4.dist-info/METADATA,sha256=EJ9IlX0eDjwhRfQA-UdTLl3S8DHp6scPx8Qd9RTz1Dg,2442
+easy_bounding_box-0.0.4.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+easy_bounding_box-0.0.4.dist-info/top_level.txt,sha256=Uqk16CK25V3KfXiO4aAhJjBLxHq6kWKm9KwFUJ5lBKU,24
+easy_bounding_box-0.0.4.dist-info/RECORD,,

@@ -1,0 +1,11 @@
+requests
+pycryptodome
+rich
+m3u8
+aiohttp
+aiofiles
+click
+parsel
+chardet
+user_agents
+faker

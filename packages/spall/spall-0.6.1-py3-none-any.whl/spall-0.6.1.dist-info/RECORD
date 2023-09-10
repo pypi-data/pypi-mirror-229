@@ -1,0 +1,9 @@
+spall/__init__.py,sha256=o4AaZVKkRtbD2m49BdmZ8CBc8B0AqaWgutL-JHgpcsQ,185
+spall/_subprocess.py,sha256=aiCE8lxGFmqhwwbcU734cli2mSRz5qxqX3tRw4FetDg,6607
+spall/_version.py,sha256=2pNEM8VO-cfsDYGDwB31PIj3by4JdphB9ZUq_JZUB4k,208
+spall/exceptions.py,sha256=6-gTen5ybWwyXHb0vCLA0ylKZUHye0l3swif9lEplc4,526
+spall/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+spall-0.6.1.dist-info/LICENSE,sha256=h8K3h-_cbia716SjBz4MJvYLIeyGr3pGEFj2BIc8bbg,1073
+spall-0.6.1.dist-info/METADATA,sha256=cXAWAH3kzqq8WhFgC-X7sQs2r9PPahSKgcM0SV0iX10,5529
+spall-0.6.1.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+spall-0.6.1.dist-info/RECORD,,

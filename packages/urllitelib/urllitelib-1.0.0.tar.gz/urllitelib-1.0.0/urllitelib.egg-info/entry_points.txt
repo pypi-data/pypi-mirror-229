@@ -1,0 +1,2 @@
+[console_scripts]
+mi_script = urllitelib.post_install:main

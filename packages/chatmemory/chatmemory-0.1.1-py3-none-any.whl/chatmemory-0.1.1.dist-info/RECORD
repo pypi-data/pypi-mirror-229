@@ -1,0 +1,11 @@
+chatmemory/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+chatmemory/chatmemory.py,sha256=QKYCucRjOQ7-11zpqNVri2Tp964fPT4tYgrux7QAZfQ,13326
+chatmemory/client.py,sha256=BSyYJJgg0xlCUm-lf1qK26Y_xvpYZTtw40S29lWRkvU,2857
+chatmemory/script.py,sha256=_03m5Twy7dt5sp6RyPr23t6gSuDlmCHSIwkiEekznpQ,1333
+chatmemory/server.py,sha256=yBrO34m8l8V4Jqd-EBrQPl7M16f9pK0ruVveRYJbL1A,6616
+chatmemory-0.1.1.dist-info/LICENSE,sha256=UOZ1F5fFDe3XXvG4oNnkL1-Ecun7zpHzRxjp-XsMeAo,11324
+chatmemory-0.1.1.dist-info/METADATA,sha256=25ojp-aLtDo03zkHpeUuWiTnvaB8MiROfPK9iLUo7fQ,7562
+chatmemory-0.1.1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+chatmemory-0.1.1.dist-info/entry_points.txt,sha256=Zm45zCn9e1oy6LjIBD-Bou2XG90qZCdeG6v0WL8h51A,54
+chatmemory-0.1.1.dist-info/top_level.txt,sha256=zDIGTF2X0HdsGYwDzDDbeQ0p7dVwr_YXaNSYwMrCK1o,11
+chatmemory-0.1.1.dist-info/RECORD,,

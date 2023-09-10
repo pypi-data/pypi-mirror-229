@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+medusa/__init__.py
+medusa/medusa.py
+python_medusa.egg-info/PKG-INFO
+python_medusa.egg-info/SOURCES.txt
+python_medusa.egg-info/dependency_links.txt
+python_medusa.egg-info/top_level.txt

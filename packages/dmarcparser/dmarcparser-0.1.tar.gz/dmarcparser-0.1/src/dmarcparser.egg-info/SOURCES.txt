@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+src/dmarcparser/__init__.py
+src/dmarcparser/collector.py
+src/dmarcparser/exceptions.py
+src/dmarcparser/logger.py
+src/dmarcparser/misc.py
+src/dmarcparser/parser.py
+src/dmarcparser/report.py
+src/dmarcparser.egg-info/PKG-INFO
+src/dmarcparser.egg-info/SOURCES.txt
+src/dmarcparser.egg-info/dependency_links.txt
+src/dmarcparser.egg-info/top_level.txt
+tests/test_example.py

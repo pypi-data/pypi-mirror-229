@@ -1,0 +1,28 @@
+[project]
+name = "dmarcparser"
+version = "0.1"
+description = 'Extract and parse DMARC reports/forensic feedback'
+readme = "README.md"
+authors = [{ name = "Anders Nauman" }]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "License :: OSI Approved :: GNU General Public License v3 (GPLv3)"
+]
+
+[project.urls]
+homepage = "https://github.com/andersnauman/dmarc-parser"
+
+[build-system]
+requires = ["setuptools >= 61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+addopts = [
+    "--import-mode=importlib",
+]
+pythonpath = [
+  "src"
+]

@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: pepperbot-ai-query
+Version: 0.0.2
+Author-email: SSmJaE <ssmjae327@gmail.com>
+License: MIT
+Requires-Python: >=3.8
+Requires-Dist: pepperbot >=0.3.7
+

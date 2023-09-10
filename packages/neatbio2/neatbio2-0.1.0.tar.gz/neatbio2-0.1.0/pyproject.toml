@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "neatbio2"
+version = "0.1.0"
+description = "NeatBio2 - Simple bioinformatics package for nucleotide and protein sequencing"
+authors = ["Charlie Leboff <charlieleboff@aol.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

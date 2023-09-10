@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: switch-file
+Version: 1.0.1
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: img2pdf
+Requires-Dist: pandas
+Requires-Dist: reportlab
+Requires-Dist: python-docx2pdf
+Requires-Dist: pywin32
+
+UNKNOWN
+
+

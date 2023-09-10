@@ -1,0 +1,3 @@
+[console_scripts]
+switch-file = switch_file.converter:main
+

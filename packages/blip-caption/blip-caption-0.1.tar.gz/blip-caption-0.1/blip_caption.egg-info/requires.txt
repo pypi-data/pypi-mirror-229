@@ -1,0 +1,8 @@
+transformers
+click
+torch
+pillow
+
+[test]
+pytest
+pytest-mock

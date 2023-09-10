@@ -1,0 +1,10 @@
+README.md
+blip_caption.py
+pyproject.toml
+blip_caption.egg-info/PKG-INFO
+blip_caption.egg-info/SOURCES.txt
+blip_caption.egg-info/dependency_links.txt
+blip_caption.egg-info/entry_points.txt
+blip_caption.egg-info/requires.txt
+blip_caption.egg-info/top_level.txt
+tests/test_blip_caption.py

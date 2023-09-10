@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+asocialgraph.egg-info/PKG-INFO
+asocialgraph.egg-info/SOURCES.txt
+asocialgraph.egg-info/dependency_links.txt
+asocialgraph.egg-info/top_level.txt

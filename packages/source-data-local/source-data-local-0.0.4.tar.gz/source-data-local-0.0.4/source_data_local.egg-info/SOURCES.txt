@@ -1,0 +1,8 @@
+README.md
+pyproject.toml
+setup.py
+data_source_local/__init__.py
+source_data_local.egg-info/PKG-INFO
+source_data_local.egg-info/SOURCES.txt
+source_data_local.egg-info/dependency_links.txt
+source_data_local.egg-info/top_level.txt

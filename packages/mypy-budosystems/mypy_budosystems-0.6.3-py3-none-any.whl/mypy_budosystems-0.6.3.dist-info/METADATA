@@ -1,0 +1,51 @@
+Metadata-Version: 2.1
+Name: mypy-budosystems
+Version: 0.6.3
+Summary: Budo Systems is a martial arts school management system. This module is a Mypy plugin.
+Author-email: Joël Larose <joel.larose@budo.systems>
+Project-URL: Repository, https://gitlab.com/budosystems/mypy-budosystems
+Project-URL: Issue Tracker, https://gitlab.com/budosystems/mypy-budosystems/-/issues
+Keywords: Budo Systems,martial arts,dojo,dojang,business,studio,mypy,plugin
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Plugins
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Office/Business
+Classifier: Topic :: Office/Business :: Groupware
+Classifier: Topic :: Other/Nonlisted Topic
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Application Frameworks
+Classifier: Topic :: Software Development :: Quality Assurance
+Classifier: Typing :: Typed
+Requires-Python: >=3.9
+Description-Content-Type: text/x-rst
+License-File: LICENCE.txt
+Requires-Dist: budosystems-core
+Requires-Dist: mypy
+Requires-Dist: coloredlogs
+Requires-Dist: autologging
+Provides-Extra: all
+Requires-Dist: mypy-budosystems[docs,lintcheck,test,typecheck] ; extra == 'all'
+Provides-Extra: docs
+Provides-Extra: lintcheck
+Requires-Dist: pylint ; extra == 'lintcheck'
+Requires-Dist: pylint-venv ; extra == 'lintcheck'
+Requires-Dist: pylint-pytest ; extra == 'lintcheck'
+Provides-Extra: test
+Requires-Dist: pytest ; extra == 'test'
+Requires-Dist: pytest-cov ; extra == 'test'
+Requires-Dist: pytest-budosystems ; extra == 'test'
+Provides-Extra: typecheck
+
+.. image:: logo.png
+    :width: 50px
+    :align: left
+
+Budo Systems MyPy Plugin
+==============================
+
+MyPy plugin to properly process Budo Systems model classes.

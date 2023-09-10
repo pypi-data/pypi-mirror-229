@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/PythonPrintColors/__init__.py
+src/PythonPrintColors.egg-info/PKG-INFO
+src/PythonPrintColors.egg-info/SOURCES.txt
+src/PythonPrintColors.egg-info/dependency_links.txt
+src/PythonPrintColors.egg-info/top_level.txt
+tests/test.py
+tests/testmodule.py

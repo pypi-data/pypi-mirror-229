@@ -1,0 +1,101 @@
+{
+  "format": {
+    "font_name": "Calibri",
+    "font_size": 8,
+    "font_color": "black",
+    "align": "left",
+    "valign": "top",
+    "text_wrap": true
+  },
+  "sheets": {
+    "legend": {
+      "widgets": {
+        "legend": {
+          "address": "C3",
+          "widget_id": "https://enovation.com/excel_dashboard/cover_sheet",
+          "config": {
+            "narrative": "secondary dashboard..."
+          }
+        }
+      }
+    },
+    "details": {
+      "widgets": {
+        "details": {
+          "address": "A1",
+          "widget_id": "https://enovation.com/excel_dashboard/table",
+          "format": {
+            "border": 1,
+            "border_color": "#999999"
+          },
+          "config": {
+            "options": {
+              "autofilter": true,
+              "header_row": true,
+              "banded_columns": false,
+              "banded_rows": true,
+              "first_column": true,
+              "last_column": false,
+              "style": "Table Style Medium 15",
+              "total_row": false,
+              "name": "data",
+              "columns": [
+                {
+                  "header": "Id",
+                  "header_format": {
+                    "font_size": 10,
+                    "font_color": "white",
+                    "bold": true,
+                    "underline": 1,
+                    "align": "center",
+                    "bg_color": "black"
+                  },
+                  "format": {
+                    "bg_color": "gray",
+                    "font_color": "white"
+                  }
+                },
+                {
+                  "header": "Client",
+                  "header_format": {
+                    "font_size": 10,
+                    "font_color": "white",
+                    "bold": true,
+                    "underline": 1,
+                    "align": "center",
+                    "bg_color": "black"
+                  }
+                },
+                {
+                  "header": "Label",
+                  "header_format": {
+                    "font_size": 10,
+                    "font_color": "white",
+                    "bold": true,
+                    "underline": 1,
+                    "align": "center",
+                    "bg_color": "black"
+                  }
+                },
+                {
+                  "header": "Label Bis",
+                  "header_format": {
+                    "font_size": 10,
+                    "font_color": "white",
+                    "bold": true,
+                    "underline": 1,
+                    "align": "center",
+                    "bg_color": "black"
+                  }
+                }
+              ]
+            }
+          },
+          "parameters_map": {
+            "df_data": "df_data"
+          }
+        }
+      }
+    }
+  }
+}

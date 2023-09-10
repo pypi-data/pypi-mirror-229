@@ -1,0 +1,80 @@
+import os
+import unittest
+from pathlib import Path
+
+from click.testing import CliRunner, Result
+from logging import Logger, getLogger
+from inspect import stack
+from com_enovation.enov import enov
+
+
+class TestExcelDashboarderVba(unittest.TestCase):
+
+    _logger: Logger = getLogger(__name__)
+
+    def test_excel_dashboarder_vba(self):
+        """
+        Note: When calling function 'CliRunner.invoke', we add a tag "# noinspection PyTypeChecker" not to raise a
+        warning due to function "invoke" expecting function that we call to be a "BaseCommand", which does not seem to
+        be the case...
+        :return:
+        """
+        self._logger.debug(f"Function '{stack()[0].filename} - {stack()[0].function}' is called")
+
+        # First, we cleanse the output file from previous run
+        if Path(os.path.join(os.path.dirname(__file__), '02_actual_results.xlsm')).exists():
+            os.remove(os.path.join(os.path.dirname(__file__), '02_actual_results.xlsm'))
+        self.assertFalse(
+            Path(os.path.join(os.path.dirname(__file__), '02_actual_results.xlsm')).exists(),
+            f"We still have a file '{os.path.join(os.path.dirname(__file__), '02_actual_results.xlsm')}', that will "
+            f"generate issue while executing the test..."
+        )
+
+        the_runner = CliRunner()
+
+        # noinspection PyTypeChecker
+        the_result: Result = the_runner.invoke(
+            cli=enov,
+            args=[
+                # To get all the logs...
+                '--verbose',
+
+                # We load the Excel file
+                'df-load-xls',
+                '-c', '["Id", "Client"]',
+                os.path.join(os.path.dirname(__file__), '01_input_file.xlsx'),
+                'df_data',
+
+                # We load the config
+                'dict-load-json',
+                os.path.join(os.path.dirname(__file__), '01_config.csv'),
+                'dict_config',
+
+                # We modify the config to load the proper vba file
+                'dict-modif',
+                'dict_config',
+                '{"vba": {"workbook.add_vba_project": "' +
+                os.path.join(os.path.dirname(__file__), "vbaProject.bin").replace("\\", "\\\\")+'"}}',
+
+                # We compute date predictability
+                'dashboard',
+                '--alias-parameters', '{"df_data": "df_data"}',
+                'dict_config',
+                os.path.join(os.path.dirname(__file__), '02_actual_results.xlsm')
+            ],
+            catch_exceptions=True
+        )
+        self.assertEqual(
+            0,
+            the_result.exit_code,
+            f"Unexpected exit_code, with stdout: {the_result.stdout}"
+        )
+
+        self.assertTrue(
+            os.path.isfile(
+                os.path.join(os.path.dirname(__file__), '02_actual_results.xlsm')
+            ),
+            f"File '02_actual_results.xlsx' was not persisted..., with stdout: {the_result.stdout}"
+        )
+
+        self._logger.debug(f"Function '{stack()[0].filename} - {stack()[0].function}' is returning")

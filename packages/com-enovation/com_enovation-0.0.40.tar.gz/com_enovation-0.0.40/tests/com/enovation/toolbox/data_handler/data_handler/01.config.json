@@ -1,0 +1,28 @@
+{
+	"first sequence": {
+		"description": "A first sequence",
+		"steps": [
+			{
+				"description": "We add a 1st column...",
+				"feature": "add_eval_columns",
+				"param": {
+					"str_expressions": "Enov_DQ_01=True",
+					"b_copy": true
+				}
+			}
+		]
+	},
+	"second sequence": {
+		"description": "A second sequence.",
+		"steps": [
+			{
+				"description": "We add a 2nd column...",
+				"feature": "add_eval_columns",
+				"param": {
+					"str_expressions": "Enov_DQ_02=True",
+					"b_copy": true
+				}
+			}
+		]
+	}
+}

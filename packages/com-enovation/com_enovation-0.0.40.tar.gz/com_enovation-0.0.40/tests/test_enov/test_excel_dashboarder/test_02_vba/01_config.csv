@@ -1,0 +1,73 @@
+{
+  "vba": {
+    "workbook.add_vba_project": "./vbaProject.bin"
+  },
+  "format": {
+    "font_name": "Calibri",
+    "font_size": 8,
+    "font_color": "black",
+    "align": "left",
+    "valign": "top",
+    "text_wrap": true
+  },
+  "sheets": {
+    "jsg_sheet": {
+      "widgets": {
+        "jsg_zoom": {
+          "address": "A1",
+          "widget_id": "https://enovation.com/excel_dashboard/table_zoom",
+          "config": {
+            "@A@2": {
+                "format": {"border": 8, "border_color": "red"},
+                "value": "project ABC"
+            }
+          }
+        },
+        "jsg_details": {
+          "address": "A15",
+          "widget_id": "https://enovation.com/excel_dashboard/table",
+          "config": {
+            "options": {
+              "autofilter": true,
+              "header_row": true,
+              "banded_columns": false,
+              "banded_rows": false,
+              "first_column": true,
+              "last_column": false,
+              "style": "Table Style Medium 15",
+              "total_row": false,
+              "name": "jsg_details",
+              "columns": [
+                {
+                  "header": "Id",
+                  "header_format": {
+                    "font_size": 10,
+                    "font_color": "white",
+                    "bold": true,
+                    "underline": 1,
+                    "align": "center",
+                    "bg_color": "black"
+                  }
+                },
+                {
+                  "header": "Client",
+                  "header_format": {
+                    "font_size": 10,
+                    "font_color": "white",
+                    "bold": true,
+                    "underline": 1,
+                    "align": "center",
+                    "bg_color": "black"
+                  }
+                }
+              ]
+            }
+          },
+          "parameters_map": {
+            "df_data": "df_data"
+          }
+        }
+      }
+    }
+  }
+}

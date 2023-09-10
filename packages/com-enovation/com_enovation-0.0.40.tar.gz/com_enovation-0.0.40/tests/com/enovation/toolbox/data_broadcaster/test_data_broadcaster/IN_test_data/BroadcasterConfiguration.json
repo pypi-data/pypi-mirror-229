@@ -1,0 +1,51 @@
+{
+  "dashboards configurations": {
+    "main": {
+      "path": "MainDashboardConfiguration.json",
+      "description": "The main dashboard that contains all the fields. Full path will be updated in the test."
+    },
+    "second": {
+      "path": "SecondaryDashboardConfiguration.json",
+      "description": "The secondary dashboard that contains less fields. Full path will be updated in the test."
+    }
+  },
+  "distributions configurations": {
+
+    "overall": {
+      "description": "Overall pipeline, no filter applied.",
+
+      "dashboard configuration": "main",
+
+      "data handlers": {
+
+        "project data": {
+          "description": "A first sequence",
+          "steps": [
+            {
+              "description": "We add a 1st column...",
+              "feature": "add_eval_columns",
+              "param": {
+                "str_expressions": "Enov_col_1=True",
+                "b_copy": true
+              }
+            }
+          ]
+        },
+
+        "time report": {
+          "description": "A second sequence",
+          "steps": [
+            {
+              "description": "We add a 2nd column...",
+              "feature": "add_eval_columns",
+              "param": {
+                "str_expressions": "Enov_col_2=True",
+                "b_copy": true
+              }
+            }
+          ]
+        }
+      }
+    }
+  }
+}

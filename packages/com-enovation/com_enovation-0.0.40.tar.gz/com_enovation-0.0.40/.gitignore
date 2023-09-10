@@ -1,0 +1,7 @@
+/build/
+/dist/
+/venv/
+.*
+!/.gitignore
+src/*.egg-info
+PERSO.md

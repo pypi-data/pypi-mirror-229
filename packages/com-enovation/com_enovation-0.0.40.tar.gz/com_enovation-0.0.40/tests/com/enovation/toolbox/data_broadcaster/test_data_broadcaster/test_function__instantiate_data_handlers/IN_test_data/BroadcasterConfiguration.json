@@ -1,0 +1,72 @@
+{
+  "dashboards configurations": {
+    "main": {
+      "path": "MainDashboardConfiguration.json",
+      "description": "The main dashboard that contains all the fields. Full path will be updated in the test."
+    },
+    "second": {
+      "path": "SecondaryDashboardConfiguration.json",
+      "description": "The secondary dashboard that contains less fields. Full path will be updated in the test."
+    }
+  },
+  "distributions configurations": {
+
+    "overall": {
+      "description": "The description for the distribution OVERALL",
+
+      "dashboard configuration": "main",
+
+      "data sets handlers": {
+
+        "project data": {
+          "description": "For PROJECT DATA in OVERALL, we do A then B",
+          "steps": [
+            {"description": "We do A", "feature": "filter", "param": {"str_expressions": "Parameter for A"}},
+            {"description": "We do B", "feature": "filter", "param": {"str_expressions": "Parameter for B"}}
+          ]
+        },
+
+        "time report": {
+          "description": "For TIME REPORT in OVERALL, we do C then D",
+          "steps": [
+            {"description": "We do C", "feature": "filter", "param": {"str_expressions": "Parameter for C"}},
+            {"description": "We do D", "feature": "filter", "param": {"str_expressions": "Parameter for D"}}
+          ]
+        }
+      }
+    },
+
+    "filtered": {
+      "description": "The description for the distribution FILTERED",
+
+      "dashboard configuration": "second",
+
+      "data sets handlers": {
+
+        "project data": {
+          "description": "For PROJECT DATA in FILTERED, we do E then F",
+          "steps": [
+            {"description": "We do E", "feature": "filter", "param": {"str_expressions": "Parameter for E"}},
+            {"description": "We do F", "feature": "filter", "param": {"str_expressions": "Parameter for F"}}
+          ]
+        },
+
+        "time report": {
+          "description": "For TIME REPORT in FILTERED, we do G then H",
+          "steps": [
+            {"description": "We do G", "feature": "filter", "param": {"str_expressions": "Parameter for G"}},
+            {"description": "We do H", "feature": "filter", "param": {"str_expressions": "Parameter for H"}}
+          ]
+        },
+
+        "other data": {
+          "description": "For OTHER DATA in FILTERED, we do I then J",
+          "steps": [
+            {"description": "We do I", "feature": "filter", "param": {"str_expressions": "Parameter for I"}},
+            {"description": "We do J", "feature": "filter", "param": {"str_expressions": "Parameter for J"}}
+          ]
+        }
+      }
+    }
+  }
+}

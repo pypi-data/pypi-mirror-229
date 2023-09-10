@@ -1,0 +1,15 @@
+README.md
+pyproject.toml
+setup.py
+caidin/__init__.py
+caidin/caidin.py
+caidin.egg-info/PKG-INFO
+caidin.egg-info/SOURCES.txt
+caidin.egg-info/dependency_links.txt
+caidin.egg-info/top_level.txt
+caidin/algorithms/__init__.py
+caidin/algorithms/collaborative_filtering.py
+caidin/algorithms/content_based.py
+caidin/algorithms/recommendation_engine.py
+tests/test_collaborative_filtering.py
+tests/test_content_based.py

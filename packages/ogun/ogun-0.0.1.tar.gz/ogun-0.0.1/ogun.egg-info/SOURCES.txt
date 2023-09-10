@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+ogun.egg-info/PKG-INFO
+ogun.egg-info/SOURCES.txt
+ogun.egg-info/dependency_links.txt
+ogun.egg-info/top_level.txt

@@ -1,0 +1,9 @@
+LICENSE.txt
+README.md
+setup.py
+my_test/__init__.py
+my_test/main.py
+my_test_dfqx.egg-info/PKG-INFO
+my_test_dfqx.egg-info/SOURCES.txt
+my_test_dfqx.egg-info/dependency_links.txt
+my_test_dfqx.egg-info/top_level.txt

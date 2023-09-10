@@ -1,0 +1,6 @@
+defaults:
+- __general_external_funcs__
+- /run: convert_absa_output_to_results
+use_pipe_obj: false
+pipe_obj_arg_name: null
+return_pipe_obj: false

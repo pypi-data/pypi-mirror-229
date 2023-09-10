@@ -1,0 +1,5 @@
+defaults:
+  - absa
+  - override /llm: gpt4
+
+_config_name_: gpt4

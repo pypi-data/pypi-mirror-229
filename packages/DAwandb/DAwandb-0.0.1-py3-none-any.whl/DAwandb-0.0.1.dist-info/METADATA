@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: DAwandb
+Version: 0.0.1
+Summary: this package basic wandb
+Author: KKR
+Author-email: alfmalfm11@yonsei.ac.kr
+Requires-Dist: tqdm
+Requires-Dist: numpy
+Requires-Dist: wandb
+Requires-Dist: torch
+Requires-Dist: torchvision
+

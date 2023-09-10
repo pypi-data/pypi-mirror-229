@@ -1,0 +1,1 @@
+from semantix_genai_serve.huggingface.serve_auto_seq2seq_lm import ServeAutoSeq2SeqLM

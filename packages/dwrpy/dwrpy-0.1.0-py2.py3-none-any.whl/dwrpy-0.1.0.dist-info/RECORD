@@ -1,0 +1,10 @@
+dwrpy/__init__.py,sha256=QbhPBTB5TEAI-B0dVpBjQHlkxzDVVnebGdEXltDD5IU,128
+dwrpy/cli.py,sha256=4c2AkXR3awgU7jnLm1peZDZ-0ZR3uyM1lCT_6SkIeng,430
+dwrpy/dwrpy.py,sha256=h0hwdogXGFqerm-5ZPeT-irPn91pCcQRjiHThXsRzEk,19
+dwrpy-0.1.0.dist-info/AUTHORS.rst,sha256=ofa-p8YxgkF9L_CBDywg145c4zJi4RLxp4Z2O0ftep8,161
+dwrpy-0.1.0.dist-info/LICENSE,sha256=wQty9vcF6vZ_8mJaIl8WxrrEck0O_dHvviOkoRtGQcI,1073
+dwrpy-0.1.0.dist-info/METADATA,sha256=38lxkNJKcn9aQQYI1l6hm9CFspjccl8CzxqyyvcFC6I,1777
+dwrpy-0.1.0.dist-info/WHEEL,sha256=iYlv5fX357PQyRT2o6tw1bN-YcKFFHKqB_LwHO5wP-g,110
+dwrpy-0.1.0.dist-info/entry_points.txt,sha256=BisrF1iU06dpx_SyHNToO1R37Z9sas1lnXjMuQmroNc,41
+dwrpy-0.1.0.dist-info/top_level.txt,sha256=myjVZ34CFmc6_dr5uzk5Usft7_8xW74KcMxmqxcrzdo,6
+dwrpy-0.1.0.dist-info/RECORD,,

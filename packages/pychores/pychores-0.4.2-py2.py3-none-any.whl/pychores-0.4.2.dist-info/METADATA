@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: pychores
+Version: 0.4.2
+Summary: A flask app to help you manage your recurent tasks
+Author-email: Yohann Rebattu <yohann@rebattu.fr>
+Description-Content-Type: text/markdown
+Classifier: License :: OSI Approved :: MIT License
+Requires-Dist: flask
+Requires-Dist: flask-cors
+Requires-Dist: gunicorn
+Requires-Dist: alembic
+Requires-Dist: pytest-flask
+Requires-Dist: flask-bcrypt
+Requires-Dist: flask-jwt-extended
+Requires-Dist: pytest-cov ; extra == "developpment"
+Requires-Dist: pytest-flake8 ; extra == "developpment"
+Requires-Dist: pytest-isort ; extra == "developpment"
+Requires-Dist: pytest ; extra == "developpment"
+Requires-Dist: flake8 ; extra == "developpment"
+Requires-Dist: flake8-pyproject ; extra == "developpment"
+Requires-Dist: black ; extra == "developpment"
+Requires-Dist: isort[colors] ; extra == "developpment"
+Requires-Dist: pytest-factoryboy ; extra == "developpment"
+Requires-Dist: mypy ; extra == "developpment"
+Requires-Dist: types-Flask-Cors ; extra == "developpment"
+Requires-Dist: psycopg2-binary ; extra == "developpment"
+Project-URL: Source, https://gitlab.com/vanillasoft/chores/
+Provides-Extra: developpment
+
+# Chores
+
+This app is mainly a tool for me to learn python.
+
+From end-user perspective, you can see this app as an recuring todo list.
+
+I use it to manage my housekeeping chores.
+
+So i can define what sould be done, how, and what is the period, (nb days).
+
+I then get an ordererd list of chores to be done.

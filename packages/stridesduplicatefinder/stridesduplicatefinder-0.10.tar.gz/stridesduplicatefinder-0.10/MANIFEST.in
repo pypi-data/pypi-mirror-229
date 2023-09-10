@@ -1,0 +1,3 @@
+include stridesduplicatefinder/requirements.txt
+include stridesduplicatefinder/thirdparty.json
+include stridesduplicatefinder/README.MD

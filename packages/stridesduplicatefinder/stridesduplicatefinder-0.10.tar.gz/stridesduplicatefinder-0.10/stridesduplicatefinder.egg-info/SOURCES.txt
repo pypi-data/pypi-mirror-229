@@ -1,0 +1,14 @@
+LICENSE.rst
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+stridesduplicatefinder/README.MD
+stridesduplicatefinder/__init__.py
+stridesduplicatefinder/requirements.txt
+stridesduplicatefinder/thirdparty.json
+stridesduplicatefinder.egg-info/PKG-INFO
+stridesduplicatefinder.egg-info/SOURCES.txt
+stridesduplicatefinder.egg-info/dependency_links.txt
+stridesduplicatefinder.egg-info/requires.txt
+stridesduplicatefinder.egg-info/top_level.txt

@@ -1,0 +1,4 @@
+[console_scripts]
+bye = lib_test.command_line:bye_main
+hello = lib_test.command_line:hello_main
+

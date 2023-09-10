@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: argdb
+Version: 0.1
+Summary: ArgDB - A Datastore for arguments 
+Home-page: https://github.com/Open-Argumentation/ArgDB
+Author: Simon Wells
+Author-email: mail@simonwells.org
+License: Type license() to see the full license text
+Description: README.md
+Platform: UNKNOWN
+Description-Content-Type: text/markdown

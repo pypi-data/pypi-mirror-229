@@ -1,0 +1,2 @@
+[console_scripts]
+roscribe = roscribe.main:main

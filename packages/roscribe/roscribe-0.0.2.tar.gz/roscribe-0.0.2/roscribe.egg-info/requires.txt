@@ -1,0 +1,7 @@
+langchain[openai]
+graphviz
+schema
+
+[dev]
+pip-tools
+pytest

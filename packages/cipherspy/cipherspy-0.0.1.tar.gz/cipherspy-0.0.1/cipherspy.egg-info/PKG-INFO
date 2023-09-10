@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: cipherspy
+Version: 0.0.1
+Summary: Common cipher algorithms implementation
+Home-page: https://github.com/fathiabdelmalek/cipher-py
+Author: Fathi Abdelmalek
+Author-email: abdelmalek.fathi.2001@gmail.com

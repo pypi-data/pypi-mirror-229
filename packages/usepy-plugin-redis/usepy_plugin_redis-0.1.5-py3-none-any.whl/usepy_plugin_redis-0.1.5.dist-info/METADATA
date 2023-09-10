@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: usepy-plugin-redis
+Version: 0.1.5
+Summary: 
+Author: miclon
+Author-email: jcnd@163.com
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: redis (>=4.6.0,<5.0.0)
+Description-Content-Type: text/markdown
+
+# usepy-plugin-redis

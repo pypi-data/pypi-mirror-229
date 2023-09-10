@@ -1,0 +1,9 @@
+khmerphonemizer/__init__.py,sha256=KY23R5WuoTe-AYhev89oQ8bH958D0lFLxgnVWB_8QHw,2305
+khmerphonemizer/g2p_phonetisaurus.py,sha256=EDesAtn441ig17hOicyTZHdcIOP48Nej7-RAnzg9MbE,8685
+khmerphonemizer/km_lexicon.tsv,sha256=cs-jghHhR06y5otaS65Cmp_3bKHdxkNyoHFg2jkaugs,2162286
+khmerphonemizer/km_phonemizer.npz,sha256=uXk1riCuVTO6oglqSNByi_kCkaSI_OzL9-cAAYvDj_4,34352402
+khmerphonemizer-0.0.1.dist-info/LICENSE,sha256=O_EViplITnOLhZscwTi5ro-is5sujB_Ns2EAEvURUxc,1069
+khmerphonemizer-0.0.1.dist-info/METADATA,sha256=KHB7vaDwqeMXWvfJPCU_mABYHjQbyX9H6Ruhe5QcwuM,2836
+khmerphonemizer-0.0.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+khmerphonemizer-0.0.1.dist-info/top_level.txt,sha256=Dt5F-yyVHSJR3GTW85fJOuMJTUTjvRB8XX5WQGaWnOY,16
+khmerphonemizer-0.0.1.dist-info/RECORD,,

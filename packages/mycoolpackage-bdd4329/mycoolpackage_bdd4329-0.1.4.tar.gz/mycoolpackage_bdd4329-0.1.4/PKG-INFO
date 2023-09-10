@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: mycoolpackage_bdd4329
+Version: 0.1.4
+Summary: My Cool Package
+Author: Shannon Byrnes
+Author-email: sbyrnes@internet2.edu
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: twine (>=4.0.2,<5.0.0)
+Description-Content-Type: text/markdown
+
+My Cool Package
+

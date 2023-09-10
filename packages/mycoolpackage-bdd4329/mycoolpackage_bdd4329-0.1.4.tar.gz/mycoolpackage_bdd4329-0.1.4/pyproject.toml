@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "mycoolpackage_bdd4329"
+version = "0.1.4"
+description = "My Cool Package"
+authors = ["Shannon Byrnes <sbyrnes@internet2.edu>"]
+readme = "README.md"
+packages = [{include = "my_cool_package"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+twine = "^4.0.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

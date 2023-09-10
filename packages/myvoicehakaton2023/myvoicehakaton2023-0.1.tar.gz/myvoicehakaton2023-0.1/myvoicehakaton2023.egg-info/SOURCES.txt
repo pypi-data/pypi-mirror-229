@@ -1,0 +1,7 @@
+README.md
+setup.py
+myvoicehakaton2023.egg-info/PKG-INFO
+myvoicehakaton2023.egg-info/SOURCES.txt
+myvoicehakaton2023.egg-info/dependency_links.txt
+myvoicehakaton2023.egg-info/not-zip-safe
+myvoicehakaton2023.egg-info/top_level.txt

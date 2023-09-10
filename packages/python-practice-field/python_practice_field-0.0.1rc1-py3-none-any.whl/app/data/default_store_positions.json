@@ -1,0 +1,13 @@
+{
+    "products_info": [
+        {"product_name": "iPhone 13 Pro", "price": 1099.99},
+        {"product_name": "iPad Air", "price": 699.99},
+        {"product_name": "MacBook Pro", "price": 1999.99},
+        {"product_name": "AirPods Pro", "price": 249.99},
+        {"product_name": "Apple Watch Series 7", "price": 399.99},
+        {"product_name": "iMac", "price": 1299.99},
+        {"product_name": "HomePod Mini", "price": 99.99},
+        {"product_name": "Apple Pencil", "price": 129.99},
+        {"product_name": "Mac Mini", "price": 699.99},
+        {"product_name": "Magic Keyboard", "price": 199.99}
+    ]}

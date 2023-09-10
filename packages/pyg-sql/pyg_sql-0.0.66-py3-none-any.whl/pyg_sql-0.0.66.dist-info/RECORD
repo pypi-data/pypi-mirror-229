@@ -1,0 +1,11 @@
+pyg_sql/__init__.py,sha256=a-qqOVSVThQoB__6P7oEm9k_K2XPttqsHZBJXGH9xOE,401
+pyg_sql/_audit_table.py,sha256=nWOcG7F-mxE77Bd1X1Re17mrY0vrQ8JVazBQc7jb714,131463
+pyg_sql/_parse.py,sha256=hdFykDOcysDsCGVGS9_jTfKEGytIjL7yQKkSxtpCI5E,6804
+pyg_sql/_sql_table.py,sha256=KweECIXdavv3xCbiyKbGhQWbuLX1GALHXot3CFdMGuY,131352
+pyg_sql/_sql_writer.py,sha256=13GnnBMUcjzfPHK7fY0daJXQd5yDAuhaT6KkjcVTObI,8397
+pyg_sql/_ts_writer.py,sha256=GGEJ7vQL9pl9GzvhUCNGn-boEYJFoxvoT80QdkiImRQ,4451
+pyg_sql-0.0.66.dist-info/LICENSE,sha256=oO50YGSwbQnKsHaBFuwmX9DUUmHUCHya0saYoHx6rA4,35803
+pyg_sql-0.0.66.dist-info/METADATA,sha256=pRy4B0w5efnwRjPQjaGTwdcqT6A5qY8P3g1iT0Cl27o,12468
+pyg_sql-0.0.66.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+pyg_sql-0.0.66.dist-info/top_level.txt,sha256=apq61m9tpRAFOWZ4tq4jXpLeh1tXDhS7cB5Ot57nybg,8
+pyg_sql-0.0.66.dist-info/RECORD,,

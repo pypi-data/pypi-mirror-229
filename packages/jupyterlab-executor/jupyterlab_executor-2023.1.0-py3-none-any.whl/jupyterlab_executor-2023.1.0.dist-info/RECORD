@@ -1,0 +1,15 @@
+jupyterlab_executor/__init__.py,sha256=MnoeDvEcevqb0K8uDYwUDOWM2wya35sCQIdT_geyfOg,606
+jupyterlab_executor/_version.py,sha256=R8mYbNuk6p4P90xVk_VJ6WCOZblbWynt2simQLFUYq4,174
+jupyterlab_executor-2023.1.0.data/data/share/jupyter/labextensions/@gavincyi/jupyterlab-executor/package.json,sha256=_0szpyMogcPXzuiFnhB6u0lS6pRs9-X39qPR7jfzoIs,5934
+jupyterlab_executor-2023.1.0.data/data/share/jupyter/labextensions/@gavincyi/jupyterlab-executor/schemas/@gavincyi/jupyterlab-executor/executor.json,sha256=EdE6wmuQzHcD6i-0FUvhMJAXeW1gmDzR7ieHcShwUX8,1020
+jupyterlab_executor-2023.1.0.data/data/share/jupyter/labextensions/@gavincyi/jupyterlab-executor/schemas/@gavincyi/jupyterlab-executor/package.json.orig,sha256=VgZAUvYXgwxPl-CIJiInLmkA6eRb14CkDyYFrEmChgA,6704
+jupyterlab_executor-2023.1.0.data/data/share/jupyter/labextensions/@gavincyi/jupyterlab-executor/static/220.da8e2deeb1d104509fb7.js,sha256=2o4t7rHRBFCft-WXpTzmPJ4S4Gdhbm7lE_OeGz77yys,11306
+jupyterlab_executor-2023.1.0.data/data/share/jupyter/labextensions/@gavincyi/jupyterlab-executor/static/747.49a0a14454f1cd5d6704.js,sha256=SaChRFTxzV1nBISVFc3eCzPBOQPu_wocESjKcgNeX5I,4038
+jupyterlab_executor-2023.1.0.data/data/share/jupyter/labextensions/@gavincyi/jupyterlab-executor/static/remoteEntry.7f7b157e4de8450e373b.js,sha256=f3sVfk3oRQ43Owrs_XhybZ5ieetilLTihkJNNQhxrAY,6863
+jupyterlab_executor-2023.1.0.data/data/share/jupyter/labextensions/@gavincyi/jupyterlab-executor/static/style.js,sha256=6YMxCS_ahtkFKOOLbQZtmFCCdIaEdmSaJ5aLOz0Vkx0,172
+jupyterlab_executor-2023.1.0.data/data/share/jupyter/labextensions/@gavincyi/jupyterlab-executor/static/third-party-licenses.json,sha256=YpzLknlEpz7B3HTMO74z4JMNXwFStHgJQI7p3SXzQDY,4916
+jupyterlab_executor-2023.1.0.data/data/share/jupyter/labextensions/@gavincyi/jupyterlab-executor/install.json,sha256=EOkIsjIljPE9jcgN6wzZjpSIJti846cwq_4MU5V2sgQ,199
+jupyterlab_executor-2023.1.0.dist-info/METADATA,sha256=9ucleVLVlBJl5IWZ5E9TjssvQ-840dpfk8f8OpTvgdw,7789
+jupyterlab_executor-2023.1.0.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+jupyterlab_executor-2023.1.0.dist-info/licenses/LICENSE,sha256=FEZRZmhjD1zgm_EaJtQFv6fczPSOqEO8BhFILh1R2Ok,1518
+jupyterlab_executor-2023.1.0.dist-info/RECORD,,

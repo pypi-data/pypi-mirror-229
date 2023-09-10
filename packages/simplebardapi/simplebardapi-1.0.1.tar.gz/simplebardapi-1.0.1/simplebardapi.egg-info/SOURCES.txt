@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+simplebardapi/__init__.py
+simplebardapi.egg-info/PKG-INFO
+simplebardapi.egg-info/SOURCES.txt
+simplebardapi.egg-info/dependency_links.txt
+simplebardapi.egg-info/requires.txt
+simplebardapi.egg-info/top_level.txt

@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ytcon"
+version = "0.0.8"
+authors = [
+  {name="NikitaBeloglazov", email="nnikita.beloglazov@gmail.com"},
+]
+description = "yt-dlp pseudo-graphical console interface (TUI) ✨"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = ["urwid>=2.1.2", "pyperclip", "ffmpeg-python>=0.2.0", "yt_dlp"]
+
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Development Status :: 4 - Beta",
+    #"License :: MPL-2.0 license",
+    #"Operating System :: OS Independent",
+]
+
+[project.scripts]
+ytcon = "ytcon:yt"
+
+[project.urls]
+"Homepage" = "https://github.com/NikitaBeloglazov/ytcon"
+"Bug Tracker" = "https://github.com/NikitaBeloglazov/ytcon/issues"

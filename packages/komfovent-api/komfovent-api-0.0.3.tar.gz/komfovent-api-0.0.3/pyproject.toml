@@ -1,0 +1,34 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "komfovent-api"
+version = "0.0.3"
+license = {text = "Apache-2.0"}
+description = "Implementing Komfovent C6 API in python"
+readme = {file = "README.md", content-type = "text/markdown" }
+requires-python = ">=3.10"
+authors = [
+    {name = "Aleksandr Tsernoh", email = "foralwork@gmail.com"}
+]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "License :: OSI Approved :: Apache Software License",
+  "Intended Audience :: Developers",
+  "Environment :: Console",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Topic :: Home Automation",
+  "Operating System :: OS Independent"
+]
+dependencies = [
+  "aiohttp",
+  "lxml"
+]
+
+[tool.setuptools]
+packages = ["komfovent_api"]
+
+[project.urls]
+Repository = "https://github.com/ProstoSanja/komfovent-api-python"

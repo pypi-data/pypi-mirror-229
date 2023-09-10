@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: komfovent-api
+Version: 0.0.3
+Summary: Implementing Komfovent C6 API in python
+Author-email: Aleksandr Tsernoh <foralwork@gmail.com>
+License: Apache-2.0
+Project-URL: Repository, https://github.com/ProstoSanja/komfovent-api-python
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Intended Audience :: Developers
+Classifier: Environment :: Console
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Home Automation
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: aiohttp
+Requires-Dist: lxml
+
+# komfovent-api-python
+
+Basic implementation of Komfovent C6 local controller.  
+  
+Completed:
+- Auth
+- reading basic settings and model version
+- reading parts of current state (current mode, current fan speed, temperature sensors)
+- setting operation mode
+  
+To do: everything else  
+
+### Contributions
+Opening PR is welcome and encouraged, I do not regularly check Github, so ping free to ping me through github email.

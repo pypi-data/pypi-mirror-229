@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: melhorenvio
+Version: 0.1.3
+Summary: SDK para a API do melhorenvio
+License: Beerware
+Author: Plinio Mikael
+Author-email: pliniomikael@gmail.com
+Requires-Python: >=3.11,<4.0
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: Other/Proprietary License
+Classifier: Natural Language :: Portuguese (Brazilian)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: httpx (>=0.24.1,<0.25.0)
+Requires-Dist: python-dotenv (>=1.0.0,<2.0.0)
+Project-URL: Bug Tracker, https://github.com/pliniomikael/melhorenvio-sdk/issues
+Project-URL: Código, https://github.com/pliniomikael/melhorenvio-sdk
+Project-URL: Documentação, https://melhorenvio-sdk.readthedocs.io/pt_BR/latest/
+Description-Content-Type: text/markdown
+
+<img src="https://melhorenvio-sdk.readthedocs.io/pt_BR/latest/assets/logo_azul.png" width="200">
+
+# Melhor Envio SDK
+[![Documentation Status](https://readthedocs.org/projects/melhorenvio-sdk/badge/?version=latest)](https://melhorenvio-sdk.readthedocs.io/pt_BR/latest/?badge=latest)
+[![PyPI version](https://badge.fury.io/py/melhorenvio.svg)](https://badge.fury.io/py/melhorenvio)
+
+
+Melhor Envio SDK é um [pacote](https://pypi.org/project/melhorenvio/) para facilitar a integração com a API do [Melhor Envio](https://melhorenvio.com.br/)
+
+## Instalação
+
+Para instalação do SDK:
+
+```bash
+pip install melhorenvio
+```
+
+Veja a [Documentação](https://melhorenvio-sdk.readthedocs.io/pt_BR/latest/) para mais detalhes.
+
+
+
+

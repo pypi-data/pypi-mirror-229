@@ -1,0 +1,67 @@
+Metadata-Version: 2.1
+Name: nfllivepy
+Version: 0.1.0
+Summary: Package for obtaining live nfl play by play data
+Author-email: Josh Kazan <jlkazan@gmail.com>
+License: MIT License
+        
+        Copyright (c) 2022 Josh Kazan
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+        
+Project-URL: Homepage, https://github.com/jlkazan/nfllivepy
+Keywords: nfl,pbp
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: json-flatten
+Requires-Dist: pandas
+Requires-Dist: pendulum
+Requires-Dist: requests
+
+# nfllivepy
+
+## About
+Python package for obtaining live nfl play by play data
+
+For pbp data for past games, view [nfl-data-py](https://pypi.org/project/nfl-data-py/) which gets its data from the [nflreadr](https://github.com/nflverse/nflreadr) package. This data contains postprocessing variables which are more detailed then the ones in the live data.
+
+Much of this package is inspired by the work of [nfl-nerd](https://github.com/nntrn/nfl-nerd). For a full list of all the ESPN v2 NFL api endpoints, click [here](https://gist.github.com/nntrn/ee26cb2a0716de0947a0a4e9a157bc1c#v2sportsfootballleaguesnflseasonsyeartypes).
+
+## Installation
+This project can be installed with pip by running:  
+`pip install nfllivepy`
+
+## Usage
+nfllivepy is very simple and easy to use, wth two simple methods to obtain live data.
+
+```python
+from nfllivepy.requester.pbp_requester import PBPRequester
+
+requester = PBPRequester()
+
+# Get live data for all current games
+requester.get_live_pbp_all_games()
+
+# Get live data for the Chicago Bears
+requester.get_live_pbp_for_team("CHI")
+```

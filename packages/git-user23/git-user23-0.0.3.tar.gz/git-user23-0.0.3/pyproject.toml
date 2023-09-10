@@ -1,0 +1,32 @@
+[tool.poetry]
+name = "git-user23"
+version = "0.0.3"
+description = "A Python library for GitHub API integration. Retrieve user info, repositories, and more. Simplify GitHub-related tasks effortlessly."
+authors = ["Samuel Ogboye <ogboyesam@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/samuelogboye/git-user"
+repository = "https://github.com/samuelogboye/git-user"
+keywords = ["github", "api", "user", "repository", "git", "python", "library", "wrapper", "integration", "samuelogboye"]
+
+classifiers=[
+        "License :: OSI Approved :: MIT License",
+        "Programming Language :: Python :: 3",
+        "Programming Language :: Python :: 3.6",
+        "Programming Language :: Python :: 3.7",
+        "Programming Language :: Python :: 3.8",
+        "Programming Language :: Python :: 3.9",
+        "Programming Language :: Python :: Implementation :: CPython",
+        "Programming Language :: Python :: Implementation :: PyPy",
+        "Operating System :: OS Independent",
+    ]
+
+[tool.poetry.dependencies]
+python = "^3"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

@@ -1,0 +1,92 @@
+[project]
+name = "djasa"
+description = "A Django package designed to seamlessly integrate Rasa into Django projects. Modular, maintainable, and user-friendly."
+authors = [
+    {name = "godd0t", email = "lirrishala@gmail.com"},
+]
+dependencies = [
+    "django>=4.2.5",
+    "requests>=2.31.0",
+    "rasa-sdk>=1.4.0",
+    "ruamel-yaml>=0.17.32",
+]
+requires-python = ">=3.11"
+readme = "README.md"
+license = {text = "MIT"}
+dynamic = ["version"]
+classifiers = [
+    "Development Status :: 1 - Planning",
+    "Development Status :: 2 - Pre-Alpha",
+    "Environment :: Web Environment",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3.11",
+    "Framework :: Django",
+    "Framework :: Django :: 4.2",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "Topic :: Utilities",
+]
+
+[project.urls]
+Homepage = "https://github.com/godd0t/djasa"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.metadata]
+allow-direct-references = true
+
+[tool.hatch.version]
+path = "djasa/__init__.py"
+
+[tool.pdm.dev-dependencies]
+test = [
+    "pytest>=7.4.2",
+    "pytest-asyncio>=0.21.1",
+    "pytest-sugar>=0.9.7",
+    "coverage[toml]>=7.3.1",
+    "pytest-django>=4.5.2",
+]
+lint = [
+    "ruff>=0.0.287",
+    "black>=23.9.0",
+]
+dev = [
+    "uvicorn[standard]>=0.23.2",
+]
+
+[tool.ruff]
+cache-dir = "~/.cache/ruff"
+src = ["djasa"]
+format = "text"
+line-length = 88
+extend-exclude = [
+    "migrations",
+    "test_data",
+]
+target-version = "py311"
+ignore = ["E501"]
+ignore-init-module-imports = true
+
+# Formatting
+[tool.black]
+line-length = 88
+target-version = ["py311"]
+include = '\.pyi?$'
+
+# Testing
+[tool.pytest.ini_options]
+minversion = "7.4.2"
+addopts = "-ra -q --nomigrations --force-sugar --log-cli-level=INFO"
+DJANGO_SETTINGS_MODULE = "example_project.conf.settings"
+testpaths = ["tests"]
+pythonpath = ["djasa", "example_project", "."]
+asyncio_mode = "auto"
+python_files = "tests.py test_*.py *_tests.py"
+filterwarnings = [
+    "ignore::DeprecationWarning",
+    "ignore::ImportWarning",
+]

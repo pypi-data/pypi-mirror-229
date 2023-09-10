@@ -1,0 +1,31 @@
+{% extends "admin/base_site.html" %}
+{% load i18n static %}
+
+{% block title %}Chat Interface{% endblock %}
+
+{% block breadcrumbs %}
+<div class="breadcrumbs">
+    <a href="{% url 'admin:index' %}">{% trans 'Home' %}</a> &rsaquo; Chat Interface
+</div>
+{% endblock %}
+
+{% block content %}
+<h1>Chat with Rasa Bot</h1>
+
+<form method="post">
+    {% csrf_token %}
+    <div class="module">
+        <textarea name="user_message" placeholder="Enter your message" rows="4" cols="50"></textarea>
+        <input type="submit" value="Send" class="default" />
+    </div>
+</form>
+
+{% if user_message %}
+<div class="module">
+    <strong>You:</strong> {{ user_message }}
+</div>
+<div class="module">
+    <strong>Bot:</strong> {{ bot_response }}
+</div>
+{% endif %}
+{% endblock %}

@@ -1,0 +1,10 @@
+breezy>=3.3.0.dev.0
+protobuf>=2.4
+pygithub
+launchpadlib
+silver-platter>=0.5.2
+build
+prometheus_client>=0.15
+mypy-protobuf
+toml
+build

@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: myvoicehakaton2023
+Version: 0.1
+Summary: Text clusterer for hackathon 09/08/2023
+Home-page: https://github.com/Spyke09/Hakaton-08-09-2023
+Author: Spyke09
+License: MIT
+
+# Framework for Improving the presentation of results in the MyVoice service
+## Brief description of the case
+Creating new approaches to combining and visualizing semantically similar user responses in surveys conducted using the My Voice service.

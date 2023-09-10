@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: neatbio2
+Version: 0.1.0
+Summary: NeatBio2 - Simple bioinformatics package for nucleotide and protein sequencing
+Author: Charlie Leboff
+Author-email: charlieleboff@aol.com
+Requires-Python: >=3.11,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Description-Content-Type: text/markdown
+
+## Neatbio2
+
+### Custom Bioinformatics Package for DNA and Protein Sequencing 
+### By Charlie Leboff (under the instruction of Jcharis' tutorial)
+

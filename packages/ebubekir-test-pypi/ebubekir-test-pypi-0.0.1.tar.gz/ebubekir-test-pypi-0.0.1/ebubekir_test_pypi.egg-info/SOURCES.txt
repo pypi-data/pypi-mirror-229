@@ -1,0 +1,11 @@
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+./ebubekir-test-pypi/__init__.py
+./ebubekir-test-pypi/__version__.py
+./ebubekir-test-pypi/base.py
+ebubekir_test_pypi.egg-info/PKG-INFO
+ebubekir_test_pypi.egg-info/SOURCES.txt
+ebubekir_test_pypi.egg-info/dependency_links.txt
+ebubekir_test_pypi.egg-info/top_level.txt

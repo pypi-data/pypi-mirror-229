@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: pywaze
+Version: 0.4.0
+Summary: Asynchronous Waze client for calculating routes and travel times.
+Author-email: Kevin Stillhammer <kevin.stillhammer@gmail.com>
+License-Expression: MIT
+License-File: LICENSE
+Requires-Python: >=3.8
+Requires-Dist: httpx>=0.24.1
+Description-Content-Type: text/markdown
+
+# pywaze
+
+Asynchronous Waze client for calculating routes and travel times.
+
+---
+
+[<img src="https://raw.githubusercontent.com/eifinger/setup-rye/main/docs/images/bmc-button.svg" width=150 height=40 style="margin: 5px"/>](https://www.buymeacoffee.com/eifinger)
+[<img src="https://raw.githubusercontent.com/eifinger/setup-rye/main/docs/images/paypal-button.svg" width=150 height=40 style="margin: 5px"/>](https://paypal.me/kevinstillhammer)

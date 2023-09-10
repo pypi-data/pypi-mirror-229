@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "deepreload"
+version = "0.3.0"
+description = ""
+authors = ["Binh Vu <binh@toan2.com>"]
+readme = "README.md"
+repository = "https://github.com/binh-vu/deepreload"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.25.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

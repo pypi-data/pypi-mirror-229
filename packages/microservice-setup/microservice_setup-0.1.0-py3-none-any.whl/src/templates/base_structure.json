@@ -1,0 +1,34 @@
+{
+    "common": {
+        "constants": {
+            "{service_name}_constants.py": "Service constants"
+        }
+    },
+    "domain": {
+        "entities": {
+            "{service_name}_entity.py": "Service entities"
+        },
+        "interfaces": {
+            "{service_name}_interface.py": "Service interfaces"
+        },
+        "exceptions": {
+            "{service_name}_exceptions.py": "Service exceptions"
+        }
+    },
+    "application": {
+        "use_cases": {
+            "{service_name}_use_case.py": "Service use cases"
+        },
+        "services": {
+            "{service_name}_service.py": "Service services"
+        }
+    },
+    "adapters": {
+        "controllers": {
+            "{service_name}_controller.py": "Service controllers"
+        },
+        "serializers": {
+            "{service_name}_serializer.py": "Service serializers"
+        }
+    }
+}

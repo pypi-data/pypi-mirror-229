@@ -1,0 +1,21 @@
+{
+    ".env": "",
+    "main.py": "Main entry point of your application",
+    "config": {
+        "settings.py": "Configuration of your application",
+        "dev_settings.py": "Configuration of your application for development"
+    },
+    "app": {},
+    "tests": {},
+    "constants": {
+        "{service_name}_constants.py": "Global constants for your application"
+    },
+    "requirements": {
+        "base.txt": "",
+        "dev.txt": "",
+        "prod.txt": ""
+    },
+    "templates": {
+        "index.html": ""
+    }
+}

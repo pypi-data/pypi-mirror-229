@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: masonite-dolphinido
+Version: 0.0.2
+Summary: Dolphinido Audio Fingerprint and Tracking for Masonite
+Home-page: https://github.com/briansimpo/masonite-dolphinido
+Author: Brian Simpokolwe
+Author-email: briansimpokolwe@gmail.com
+License: MIT
+Keywords: Masonite,Python,Audio Fingerprint,Audio Tracking,SDR Radio
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: Environment :: Web Environment
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+Classifier: Topic :: Internet :: WWW/HTTP :: WSGI
+Classifier: Topic :: Software Development :: Libraries :: Application Frameworks
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Framework :: Masonite
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Dolphinido Audio Fingerprint and Tracking
+
+## Installation
+
+````
+pip install masonite-dolphinido
+````
+
+## Usage 
+1. Run `$ python craft dolphinido:fingerprint /path/to/mp3/file` to fingerprint mp3 file
+1. Run `$ python craft dolphinido:radio station` to listen to radio station
+1. Run `$ python craft dolphinido:recog-mic 20` to record and recognize audio from microphone for 20 seconds
+1. Run `$ python craft dolphinido:recog-file /path/to/mp3/file` to recognize audio file
+1. Run `$ python craft dolphinido:recog-radio station` to recognize audio from fm radio

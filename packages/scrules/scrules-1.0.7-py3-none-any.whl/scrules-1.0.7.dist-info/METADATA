@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: scrules
+Version: 1.0.7
+Summary: A library that mines association rules between genes and mines regulatory networks through the association rule algorithm fp-growth
+Home-page: https://github.com/PH-Open/scrules
+Author: phantom
+Author-email: 2909981736@qq.com
+License: MIT
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Scientific/Engineering :: Information Analysis
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Classifier: Topic :: Scientific/Engineering :: Visualization
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pyfim
+Requires-Dist: igraph
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: matplotlib
+Requires-Dist: pymysql
+Requires-Dist: sqlalchemy
+Requires-Dist: requests
+
+# scrules
+
+A python library that mines association rules between genes and mines regulatory networks through the association rule algorithm fp-growth

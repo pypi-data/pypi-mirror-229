@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: commitlog
+Version: 20230909
+Summary: Replicated and strongly consistent Commit Log
+Home-page: https://github.com/magicray/CommitLog
+Author: Bhupendra Singh
+Author-email: bhsingh@gmail.com
+Keywords: paxos,consistent,replicated,commit,log
+License-File: LICENSE
+
+Paxos for replication and plain filesystem for data. Leaderless and highly available.

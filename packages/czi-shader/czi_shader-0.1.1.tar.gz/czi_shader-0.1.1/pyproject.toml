@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "czi-shader"
+version = "0.1.1"
+description = "Reproduce the appearance of CZI files (coloring raw data) seen in Zeiss Zen software, and provide channel information extraction of CZI files"
+authors = ["zhengmy <zhengmy@ion.ac.cn>"]
+readme = "README.md"
+packages = [{include = "czi_shader"}]
+
+[tool.poetry.dependencies]
+python = ">=3.6"
+aicspylibczi = "*"
+numpy = "*"
+opencv-python-headless = "*"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

@@ -1,0 +1,4 @@
+_target_: hyabsa.agents.results.AgentResult.convert_absa_output_to_results
+output_file: null
+skip_failed: false
+value_for_failed: null

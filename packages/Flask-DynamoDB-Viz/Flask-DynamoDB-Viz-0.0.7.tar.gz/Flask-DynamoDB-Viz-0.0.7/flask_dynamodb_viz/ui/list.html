@@ -1,0 +1,216 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="/ddb_table/static/css/style.css">
+        <script src="/ddb_table/static/js/jquery-3.2.1.slim.min.js"></script>
+        <script src="/ddb_table/static/js/popper.min.js"></script>
+        <script src="/ddb_table/static/js/bootstrap.min.js"></script>
+        <script src="/ddb_table/static/js/angular.min.js"></script>
+        <link rel="stylesheet" href="/ddb_table/static/css/bootstrap.min.css">
+    </head>
+    <body ng-app="table-list" ng-controller="table-list-ctrl">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">Flask DynamoDB Viz</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav">
+                <a class="nav-item nav-link active" href="#">Table list <span class="sr-only">(current)</span></a>
+              </div>
+            </div>
+        </nav>
+
+        <div class="container">
+            </br>
+            <div class="input-group mb-3">
+                <input type="text" class="form-control" id="filter-text" placeholder="Start typing to filter by table name ..." aria-label="Username" aria-describedby="basic-addon1" ng-model="filterText">
+            </div>
+            <div class="list-of-tables">
+                <div id="accordion" ng-show="tablesListLoaded == true">
+                    <div ng-repeat="table in tables | filter:filterText" class="card">
+                        <div class="card-header" id="heading-{{table}}">
+                            <h5 class="mb-0">
+                                <button ng-click="getTableDescription(table)" class="btn btn-link" data-toggle="collapse" data-target="#collapse-{{table}}-desc" aria-expanded="true" aria-controls="collapse-{{table}}-desc">
+                                Table: {{table}}
+                                </button>
+                            </h5>
+                            <h5 class="mb-0">
+                                <button ng-click="getTableRecordPage(table)" class="btn btn-link" data-toggle="collapse" data-target="#collapse-{{table}}-record" aria-expanded="true" aria-controls="collapse-{{table}}-record">
+                                Show records
+                                </button>
+                            </h5>
+                        </div>
+
+                        <div id="collapse-{{table}}-record" class="collapse" aria-labelledby="heading-{{table}}" data-parent="#accordion">
+                            <div class="card-body">
+                                <div class="table-records" ng-show="(tableCurrentRecords[table] !== undefined) && (tableCurrentRecords[table].length > 0)">
+                                    <table class="table">
+                                        <thead>
+                                            <tr>
+                                                <td>Sl No.</td>
+                                                <td ng-repeat="attribute in tableDescriptions[table]['AttributeDefinitions']">{{attribute['AttributeName']}}</td>
+                                                <td>Other fields</td>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr ng-repeat="record in tableCurrentRecords[table]">
+                                                <td>{{$index + 1}}</td>
+                                                <td ng-repeat="attribute in tableDescriptions[table]['AttributeDefinitions']">
+                                                    {{record[attribute["AttributeName"]]}}
+                                                </td>
+                                                <td><pre>{{getTableRecords(table, record);}}</pre></td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div id="collapse-{{table}}-desc" class="collapse" aria-labelledby="heading-{{table}}" data-parent="#accordion">
+                            <div class="card-body">
+                              <div ng-hide="tableDescriptions[table] == undefined">
+                                <div class="row">
+                                    <div class="col-6 table-data-rich">
+                                        <div class="table-global-data">
+                                            <div>Item count: {{tableDescriptions[table]["ItemCount"]}}</div>
+                                            <div>Table size in bytes: {{tableDescriptions[table]["TableSizeBytes"]}}</div>
+                                            <div>Table status: {{tableDescriptions[table]["TableStatus"]}}</div>
+                                            <div>Read capacity units: {{tableDescriptions[table]["ProvisionedThroughput"]["ReadCapacityUnits"]}}</div>
+                                            <div>Write capacity units: {{tableDescriptions[table]["ProvisionedThroughput"]["WriteCapacityUnits"]}}</div>
+                                        </div></br>
+                                        <h5>Attribute definitions:</h5>
+                                        <div class="attribute-definitions" ng-show="tableDescriptions[table]['AttributeDefinitions'] != undefined && Object.keys(tableDescriptions[table]['AttributeDefinitions']).length != 0">
+                                            <table class="table">
+                                                <thead>
+                                                    <tr>
+                                                        <th scope="col">Attribute name</th>
+                                                        <th scope="col">Attribute type</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr ng-repeat="attribute in tableDescriptions[table]['AttributeDefinitions']">
+                                                        <td>{{attribute['AttributeName']}}</td>
+                                                        <td>{{attribute['AttributeType']}}</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                        <hr>
+                                        <div class="global-indexes" ng-show="tableDescriptions[table]['GlobalSecondaryIndexes'] != undefined && Object.keys(tableDescriptions[table]['GlobalSecondaryIndexes']).length != 0">
+                                            <h5>
+                                                Global Index definitions:
+                                            </h5>
+                                            <div class="global-index" ng-repeat="globalIndex in tableDescriptions[table]['GlobalSecondaryIndexes']">
+                                                <strong>{{globalIndex["indexName"]}}</strong>
+                                                <div><strong>Index name: {{globalIndex["IndexName"]}}</strong></div>
+                                                <div>Index status: {{globalIndex["IndexStatus"]}}</div>
+                                                <div>Item count: {{globalIndex["ItemCount"]}}</div>
+                                                <div>Index size bytes: {{globalIndex["IndexSizeBytes"]}}</div>
+                                                <div>Read capacity units: {{globalIndex["ProvisionedThroughput"]["ReadCapacityUnits"]}}</div>
+                                                <div>Write capacity units: {{globalIndex["ProvisionedThroughput"]["WriteCapacityUnits"]}}</div>
+                                                </br>
+                                                <strong>Key schema:</strong>
+                                                <div class="global-index-keys" ng-show="globalIndex['KeySchema'] != undefined && Object.keys(globalIndex['KeySchema']).length != 0">
+                                                    <table class="table">
+                                                        <thead>
+                                                            <tr>
+                                                                <th scope="col">Attribute name</th>
+                                                                <th scope="col">Key type</th>
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                            <tr ng-repeat="attribute in globalIndex['KeySchema']">
+                                                                <td>{{attribute['AttributeName']}}</td>
+                                                                <td>{{attribute['KeyType']}}</td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-6 table-data-json">
+                                        <div class="table-json">
+                                           <pre>{{tableDescriptionsPretty[table]}}</pre>
+                                        </div>
+                                    </div>
+                                </div>
+                              </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+    <script>
+        $.noConflict();
+        var app = angular.module('table-list', []);
+        app.controller('table-list-ctrl', function ($scope, $http) {
+            $scope.tablesListLoaded = false;
+            $scope.tablesListIsLoading = false;
+            $scope.tableDescriptions = {};
+            $scope.tableDescriptionsPretty = {};
+            $scope.tableLastEvaluatedKeys = {};
+            $scope.tablePreviousLastEvaluatedKeys = {};
+            $scope.tableCurrentRecords = {};
+
+            $scope.getTablesList = function() {
+                $scope.tablesListIsLoading = true;
+                $http.get("/ddb_table/list")
+                    .then(function (response) {
+                        $scope.tables = response.data["tables"];
+                        $scope.tablesListLoaded = true;
+                    });
+            }
+
+            $scope.getTableDescription = function(table) {
+                if (!$scope.tableDescriptions[table] === undefined) {
+                    return;
+                }
+                $http.get("/ddb_table/" + table + "/describe")
+                    .then(function (response) {
+                        $scope.tableDescriptions[table] = response.data["Table"];
+                        $scope.tableDescriptionsPretty[table] = JSON.stringify(response.data["Table"], null, 4);
+                    });
+            }
+            $scope.getTableRecordPage = async function(table) {
+                if ($scope.tableDescriptions[table] === undefined) {
+                    await $scope.getTableDescription(table);
+                }
+
+                if ($scope.tableCurrentRecords[table] !== undefined) {
+                    return;
+                }
+
+                let lastEvaluatedKey = $scope.tableLastEvaluatedKeys[table];
+                if (lastEvaluatedKey === undefined) {
+                    lastEvaluatedKey = JSON.stringify({});
+                } else {
+                    lastEvaluatedKey = JSON.stringify(lastEvaluatedKey);
+                }
+                $http.get("/ddb_table/" + table + "/records/" + lastEvaluatedKey)
+                    .then(function (response) {
+                        $scope.tableCurrentRecords[table] = response.data["items"];
+                        $scope.tableLastEvaluatedKeys[table] = response.data["last_evaluated_key"];
+                        $scope.tablePreviousLastEvaluatedKeys[table] = lastEvaluatedKey;
+                    });
+            }
+
+            $scope.getTableRecords = function(table, record) {
+                let knownAttributes = [];
+                $scope.tableDescriptions[table]["AttributeDefinitions"].forEach(item => {
+                    knownAttributes.push(item["AttributeName"]);
+                });
+                let otherFields = {};
+                Object.keys(record).forEach(function(item, index) {
+                    if (knownAttributes.indexOf(item) === -1) {
+                        otherFields[item] = record[item];
+                    }
+                });
+                return JSON.stringify(otherFields, null, 4);
+            }
+            $scope.getTablesList();
+        });
+    </script>
+</html>

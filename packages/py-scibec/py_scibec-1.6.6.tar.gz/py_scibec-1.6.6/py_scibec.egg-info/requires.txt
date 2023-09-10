@@ -1,0 +1,7 @@
+
+[dev]
+pytest
+pytest-random-order
+coverage
+black
+pylint

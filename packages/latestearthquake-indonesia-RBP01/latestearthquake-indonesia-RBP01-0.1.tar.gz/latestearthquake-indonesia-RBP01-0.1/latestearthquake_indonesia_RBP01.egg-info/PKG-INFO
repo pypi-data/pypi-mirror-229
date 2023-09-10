@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: latestearthquake-indonesia-RBP01
+Version: 0.1
+Summary: This package will get the latest earthquake from BMKG | Meteorological, Climatological, and Geophysical Agency
+Home-page: https://github.com/restubagas93/-latest-indonesia-earthquake
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 5 - Production/Stable
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Latest Indonesia EarthQuake
+This package will get the latest earthquake from BMKG | Meteorological, Climatological, and Geophysical Agency
+
+## HOW IT WORKS?
+This package will scrape from [BMKG](https://bmkg.go.id) to get latest quake happened in Indonesia
+
+This package will use BeautifulSoup4 and Request to produce output in the form of JSON that is ready to be used in web or mobile application.

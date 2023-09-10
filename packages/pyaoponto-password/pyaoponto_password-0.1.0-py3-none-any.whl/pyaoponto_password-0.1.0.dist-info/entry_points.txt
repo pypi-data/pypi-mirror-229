@@ -1,0 +1,3 @@
+[console_scripts]
+strong-password=strong_password:main
+

@@ -1,0 +1,6 @@
+lxml
+matplotlib
+numpy>=1.20
+pandas
+pytz
+tqdm

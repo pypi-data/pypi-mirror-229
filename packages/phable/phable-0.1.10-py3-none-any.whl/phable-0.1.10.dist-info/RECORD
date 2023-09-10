@@ -1,0 +1,14 @@
+phable/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+phable/auth/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+phable/auth/scram.py,sha256=TKvH-APQwE2PYBJ49PhDVtL8NXpUiJxvIl5lY5aV8yY,11247
+phable/client.py,sha256=YTrmZ4AnU3zW2yvS-4ACrwCZqHJHM-qrqe4MbHro-Yw,10089
+phable/http.py,sha256=PZdbAR7mO8UfGFPyUjb7Owq2bJ1oZWO6SBoGIRYybLA,3111
+phable/kinds.py,sha256=adYxaNZXDNkxIiyhozCshM4FhkSxiMLCuQUfsJTJYUE,4166
+phable/parsers/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+phable/parsers/json.py,sha256=BEwN0z1OFA8yBK6dVLMyR589tjm-Iiw9tJgVoZFl_eE,6190
+phable/parsers/pandas.py,sha256=JdoIj8DHO14zqFwCgAeLg5mlrAXlA49k0d4dHPjJ36k,3565
+phable/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+phable-0.1.10.dist-info/LICENSE,sha256=WmNL9InlHZMA7VPy_Sw37Bkv0D28RmOBsfraJtTBAkc,1069
+phable-0.1.10.dist-info/METADATA,sha256=cokhcnbgVVdEidc2G70lyp34sJtJy0qsFHGE_b2mYd8,4121
+phable-0.1.10.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+phable-0.1.10.dist-info/RECORD,,

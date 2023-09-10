@@ -1,0 +1,5 @@
+img2pdf
+pandas
+reportlab
+python-docx2pdf
+pywin32

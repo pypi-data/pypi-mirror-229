@@ -1,0 +1,2 @@
+[console_scripts]
+vtm = yy_vtm.maker:run

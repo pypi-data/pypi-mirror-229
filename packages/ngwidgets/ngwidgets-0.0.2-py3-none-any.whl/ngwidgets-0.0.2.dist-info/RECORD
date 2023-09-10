@@ -1,0 +1,10 @@
+ngwidgets/__init__.py,sha256=HBhfINMXdfWYIApaqr1-ML8jjr202wq0tL7y497Ka5o,19
+ngwidgets/ngwidgets_cmd.py,sha256=pjEk7WPu8mEPySqqxBTe1CX6PcVeBqrVaZqyw6hRwDA,122
+ngwidgets/profiler.py,sha256=MedbBA85OKdzUg4Lg3VrWY_ijwCR4lKjCs9iBeb1GWE,804
+ngwidgets/webserver.py,sha256=-G2yXUOgt_yj4DfMRORUt4chbup8ZRE9CtrAWZNd4Aw,2550
+ngwidgets/widgets.py,sha256=zy78n2PQKCSCHfkKm2dolCNlTKnGn5-4PWf-Xo3aQ-0,136
+ngwidgets-0.0.2.dist-info/METADATA,sha256=RZ9zfkLyopcKYsNNFe94SuSYObxCRCDyg6RAHKoTgss,2324
+ngwidgets-0.0.2.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+ngwidgets-0.0.2.dist-info/entry_points.txt,sha256=UcwL-TXybfEu1dTxqVMxGrTd0UwVrB35Gi8Z-oQUPMk,56
+ngwidgets-0.0.2.dist-info/licenses/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+ngwidgets-0.0.2.dist-info/RECORD,,

@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: fpfs
+Version: 3.1.0
+Summary: FPFS shear estimator
+Home-page: https://github.com/mr-superonion/FPFS/
+Author: Xiangchong Li
+Author-email: mr.superonion@hotmail.com
+Requires-Python: >=3.8
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: schwimmbad
+Requires-Dist: jax >=0.4.9
+Requires-Dist: jaxlib >=0.4.9
+Requires-Dist: galsim
+Requires-Dist: astropy
+Requires-Dist: matplotlib
+Requires-Dist: fitsio
+

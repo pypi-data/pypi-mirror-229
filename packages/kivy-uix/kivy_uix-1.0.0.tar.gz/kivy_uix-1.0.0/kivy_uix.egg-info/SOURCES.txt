@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+kivy_uix/__init__.py
+kivy_uix/version.py
+kivy_uix.egg-info/PKG-INFO
+kivy_uix.egg-info/SOURCES.txt
+kivy_uix.egg-info/dependency_links.txt
+kivy_uix.egg-info/requires.txt
+kivy_uix.egg-info/top_level.txt
+kivy_uix.egg-info/zip-safe

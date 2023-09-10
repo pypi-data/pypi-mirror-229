@@ -1,0 +1,13 @@
+[tool.poetry]
+name = "drawn"
+version = "0.0.1"
+description = "The simple Python graphics library"
+authors = ["Dylan Rogers <opendylan@proton.me>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

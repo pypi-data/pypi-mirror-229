@@ -1,0 +1,8 @@
+rdkit
+pandas
+padelpy
+joblib
+meeko
+scikit-learn
+scipy
+numpy

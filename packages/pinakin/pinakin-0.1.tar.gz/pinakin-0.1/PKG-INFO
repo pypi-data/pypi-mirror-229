@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: pinakin
+Version: 0.1
+Summary: Unofficial Python Wrapper library for Upstox
+Home-page: https://unofficed.com
+Author: Aeron7
+Author-email: dexter@unofficed.com
+Keywords: upstox,uplink,python,nse,trading,stock markets
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Pinakin Lite Version For Upstox API
+
+Codebase for Upstox API made for Unofficed Community.
+
+Unofficial Python API Wrapper and Basic Tutorials. 

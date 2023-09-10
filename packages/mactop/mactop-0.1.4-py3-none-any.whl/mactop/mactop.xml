@@ -1,0 +1,55 @@
+<Mactop>
+  <layout>
+    <CPUUsageBarPanel id="cpu-usage" columns="4"> </CPUUsageBarPanel>
+      <CPUTotalUsageTextPanel id="cpu-text"> </CPUTotalUsageTextPanel>
+
+      <Horizontal id="row-1">
+        <Vertical>
+          <SensorsPanel></SensorsPanel>
+          <EnergyPanel></EnergyPanel>
+          <Vertical id="network-row">
+            <NetworkIByteRateSparkline> </NetworkIByteRateSparkline>
+            <NetworkOByteRateSparkline> </NetworkOByteRateSparkline>
+          </Vertical>
+        </Vertical>
+        <BatteryPanel></BatteryPanel>
+      </Horizontal>
+
+    <Horizontal id="task-row">
+      <TaskTable></TaskTable>
+    </Horizontal>
+  </layout>
+
+  <style>
+    #cpu-usage {
+      margin-top: 1;
+    }
+    BatteryPanel {
+        border: solid $secondary;
+        border-title-align: left;
+
+        height: auto;
+        width: 1fr;
+    }
+
+    EnergyPanel {
+        height: 3;
+    }
+
+    SensorsPanel {
+        border: solid $secondary;
+        border-title-align: left;
+    }
+
+    #row-1 {
+      height: 12;
+    }
+    #network-row {
+      height: 2;
+    }
+
+    #task-row {
+      height: 1fr;
+    }
+  </style>
+</Mactop>

@@ -1,0 +1,16 @@
+pyDolarVenezuela/__init__.py,sha256=4G_s87x8AE_vN_e8f4b7s3SEk4MdNomc3uabcE3QkGQ,93
+pyDolarVenezuela/modulebcv.py,sha256=LBopcDj5cohVzYe3gCJNmjr6XTLra_tb7wh6SUz6fX4,695
+pyDolarVenezuela/request.py,sha256=uwdW7Tw70Atl4fPQ5giJ0BFI0yIqDpKh7IPVc4Ardz0,422
+pyDolarVenezuela/scrapmonitor.py,sha256=Dwl2OEdympJnZiZFGst_Wuf7gFem53YqjnZKphLcLuw,5064
+pyDolarVenezuela/util.py,sha256=Yj-DIVCv0ah0LV7b3PTkUREYhMy8CAAuPEU5CCHQUbs,47
+pyDolarVenezuela/calculator/__init__.py,sha256=_LJ9aOkUjnc_vQlSh4ylIWAxmGS92pC64asqASr02JM,67
+pyDolarVenezuela/calculator/function.py,sha256=H6r72tMb7BICI0NxBRDPm5OrUfLA07pjXw63tF6mX-w,813
+pyDolarVenezuela/module/__init__.py,sha256=SWV3jzaAYxP5U2s4HP-aMTAEjfLMa4u_NpA2DzSJI3M,60
+pyDolarVenezuela/module/dollar.py,sha256=5-tran8XYJ7oLZU-ieSkTwwbTkcz2ZwBO05CBO7ib14,195
+pyDolarVenezuela/time/__init__.py,sha256=Y0BhGqhuqLb88onOsbCPhGciPjcwcJ7-FSbbCT1fOOc,54
+pyDolarVenezuela/time/functions.py,sha256=rYM3egNkKdU4ciO9ptXFlL9c-PB922R0zWBdU9bYMuw,1813
+pyDolarVenezuela-1.2.8.dist-info/LICENSE,sha256=yhyzG4KlBwvAy1K47aCyZbF5x8p9Evp9ehLARqdm4mM,1094
+pyDolarVenezuela-1.2.8.dist-info/METADATA,sha256=T_5XAlpT_DzfXEUqoAcQJwwltJ2n53lxzXAHLNTNajE,4100
+pyDolarVenezuela-1.2.8.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+pyDolarVenezuela-1.2.8.dist-info/top_level.txt,sha256=DqT65xfdAAw8yCgxoWQ1UWnzpZ-LGoBUkgMVnY0N8ro,17
+pyDolarVenezuela-1.2.8.dist-info/RECORD,,

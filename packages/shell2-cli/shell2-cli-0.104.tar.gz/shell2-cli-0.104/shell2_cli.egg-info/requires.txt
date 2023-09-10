@@ -1,0 +1,12 @@
+shell2
+prettyprinter
+inquirer
+rich
+prompt_toolkit
+colorama
+google-cloud-firestore
+google-auth
+requests
+retry
+python-slugify
+py7zr

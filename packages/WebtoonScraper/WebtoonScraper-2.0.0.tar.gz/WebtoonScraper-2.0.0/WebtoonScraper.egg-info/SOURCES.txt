@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+WebtoonScraper/__init__.py
+WebtoonScraper/directory_merger.py
+WebtoonScraper/exceptions.py
+WebtoonScraper/py.typed
+WebtoonScraper/webtoon.py
+WebtoonScraper.egg-info/PKG-INFO
+WebtoonScraper.egg-info/SOURCES.txt
+WebtoonScraper.egg-info/dependency_links.txt
+WebtoonScraper.egg-info/not-zip-safe
+WebtoonScraper.egg-info/top_level.txt

@@ -1,0 +1,13 @@
+newbie/__init__.py,sha256=qnrKs9E96BADGk3cZ-4m2UgMRk3otp69KLysMikniKc,220
+newbie/__main__.py,sha256=QklOhr2RSOzVUWig28LCkGUxlmMyyqh0dNszSKCAcMM,433
+newbie/commands/__init__.py,sha256=OG2kASPKbSzSxv82gxqwYZzxDDsVj11VDWGQLK_J1wk,135
+newbie/commands/client.py,sha256=75H-lZUw7woEomyt9F3OTf65WzClSc67CqbuYXPVYZA,342
+newbie/commands/container.py,sha256=qsn15qW-Qku9LBXdDqdsuj0vj7Q4jdKkqQpRDlaQBgY,1190
+newbie/commands/server.py,sha256=0BTXdwDTQtl02d4Nrnvv7n3kpmVfJGeygWqcYGEk9ZI,94
+newbie/docker/__init__.py,sha256=t07hN5xMr0vX_TTBrbhlhVMySDdaMqzGZMXBX-RrLPI,1306
+SNL2023f-1.0.0rc8.dist-info/LICENSE,sha256=aFLFZg6LEJFpTlNQ8su3__jw4GfV-xWBmC1cePkKZVw,35802
+SNL2023f-1.0.0rc8.dist-info/METADATA,sha256=pc45BP7qQWKplNcWBL5yapA1A5nYfxIPM6-gCXX2JUQ,618
+SNL2023f-1.0.0rc8.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+SNL2023f-1.0.0rc8.dist-info/entry_points.txt,sha256=UMielKqPI5xIHvtEi5fdaj7JtYtMV0APl407VRr9Hoc,45
+SNL2023f-1.0.0rc8.dist-info/top_level.txt,sha256=Zycx_4RB7UlceKhGrtWSrUxqMd3-SZJCZOnuzrC67Ic,7
+SNL2023f-1.0.0rc8.dist-info/RECORD,,

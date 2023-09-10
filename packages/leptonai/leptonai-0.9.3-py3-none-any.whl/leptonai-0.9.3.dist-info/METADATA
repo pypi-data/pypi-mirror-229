@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: leptonai
+Version: 0.9.3
+Summary: Lepton AI Platform
+Author-email: "Lepton AI Inc." <dev@lepton.ai>
+Project-URL: Homepage, https://lepton.ai
+Requires-Python: >=3.8
+License-File: LICENSE
+License-File: NOTICE
+Requires-Dist: anyio
+Requires-Dist: click
+Requires-Dist: cloudpickle
+Requires-Dist: fastapi
+Requires-Dist: httpx
+Requires-Dist: limits
+Requires-Dist: prometheus-fastapi-instrumentator
+Requires-Dist: rich
+Requires-Dist: typing-extensions
+Requires-Dist: uvicorn
+Requires-Dist: loguru
+Requires-Dist: requests
+Requires-Dist: pydantic !=2.1.0
+Requires-Dist: huggingface-hub
+Requires-Dist: bitsandbytes
+Requires-Dist: diffusers[torch]
+Requires-Dist: sentence-transformers
+Requires-Dist: torch
+Requires-Dist: transformers
+Provides-Extra: lint
+Requires-Dist: black ; extra == 'lint'
+Requires-Dist: ruff ; extra == 'lint'
+Provides-Extra: test
+Requires-Dist: pytest ; extra == 'test'
+Requires-Dist: pytest-cov ; extra == 'test'
+Requires-Dist: responses ; extra == 'test'
+Requires-Dist: respx ; extra == 'test'
+

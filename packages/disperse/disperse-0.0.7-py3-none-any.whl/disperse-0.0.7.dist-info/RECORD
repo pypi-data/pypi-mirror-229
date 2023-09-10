@@ -1,0 +1,15 @@
+disperse/__init__.py,sha256=-xzH6UiSBcfOgSlTrOAv2tptgD2skJiUxUx5v4C5C-g,1008
+disperse/__main__.py,sha256=9EOeFmCKmT2GhouRH72JKoeR73_abWddehZGSykodxI,31663
+disperse/cargo.py,sha256=naen-yXXbbPnQysH4rS58g-xFwmky_fBs8yihF0DRwo,1507
+disperse/config.py,sha256=ErzzahgLSfImerSofp6QQYfpEeHmC34xgca_qEKgJuI,1478
+disperse/config_pb2.py,sha256=IaI4i7c-sQT-t-jXhBhG9v4xASg7mvzQhGIM80AAGTY,2048
+disperse/github.py,sha256=bRbeX7hFDB45Xgfr0J4-nfrvBY0wr5HOfX1xFqzb6Co,3335
+disperse/launchpad.py,sha256=8L61X_v9B1r4YwVhHUOcsn4sGNfLFYHiaBu4fqmvktE,3592
+disperse/news_file.py,sha256=rUWaRJFJedUUZ7dEafzh5x2Ia66l27R86DEpz3K6Juc,6105
+disperse/python.py,sha256=ykQoNt_VaQqZLKfCv7h9VwF_Vgn1L7q9C18-nUQHl7E,4994
+disperse-0.0.7.dist-info/LICENSE,sha256=gXf5dRMhNSbfLPYYTY_5hsZ1r7UU1OaKQEAQUhuIBkM,18092
+disperse-0.0.7.dist-info/METADATA,sha256=pm_ulG4DHsCHYZDmSZDpUl_3OVeeRC5YXiuQ0O4bJe0,3030
+disperse-0.0.7.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+disperse-0.0.7.dist-info/entry_points.txt,sha256=QVWN5SaVJxe8YC6WRWH78-e1TEItZ95_9n5CFqpzEEI,86
+disperse-0.0.7.dist-info/top_level.txt,sha256=qLh763fK5b4Du6nhBOp4jKm7Sswz7DGVnQ0hGXB516E,9
+disperse-0.0.7.dist-info/RECORD,,

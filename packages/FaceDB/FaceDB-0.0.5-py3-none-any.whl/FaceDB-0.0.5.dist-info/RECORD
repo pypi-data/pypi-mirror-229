@@ -1,0 +1,10 @@
+facedb/__init__.py,sha256=18SyQ4ijJLhdM_nYNDKbn28mv7-yjGQgX_6YaaIy2pg,52
+facedb/db.py,sha256=hYTqjtDixFG5ZIuJGSUKWJIM6ja0ErjTS8C3Tk_ly4w,31808
+facedb/db_models.py,sha256=iSj-FEHc2gSD5o5FJ9ZxbFq2smJpZt5Ryzg1FFUgCJo,23391
+facedb/db_tools.py,sha256=xtMaqCZgfdtN_wT5WLiuC8tmSZxgj_MwEImSsx9trn4,12018
+facedb/query.py,sha256=jZn1MauztnuLy8OB8rOmBX908QRF4ILroriJYOif9y0,10494
+FaceDB-0.0.5.dist-info/LICENSE,sha256=uWRG1hPOblVQUVWeL3eaO5RpzEUk1aURwT9cwe7ZAeM,1083
+FaceDB-0.0.5.dist-info/METADATA,sha256=wA5NjRkTjr7i_6tpNs5CsbPSLbioFzxq_BSFWuwQ9q0,6304
+FaceDB-0.0.5.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+FaceDB-0.0.5.dist-info/top_level.txt,sha256=IUJeLPCZPsDOHIWA0Ktp_FUs_3ynHxezlGzXnnJMDiQ,7
+FaceDB-0.0.5.dist-info/RECORD,,

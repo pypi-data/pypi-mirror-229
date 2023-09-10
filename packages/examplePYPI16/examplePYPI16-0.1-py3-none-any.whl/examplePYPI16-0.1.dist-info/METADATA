@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: examplePYPI16
+Version: 0.1
+Summary: SAMPLE
+Author: ChandraMohanS
+Author-email: chandrashanmugam007@gmail.com
+License: MIT
+Keywords: DEMO,EXAMPLE,example
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.11
+License-File: LICENSE.txt
+

@@ -1,0 +1,6 @@
+numpy
+pandas
+rpy2
+anndata
+matplotlib
+seaborn

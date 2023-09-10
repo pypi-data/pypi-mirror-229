@@ -1,0 +1,8 @@
+pyaudioreader/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyaudioreader/audiofile.py,sha256=Xa_6P2LJ4sdZ0FeG_AGejFzPeD_NRNingRjrbSex0FE,1380
+pyaudioreader/microphone.py,sha256=5l2meQm4JR8XpN-jt3wpvR0LFGj3dDg4s1d3YF7EvrQ,2006
+pyaudioreader-0.0.1.dist-info/LICENSE,sha256=pjYjHSdWEqyjjX7Q0uDkL725l0D5K5uppC8puN4knE8,1093
+pyaudioreader-0.0.1.dist-info/METADATA,sha256=WCmi9rebn4wFw4D2O28afaDStip8wGUhknDqWOLdu4o,640
+pyaudioreader-0.0.1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+pyaudioreader-0.0.1.dist-info/top_level.txt,sha256=jstNCxdpKX7j3vJgURf5hB1sw2bsYRYNCcTc6CHyE_0,14
+pyaudioreader-0.0.1.dist-info/RECORD,,

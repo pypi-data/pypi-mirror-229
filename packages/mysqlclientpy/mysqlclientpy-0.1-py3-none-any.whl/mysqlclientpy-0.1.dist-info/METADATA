@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: mysqlclientpy
+Version: 0.1
+Requires-Dist: mysql-connector-python
+Requires-Dist: protobuf
+

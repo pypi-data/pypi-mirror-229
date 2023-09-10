@@ -1,0 +1,8 @@
+hdbcli-stubs/METADATA.toml,sha256=ZRfCJCazB1ts00ZTkGEHOHHtzsbxkK42pbKQpkLKZYs,57
+hdbcli-stubs/__init__.pyi,sha256=o3z4pFinEwrzkYCw5VSQytV7vjVbu-M-ApItUdAMg88,47
+hdbcli-stubs/dbapi.pyi,sha256=lBERAedYFCkWPnfLN7R8xqQv2Maer35laV_Ck6Aqkzg,5429
+hdbcli-stubs/resultrow.pyi,sha256=PIwzO3QpQKHYgh8AOGFqW9vIGz94xQt6FKcW9q_a028,173
+types_hdbcli-2.18.0.0.dist-info/METADATA,sha256=fq635jsFw_rTf-MuYACYIcj6pASDdMiFQJRanh9KZcQ,1358
+types_hdbcli-2.18.0.0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+types_hdbcli-2.18.0.0.dist-info/top_level.txt,sha256=JWpMRq8QYtEvop-QvgRS_Kso_A0X7z0y9_9lLMpU1D8,13
+types_hdbcli-2.18.0.0.dist-info/RECORD,,

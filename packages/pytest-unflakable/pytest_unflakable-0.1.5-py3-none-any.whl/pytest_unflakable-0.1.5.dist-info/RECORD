@@ -1,0 +1,10 @@
+pytest_unflakable/__init__.py,sha256=warEJLL1-hcdjMMXhGyS8o_opzXolSFbpFMQVjSQdh8,7013
+pytest_unflakable/_api.py,sha256=Bkl4VnsSThwo017EY-CcqRU58r9WpxK8PqfbNDN7s74,3905
+pytest_unflakable/_git.py,sha256=FRg_AQfI_4MdCdBFAKHEL9gbSnvA5I7nV2ARpIe3fq0,3162
+pytest_unflakable/_plugin.py,sha256=tM9BszjC5lwMsHSVxSjyiA0caw3yerHYjeR1nWOWlBM,26229
+pytest_unflakable-0.1.5.dist-info/LICENSE,sha256=Vfexznjv_fTzM-HFe06vxYBRuz8Zv5tlQA1ae5yDGRU,1088
+pytest_unflakable-0.1.5.dist-info/METADATA,sha256=Rm0EVxC06F9oAvmPZ3K-9xSoeRiGPIRdQ_nEziU6jWc,3015
+pytest_unflakable-0.1.5.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+pytest_unflakable-0.1.5.dist-info/entry_points.txt,sha256=HquJYDuC8k37AnBoC9myxvFquLMw-z6AspkeVKDoq14,42
+pytest_unflakable-0.1.5.dist-info/top_level.txt,sha256=zspOvfKEtRTc6SJLn2QyazYHLYOFxGTm_3bCfQJGabc,18
+pytest_unflakable-0.1.5.dist-info/RECORD,,

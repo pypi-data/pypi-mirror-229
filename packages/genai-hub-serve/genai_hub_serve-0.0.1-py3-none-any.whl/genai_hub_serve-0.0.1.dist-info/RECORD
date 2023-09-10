@@ -1,0 +1,8 @@
+genai_hub_serve/__init__.py,sha256=K-zOBO2NAaxrll0iYuZBmflL_AI0CNKnP5Qqy6qvvx8,63
+genai_hub_serve/huggingface/__init__.py,sha256=eyXzScdtUPOsX6h4_hS7rmVck84LTajv88DU8G-AYoQ,80
+genai_hub_serve/huggingface/serve_auto_seq2seq_lm.py,sha256=6N_jtQ8tv39LKjBvcY-5r2S551czuM2zhlzCAgJfFns,2652
+genai_hub_serve/semantix_kserve.py,sha256=iZYQsDRZ8bxgv_uTbfc1LaaJR1uoi1MA5Iv2c8zvdNE,1407
+genai_hub_serve-0.0.1.dist-info/LICENSE.txt,sha256=SDWDZrpO2jaRu17iCG5v2tiyonIKvOBFwj-D3z7689w,1072
+genai_hub_serve-0.0.1.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+genai_hub_serve-0.0.1.dist-info/METADATA,sha256=Ai_pOMBQrhYZCVd1wAkktjnPfyVz6ucRWdmHJL-XzLM,546
+genai_hub_serve-0.0.1.dist-info/RECORD,,

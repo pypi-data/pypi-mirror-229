@@ -1,0 +1,12 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+examplePYPI16/__init__.py
+examplePYPI16/area.py
+examplePYPI16/factorial.py
+examplePYPI16/messages.py
+examplePYPI16.egg-info/PKG-INFO
+examplePYPI16.egg-info/SOURCES.txt
+examplePYPI16.egg-info/dependency_links.txt
+examplePYPI16.egg-info/top_level.txt

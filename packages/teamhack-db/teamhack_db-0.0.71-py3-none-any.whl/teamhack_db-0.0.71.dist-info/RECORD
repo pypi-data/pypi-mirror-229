@@ -1,0 +1,9 @@
+teamhack_db/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+teamhack_db/__main__.py,sha256=9Gjm4y6w6kO5kz30S8cGMqjl-gKxurDi-hfkIC6clOE,297
+teamhack_db/cli.py,sha256=Xf1rg0HzwOYfMG83gCqbkmCxNF2uOvXBvzpql8wMeCk,2071
+teamhack_db/conf.py,sha256=5uZG_523x7oxzu3qAMEsljWxZQiGnAccTOlWgbnQkWU,551
+teamhack_db/sql.py,sha256=9CFZyXqrDdDl5e_znBHzfzEf0ps3WVkMUE5f-Xls_BY,2677
+teamhack_db-0.0.71.dist-info/METADATA,sha256=hDm24iq7K2JaCACcWEDS8OgfMuqgUt_t_zLlZ0oI_gc,326
+teamhack_db-0.0.71.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+teamhack_db-0.0.71.dist-info/top_level.txt,sha256=9G9X6NtUKwXjYy57G_caClUioeTMZK0OIvcR_mbJ8Z4,12
+teamhack_db-0.0.71.dist-info/RECORD,,

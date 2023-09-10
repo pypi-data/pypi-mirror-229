@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: marcador
+Version: 0.5.0
+Home-page: https://pypi.org/manage/project/marcador
+Author: "João Freitas"
+Author-email: "joaj.freitas@gmail.com"
+License: "GPLv3"
+License-File: LICENSE.txt
+Requires-Dist: clipboard
+Requires-Dist: click
+Requires-Dist: serde
+Requires-Dist: sqlalchemy
+Requires-Dist: appdirs

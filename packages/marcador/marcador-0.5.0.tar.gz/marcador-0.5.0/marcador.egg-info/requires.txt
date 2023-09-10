@@ -1,0 +1,5 @@
+clipboard
+click
+serde
+sqlalchemy
+appdirs

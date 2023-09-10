@@ -1,0 +1,8 @@
+semantix_genai_serve/__init__.py,sha256=R16ESJnATyuiMUG-c-HKIBrR-2fRxrOWEHY57ietcuc,68
+semantix_genai_serve/huggingface/__init__.py,sha256=rz79mm50GmsYv8ak0HoIzlqyH3uQGUVgh2nJ9teI7Mk,85
+semantix_genai_serve/huggingface/serve_auto_seq2seq_lm.py,sha256=vmGTJGZyjQGQxp9bGuqEprVCj7qiRktaJMzKXE3IW9s,2657
+semantix_genai_serve/semantix_kserve.py,sha256=iZYQsDRZ8bxgv_uTbfc1LaaJR1uoi1MA5Iv2c8zvdNE,1407
+semantix_genai_serve-0.0.1.dist-info/LICENSE.txt,sha256=SDWDZrpO2jaRu17iCG5v2tiyonIKvOBFwj-D3z7689w,1072
+semantix_genai_serve-0.0.1.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+semantix_genai_serve-0.0.1.dist-info/METADATA,sha256=KrhmaH20uf-2aIXgxaz4vr8kDawOnpS25t1jOcKJVEI,551
+semantix_genai_serve-0.0.1.dist-info/RECORD,,

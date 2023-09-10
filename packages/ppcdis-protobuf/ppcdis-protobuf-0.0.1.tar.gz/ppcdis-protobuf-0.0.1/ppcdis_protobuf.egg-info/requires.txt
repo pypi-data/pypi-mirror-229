@@ -1,0 +1,6 @@
+colorama
+capstone==5.0.1
+pyelftools
+pylibyaml
+protobuf==4.21.0
+PyYAML

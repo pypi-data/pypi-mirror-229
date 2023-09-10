@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: switch-file
+Version: 1.0.3
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: Harshita Dhurwe
+Author-email: harshitadhurwe@gmail.com
+License: MIT
+Description: 
+            Python package that simplifies the process of converting various file formats to PDF, including Word (DOCX), text, images, and XLSX files. It provides a convenient command-line interface for users.
+            
+Platform: UNKNOWN
+Description-Content-Type: text/markdown

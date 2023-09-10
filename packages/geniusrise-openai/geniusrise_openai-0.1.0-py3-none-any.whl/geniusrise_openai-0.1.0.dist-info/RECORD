@@ -1,0 +1,15 @@
+open_ai/__init__.py,sha256=rbEFSUFqgZnASlW0vCGrYo4nIPc3LOYluIkQChZTIz0,1278
+open_ai/base.py,sha256=d2eo6B1ff4k39k1a5HkN6jz735TUBf4abn9ccKFQgnA,10550
+open_ai/classification.py,sha256=ey_nnV2mfPIKUzgNaTv5_WTRq10mmkA_bPCwebK2yBo,8175
+open_ai/commonsense_reasoning.py,sha256=z5jgbHHE8HdvUeam8w6xorceFpNFsDxqo8cfd5rZ1Fg,8017
+open_ai/instruction_tuning.py,sha256=a16SrU_8_4jRjtPjdQNNUhuTw_1ysPcExYT_rlivkIs,8022
+open_ai/language_model.py,sha256=VfUigb66s5NmiiW4HOgsn8nxKZAkBCTg5wu4Uc_0Jlw,10084
+open_ai/ner.py,sha256=HEbETbusF4Ciw6XZpTz8n1kTPK2Gv_fQyFhu-olj3us,9288
+open_ai/question_answering.py,sha256=flQLArdBjoDWRcoRhYDKoAo9hYB54wvgl_2aOgbVSOI,9879
+open_ai/sentiment_analysis.py,sha256=xt4oEo3T8pCedd0egfoOgmXme6vAxDptAXhTDu4_sm0,8333
+open_ai/summarization.py,sha256=0c9u0yc_DTdxhlVvzVJjGvaEf6zAuMh4XUCAax6ptDI,9840
+open_ai/translation.py,sha256=rS9cB0mJjAMdGP975erfzciuHrsfv6nze7itw6bcc28,10872
+geniusrise_openai-0.1.0.dist-info/METADATA,sha256=hmQDxnr_ec0mm4Aae1-U0ROsLXX-4LsSOLAojrtyvok,2552
+geniusrise_openai-0.1.0.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+geniusrise_openai-0.1.0.dist-info/top_level.txt,sha256=uJmWQ2Fhgv0vj1HW44q2SQoR2jGddUMdGJqmBc-FSV0,8
+geniusrise_openai-0.1.0.dist-info/RECORD,,

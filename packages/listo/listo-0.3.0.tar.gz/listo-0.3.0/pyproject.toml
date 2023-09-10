@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "listo"
+version = "0.3.0"
+description = "An improved version of the List type"
+readme = "README.md"
+authors = [
+  {name = "Daniel Roy Greenfeld", email = "daniel@feldroy.com"}
+]
+maintainers = [
+  {name = "Daniel Roy Greenfeld", email = "daniel@feldroy.com"}
+]
+classifiers = [
+
+]
+license = {text = "MIT"}
+
+[project.urls]
+
+bugs = "https://github.com/pydanny/listo/issues"
+changelog = "https://github.com/pydanny/listo/blob/master/CHANGELOG.md"
+homepage = "https://github.com/pydanny/listo"

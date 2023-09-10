@@ -1,0 +1,70 @@
+Metadata-Version: 2.1
+Name: csxhair
+Version: 1.0.0
+Summary: Decode, edit and encode CS:GO/CS2 crosshairs easily.
+Author: SyberiaK
+License: MIT License
+        
+        Copyright (c) 2023 SyberiaK
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+Project-URL: Homepage, https://github.com/SyberiaK/csxhair
+Project-URL: Issues, https://github.com/SyberiaK/csxhair/issues
+Classifier: Development Status :: 6 - Mature
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Utilities
+Classifier: Typing :: Typed
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: attrs>=23.1.0
+
+# CSXhair
+
+[![PyPI release]][pypi] 
+[![Python supported versions]][pypi]
+[![License]](./LICENSE)
+
+CSXhair is a simple package for decoding/encoding CS:GO (and CS2!) crosshairs using share codes.
+
+```python
+from csxhair import Crosshair
+
+my_crosshair = Crosshair.decode('CSGO-ZEw8O-KGXNu-4TTUU-VyXbD-SBCtG')
+print(my_crosshair.gap)  # -3.0
+
+my_crosshair.size += 5
+my_crosshair.recoil = True  # exclusive to CS2
+print(my_crosshair.encode())  # CSGO-hbBNp-7jd43-34SWO-9ck6v-p4FyB
+
+print(my_crosshair.csgo_commands)  # ['cl_crosshairgap -3.0', ..., 'cl_crosshairdot 0', ...]
+print(my_crosshair.cs2_commands)  # ['cl_crosshairgap -3.0', ..., 'cl_crosshairdot false', ...]
+```
+
+[pypi]: https://pypi.org/project/csxhair/
+[PyPI Release]: https://img.shields.io/pypi/v/csxhair.svg?label=pypi&color=green
+[Python supported versions]: https://img.shields.io/pypi/pyversions/csxhair.svg?label=%20&logo=python&logoColor=white
+[License]: https://img.shields.io/pypi/l/csxhair.svg?style=flat&label=license

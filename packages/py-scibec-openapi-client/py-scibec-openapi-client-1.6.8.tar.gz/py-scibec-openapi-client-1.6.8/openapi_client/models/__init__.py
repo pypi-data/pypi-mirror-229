@@ -1,0 +1,103 @@
+# coding: utf-8
+
+# flake8: noqa
+
+# import all models into this package
+# if you have many models here with many references from one model to another this may
+# raise a RecursionError
+# to avoid this, import only the models that you directly need like:
+# from openapi_client.model.pet import Pet
+# or import this package, but before doing it, use:
+# import sys
+# sys.setrecursionlimit(n)
+
+from openapi_client.model.access_account import AccessAccount
+from openapi_client.model.access_account_filter import AccessAccountFilter
+from openapi_client.model.access_account_filter1 import AccessAccountFilter1
+from openapi_client.model.access_account_partial import AccessAccountPartial
+from openapi_client.model.access_account_with_relations import AccessAccountWithRelations
+from openapi_client.model.access_config import AccessConfig
+from openapi_client.model.access_config_filter import AccessConfigFilter
+from openapi_client.model.access_config_filter1 import AccessConfigFilter1
+from openapi_client.model.access_config_include_filter_items import AccessConfigIncludeFilterItems
+from openapi_client.model.access_config_partial import AccessConfigPartial
+from openapi_client.model.access_config_scope_filter import AccessConfigScopeFilter
+from openapi_client.model.access_config_with_relations import AccessConfigWithRelations
+from openapi_client.model.beamline import Beamline
+from openapi_client.model.beamline_filter import BeamlineFilter
+from openapi_client.model.beamline_filter1 import BeamlineFilter1
+from openapi_client.model.beamline_include_filter_items import BeamlineIncludeFilterItems
+from openapi_client.model.beamline_partial import BeamlinePartial
+from openapi_client.model.beamline_scope_filter import BeamlineScopeFilter
+from openapi_client.model.beamline_with_relations import BeamlineWithRelations
+from openapi_client.model.dataset import Dataset
+from openapi_client.model.dataset_filter import DatasetFilter
+from openapi_client.model.dataset_filter1 import DatasetFilter1
+from openapi_client.model.dataset_include_filter_items import DatasetIncludeFilterItems
+from openapi_client.model.dataset_partial import DatasetPartial
+from openapi_client.model.dataset_scope_filter import DatasetScopeFilter
+from openapi_client.model.dataset_with_relations import DatasetWithRelations
+from openapi_client.model.device import Device
+from openapi_client.model.device_filter import DeviceFilter
+from openapi_client.model.device_filter1 import DeviceFilter1
+from openapi_client.model.device_include_filter_items import DeviceIncludeFilterItems
+from openapi_client.model.device_partial import DevicePartial
+from openapi_client.model.device_scope_filter import DeviceScopeFilter
+from openapi_client.model.device_with_relations import DeviceWithRelations
+from openapi_client.model.event import Event
+from openapi_client.model.event_filter import EventFilter
+from openapi_client.model.event_filter1 import EventFilter1
+from openapi_client.model.event_include_filter_items import EventIncludeFilterItems
+from openapi_client.model.event_partial import EventPartial
+from openapi_client.model.event_scope_filter import EventScopeFilter
+from openapi_client.model.event_with_relations import EventWithRelations
+from openapi_client.model.experiment import Experiment
+from openapi_client.model.experiment_account import ExperimentAccount
+from openapi_client.model.experiment_account_filter import ExperimentAccountFilter
+from openapi_client.model.experiment_account_filter1 import ExperimentAccountFilter1
+from openapi_client.model.experiment_account_include_filter_items import ExperimentAccountIncludeFilterItems
+from openapi_client.model.experiment_account_partial import ExperimentAccountPartial
+from openapi_client.model.experiment_account_scope_filter import ExperimentAccountScopeFilter
+from openapi_client.model.experiment_account_with_relations import ExperimentAccountWithRelations
+from openapi_client.model.experiment_filter import ExperimentFilter
+from openapi_client.model.experiment_filter1 import ExperimentFilter1
+from openapi_client.model.experiment_include_filter_items import ExperimentIncludeFilterItems
+from openapi_client.model.experiment_partial import ExperimentPartial
+from openapi_client.model.experiment_scope_filter import ExperimentScopeFilter
+from openapi_client.model.experiment_with_relations import ExperimentWithRelations
+from openapi_client.model.functional_account import FunctionalAccount
+from openapi_client.model.functional_account_filter import FunctionalAccountFilter
+from openapi_client.model.functional_account_filter1 import FunctionalAccountFilter1
+from openapi_client.model.functional_account_include_filter_items import FunctionalAccountIncludeFilterItems
+from openapi_client.model.functional_account_partial import FunctionalAccountPartial
+from openapi_client.model.functional_account_scope_filter import FunctionalAccountScopeFilter
+from openapi_client.model.functional_account_with_relations import FunctionalAccountWithRelations
+from openapi_client.model.loopback_count import LoopbackCount
+from openapi_client.model.new_access_account import NewAccessAccount
+from openapi_client.model.new_access_config import NewAccessConfig
+from openapi_client.model.new_beamline import NewBeamline
+from openapi_client.model.new_dataset import NewDataset
+from openapi_client.model.new_device import NewDevice
+from openapi_client.model.new_event import NewEvent
+from openapi_client.model.new_experiment import NewExperiment
+from openapi_client.model.new_experiment_account import NewExperimentAccount
+from openapi_client.model.new_functional_account import NewFunctionalAccount
+from openapi_client.model.new_scan import NewScan
+from openapi_client.model.new_session import NewSession
+from openapi_client.model.new_user import NewUser
+from openapi_client.model.new_user_request import NewUserRequest
+from openapi_client.model.scan import Scan
+from openapi_client.model.scan_filter import ScanFilter
+from openapi_client.model.scan_filter1 import ScanFilter1
+from openapi_client.model.scan_include_filter_items import ScanIncludeFilterItems
+from openapi_client.model.scan_partial import ScanPartial
+from openapi_client.model.scan_scope_filter import ScanScopeFilter
+from openapi_client.model.scan_with_relations import ScanWithRelations
+from openapi_client.model.session import Session
+from openapi_client.model.session_filter import SessionFilter
+from openapi_client.model.session_filter1 import SessionFilter1
+from openapi_client.model.session_include_filter_items import SessionIncludeFilterItems
+from openapi_client.model.session_partial import SessionPartial
+from openapi_client.model.session_scope_filter import SessionScopeFilter
+from openapi_client.model.session_with_relations import SessionWithRelations
+from openapi_client.model.user import User

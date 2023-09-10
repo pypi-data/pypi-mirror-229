@@ -1,0 +1,13 @@
+LICENSE.md
+MANIFEST.in
+README.md
+setup.py
+ansiconverter/__init__.py
+ansiconverter/converter.py
+ansiconverter/styles.py
+ansiconverter.egg-info/PKG-INFO
+ansiconverter.egg-info/SOURCES.txt
+ansiconverter.egg-info/dependency_links.txt
+ansiconverter.egg-info/requires.txt
+ansiconverter.egg-info/top_level.txt
+test/test_ansiconverter.py

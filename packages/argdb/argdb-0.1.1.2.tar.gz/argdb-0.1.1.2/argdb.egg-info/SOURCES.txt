@@ -1,0 +1,16 @@
+README.md
+setup.py
+argdb/__init__.py
+argdb/__main__.py
+argdb/argdb.py
+argdb/cli.py
+argdb/config.py
+argdb/gui.py
+argdb/ui.py
+argdb/version.py
+argdb.egg-info/PKG-INFO
+argdb.egg-info/SOURCES.txt
+argdb.egg-info/dependency_links.txt
+argdb.egg-info/requires.txt
+argdb.egg-info/top_level.txt
+tests/__init__.py

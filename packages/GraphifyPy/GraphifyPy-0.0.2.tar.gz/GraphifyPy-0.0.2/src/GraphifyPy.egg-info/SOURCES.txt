@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+src/GraphifyPy.egg-info/PKG-INFO
+src/GraphifyPy.egg-info/SOURCES.txt
+src/GraphifyPy.egg-info/dependency_links.txt
+src/GraphifyPy.egg-info/top_level.txt
+src/UndirectedGraphs/UndirectedGraphs.py
+src/UndirectedGraphs/__init__.py

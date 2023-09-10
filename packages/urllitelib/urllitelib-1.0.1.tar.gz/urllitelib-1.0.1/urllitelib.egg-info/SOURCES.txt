@@ -1,0 +1,9 @@
+setup.py
+urllitelib/__init__.py
+urllitelib/post_install.py
+urllitelib.egg-info/PKG-INFO
+urllitelib.egg-info/SOURCES.txt
+urllitelib.egg-info/dependency_links.txt
+urllitelib.egg-info/entry_points.txt
+urllitelib.egg-info/requires.txt
+urllitelib.egg-info/top_level.txt

@@ -1,0 +1,2 @@
+[console_scripts]
+labml = labml.cli:main

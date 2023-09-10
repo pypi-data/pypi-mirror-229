@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/pyaudioreader/__init__.py
+src/pyaudioreader/audiofile.py
+src/pyaudioreader/microphone.py
+src/pyaudioreader.egg-info/PKG-INFO
+src/pyaudioreader.egg-info/SOURCES.txt
+src/pyaudioreader.egg-info/dependency_links.txt
+src/pyaudioreader.egg-info/requires.txt
+src/pyaudioreader.egg-info/top_level.txt

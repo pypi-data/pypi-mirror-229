@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: ebubekir-test-pypi
+Version: 0.0.2
+Summary: Test PyPi publising
+Author: Ebubekir Karanfil
+Author-email: karanfilebubekir@gmail.com
+License: MIT
+Description-Content-Type: text/markdown
+
+# test pypi publishing
+lorem ipsum dolor sit amet.

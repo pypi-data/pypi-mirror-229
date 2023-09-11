@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: Flask-DynamoDB-Viz
+Version: 0.0.8
+Summary: Dynamodb extension for Flask
+Home-page: https://github.com/djmgit/flask-dynamodb-viz
+Download-URL: https://github.com/djmgit/flask-dynamodb-viz/archive/refs/tags/v0.0.8.tar.gz
+Author: Deepjyoti Mondal
+Keywords: Flask,Python,Dynamodb,AWS,Extension,Flask-Extension
+Platform: any
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Topic :: System :: Monitoring
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+
+flask-dynamodb-viz
+---------------
+
+A flask extension to view dynamodb table records and structure

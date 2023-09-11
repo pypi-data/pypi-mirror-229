@@ -1,0 +1,6 @@
+[console_scripts]
+cli_example = lobster_tools.experiments:cli_example
+testa = lobster_tools.experiments:testa
+
+[nbdev]
+lobster_tools = lobster_tools._modidx:d

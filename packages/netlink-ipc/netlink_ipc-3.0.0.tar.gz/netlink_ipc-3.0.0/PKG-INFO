@@ -1,0 +1,102 @@
+Metadata-Version: 2.1
+Name: netlink_ipc
+Version: 3.0.0
+Summary: A Basic inter-process communication (IPC) library for Client to Server communication.
+Author: Suffxr
+Project-URL: Homepage, https://github.com/pypa/sampleproject
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# NetLink
+
+NetLink is a Python library for client-to-server communication, designed to simplify the process of building networked applications. It provides a simple way to establish communication between clients and servers.
+
+## Features
+
+- Easy setup and integration into your Python projects.
+- Secure authentication using a secret key.
+- Supports multiple routes for handling different types of requests.
+- Error handling for common communication issues.
+- Asynchronous support for improved performance.
+
+## Installation
+
+```
+python -m pip install netlink_ipc
+```
+
+## Examples
+
+# Server
+- Setting up a server with NetLink is straightforward. Here's an example of how to create a basic server:
+```py
+from netlink import NetLinkServer, Payload
+
+# Initialize the server with a host, port, and secret key
+server = NetLinkServer(host="0.0.0.0", port=3000, secret_key="my_secret_key")
+
+# Define a route and the corresponding function
+@server.route(name="greet") # We can either pass a name or not, if no name is given the function name is used
+def greet(payload: Payload):
+    return f"Hello, {payload.name}!"
+
+# Start the server
+server.start()
+```
+
+# Client
+- Connecting to the server and sending requests from the client is equally easy:
+```py
+from netlink import NetLinkClient
+
+# Initialize the client with the server's host, port, and secret key
+client = NetLinkClient(host="127.0.0.1", port=3000, secret_key="my_secret_key")
+
+# Send a request to the "greet" route with a name kwarg
+response = client.request("greet", name="Bob")
+
+# Print the ServerResponse, response
+print(response.response)
+```
+
+## Asynchronous Examples
+
+
+# Server
+- NetLink supports asynchronous communication for improved performance. Here's an example of an asynchronous server:
+```py
+import asyncio
+from netlink import NetLinkAsyncServer, Payload
+
+server = NetLinkAsyncServer(host="0.0.0.0", port=3000, secret_key="my_secret_key")
+
+@server.route(name="greet")
+async def greet(payload: Payload):
+    return f"Hello, {payload.name}!"
+
+async def main():
+    await server.start()
+
+asyncio.run(main())
+```
+
+# Client
+- Here's an example of an asynchronous client:
+```py
+import asyncio
+from netlink import NetLinkAsyncClient
+
+async def main():
+    client = NetLinkAsyncClient(host="127.0.0.1", port=3000, secret_key="my_secret_key")
+
+    response = await client.request("greet", name="Bob")
+
+    print(response)
+
+# Run the asynchronous client and request the 'greet' route
+asyncio.run(main())
+```

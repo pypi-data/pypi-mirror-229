@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+intermat/__init__.py
+intermat/generate.py
+intermat.egg-info/PKG-INFO
+intermat.egg-info/SOURCES.txt
+intermat.egg-info/dependency_links.txt
+intermat.egg-info/requires.txt
+intermat.egg-info/top_level.txt

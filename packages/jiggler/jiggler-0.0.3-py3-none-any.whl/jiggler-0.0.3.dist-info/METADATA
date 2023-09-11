@@ -1,0 +1,92 @@
+Metadata-Version: 2.1
+Name: jiggler
+Version: 0.0.3
+Summary: Keep your screen awake and working while you rest
+Home-page: https://github.com/InvincibleZeal/jiggler
+Author: Ritesh Ganjewala
+Author-email: ritesh.ganjewala17@gmail.com
+License: MIT
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Topic :: Utilities
+Classifier: Topic :: Terminals
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows :: Windows NT/2000
+Classifier: Operating System :: POSIX
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: click >=7
+Requires-Dist: pynput >=1
+
+<h1 align="center">Jiggler</h1>
+
+<p align="center">
+    <a href="https://pypi.org/project/jiggler/"><img src="https://badge.fury.io/py/jiggler.svg" alt="PyPI version"></a>
+    <img alt="PyPI - Downloads" src="https://img.shields.io/pypi/dm/jiggler">
+    <a href="https://github.com/InvincibleZeal/jiggler/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/InvincibleZeal/jiggler?logo=github"></a>
+</p>
+<p align="center">
+    <img alt="PyPI - License" src="https://img.shields.io/pypi/l/jiggler">
+    <img alt="PyPI - Python Version" src="https://img.shields.io/pypi/pyversions/jiggler?logo=python">
+</p>
+
+Don't ever let your system sleep again.
+This program moves your mouse, presses keys on your keyboard and switches screens for you while you rest.
+
+[![asciicast](https://asciinema.org/a/430517.svg)](https://asciinema.org/a/430517)
+
+## Install with pip
+
+```bash
+pip install jiggler
+```
+
+**Note** - For Linux or macOS, use `pip3` instead of `pip`
+
+> Incase you face any errors with installing `pynput` as a dependency try installing it separately via `pip install pynput`
+
+## Usage
+
+Open command prompt or terminal and type -
+
+```bash
+jiggler
+```
+
+and that's it.
+
+## Configuration Options
+
+```
+Options:
+
+-s, --seconds INTEGER           Seconds to wait between actions.
+                                Default is 10
+
+-p, --pixels INTEGER            Number of pixels the mouse should move.
+                                Default is 1
+
+-m, --mode [m|k|mk|ks|ms|mks]   Available options: m, k, mk, ks, ms, mks;
+                                default is mks.
+                                This is the action that execites when the
+                                user is idle at the defined interval.
+                                m -> moves mouse defined number of pixels;
+                                k -> presses shift key on keyboard;
+                                s -> switches windows on screen;
+
+-t, --tabs INTEGER              Number of window tabs to switch screens
+
+-k, --key [alt|cmd]             Special key for switching windows
+
+--help                          Show this message and exit.
+
+```

@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: pyholaclient
+Version: 0.1.5
+Summary: An API Wrapper for HolaClient
+Home-page: https://github.com/VienDC/HolaClientPY
+Author: Vien Catigan
+Author-email: vien@courvix.com
+License: GPL-3.0
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: httpx ==0.24.1
+
+# PyHolaClient
+A HolaClient API Wrapper using Python!
+
+[![Upload Python Package](https://github.com/VienDC/PyHolaClient/actions/workflows/python-publish.yml/badge.svg)](https://github.com/VienDC/PyHolaClient/actions/workflows/python-publish.yml)
+
+Installation
+To install just run
+```bash
+pip install pyholaclient
+```
+
+Usage:
+
+**WIP**

@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+settings.ini
+setup.py
+brvstr/__init__.py
+brvstr/_modidx.py
+brvstr/core.py
+brvstr.egg-info/PKG-INFO
+brvstr.egg-info/SOURCES.txt
+brvstr.egg-info/dependency_links.txt
+brvstr.egg-info/entry_points.txt
+brvstr.egg-info/not-zip-safe
+brvstr.egg-info/requires.txt
+brvstr.egg-info/top_level.txt

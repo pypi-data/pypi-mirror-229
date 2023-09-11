@@ -1,0 +1,8 @@
+gdmath/__init__.py,sha256=R2Gy9RUUcnXeIcSsQ12FWlSVOhpPvt4BdkqsxvcHiG8,149
+gdmath/vector.cpython-39-i386-linux-gnu.so,sha256=B77FL3BrRT8diS39nz_1Y1kdl8ePW948xX2QOQ9U2m0,20279660
+gdmath/vector.pyx,sha256=JYRPOUm23-yzVLfp9T2Uw7ExDxI4u8398vrud33tsyE,1233859
+gdmath-1.0.dist-info/RECORD,,
+gdmath-1.0.dist-info/WHEEL,sha256=7auck-svEXZrYQA6G8t7W86EkmaK9_rNpQ5NVFs60z4,209
+gdmath-1.0.dist-info/LICENSE.txt,sha256=fhdKJi556V1VLa-1QQmImMadfaHckqAOv3iPLtM4j-w,1070
+gdmath-1.0.dist-info/METADATA,sha256=J7GvZHNKP11XQQ8Poa-tHgAVl_zutPZr5pu5ug2iGDA,4107
+gdmath-1.0.dist-info/top_level.txt,sha256=wLlc6ns6jYyOmzPu-QJhG68lxRn_acZjaL1I7A7uQGw,7

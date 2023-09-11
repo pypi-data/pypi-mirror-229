@@ -1,0 +1,1 @@
+This is a simple library to generate a text string randomly

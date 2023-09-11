@@ -1,0 +1,7 @@
+setup.py
+danilacasito_nameless.egg-info/PKG-INFO
+danilacasito_nameless.egg-info/SOURCES.txt
+danilacasito_nameless.egg-info/dependency_links.txt
+danilacasito_nameless.egg-info/not-zip-safe
+danilacasito_nameless.egg-info/top_level.txt
+nameless/__init__.py

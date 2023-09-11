@@ -1,0 +1,34 @@
+# -*- coding: utf-8 -*-
+from setuptools import setup
+
+packages = \
+['markdown2dash', 'markdown2dash.src', 'markdown2dash.src.directives']
+
+package_data = \
+{'': ['*']}
+
+install_requires = \
+['dash-iconify>=0.1.2,<0.2.0',
+ 'dash-mantine-components==0.13.0a3',
+ 'dash>=2.11.1,<3.0.0',
+ 'jsonpath>=0.82,<0.83',
+ 'mistune>=3.0.1,<4.0.0']
+
+setup_kwargs = {
+    'name': 'markdown2dash',
+    'version': '0.1.0a3',
+    'description': 'Render markdown into a dash layout using dash-mantine-components',
+    'long_description': '## Markdown-2-Dash\n\n.. toc::\n    :min_level: 3\n\nMarkdown-2-Dash or m2d is a standalone package forked out of the [official documentation for dash-mantine-components](https://www.dash-mantine-components.com).\nSome form of m2d has always existed since the inception of the documentation, but I figured more people can make use of this to document their dash\napps or component libraries.\n\nHave a look [here](https://github.com/snehilvj/markdown2dash/tree/main/preview) to see how this README would look after parsing with m2d.\n\n### Installation\n\n```bash\npip install markdown2dash\n```\n\n```bash\npoetry add markdown2dash\n```\n\n### Quickstart\n\nJust parse the contents of your markdown file with m2d parser, and voilà! You have a layout ready.\n\n```python\nimport dash_mantine_components as dmc\nfrom dash import Dash\n\nfrom markdown2dash import parse\n\nwith open("../README.md") as f:\n    md = f.read()\n\nlayout = parse(md)\n\napp = Dash(__name__)\n\napp.layout = dmc.MantineProvider(\n    dmc.Container(layout, size="lg", p=20),\n    withGlobalStyles=True,\n    withNormalizeCSS=True,\n    theme={\n        "primaryColor": "indigo",\n        "colorScheme": "light",\n        "fontFamily": "\'Inter\', sans-serif",\n        "components": {\n            "Table": {"defaultProps": {"striped": True, "withBorder": True}},\n            "Alert": {"styles": {"title": {"fontWeight": 500}}},\n        },\n    },\n)\n\nif __name__ == "__main__":\n    app.run(debug=True)\n```\n\nThere\'s no styling by default, so you\'ll have to provide your own css. You can do that in two ways:\n1. Wrap your layout in a MantineProvider and use it to style your page (as you can see above)\n2. Create CSS files. You can get started with the one provided in this repository: [styles.css]()\n\n##### Example App\n\nYou can also just run the example app included in this project locally.\n\n```bash\npython example/app.py\n``` \n\n### Available tokens and class names\n\nm2d can render following types of tokens:\n\n| Token               | Class Name            |\n|---------------------|-----------------------|\n| Links               | .m2d-link             |\n| Paragraph           | .m2d-paragraph        |\n| Emphasis            | .m2d-emphasis         |\n| Strong              | .m2d-strong           |\n| Code Span           | .m2d-code span        |\n| Heading             | .m2d-heading          |\n| Thematic Break      | .m2d-thematic-break   |\n| Block Code          | .m2d-block-code       |\n| Block Quote         | .m2d-block-quote      |\n| List Item           | .m2d-list-item        |\n| List                | .m2d-list             |\n| Strikethrough       | .m2d-strikethrough    |\n| Mark                | .m2d-mark             |\n| Table               | .m2d-table            |\n| Table Head          | .m2d-table-head       |\n| Table Body          | .m2d-table-body       |\n| Table Row           | .m2d-table-row        |\n| Table Cell          | .m2d-table-cell       |\n| Admonition          | .m2d-block-admonition |\n| Image               | .m2d-block-image      |\n| Executable Block    | .m2d-block-exec       |\n| Dash Component Docs | .m2d-block-kwargs     |\n| Table of Contents   | .m2d-block-toc        |\n\n### Special Directives\n\nm2d includes some special directives enabling you to do a lot more than just rendering static markdown into a dash layout.\n\nThe directives are all extensible, and you can just overwrite the render method to suit your own needs. The default render method is provided in all directives out of the box.\n\n##### Executable Block\n\nYou can use the `exec` directive to embed the output of a python script as well as its source code. This directive expects that \nyou have stored the output layout in the variable called `component`.\n\n```markdown\n.. exec::example.component\n```\n\nHere\'s the output if you are viewing this in a dash app:\n\n.. exec::example.component\n\nYou can hide the source code using the `code` argument, and the border using `border`.\n\n```markdown\n.. exec::markdown2dash.example.component\n    :code: false\n    :border: false\n```\n\n##### Admonition\n\nYou can use `admonition` directive to add dmc.Alert components in your page.\nAdmonition directive uses [DashIconify]() to render icons as well.\n\n```markdown\n.. admonition::Alert Title\n    :icon: radix-icons:github-logo\n    \n    This is to show that now you can render alerts directly from the markdown.\n```\n\nHere\'s the output if you are viewing this in a dash app:\n\n.. admonition::Alert Title\n    :icon: radix-icons:github-logo\n\n    This is to show that now you can render alerts directly from the markdown.\n\n##### Image\n\nRender images using dmc.Image like this:\n\n```markdown\n.. image::https://www.dash-mantine-components.com/assets/superman.jpeg\n    :width: 300px\n    :height: 300px\n```\n\nHere\'s the output if you are viewing this in a dash app:\n\n.. image::https://www.dash-mantine-components.com/assets/superman.jpeg\n    :width: 300px\n    :height: 300px\n\n##### Dash Component API Docs\n\nIt\'s very simple to add API docs of your component using m2d. You just have to specify the package and the component.\nLet\'s create one for DashIconify:\n\n```markdown\n.. kwargs::DashIconify\n    :library: dash_iconify\n```\n\nHere\'s the output if you are viewing this in a dash app:\n\n.. kwargs::DashIconify\n    :library: dash_iconify\n \n##### Table of Contents\n\nThis directive will parse all the headings and create a table of contents like this:\n\n```python\n\n# a placeholder for self and a list of [<level>, <title>, <id>]\n[\n    (4, \'Installation\', \'installation\'),\n    (4, \'Quickstart\', \'quickstart\'), \n    (5, \'Example App\', \'example-app\'),\n    (4, \'Special Directives\', \'special-directives\'),\n    (5, \'Dash Component API Docs\', \'dash-component-api-docs\'),\n    (5, \'Table of Contents\', \'table-of-contents\')\n]\n```\n\nThis will then be used to render the TOC using the render method. You can enable TOC lke this:\n\n```markdown\n.. toc::\n    :min_level: 3\n```\n',
+    'author': 'Snehil Vijay',
+    'author_email': 'snehilvj@outlook.com',
+    'maintainer': None,
+    'maintainer_email': None,
+    'url': 'https://github.com/snehilvj/markdown2dash',
+    'packages': packages,
+    'package_data': package_data,
+    'install_requires': install_requires,
+    'python_requires': '>=3.7',
+}
+
+
+setup(**setup_kwargs)

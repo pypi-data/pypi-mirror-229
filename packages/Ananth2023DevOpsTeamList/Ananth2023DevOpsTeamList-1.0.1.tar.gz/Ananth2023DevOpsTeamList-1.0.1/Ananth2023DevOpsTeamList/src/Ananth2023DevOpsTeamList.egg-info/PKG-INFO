@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: Ananth2023DevOpsTeamList
+Version: 1.0.1
+Summary: Displays the DevOps Team List of Presidio
+Author: Ananth S S
+Requires: ascii_magic
+Requires: colorama
+Requires: requests
+
+Displays the DevOps Team List of Presidio

@@ -1,0 +1,7 @@
+README.md
+setup.py
+Ananth2023DevOpsTeamList/src/Ananth2023DevOpsTeamList.py
+Ananth2023DevOpsTeamList/src/Ananth2023DevOpsTeamList.egg-info/PKG-INFO
+Ananth2023DevOpsTeamList/src/Ananth2023DevOpsTeamList.egg-info/SOURCES.txt
+Ananth2023DevOpsTeamList/src/Ananth2023DevOpsTeamList.egg-info/dependency_links.txt
+Ananth2023DevOpsTeamList/src/Ananth2023DevOpsTeamList.egg-info/top_level.txt

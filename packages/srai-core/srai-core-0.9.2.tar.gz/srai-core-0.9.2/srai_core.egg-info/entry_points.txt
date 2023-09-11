@@ -1,0 +1,9 @@
+[console_scripts]
+build_docker = srai_core.script.build_docker:main
+create_repository = srai_core.script.create_repository:main
+deploy_docker_local = srai_core.script.deploy_docker_local:main
+list_commands = srai_core.script.list_commands:main
+list_images = srai_core.script.list_images:main
+release_code_public = srai_core.script.release_code_public:main
+release_docker_aws_local = srai_core.script.release_docker_aws_local:main
+release_docker_aws_ssh = srai_core.script.release_docker_aws_ssh:main

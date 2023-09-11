@@ -1,0 +1,28 @@
+name: Tests
+
+on: [push]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python: ["3.8", "3.9", "3.10", "3.11"]
+
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-python@v3
+        with:
+          python-version: ${{ matrix.python }}
+      - name: Tox
+        run: |
+          pip install tox
+          tox -e py
+      - name: Linter
+        if: matrix.python == '3.11'
+        run: make lint
+      - name: Coveralls
+        if: matrix.python == '3.11'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: tox -e coveralls

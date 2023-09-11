@@ -1,0 +1,17 @@
+.table-data-rich {
+    height: fit-content;
+    max-height: 750px;
+    overflow: auto;
+}
+
+.table-data-json {
+    height: fit-content;
+    max-height: 750px;
+    overflow: auto;
+}
+
+.table-records {
+    height: fit-content;
+    max-height: 750px;
+    overflow: auto;
+}

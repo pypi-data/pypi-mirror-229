@@ -1,0 +1,8 @@
+django_gpt/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_gpt/ai.py,sha256=hgkVNUAq6HJpRf6czTIPp-6AhCxjbtG8ZFhipaqwrsQ,4079
+django_gpt/models.py,sha256=nOZs8M3jKlx1sPMWKeIqsdhv-5q3GTyMf8MSAbiHyrE,4785
+django_gpt-1.0.0.dist-info/LICENSE,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_gpt-1.0.0.dist-info/METADATA,sha256=ptI0plFh8UNIH-VdQsFxVgkJvuH7vBZcGiVSYxx6chY,6283
+django_gpt-1.0.0.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+django_gpt-1.0.0.dist-info/top_level.txt,sha256=7nTmzpqCsnOHCf4C5OdapcJVIof68S2IkGRabOvL5_k,11
+django_gpt-1.0.0.dist-info/RECORD,,

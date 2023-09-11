@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: FoolPyWebView
+Version: 1.0.0
+Summary: 超简单的pywebview UI库 支持py和js的相互通信 支持文件拖拽
+Home-page: https://github.com/zd20041/FoolPyWebView
+Author: zd2004
+Author-email: samuraizd@outlook.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: PyQtWebEngine
+Requires-Dist: PyQt5
+
+### 绛夊緟琛ュ厖

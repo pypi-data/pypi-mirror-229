@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+django_social_passport.egg-info/PKG-INFO
+django_social_passport.egg-info/SOURCES.txt
+django_social_passport.egg-info/dependency_links.txt
+django_social_passport.egg-info/top_level.txt
+passport/socialplay.py

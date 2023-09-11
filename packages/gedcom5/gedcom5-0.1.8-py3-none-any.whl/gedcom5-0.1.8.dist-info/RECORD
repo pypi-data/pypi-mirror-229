@@ -1,0 +1,9 @@
+gedcom5/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gedcom5/gedcom.py,sha256=etsGmWp5Znvh2crTLJUrpodUPCGCD1xKZJPgezPRGDg,2696
+gedcom5/parser.py,sha256=PPBUk-274IWouNcybVrSMCsyQsRvmk3DJiQY9r0TcuI,6747
+gedcom5/tag.py,sha256=-u__-yd4bbBnd9WdypzLpu1KXjFsdEr0RJIYJeWPXe4,107192
+gedcom5-0.1.8.dist-info/LICENSE.txt,sha256=MLFZZNVjaSBClxKNH3iyFZUHsJdgRP0rqlly18koh18,1074
+gedcom5-0.1.8.dist-info/METADATA,sha256=IoTndaH9rntLZJrUP5MvQHYMlLHuJLWQDnaNCZtrtME,2458
+gedcom5-0.1.8.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+gedcom5-0.1.8.dist-info/top_level.txt,sha256=2LBv1VXQLdHVpPXg6Np4y0uY4Amb9vhdzk4UeahYX54,8
+gedcom5-0.1.8.dist-info/RECORD,,

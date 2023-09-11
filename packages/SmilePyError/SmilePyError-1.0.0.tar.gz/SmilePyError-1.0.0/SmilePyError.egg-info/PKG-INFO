@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: SmilePyError
+Version: 1.0.0
+Summary: python error class is, to make it simple structure
+Home-page: https://github.com/sitthykun/smile-pyerror
+Author: Sitthykun LY
+Author-email: ly.sitthykun@gmail.com
+License: MIT License
+Keywords: python error base class,errorbase,error
+Platform: All
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+# smile-pyerror
+python error class is, to make it simple structure

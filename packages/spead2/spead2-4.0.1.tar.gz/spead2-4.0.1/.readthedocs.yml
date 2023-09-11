@@ -1,0 +1,16 @@
+version: 2
+build:
+  os: ubuntu-22.04
+  apt_packages:
+    - g++
+    - libboost-dev
+    - libdivide-dev
+  tools:
+    python: "3.8"
+python:
+  install:
+    - requirements: requirements-readthedocs.txt
+    - method: pip
+      path: .
+formats:
+  - pdf

@@ -1,0 +1,7 @@
+parsigs/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+parsigs/parse_sig_api.py,sha256=5UzNfxurmBwKTf6ThkV6YD6An4OEym1bGqShGPWMQmY,9816
+parsigs/resources/drug_names.txt,sha256=bAav86HNj14XCHPJ3H5-Rq3vTiR7ImkTXs_BLgJSj-g,1444447
+parsigs-1.0.0b0.dist-info/METADATA,sha256=ReObBghNK2WYIeVAy3j0LWMqfeGorz8yW37mWI6Uprg,6213
+parsigs-1.0.0b0.dist-info/WHEEL,sha256=fagL_Tj29mg80flwlxJNW45nBDbboxF04Tnbc_jt3Bg,105
+parsigs-1.0.0b0.dist-info/licenses/LICENSE,sha256=xb8AStZTTruISVQd5Cx2_s8F9Jve71hLtxDpXCzuKwo,1069
+parsigs-1.0.0b0.dist-info/RECORD,,

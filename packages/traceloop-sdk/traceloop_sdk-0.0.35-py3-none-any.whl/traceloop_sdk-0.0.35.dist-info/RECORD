@@ -1,0 +1,10 @@
+traceloop/sdk/__init__.py,sha256=SekOYQmSKfeiSVfpzhwrKTP8Mf1iZdPsprom_adh4WE,1993
+traceloop/sdk/decorators/__init__.py,sha256=lFPqth6hpf3VF8N0v1aosbZ2JxAOLsqKIi0_L8kJpl8,7848
+traceloop/sdk/semconv/__init__.py,sha256=qOgjYAPyLbVZIjWePJW4UY17IOgvPhZFR8TAKibB8rE,405
+traceloop/sdk/tracing/__init__.py,sha256=GzQLpXRA3RowvMm0_OsLDE3VuK7xfQitb9t_kwC2dBg,141
+traceloop/sdk/tracing/context_manager.py,sha256=H03siKs225e1RhO4bly_uJdXSeGzsCRDeLiBu_eZ_7g,299
+traceloop/sdk/tracing/tracing.py,sha256=ji9sxAoNYGFojIvERV-33H_BwMpqg73-0-Pg2yiA8dw,4567
+traceloop/sdk/utils/__init__.py,sha256=svrVY8YHqUsW8A6fBbJrMuFg0reyI-QiR_wkPH-MzSM,395
+traceloop_sdk-0.0.35.dist-info/METADATA,sha256=qsbAoJVRRL5x1JxCILavfb-sp1WcA7BnHJXmpVzeCpI,1096
+traceloop_sdk-0.0.35.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+traceloop_sdk-0.0.35.dist-info/RECORD,,

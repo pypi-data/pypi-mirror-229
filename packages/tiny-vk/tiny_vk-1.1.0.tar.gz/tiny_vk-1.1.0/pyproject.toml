@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "tiny-vk"
+version = "1.1.0"
+description = "Сreating simple vk bots"
+authors = ["QuoNaro <QuoNaro@mail.ru>"]
+readme = "README.md"
+packages = [{include = "tiny_vk"}]
+
+[tool.poetry.dependencies]
+python = ">=3.10"
+vk_api = "11.9.9"
+requests = "2.31.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

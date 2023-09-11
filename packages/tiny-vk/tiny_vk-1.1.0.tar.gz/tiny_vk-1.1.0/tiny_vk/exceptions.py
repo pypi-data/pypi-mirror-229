@@ -1,0 +1,6 @@
+class TinyVkError(Exception):
+  ...
+
+class EmptyValueError(TinyVkError):
+  ...
+

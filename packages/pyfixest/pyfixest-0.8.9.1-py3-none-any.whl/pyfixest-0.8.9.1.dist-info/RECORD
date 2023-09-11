@@ -1,0 +1,13 @@
+pyfixest/__init__.py,sha256=9yByov4sHQLCfqTSx7tj6BjliRqP4HLud6cNF2M1KCk,28
+pyfixest/demean.py,sha256=ZOxwSte9zSs-8uKRQ4vl9MCBK9xOaTVb731yZzPDKWQ,4488
+pyfixest/exceptions.py,sha256=TvNdaCxbzUTsTRvR_D2TrWA3eCB3WQCCu7Ck84OTrxc,797
+pyfixest/feols.py,sha256=C9FqyhN0XluxsSCocE5Kw0BGTxN5MWWFjpijBCwbKWo,30651
+pyfixest/fepois.py,sha256=j0X8knCXP1VRQJWXd5FP5YA0ozdDWznKN617mDsJaZU,12907
+pyfixest/fixest.py,sha256=uE9RbNvakkcyZ-AXmdpQDT3cIgq67bZ-k-Ohdf5c858,55781
+pyfixest/FormulaParser.py,sha256=XJ2J4q7X1GNkhlQvG_8CHTOhk7iSkPuhESHN48CEz7w,17884
+pyfixest/ssc_utils.py,sha256=6rmf556dihc9Bw0-rOzua6uaVP7n3E8YfW8yOJ9F-ZA,3464
+pyfixest/utils.py,sha256=uxHW3UIpjFPQJUfpQJZ6TAXeEeA9q7OlUGRozh02e4o,4294
+pyfixest-0.8.9.1.dist-info/LICENSE.md,sha256=0YVoSLxvwJcsUTFKuxbLmF6951ozvkprU_uM2wiDO7U,1096
+pyfixest-0.8.9.1.dist-info/METADATA,sha256=G-__s2-ht-xgJKK797P37nuA2-6cSwYnLjdVkDp5Pws,5520
+pyfixest-0.8.9.1.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+pyfixest-0.8.9.1.dist-info/RECORD,,

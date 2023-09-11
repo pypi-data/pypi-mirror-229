@@ -1,0 +1,11 @@
+MANIFEST.in
+README.md
+setup.py
+FoolPyWebView/FoolCom.js
+FoolPyWebView/FoolPyWebView.py
+FoolPyWebView/__init__.py
+FoolPyWebView.egg-info/PKG-INFO
+FoolPyWebView.egg-info/SOURCES.txt
+FoolPyWebView.egg-info/dependency_links.txt
+FoolPyWebView.egg-info/requires.txt
+FoolPyWebView.egg-info/top_level.txt

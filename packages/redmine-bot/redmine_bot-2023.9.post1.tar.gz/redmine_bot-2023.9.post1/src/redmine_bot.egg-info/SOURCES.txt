@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/redmine_bot.egg-info/PKG-INFO
+src/redmine_bot.egg-info/SOURCES.txt
+src/redmine_bot.egg-info/dependency_links.txt
+src/redmine_bot.egg-info/top_level.txt

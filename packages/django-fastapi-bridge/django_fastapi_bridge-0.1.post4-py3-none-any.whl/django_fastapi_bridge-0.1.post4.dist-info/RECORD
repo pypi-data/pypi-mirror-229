@@ -1,0 +1,13 @@
+django_fastapi/__init__.py,sha256=fKgiXDGCPTkDs_ksP_8hDdug_7vUVKiFPfLUnO7mx40,393
+django_fastapi/apps.py,sha256=tdIpiVWZtE7sy4Um2vp4R03lFE_Npll005cXqd1eWok,1052
+django_fastapi/asgi.py,sha256=2j-sH3R3AeKfttbChGVVNNrtCmJEi2p-ieVJswH8y7Y,73
+django_fastapi/registry.py,sha256=YTB2HzHaoo1_VqTIUotH2py1ENKAwJfan4gtR8-R3r8,421
+django_fastapi/settings.py,sha256=aOCdqp9czDi0ygqhRLlb0rUAdG-lbuA-p_U_mgJeQos,739
+django_fastapi/utils.py,sha256=BEoKG-JMp8xRH6Zevq6GRYp0_h-xuqc4GjfJ-wBmrAY,201
+django_fastapi/wsgi.py,sha256=0hEW2Xt7PvnfC4jEdnNryJDlJFwIsmKQ99PH2OUtYT4,203
+django_fastapi_bridge-0.1.post4.dist-info/LICENSE.txt,sha256=aokimHNNpI8L8_ey6fd2HOXgBkJbX1rUk3CwNJKm7UU,757
+django_fastapi_bridge-0.1.post4.dist-info/METADATA,sha256=YqJ00PwmNnuV96H4G6Y8SpljoqQXG4UDIu2UL0osoug,3838
+django_fastapi_bridge-0.1.post4.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+django_fastapi_bridge-0.1.post4.dist-info/top_level.txt,sha256=dXg4_3hUHb3TGvpXRmA_cV4qEIpHh26Frb2fqP4jrUU,15
+django_fastapi_bridge-0.1.post4.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+django_fastapi_bridge-0.1.post4.dist-info/RECORD,,

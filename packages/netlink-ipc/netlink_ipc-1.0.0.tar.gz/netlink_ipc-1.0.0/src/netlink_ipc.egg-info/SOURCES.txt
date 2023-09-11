@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/netlink/Client.py
+src/netlink/Server.py
+src/netlink/__init__.py
+src/netlink/errors.py
+src/netlink/objects.py
+src/netlink_ipc.egg-info/PKG-INFO
+src/netlink_ipc.egg-info/SOURCES.txt
+src/netlink_ipc.egg-info/dependency_links.txt
+src/netlink_ipc.egg-info/top_level.txt

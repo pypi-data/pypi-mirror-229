@@ -1,0 +1,13 @@
+MANIFEST.in
+Readme.md
+setup.py
+libparse/__init__.py
+libparse/__version__.py
+libparse/libparse.i
+libparse/py_iostream.cpp
+libparse.egg-info/PKG-INFO
+libparse.egg-info/SOURCES.txt
+libparse.egg-info/dependency_links.txt
+libparse.egg-info/requires.txt
+libparse.egg-info/top_level.txt
+test/test.py

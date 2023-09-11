@@ -1,0 +1,45 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+version = "0.0.3"
+name = "antgrid_server"
+authors = [
+  { name="antgrid" },
+]
+description = "A package for registering servers in Antgrid."
+readme = "README.md"
+requires-python = "== 3.8.*"
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+]
+dependencies = [
+    "accelerate",
+    "colorama",
+    "cpm_kernels",
+    "sentencepiece",
+    "streamlit",
+    "transformers_stream_generator",
+    "nvidia-pytriton",
+    "torch",
+    "websocket-client",
+    "numpy",
+    "Pillow",
+    "diffusers==0.14",
+    "transformers",
+    "torchvision",
+    "scipy",
+    "ftfy",
+    "fire",
+    "wandb",
+    "safetensors",
+    "opencv-python",
+    "torchvision",
+    "mediapipe",
+]
+[project.urls]
+"Homepage" = "https://github.com/pypa/sampleproject"
+"Bug Tracker" = "https://github.com/pypa/sampleproject/issues"

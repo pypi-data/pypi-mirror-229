@@ -1,0 +1,12 @@
+app/configs/functions_config.py,sha256=QKVnIyNgLd34hb1zS9vQcbGB-18hKBuMNRDlY7V7oKM,115
+app/configs/main_config.py,sha256=Nsp_Z_lcYgrV17b8pmf2I_GpnL3KsE0GZLHOxeZal90,62
+app/data/default_products_substrs.txt,sha256=8mwHULMVvYDoMCPZr_wFYt7PDmR3dfkdp1j6L5N0DO4,51
+app/data/default_store_positions.json,sha256=m3EE4f7t1UFkLrweuvP0MTkpuYkQ1qaZiTOyViCFdW0,616
+app/functions/common.py,sha256=H5LZUDl-kB4wr2JgTun__Krk1jzXu5xaXCUMLb8xOos,894
+app/functions/methods_functions.py,sha256=iDYZwrviUy9XIqtQuhGJiuIjMB2Hg1tKcX95uN_NdEY,1311
+app/main.py,sha256=ZbxmtAEw1qLRosw5mMYbSQR8fYVKJKkuh8_EE22RzWo,288
+app/models/orders_data_types.py,sha256=XuVi9pFViUEcwxt4IzQeO8MuYJxl3rWFaHhF6qrolAk,2330
+app/routers/orders.py,sha256=ETdeVIj8GZFSkWii30VlWZ2TnGu1TYQo7qB__aC2fT0,1330
+python_practice_field-0.0.2.dist-info/METADATA,sha256=1w7VaZUz2rChYrSew2m4T74O2Y90id0t-36fsjsCFZ4,2388
+python_practice_field-0.0.2.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+python_practice_field-0.0.2.dist-info/RECORD,,

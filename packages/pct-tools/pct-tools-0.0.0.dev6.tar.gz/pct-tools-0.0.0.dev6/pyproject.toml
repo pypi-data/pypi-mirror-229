@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=42", "pybind11>=2.10.0"]
+build-backend = "setuptools.build_meta"
+
+# [project]
+# name = "pct_tools"
+# version = "0.0.1"
+# authors = [{ name = "Matthieu Hentz", email = "m.hentz@outlook.com" }]
+# description = "Tools for proton CT reconstructions."
+# requires-python = ">=3.7"
+
+# dependencies = ["numpy", "scipy"]
+
+# [tool.setuptools]
+# include-package-data = true
+
+# [tool.setuptools.packages.find]
+# where = ["pct_tools"]
+# include = ["cpp/**", "external/**"]
+# exclude = ["scripts"]
+# namespaces = false

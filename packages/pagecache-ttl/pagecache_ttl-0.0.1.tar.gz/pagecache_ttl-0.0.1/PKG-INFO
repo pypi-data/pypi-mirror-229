@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: pagecache_ttl
+Version: 0.0.1
+Summary: Monitor the minimal TTL of cached pages by the OS
+Author: Datastreaming
+Author-email: storage@adevinta.com
+Requires-Dist: python-daemon==3.0.1
+Requires-Dist: datadog==0.46.0
+Requires-Dist: pid==3.0.4

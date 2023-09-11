@@ -1,0 +1,17 @@
+[project]
+name = "netlink_ipc"
+version = "2.0.0"
+authors = [
+  { name="Suffxr" },
+]
+description = "A Basic inter-process communication (IPC) library for Client to Server communication."
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/pypa/sampleproject"

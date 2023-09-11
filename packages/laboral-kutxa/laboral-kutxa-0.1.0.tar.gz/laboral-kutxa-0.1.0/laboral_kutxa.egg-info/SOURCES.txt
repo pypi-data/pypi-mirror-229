@@ -1,0 +1,17 @@
+.gitignore
+LICENSE
+Makefile
+README.md
+pyproject.toml
+tox.ini
+.github/workflows/pypi-release.yml
+.github/workflows/tests.yml
+docs/how-to-release.md
+laboral_kutxa.egg-info/PKG-INFO
+laboral_kutxa.egg-info/SOURCES.txt
+laboral_kutxa.egg-info/dependency_links.txt
+laboral_kutxa.egg-info/requires.txt
+laboral_kutxa.egg-info/top_level.txt
+laboralkutxa/api.py
+laboralkutxa/constants.py
+tests/test_api.py

@@ -1,0 +1,13 @@
+requests
+
+[dev]
+black
+coveralls
+Flake8-pyproject
+isort
+pytest
+pytest-cov
+
+[release]
+build
+twine

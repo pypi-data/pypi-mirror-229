@@ -1,0 +1,7 @@
+llama_cpp_http/__init__.py,sha256=BL9Lixu2QB_EX2bTact2-3ugfvvfdzNqpZweQ3eyiPU,27
+llama_cpp_http/client.py,sha256=vXbDdcQbuRFsqOi_YjqKnrMOiAvl0jW09yEXrqwEnc4,6322
+llama_cpp_http/server.py,sha256=Z9x4cqtyqg5bLgLEOHZJXuWNuZFs3ZBrRknDDQZHnl8,19447
+llama_cpp_http-0.1.1.dist-info/LICENSE,sha256=lqYfQwEV64-Jziy1nkaKL5nEJrgxUq5gu6VP_0A6TNg,1068
+llama_cpp_http-0.1.1.dist-info/METADATA,sha256=3xPmNRTcgey9IvDvdF7OocGElTQiYAp7t441tbpmuXo,4021
+llama_cpp_http-0.1.1.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+llama_cpp_http-0.1.1.dist-info/RECORD,,

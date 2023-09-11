@@ -1,0 +1,9 @@
+pdm_wheel-0.0.3.post1.dist-info/METADATA,sha256=m3jHiG7g6C2a0Z-SjV2NA71Ur6jZ66ROijWq9E1_fcc,4990
+pdm_wheel-0.0.3.post1.dist-info/WHEEL,sha256=1D4d-_ODszlK6-qFybc5BLF-ZhZvee-uKVh2hLa3IIc,90
+pdm_wheel-0.0.3.post1.dist-info/entry_points.txt,sha256=rbLAMIRGgYatqfNdw1poqjxrDirvRcIs7YSHwDPXKY4,49
+pdm_wheel-0.0.3.post1.dist-info/licenses/LICENSE,sha256=NbgoIWhniLW1xMXNYu29qtjKTE2dhpMgYWRMvhmRLC0,1080
+pdm_wheel/__init__.py,sha256=cAv8VfBDeB6vSH6pHGiXd6nyESqxvkk8YqBjWZ1uDWw,333
+pdm_wheel/_version.py,sha256=J_I-bptCSOvF5qNS_rRvXbmOWVw6ZRkfbIiI_r21AvM,33
+pdm_wheel/py.typed,sha256=UaCuPFa3H8UAakbt-5G8SPacldTOGvJv18pPjUJ5gDY,93
+pdm_wheel/wheel.py,sha256=koxqIkPUXx0jsiB8VpCY4R6_hGVrGN8LlKFlf5ClsmU,6674
+pdm_wheel-0.0.3.post1.dist-info/RECORD,,

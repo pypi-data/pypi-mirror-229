@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: fdlayout
+Version: 1.0.0
+Classifier: Programming Language :: Rust
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+License-File: LICENSE-APACHE
+License-File: LICENSE-MIT
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown; charset=UTF-8; variant=GFM
+
+# fdlayout
+
+Python library for creating force-directed graph layouts.
+
+## Usage
+
+```python
+import fdlayout.networkx as fd
+import networkx as nx
+
+g = nx.generators.karate_club_graph()
+nx.drawing.draw(g, pos=fd.layout(g))
+```
+

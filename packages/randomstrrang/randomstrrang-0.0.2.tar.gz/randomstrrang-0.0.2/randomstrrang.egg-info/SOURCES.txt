@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+setup.py
+randomstrrang/__init__.py
+randomstrrang.egg-info/PKG-INFO
+randomstrrang.egg-info/SOURCES.txt
+randomstrrang.egg-info/dependency_links.txt
+randomstrrang.egg-info/top_level.txt

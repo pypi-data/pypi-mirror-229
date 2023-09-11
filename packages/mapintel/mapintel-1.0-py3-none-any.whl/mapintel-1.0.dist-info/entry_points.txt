@@ -1,0 +1,3 @@
+[console_scripts]
+mapintel=mapintel.app:main
+

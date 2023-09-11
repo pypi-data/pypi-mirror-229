@@ -1,0 +1,61 @@
+[build-system]
+requires = ["setuptools>=61.0.0", "wheel", "setuptools_scm[toml]"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "laboral-kutxa"
+version = "0.2.1"
+authors = [
+    {name = "Andre Miras"},
+]
+description = "Unofficial Laboral Kutxa Python library"
+readme = "README.md"
+requires-python = ">=3.8"
+keywords = ["laboral", "kutxa", "bank", "banco"]
+license = {text = "MIT"}
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Topic :: Software Development :: Libraries",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+]
+dependencies = [
+    "appdirs",
+    "requests",
+]
+
+[project.urls]
+Homepage = "https://github.com/AndreMiras/laboral-kutxa.py"
+
+[project.scripts]
+laboralkutxa = "laboralkutxa.cli:main"
+
+[project.optional-dependencies]
+dev = [
+    "black",
+    "coveralls",
+    "Flake8-pyproject",
+    "isort",
+    "pytest",
+    "pytest-cov",
+]
+release = [
+    "build",
+    "twine",
+]
+
+[tool.isort]
+multi_line_output = 3
+include_trailing_comma = true
+force_grid_wrap = 0
+use_parentheses = true
+
+[tool.flake8]
+max-line-length = 88
+extend-ignore = "E203"
+
+[tool.mypy]
+ignore_missing_imports = true
+
+[tool.setuptools]
+packages = ["laboralkutxa"]

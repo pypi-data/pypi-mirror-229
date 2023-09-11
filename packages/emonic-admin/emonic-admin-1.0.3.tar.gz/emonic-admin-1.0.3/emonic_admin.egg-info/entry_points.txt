@@ -1,0 +1,2 @@
+[console_scripts]
+emonic-admin = emonicAdmin.admin:main

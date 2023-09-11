@@ -1,0 +1,10 @@
+[package]
+name = "fdlayout"
+version = "0.0.0"
+edition = "2021"
+
+[dependencies]
+bytemuck = "1"
+nalgebra = { version = "0.32", features = ["bytemuck"] }
+rand = "0.8"
+num = "0.4"

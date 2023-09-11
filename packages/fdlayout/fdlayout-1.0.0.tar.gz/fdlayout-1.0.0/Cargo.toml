@@ -1,0 +1,13 @@
+[package]
+name = "fdlayout-python"
+version = "0.0.0"
+edition = "2021"
+
+[lib]
+name = "fdlayout"
+crate-type = ["cdylib"]
+
+[dependencies]
+pyo3 = { version = "0.17.1", features = ["extension-module"] }
+fdlayout = { path = "local_dependencies/fdlayout" }
+

@@ -1,0 +1,13 @@
+declarativex/__init__.py,sha256=Dw8BuZwbuvEuE4ifb-fQt5e5NgYaiylrKXfow3uNCyg,236
+declarativex/client.py,sha256=BSYWHrR5Uzi00u2v-O9m7VI_ZFe8i5GZ0ei5lJAYmCI,1383
+declarativex/compatibility.py,sha256=tqV5awJsHbs-M3nJ_sBabzpoG8UBCHucHzvwBq6lYzA,1091
+declarativex/dependencies.py,sha256=uDqEi2FHnI33rKdMKFlDeYb4ff9TX35hOgGTuOle3bI,3901
+declarativex/exceptions.py,sha256=QpwWoudQLvNq5xhmYhcuECKST5KZvUNVJuJiOkVEbNE,1420
+declarativex/helpers.py,sha256=TJL09yCMYmJzrN3I2qgPc3jqHmEBYh5BgxlFSvJu5nk,944
+declarativex/methods.py,sha256=UUwx9Pv93MS0XnQWy3ZmKGQzq38dw3pqD5BIMFoMsrE,8133
+declarativex/middlewares.py,sha256=aMOVwymSbwT9BC2u2D4OuQLx1LZATgogEbF3YIbctGQ,1520
+declarativex/request.py,sha256=etxHhMdiKzdSbNASBVJc0jE55a87GRd9gzUBacnRPTQ,2437
+declarativex-1.3.0.dist-info/LICENSE,sha256=pxXUEkT1RUemZWb9NRWJVJR45B-mQt5GhZkUzqgEqSk,1125
+declarativex-1.3.0.dist-info/METADATA,sha256=dkP4j37VDEblVCLhc4Z_lx764TnZTqeKOrfGgYG-Pp0,2799
+declarativex-1.3.0.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+declarativex-1.3.0.dist-info/RECORD,,

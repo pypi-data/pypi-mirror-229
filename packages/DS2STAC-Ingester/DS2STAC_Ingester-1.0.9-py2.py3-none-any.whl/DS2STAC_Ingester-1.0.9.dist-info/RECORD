@@ -1,0 +1,11 @@
+ds2stac_ingester/__init__.py,sha256=nkqORDkc7li-3gxvLrsVUaTOuHEm2qYxFMcaE9_8D0w,408
+ds2stac_ingester/_version.py,sha256=wLI3cC9O7Bopxt1kkV1kzHRfQweJfgBbrIDwRH543gE,497
+ds2stac_ingester/cli.py,sha256=twLdt6GT1c2GzNoR_haZDaJqa4veoZDE-XGgfUunhw8,434
+ds2stac_ingester/config_pgstac.py,sha256=uAi1qYAYP7FPJQauH6PUK9ElFcuQAba8KKGsRGcsbiI,1103
+ds2stac_ingester/ds2stac_ingester.py,sha256=xO-URFYAiBS8qtfUhjneqdIzvB3vmjpIN7aDdl-vLwA,12474
+DS2STAC_Ingester-1.0.9.dist-info/AUTHORS.rst,sha256=v5n9XBBJCQyNzhFRH3tSTr-O0ncS8ppwIcFVXADf00w,168
+DS2STAC_Ingester-1.0.9.dist-info/LICENSE,sha256=GtrUPJchKDW7AaS-sGMqxKcF9vRbqHIjVRcpxmljiCo,13807
+DS2STAC_Ingester-1.0.9.dist-info/METADATA,sha256=2lOZl1HMoLnqOQqcIk16DaSqUPa4NB1EJrdZJim0Gfw,4253
+DS2STAC_Ingester-1.0.9.dist-info/WHEEL,sha256=iYlv5fX357PQyRT2o6tw1bN-YcKFFHKqB_LwHO5wP-g,110
+DS2STAC_Ingester-1.0.9.dist-info/top_level.txt,sha256=1siRbsJt03zu4_2Qxxa8c3zklBznAljR4RswnLQmxqU,17
+DS2STAC_Ingester-1.0.9.dist-info/RECORD,,

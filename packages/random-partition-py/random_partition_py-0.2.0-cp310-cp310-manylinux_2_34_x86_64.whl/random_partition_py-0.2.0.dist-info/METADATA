@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: random-partition-py
+Version: 0.2.0
+Classifier: Programming Language :: Rust
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Summary: Generate approximately uniformly distributed random integer partitions.
+Keywords: random,partition,mathematics
+Author: Stefan Volz
+License: MIT OR Apache-2.0
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown; charset=UTF-8; variant=GFM
+Project-URL: Homepage, https://github.com/SV-97/random-partition
+Project-URL: Bug Tracker, https://github.com/SV-97/random-partition/issues
+
+# Generate random integer partitions
+
+This is a python wrapper for the rust crate `random-partition` for generating integers partitions with a given number of parts.
+
+# Example
+
+```python
+import random_partition_py as rpp
+
+# generates a single partition of 20 into 5 parts
+print(rpp.random_partitions(20, 5))
+
+# generates multiple partitions 
+print(rpp.random_partitions(20, 5, 3))
+
+# same thing but with an additional seed (note that the seed is kw-only)
+print(rpp.random_partitions_seeded(20, 5, 3, seed=0))
+```
+

@@ -1,0 +1,10 @@
+find_similar/__init__.py,sha256=DsSMbEF11Y41O6EjcvvuClhOxtz2epqEcIrlX2XngiY,173
+find_similar/calc_functions.py,sha256=Nbs3hwNkE3EjmoQCt-snCrLJ25awmIaiYCzobCPQ9Yk,2042
+find_similar/calc_models.py,sha256=RMpp7uIn9p7o8w4-DZ9rOVkdq9HexF0ldYhs3I04CKo,814
+find_similar/core.py,sha256=5lP2HhC5whPnoC0HnmWL0_U0_AAR_hF22Z2t1iiasjY,1545
+find_similar/tokenize.py,sha256=laII5soKTsJacrUWU1w75zZv-yOWD1zbi0_apy6saDk,7296
+find_similar-1.2.1.dist-info/LICENSE,sha256=-lvekjFt3jd4othB4gr77RNz3tqlrKQm4XhUhgiFpdQ,1068
+find_similar-1.2.1.dist-info/METADATA,sha256=o2nnC12hCHJ6X3nEO8H3rJuwLh_hTun3QJMKFHXq1Ww,6407
+find_similar-1.2.1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+find_similar-1.2.1.dist-info/top_level.txt,sha256=FyNSEAZSSjzg2pCU11wJElYb3qq25FX7ifoDTGTA77I,13
+find_similar-1.2.1.dist-info/RECORD,,

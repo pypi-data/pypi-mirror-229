@@ -1,0 +1,9 @@
+fdlayout-1.0.0.dist-info/METADATA,sha256=1G2Lt16DJ8AmHQvJcBB7AffmDC78UBHGejslRgTtxRQ,606
+fdlayout-1.0.0.dist-info/WHEEL,sha256=OkoTa7S56XKIzkQ3ucgno6iTlazYbnFujdDIam1dtCc,147
+fdlayout-1.0.0.dist-info/license_files/LICENSE-APACHE,sha256=aYSSIb-5AFPeITTvXm1UAoe0uYBiMmSS8flvXaaFUks,10174
+fdlayout-1.0.0.dist-info/license_files/LICENSE-MIT,sha256=UIp30ue1HZit7tMmSK0SS3swJBqOcLLnLJn5LY5YdNE,1036
+fdlayout/fdlayout.pyi,sha256=YWafrZJrxztRfoAcpbldSqYpWxz4zdhyP0f49RRUA_0,256
+fdlayout/__init__.py,sha256=SUBNATRlmUTdomkhudD9A_Lg9rC_0RxI7GFcsraQDzA,132
+fdlayout/networkx.py,sha256=aMlxmG0FUko2BUzFlEiceNUsrbXoZjNQQ4wBUiYcsTo,405
+fdlayout/fdlayout.cpython-311-darwin.so,sha256=-9uEOJAzwB4KJvgiuRrB7Y4TxgC_SmGd-SZG5MZI0lg,1624651
+fdlayout-1.0.0.dist-info/RECORD,,

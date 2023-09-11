@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "wrts"
+version = "0.5.1"
+description = "A small lil library for using the WRTS API "
+authors = ["BadPythonCoder <no@no.no>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+requests = "^2.31.0"
+
+[tool.poetry.scripts]
+test = "examples:start"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

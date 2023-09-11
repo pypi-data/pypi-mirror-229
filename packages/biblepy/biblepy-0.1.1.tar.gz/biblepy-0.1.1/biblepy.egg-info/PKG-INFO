@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: biblepy
+Version: 0.1.1
+Summary: The Bible, King James Version
+Home-page: https://github.com/johnnysands/bible
+Author: Johnny Sands
+Author-email: johnnysands@users.noreply.github.com
+License: MIT
+License-File: LICENSE

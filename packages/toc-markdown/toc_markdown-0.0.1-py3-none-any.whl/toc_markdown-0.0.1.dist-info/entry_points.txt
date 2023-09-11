@@ -1,0 +1,2 @@
+[console_scripts]
+toc-markdown = toc_markdown.cli:cli

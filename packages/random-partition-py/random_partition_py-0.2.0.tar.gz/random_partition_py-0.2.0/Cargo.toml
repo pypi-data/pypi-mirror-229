@@ -1,0 +1,26 @@
+[package]
+name = "random-partition-py"
+version = "0.2.0"
+edition = "2021"
+description = "Generate approximately uniformly distributed random integer partitions."
+repository = "https://github.com/SV-97/random-partition/"
+license = "MIT OR Apache-2.0"
+authors = ["Stefan Volz"]
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "License :: OSI Approved :: Apache Software License",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+]
+keywords = ["random", "partition", "mathematics"]
+
+[lib]
+name = "random_partition_py"
+crate-type = ["cdylib"]
+
+[dependencies]
+pyo3 = { version = "0.19.2", features = ["extension-module"] }
+random-partition = { path = "local_dependencies/random-partition" }
+rand = "0.8.5"
+rug = { version = "1.18.0", features = ["integer", "num-traits", "rand"] }
+numpy = "0.19.0"

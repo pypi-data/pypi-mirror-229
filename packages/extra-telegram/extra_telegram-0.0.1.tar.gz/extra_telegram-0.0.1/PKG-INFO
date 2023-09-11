@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: extra_telegram
+Version: 0.0.1
+Summary: Extra functions for creating telegram bot and using Telegram as storage
+Home-page: https://github.com/xalq-mazza-qilsin/telegram
+Author: Jahongir Ibragimov
+Author-email: chogirmali.yigit@gmail.com
+License: MIT
+Keywords: telegram extra functions storage bot aiogram
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Text Processing :: Markup :: XML
+License-File: LICENSE.txt

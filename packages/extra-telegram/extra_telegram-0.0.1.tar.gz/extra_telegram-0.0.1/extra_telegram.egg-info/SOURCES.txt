@@ -1,0 +1,10 @@
+LICENSE.txt
+MANIFEST.in
+README.rst
+pyproject.toml
+setup.py
+extra_telegram/__init__.py
+extra_telegram.egg-info/PKG-INFO
+extra_telegram.egg-info/SOURCES.txt
+extra_telegram.egg-info/dependency_links.txt
+extra_telegram.egg-info/top_level.txt

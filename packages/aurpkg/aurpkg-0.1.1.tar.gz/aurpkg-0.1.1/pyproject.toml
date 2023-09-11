@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "aurpkg"
+version = "0.1.1"
+description = "aurumOS Package Manager"
+authors = ["lxchn1v1 <flat.assembly@gmail.com>"]
+readme = "README.rst"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pip = "*"
+requests = "*"
+aurum-os-base = "*"
+
+[tool.poetry.scripts]
+aurpkg = "aurpkg.main:main"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

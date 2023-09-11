@@ -1,0 +1,3 @@
+[console_scripts]
+msf-curtainptm=curtainutils.msfragger:main
+

@@ -1,0 +1,2 @@
+[nbdev]
+brvstr = brvstr._modidx:d

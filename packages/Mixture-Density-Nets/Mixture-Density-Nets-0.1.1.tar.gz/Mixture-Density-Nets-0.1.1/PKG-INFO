@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: Mixture-Density-Nets
+Version: 0.1.1
+Summary: A small PyTorch library for Mixture Density Networks.
+Home-page: https://github.com/romue404/mixture-density-nets
+Author: Robert Müller
+Author-email: robert.mueller1990@googlemail.com
+License: MIT
+Keywords: artificial intelligence,pytorch,mixture density network
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# 🎨 Mixture-Density-Nets
+A small PyTorch library for Mixture Density Networks.
+
+# Install
+simply run 
+``pip install mixture-density-nets``
+
+# Example
+```py
+from mixture_density_nets import MDN, MDDistribution
+# ....
+mdn = MDN(in_dim, out_dim, n_components)
+# ....
+mu, sigma, lambda_ = mdn(net(input_data))
+dist = MDDistribution(mu, sigma, lambda_)
+loss = dist.nll(targets).mean()
+
+# ...
+samples, clusters = dist.sample(n=20)  # draw 20 samples
+```
+For a more thorough example see [example.ipynb](example.ipynb).

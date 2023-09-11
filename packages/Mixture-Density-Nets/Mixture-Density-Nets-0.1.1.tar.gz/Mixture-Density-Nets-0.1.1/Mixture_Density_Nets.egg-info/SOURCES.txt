@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+Mixture_Density_Nets.egg-info/PKG-INFO
+Mixture_Density_Nets.egg-info/SOURCES.txt
+Mixture_Density_Nets.egg-info/dependency_links.txt
+Mixture_Density_Nets.egg-info/requires.txt
+Mixture_Density_Nets.egg-info/top_level.txt
+mixture_density_nets/__init__.py
+mixture_density_nets/mdn.py
